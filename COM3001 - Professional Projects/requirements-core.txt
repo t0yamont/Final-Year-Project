@@ -1,0 +1,3 @@
+# Offline foundation runtime: Python standard library only; no pip runtime dependencies.
+# Validated interpreter: CPython 3.12.14 on Windows.
+# This is not a lock for the future telemetry/scientific/ML environment.

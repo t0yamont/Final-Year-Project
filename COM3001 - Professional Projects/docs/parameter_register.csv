@@ -1,0 +1,17 @@
+parameter_id,quantity,unit,intended_evidence_class,value,range,source_or_basis,status,validation_or_limitation
+P001,Speed,m/s,observed,UNSET,UNSET,Actual source telemetry after unit conversion,awaiting_audit,Retain original channel units and interpolation flags
+P002,Elapsed time,s,observed,UNSET,UNSET,Original source timestamps,awaiting_audit,Check ordering gaps and session alignment
+P003,Distance,m,derived,UNSET,UNSET,Declared integration or geometry procedure,awaiting_method,Not an independent direct measurement if derived from speed
+P004,Reference vehicle mass,kg,assumed_or_sourced,UNSET,UNSET,Source review required,unresolved,Reference model value is not measured team fuel-inclusive mass
+P005,Effective drag area,m^2,assumed_or_fitted,UNSET,UNSET,Source review and development-only fitting,unresolved,Confounded with power and setup
+P006,Air density,kg/m^3,assumed_or_sourced,UNSET,UNSET,Weather evidence or declared assumption,unresolved,Use only justified range and record conditions
+P007,Combustion wheel-power model,W,assumed_or_fitted,UNSET,UNSET,Source review and bounded development-only fitting,unresolved,Do not fit arbitrary power and electrical deployment without identifiability controls
+P008,Electrical deployment power limit,W,regulatory_or_assumed,UNSET,UNSET,Archive exact applicable rules before assigning regulatory status,unresolved,State wheel versus battery convention; no regulation-compliance claim yet
+P009,Discharge efficiency,dimensionless,assumed_or_sourced,UNSET,UNSET,Source review required,unresolved,Must lie above zero and at most one; affects battery depletion
+P010,Initial usable battery energy,J,assumed_scenario,UNSET,UNSET,Declared experiment condition,unresolved,Not a verified state of a real car
+P011,Terminal energy reserve,J,assumed_scenario,UNSET,UNSET,Model contract decision before tuning,unresolved,Must be common across compared controllers
+P012,Initial and terminal speed,m/s,assumed_scenario,UNSET,UNSET,Model contract decision before tuning,unresolved,Test finish-condition sensitivity
+P013,Grip and braking capability,declared_model_units,assumed_or_fitted,UNSET,UNSET,Choose physical parameterisation before assigning values,unresolved,Pre-corner braking must be feasible; binary brake does not measure force
+P014,Effective corner-speed envelope,m/s,derived_development_only,UNSET,UNSET,Allowed development laps or independent geometry,unresolved,Must not be derived from the held-out qualifying speed trace
+P015,Segment length,m,numerical_design,UNSET,UNSET,Guide suggests 10–20 m as a starting range only,unresolved,Select with refinement study; not a regulatory or measured constant
+P016,Deployment trajectory,W,reconstructed,UNSET,UNSET,Constrained inverse study under declared assumptions,not_computed,Real values are not ground-truth labels
