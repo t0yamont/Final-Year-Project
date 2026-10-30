@@ -1,0 +1,312 @@
+[
+  {
+    "run": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\results\\event-validation-002",
+    "verified_outputs": 1,
+    "passed": true,
+    "outputs": [
+      {
+        "path": "summary.json",
+        "matched": true
+      }
+    ],
+    "inputs_checked": 0,
+    "input_hashes_match": true
+  },
+  {
+    "run": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\results\\event-ppo-seed0-001",
+    "verified_outputs": 8,
+    "passed": true,
+    "outputs": [
+      {
+        "path": "config.json",
+        "matched": true
+      },
+      {
+        "path": "environment-lock.txt",
+        "matched": true
+      },
+      {
+        "path": "metrics.json",
+        "matched": true
+      },
+      {
+        "path": "ppo.zip",
+        "matched": true
+      },
+      {
+        "path": "source-before-training.json",
+        "matched": true
+      },
+      {
+        "path": "validation-evidence.json",
+        "matched": true
+      },
+      {
+        "path": "validation-manifest.json",
+        "matched": true
+      },
+      {
+        "path": "logs\\progress.csv",
+        "matched": true
+      }
+    ],
+    "inputs_checked": 0,
+    "input_hashes_match": true
+  },
+  {
+    "run": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\results\\event-ppo-seed1-001",
+    "verified_outputs": 8,
+    "passed": true,
+    "outputs": [
+      {
+        "path": "config.json",
+        "matched": true
+      },
+      {
+        "path": "environment-lock.txt",
+        "matched": true
+      },
+      {
+        "path": "metrics.json",
+        "matched": true
+      },
+      {
+        "path": "ppo.zip",
+        "matched": true
+      },
+      {
+        "path": "source-before-training.json",
+        "matched": true
+      },
+      {
+        "path": "validation-evidence.json",
+        "matched": true
+      },
+      {
+        "path": "validation-manifest.json",
+        "matched": true
+      },
+      {
+        "path": "logs\\progress.csv",
+        "matched": true
+      }
+    ],
+    "inputs_checked": 0,
+    "input_hashes_match": true
+  },
+  {
+    "run": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\results\\event-ppo-seed2-001",
+    "verified_outputs": 8,
+    "passed": true,
+    "outputs": [
+      {
+        "path": "config.json",
+        "matched": true
+      },
+      {
+        "path": "environment-lock.txt",
+        "matched": true
+      },
+      {
+        "path": "metrics.json",
+        "matched": true
+      },
+      {
+        "path": "ppo.zip",
+        "matched": true
+      },
+      {
+        "path": "source-before-training.json",
+        "matched": true
+      },
+      {
+        "path": "validation-evidence.json",
+        "matched": true
+      },
+      {
+        "path": "validation-manifest.json",
+        "matched": true
+      },
+      {
+        "path": "logs\\progress.csv",
+        "matched": true
+      }
+    ],
+    "inputs_checked": 0,
+    "input_hashes_match": true
+  },
+  {
+    "run": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\figures\\dissertation\\telemetry-quality-v1",
+    "verified_outputs": 3,
+    "passed": true,
+    "outputs": [
+      {
+        "path": "caption.md",
+        "matched": true
+      },
+      {
+        "path": "telemetry_quality.pdf",
+        "matched": true
+      },
+      {
+        "path": "telemetry_quality.png",
+        "matched": true
+      }
+    ],
+    "inputs_checked": 4,
+    "input_hashes_match": true
+  },
+  {
+    "run": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\figures\\dissertation\\event-training-v1",
+    "verified_outputs": 7,
+    "passed": true,
+    "outputs": [
+      {
+        "path": "01_event_controller_comparison.png",
+        "matched": true
+      },
+      {
+        "path": "01_event_controller_comparison.pdf",
+        "matched": true
+      },
+      {
+        "path": "02_event_training_curves.png",
+        "matched": true
+      },
+      {
+        "path": "02_event_training_curves.pdf",
+        "matched": true
+      },
+      {
+        "path": "03_event_replay_profiles.png",
+        "matched": true
+      },
+      {
+        "path": "03_event_replay_profiles.pdf",
+        "matched": true
+      },
+      {
+        "path": "captions.md",
+        "matched": true
+      }
+    ],
+    "inputs_checked": 9,
+    "input_hashes_match": true
+  },
+  {
+    "run": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\figures\\dissertation\\v4",
+    "passed": true,
+    "checks": [
+      {
+        "kind": "sources",
+        "path": "results/power-grid-001/summary.json",
+        "matched": true
+      },
+      {
+        "kind": "sources",
+        "path": "results/power-grid-diagnostic-001/summary.json",
+        "matched": true
+      },
+      {
+        "kind": "outputs",
+        "path": "01_grid_studies.png",
+        "matched": true
+      },
+      {
+        "kind": "outputs",
+        "path": "01_grid_studies.pdf",
+        "matched": true
+      },
+      {
+        "kind": "sources",
+        "path": "results/event-validation-002/summary.json",
+        "matched": true
+      },
+      {
+        "kind": "outputs",
+        "path": "02_event_validation.png",
+        "matched": true
+      },
+      {
+        "kind": "outputs",
+        "path": "02_event_validation.pdf",
+        "matched": true
+      },
+      {
+        "kind": "sources",
+        "path": "results/calibration-fit-001/metrics.json",
+        "matched": true
+      },
+      {
+        "kind": "outputs",
+        "path": "03_calibration_identifiability.png",
+        "matched": true
+      },
+      {
+        "kind": "outputs",
+        "path": "03_calibration_identifiability.pdf",
+        "matched": true
+      },
+      {
+        "kind": "sources",
+        "path": "results/reconstruction-synthetic-002/reconstruction.json",
+        "matched": true
+      },
+      {
+        "kind": "outputs",
+        "path": "04_reconstruction_errors.png",
+        "matched": true
+      },
+      {
+        "kind": "outputs",
+        "path": "04_reconstruction_errors.pdf",
+        "matched": true
+      },
+      {
+        "kind": "sources",
+        "path": "results/reconstruction-synthetic-002/reconstruction.json",
+        "matched": true
+      },
+      {
+        "kind": "outputs",
+        "path": "05_reconstruction_maps.png",
+        "matched": true
+      },
+      {
+        "kind": "outputs",
+        "path": "05_reconstruction_maps.pdf",
+        "matched": true
+      },
+      {
+        "kind": "sources",
+        "path": "results/synthetic-baselines-001/metrics.json",
+        "matched": true
+      },
+      {
+        "kind": "sources",
+        "path": "results/synthetic-ppo-001/metrics.json",
+        "matched": true
+      },
+      {
+        "kind": "sources",
+        "path": "results/synthetic-ppo-seed1-001/metrics.json",
+        "matched": true
+      },
+      {
+        "kind": "sources",
+        "path": "results/synthetic-ppo-seed2-001/metrics.json",
+        "matched": true
+      },
+      {
+        "kind": "outputs",
+        "path": "06_synthetic_controller_comparison.png",
+        "matched": true
+      },
+      {
+        "kind": "outputs",
+        "path": "06_synthetic_controller_comparison.pdf",
+        "matched": true
+      }
+    ]
+  }
+]

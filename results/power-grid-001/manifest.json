@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-10-28T15:40:06.544316+00:00",
+  "python": "3.12.14",
+  "scenario": {
+    "length_m": 800.0,
+    "initial_speed_m_per_s": 20,
+    "initial_energy_j": 450000,
+    "reserve_j": 50000.0,
+    "action_fraction": 0.6,
+    "vehicle": {
+      "mass_kg": 800.0,
+      "base_power_w": 100000.0,
+      "electrical_limit_w": 60000.0,
+      "discharge_efficiency": 0.9,
+      "drag_kg_per_m": 0.5,
+      "friction_deceleration_m_per_s2": 8.0
+    },
+    "corner_caps": {
+      "400": 30,
+      "800": 20
+    },
+    "other_node_cap": 100,
+    "grid_sizes": [
+      40.0,
+      20.0,
+      10.0,
+      5.0,
+      2.5
+    ]
+  },
+  "source_hashes": {
+    "scripts\\validate_power_grid.py": "3c3d9526b2f795be423130ccf1640e98fb347235394178354a77c0b35b1b95d1",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "src\\f1energy\\braking.py": "66ee717e37cef3cd984ade560acc82584b12304f78ac799ac451cc9b3d954d4a"
+  },
+  "outputs": {
+    "grid-40.json": "903afb94000eaff2995687738901e6dc248f4d6906289f98b04d5d9bbd5f4216",
+    "grid-20.json": "274601b4a2efbd367539b156852c426145ccf2a9b9835cdf497f828598fd6b50",
+    "grid-10.json": "3df1a807bb12cc0942468ade03b6c1cfe82ed9494d58bcc1598f251706a294e9",
+    "grid-5.json": "f8a89e1b76b090d68cc3cb7182d94fa074ad4b914e24a94eac774af813653034",
+    "grid-2.5.json": "a41bcdd6fc0096ff4e9dbb8264e8a350ce5c2131b00c14019ea251bc9adc150f",
+    "summary.json": "06bac8b50494f22b5eb8dd02ac1a3b7e2fd9e082adbd605c9c66a6a388fa1d11"
+  }
+}

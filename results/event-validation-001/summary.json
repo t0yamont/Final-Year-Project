@@ -1,0 +1,203 @@
+{
+  "sampling": [
+    {
+      "spacing_m": 40,
+      "rtol": 1e-09,
+      "max_step_m": 5,
+      "elapsed_s": 20.67942068485117,
+      "terminal_speed_m_per_s": 20.000000000000075,
+      "battery_draw_j": 400000.0,
+      "max_residual_j": 4.656612873077393e-10,
+      "min_energy_j": 50000.0
+    },
+    {
+      "spacing_m": 20,
+      "rtol": 1e-09,
+      "max_step_m": 5,
+      "elapsed_s": 20.67942068485117,
+      "terminal_speed_m_per_s": 20.000000000000075,
+      "battery_draw_j": 400000.0,
+      "max_residual_j": 4.656612873077393e-10,
+      "min_energy_j": 50000.0
+    },
+    {
+      "spacing_m": 10,
+      "rtol": 1e-09,
+      "max_step_m": 5,
+      "elapsed_s": 20.67942068485117,
+      "terminal_speed_m_per_s": 20.000000000000075,
+      "battery_draw_j": 400000.0,
+      "max_residual_j": 4.656612873077393e-10,
+      "min_energy_j": 50000.0
+    },
+    {
+      "spacing_m": 5,
+      "rtol": 1e-09,
+      "max_step_m": 5,
+      "elapsed_s": 20.67942068485117,
+      "terminal_speed_m_per_s": 20.000000000000075,
+      "battery_draw_j": 400000.0,
+      "max_residual_j": 4.656612873077393e-10,
+      "min_energy_j": 50000.0
+    },
+    {
+      "spacing_m": 2.5,
+      "rtol": 1e-09,
+      "max_step_m": 5,
+      "elapsed_s": 20.67942068485117,
+      "terminal_speed_m_per_s": 20.000000000000075,
+      "battery_draw_j": 400000.0,
+      "max_residual_j": 4.656612873077393e-10,
+      "min_energy_j": 50000.0
+    },
+    {
+      "spacing_m": 1.25,
+      "rtol": 1e-09,
+      "max_step_m": 5,
+      "elapsed_s": 20.67942068485117,
+      "terminal_speed_m_per_s": 20.000000000000075,
+      "battery_draw_j": 400000.0,
+      "max_residual_j": 4.656612873077393e-10,
+      "min_energy_j": 50000.0
+    },
+    {
+      "spacing_m": 0.625,
+      "rtol": 1e-09,
+      "max_step_m": 5,
+      "elapsed_s": 20.67942068485117,
+      "terminal_speed_m_per_s": 20.000000000000075,
+      "battery_draw_j": 400000.0,
+      "max_residual_j": 4.656612873077393e-10,
+      "min_energy_j": 50000.0
+    },
+    {
+      "spacing_m": 0.3125,
+      "rtol": 1e-09,
+      "max_step_m": 5,
+      "elapsed_s": 20.67942068485117,
+      "terminal_speed_m_per_s": 20.000000000000075,
+      "battery_draw_j": 400000.0,
+      "max_residual_j": 4.656612873077393e-10,
+      "min_energy_j": 50000.0
+    },
+    {
+      "spacing_m": 0.15625,
+      "rtol": 1e-09,
+      "max_step_m": 5,
+      "elapsed_s": 20.67942068485117,
+      "terminal_speed_m_per_s": 20.000000000000075,
+      "battery_draw_j": 400000.0,
+      "max_residual_j": 4.656612873077393e-10,
+      "min_energy_j": 50000.0
+    }
+  ],
+  "refinement": [
+    {
+      "spacing_m": 40,
+      "rtol": 1e-06,
+      "max_step_m": 20,
+      "elapsed_s": 20.679423516880444,
+      "terminal_speed_m_per_s": 20.00000000011678,
+      "battery_draw_j": 400000.0,
+      "max_residual_j": 2.3283064365386963e-10,
+      "min_energy_j": 50000.0
+    },
+    {
+      "spacing_m": 40,
+      "rtol": 1e-07,
+      "max_step_m": 10,
+      "elapsed_s": 20.679420692187293,
+      "terminal_speed_m_per_s": 20.00000000000358,
+      "battery_draw_j": 400000.0,
+      "max_residual_j": 8.149072527885437e-10,
+      "min_energy_j": 50000.0
+    },
+    {
+      "spacing_m": 40,
+      "rtol": 1e-08,
+      "max_step_m": 5,
+      "elapsed_s": 20.679420685074803,
+      "terminal_speed_m_per_s": 20.000000000000117,
+      "battery_draw_j": 400000.0,
+      "max_residual_j": 2.3283064365386963e-10,
+      "min_energy_j": 50000.0
+    },
+    {
+      "spacing_m": 40,
+      "rtol": 1e-09,
+      "max_step_m": 2,
+      "elapsed_s": 20.679420686747427,
+      "terminal_speed_m_per_s": 19.999999999999986,
+      "battery_draw_j": 400000.0,
+      "max_residual_j": 1.0477378964424133e-09,
+      "min_energy_j": 50000.0
+    },
+    {
+      "spacing_m": 40,
+      "rtol": 1e-11,
+      "max_step_m": 1,
+      "elapsed_s": 20.679420686770566,
+      "terminal_speed_m_per_s": 19.99999999999998,
+      "battery_draw_j": 400000.0,
+      "max_residual_j": 8.149072527885437e-10,
+      "min_energy_j": 50000.0
+    }
+  ],
+  "assessment": {
+    "gate": "passed_synthetic_numerical_gate",
+    "output_sampling_spreads": {
+      "elapsed_s": 0.0,
+      "terminal_speed_m_per_s": 0.0,
+      "battery_draw_j": 0.0
+    },
+    "integration_errors_vs_reference": [
+      {
+        "rtol": 1e-06,
+        "elapsed_s": 2.830109878004805e-06,
+        "terminal_speed_m_per_s": 1.1680256761792407e-10,
+        "battery_draw_j": 0.0
+      },
+      {
+        "rtol": 1e-07,
+        "elapsed_s": 5.416726622797796e-09,
+        "terminal_speed_m_per_s": 3.602451670303708e-12,
+        "battery_draw_j": 0.0
+      },
+      {
+        "rtol": 1e-08,
+        "elapsed_s": 1.695763529596661e-09,
+        "terminal_speed_m_per_s": 1.3855583347321954e-13,
+        "battery_draw_j": 0.0
+      },
+      {
+        "rtol": 1e-09,
+        "elapsed_s": 2.3138824190027663e-11,
+        "terminal_speed_m_per_s": 7.105427357601002e-15,
+        "battery_draw_j": 0.0
+      }
+    ],
+    "physical_checks": true,
+    "original_strict_time_trend": false,
+    "original_first_five_differences_s": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "original_note": "Output-sampling invariance is not integration convergence; original strict trend retained literally.",
+    "analytic": {
+      "passed": true,
+      "reserve_errors": {
+        "speed": 0.0,
+        "time": 8.308376209242851e-11,
+        "energy": 0.0
+      },
+      "braking_errors": {
+        "speed": 0.0,
+        "time": 8.778080484717066e-10,
+        "work": 2.9103830456733704e-11
+      },
+      "infeasible_braking_rejected": true
+    }
+  }
+}

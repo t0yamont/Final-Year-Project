@@ -1,0 +1,27 @@
+{
+  "inputs_sha256": {
+    "results\\event-ppo-seed0-001\\metrics.json": "dc14c1ad2f72f4b3cf184a58037b45fa4b501dbed98dae9f44d6af0f8cb7ee38",
+    "results\\event-ppo-seed0-001\\config.json": "94dcf8457d2528bed951b78dcd7dba503d0a444f0f205ef60b34eae23ae72e3c",
+    "results\\event-ppo-seed0-001\\logs\\progress.csv": "3f9ab88982d971a399f2a05b63899f446fbf5ff1639ea330c4875cec54354f4f",
+    "results\\event-ppo-seed1-001\\metrics.json": "b211056620d48bf085df73189678761bbd6c08d7a2b7abf3b0d09a1bf00566ed",
+    "results\\event-ppo-seed1-001\\config.json": "514ad1051ce9653eccb537d57512c35ebb462f0a466af99071cf265208e597bb",
+    "results\\event-ppo-seed1-001\\logs\\progress.csv": "3b1f181b4daf4cd7d23be8c29e7273d52f93070854045c7ad22f28638b24637e",
+    "results\\event-ppo-seed2-001\\metrics.json": "026c24e2b5552cd865c47f9d29f030fb46f47f7909936b109e7d4396b2426e6f",
+    "results\\event-ppo-seed2-001\\config.json": "ecdd68929283a09e02c8351dc69ec86f5dbd87c5defb74a8b59ec41b0cdc546c",
+    "results\\event-ppo-seed2-001\\logs\\progress.csv": "313996bdf29ccd1f9aaed2e892c7829006ee1f9b7e5b8c22144e7cda7c2fa38c"
+  },
+  "source_sha256": {
+    "scripts\\plot_event_training.py": "47cb4e60197342031872bfe2f3987706be6d9b51ba3b9c2d6adcbfb5fbe6c674",
+    "src\\f1energy\\event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "src\\f1energy\\event_rl.py": "fd29c99b069419bca67605482d37ca6818501035126a20ac6c32ef21a5411059"
+  },
+  "outputs_sha256": {
+    "01_event_controller_comparison.png": "160f575892a73000169db4b3fb087b257d83d3360af1e673ff799544a87dfea7",
+    "01_event_controller_comparison.pdf": "425ae7192859e6775499ea4c35d5d408a006a076a796d0eee17dbedbdb5b20e0",
+    "02_event_training_curves.png": "fcacfc01b48e80e691ab6555cefaff8d4a3f09ea800f7e123420b13975d6eec1",
+    "02_event_training_curves.pdf": "eed0fba183abfd009786fa70fd15ada8db3f06a2498e7a9930561ab6d1fb16d9",
+    "03_event_replay_profiles.png": "931c1b9e98a42069437e0a2c3286d143e1e6368ae060de26d2264edbda483a18",
+    "03_event_replay_profiles.pdf": "ecd7db5c920fb6e9946b5f93cff9d4882ce5c0f8b8afc0943065832c8d3b7300",
+    "captions.md": "a2a9caf59483022cf52a009dd8d8aa784610380dd08884ba2522c13078380f40"
+  }
+}

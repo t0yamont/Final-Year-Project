@@ -1,0 +1,973 @@
+{
+  "mass_sensitivity": {
+    "750.0": {
+      "fit": {
+        "assumed_mass_kg": 750.0,
+        "effective_total_power_w": 424947.7326876003,
+        "drag_coefficient_kg_per_m": 0.4794643653325416,
+        "sample_count": 287,
+        "speed_min_m_per_s": 37.91666666666667,
+        "speed_max_m_per_s": 89.02777777777777,
+        "rmse_w": 107403.3066833471,
+        "scaled_design_condition_number": 6.796286327286739,
+        "parameter_boundary_hits": [],
+        "solver_success": true,
+        "profile": [
+          {
+            "drag_coefficient_kg_per_m": 0.0,
+            "effective_total_power_w": 247573.82410571017,
+            "rmse_w": 134191.0939517119
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.1,
+            "effective_total_power_w": 284568.00373757276,
+            "rmse_w": 124856.65225624526
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.2,
+            "effective_total_power_w": 321562.18336943537,
+            "rmse_w": 117192.83185991303
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.30000000000000004,
+            "effective_total_power_w": 358556.3630012979,
+            "rmse_w": 111544.51298062068
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.4,
+            "effective_total_power_w": 395550.54263316054,
+            "rmse_w": 108227.71929062807
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.5,
+            "effective_total_power_w": 432544.72226502316,
+            "rmse_w": 107458.56122081305
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.6000000000000001,
+            "effective_total_power_w": 469538.9018968857,
+            "rmse_w": 109290.84063393684
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.7000000000000001,
+            "effective_total_power_w": 506533.08152874844,
+            "rmse_w": 113598.74833521296
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.8,
+            "effective_total_power_w": 543527.2611606108,
+            "rmse_w": 120116.21751541563
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.9,
+            "effective_total_power_w": 580521.4407924735,
+            "rmse_w": 128507.50214335091
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.0,
+            "effective_total_power_w": 617515.6204243362,
+            "rmse_w": 138432.26796547527
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.1,
+            "effective_total_power_w": 654509.8000561987,
+            "rmse_w": 149585.59366140875
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.2000000000000002,
+            "effective_total_power_w": 691503.9796880613,
+            "rmse_w": 161713.47859110613
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.3,
+            "effective_total_power_w": 728498.1593199238,
+            "rmse_w": 174612.97430335838
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.4000000000000001,
+            "effective_total_power_w": 765492.3389517864,
+            "rmse_w": 188125.4229021787
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.5,
+            "effective_total_power_w": 802486.5185836491,
+            "rmse_w": 202127.93225878247
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.6,
+            "effective_total_power_w": 839480.6982155116,
+            "rmse_w": 216525.4478492712
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.7000000000000002,
+            "effective_total_power_w": 876474.8778473743,
+            "rmse_w": 231244.20088614782
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.8,
+            "effective_total_power_w": 913469.0574792367,
+            "rmse_w": 246226.59001547302
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.9000000000000001,
+            "effective_total_power_w": 950463.2371110996,
+            "rmse_w": 261427.29223983418
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.0,
+            "effective_total_power_w": 987457.416742962,
+            "rmse_w": 276810.34470388683
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.1,
+            "effective_total_power_w": 1024451.5963748246,
+            "rmse_w": 292346.96347379213
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.2,
+            "effective_total_power_w": 1061445.7760066874,
+            "rmse_w": 308013.9111787614
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.3000000000000003,
+            "effective_total_power_w": 1098439.95563855,
+            "rmse_w": 323792.2701624581
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.4000000000000004,
+            "effective_total_power_w": 1135434.1352704125,
+            "rmse_w": 339666.5147822312
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.5,
+            "effective_total_power_w": 1172428.3149022749,
+            "rmse_w": 355623.80491424666
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.6,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 371772.86841879645
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.7,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 390514.819062175
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.8000000000000003,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 412418.18956647033
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.9000000000000004,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 437007.87547446426
+          },
+          {
+            "drag_coefficient_kg_per_m": 3.0,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 463856.8575880094
+          }
+        ],
+        "interpretation": "Conditional effective total power and drag fit. Mass assumed. Electrical power and battery energy are unobserved and not recovered."
+      },
+      "fit_diagnostic": {
+        "sample_count": 287,
+        "acceleration_rmse_m_per_s2": 2.2376177744534482,
+        "acceleration_bias_m_per_s2": -0.009767451629746439,
+        "residual_quantiles_m_per_s2": [
+          -10.367849849215261,
+          -1.2070398416924233,
+          0.16493348744734693,
+          1.379761630822352,
+          8.279106454890902
+        ]
+      },
+      "validation_diagnostic": {
+        "sample_count": 144,
+        "acceleration_rmse_m_per_s2": 2.308099928574269,
+        "acceleration_bias_m_per_s2": -0.3267905964992523,
+        "residual_quantiles_m_per_s2": [
+          -9.258663398697715,
+          -1.5433328884371704,
+          0.0025037086583511448,
+          1.1039369558821033,
+          8.061562157773292
+        ]
+      }
+    },
+    "800.0": {
+      "fit": {
+        "assumed_mass_kg": 800.0,
+        "effective_total_power_w": 453277.5815334404,
+        "drag_coefficient_kg_per_m": 0.5114286563547111,
+        "sample_count": 287,
+        "speed_min_m_per_s": 37.91666666666667,
+        "speed_max_m_per_s": 89.02777777777777,
+        "rmse_w": 114563.52712890356,
+        "scaled_design_condition_number": 6.796286327286739,
+        "parameter_boundary_hits": [],
+        "solver_success": true,
+        "profile": [
+          {
+            "drag_coefficient_kg_per_m": 0.0,
+            "effective_total_power_w": 264078.74571275746,
+            "rmse_w": 143137.16688182604
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.1,
+            "effective_total_power_w": 301072.9253446201,
+            "rmse_w": 133754.28956515688
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.2,
+            "effective_total_power_w": 338067.1049764827,
+            "rmse_w": 125917.48774984787
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.30000000000000004,
+            "effective_total_power_w": 375061.28460834525,
+            "rmse_w": 119930.22878080174
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.4,
+            "effective_total_power_w": 412055.4642402079,
+            "rmse_w": 116079.05986708765
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.5,
+            "effective_total_power_w": 449049.64387207053,
+            "rmse_w": 114579.57415642418
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.6000000000000001,
+            "effective_total_power_w": 486043.82350393303,
+            "rmse_w": 115523.38204076789
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.7000000000000001,
+            "effective_total_power_w": 523038.00313579565,
+            "rmse_w": 118852.29106936068
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.8,
+            "effective_total_power_w": 560032.1827676583,
+            "rmse_w": 124374.93596687383
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.9,
+            "effective_total_power_w": 597026.3623995208,
+            "rmse_w": 131815.87389658732
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.0,
+            "effective_total_power_w": 634020.5420313835,
+            "rmse_w": 140871.4550059989
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.1,
+            "effective_total_power_w": 671014.721663246,
+            "rmse_w": 151251.94666490232
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.2000000000000002,
+            "effective_total_power_w": 708008.9012951087,
+            "rmse_w": 162703.95881590238
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.3,
+            "effective_total_power_w": 745003.0809269712,
+            "rmse_w": 175017.27734381074
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.4000000000000001,
+            "effective_total_power_w": 781997.260558834,
+            "rmse_w": 188022.76147675046
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.5,
+            "effective_total_power_w": 818991.4401906964,
+            "rmse_w": 201586.48915012815
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.6,
+            "effective_total_power_w": 855985.619822559,
+            "rmse_w": 215603.12774270133
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.7000000000000002,
+            "effective_total_power_w": 892979.7994544216,
+            "rmse_w": 229989.88474936364
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.8,
+            "effective_total_power_w": 929973.9790862842,
+            "rmse_w": 244681.48232272224
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.9000000000000001,
+            "effective_total_power_w": 966968.1587181466,
+            "rmse_w": 259626.17511778907
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.0,
+            "effective_total_power_w": 1003962.3383500094,
+            "rmse_w": 274782.67072537553
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.1,
+            "effective_total_power_w": 1040956.5179818718,
+            "rmse_w": 290117.77568028576
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.2,
+            "effective_total_power_w": 1077950.6976137345,
+            "rmse_w": 305604.6035491156
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.3000000000000003,
+            "effective_total_power_w": 1114944.8772455975,
+            "rmse_w": 321221.21032892086
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.4000000000000004,
+            "effective_total_power_w": 1151939.0568774599,
+            "rmse_w": 336949.5519064695
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.5,
+            "effective_total_power_w": 1188933.2365093224,
+            "rmse_w": 352774.6836222711
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.6,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 369594.6800177238
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.7,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 389779.66250069207
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.8000000000000003,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 412984.6535456267
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.9000000000000004,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 438730.71899805166
+          },
+          {
+            "drag_coefficient_kg_per_m": 3.0,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 466597.41157039383
+          }
+        ],
+        "interpretation": "Conditional effective total power and drag fit. Mass assumed. Electrical power and battery energy are unobserved and not recovered."
+      },
+      "fit_diagnostic": {
+        "sample_count": 287,
+        "acceleration_rmse_m_per_s2": 2.2376177744534482,
+        "acceleration_bias_m_per_s2": -0.00976745162974566,
+        "residual_quantiles_m_per_s2": [
+          -10.367849849215258,
+          -1.2070398416924226,
+          0.16493348744734693,
+          1.3797616308223521,
+          8.279106454890904
+        ]
+      },
+      "validation_diagnostic": {
+        "sample_count": 144,
+        "acceleration_rmse_m_per_s2": 2.3080999285742685,
+        "acceleration_bias_m_per_s2": -0.32679059649925163,
+        "residual_quantiles_m_per_s2": [
+          -9.258663398697713,
+          -1.5433328884371704,
+          0.0025037086583509227,
+          1.1039369558821037,
+          8.061562157773292
+        ]
+      }
+    },
+    "850.0": {
+      "fit": {
+        "assumed_mass_kg": 850.0,
+        "effective_total_power_w": 481607.43037928024,
+        "drag_coefficient_kg_per_m": 0.5433929473768805,
+        "sample_count": 287,
+        "speed_min_m_per_s": 37.91666666666667,
+        "speed_max_m_per_s": 89.02777777777777,
+        "rmse_w": 121723.74757446002,
+        "scaled_design_condition_number": 6.796286327286739,
+        "parameter_boundary_hits": [],
+        "solver_success": true,
+        "profile": [
+          {
+            "drag_coefficient_kg_per_m": 0.0,
+            "effective_total_power_w": 280583.66731980484,
+            "rmse_w": 152083.23981194015
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.1,
+            "effective_total_power_w": 317577.8469516674,
+            "rmse_w": 142657.98534699896
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.2,
+            "effective_total_power_w": 354572.02658353007,
+            "rmse_w": 134671.1997602389
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.30000000000000004,
+            "effective_total_power_w": 391566.2062153926,
+            "rmse_w": 128391.61038202174
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.4,
+            "effective_total_power_w": 428560.3858472551,
+            "rmse_w": 124078.69074963959
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.5,
+            "effective_total_power_w": 465554.5654791178,
+            "rmse_w": 121941.29608065364
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.6000000000000001,
+            "effective_total_power_w": 502548.7451109806,
+            "rmse_w": 122093.7352673907
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.7000000000000001,
+            "effective_total_power_w": 539542.924742843,
+            "rmse_w": 124527.59936370273
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.8,
+            "effective_total_power_w": 576537.1043747056,
+            "rmse_w": 129113.93466647639
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.9,
+            "effective_total_power_w": 613531.2840065683,
+            "rmse_w": 135634.56623169675
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.0,
+            "effective_total_power_w": 650525.4636384308,
+            "rmse_w": 143826.65016849642
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.1,
+            "effective_total_power_w": 687519.6432702934,
+            "rmse_w": 153422.6754770972
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.2000000000000002,
+            "effective_total_power_w": 724513.8229021562,
+            "rmse_w": 164176.64789012907
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.3,
+            "effective_total_power_w": 761508.0025340184,
+            "rmse_w": 175876.28715764178
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.4000000000000001,
+            "effective_total_power_w": 798502.1821658812,
+            "rmse_w": 188345.4468956026
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.5,
+            "effective_total_power_w": 835496.3617977438,
+            "rmse_w": 201441.27843686938
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.6,
+            "effective_total_power_w": 872490.5414296064,
+            "rmse_w": 215049.32517979576
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.7000000000000002,
+            "effective_total_power_w": 909484.7210614688,
+            "rmse_w": 229078.32322662018
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.8,
+            "effective_total_power_w": 946478.9006933316,
+            "rmse_w": 243455.5121462303
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.9000000000000001,
+            "effective_total_power_w": 983473.0803251942,
+            "rmse_w": 258122.716796635
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.0,
+            "effective_total_power_w": 1020467.2599570566,
+            "rmse_w": 273033.20268530987
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.1,
+            "effective_total_power_w": 1057461.4395889195,
+            "rmse_w": 288149.206004022
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.2,
+            "effective_total_power_w": 1094455.619220782,
+            "rmse_w": 303440.0144722647
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.3000000000000003,
+            "effective_total_power_w": 1131449.7988526444,
+            "rmse_w": 318880.482555984
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.4000000000000004,
+            "effective_total_power_w": 1168443.978484507,
+            "rmse_w": 334449.88299799914
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.5,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 350173.24597024993
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.6,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 368361.613932178
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.7,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 389947.9914134639
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.8000000000000003,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 414401.706511169
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.9000000000000004,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 441246.2959330551
+          },
+          {
+            "drag_coefficient_kg_per_m": 3.0,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 470072.32842745754
+          }
+        ],
+        "interpretation": "Conditional effective total power and drag fit. Mass assumed. Electrical power and battery energy are unobserved and not recovered."
+      },
+      "fit_diagnostic": {
+        "sample_count": 287,
+        "acceleration_rmse_m_per_s2": 2.2376177744534482,
+        "acceleration_bias_m_per_s2": -0.009767451629748135,
+        "residual_quantiles_m_per_s2": [
+          -10.367849849215261,
+          -1.2070398416924248,
+          0.16493348744734426,
+          1.3797616308223501,
+          8.279106454890899
+        ]
+      },
+      "validation_diagnostic": {
+        "sample_count": 144,
+        "acceleration_rmse_m_per_s2": 2.3080999285742694,
+        "acceleration_bias_m_per_s2": -0.3267905964992541,
+        "residual_quantiles_m_per_s2": [
+          -9.258663398697717,
+          -1.5433328884371722,
+          0.0025037086583495904,
+          1.1039369558821022,
+          8.061562157773288
+        ]
+      }
+    }
+  },
+  "drs_strata": {
+    "12.0": {
+      "fit": {
+        "assumed_mass_kg": 800.0,
+        "effective_total_power_w": 542124.3867328889,
+        "drag_coefficient_kg_per_m": 0.6066153205510413,
+        "sample_count": 98,
+        "speed_min_m_per_s": 51.25,
+        "speed_max_m_per_s": 89.02777777777777,
+        "rmse_w": 100950.19769107268,
+        "scaled_design_condition_number": 8.83435624417558,
+        "parameter_boundary_hits": [],
+        "solver_success": true,
+        "profile": [
+          {
+            "drag_coefficient_kg_per_m": 0.0,
+            "effective_total_power_w": 235416.5219604023,
+            "rmse_w": 132945.04435601493
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.1,
+            "effective_total_power_w": 285977.0426696183,
+            "rmse_w": 124138.9195679991
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.2,
+            "effective_total_power_w": 336537.5633788344,
+            "rmse_w": 116418.58289068146
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.30000000000000004,
+            "effective_total_power_w": 387098.0840880504,
+            "rmse_w": 110012.86329841496
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.4,
+            "effective_total_power_w": 437658.6047972665,
+            "rmse_w": 105162.26651244232
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.5,
+            "effective_total_power_w": 488219.12550648255,
+            "rmse_w": 102088.70193625301
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.6000000000000001,
+            "effective_total_power_w": 538779.6462156986,
+            "rmse_w": 100954.60557152021
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.7000000000000001,
+            "effective_total_power_w": 589340.1669249147,
+            "rmse_w": 101824.80182769948
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.8,
+            "effective_total_power_w": 639900.6876341307,
+            "rmse_w": 104649.30342088416
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.9,
+            "effective_total_power_w": 690461.2083433467,
+            "rmse_w": 109276.67502161303
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.0,
+            "effective_total_power_w": 741021.7290525626,
+            "rmse_w": 115490.41197934625
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.1,
+            "effective_total_power_w": 791582.2497617787,
+            "rmse_w": 123050.42613748222
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.2000000000000002,
+            "effective_total_power_w": 842142.7704709948,
+            "rmse_w": 131725.12305611925
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.3,
+            "effective_total_power_w": 892703.291180211,
+            "rmse_w": 141309.3672541226
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.4000000000000001,
+            "effective_total_power_w": 943263.8118894269,
+            "rmse_w": 151630.78533545946
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.5,
+            "effective_total_power_w": 993824.3325986428,
+            "rmse_w": 162549.0123230923
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.6,
+            "effective_total_power_w": 1044384.853307859,
+            "rmse_w": 173951.7068357031
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.7000000000000002,
+            "effective_total_power_w": 1094945.3740170752,
+            "rmse_w": 185749.66964431707
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.8,
+            "effective_total_power_w": 1145505.894726291,
+            "rmse_w": 197872.2107648479
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.9000000000000001,
+            "effective_total_power_w": 1196066.415435507,
+            "rmse_w": 210263.19785221762
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.0,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 227702.90442028682
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.1,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 254932.54200112002
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.2,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 289226.64180141216
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.3000000000000003,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 328379.29403533216
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.4000000000000004,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 370854.8668164069
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.5,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 415635.8560068388
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.6,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 462052.4412039304
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.7,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 509657.93735930044
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.8000000000000003,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 558148.2140713276
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.9000000000000004,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 607311.3745810627
+          },
+          {
+            "drag_coefficient_kg_per_m": 3.0,
+            "effective_total_power_w": 1200000.0,
+            "rmse_w": 656996.380193162
+          }
+        ],
+        "interpretation": "Conditional effective total power and drag fit. Mass assumed. Electrical power and battery energy are unobserved and not recovered."
+      },
+      "validation_diagnostic": {
+        "sample_count": 53,
+        "acceleration_rmse_m_per_s2": 1.240060826869115,
+        "acceleration_bias_m_per_s2": -0.1976554691709025,
+        "residual_quantiles_m_per_s2": [
+          -2.850719049174935,
+          -1.2201853533848013,
+          0.02615030517454997,
+          0.6709368934310119,
+          2.0574896062138768
+        ]
+      }
+    },
+    "8.0": {
+      "fit": {
+        "assumed_mass_kg": 800.0,
+        "effective_total_power_w": 487915.7219825294,
+        "drag_coefficient_kg_per_m": 0.69814812367259,
+        "sample_count": 188,
+        "speed_min_m_per_s": 37.91666666666667,
+        "speed_max_m_per_s": 83.75,
+        "rmse_w": 112576.1446374013,
+        "scaled_design_condition_number": 8.234043522209909,
+        "parameter_boundary_hits": [],
+        "solver_success": true,
+        "profile": [
+          {
+            "drag_coefficient_kg_per_m": 0.0,
+            "effective_total_power_w": 277993.81076062523,
+            "rmse_w": 145754.2547515978
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.1,
+            "effective_total_power_w": 308062.2022815557,
+            "rmse_w": 137712.8179301514
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.2,
+            "effective_total_power_w": 338130.59380248614,
+            "rmse_w": 130525.97164532678
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.30000000000000004,
+            "effective_total_power_w": 368198.98532341665,
+            "rmse_w": 124341.98781294492
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.4,
+            "effective_total_power_w": 398267.3768443471,
+            "rmse_w": 119316.89821738032
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.5,
+            "effective_total_power_w": 428335.7683652776,
+            "rmse_w": 115601.92937309963
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.6000000000000001,
+            "effective_total_power_w": 458404.159886208,
+            "rmse_w": 113325.99682762027
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.7000000000000001,
+            "effective_total_power_w": 488472.55140713847,
+            "rmse_w": 112576.41247965203
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.8,
+            "effective_total_power_w": 518540.942928069,
+            "rmse_w": 113383.45269142216
+          },
+          {
+            "drag_coefficient_kg_per_m": 0.9,
+            "effective_total_power_w": 548609.3344489994,
+            "rmse_w": 115714.55245253921
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.0,
+            "effective_total_power_w": 578677.7259699298,
+            "rmse_w": 119480.54051593169
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.1,
+            "effective_total_power_w": 608746.1174908604,
+            "rmse_w": 124551.32709967886
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.2000000000000002,
+            "effective_total_power_w": 638814.5090117909,
+            "rmse_w": 130775.22016891227
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.3,
+            "effective_total_power_w": 668882.9005327213,
+            "rmse_w": 137996.2859854859
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.4000000000000001,
+            "effective_total_power_w": 698951.2920536518,
+            "rmse_w": 146066.70835263192
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.5,
+            "effective_total_power_w": 729019.6835745821,
+            "rmse_w": 154853.74790356835
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.6,
+            "effective_total_power_w": 759088.0750955127,
+            "rmse_w": 164242.42691282675
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.7000000000000002,
+            "effective_total_power_w": 789156.4666164432,
+            "rmse_w": 174135.45866443412
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.8,
+            "effective_total_power_w": 819224.8581373735,
+            "rmse_w": 184451.70841701276
+          },
+          {
+            "drag_coefficient_kg_per_m": 1.9000000000000001,
+            "effective_total_power_w": 849293.2496583042,
+            "rmse_w": 195124.06084145757
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.0,
+            "effective_total_power_w": 879361.6411792345,
+            "rmse_w": 206097.20305766215
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.1,
+            "effective_total_power_w": 909430.0327001651,
+            "rmse_w": 217325.57765883402
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.2,
+            "effective_total_power_w": 939498.4242210956,
+            "rmse_w": 228771.6064307912
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.3000000000000003,
+            "effective_total_power_w": 969566.8157420261,
+            "rmse_w": 240404.2027933955
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.4000000000000004,
+            "effective_total_power_w": 999635.2072629565,
+            "rmse_w": 252197.5518123748
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.5,
+            "effective_total_power_w": 1029703.5987838868,
+            "rmse_w": 264130.12165825994
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.6,
+            "effective_total_power_w": 1059771.9903048172,
+            "rmse_w": 276183.8677437246
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.7,
+            "effective_total_power_w": 1089840.381825748,
+            "rmse_w": 288343.5937283564
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.8000000000000003,
+            "effective_total_power_w": 1119908.7733466784,
+            "rmse_w": 300596.43859185686
+          },
+          {
+            "drag_coefficient_kg_per_m": 2.9000000000000004,
+            "effective_total_power_w": 1149977.164867609,
+            "rmse_w": 312931.46430433734
+          },
+          {
+            "drag_coefficient_kg_per_m": 3.0,
+            "effective_total_power_w": 1180045.5563885393,
+            "rmse_w": 325339.32350213954
+          }
+        ],
+        "interpretation": "Conditional effective total power and drag fit. Mass assumed. Electrical power and battery energy are unobserved and not recovered."
+      },
+      "validation_diagnostic": {
+        "sample_count": 91,
+        "acceleration_rmse_m_per_s2": 2.498366673591193,
+        "acceleration_bias_m_per_s2": -0.29171779024289424,
+        "residual_quantiles_m_per_s2": [
+          -9.043690427580295,
+          -1.4270171487400587,
+          0.060608124594693225,
+          1.139471657528477,
+          8.664844579405713
+        ]
+      }
+    }
+  },
+  "fit_laps": [
+    4,
+    10
+  ],
+  "development_validation_laps": [
+    13
+  ],
+  "excluded_primary_laps": [
+    16
+  ],
+  "interpretation": "Acceleration-window proxy, not proven straight. Fit-to-derivative residuals are not trajectory prediction or deployment recovery. No final test set evaluated."
+}

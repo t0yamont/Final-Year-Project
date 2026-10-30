@@ -1,0 +1,19 @@
+{
+  "inputs_sha256": {
+    "results/event-baselines-001/metrics.json": "464a252a7f5a3e1e76d672bc75f580ba9a127f8a779a5f95dae2aa5d79e2ac82",
+    "results/event-baselines-003/metrics.json": "daf23aa59ef72737f43422c95a137b33004505854c7f461c04c62973a5da6730"
+  },
+  "source_sha256": {
+    "scripts/plot_event_baselines.py": "c61b095d6b8fa98b08952b1456a2d61d1693cb99fcf042889361151676b13806"
+  },
+  "matplotlib_version": "3.11.2",
+  "outputs_sha256": {
+    "01_event_dp_ppo_comparison.png": "baa6c7ec8207200b55d3941257d1b5788c3fd5cbdaa6afc35e819adf52f8bd3d",
+    "01_event_dp_ppo_comparison.pdf": "784d9538de29398247963f34f178a8433e65402277a4edef5e03818f7a179b20",
+    "02_event_dp_refinement.png": "6e663e8ce91a6725b8136af468e77191299c43284e465f4de4c6c701a7fb5766",
+    "02_event_dp_refinement.pdf": "2bf98bd281c2ffddb342fe494c5b4392072a7c9e62eb217860c5ddd2e3a54b0e",
+    "03_event_allocation.png": "8e7c1571b807f0f3e9b3a233495f1568f29ebc86ee0bda3e2bf88d54866a25e1",
+    "03_event_allocation.pdf": "467945a0210ece7ff57471654f856ab3de61c88d65800b85fcc65eb256b2571b",
+    "captions.md": "595deb37f635dfed8e03bf3a5c43f1c9e35b13147ebfe11b69c340bc5dafefa8"
+  }
+}

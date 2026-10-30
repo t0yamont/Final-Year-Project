@@ -1,0 +1,61 @@
+{
+  "seed": 2,
+  "steps": 4096,
+  "device": "cpu",
+  "threads": 1,
+  "scenarios": {
+    "nominal_development": {
+      "lengths_m": [
+        400.0,
+        400.0
+      ],
+      "exit_caps_m_per_s": [
+        30.0,
+        20.0
+      ],
+      "initial_speed_m_per_s": 20.0,
+      "initial_energy_j": 450000.0,
+      "reserve_j": 50000.0,
+      "vehicle": {
+        "mass_kg": 800.0,
+        "base_power_w": 100000.0,
+        "electrical_limit_w": 60000.0,
+        "discharge_efficiency": 0.9,
+        "drag_kg_per_m": 0.5,
+        "friction_deceleration_m_per_s2": 8.0
+      }
+    },
+    "new_predeclared_evaluation": {
+      "lengths_m": [
+        360.0,
+        440.0
+      ],
+      "exit_caps_m_per_s": [
+        28.0,
+        20.0
+      ],
+      "initial_speed_m_per_s": 20.0,
+      "initial_energy_j": 400000.0,
+      "reserve_j": 50000.0,
+      "vehicle": {
+        "mass_kg": 840.0,
+        "base_power_w": 100000.0,
+        "electrical_limit_w": 60000.0,
+        "discharge_efficiency": 0.9,
+        "drag_kg_per_m": 0.5,
+        "friction_deceleration_m_per_s2": 8.0
+      }
+    }
+  },
+  "hyperparameters": {
+    "n_steps": 256,
+    "batch_size": 64,
+    "n_epochs": 10,
+    "gamma": 1.0,
+    "net_arch": [
+      32,
+      32
+    ]
+  },
+  "validation_sha256": "0c4837c293758b1e1640c72673c0ae149e5e534b4bf76de92ec414aeee5cfb94"
+}

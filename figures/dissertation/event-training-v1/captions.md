@@ -1,0 +1,4 @@
+# Event-model pilot figures
+01: Shared event dynamics and scenario constraints. Individual PPO seed points; three short runs do not establish convergence or population uncertainty. Scenarios frozen before training; new evaluation not used for tuning. Timings must not be compared directly with prior force-model timings.
+02: Rolling training episode returns converted to elapsed seconds; stochastic training actions, not independent deterministic evaluation or confidence intervals. Each seed trained4,096 steps on CPU.
+03: Dense replay of saved nominal actions with exact reserve and braking event handling. Synthetic assumed vehicle/geometry, not a real qualifying lap or measured battery trace. Full and PPO may overlap after early reserve depletion. All plots are generated from saved metrics and logs; profiles use the same frozen solver with source hash recorded.

@@ -1,0 +1,143 @@
+{
+  "created_utc": "2026-10-29T11:19:23.026345+00:00",
+  "script_sha256": "8d5ace1e8d43499914c953d61c9066bdc44dfd8ae27760da2c61c19cd49f5e25",
+  "matplotlib_version": "3.11.2",
+  "figures": [
+    {
+      "figure": "01_grid_studies",
+      "caption": "Original cell-solver study and four finer-grid diagnostic arms. Different arms have different constraints; offsets are relative to each arm\u2019s own finest result, not true error. Historical rejected gate is retained.",
+      "sources": [
+        {
+          "path": "results/power-grid-001/summary.json",
+          "sha256": "06bac8b50494f22b5eb8dd02ac1a3b7e2fd9e082adbd605c9c66a6a388fa1d11"
+        },
+        {
+          "path": "results/power-grid-diagnostic-001/summary.json",
+          "sha256": "83d2e89d1f0b27459db8af9573aba577f3ff25b007d70cd2ef126e4f8f647135"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "01_grid_studies.png",
+          "sha256": "c602701b187e5116e7058400fb39909a880c4dd972c6e37bbb2e3772b8acebfa"
+        },
+        {
+          "path": "01_grid_studies.pdf",
+          "sha256": "d827980e8acbdd1e536d1a83b30eff15c713994fc73edd0fc4c5c588cedf435f"
+        }
+      ]
+    },
+    {
+      "figure": "02_event_validation",
+      "caption": "Event solver: output sampling is separate from integration refinement. Right panel also varies maximum integration step per saved protocol. Reference is numerical, not exact; analytic checks are recorded separately. Synthetic only.",
+      "sources": [
+        {
+          "path": "results/event-validation-001/summary.json",
+          "sha256": "5b7ffbaba197bc245ece7808fe5ee8c6be37c9e9b8c98f480a4d68d09c0518da"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "02_event_validation.png",
+          "sha256": "d3d045c3b7b55d01b118d186099e0818ebefeaf9be4fbeb59fd3c4d247c2d589"
+        },
+        {
+          "path": "02_event_validation.pdf",
+          "sha256": "16aac6d6ae420cb7cc2483ef7bfe334d37674048d36cdeaf34828bb2b048c7ea"
+        }
+      ]
+    },
+    {
+      "figure": "03_calibration_identifiability",
+      "caption": "Bahrain development acceleration-window diagnostic. Coefficients scale with assumed mass while predicted acceleration is unchanged. Right panel is objective sensitivity, not a confidence interval. These are not verified car or electrical parameters.",
+      "sources": [
+        {
+          "path": "results/calibration-fit-001/metrics.json",
+          "sha256": "2b09d46c47057324ab232bfc2b854b8e04bc5ddb1016989dc7d49782091aed99"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "03_calibration_identifiability.png",
+          "sha256": "1aefa3445cefbeaf1b24492cc78327c38b1506f3494bae141d369f654f088517"
+        },
+        {
+          "path": "03_calibration_identifiability.pdf",
+          "sha256": "ef1e016cc09d20772a9bc9f4097b0fcf3be6ee944d3b04390f74b6e4fac55af1"
+        }
+      ]
+    },
+    {
+      "figure": "04_reconstruction_errors",
+      "caption": "Synthetic analytic straight with known deployment truth. Exact and noisy endpoint observations fitted across assumed base powers and initialisations. Multiple starts are not independent experimental samples. Low speed error does not verify deployment.",
+      "sources": [
+        {
+          "path": "results/reconstruction-synthetic-002/reconstruction.json",
+          "sha256": "a9569ff54bfa6f1a62f86cce96216143e7faf2b57402527569fa112b9f9c4d85"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "04_reconstruction_errors.png",
+          "sha256": "29c9cff3ef0d54c6a44ba633086fdcd680f9102746c2cfd2de515383b984d896"
+        },
+        {
+          "path": "04_reconstruction_errors.pdf",
+          "sha256": "b9231ed062d3385d963f31796d936737dc437eadd98ff02f9e4f6418b4dffa63"
+        }
+      ]
+    },
+    {
+      "figure": "05_reconstruction_maps",
+      "caption": "One exact-observation solution per assumed base power, with synthetic truth shown. This figure demonstrates ambiguity under the declared analytic model; it is not an inferred real-team deployment map.",
+      "sources": [
+        {
+          "path": "results/reconstruction-synthetic-002/reconstruction.json",
+          "sha256": "a9569ff54bfa6f1a62f86cce96216143e7faf2b57402527569fa112b9f9c4d85"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "05_reconstruction_maps.png",
+          "sha256": "574c528b34648193eee9ebdbdedbf09306cd44492b19f73dbd291635b56489b3"
+        },
+        {
+          "path": "05_reconstruction_maps.pdf",
+          "sha256": "5c2bc862b3beb43ded3a6f608446060f38754525b27f41bf0d5c4fea32cf8afd"
+        }
+      ]
+    },
+    {
+      "figure": "06_synthetic_controller_comparison",
+      "caption": "All points use the original synthetic constant-force model and nominal scenario. PPO pilots use 16,384 steps per seed. DP uses finite action/energy grids; exhaustive reference covers its discrete action set. Event/power-model times are not mixed into this comparison.",
+      "sources": [
+        {
+          "path": "results/synthetic-baselines-001/metrics.json",
+          "sha256": "3a07c6f462f3e92033732d104560ee0ad93113d94f7c5a794c42953b147fc7d3"
+        },
+        {
+          "path": "results/synthetic-ppo-001/metrics.json",
+          "sha256": "e9ea6a24657dc3ed099017029d9d5be4c67e990086e336fb01f3d91e1d85ca88"
+        },
+        {
+          "path": "results/synthetic-ppo-seed1-001/metrics.json",
+          "sha256": "1f8ff7ad2238a5551dea4c85ce4e7c561b55c9846f98c016e5077f45c29eb1bb"
+        },
+        {
+          "path": "results/synthetic-ppo-seed2-001/metrics.json",
+          "sha256": "509e9357244e090d7c35a71695a41a6380c854d20c200486e35b2a2df63ff5b2"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "06_synthetic_controller_comparison.png",
+          "sha256": "32ad3ae9031b2c777f68ca9d755c48dab9ee9c24380da17a041278970f248e6d"
+        },
+        {
+          "path": "06_synthetic_controller_comparison.pdf",
+          "sha256": "2bef80144c5ce768327012f0f7e1cb93146eccac14e37e64c2187722ddcd9d97"
+        }
+      ]
+    }
+  ]
+}

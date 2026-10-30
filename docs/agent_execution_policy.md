@@ -1,0 +1,11 @@
+# Agent execution policy — 30 October 2026
+
+The user authorises the coordinator to choose agent models to minimise unnecessary token cost. Use the lowest capable model for each bounded task: Luna for routine indexing and documentation; Sol for implementation; escalate a narrowly scoped numerical or scientific review only when its difficulty warrants it. Do not start extra agents merely to fill slots. Model availability and assignments are tool constraints, not evidence of model performance.
+
+Start new specialists with `fork_turns="none"`, a compact summary, authoritative project path, explicit file ownership, required inputs and acceptance checks. Never pass the full transcript by default. Ask for compact results identifying changes, validation and unresolved issues. Use a stable brief prefix and reuse saved summaries where applicable. Prompt caching is service-managed; the available agent tools expose no cache switch or cache-hit statistics, so do not claim guaranteed hits or measured savings.
+
+This session inherited three occupied agent slots. Creating a Luna agent failed with `agent thread limit reached`; the follow-up API cannot change an existing agent's model. Only the existing physics specialist was resumed for a bounded review. Routine work stayed with the coordinator. Fresh chats/available slots should use the model policy above.
+
+Prefer immutable local results over reacquiring remote data. Save command outputs and compact tool-result records under `logs/agent_tools/<date>/`; save scientific run artifacts with source, config, input and output hashes. Reuse expensive calculations within a run with keys covering all relevant state, parameters and solver settings. Do not cache credentials, tokens or authentication UI. Never reuse a previous test pass for modified code, or a numerical result after its dependency hashes change. Recheck mutable state such as current source hashes and running processes when necessary.
+
+Use docs/agent_handoff.md as the compact continuation entry point. Read targeted files thereafter, not whole directory trees or historical transcripts. Retain failed attempts and negative results. Existing evidence logs establish provenance, not independent empirical validity.

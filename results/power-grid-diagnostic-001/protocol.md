@@ -1,0 +1,9 @@
+# Predeclared power-grid diagnostic protocol — 28 October 2026
+
+This protocol is written before executing power-grid-diagnostic-001. The original power-grid-001 result and acceptance criteria remain unchanged and rejected. This new study is diagnostic and has no production-readiness pass condition.
+
+Run spacings 2.5, 1.25, 0.625, 0.3125 and 0.15625 m on the same 800 m path with constant 0.6 requested deployment. Use a factorial set of four arms: original corner caps with original 450000 J battery; original caps with 1e9 J battery to avoid depletion; constant 100 m/s caps with original battery; constant 100 m/s caps with 1e9 J battery. Reserve stays 50000 J. Vehicle parameters stay unchanged. All nodes include 400 and 800 m. Changing caps and battery is an explicit control intervention, not an alternative evaluation of the original scenario.
+
+Preserve per-cell trajectories and record elapsed time, energy draw, terminal speed, maximum absolute energy residual, minimum energy, maximum envelope exceedance, onset positions of braking/throttle modes and battery depletion. Quantify consecutive time differences and maximum speed/time/energy discrepancies at shared nodes. These are differences between numerical resolutions, not errors against exact truth. Record relative finest-pair time difference without retrospectively using it as an acceptance criterion.
+
+Hypothesis: cell-wide control switching or averaged depletion causes nonmonotone time increments. Compare the four arms to isolate these effects. If removing depletion improves the trend, that supports depletion involvement; if removing caps does, that supports braking/throttle-switch involvement. A smooth nondepleting arm should show cleaner refinement, but conclusions must follow actual output. No model modifications or new PPO runs occur in this diagnostic. Declare uncertainty if the factorial evidence does not isolate a cause.

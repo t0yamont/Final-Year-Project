@@ -1,0 +1,18 @@
+{
+  "outputs_sha256": {
+    "config.json": "ecdd68929283a09e02c8351dc69ec86f5dbd87c5defb74a8b59ec41b0cdc546c",
+    "environment-lock.txt": "8abca94fa7fa5bd0d5e0307e1bc1810fc8ae50f00872d737e04d07a0edd310d0",
+    "metrics.json": "026c24e2b5552cd865c47f9d29f030fb46f47f7909936b109e7d4396b2426e6f",
+    "ppo.zip": "578c67d9cc6910f6568f43a551c8fb3b9412dc45b98ebcbdc9ae996733767674",
+    "source-before-training.json": "f923b97fadb0149097c62003be41a634b01169cb08a8d0cc459ac384c9b87c12",
+    "validation-evidence.json": "0c4837c293758b1e1640c72673c0ae149e5e534b4bf76de92ec414aeee5cfb94",
+    "validation-manifest.json": "f52fc05c76e0260d73df8c2da3816f06c799e4e84ddf9a038ef3df66c3fd509c",
+    "logs\\progress.csv": "313996bdf29ccd1f9aaed2e892c7829006ee1f9b7e5b8c22144e7cda7c2fa38c"
+  },
+  "source_sha256": {
+    "scripts\\train_event_ppo.py": "ee5e2ba25abd4f5e5c6a9c7c8cb99f7cd0718e38fa0b1ec6291fe562f3519c4c",
+    "src\\f1energy\\event_rl.py": "fd29c99b069419bca67605482d37ca6818501035126a20ac6c32ef21a5411059",
+    "src\\f1energy\\event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763"
+  }
+}

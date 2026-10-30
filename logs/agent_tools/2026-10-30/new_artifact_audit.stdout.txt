@@ -1,0 +1,7 @@
+{"all_passed": true, "verified_outputs": 36, "runs": 4}
+results/event-baselines-001 runtime 3.3234841000230517
+nominal_development integration_delta_s 1.554422368599262e-09 max_residual_j 2.3283064365386963e-10
+new_predeclared_evaluation integration_delta_s 1.5339267633862619e-09 max_residual_j 9.313225746154785e-10
+four_segment_development integration_delta_s 3.569255113688996e-09 max_residual_j 2.3283064365386963e-10
+results/event-baselines-003 runtime 0.6437613999878522
+four_segment_development integration_delta_s 3.569255113688996e-09 max_residual_j 2.3283064365386963e-10

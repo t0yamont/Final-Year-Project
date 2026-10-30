@@ -1,0 +1,74 @@
+{
+  "seed": 0,
+  "requested_steps": 16384,
+  "device": "cpu",
+  "torch_threads": 1,
+  "n_steps": 256,
+  "batch_size": 64,
+  "n_epochs": 10,
+  "learning_rate": 0.0003,
+  "gamma": 1.0,
+  "net_arch": [
+    32,
+    32
+  ],
+  "scenarios": {
+    "training_nominal": {
+      "segments": [
+        {
+          "length_m": 180,
+          "exit_speed_cap_m_per_s": 25
+        },
+        {
+          "length_m": 300,
+          "exit_speed_cap_m_per_s": 20
+        },
+        {
+          "length_m": 120,
+          "exit_speed_cap_m_per_s": 30
+        },
+        {
+          "length_m": 260,
+          "exit_speed_cap_m_per_s": 20
+        }
+      ],
+      "mass_kg": 800.0,
+      "base_force_n": 1600.0,
+      "electrical_force_limit_n": 1200.0,
+      "braking_deceleration_m_per_s2": 8.0,
+      "discharge_efficiency": 0.9,
+      "initial_speed_m_per_s": 20.0,
+      "initial_energy_j": 450000.0,
+      "reserve_j": 50000.0
+    },
+    "heldout_mass_energy": {
+      "segments": [
+        {
+          "length_m": 180,
+          "exit_speed_cap_m_per_s": 25
+        },
+        {
+          "length_m": 300,
+          "exit_speed_cap_m_per_s": 20
+        },
+        {
+          "length_m": 120,
+          "exit_speed_cap_m_per_s": 30
+        },
+        {
+          "length_m": 260,
+          "exit_speed_cap_m_per_s": 20
+        }
+      ],
+      "mass_kg": 880.0,
+      "base_force_n": 1600.0,
+      "electrical_force_limit_n": 1200.0,
+      "braking_deceleration_m_per_s2": 8.0,
+      "discharge_efficiency": 0.9,
+      "initial_speed_m_per_s": 20.0,
+      "initial_energy_j": 350000.0,
+      "reserve_j": 50000.0
+    }
+  },
+  "interpretation": "Fixed synthetic track; held-out perturbation predeclared; single seed pilot, not F1 evidence."
+}

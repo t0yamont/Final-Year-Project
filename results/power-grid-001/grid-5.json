@@ -1,0 +1,4014 @@
+{
+  "summary": {
+    "spacing_m": 5.0,
+    "cells": 160,
+    "elapsed_s": 20.76813996817293,
+    "battery_draw_j": 400000.0,
+    "terminal_speed_m_per_s": 20.0,
+    "max_abs_energy_residual_j": 3.551576810423285e-10,
+    "max_envelope_excess_m_per_s": 0.0,
+    "min_energy_j": 50000.0
+  },
+  "trajectory": [
+    {
+      "position_m": 5.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 84.97058314499208,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 21.87353884286692,
+        "energy_j": 440447.42787322024,
+        "distance_m": 5.0,
+        "elapsed_s": 0.2388143031694939
+      },
+      "info": {
+        "duration_s": 0.2388143031694939,
+        "battery_draw_j": 9552.572126779756,
+        "electrical_work_j": 8597.31491410178,
+        "base_work_j": 23881.43031694939,
+        "drag_work_j": 1098.06462688801,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 31380.680604163193,
+        "energy_residual_j": 3.092281986027956e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 7.845170151040799,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 10.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 84.4985206971105,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 23.457222579609457,
+        "energy_j": 431623.3978448681,
+        "distance_m": 10.0,
+        "elapsed_s": 0.4594150538782983
+      },
+      "info": {
+        "duration_s": 0.22060075070880442,
+        "battery_draw_j": 8824.030028352177,
+        "electrical_work_j": 7941.627025516959,
+        "base_work_j": 22060.07507088044,
+        "drag_work_j": 1285.8662408246846,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 28715.83585557271,
+        "energy_residual_j": -4.547473508864641e-12,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 7.1789589638931774,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 15.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 84.02380615040008,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 24.839325529869228,
+        "energy_j": 423341.23243848584,
+        "distance_m": 15.0,
+        "elapsed_s": 0.6664691890378543
+      },
+      "info": {
+        "duration_s": 0.20705413515955604,
+        "battery_draw_j": 8282.16540638224,
+        "electrical_work_j": 7453.948865744017,
+        "base_work_j": 20705.413515955603,
+        "drag_work_j": 1459.0417299101912,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 26700.32065178939,
+        "energy_residual_j": -4.092726157978177e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 6.6750801629473475,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 20.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 83.54639429682175,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 26.07150343716269,
+        "energy_j": 415484.3578183726,
+        "distance_m": 20.0,
+        "elapsed_s": 0.8628910545406858
+      },
+      "info": {
+        "duration_s": 0.19642186550283147,
+        "battery_draw_j": 7856.874620113259,
+        "electrical_work_j": 7071.187158101933,
+        "base_work_j": 19642.186550283146,
+        "drag_work_j": 1620.8942303159988,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 25092.47947806907,
+        "energy_residual_j": -7.275957614183426e-12,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 6.273119869517268,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 25.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 83.0662386291808,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 27.186927657443867,
+        "energy_j": 407973.80987734423,
+        "distance_m": 25.0,
+        "elapsed_s": 1.0506547530663957
+      },
+      "info": {
+        "duration_s": 0.1877636985257099,
+        "battery_draw_j": 7510.547941028395,
+        "electrical_work_j": 6759.493146925556,
+        "base_work_j": 18776.36985257099,
+        "drag_work_j": 1773.5654086563404,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 23762.297590840128,
+        "energy_residual_j": -7.912603905424476e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 5.940574397710032,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 30.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 82.58329128825036,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 28.20832787863545,
+        "energy_j": 400752.9748775043,
+        "distance_m": 30.0,
+        "elapsed_s": 1.2311756280623947
+      },
+      "info": {
+        "duration_s": 0.18052087499599906,
+        "battery_draw_j": 7220.834999839963,
+        "electrical_work_j": 6498.751499855966,
+        "base_work_j": 18052.087499599907,
+        "drag_work_j": 1918.5484964496104,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 22632.290503006334,
+        "energy_residual_j": 7.003109203651547e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 5.658072625751584,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 35.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 82.09750300709521,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 29.152045944668934,
+        "energy_j": 393779.5196271571,
+        "distance_m": 35.0,
+        "elapsed_s": 1.4055120093210747
+      },
+      "info": {
+        "duration_s": 0.17433638125867998,
+        "battery_draw_j": 6973.455250347199,
+        "electrical_work_j": 6276.109725312479,
+        "base_work_j": 17433.638125867998,
+        "drag_work_j": 2056.939430585863,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 21652.808420594556,
+        "energy_residual_j": -5.820766091346741e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 5.413202105148639,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 40.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 81.6088230524127,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 30.03027532578603,
+        "energy_j": 387020.7445163929,
+        "distance_m": 40.0,
+        "elapsed_s": 1.574481387090179
+      },
+      "info": {
+        "duration_s": 0.16896937776910428,
+        "battery_draw_j": 6758.775110764172,
+        "electrical_work_j": 6082.897599687754,
+        "base_work_j": 16896.93777691043,
+        "drag_work_j": 2189.5740236282522,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 20790.2613529699,
+        "energy_residual_j": -3.092281986027956e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 5.197565338242475,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 45.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 81.11719916269303,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 30.852387108637267,
+        "energy_j": 380450.72960564814,
+        "distance_m": 45.0,
+        "elapsed_s": 1.7387317598587977
+      },
+      "info": {
+        "duration_s": 0.16425037276861862,
+        "battery_draw_j": 6570.014910744744,
+        "electrical_work_j": 5913.01341967027,
+        "base_work_j": 16425.03727686186,
+        "drag_work_j": 2317.1090330546504,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 20020.941663477515,
+        "energy_residual_j": 3.3651303965598345e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 5.005235415869379,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 50.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 80.62257748298553,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 31.625759057290402,
+        "energy_j": 374048.49099028186,
+        "distance_m": 50.0,
+        "elapsed_s": 1.8987877252429544
+      },
+      "info": {
+        "duration_s": 0.16005596538415667,
+        "battery_draw_j": 6402.238615366267,
+        "electrical_work_j": 5762.0147538296405,
+        "base_work_j": 16005.596538415668,
+        "drag_work_j": 2440.073032813741,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 19327.53825943155,
+        "energy_residual_j": -2.000888343900442e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 4.831884564857887,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 55.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 80.12490249604056,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 32.3563172881277,
+        "energy_j": 367796.7401430519,
+        "distance_m": 55.0,
+        "elapsed_s": 2.0550814964237034
+      },
+      "info": {
+        "duration_s": 0.15629377118074916,
+        "battery_draw_j": 6251.750847229967,
+        "electrical_work_j": 5626.57576250697,
+        "base_work_j": 15629.377118074917,
+        "drag_work_j": 2558.8998804997213,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 18697.053000082225,
+        "energy_residual_j": 5.911715561524034e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 4.674263250020556,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 60.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 79.62411694957757,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 33.04890327152917,
+        "energy_j": 361681.02037974715,
+        "distance_m": 60.0,
+        "elapsed_s": 2.2079744905063223
+      },
+      "info": {
+        "duration_s": 0.1528929940826189,
+        "battery_draw_j": 6115.719763304755,
+        "electrical_work_j": 5504.14778697428,
+        "base_work_j": 15289.299408261888,
+        "drag_work_j": 2673.9515948761036,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 18119.495600360005,
+        "energy_residual_j": -5.911715561524034e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 4.529873900090001,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 65.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 79.12016177940997,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 33.70753019641053,
+        "energy_j": 355689.0885280837,
+        "distance_m": 65.0,
+        "elapsed_s": 2.357772786797909
+      },
+      "info": {
+        "duration_s": 0.1497982962915863,
+        "battery_draw_j": 5991.931851663452,
+        "electrical_work_j": 5392.738666497107,
+        "base_work_j": 14979.82962915863,
+        "drag_work_j": 2785.5344992410246,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 17587.033796414562,
+        "energy_residual_j": -1.509761204943061e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 4.396758449103641,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 70.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 78.61297602813423,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 34.335566774965926,
+        "energy_j": 349810.4613373157,
+        "distance_m": 70.0,
+        "elapsed_s": 2.50473846656711
+      },
+      "info": {
+        "duration_s": 0.14696567976920097,
+        "battery_draw_j": 5878.627190768038,
+        "electrical_work_j": 5290.764471691235,
+        "base_work_j": 14696.567976920096,
+        "drag_work_j": 2893.9109221250897,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 17093.42152648651,
+        "energy_residual_j": 2.6921043172478676e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 4.273355381621627,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 75.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 78.10249675906658,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 34.93587202053027,
+        "energy_j": 344036.07571814465,
+        "distance_m": 75.0,
+        "elapsed_s": 2.649098107046386
+      },
+      "info": {
+        "duration_s": 0.14435964047927596,
+        "battery_draw_j": 5774.385619171038,
+        "electrical_work_j": 5196.947057253935,
+        "base_work_j": 14435.964047927597,
+        "drag_work_j": 2999.307874491267,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 16633.603230690187,
+        "energy_residual_j": -7.73070496506989e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 4.158400807672547,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 80.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 77.58865896508333,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 35.51089603291699,
+        "energy_j": 338358.0295699307,
+        "distance_m": 80.0,
+        "elapsed_s": 2.7910492607517354
+      },
+      "info": {
+        "duration_s": 0.14195115370534955,
+        "battery_draw_j": 5678.046148213982,
+        "electrical_work_j": 5110.241533392584,
+        "base_work_j": 14195.115370534955,
+        "drag_work_j": 3101.9236136193867,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 16203.433290308021,
+        "energy_residual_j": -1.3096723705530167e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 4.050858322577005,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 85.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 77.07139547199081,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 36.06275667684744,
+        "energy_j": 332769.38088628696,
+        "distance_m": 85.0,
+        "elapsed_s": 2.9307654778428294
+      },
+      "info": {
+        "duration_s": 0.13971621709109378,
+        "battery_draw_j": 5588.648683643751,
+        "electrical_work_j": 5029.783815279376,
+        "base_work_j": 13971.621709109377,
+        "drag_work_j": 3201.932695242681,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 15799.472829146089,
+        "energy_residual_j": 1.8189894035458565e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.949868207286522,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 90.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 76.55063683601858,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 36.59329881996183,
+        "energy_j": 327263.98980408645,
+        "distance_m": 90.0,
+        "elapsed_s": 3.0684002548978424
+      },
+      "info": {
+        "duration_s": 0.13763477705501306,
+        "battery_draw_j": 5505.391082200523,
+        "electrical_work_j": 4954.851973980471,
+        "base_work_j": 13763.477705501306,
+        "drag_work_j": 3299.489922075656,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 15418.839757406022,
+        "energy_residual_j": -9.822542779147625e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.8547099393515056,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 95.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 76.02631123499289,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 37.10414072768177,
+        "energy_j": 321836.39282846276,
+        "distance_m": 95.0,
+        "elapsed_s": 3.2040901792884346
+      },
+      "info": {
+        "duration_s": 0.13568992439059221,
+        "battery_draw_j": 5427.596975623689,
+        "electrical_work_j": 4884.83727806132,
+        "base_work_j": 13568.992439059222,
+        "drag_work_j": 3394.7334720832905,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 15059.096245037199,
+        "energy_residual_j": -5.184119800105691e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.7647740612593,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 100.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 75.49834435270753,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 37.59671084904714,
+        "energy_j": 316481.70152900496,
+        "distance_m": 100.0,
+        "elapsed_s": 3.33795746177488
+      },
+      "info": {
+        "duration_s": 0.13386728248644542,
+        "battery_draw_j": 5354.691299457817,
+        "electrical_work_j": 4819.222169512035,
+        "base_work_j": 13386.728248644542,
+        "drag_work_j": 3487.7874072580903,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 14718.16301089848,
+        "energy_residual_j": -9.094947017729282e-12,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.67954075272462,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 105.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 74.96665925596528,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 38.07227730972842,
+        "energy_j": 311195.52009942534,
+        "distance_m": 105.0,
+        "elapsed_s": 3.470111997514371
+      },
+      "info": {
+        "duration_s": 0.13215453573949065,
+        "battery_draw_j": 5286.181429579627,
+        "electrical_work_j": 4757.563286621664,
+        "base_work_j": 13215.453573949066,
+        "drag_work_j": 3578.763707769651,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 14394.253152800957,
+        "energy_residual_j": -1.2369127944111824e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.598563288200239,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 110.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 74.43117626371361,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 38.531971797994544,
+        "energy_j": 305973.87763625715,
+        "distance_m": 110.0,
+        "elapsed_s": 3.6006530590935757
+      },
+      "info": {
+        "duration_s": 0.1305410615792047,
+        "battery_draw_j": 5221.642463168188,
+        "electrical_work_j": 4699.478216851369,
+        "base_work_j": 13054.10615792047,
+        "drag_work_j": 3667.7639377378855,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 14085.820437034181,
+        "energy_residual_j": 2.2464519133791327e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.5214551092585453,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 115.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 73.8918128076447,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 38.976809088664496,
+        "energy_j": 300813.1720307217,
+        "distance_m": 115.0,
+        "elapsed_s": 3.7296706992319617
+      },
+      "info": {
+        "duration_s": 0.12901764013838618,
+        "battery_draw_j": 5160.705605535448,
+        "electrical_work_j": 4644.635044981903,
+        "base_work_j": 12901.764013838618,
+        "drag_work_j": 3754.880621719558,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 13791.518437100876,
+        "energy_residual_j": -8.822098607197404e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.447879609275219,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 120.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 73.34848328356902,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 39.407703136895265,
+        "energy_j": 295710.1231165566,
+        "distance_m": 120.0,
+        "elapsed_s": 3.857246922086088
+      },
+      "info": {
+        "duration_s": 0.12757622285412631,
+        "battery_draw_j": 5103.048914165053,
+        "electrical_work_j": 4592.744022748548,
+        "base_work_j": 12757.622285412632,
+        "drag_work_j": 3840.1983915748306,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 13510.167916586306,
+        "energy_residual_j": -4.18367562815547e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.3775419791465766,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 125.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 72.80109889280521,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 39.82548044782067,
+        "energy_j": 290661.7332639348,
+        "distance_m": 125.0,
+        "elapsed_s": 3.983456668401633
+      },
+      "info": {
+        "duration_s": 0.12620974631554496,
+        "battery_draw_j": 5048.389852621798,
+        "electrical_work_j": 4543.550867359619,
+        "base_work_j": 12620.974631554496,
+        "drag_work_j": 3923.7949492817643,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 13240.730549632553,
+        "energy_residual_j": 2.02817318495363e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.3101826374081385,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 130.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 72.24956747275381,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 40.2308912629794,
+        "energy_j": 285665.2540149753,
+        "distance_m": 130.0,
+        "elapsed_s": 4.10836864962562
+      },
+      "info": {
+        "duration_s": 0.12491198122398722,
+        "battery_draw_j": 4996.479248959488,
+        "electrical_work_j": 4496.83132406354,
+        "base_work_j": 12491.198122398722,
+        "drag_work_j": 4005.741880891773,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 12982.287565570277,
+        "energy_residual_j": -2.128217602148652e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.2455718913925695,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 135.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 71.69379331573973,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 40.62461898229647,
+        "energy_j": 280718.157660174,
+        "distance_m": 135.0,
+        "elapsed_s": 4.232046058495652
+      },
+      "info": {
+        "duration_s": 0.12367740887003145,
+        "battery_draw_j": 4947.096354801259,
+        "electrical_work_j": 4452.386719321133,
+        "base_work_j": 12367.740887003145,
+        "drag_work_j": 4086.105349088043,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 12734.02225723621,
+        "energy_residual_j": -2.2737367544323206e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.1835055643090526,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 140.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 71.133676975115,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 41.00728814891451,
+        "energy_j": 275818.1128853158,
+        "distance_m": 140.0,
+        "elapsed_s": 4.354547177867107
+      },
+      "info": {
+        "duration_s": 0.12250111937145494,
+        "battery_draw_j": 4900.044774858197,
+        "electrical_work_j": 4410.040297372378,
+        "base_work_j": 12250.111937145493,
+        "drag_work_j": 4164.946685981084,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 12495.205548536796,
+        "energy_residual_j": 1.0913936421275139e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.123801387134199,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 145.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 70.56911505750944,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 41.37947125496113,
+        "energy_j": 270962.9637946819,
+        "distance_m": 145.0,
+        "elapsed_s": 4.4759259051329545
+      },
+      "info": {
+        "duration_s": 0.12137872726584728,
+        "battery_draw_j": 4855.14909063389,
+        "electrical_work_j": 4369.634181570502,
+        "base_work_j": 12137.872726584728,
+        "drag_work_j": 4242.322903335324,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 12265.184004820003,
+        "energy_residual_j": 9.640643838793039e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.066296001205001,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 150.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 70.00000000000003,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 41.74169457344833,
+        "energy_j": 266150.7117525758,
+        "distance_m": 150.0,
+        "elapsed_s": 4.596232206185606
+      },
+      "info": {
+        "duration_s": 0.12030630105265154,
+        "battery_draw_j": 4812.252042106061,
+        "electrical_work_j": 4331.026837895455,
+        "base_work_j": 12030.630105265154,
+        "drag_work_j": 4318.287134004,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 12043.369809156411,
+        "energy_residual_j": -1.9826984498649836e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.010842452289103,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 155.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 69.42621983083916,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 42.09444318070898,
+        "energy_j": 261379.49959138385,
+        "distance_m": 155.0,
+        "elapsed_s": 4.715512510215405
+      },
+      "info": {
+        "duration_s": 0.11928030402979907,
+        "battery_draw_j": 4771.212161191963,
+        "electrical_work_j": 4294.090945072767,
+        "base_work_j": 11928.030402979906,
+        "drag_work_j": 4392.889015696228,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 11829.232332356423,
+        "energy_residual_j": -2.1827872842550278e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.9573080830891056,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 160.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 68.84765791223406,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 42.43816530204353,
+        "energy_j": 256647.5978178616,
+        "distance_m": 160.0,
+        "elapsed_s": 4.833810054553462
+      },
+      "info": {
+        "duration_s": 0.11829754433805667,
+        "battery_draw_j": 4731.901773522267,
+        "electrical_work_j": 4258.71159617004,
+        "base_work_j": 11829.754433805667,
+        "drag_work_j": 4466.175026121885,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 11622.291003853934,
+        "energy_residual_j": 1.1095835361629725e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.9055727509634837,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 165.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 68.26419266350408,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 42.773276088367055,
+        "energy_j": 251953.39251546175,
+        "distance_m": 165.0,
+        "elapsed_s": 4.9511651871134585
+      },
+      "info": {
+        "duration_s": 0.11735513255999643,
+        "battery_draw_j": 4694.205302399857,
+        "electrical_work_j": 4224.784772159871,
+        "base_work_j": 11735.513255999642,
+        "drag_work_j": 4538.188776919055,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 11422.109251240545,
+        "energy_residual_j": 8.640199666842818e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.8555273128101364,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 170.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 67.67569726275455,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 43.100160911986094,
+        "energy_j": 247295.3746932759,
+        "distance_m": 170.0,
+        "elapsed_s": 5.067615632668105
+      },
+      "info": {
+        "duration_s": 0.1164504455546466,
+        "battery_draw_j": 4658.017822185864,
+        "electrical_work_j": 4192.2160399672775,
+        "base_work_j": 11645.044555464661,
+        "drag_work_j": 4608.971272463458,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 11228.289322968521,
+        "energy_residual_j": 4.18367562815547e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.8070723307421304,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 175.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 67.08203932499372,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 43.41917825399041,
+        "energy_j": 242672.1308745425,
+        "distance_m": 175.0,
+        "elapsed_s": 5.183196728136441
+      },
+      "info": {
+        "duration_s": 0.11558109546833517,
+        "battery_draw_j": 4623.243818733407,
+        "electrical_work_j": 4160.9194368600665,
+        "base_work_j": 11558.109546833517,
+        "drag_work_j": 4678.56113861361,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 11040.46784507982,
+        "energy_residual_j": -1.5370460459962487e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.760116961269955,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 180.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 66.48308055437867,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 43.73066224321282,
+        "energy_j": 238082.33475193413,
+        "distance_m": 180.0,
+        "elapsed_s": 5.29794163120165
+      },
+      "info": {
+        "duration_s": 0.11474490306520889,
+        "battery_draw_j": 4589.796122608356,
+        "electrical_work_j": 4130.81651034752,
+        "base_work_j": 11474.49030652089,
+        "drag_work_j": 4746.994825602191,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 10858.311991266237,
+        "energy_residual_j": 1.8189894035458565e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.7145779978165594,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 185.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 65.87867636800244,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 44.03492489660836,
+        "energy_j": 233524.73976470125,
+        "distance_m": 185.0,
+        "elapsed_s": 5.411881505882472
+      },
+      "info": {
+        "duration_s": 0.11393987468082213,
+        "battery_draw_j": 4557.594987232886,
+        "electrical_work_j": 4101.835488509597,
+        "base_work_j": 11393.987468082214,
+        "drag_work_j": 4814.306788599872,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 10681.516167991776,
+        "energy_residual_j": -1.6279955161735415e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.6703790419979443,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 190.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 65.26867548832291,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 44.33225810271236,
+        "energy_j": 228998.17247554057,
+        "distance_m": 190.0,
+        "elapsed_s": 5.525045688111489
+      },
+      "info": {
+        "duration_s": 0.11316418222901674,
+        "battery_draw_j": 4526.567289160669,
+        "electrical_work_j": 4073.9105602446025,
+        "base_work_j": 11316.418222901673,
+        "drag_work_j": 4880.529648919305,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 10509.799134226796,
+        "energy_residual_j": -1.737134880386293e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.627449783556699,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 195.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 64.65291950097848,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 44.6229353831568,
+        "energy_j": 224501.52664379898,
+        "distance_m": 195.0,
+        "elapsed_s": 5.637461833905029
+      },
+      "info": {
+        "duration_s": 0.1124161457935397,
+        "battery_draw_j": 4496.645831741588,
+        "electrical_work_j": 4046.9812485674292,
+        "base_work_j": 11241.61457935397,
+        "drag_work_j": 4945.694338368616,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 10342.901489552605,
+        "energy_residual_j": -1.7917045624926686e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.5857253723881515,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 200.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 64.03124237432851,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 44.90721346174793,
+        "energy_j": 220033.7579071142,
+        "distance_m": 200.0,
+        "elapsed_s": 5.749156052322148
+      },
+      "info": {
+        "duration_s": 0.1116942184171194,
+        "battery_draw_j": 4467.768736684777,
+        "electrical_work_j": 4020.991863016299,
+        "base_work_j": 11169.421841711941,
+        "drag_work_j": 5009.830228885477,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 10180.583475842923,
+        "energy_residual_j": 1.5870682545937598e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.5451458689607307,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 205.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 63.40346993658945,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 45.18533366609546,
+        "energy_j": 215593.87899646035,
+        "distance_m": 205.0,
+        "elapsed_s": 5.860153025088494
+      },
+      "info": {
+        "duration_s": 0.11099697276634626,
+        "battery_draw_j": 4439.878910653851,
+        "electrical_work_j": 3995.8910195884655,
+        "base_work_j": 11099.697276634626,
+        "drag_work_j": 5072.965249269218,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 10022.62304695414,
+        "energy_residual_j": 2.673914423212409e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.5056557617385353,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 210.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 62.76941930590088,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 45.457523183047655,
+        "energy_j": 211180.95542030124,
+        "distance_m": 210.0,
+        "elapsed_s": 5.970476114492472
+      },
+      "info": {
+        "duration_s": 0.11032308940397804,
+        "battery_draw_j": 4412.923576159122,
+        "electrical_work_j": 3971.63121854321,
+        "base_work_j": 11032.308940397805,
+        "drag_work_j": 5135.1259905671195,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 9868.814168374047,
+        "energy_residual_j": 1.5188561519607902e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.467203542093512,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 215.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 62.12889826803629,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 45.72399618607896,
+        "energy_j": 206794.1015625508,
+        "distance_m": 215.0,
+        "elapsed_s": 6.080147460936233
+      },
+      "info": {
+        "duration_s": 0.10967134644376111,
+        "battery_draw_j": 4386.853857750445,
+        "electrical_work_j": 3948.1684719754003,
+        "base_work_j": 10967.134644376112,
+        "drag_work_j": 5196.337801452348,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 9718.96531489947,
+        "energy_residual_j": 3.0468072509393096e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.4297413287248673,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 220.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 61.48170459575761,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 45.98495485018101,
+        "energy_j": 202432.47714661076,
+        "distance_m": 220.0,
+        "elapsed_s": 6.189188071334734
+      },
+      "info": {
+        "duration_s": 0.10904061039850069,
+        "battery_draw_j": 4361.624415940028,
+        "electrical_work_j": 3925.461974346025,
+        "base_work_j": 10904.061039850068,
+        "drag_work_j": 5256.624874747187,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 9572.89813944899,
+        "energy_residual_j": 8.321876521222293e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.3932245348622474,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 225.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 60.82762530298222,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 46.24059026763025,
+        "energy_j": 198095.2840241518,
+        "distance_m": 225.0,
+        "elapsed_s": 6.297617899396208
+      },
+      "info": {
+        "duration_s": 0.10842982806147412,
+        "battery_draw_j": 4337.193122458965,
+        "electrical_work_j": 3903.4738102130686,
+        "base_work_j": 10842.982806147413,
+        "drag_work_j": 5316.01032609006,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 9430.446290270265,
+        "energy_residual_j": -1.5643308870494366e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.357611572567566,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 230.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 60.166435825965316,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 46.49108327617161,
+        "energy_j": 193781.76325272885,
+        "distance_m": 230.0,
+        "elapsed_s": 6.405455918681781
+      },
+      "info": {
+        "duration_s": 0.10783801928557338,
+        "battery_draw_j": 4313.520771422935,
+        "electrical_work_j": 3882.1686942806414,
+        "base_work_j": 10783.801928557337,
+        "drag_work_j": 5374.516265613482,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 9291.454357224575,
+        "energy_residual_j": 7.776179700158536e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.322863589306144,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 235.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 59.49789912257409,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 46.736605209607035,
+        "energy_j": 189491.19243093894,
+        "distance_m": 235.0,
+        "elapsed_s": 6.5127201892265285
+      },
+      "info": {
+        "duration_s": 0.10726427054474748,
+        "battery_draw_j": 4290.570821789899,
+        "electrical_work_j": 3861.5137396109094,
+        "base_work_j": 10726.427054474747,
+        "drag_work_j": 5432.163863388239,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 9155.77693069772,
+        "energy_residual_j": 3.0377123039215803e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.2889442326744303,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 240.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 58.82176467941099,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 46.97731857946286,
+        "energy_j": 185222.88326377276,
+        "distance_m": 240.0,
+        "elapsed_s": 6.619427918405683
+      },
+      "info": {
+        "duration_s": 0.10670772917915455,
+        "battery_draw_j": 4268.309167166182,
+        "electrical_work_j": 3841.478250449564,
+        "base_work_j": 10670.772917915456,
+        "drag_work_j": 5488.973409293767,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 9023.277759071607,
+        "energy_residual_j": 3.5424818634055555e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.255819439767902,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 245.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 58.13776741499455,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 47.21337769528945,
+        "energy_j": 180976.17933419134,
+        "distance_m": 245.0,
+        "elapsed_s": 6.725595516645218
+      },
+      "info": {
+        "duration_s": 0.10616759823953532,
+        "battery_draw_j": 4246.703929581413,
+        "electrical_work_j": 3822.0335366232716,
+        "base_work_j": 10616.759823953533,
+        "drag_work_j": 5544.964367893003,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 8893.828992683666,
+        "energy_residual_j": -1.3415046851150692e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.2234572481709165,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 250.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 57.4456264653803,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 47.444929230190496,
+        "energy_j": 176750.45405986437,
+        "distance_m": 250.0,
+        "elapsed_s": 6.831238648503392
+      },
+      "info": {
+        "duration_s": 0.10564313185817417,
+        "battery_draw_j": 4225.725274326966,
+        "electrical_work_j": 3803.15274689427,
+        "base_work_j": 10564.313185817417,
+        "drag_work_j": 5600.1554288198,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 8767.310503891531,
+        "energy_residual_j": -3.551576810423285e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.191827625972883,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 255.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 56.745043836444445,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 47.67211273735899,
+        "energy_j": 172545.1088165118,
+        "distance_m": 255.0,
+        "elapsed_s": 6.936372279587206
+      },
+      "info": {
+        "duration_s": 0.10513363108381399,
+        "battery_draw_j": 4205.34524335256,
+        "electrical_work_j": 3784.8107190173037,
+        "base_work_j": 10513.363108381398,
+        "drag_work_j": 5654.564553126562,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 8643.60927427224,
+        "energy_residual_j": 9.958966984413564e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.16090231856806,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 260.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 56.035702904487614,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 47.89506112269257,
+        "energy_j": 168359.5712114576,
+        "distance_m": 260.0,
+        "elapsed_s": 7.041010719713562
+      },
+      "info": {
+        "duration_s": 0.10463844012635538,
+        "battery_draw_j": 4185.537605054215,
+        "electrical_work_j": 3766.983844548794,
+        "base_work_j": 10463.844012635538,
+        "drag_work_j": 5708.209015987402,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 8522.618841196709,
+        "energy_residual_j": -2.2100721253082156e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.130654710299177,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 265.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 55.31726674375734,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 48.11390107795326,
+        "energy_j": 164193.29349288324,
+        "distance_m": 265.0,
+        "elapsed_s": 7.145167662677921
+      },
+      "info": {
+        "duration_s": 0.10415694296435934,
+        "battery_draw_j": 4166.2777185743735,
+        "electrical_work_j": 3749.6499467169365,
+        "base_work_j": 10415.694296435935,
+        "drag_work_j": 5761.105446106911,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 8404.238797045946,
+        "energy_residual_j": -1.5006662579253316e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.1010596992614863,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 270.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 54.58937625582473,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 48.328753478411144,
+        "energy_j": 160045.7510819034,
+        "distance_m": 270.0,
+        "elapsed_s": 7.248856222952417
+      },
+      "info": {
+        "duration_s": 0.10368856027449613,
+        "battery_draw_j": 4147.542410979845,
+        "electrical_work_j": 3732.788169881861,
+        "base_work_j": 10368.856027449614,
+        "drag_work_j": 5813.269862145136,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 8288.3743351862,
+        "energy_residual_j": -1.3915268937125802e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.07209358379655,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 275.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 53.851648071345046,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 48.5397337484564,
+        "energy_j": 155916.44121601077,
+        "distance_m": 275.0,
+        "elapsed_s": 7.352088969599733
+      },
+      "info": {
+        "duration_s": 0.10323274664731617,
+        "battery_draw_j": 4129.3098658926465,
+        "electrical_work_j": 3716.3788793033823,
+        "base_work_j": 10323.274664731618,
+        "drag_work_j": 5864.717706435093,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 8174.935837599878,
+        "energy_residual_j": -2.955857780762017e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.0437339593999697,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 280.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 53.10367218940702,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 48.74695219826803,
+        "energy_j": 151804.88169368266,
+        "distance_m": 280.0,
+        "elapsed_s": 7.454877957657936
+      },
+      "info": {
+        "duration_s": 0.10278898805820297,
+        "battery_draw_j": 4111.559522328119,
+        "electrical_work_j": 3700.403570095307,
+        "base_work_j": 10278.898805820298,
+        "drag_work_j": 5915.463876239082,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 8063.8384996766035,
+        "energy_residual_j": 8.139977580867708e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.0159596249191507,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 285.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 52.34500931320961,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 48.950514334282886,
+        "energy_j": 147710.6097110338,
+        "distance_m": 285.0,
+        "elapsed_s": 7.557234757224158
+      },
+      "info": {
+        "duration_s": 0.10235679956622204,
+        "battery_draw_j": 4094.2719826488815,
+        "electrical_work_j": 3684.8447843839936,
+        "base_work_j": 10235.679956622203,
+        "drag_work_j": 5965.522752763828,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 7955.001988242293,
+        "energy_residual_j": -7.685230229981244e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.9887504970605732,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 290.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 51.575187832910515,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 49.15052114590701,
+        "energy_j": 143633.18078235775,
+        "distance_m": 290.0,
+        "elapsed_s": 7.659170480441059
+      },
+      "info": {
+        "duration_s": 0.10193572321690078,
+        "battery_draw_j": 4077.4289286760313,
+        "electrical_work_j": 3669.686035808428,
+        "base_work_j": 10193.572321690079,
+        "drag_work_j": 6014.908228131358,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 7848.3501293671,
+        "energy_residual_j": -5.047695594839752e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.962087532341775,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 295.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 50.793700396801185,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 49.347069370647674,
+        "energy_j": 139572.16773724402,
+        "distance_m": 295.0,
+        "elapsed_s": 7.7606958065689025
+      },
+      "info": {
+        "duration_s": 0.10152532612784351,
+        "battery_draw_j": 4061.0130451137406,
+        "electrical_work_j": 3654.9117406023665,
+        "base_work_j": 10152.532612784351,
+        "drag_work_j": 6063.633730482206,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 7743.810622904675,
+        "energy_residual_j": 1.6416379367001355e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.9359526557261688,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 300.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 50.00000000000001,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 49.54025173961274,
+        "energy_j": 135527.15978770115,
+        "distance_m": 300.0,
+        "elapsed_s": 7.8618210053074735
+      },
+      "info": {
+        "duration_s": 0.10112519873857129,
+        "battery_draw_j": 4045.0079495428513,
+        "electrical_work_j": 3640.507154588566,
+        "base_work_j": 10112.519873857129,
+        "drag_work_j": 6111.712247369646,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 7641.314781075926,
+        "energy_residual_j": -1.2232703738845885e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.9103286952689813,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 305.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 49.19349550499538,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 49.19349550499538,
+        "energy_j": 135527.15978770115,
+        "distance_m": 305.0,
+        "elapsed_s": 7.9631034976575865
+      },
+      "info": {
+        "duration_s": 0.10128249235011287,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 6092.795678030256,
+        "friction_braking_work_j": 7601.821291650755,
+        "kinetic_change_j": -13694.61696968101,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -3.4236542424202527,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 310.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 48.37354648979131,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 48.37354648979131,
+        "energy_j": 135527.15978770115,
+        "distance_m": 310.0,
+        "elapsed_s": 8.065597124558096
+      },
+      "info": {
+        "duration_s": 0.10249362690050941,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 5950.000000000002,
+        "friction_braking_work_j": 26050.0,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 315.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 47.53945729601886,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 47.53945729601886,
+        "energy_j": 135527.15978770115,
+        "distance_m": 315.0,
+        "elapsed_s": 8.169858273779651
+      },
+      "info": {
+        "duration_s": 0.1042611492215558,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 5750.000000000002,
+        "friction_braking_work_j": 26250.0,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 320.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 46.690470119715016,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 46.690470119715016,
+        "energy_j": 135527.15978770115,
+        "distance_m": 320.0,
+        "elapsed_s": 8.27598167081763
+      },
+      "info": {
+        "duration_s": 0.1061233970379804,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 5550.000000000002,
+        "friction_braking_work_j": 26450.0,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 325.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 45.82575694955841,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 45.82575694955841,
+        "energy_j": 135527.15978770115,
+        "distance_m": 325.0,
+        "elapsed_s": 8.384070817087206
+      },
+      "info": {
+        "duration_s": 0.10808914626957598,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 5350.000000000002,
+        "friction_braking_work_j": 26650.0,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 330.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 44.944410108488476,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 44.944410108488476,
+        "energy_j": 135527.15978770115,
+        "distance_m": 330.0,
+        "elapsed_s": 8.494239172220949
+      },
+      "info": {
+        "duration_s": 0.110168355133742,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 5150.000000000002,
+        "friction_braking_work_j": 26849.999999999905,
+        "kinetic_change_j": -31999.99999999991,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -7.999999999999977,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 335.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 44.04543109109049,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 44.04543109109049,
+        "energy_j": 135527.15978770115,
+        "distance_m": 335.0,
+        "elapsed_s": 8.606611549395696
+      },
+      "info": {
+        "duration_s": 0.11237237717474782,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 4950.000000000002,
+        "friction_braking_work_j": 27050.000000000087,
+        "kinetic_change_j": -32000.00000000009,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.000000000000023,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 340.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 43.12771730569566,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 43.12771730569566,
+        "energy_j": 135527.15978770115,
+        "distance_m": 340.0,
+        "elapsed_s": 8.72132577257005
+      },
+      "info": {
+        "duration_s": 0.11471422317435391,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 4750.000000000002,
+        "friction_braking_work_j": 27249.999999999905,
+        "kinetic_change_j": -31999.99999999991,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -7.999999999999977,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 345.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 42.19004621945798,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 42.19004621945798,
+        "energy_j": 135527.15978770115,
+        "distance_m": 345.0,
+        "elapsed_s": 8.83853465834976
+      },
+      "info": {
+        "duration_s": 0.1172088857797095,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 4550.000000000002,
+        "friction_braking_work_j": 27450.000000000087,
+        "kinetic_change_j": -32000.00000000009,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.000000000000023,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 350.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 41.231056256176615,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 41.231056256176615,
+        "energy_j": 135527.15978770115,
+        "distance_m": 350.0,
+        "elapsed_s": 8.95840840375993
+      },
+      "info": {
+        "duration_s": 0.11987374541017091,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 4350.000000000002,
+        "friction_braking_work_j": 27650.000000000087,
+        "kinetic_change_j": -32000.00000000009,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.000000000000023,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 355.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 40.249223594996224,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 40.249223594996224,
+        "energy_j": 135527.15978770115,
+        "distance_m": 355.0,
+        "elapsed_s": 9.08113748640748
+      },
+      "info": {
+        "duration_s": 0.12272908264754884,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 4150.000000000002,
+        "friction_braking_work_j": 27850.0,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 360.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 39.24283374069717,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 39.24283374069717,
+        "energy_j": 135527.15978770115,
+        "distance_m": 360.0,
+        "elapsed_s": 9.20693621819486
+      },
+      "info": {
+        "duration_s": 0.1257987317873809,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 3950.000000000001,
+        "friction_braking_work_j": 28050.00000000009,
+        "kinetic_change_j": -32000.00000000009,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.000000000000023,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 365.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 38.209946349085605,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 38.209946349085605,
+        "energy_j": 135527.15978770115,
+        "distance_m": 365.0,
+        "elapsed_s": 9.336047142146306
+      },
+      "info": {
+        "duration_s": 0.1291109239514458,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 3750.000000000001,
+        "friction_braking_work_j": 28250.0,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 370.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 37.148351242013426,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 37.148351242013426,
+        "energy_j": 135527.15978770115,
+        "distance_m": 370.0,
+        "elapsed_s": 9.468746530530328
+      },
+      "info": {
+        "duration_s": 0.13269938838402254,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 3550.000000000001,
+        "friction_braking_work_j": 28450.0,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 375.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 36.0555127546399,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 36.0555127546399,
+        "energy_j": 135527.15978770115,
+        "distance_m": 375.0,
+        "elapsed_s": 9.60535134145202
+      },
+      "info": {
+        "duration_s": 0.13660481092169086,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 3350.000000000001,
+        "friction_braking_work_j": 28650.0,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 380.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 34.928498393145965,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 34.928498393145965,
+        "energy_j": 135527.15978770115,
+        "distance_m": 380.0,
+        "elapsed_s": 9.746228136638761
+      },
+      "info": {
+        "duration_s": 0.14087679518674143,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 3150.000000000001,
+        "friction_braking_work_j": 28850.00000000009,
+        "kinetic_change_j": -32000.00000000009,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.000000000000023,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 385.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 33.76388603226827,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 33.76388603226827,
+        "energy_j": 135527.15978770115,
+        "distance_m": 385.0,
+        "elapsed_s": 9.891804681748473
+      },
+      "info": {
+        "duration_s": 0.1455765451097121,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 2950.0000000000005,
+        "friction_braking_work_j": 29050.0,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 390.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 32.55764119219941,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 32.55764119219941,
+        "energy_j": 135527.15978770115,
+        "distance_m": 390.0,
+        "elapsed_s": 10.04258528675708
+      },
+      "info": {
+        "duration_s": 0.15078060500860646,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 2750.0,
+        "friction_braking_work_j": 29250.00000000009,
+        "kinetic_change_j": -32000.00000000009,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.000000000000023,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 395.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 31.304951684997057,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 31.304951684997057,
+        "energy_j": 135527.15978770115,
+        "distance_m": 395.0,
+        "elapsed_s": 10.199171475157375
+      },
+      "info": {
+        "duration_s": 0.15658618840029462,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 2550.0,
+        "friction_braking_work_j": 29449.999999999956,
+        "kinetic_change_j": -31999.999999999956,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -7.9999999999999885,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 400.0,
+      "cap_m_per_s": 30.0,
+      "envelope_m_per_s": 30.0,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 30.0,
+        "energy_j": 135527.15978770115,
+        "distance_m": 400.0,
+        "elapsed_s": 10.362290435782006
+      },
+      "info": {
+        "duration_s": 0.16311896062463196,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 2350.0,
+        "friction_braking_work_j": 29650.000000000044,
+        "kinetic_change_j": -32000.000000000044,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.00000000000001,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 405.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 81.9756061276768,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 30.823974337682856,
+        "energy_j": 128950.80557284373,
+        "distance_m": 405.0,
+        "elapsed_s": 10.526699291153442
+      },
+      "info": {
+        "duration_s": 0.16440885537143543,
+        "battery_draw_j": 6576.354214857418,
+        "electrical_work_j": 5918.718793371676,
+        "base_work_j": 16440.885537143542,
+        "drag_work_j": 2312.646742462664,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 20046.957588052508,
+        "energy_residual_j": -4.547473508864641e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 5.011739397013128,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 410.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 81.48619514985346,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 31.59897354008843,
+        "energy_j": 122542.90569629145,
+        "distance_m": 410.0,
+        "elapsed_s": 10.686896788067248
+      },
+      "info": {
+        "duration_s": 0.160197496913807,
+        "battery_draw_j": 6407.899876552279,
+        "electrical_work_j": 5767.109888897052,
+        "base_work_j": 16019.749691380699,
+        "drag_work_j": 2435.765653446675,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 19351.09392683098,
+        "energy_residual_j": -9.640643838793039e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 4.837773481707745,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 415.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 80.99382692526636,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 32.330968327336294,
+        "energy_j": 116286.05658434475,
+        "distance_m": 415.0,
+        "elapsed_s": 10.843318015865915
+      },
+      "info": {
+        "duration_s": 0.1564212277986673,
+        "battery_draw_j": 6256.849111946691,
+        "electrical_work_j": 5631.164200752022,
+        "base_work_j": 15642.12277986673,
+        "drag_work_j": 2554.733302213039,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 18718.55367840558,
+        "energy_residual_j": -1.3096723705530167e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 4.679638419601394,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 420.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 80.49844718999245,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 33.0248338850913,
+        "energy_j": 110165.7124609589,
+        "distance_m": 420.0,
+        "elapsed_s": 10.996326618950562
+      },
+      "info": {
+        "duration_s": 0.1530086030846466,
+        "battery_draw_j": 6120.344123385864,
+        "electrical_work_j": 5508.309711047277,
+        "base_work_j": 15300.860308464658,
+        "drag_work_j": 2669.9139576513708,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 18139.25606186067,
+        "energy_residual_j": 1.0368239600211382e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 4.534814015465168,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 425.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 80.00000000000001,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 33.684609404638294,
+        "energy_j": 104169.5598883353,
+        "distance_m": 425.0,
+        "elapsed_s": 11.146230433266151
+      },
+      "info": {
+        "duration_s": 0.1499038143155899,
+        "battery_draw_j": 5996.152572623597,
+        "electrical_work_j": 5396.537315361237,
+        "base_work_j": 14990.381431558992,
+        "drag_work_j": 2781.6157048511513,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 17605.303042068954,
+        "energy_residual_j": -1.227817847393453e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 4.4013257605172385,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 430.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 79.49842765740718,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 34.31368400407435,
+        "energy_j": 98287.0593144496,
+        "distance_m": 430.0,
+        "elapsed_s": 11.293292947613294
+      },
+      "info": {
+        "duration_s": 0.14706251434714238,
+        "battery_draw_j": 5882.500573885694,
+        "electrical_work_j": 5294.250516497125,
+        "base_work_j": 14706.251434714237,
+        "drag_work_j": 2890.1022758431427,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 17110.399675368353,
+        "energy_residual_j": 1.3369572116062045e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 4.277599918842088,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 435.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 78.993670632526,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 34.91493295614535,
+        "energy_j": 92509.10190949596,
+        "distance_m": 435.0,
+        "elapsed_s": 11.437741882737134
+      },
+      "info": {
+        "duration_s": 0.1444489351238408,
+        "battery_draw_j": 5777.957404953632,
+        "electrical_work_j": 5200.161664458269,
+        "base_work_j": 14444.89351238408,
+        "drag_work_j": 2995.6018165794903,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 16649.45336026285,
+        "energy_residual_j": -1.000444171950221e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 4.1623633400657125,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 440.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 78.48566748139434,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 35.490819491090306,
+        "energy_j": 86827.7479562125,
+        "distance_m": 440.0,
+        "elapsed_s": 11.579775731569221
+      },
+      "info": {
+        "duration_s": 0.1420338488320869,
+        "battery_draw_j": 5681.353953283476,
+        "electrical_work_j": 5113.218557955128,
+        "base_work_j": 14203.38488320869,
+        "drag_work_j": 3098.3135143516006,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 16218.289926812304,
+        "energy_residual_j": 8.731149137020111e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 4.054572481703076,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 445.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 77.97435475847172,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 36.043472204331124,
+        "energy_j": 81236.02417563577,
+        "distance_m": 445.0,
+        "elapsed_s": 11.71956882608364
+      },
+      "info": {
+        "duration_s": 0.13979309451441807,
+        "battery_draw_j": 5591.723780576723,
+        "electrical_work_j": 5032.5514025190505,
+        "base_work_j": 13979.309451441806,
+        "drag_work_j": 3198.412695866932,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 15813.448158093888,
+        "energy_residual_j": -3.54702933691442e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.953362039523472,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 450.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 77.45966692414835,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 36.57474482702928,
+        "energy_j": 75727.76445304773,
+        "distance_m": 450.0,
+        "elapsed_s": 11.857275319148341
+      },
+      "info": {
+        "duration_s": 0.13770649306470123,
+        "battery_draw_j": 5508.259722588049,
+        "electrical_work_j": 4957.4337503292445,
+        "base_work_j": 13770.649306470123,
+        "drag_work_j": 3296.054809633369,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 15432.028247165908,
+        "energy_residual_j": -8.913048077374697e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.858007061791477,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 455.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 76.94153624668539,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 37.08626301639569,
+        "energy_j": 70297.48306387305,
+        "distance_m": 455.0,
+        "elapsed_s": 11.993032353877707
+      },
+      "info": {
+        "duration_s": 0.13575703472936676,
+        "battery_draw_j": 5430.28138917467,
+        "electrical_work_j": 4887.253250257203,
+        "base_work_j": 13575.703472936677,
+        "drag_work_j": 3391.3785796044795,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 15071.578143589522,
+        "energy_residual_j": 1.2187229003757238e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.7678945358973808,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 460.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 76.41989269817121,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 37.57946143961318,
+        "energy_j": 64940.27260466603,
+        "distance_m": 460.0,
+        "elapsed_s": 12.126962615357883
+      },
+      "info": {
+        "duration_s": 0.13393026148017545,
+        "battery_draw_j": 5357.210459207018,
+        "electrical_work_j": 4821.489413286316,
+        "base_work_j": 13393.026148017545,
+        "drag_work_j": 3484.5085332658164,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 14730.007028038108,
+        "energy_residual_j": 6.275513442233205e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.682501757009527,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 465.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 75.89466384404112,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 38.0556134946124,
+        "energy_j": 59651.72095917812,
+        "distance_m": 465.0,
+        "elapsed_s": 12.259176406495081
+      },
+      "info": {
+        "duration_s": 0.13221379113719772,
+        "battery_draw_j": 5288.551645487909,
+        "electrical_work_j": 4759.696480939118,
+        "base_work_j": 13221.379113719773,
+        "drag_work_j": 3575.557050678375,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 14405.518543980634,
+        "energy_residual_j": 1.1550582712516189e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.6013796359951584,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 470.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 75.36577472566711,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 38.51585537222773,
+        "energy_j": 54427.84311120826,
+        "distance_m": 470.0,
+        "elapsed_s": 12.389773352694327
+      },
+      "info": {
+        "duration_s": 0.1305969461992465,
+        "battery_draw_j": 5223.87784796986,
+        "electrical_work_j": 4701.490063172874,
+        "base_work_j": 13059.69461992465,
+        "drag_work_j": 3664.626041882112,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 14096.558641215324,
+        "energy_residual_j": -8.913048077374697e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.524139660303831,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 475.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 74.83314773547885,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 38.94015600937148,
+        "energy_j": 50000.0,
+        "distance_m": 475.0,
+        "elapsed_s": 12.518878890426363
+      },
+      "info": {
+        "duration_s": 0.12910553773203515,
+        "battery_draw_j": 4427.843111208262,
+        "electrical_work_j": 3985.0588000874354,
+        "base_work_j": 12910.553773203515,
+        "drag_work_j": 3749.758581360692,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 13145.85399193029,
+        "energy_residual_j": 3.1377567211166024e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 3.2864634979825724,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 480.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 74.29670248402685,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 39.227174402849585,
+        "energy_j": 50000.0,
+        "distance_m": 480.0,
+        "elapsed_s": 12.646809573836737
+      },
+      "info": {
+        "duration_s": 0.1279306834103746,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 12793.06834103746,
+        "drag_work_j": 3818.8837020822093,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 8974.184638955194,
+        "energy_residual_j": -5.638867150992155e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.2435461597387985,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 485.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 73.75635565834311,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 39.507431882684074,
+        "energy_j": 50000.0,
+        "distance_m": 485.0,
+        "elapsed_s": 12.77381852799007
+      },
+      "info": {
+        "duration_s": 0.12700895415333213,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 12700.895415333212,
+        "drag_work_j": 3874.510481995625,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 8826.384933337795,
+        "energy_residual_j": 2.0736479200422764e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.206596233334449,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 490.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 73.21202087089252,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 39.781207555443004,
+        "energy_j": 50000.0,
+        "distance_m": 490.0,
+        "elapsed_s": 12.899940001014002
+      },
+      "info": {
+        "duration_s": 0.1261214730239318,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 12612.147302393181,
+        "drag_work_j": 3929.227060667697,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 8682.920241725333,
+        "energy_residual_j": -1.509761204943061e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.170730060431333,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 495.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 72.66360849833981,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 40.04876258248672,
+        "energy_j": 50000.0,
+        "distance_m": 495.0,
+        "elapsed_s": 13.025206238527584
+      },
+      "info": {
+        "duration_s": 0.1252662375135812,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 12526.62375135812,
+        "drag_work_j": 3983.05982369703,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 8543.563927661035,
+        "energy_residual_j": -5.638867150992155e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.1358909819152587,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 500.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 72.1110255092798,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 40.3103417453453,
+        "energy_j": 50000.0,
+        "distance_m": 500.0,
+        "elapsed_s": 13.149647645430331
+      },
+      "info": {
+        "duration_s": 0.1244414069027465,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 12444.14069027465,
+        "drag_work_j": 4036.033795018645,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 8408.106895255878,
+        "energy_residual_j": -1.2732925824820995e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.1020267238139696,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 505.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 71.55417527999329,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 40.56617484062177,
+        "energy_j": 50000.0,
+        "distance_m": 505.0,
+        "elapsed_s": 13.273292931134131
+      },
+      "info": {
+        "duration_s": 0.12364528570379979,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 12364.528570379978,
+        "drag_work_j": 4088.1727410330277,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 8276.355829346721,
+        "energy_residual_j": -2.2919266484677792e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.0690889573366804,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 510.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 70.99295739719541,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 40.81647792649122,
+        "energy_j": 50000.0,
+        "distance_m": 510.0,
+        "elapsed_s": 13.396169240273577
+      },
+      "info": {
+        "duration_s": 0.12287630913944642,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 12287.630913944642,
+        "drag_work_j": 4139.499264404549,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 8148.131649540028,
+        "energy_residual_j": -6.548361852765083e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.037032912385007,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 515.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 70.42726744663605,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 41.06145443957638,
+        "energy_j": 50000.0,
+        "distance_m": 515.0,
+        "elapsed_s": 13.518302270639941
+      },
+      "info": {
+        "duration_s": 0.12213303036636361,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 12213.303036636362,
+        "drag_work_j": 4190.034888771439,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 8023.268147864837,
+        "energy_residual_j": -8.549250196665525e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 2.005817036966209,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 520.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 69.85699678629194,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 41.301296198242525,
+        "energy_j": 50000.0,
+        "distance_m": 520.0,
+        "elapsed_s": 13.639716379840518
+      },
+      "info": {
+        "duration_s": 0.12141410920057655,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 12141.410920057655,
+        "drag_work_j": 4239.800135435462,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 7901.610784622335,
+        "energy_residual_j": 1.418811734765768e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.9754026961555837,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 525.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 69.28203230275511,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 41.53618430606588,
+        "energy_j": 50000.0,
+        "distance_m": 525.0,
+        "elapsed_s": 13.76043468198009
+      },
+      "info": {
+        "duration_s": 0.12071830213957192,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 12071.830213957192,
+        "drag_work_j": 4288.814592953045,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 7783.015621004233,
+        "energy_residual_j": 8.549250196665525e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.9457539052510584,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 530.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 68.7022561492707,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 41.76628996730945,
+        "energy_j": 50000.0,
+        "distance_m": 530.0,
+        "elapsed_s": 13.88047913548795
+      },
+      "info": {
+        "duration_s": 0.12004445350786111,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 12004.44535078611,
+        "drag_work_j": 4337.0969804260585,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 7667.348370360287,
+        "energy_residual_j": 2.346496330574155e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.9168370925900717,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 535.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 68.11754546370562,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 41.99177522462166,
+        "energy_j": 50000.0,
+        "distance_m": 535.0,
+        "elapsed_s": 13.99987062306691
+      },
+      "info": {
+        "duration_s": 0.11939148757895802,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11939.148757895802,
+        "drag_work_j": 4384.6652051856545,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 7554.4835527102805,
+        "energy_residual_j": 1.3278622645884752e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.8886208881775701,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 540.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 67.52777206453655,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 42.21279362780443,
+        "energy_j": 50000.0,
+        "distance_m": 540.0,
+        "elapsed_s": 14.118629024615473
+      },
+      "info": {
+        "duration_s": 0.11875840154856254,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11875.840154856254,
+        "drag_work_j": 4431.536415473445,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 7444.303739382667,
+        "energy_residual_j": -1.418811734765768e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.8610759348456667,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 545.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 66.93280212272606,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 42.42949084133552,
+        "energy_j": 50000.0,
+        "distance_m": 545.0,
+        "elapsed_s": 14.23677328386743
+      },
+      "info": {
+        "duration_s": 0.11814425925195743,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11814.425925195743,
+        "drag_work_j": 4477.727048648227,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 7336.698876547507,
+        "energy_residual_j": -9.094947017729282e-12,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.8341747191368767,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 550.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 66.33249580710802,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 42.64200519734027,
+        "energy_j": 50000.0,
+        "distance_m": 550.0,
+        "elapsed_s": 14.354321469401322
+      },
+      "info": {
+        "duration_s": 0.11754818553389176,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11754.818553389176,
+        "drag_work_j": 4523.252875381212,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 7231.565678007792,
+        "energy_residual_j": -1.7280399333685637e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.807891419501948,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 555.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 65.72670690061996,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 42.85046819986209,
+        "energy_j": 50000.0,
+        "distance_m": 555.0,
+        "elapsed_s": 14.471290830593382
+      },
+      "info": {
+        "duration_s": 0.11696936119206065,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11696.936119206066,
+        "drag_work_j": 4568.129040246733,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 7128.807078959198,
+        "energy_residual_j": -1.3460521586239338e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.7822017697397996,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 560.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 65.11528238439885,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 43.05500498555605,
+        "energy_j": 50000.0,
+        "distance_m": 560.0,
+        "elapsed_s": 14.587697849019508
+      },
+      "info": {
+        "duration_s": 0.1164070184261255,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11640.70184261255,
+        "drag_work_j": 4612.370099067061,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 7028.331743545641,
+        "energy_residual_j": 1.5279510989785194e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.7570829358864102,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 565.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 64.49806198638842,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 43.25573474530614,
+        "energy_j": 50000.0,
+        "distance_m": 565.0,
+        "elapsed_s": 14.703558285752901
+      },
+      "info": {
+        "duration_s": 0.11586043673339405,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11586.043673339405,
+        "drag_work_j": 4655.990053328177,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 6930.053620011404,
+        "energy_residual_j": 1.7462298274040222e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.732513405002851,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 570.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 63.87487769068527,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 43.45277111072936,
+        "energy_j": 50000.0,
+        "distance_m": 570.0,
+        "elapsed_s": 14.818887224952976
+      },
+      "info": {
+        "duration_s": 0.11532893920007424,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11532.893920007424,
+        "drag_work_j": 4699.002381947152,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 6833.891538060288,
+        "energy_residual_j": 1.6370904631912708e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.708472884515072,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 575.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 63.245553203367606,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 43.64622250906429,
+        "energy_j": 50000.0,
+        "distance_m": 575.0,
+        "elapsed_s": 14.933699114096635
+      },
+      "info": {
+        "duration_s": 0.11481188914365888,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11481.188914365888,
+        "drag_work_j": 4741.420070640233,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 6739.7688437256875,
+        "energy_residual_j": 3.2741809263825417e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.6849422109314218,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 580.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 62.60990336999413,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 43.83619248953866,
+        "energy_j": 50000.0,
+        "distance_m": 580.0,
+        "elapsed_s": 15.048007801164312
+      },
+      "info": {
+        "duration_s": 0.1143086870676775,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11430.86870676775,
+        "drag_work_j": 4783.255639113295,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 6647.61306765422,
+        "energy_residual_j": -2.346496330574155e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.661903266913555,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 585.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 61.96773353931869,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 44.022780023959584,
+        "energy_j": 50000.0,
+        "distance_m": 585.0,
+        "elapsed_s": 15.161826569059231
+      },
+      "info": {
+        "duration_s": 0.11381876789491986,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11381.876789491986,
+        "drag_work_j": 4824.521166272276,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 6557.355623219792,
+        "energy_residual_j": 8.185452315956354e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.639338905804948,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 590.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 61.31883886702358,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 44.20607978396427,
+        "energy_j": 50000.0,
+        "distance_m": 590.0,
+        "elapsed_s": 15.275168167508653
+      },
+      "info": {
+        "duration_s": 0.11334159844942139,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11334.15984494214,
+        "drag_work_j": 4865.228313630187,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 6468.931531311773,
+        "energy_residual_j": -1.800799509510398e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.6172328828279432,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 595.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 60.66300355241242,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 44.38618239710213,
+        "energy_j": 50000.0,
+        "distance_m": 595.0,
+        "elapsed_s": 15.388044842669762
+      },
+      "info": {
+        "duration_s": 0.11287667516110861,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11287.667516110861,
+        "drag_work_j": 4905.388347068792,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 6382.279169041885,
+        "energy_residual_j": -1.837179297581315e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.5955697922604712,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 600.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 60.000000000000014,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 44.56317468368482,
+        "energy_j": 50000.0,
+        "distance_m": 600.0,
+        "elapsed_s": 15.500468364639884
+      },
+      "info": {
+        "duration_s": 0.1124235219701211,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11242.352197012111,
+        "drag_work_j": 4945.012157096784,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 6297.340039915434,
+        "energy_residual_j": 1.0732037480920553e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.5743350099788587,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 605.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 59.32958789676532,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 44.73713987613547,
+        "energy_j": 50000.0,
+        "distance_m": 605.0,
+        "elapsed_s": 15.612450053050413
+      },
+      "info": {
+        "duration_s": 0.11198168841052875,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11198.168841052875,
+        "drag_work_j": 4984.110277731898,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 6214.058563321123,
+        "energy_residual_j": 1.4733814168721437e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.5535146408302807,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 610.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 58.65151319446073,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 44.90815782238772,
+        "energy_j": 50000.0,
+        "distance_m": 610.0,
+        "elapsed_s": 15.724000800905921
+      },
+      "info": {
+        "duration_s": 0.11155074785550897,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11155.074785550898,
+        "drag_work_j": 5022.692904121743,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 6132.381881429137,
+        "energy_residual_j": -1.8189894035458565e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.5330954703572843,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 615.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 57.965506984757766,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 45.07630517472555,
+        "energy_j": 50000.0,
+        "distance_m": 615.0,
+        "elapsed_s": 15.835131096814013
+      },
+      "info": {
+        "duration_s": 0.11113029590809252,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11113.029590809252,
+        "drag_work_j": 5060.769909006841,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 6052.259681802298,
+        "energy_residual_j": -1.127773430198431e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.5130649204505744,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 620.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 57.27128425310543,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 45.24165556531429,
+        "energy_j": 50000.0,
+        "distance_m": 620.0,
+        "elapsed_s": 15.945851045737381
+      },
+      "info": {
+        "duration_s": 0.11071994892336837,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11071.994892336837,
+        "drag_work_j": 5098.350858119403,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 5973.644034217705,
+        "energy_residual_j": 2.710294211283326e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.493411008554426,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 625.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 56.56854249492382,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 45.40427976954845,
+        "energy_j": 50000.0,
+        "distance_m": 625.0,
+        "elapsed_s": 16.056170388386978
+      },
+      "info": {
+        "duration_s": 0.11031934264959772,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 11031.934264959773,
+        "drag_work_j": 5135.44502460245,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 5896.4892403573685,
+        "energy_residual_j": 4.547473508864641e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.4741223100893421,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 630.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 55.856960175075784,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 45.5642458582316,
+        "energy_j": 50000.0,
+        "distance_m": 630.0,
+        "elapsed_s": 16.16609851936403
+      },
+      "info": {
+        "duration_s": 0.10992813097705291,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 10992.813097705292,
+        "drag_work_j": 5172.061402526004,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 5820.75169517957,
+        "energy_residual_j": 2.8194335754960775e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.4551879237948924,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 635.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 55.13619500836091,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 45.721619339505025,
+        "energy_j": 50000.0,
+        "distance_m": 635.0,
+        "elapsed_s": 16.275644504148627
+      },
+      "info": {
+        "duration_s": 0.10954598478459668,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 10954.598478459668,
+        "drag_work_j": 5208.2087195699705,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 5746.389758889745,
+        "energy_residual_j": 4.9112713895738125e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.4365974397224364,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 640.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 54.4058820349418,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 45.87646329135481,
+        "energy_j": 50000.0,
+        "distance_m": 640.0,
+        "elapsed_s": 16.3848170950237
+      },
+      "info": {
+        "duration_s": 0.1091725908750731,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 10917.25908750731,
+        "drag_work_j": 5243.895448937033,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 5673.3636385701175,
+        "energy_residual_j": -1.5825207810848951e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.4183409096425295,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 645.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 53.66563145999498,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 46.028838485448674,
+        "energy_j": 50000.0,
+        "distance_m": 645.0,
+        "elapsed_s": 16.49362474601521
+      },
+      "info": {
+        "duration_s": 0.10880765099151177,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 10880.765099151176,
+        "drag_work_j": 5279.129820553182,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 5601.6352785982235,
+        "energy_residual_j": 2.2919266484677792e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.4004088196495559,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 650.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 52.91502622129184,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 46.17880350298438,
+        "energy_j": 50000.0,
+        "distance_m": 650.0,
+        "elapsed_s": 16.60207562692218
+      },
+      "info": {
+        "duration_s": 0.10845088090696914,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 10845.088090696914,
+        "drag_work_j": 5313.919831608455,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 5531.168259088554,
+        "energy_residual_j": 9.458744898438454e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.3827920647721386,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 655.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 52.153619241621215,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 46.3264148431693,
+        "energy_j": 50000.0,
+        "distance_m": 655.0,
+        "elapsed_s": 16.710177636503737
+      },
+      "info": {
+        "duration_s": 0.10810200958155779,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 10810.20095815578,
+        "drag_work_j": 5348.273256485825,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 5461.927701669811,
+        "energy_residual_j": -1.4370016288012266e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.3654819254174526,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 660.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 51.38093031466054,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 46.471727024894676,
+        "energy_j": 50000.0,
+        "distance_m": 660.0,
+        "elapsed_s": 16.817938414884598
+      },
+      "info": {
+        "duration_s": 0.10776077838085948,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 10776.077838085948,
+        "drag_work_j": 5382.197656122179,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 5393.8801819636865,
+        "energy_residual_j": -8.36735125631094e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.3484700454909215,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 665.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 50.596442562694094,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 46.614792682118036,
+        "energy_j": 50000.0,
+        "distance_m": 665.0,
+        "elapsed_s": 16.925365355235087
+      },
+      "info": {
+        "duration_s": 0.10742694035049036,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 10742.694035049035,
+        "drag_work_j": 5415.700386841464,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 5326.993648207645,
+        "energy_residual_j": 7.457856554538012e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.3317484120519112,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 670.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 49.79959839195495,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 46.75566265342228,
+        "energy_j": 50000.0,
+        "distance_m": 670.0,
+        "elapsed_s": 17.032465614777184
+      },
+      "info": {
+        "duration_s": 0.10710025954209547,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 10710.025954209546,
+        "drag_work_j": 5448.78860869684,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 5261.2373455125635,
+        "energy_residual_j": -1.4370016288012266e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.315309336378141,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 675.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 48.98979485566358,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 46.89438606617922,
+        "energy_j": 50000.0,
+        "distance_m": 675.0,
+        "elapsed_s": 17.139246125163687
+      },
+      "info": {
+        "duration_s": 0.10678051038650385,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 10678.051038650385,
+        "drag_work_j": 5481.469293355613,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 5196.581745295043,
+        "energy_residual_j": 2.7284841053187847e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.299145436323761,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 680.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 48.166378315169204,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 47.03101041570885,
+        "energy_j": 50000.0,
+        "distance_m": 680.0,
+        "elapsed_s": 17.245713602273867
+      },
+      "info": {
+        "duration_s": 0.10646747711018001,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 10646.747711018,
+        "drag_work_j": 5513.749231557973,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 5132.998479460002,
+        "energy_residual_j": -2.546585164964199e-11,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.2832496198650005,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 685.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 47.32863826479695,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 47.16558163979255,
+        "energy_j": 50000.0,
+        "distance_m": 685.0,
+        "elapsed_s": 17.351874555465336
+      },
+      "info": {
+        "duration_s": 0.10616095319146916,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 10616.095319146916,
+        "drag_work_j": 5545.635040178063,
+        "friction_braking_work_j": 0.0,
+        "kinetic_change_j": 5070.460278968676,
+        "energy_residual_j": -1.7826096154749393e-10,
+        "throttle_fraction": 1.0,
+        "net_acceleration_m_per_s2": 1.267615069742169,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 690.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 46.47580015448902,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 46.47580015448902,
+        "energy_j": 50000.0,
+        "distance_m": 690.0,
+        "elapsed_s": 17.458664948861802
+      },
+      "info": {
+        "duration_s": 0.10679039339646602,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 5480.740114274922,
+        "friction_braking_work_j": 20356.096453698738,
+        "kinetic_change_j": -25836.83656797366,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -6.459209141993415,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 695.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 45.60701700396554,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 45.60701700396554,
+        "energy_j": 50000.0,
+        "distance_m": 695.0,
+        "elapsed_s": 17.567262842677238
+      },
+      "info": {
+        "duration_s": 0.10859789381543539,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 5300.000000000005,
+        "friction_braking_work_j": 26699.999999999996,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 700.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 44.72135954999581,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 44.72135954999581,
+        "energy_j": 50000.0,
+        "distance_m": 700.0,
+        "elapsed_s": 17.677970024423452
+      },
+      "info": {
+        "duration_s": 0.1107071817462156,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 5100.000000000004,
+        "friction_braking_work_j": 26900.00000000018,
+        "kinetic_change_j": -32000.000000000182,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.000000000000046,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 705.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 43.817804600413304,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 43.817804600413304,
+        "energy_j": 50000.0,
+        "distance_m": 705.0,
+        "elapsed_s": 17.790914393121266
+      },
+      "info": {
+        "duration_s": 0.11294436869781307,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 4900.000000000004,
+        "friction_braking_work_j": 27099.999999999996,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 710.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 42.895221179054445,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 42.895221179054445,
+        "energy_j": 50000.0,
+        "distance_m": 710.0,
+        "elapsed_s": 17.906237320791124
+      },
+      "info": {
+        "duration_s": 0.11532292766985694,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 4700.000000000004,
+        "friction_braking_work_j": 27300.000000000087,
+        "kinetic_change_j": -32000.00000000009,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.000000000000023,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 715.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 41.952353926806076,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 41.952353926806076,
+        "energy_j": 50000.0,
+        "distance_m": 715.0,
+        "elapsed_s": 18.02409572732217
+      },
+      "info": {
+        "duration_s": 0.11785840653104637,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 4500.000000000003,
+        "friction_braking_work_j": 27499.999999999996,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 720.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 40.987803063838406,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 40.987803063838406,
+        "energy_j": 50000.0,
+        "distance_m": 720.0,
+        "elapsed_s": 18.144664585193127
+      },
+      "info": {
+        "duration_s": 0.1205688578709585,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 4300.000000000003,
+        "friction_braking_work_j": 27699.999999999996,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 725.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 40.000000000000014,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 40.000000000000014,
+        "energy_j": 50000.0,
+        "distance_m": 725.0,
+        "elapsed_s": 18.268139968172925
+      },
+      "info": {
+        "duration_s": 0.12347538297979917,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 4100.000000000003,
+        "friction_braking_work_j": 27899.999999999996,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 730.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 38.98717737923587,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 38.98717737923587,
+        "energy_j": 50000.0,
+        "distance_m": 730.0,
+        "elapsed_s": 18.394742795768444
+      },
+      "info": {
+        "duration_s": 0.12660282759551802,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 3900.0000000000023,
+        "friction_braking_work_j": 28100.000000000087,
+        "kinetic_change_j": -32000.00000000009,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.000000000000023,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 735.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 37.94733192202056,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 37.94733192202056,
+        "energy_j": 50000.0,
+        "distance_m": 735.0,
+        "elapsed_s": 18.524723477920357
+      },
+      "info": {
+        "duration_s": 0.1299806821519129,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 3700.0000000000023,
+        "friction_braking_work_j": 28300.000000000087,
+        "kinetic_change_j": -32000.00000000009,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.000000000000023,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 740.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 36.878177829171555,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 36.878177829171555,
+        "energy_j": 50000.0,
+        "distance_m": 740.0,
+        "elapsed_s": 18.658367739526483
+      },
+      "info": {
+        "duration_s": 0.13364426160612533,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 3500.000000000001,
+        "friction_braking_work_j": 28500.00000000009,
+        "kinetic_change_j": -32000.00000000009,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.000000000000023,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 745.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 35.777087639996644,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 35.777087639996644,
+        "energy_j": 50000.0,
+        "distance_m": 745.0,
+        "elapsed_s": 18.79600401317335
+      },
+      "info": {
+        "duration_s": 0.13763627364686423,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 3300.000000000001,
+        "friction_braking_work_j": 28699.99999999991,
+        "kinetic_change_j": -31999.99999999991,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -7.999999999999977,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 750.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 34.641016151377556,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 34.641016151377556,
+        "energy_j": 50000.0,
+        "distance_m": 750.0,
+        "elapsed_s": 18.938012949250734
+      },
+      "info": {
+        "duration_s": 0.14200893607738613,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 3100.000000000002,
+        "friction_braking_work_j": 28900.0,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 755.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 33.46640106136303,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 33.46640106136303,
+        "energy_j": 50000.0,
+        "distance_m": 755.0,
+        "elapsed_s": 19.08483983550255
+      },
+      "info": {
+        "duration_s": 0.14682688625181545,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 2900.000000000001,
+        "friction_braking_work_j": 29100.00000000009,
+        "kinetic_change_j": -32000.00000000009,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.000000000000023,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 760.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 32.249030993194204,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 32.249030993194204,
+        "energy_j": 50000.0,
+        "distance_m": 760.0,
+        "elapsed_s": 19.237011094023654
+      },
+      "info": {
+        "duration_s": 0.15217125852110291,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 2700.000000000001,
+        "friction_braking_work_j": 29300.00000000009,
+        "kinetic_change_j": -32000.00000000009,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.000000000000023,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 765.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 30.983866769659336,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 30.983866769659336,
+        "energy_j": 50000.0,
+        "distance_m": 765.0,
+        "elapsed_s": 19.395156621965512
+      },
+      "info": {
+        "duration_s": 0.15814552794185793,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 2500.0000000000005,
+        "friction_braking_work_j": 29500.000000000044,
+        "kinetic_change_j": -32000.000000000044,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.00000000000001,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 770.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 29.664793948382652,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 29.664793948382652,
+        "energy_j": 50000.0,
+        "distance_m": 770.0,
+        "elapsed_s": 19.560040724625097
+      },
+      "info": {
+        "duration_s": 0.16488410265958542,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 2300.0,
+        "friction_braking_work_j": 29700.000000000044,
+        "kinetic_change_j": -32000.000000000044,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.00000000000001,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 775.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 28.284271247461902,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 28.284271247461902,
+        "energy_j": 50000.0,
+        "distance_m": 775.0,
+        "elapsed_s": 19.73260606224019
+      },
+      "info": {
+        "duration_s": 0.17256533761509385,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 2100.0,
+        "friction_braking_work_j": 29899.999999999956,
+        "kinetic_change_j": -31999.999999999956,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -7.9999999999999885,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 780.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 26.832815729997478,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 26.832815729997478,
+        "energy_j": 50000.0,
+        "distance_m": 780.0,
+        "elapsed_s": 19.914038001923245
+      },
+      "info": {
+        "duration_s": 0.18143193968305307,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 1900.0000000000002,
+        "friction_braking_work_j": 30100.0,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 785.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 25.298221281347036,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 25.298221281347036,
+        "energy_j": 50000.0,
+        "distance_m": 785.0,
+        "elapsed_s": 20.10586230800455
+      },
+      "info": {
+        "duration_s": 0.19182430608130518,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 1700.0000000000002,
+        "friction_braking_work_j": 30300.0,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 790.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 23.664319132398465,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 23.664319132398465,
+        "energy_j": 50000.0,
+        "distance_m": 790.0,
+        "elapsed_s": 20.310100076623122
+      },
+      "info": {
+        "duration_s": 0.2042377686185713,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 1500.0,
+        "friction_braking_work_j": 30500.000000000044,
+        "kinetic_change_j": -32000.000000000044,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.00000000000001,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 795.0,
+      "cap_m_per_s": 100.0,
+      "envelope_m_per_s": 21.908902300206645,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 21.908902300206645,
+        "energy_j": 50000.0,
+        "distance_m": 795.0,
+        "elapsed_s": 20.5295271806471
+      },
+      "info": {
+        "duration_s": 0.21942710402397744,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 1300.0,
+        "friction_braking_work_j": 30700.0,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    },
+    {
+      "position_m": 800.0,
+      "cap_m_per_s": 20.0,
+      "envelope_m_per_s": 20.0,
+      "action_fraction": 0.6,
+      "state": {
+        "speed_m_per_s": 20.0,
+        "energy_j": 50000.0,
+        "distance_m": 800.0,
+        "elapsed_s": 20.76813996817293
+      },
+      "info": {
+        "duration_s": 0.23861278752583054,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 0.0,
+        "drag_work_j": 1100.0,
+        "friction_braking_work_j": 30900.0,
+        "kinetic_change_j": -32000.0,
+        "energy_residual_j": 0.0,
+        "throttle_fraction": 0.0,
+        "net_acceleration_m_per_s2": -8.0,
+        "provenance": "synthetic_spatial_power_drag"
+      }
+    }
+  ]
+}

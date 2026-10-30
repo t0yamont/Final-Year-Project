@@ -1,0 +1,35 @@
+nominal_development
+zero time= 21.628379146 actions= [0.0, 0.0] rounded= None
+half time= 20.696253649 actions= [0.5, 0.5] rounded= None
+full time= 20.597676607 actions= [1.0, 1.0] rounded= None
+exhaustive time= 20.597676607 actions= [1.0, 0.0] rounded= None
+dp_20000J time= 20.597676607 actions= [1.0, 0.0] rounded= 20.597676607316643
+dp_10000J time= 20.597676607 actions= [1.0, 0.0] rounded= 20.597676607316643
+dp_5000J time= 20.597676607 actions= [1.0, 0.0] rounded= 20.597676607316643
+dp_2500J time= 20.597676607 actions= [1.0, 0.0] rounded= 20.597676607316643
+exhaustive_nine_actions time= 20.597676607 actions= [1.0, 0.0] rounded= None
+ppo_seed0 time= 20.597676607 actions= [1.0, 0.36857378482818604] rounded= None
+ppo_seed1 time= 20.713566815 actions= [0.5273459553718567, 0.3889097273349762] rounded= None
+ppo_seed2 time= 20.664870549 actions= [0.8851745128631592, 0.32655641436576843] rounded= None
+new_predeclared_evaluation
+zero time= 22.04637177 actions= [0.0, 0.0] rounded= None
+half time= 21.193596555 actions= [0.5, 0.5] rounded= None
+full time= 21.137077717 actions= [1.0, 1.0] rounded= None
+exhaustive time= 21.132915655 actions= [0.25, 1.0] rounded= None
+dp_20000J time= 21.137077717 actions= [1.0, 0.0] rounded= 21.14583668462099
+dp_10000J time= 21.137077717 actions= [1.0, 0.0] rounded= 21.137077716863203
+dp_5000J time= 21.132915655 actions= [0.25, 1.0] rounded= 21.136051923347374
+dp_2500J time= 21.132915655 actions= [0.25, 1.0] rounded= 21.136051923347374
+exhaustive_nine_actions time= 21.129190409 actions= [0.375, 1.0] rounded= None
+ppo_seed0 time= 21.137077717 actions= [1.0, 0.3644225001335144] rounded= None
+ppo_seed1 time= 21.214537246 actions= [0.5273459553718567, 0.37239646911621094] rounded= None
+ppo_seed2 time= 21.192869432 actions= [0.8851745128631592, 0.3227904140949249] rounded= None
+four_segment_development
+zero time= 24.390434145 actions= [0.0, 0.0, 0.0, 0.0] rounded= None
+half time= 23.721419312 actions= [0.5, 0.5, 0.5, 0.5] rounded= None
+full time= 23.705590265 actions= [1.0, 1.0, 1.0, 1.0] rounded= None
+exhaustive time= 23.622721769 actions= [1.0, 0.0, 0.5, 1.0] rounded= None
+dp_20000J time= 23.635936699 actions= [1.0, 0.0, 1.0, 0.0] rounded= 23.645592842577805
+dp_10000J time= 23.635936699 actions= [1.0, 0.0, 1.0, 0.0] rounded= 23.63952767938075
+dp_5000J time= 23.622721769 actions= [1.0, 0.0, 0.5, 1.0] rounded= 23.630280209082326
+dp_2500J time= 23.623783694 actions= [0.5, 0.0, 1.0, 1.0] rounded= 23.62953242346062

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-28T15:40:24.191297+00:00",
+  "split": {
+    "schema_version": 1,
+    "role": "development_only_within_event",
+    "session": {
+      "year": 2025,
+      "round_number": 4,
+      "session": "Q",
+      "driver": "1"
+    },
+    "fit_laps": [
+      4,
+      10
+    ],
+    "validation_laps": [
+      13
+    ],
+    "excluded_primary_laps": {
+      "16": "Two observed source gaps exceed 1 second; primary development exclusion, not universal validity rule."
+    },
+    "max_pair_gap_s": 0.5,
+    "minimum_throttle_percent": 95,
+    "final_test": false,
+    "limitations": "Same-event validation shares conditions with fit data. Weather samples are not continuous dry-track proof. Electrical deployment remains unobserved."
+  },
+  "inputs": [
+    {
+      "path": "configs\\development_split.json",
+      "sha256": "c861a845fdf68ebbeeeacc2bca8dc391eae68808a025de30723ce83a6e6b7e4a"
+    },
+    {
+      "path": "results\\clean-laps-001\\manifest.json",
+      "sha256": "00b53ebeab6948c1eff3a8d1661c468357c0e6bf586f35b4e64f50086975cd46"
+    },
+    {
+      "path": "results\\clean-laps-001\\summary.json",
+      "sha256": "10854ceb55ed07aa5f5d76cd47b091ee50c87836adf74b4d2067096f24564499"
+    },
+    {
+      "path": "results\\lap-context-001\\manifest.json",
+      "sha256": "cfc7df2eb64dcebba59943d591c42a53b627315ef86b12b62955a6c122b3a2db"
+    },
+    {
+      "path": "results\\lap-context-001\\summary.json",
+      "sha256": "f4e5b06d2ab92431b2a8f249773aae8c83a6325cee39acc02220fe38845a2c2e"
+    },
+    {
+      "path": "scripts\\prepare_calibration_data.py",
+      "sha256": "a8b68a1bff16a9bf53dc8ddb97633f5a7b33a4bd496ea5c089186c61c581e064"
+    },
+    {
+      "path": "results\\clean-laps-001\\lap-4-car.csv",
+      "sha256": "5cf519b570f28c42e6dd3acf69d169faa5b33dcf706cad32e2568ae4f601ffda"
+    },
+    {
+      "path": "results\\clean-laps-001\\lap-10-car.csv",
+      "sha256": "e87d58ff8b9afee5da26594868e76c2e41fffb773f796aa75e5f7c016eb7ed6a"
+    },
+    {
+      "path": "results\\clean-laps-001\\lap-13-car.csv",
+      "sha256": "59c95ebae7501208ff95d63e2063ef6c5ac3eea71452920a0431c341bc0105fc"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "fit.csv",
+      "sha256": "d3b2ab99dcf2fbf02160227b70261f39ffeb5be5ba623aaff7ddc26ecc17f295"
+    },
+    {
+      "path": "validation.csv",
+      "sha256": "5081d0542917129de9c04145674112a5960742c7c86da711e6950390383774cb"
+    },
+    {
+      "path": "summary.json",
+      "sha256": "d8dd4d1ccd62d18697abc41ddb74147fd2e2e0dde914056809572d607076e75e"
+    }
+  ]
+}

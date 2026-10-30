@@ -1,0 +1,12 @@
+{
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "outputs_sha256": {
+    "reconstruction.json": "a9569ff54bfa6f1a62f86cce96216143e7faf2b57402527569fa112b9f9c4d85"
+  },
+  "source_sha256": {
+    "scripts\\reconstruct_synthetic.py": "f253ecfbd99ee39b885543062761d1ae1af97fa846709a25edb1110a7dd58fd8",
+    "src\\f1energy\\inference\\__init__.py": "af02863c9f5527f819177e28715d69ef9365cd6b2e4abe94f0432d948f4f3f9f"
+  }
+}

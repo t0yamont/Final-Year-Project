@@ -1,0 +1,5163 @@
+{
+  "scenario": {
+    "lengths_m": [
+      400.0,
+      400.0
+    ],
+    "exit_caps_m_per_s": [
+      30.0,
+      20.0
+    ],
+    "initial_speed_m_per_s": 20.0,
+    "initial_energy_j": 450000.0,
+    "reserve_j": 50000.0,
+    "vehicle": {
+      "mass_kg": 800.0,
+      "base_power_w": 100000.0,
+      "electrical_limit_w": 60000.0,
+      "discharge_efficiency": 0.9,
+      "drag_kg_per_m": 0.5,
+      "friction_deceleration_m_per_s2": 8.0
+    }
+  },
+  "solver": {},
+  "calls": 130,
+  "hits": 222,
+  "records": [
+    {
+      "key": [
+        0,
+        20.0,
+        450000.0,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 30.000000000000046,
+        "energy_j": 450000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 11.032697278257864,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 924248.366542676,
+        "drag_work_j": 290449.40016802325,
+        "friction_braking_work_j": 433798.96637465095,
+        "kinetic_change_j": 200000.00000000114,
+        "energy_residual_j": -6.402842700481415e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 332.2189115039608,
+            "speed_m_per_s": 45.949351734441066,
+            "energy_j": 450000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000046,
+        450000.0,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000103,
+        "energy_j": 450000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569974,
+        "drag_work_j": 309128.3212253259,
+        "friction_braking_work_j": 645194.8602316708,
+        "kinetic_change_j": -199999.99999999942,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 450000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        0,
+        20.0,
+        450000.0,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 30.00000000000005,
+        "energy_j": 174612.48556806624,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.415455274519017,
+        "battery_draw_j": 275387.51443193376,
+        "electrical_work_j": 247848.7629887404,
+        "base_work_j": 826162.5432958016,
+        "drag_work_j": 329310.420191836,
+        "friction_braking_work_j": 544700.8860927054,
+        "kinetic_change_j": 200000.0000000012,
+        "energy_residual_j": 6.984919309616089e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 314.8904865480148,
+            "speed_m_per_s": 49.37462879681995,
+            "energy_j": 174612.48556806624
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        174612.48556806624,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000107,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.280798374529184,
+        "battery_draw_j": 124612.48556806624,
+        "electrical_work_j": 112151.23701125961,
+        "base_work_j": 708425.3467913079,
+        "drag_work_j": 331771.6406981979,
+        "friction_braking_work_j": 688804.943104368,
+        "kinetic_change_j": -199999.99999999945,
+        "energy_residual_j": -1.0477378964424133e-09,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 539.351189727921,
+            "speed_m_per_s": 43.1917551769196,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 692.3742276399425,
+            "speed_m_per_s": 47.96686325691344,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        0,
+        20.0,
+        450000.0,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 30.000000000000064,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.00199473970068,
+        "battery_draw_j": 400000.0,
+        "electrical_work_j": 360000.0,
+        "base_work_j": 774769.8453586205,
+        "drag_work_j": 358013.55484337645,
+        "friction_braking_work_j": 576756.2905152424,
+        "kinetic_change_j": 200000.00000000154,
+        "energy_residual_j": -2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 223.38154713873968,
+            "speed_m_per_s": 48.59608798090892,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 309.8818296069934,
+            "speed_m_per_s": 50.33442875075571,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        50000.0,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000075,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615966,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569971,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000046,
+        450000.0,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000135,
+        "energy_j": 330700.61057819694,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.384764023928486,
+        "battery_draw_j": 119299.38942180306,
+        "electrical_work_j": 107369.4504796227,
+        "base_work_j": 715796.3365308178,
+        "drag_work_j": 325045.02957742405,
+        "friction_braking_work_j": 698120.757433015,
+        "kinetic_change_j": -199999.9999999989,
+        "energy_residual_j": -3.4924596548080444e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 690.9186316510913,
+            "speed_m_per_s": 48.25267710912001,
+            "energy_j": 330700.61057819694
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000046,
+        450000.0,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000153,
+        "energy_j": 222622.78185021746,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.204005306866172,
+        "battery_draw_j": 227377.21814978254,
+        "electrical_work_j": 204639.49633480413,
+        "base_work_j": 682131.6544493472,
+        "drag_work_j": 339771.8788336526,
+        "friction_braking_work_j": 746999.2719504975,
+        "kinetic_change_j": -199999.99999999863,
+        "energy_residual_j": 1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 683.2813637577348,
+            "speed_m_per_s": 49.73365282250051,
+            "energy_j": 222622.78185021746
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000046,
+        450000.0,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000142,
+        "energy_j": 123830.74947017098,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.046860873726613,
+        "battery_draw_j": 326169.250529829,
+        "electrical_work_j": 293552.3254768462,
+        "base_work_j": 652338.5010596584,
+        "drag_work_j": 353472.41890754923,
+        "friction_braking_work_j": 792418.407628954,
+        "kinetic_change_j": -199999.99999999884,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 676.1846238079759,
+            "speed_m_per_s": 51.08354401296413,
+            "energy_j": 123830.74947017098
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000046,
+        450000.0,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000135,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 9.909665776369927,
+        "battery_draw_j": 400000.0,
+        "electrical_work_j": 360000.00000000023,
+        "base_work_j": 629296.5279089881,
+        "drag_work_j": 366131.37635042507,
+        "friction_braking_work_j": 823165.1515585614,
+        "kinetic_change_j": -199999.99999999892,
+        "energy_residual_j": -9.313225746154785e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 656.1819612949708,
+            "speed_m_per_s": 51.77097407397106,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 671.3804450689747,
+            "speed_m_per_s": 51.98407969686267,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        0,
+        20.0,
+        450000.0,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 30.000000000000053,
+        "energy_j": 304756.84418505785,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.697250991782068,
+        "battery_draw_j": 145243.15581494215,
+        "electrical_work_j": 130718.84023344793,
+        "base_work_j": 871458.9348896522,
+        "drag_work_j": 310675.84926723933,
+        "friction_braking_work_j": 491501.92585585936,
+        "kinetic_change_j": 200000.0000000013,
+        "energy_residual_j": -1.7462298274040222e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 323.202824085022,
+            "speed_m_per_s": 47.752967880537796,
+            "energy_j": 304756.84418505785
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        304756.84418505785,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000117,
+        "energy_j": 304756.84418505785,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615959,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569973,
+        "drag_work_j": 309128.321225326,
+        "friction_braking_work_j": 645194.8602316709,
+        "kinetic_change_j": -199999.9999999994,
+        "energy_residual_j": 1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 304756.84418505785
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        304756.84418505785,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000012,
+        "energy_j": 185457.45476325473,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.384764023928485,
+        "battery_draw_j": 119299.38942180312,
+        "electrical_work_j": 107369.45047962264,
+        "base_work_j": 715796.3365308177,
+        "drag_work_j": 325045.02957742405,
+        "friction_braking_work_j": 698120.7574330154,
+        "kinetic_change_j": -199999.99999999933,
+        "energy_residual_j": -2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 690.9186316510913,
+            "speed_m_per_s": 48.252677109120015,
+            "energy_j": 185457.45476325473
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        304756.84418505785,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000012,
+        "energy_j": 77379.62603527546,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.204005306866168,
+        "battery_draw_j": 227377.2181497824,
+        "electrical_work_j": 204639.49633480408,
+        "base_work_j": 682131.6544493472,
+        "drag_work_j": 339771.8788336527,
+        "friction_braking_work_j": 746999.2719504979,
+        "kinetic_change_j": -199999.99999999933,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 683.2813637577347,
+            "speed_m_per_s": 49.73365282250051,
+            "energy_j": 77379.62603527546
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        304756.84418505785,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000103,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.071249730425482,
+        "battery_draw_j": 254756.84418505785,
+        "electrical_work_j": 229281.15976655215,
+        "base_work_j": 668700.6002661245,
+        "drag_work_j": 350487.4759254311,
+        "friction_braking_work_j": 747494.2841072447,
+        "kinetic_change_j": -199999.99999999962,
+        "energy_residual_j": -3.4924596548080444e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 605.311451222567,
+            "speed_m_per_s": 48.063881964022556,
+            "energy_j": 49999.99999999999
+          },
+          {
+            "kind": "braking",
+            "position_m": 683.204018108243,
+            "speed_m_per_s": 49.7484970804218,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        304756.84418505785,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000107,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.003389215403697,
+        "battery_draw_j": 254756.84418505785,
+        "electrical_work_j": 229281.15976655207,
+        "base_work_j": 664586.4788936692,
+        "drag_work_j": 354858.72490397014,
+        "friction_braking_work_j": 739008.9137562506,
+        "kinetic_change_j": -199999.99999999956,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 549.162386962335,
+            "speed_m_per_s": 46.1801964621346,
+            "energy_j": 50000.00000000001
+          },
+          {
+            "kind": "braking",
+            "position_m": 684.5298572255858,
+            "speed_m_per_s": 49.493624146138664,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        174612.48556806624,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000085,
+        "energy_j": 174612.48556806624,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615966,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569975,
+        "drag_work_j": 309128.3212253259,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -199999.99999999985,
+        "energy_residual_j": -2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 174612.48556806624
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        174612.48556806624,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000117,
+        "energy_j": 55313.096146263386,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.384764023928485,
+        "battery_draw_j": 119299.38942180286,
+        "electrical_work_j": 107369.45047962257,
+        "base_work_j": 715796.3365308176,
+        "drag_work_j": 325045.02957742405,
+        "friction_braking_work_j": 698120.7574330156,
+        "kinetic_change_j": -199999.9999999993,
+        "energy_residual_j": 2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 690.9186316510913,
+            "speed_m_per_s": 48.25267710912002,
+            "energy_j": 55313.096146263386
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        174612.48556806624,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000011,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.245538791755338,
+        "battery_draw_j": 124612.48556806624,
+        "electrical_work_j": 112151.23701125963,
+        "base_work_j": 706116.2164165974,
+        "drag_work_j": 333193.55427307636,
+        "friction_braking_work_j": 685073.8991547805,
+        "kinetic_change_j": -199999.99999999942,
+        "energy_residual_j": 4.656612873077393e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 489.1621096569628,
+            "speed_m_per_s": 40.71411779846977,
+            "energy_j": 50000.00000000001
+          },
+          {
+            "kind": "braking",
+            "position_m": 692.9572032570655,
+            "speed_m_per_s": 47.85206073872047,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        174612.48556806624,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000128,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.227451190361592,
+        "battery_draw_j": 124612.48556806624,
+        "electrical_work_j": 112151.2370112596,
+        "base_work_j": 704888.8564805352,
+        "drag_work_j": 333745.73095945443,
+        "friction_braking_work_j": 683294.3625323398,
+        "kinetic_change_j": -199999.99999999913,
+        "energy_residual_j": 2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 465.35324221149693,
+            "speed_m_per_s": 39.31992939442653,
+            "energy_j": 49999.999999999985
+          },
+          {
+            "kind": "braking",
+            "position_m": 693.2352558543218,
+            "speed_m_per_s": 47.79723761705152,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        0,
+        20.0,
+        450000.0,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 30.000000000000075,
+        "energy_j": 56666.24845281832,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.174470177359888,
+        "battery_draw_j": 393333.7515471817,
+        "electrical_work_j": 354000.3763924637,
+        "base_work_j": 786667.5030943637,
+        "drag_work_j": 346589.57570206776,
+        "friction_braking_work_j": 594078.3037847577,
+        "kinetic_change_j": 200000.00000000178,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 307.1752650336316,
+            "speed_m_per_s": 50.84800036623657,
+            "energy_j": 56666.24845281832
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        56666.24845281832,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000011,
+        "energy_j": 56666.24845281832,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615966,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569968,
+        "drag_work_j": 309128.3212253262,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -200000.00000000003,
+        "energy_residual_j": 6.984919309616089e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898737,
+            "energy_j": 56666.24845281832
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        56666.24845281832,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000008,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.571848425681384,
+        "battery_draw_j": 6666.2484528183195,
+        "electrical_work_j": 5999.623607536492,
+        "base_work_j": 751365.2560485183,
+        "drag_work_j": 310454.93274555815,
+        "friction_braking_work_j": 646909.9469104963,
+        "kinetic_change_j": -200000.00000000047,
+        "energy_residual_j": -6.984919309616089e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 412.32897795856246,
+            "speed_m_per_s": 31.628147625253977,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 698.9203207952349,
+            "speed_m_per_s": 46.666475291517486,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        56666.24845281832,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000068,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.571465034885172,
+        "battery_draw_j": 6666.2484528183195,
+        "electrical_work_j": 5999.623607536484,
+        "base_work_j": 751336.6773201281,
+        "drag_work_j": 310455.50452768104,
+        "friction_braking_work_j": 646880.7963999836,
+        "kinetic_change_j": -200000.00000000067,
+        "energy_residual_j": -5.820766091346741e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 406.09531499716906,
+            "speed_m_per_s": 30.95022599817264,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 698.9248755625026,
+            "speed_m_per_s": 46.66556161789234,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        56666.24845281832,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000142,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.571335695915913,
+        "battery_draw_j": 6666.2484528183195,
+        "electrical_work_j": 5999.623607536485,
+        "base_work_j": 751326.9906988508,
+        "drag_work_j": 310455.5161750112,
+        "friction_braking_work_j": 646871.0981313762,
+        "kinetic_change_j": -199999.9999999995,
+        "energy_residual_j": 5.820766091346741e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 404.04793836740623,
+            "speed_m_per_s": 30.719136107637,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 698.9263909169724,
+            "speed_m_per_s": 46.66525763919457,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        56666.24845281832,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000124,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.571270725644565,
+        "battery_draw_j": 6666.2484528183195,
+        "electrical_work_j": 5999.623607536496,
+        "base_work_j": 751322.1163031312,
+        "drag_work_j": 310455.4878841956,
+        "friction_braking_work_j": 646866.2520264715,
+        "kinetic_change_j": -199999.99999999977,
+        "energy_residual_j": -4.656612873077393e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 403.03006836074024,
+            "speed_m_per_s": 30.60260134852675,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 698.9271481208639,
+            "speed_m_per_s": 46.66510574427178,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        50000.0,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000075,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615966,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569971,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        50000.0,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000075,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615966,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569971,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        50000.0,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000075,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615966,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569971,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        50000.0,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000075,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615966,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569971,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        290000.0,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000085,
+        "energy_j": 290000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615966,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569974,
+        "drag_work_j": 309128.3212253259,
+        "friction_braking_work_j": 645194.8602316708,
+        "kinetic_change_j": -199999.9999999999,
+        "energy_residual_j": -5.820766091346741e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 290000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        290000.0,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000128,
+        "energy_j": 170700.61057819708,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.384764023928485,
+        "battery_draw_j": 119299.38942180292,
+        "electrical_work_j": 107369.4504796226,
+        "base_work_j": 715796.3365308174,
+        "drag_work_j": 325045.02957742405,
+        "friction_braking_work_j": 698120.7574330154,
+        "kinetic_change_j": -199999.9999999992,
+        "energy_residual_j": 2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 690.9186316510913,
+            "speed_m_per_s": 48.25267710912002,
+            "energy_j": 170700.61057819708
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        290000.0,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.0000000000001,
+        "energy_j": 62622.78185021773,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.204005306866172,
+        "battery_draw_j": 227377.21814978227,
+        "electrical_work_j": 204639.49633480405,
+        "base_work_j": 682131.6544493472,
+        "drag_work_j": 339771.8788336526,
+        "friction_braking_work_j": 746999.2719504982,
+        "kinetic_change_j": -199999.99999999965,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 683.2813637577347,
+            "speed_m_per_s": 49.73365282250051,
+            "energy_j": 62622.78185021773
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        290000.0,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000012,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.082419840269054,
+        "battery_draw_j": 240000.0,
+        "electrical_work_j": 215999.99999999997,
+        "base_work_j": 672422.3994239751,
+        "drag_work_j": 349200.79360086244,
+        "friction_braking_work_j": 739221.6058231118,
+        "kinetic_change_j": -199999.99999999933,
+        "energy_residual_j": -3.4924596548080444e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 591.228781876708,
+            "speed_m_per_s": 47.36275851981918,
+            "energy_j": 49999.99999999999
+          },
+          {
+            "kind": "braking",
+            "position_m": 684.4966240901388,
+            "speed_m_per_s": 49.500023586738216,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        290000.0,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000156,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.021756288951833,
+        "battery_draw_j": 240000.0,
+        "electrical_work_j": 215999.9999999999,
+        "base_work_j": 668698.0337848396,
+        "drag_work_j": 352879.1329224413,
+        "friction_braking_work_j": 731818.9008623972,
+        "kinetic_change_j": -199999.99999999878,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 539.0145541020468,
+            "speed_m_per_s": 45.50528476980951,
+            "energy_j": 50000.00000000002
+          },
+          {
+            "kind": "braking",
+            "position_m": 685.6532967402504,
+            "speed_m_per_s": 49.27696043961303,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        170000.0,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000103,
+        "energy_j": 170000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615967,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569973,
+        "drag_work_j": 309128.3212253258,
+        "friction_braking_work_j": 645194.8602316708,
+        "kinetic_change_j": -199999.99999999953,
+        "energy_residual_j": -2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 170000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        170000.0,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000135,
+        "energy_j": 50700.61057819704,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.38476402392848,
+        "battery_draw_j": 119299.38942180296,
+        "electrical_work_j": 107369.45047962261,
+        "base_work_j": 715796.3365308173,
+        "drag_work_j": 325045.02957742405,
+        "friction_braking_work_j": 698120.7574330154,
+        "kinetic_change_j": -199999.999999999,
+        "energy_residual_j": 4.656612873077393e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 690.9186316510913,
+            "speed_m_per_s": 48.25267710912002,
+            "energy_j": 50700.61057819704
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        170000.0,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000114,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.287879108693991,
+        "battery_draw_j": 120000.0,
+        "electrical_work_j": 108000.00000000001,
+        "base_work_j": 709816.6779384627,
+        "drag_work_j": 331107.843822872,
+        "friction_braking_work_j": 686708.8341155901,
+        "kinetic_change_j": -199999.9999999994,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 533.399568871358,
+            "speed_m_per_s": 42.82894947129837,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 692.701744669439,
+            "speed_m_per_s": 47.90239050818782,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        170000.0,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000107,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.255005091033194,
+        "battery_draw_j": 120000.0,
+        "electrical_work_j": 107999.99999999999,
+        "base_work_j": 707652.2155432099,
+        "drag_work_j": 332382.2301613697,
+        "friction_braking_work_j": 683269.9853818391,
+        "kinetic_change_j": -199999.99999999945,
+        "energy_residual_j": -4.656612873077393e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 485.4208500892863,
+            "speed_m_per_s": 40.39666921048607,
+            "energy_j": 50000.00000000001
+          },
+          {
+            "kind": "braking",
+            "position_m": 693.2390647840876,
+            "speed_m_per_s": 47.79648631310735,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        170000.0,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000012,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.238130381655854,
+        "battery_draw_j": 120000.0,
+        "electrical_work_j": 108000.00000000003,
+        "base_work_j": 706502.556228476,
+        "drag_work_j": 332876.8506941284,
+        "friction_braking_work_j": 681625.7055343468,
+        "kinetic_change_j": -199999.9999999992,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 462.6427053509018,
+            "speed_m_per_s": 39.033091654129485,
+            "energy_j": 50000.000000000015
+          },
+          {
+            "kind": "braking",
+            "position_m": 693.4959835102584,
+            "speed_m_per_s": 47.745790570495906,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        50000.0,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000075,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569971,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -200000.00000000058,
+        "energy_residual_j": -2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        50000.0,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000075,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569971,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -200000.00000000058,
+        "energy_residual_j": -2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        50000.0,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000075,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569971,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -200000.00000000058,
+        "energy_residual_j": -2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        50000.0,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000075,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569971,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -200000.00000000058,
+        "energy_residual_j": -2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        50000.0,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000075,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569971,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -200000.00000000058,
+        "energy_residual_j": -2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        300000.0,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000103,
+        "energy_j": 300000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615966,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569973,
+        "drag_work_j": 309128.321225326,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -199999.99999999962,
+        "energy_residual_j": 2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 300000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        300000.0,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000114,
+        "energy_j": 180700.61057819708,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.384764023928492,
+        "battery_draw_j": 119299.38942180292,
+        "electrical_work_j": 107369.45047962264,
+        "base_work_j": 715796.3365308173,
+        "drag_work_j": 325045.0295774241,
+        "friction_braking_work_j": 698120.7574330157,
+        "kinetic_change_j": -199999.99999999945,
+        "energy_residual_j": 3.4924596548080444e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 690.9186316510913,
+            "speed_m_per_s": 48.25267710912002,
+            "energy_j": 180700.61057819708
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        300000.0,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000114,
+        "energy_j": 72622.78185021762,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.204005306866176,
+        "battery_draw_j": 227377.2181497824,
+        "electrical_work_j": 204639.49633480425,
+        "base_work_j": 682131.654449347,
+        "drag_work_j": 339771.87883365265,
+        "friction_braking_work_j": 746999.2719504979,
+        "kinetic_change_j": -199999.99999999942,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 683.2813637577347,
+            "speed_m_per_s": 49.7336528225005,
+            "energy_j": 72622.78185021762
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        300000.0,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000135,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.074618691521398,
+        "battery_draw_j": 250000.0,
+        "electrical_work_j": 224999.99999999983,
+        "base_work_j": 669887.0290941062,
+        "drag_work_j": 350095.37102032173,
+        "friction_braking_work_j": 744791.6580737837,
+        "kinetic_change_j": -199999.99999999913,
+        "energy_residual_j": 3.4924596548080444e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 600.7493814521404,
+            "speed_m_per_s": 47.84101352860661,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 683.6263034259713,
+            "speed_m_per_s": 49.667415123895395,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        300000.0,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000117,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.009123819350686,
+        "battery_draw_j": 250000.0,
+        "electrical_work_j": 225000.00000000003,
+        "base_work_j": 665900.2262647129,
+        "drag_work_j": 354234.56836652744,
+        "friction_braking_work_j": 736665.6578981852,
+        "kinetic_change_j": -199999.99999999942,
+        "energy_residual_j": 2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 545.8749662401833,
+            "speed_m_per_s": 45.965120684357196,
+            "energy_j": 50000.00000000001
+          },
+          {
+            "kind": "braking",
+            "position_m": 684.8959909534085,
+            "speed_m_per_s": 49.42308345524574,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        55000.0,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000114,
+        "energy_j": 55000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.59568186761597,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569972,
+        "drag_work_j": 309128.32122532604,
+        "friction_braking_work_j": 645194.8602316709,
+        "kinetic_change_j": -199999.99999999997,
+        "energy_residual_j": -2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 55000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        55000.0,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000103,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.577642354615511,
+        "battery_draw_j": 5000.0,
+        "electrical_work_j": 4499.999999999998,
+        "base_work_j": 752092.2741784201,
+        "drag_work_j": 310123.1675481254,
+        "friction_braking_work_j": 646469.1066302945,
+        "kinetic_change_j": -200000.00000000012,
+        "energy_residual_j": -3.4924596548080444e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 409.1866666339609,
+            "speed_m_per_s": 31.232634890904663,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 698.9892020890165,
+            "speed_m_per_s": 46.65265654064867,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        55000.0,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000012,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.577424824856001,
+        "battery_draw_j": 5000.0,
+        "electrical_work_j": 4500.000000000002,
+        "base_work_j": 752076.0103968136,
+        "drag_work_j": 310123.29314802226,
+        "friction_braking_work_j": 646452.7172487914,
+        "kinetic_change_j": -199999.99999999985,
+        "energy_residual_j": 1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 404.5540239577665,
+            "speed_m_per_s": 30.716481584590348,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 698.9917629298764,
+            "speed_m_per_s": 46.65214273674799,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        55000.0,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000011,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.577351644435954,
+        "battery_draw_j": 5000.0,
+        "electrical_work_j": 4499.999999999996,
+        "base_work_j": 752070.5197299157,
+        "drag_work_j": 310123.2585327907,
+        "friction_braking_work_j": 646447.2611971254,
+        "kinetic_change_j": -200000.0,
+        "energy_residual_j": 4.656612873077393e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 403.02718044963643,
+            "speed_m_per_s": 30.541482527570942,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 698.9926154379491,
+            "speed_m_per_s": 46.651971689706116,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        55000.0,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000011,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.577314924546378,
+        "battery_draw_j": 5000.0,
+        "electrical_work_j": 4499.999999999997,
+        "base_work_j": 752067.761038466,
+        "drag_work_j": 310123.22669510567,
+        "friction_braking_work_j": 646444.5343433607,
+        "kinetic_change_j": -200000.0,
+        "energy_residual_j": 3.4924596548080444e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 402.2670576866856,
+            "speed_m_per_s": 30.453416838067625,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 698.99304150885,
+            "speed_m_per_s": 46.65188620276275,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        302500.0,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000009,
+        "energy_j": 302500.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569972,
+        "drag_work_j": 309128.32122532604,
+        "friction_braking_work_j": 645194.8602316709,
+        "kinetic_change_j": -199999.99999999985,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 302500.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        302500.0,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000103,
+        "energy_j": 183200.6105781972,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.38476402392849,
+        "battery_draw_j": 119299.3894218028,
+        "electrical_work_j": 107369.45047962261,
+        "base_work_j": 715796.3365308174,
+        "drag_work_j": 325045.029577424,
+        "friction_braking_work_j": 698120.7574330155,
+        "kinetic_change_j": -199999.99999999965,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 690.9186316510913,
+            "speed_m_per_s": 48.25267710912001,
+            "energy_j": 183200.6105781972
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        302500.0,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000013,
+        "energy_j": 75122.78185021765,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.20400530686617,
+        "battery_draw_j": 227377.21814978233,
+        "electrical_work_j": 204639.4963348041,
+        "base_work_j": 682131.654449347,
+        "drag_work_j": 339771.8788336528,
+        "friction_braking_work_j": 746999.2719504979,
+        "kinetic_change_j": -199999.99999999916,
+        "energy_residual_j": 4.656612873077393e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 683.2813637577347,
+            "speed_m_per_s": 49.73365282250051,
+            "energy_j": 75122.78185021765
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        302500.0,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000142,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.072820684559376,
+        "battery_draw_j": 252500.0,
+        "electrical_work_j": 227250.00000000006,
+        "base_work_j": 669261.9271714924,
+        "drag_work_j": 350304.1780938676,
+        "friction_braking_work_j": 746207.7490776235,
+        "kinetic_change_j": -199999.999999999,
+        "energy_residual_j": -4.656612873077393e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 603.1443729574022,
+            "speed_m_per_s": 47.95851069689523,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 683.4050392066213,
+            "speed_m_per_s": 49.709910674044025,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        302500.0,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000117,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.006087987670332,
+        "battery_draw_j": 252500.0,
+        "electrical_work_j": 227249.99999999983,
+        "base_work_j": 665208.4104118511,
+        "drag_work_j": 354564.28299439716,
+        "friction_braking_work_j": 737894.1274174522,
+        "kinetic_change_j": -199999.9999999994,
+        "energy_residual_j": -9.313225746154785e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 547.6007851330185,
+            "speed_m_per_s": 46.078446008934684,
+            "energy_j": 50000.00000000001
+          },
+          {
+            "kind": "braking",
+            "position_m": 684.7040425910232,
+            "speed_m_per_s": 49.460073463623004,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        172500.0,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000092,
+        "energy_j": 172500.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.59568186761597,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569975,
+        "drag_work_j": 309128.32122532604,
+        "friction_braking_work_j": 645194.8602316708,
+        "kinetic_change_j": -199999.9999999997,
+        "energy_residual_j": -4.656612873077393e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 172500.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        172500.0,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000012,
+        "energy_j": 53200.61057819705,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.384764023928478,
+        "battery_draw_j": 119299.38942180295,
+        "electrical_work_j": 107369.45047962262,
+        "base_work_j": 715796.3365308176,
+        "drag_work_j": 325045.0295774242,
+        "friction_braking_work_j": 698120.7574330155,
+        "kinetic_change_j": -199999.9999999992,
+        "energy_residual_j": 3.4924596548080444e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 690.9186316510913,
+            "speed_m_per_s": 48.25267710912002,
+            "energy_j": 53200.61057819705
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        172500.0,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000135,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.284001561207601,
+        "battery_draw_j": 122500.0,
+        "electrical_work_j": 110250.00000000003,
+        "base_work_j": 709060.1064875755,
+        "drag_work_j": 331470.1607799297,
+        "friction_braking_work_j": 687839.9457076448,
+        "kinetic_change_j": -199999.999999999,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 536.619160412248,
+            "speed_m_per_s": 43.02647476094958,
+            "energy_j": 49999.99999999999
+          },
+          {
+            "kind": "braking",
+            "position_m": 692.5250084831805,
+            "speed_m_per_s": 47.9371890701209,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        172500.0,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000124,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.249844402653954,
+        "battery_draw_j": 122500.0,
+        "electrical_work_j": 110250.00000000003,
+        "base_work_j": 706817.6797525565,
+        "drag_work_j": 332823.20589166775,
+        "friction_braking_work_j": 684244.4738608883,
+        "kinetic_change_j": -199999.9999999992,
+        "energy_residual_j": 3.4924596548080444e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 487.4450054519128,
+            "speed_m_per_s": 40.56931321571796,
+            "energy_j": 49999.99999999999
+          },
+          {
+            "kind": "braking",
+            "position_m": 693.0868009592361,
+            "speed_m_per_s": 47.82651364547952,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        172500.0,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.0000000000001,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.23231697366889,
+        "battery_draw_j": 122500.0,
+        "electrical_work_j": 110250.00000000003,
+        "base_work_j": 705626.1438873702,
+        "drag_work_j": 333348.5166141617,
+        "friction_braking_work_j": 682527.6272732085,
+        "kinetic_change_j": -199999.9999999996,
+        "energy_residual_j": 2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 464.10937287286055,
+            "speed_m_per_s": 39.18900121851081,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 693.3550582385612,
+            "speed_m_per_s": 47.773602886471856,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000046,
+        450000.0,
+        0.125
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000103,
+        "energy_j": 388802.0023792647,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.485946796492067,
+        "battery_draw_j": 61197.99762073532,
+        "electrical_work_j": 55078.197858661886,
+        "base_work_j": 734375.9714488252,
+        "drag_work_j": 317247.2794947743,
+        "friction_braking_work_j": 672206.8898127123,
+        "kinetic_change_j": -199999.99999999945,
+        "energy_residual_j": 1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 694.9676734667637,
+            "speed_m_per_s": 47.45466559250076,
+            "energy_j": 388802.0023792647
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000046,
+        450000.0,
+        0.375
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000012,
+        "energy_j": 275393.53650642134,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.291076873928965,
+        "battery_draw_j": 174606.46349357866,
+        "electrical_work_j": 157145.81714422084,
+        "base_work_j": 698425.8539743149,
+        "drag_work_j": 332546.04327839677,
+        "friction_braking_work_j": 723025.6278401383,
+        "kinetic_change_j": -199999.99999999916,
+        "energy_residual_j": 2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 687.0272456499783,
+            "speed_m_per_s": 49.01109856419737,
+            "energy_j": 275393.53650642134
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000046,
+        450000.0,
+        0.625
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000142,
+        "energy_j": 172166.15373175786,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.122809244668924,
+        "battery_draw_j": 277833.8462682421,
+        "electrical_work_j": 250050.46164141802,
+        "base_work_j": 666801.2310437815,
+        "drag_work_j": 346741.65324092814,
+        "friction_braking_work_j": 770110.0394442703,
+        "kinetic_change_j": -199999.9999999988,
+        "energy_residual_j": 2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 679.6703063368327,
+            "speed_m_per_s": 50.42354233332393,
+            "energy_j": 172166.15373175786
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000046,
+        450000.0,
+        0.875
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000107,
+        "energy_j": 77447.88150822911,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 9.975623423353847,
+        "battery_draw_j": 372552.1184917709,
+        "electrical_work_j": 335296.9066425936,
+        "base_work_j": 638660.7745573213,
+        "drag_work_j": 359979.46756159555,
+        "friction_braking_work_j": 813978.2136383182,
+        "kinetic_change_j": -199999.99999999942,
+        "energy_residual_j": -4.656612873077393e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 672.8159041190128,
+            "speed_m_per_s": 51.71608315318063,
+            "energy_j": 77447.88150822911
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        0,
+        20.0,
+        450000.0,
+        0.125
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 30.00000000000005,
+        "energy_j": 375267.98139257985,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.857251444401044,
+        "battery_draw_j": 74732.01860742015,
+        "electrical_work_j": 67258.81674667832,
+        "base_work_j": 896784.2232890446,
+        "drag_work_j": 300779.03436571127,
+        "friction_braking_work_j": 463264.0056700104,
+        "kinetic_change_j": 200000.0000000012,
+        "energy_residual_j": -5.820766091346741e-11,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 327.6149991140609,
+            "speed_m_per_s": 46.87647029532046,
+            "energy_j": 375267.98139257985
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        375267.98139257985,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000096,
+        "energy_j": 375267.98139257985,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569971,
+        "drag_work_j": 309128.32122532604,
+        "friction_braking_work_j": 645194.8602316709,
+        "kinetic_change_j": -199999.99999999965,
+        "energy_residual_j": 2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 375267.98139257985
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        375267.98139257985,
+        0.125
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000092,
+        "energy_j": 314069.98377184436,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.485946796492064,
+        "battery_draw_j": 61197.99762073549,
+        "electrical_work_j": 55078.19785866187,
+        "base_work_j": 734375.9714488251,
+        "drag_work_j": 317247.2794947744,
+        "friction_braking_work_j": 672206.8898127123,
+        "kinetic_change_j": -199999.9999999997,
+        "energy_residual_j": 1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 694.9676734667637,
+            "speed_m_per_s": 47.45466559250076,
+            "energy_j": 314069.98377184436
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        375267.98139257985,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000012,
+        "energy_j": 255968.59197077708,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.38476402392849,
+        "battery_draw_j": 119299.38942180277,
+        "electrical_work_j": 107369.45047962264,
+        "base_work_j": 715796.3365308179,
+        "drag_work_j": 325045.02957742417,
+        "friction_braking_work_j": 698120.7574330155,
+        "kinetic_change_j": -199999.99999999927,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 690.9186316510913,
+            "speed_m_per_s": 48.252677109120015,
+            "energy_j": 255968.59197077708
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        375267.98139257985,
+        0.375
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000103,
+        "energy_j": 200661.51789900105,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.291076873928963,
+        "battery_draw_j": 174606.4634935788,
+        "electrical_work_j": 157145.81714422084,
+        "base_work_j": 698425.8539743149,
+        "drag_work_j": 332546.04327839665,
+        "friction_braking_work_j": 723025.6278401383,
+        "kinetic_change_j": -199999.99999999953,
+        "energy_residual_j": -2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 687.0272456499783,
+            "speed_m_per_s": 49.01109856419736,
+            "energy_j": 200661.51789900105
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        375267.98139257985,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000015,
+        "energy_j": 147890.7632427975,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.204005306866163,
+        "battery_draw_j": 227377.21814978236,
+        "electrical_work_j": 204639.49633480413,
+        "base_work_j": 682131.654449347,
+        "drag_work_j": 339771.8788336527,
+        "friction_braking_work_j": 746999.2719504975,
+        "kinetic_change_j": -199999.99999999878,
+        "energy_residual_j": 2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 683.2813637577348,
+            "speed_m_per_s": 49.73365282250051,
+            "energy_j": 147890.7632427975
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        375267.98139257985,
+        0.625
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000117,
+        "energy_j": 97434.13512433763,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.122809244668929,
+        "battery_draw_j": 277833.8462682422,
+        "electrical_work_j": 250050.46164141805,
+        "base_work_j": 666801.2310437812,
+        "drag_work_j": 346741.653240928,
+        "friction_braking_work_j": 770110.0394442707,
+        "kinetic_change_j": -199999.9999999993,
+        "energy_residual_j": 1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 679.6703063368327,
+            "speed_m_per_s": 50.42354233332393,
+            "energy_j": 97434.13512433763
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        375267.98139257985,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000014,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.046864744807696,
+        "battery_draw_j": 325267.98139257985,
+        "electrical_work_j": 292741.183253322,
+        "base_work_j": 652528.6948689306,
+        "drag_work_j": 353471.9034177135,
+        "friction_braking_work_j": 791797.9747045385,
+        "kinetic_change_j": -199999.99999999898,
+        "energy_residual_j": 4.656612873077393e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 675.2641350802737,
+            "speed_m_per_s": 51.048945018216514,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 676.2815664524159,
+            "speed_m_per_s": 51.06526492155743,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        375267.98139257985,
+        0.875
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000009,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 9.984701066806055,
+        "battery_draw_j": 325267.98139257985,
+        "electrical_work_j": 292741.1832533219,
+        "base_work_j": 649019.2180282817,
+        "drag_work_j": 358786.45913280814,
+        "friction_braking_work_j": 782973.942148795,
+        "kinetic_change_j": -199999.99999999977,
+        "energy_residual_j": -2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 631.5825021099886,
+            "speed_m_per_s": 49.989265584532525,
+            "energy_j": 50000.000000000015
+          },
+          {
+            "kind": "braking",
+            "position_m": 677.6603215392508,
+            "speed_m_per_s": 50.80482173503925,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        375267.98139257985,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000107,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 9.938576559588583,
+        "battery_draw_j": 325267.98139257985,
+        "electrical_work_j": 292741.1832533218,
+        "base_work_j": 646338.16048856,
+        "drag_work_j": 362373.8725935279,
+        "friction_braking_work_j": 776705.4711483532,
+        "kinetic_change_j": -199999.99999999945,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 599.5975250918059,
+            "speed_m_per_s": 49.11402263131415,
+            "energy_j": 49999.999999999985
+          },
+          {
+            "kind": "braking",
+            "position_m": 678.6397701330698,
+            "speed_m_per_s": 50.61926660786242,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        304756.84418505785,
+        0.125
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000085,
+        "energy_j": 243558.84656432248,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.485946796492062,
+        "battery_draw_j": 61197.997620735376,
+        "electrical_work_j": 55078.19785866187,
+        "base_work_j": 734375.9714488252,
+        "drag_work_j": 317247.2794947746,
+        "friction_braking_work_j": 672206.8898127124,
+        "kinetic_change_j": -199999.9999999999,
+        "energy_residual_j": 1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 694.9676734667637,
+            "speed_m_per_s": 47.45466559250076,
+            "energy_j": 243558.84656432248
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        304756.84418505785,
+        0.375
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000012,
+        "energy_j": 130150.38069147916,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.29107687392896,
+        "battery_draw_j": 174606.4634935787,
+        "electrical_work_j": 157145.81714422084,
+        "base_work_j": 698425.8539743146,
+        "drag_work_j": 332546.0432783969,
+        "friction_braking_work_j": 723025.6278401386,
+        "kinetic_change_j": -199999.99999999936,
+        "energy_residual_j": 5.820766091346741e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 687.0272456499783,
+            "speed_m_per_s": 49.011098564197376,
+            "energy_j": 130150.38069147916
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        304756.84418505785,
+        0.625
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000014,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.12588492089285,
+        "battery_draw_j": 254756.84418505785,
+        "electrical_work_j": 229281.15976655207,
+        "base_work_j": 671875.3308835776,
+        "drag_work_j": 346358.91303496034,
+        "friction_braking_work_j": 754797.5776151684,
+        "kinetic_change_j": -199999.99999999904,
+        "energy_residual_j": 2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 652.0292697477418,
+            "speed_m_per_s": 49.378293661753844,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 682.06287849763,
+            "speed_m_per_s": 49.967159407669236,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000053,
+        304756.84418505785,
+        0.875
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000117,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.03246858400669,
+        "battery_draw_j": 254756.84418505785,
+        "electrical_work_j": 229281.15976655213,
+        "base_work_j": 666373.4796894497,
+        "drag_work_j": 353091.224578257,
+        "friction_braking_work_j": 742563.4148777445,
+        "kinetic_change_j": -199999.9999999994,
+        "energy_residual_j": 3.4924596548080444e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 572.8991384899398,
+            "speed_m_per_s": 47.02274495608586,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 683.9744664253524,
+            "speed_m_per_s": 49.60049777355457,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        0,
+        20.0,
+        450000.0,
+        0.375
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 30.00000000000005,
+        "energy_j": 238001.37623184282,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.550564815035633,
+        "battery_draw_j": 211998.62376815718,
+        "electrical_work_j": 190798.76139134142,
+        "base_work_j": 847994.495072629,
+        "drag_work_j": 320175.87405280053,
+        "friction_braking_work_j": 518617.38241116836,
+        "kinetic_change_j": 200000.00000000122,
+        "energy_residual_j": -2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 318.96603399825494,
+            "speed_m_per_s": 48.58418593899392,
+            "energy_j": 238001.37623184282
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        238001.37623184282,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000009,
+        "energy_j": 238001.37623184282,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569973,
+        "drag_work_j": 309128.321225326,
+        "friction_braking_work_j": 645194.8602316708,
+        "kinetic_change_j": -199999.99999999977,
+        "energy_residual_j": -2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 238001.37623184282
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        238001.37623184282,
+        0.125
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000014,
+        "energy_j": 176803.37861110742,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.485946796492064,
+        "battery_draw_j": 61197.997620735405,
+        "electrical_work_j": 55078.19785866187,
+        "base_work_j": 734375.9714488256,
+        "drag_work_j": 317247.2794947745,
+        "friction_braking_work_j": 672206.8898127116,
+        "kinetic_change_j": -199999.99999999898,
+        "energy_residual_j": -2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 694.9676734667638,
+            "speed_m_per_s": 47.45466559250076,
+            "energy_j": 176803.37861110742
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        238001.37623184282,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000011,
+        "energy_j": 118701.9868100399,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.384764023928488,
+        "battery_draw_j": 119299.38942180292,
+        "electrical_work_j": 107369.45047962261,
+        "base_work_j": 715796.3365308173,
+        "drag_work_j": 325045.0295774241,
+        "friction_braking_work_j": 698120.7574330154,
+        "kinetic_change_j": -199999.99999999942,
+        "energy_residual_j": 2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 690.9186316510913,
+            "speed_m_per_s": 48.252677109120015,
+            "energy_j": 118701.9868100399
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        238001.37623184282,
+        0.375
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000114,
+        "energy_j": 63394.91273826425,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.291076873928965,
+        "battery_draw_j": 174606.46349357857,
+        "electrical_work_j": 157145.81714422087,
+        "base_work_j": 698425.8539743146,
+        "drag_work_j": 332546.0432783967,
+        "friction_braking_work_j": 723025.6278401383,
+        "kinetic_change_j": -199999.99999999936,
+        "energy_residual_j": 1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 687.0272456499783,
+            "speed_m_per_s": 49.01109856419737,
+            "energy_j": 63394.91273826425
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        238001.37623184282,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000013,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.215286129583466,
+        "battery_draw_j": 188001.37623184282,
+        "electrical_work_j": 169201.23860865852,
+        "base_work_j": 691195.3735843352,
+        "drag_work_j": 338464.05345633475,
+        "friction_braking_work_j": 721932.5587366581,
+        "kinetic_change_j": -199999.9999999991,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 625.7965607565017,
+            "speed_m_per_s": 47.53706010410417,
+            "energy_j": 49999.99999999999
+          },
+          {
+            "kind": "braking",
+            "position_m": 687.1980376973972,
+            "speed_m_per_s": 48.97798111665564,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        238001.37623184282,
+        0.625
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000114,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.169483933415012,
+        "battery_draw_j": 188001.37623184282,
+        "electrical_work_j": 169201.23860865855,
+        "base_work_j": 688446.6242609924,
+        "drag_work_j": 341446.0216169119,
+        "friction_braking_work_j": 716201.8412527385,
+        "kinetic_change_j": -199999.99999999936,
+        "energy_residual_j": 1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 575.6195643418939,
+            "speed_m_per_s": 45.88054850410962,
+            "energy_j": 49999.999999999985
+          },
+          {
+            "kind": "braking",
+            "position_m": 688.0934623042597,
+            "speed_m_per_s": 48.8041020722014,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        238001.37623184282,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000011,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.138927590363867,
+        "battery_draw_j": 188001.37623184282,
+        "electrical_work_j": 169201.23860865858,
+        "base_work_j": 686546.7710965014,
+        "drag_work_j": 343152.1524004136,
+        "friction_braking_work_j": 712595.8573047457,
+        "kinetic_change_j": -199999.99999999942,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 543.3508551796251,
+            "speed_m_per_s": 44.64522334770255,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 688.6568972961335,
+            "speed_m_per_s": 48.694472667577266,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        238001.37623184282,
+        0.875
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000124,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.116973458991728,
+        "battery_draw_j": 188001.37623184282,
+        "electrical_work_j": 169201.23860865858,
+        "base_work_j": 685147.9238080799,
+        "drag_work_j": 344233.8347833777,
+        "friction_braking_work_j": 710115.3276333608,
+        "kinetic_change_j": -199999.99999999919,
+        "energy_residual_j": 9.313225746154785e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 520.9392808346732,
+            "speed_m_per_s": 43.691209330816356,
+            "energy_j": 49999.99999999999
+          },
+          {
+            "kind": "braking",
+            "position_m": 689.0444800572874,
+            "speed_m_per_s": 48.61896083320393,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        238001.37623184282,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000107,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.100387921718958,
+        "battery_draw_j": 188001.37623184282,
+        "electrical_work_j": 169201.23860865858,
+        "base_work_j": 684072.0718715573,
+        "drag_work_j": 344970.09595750755,
+        "friction_braking_work_j": 708303.2145227076,
+        "kinetic_change_j": -199999.99999999945,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 504.5039138805514,
+            "speed_m_per_s": 42.93321691286124,
+            "energy_j": 49999.99999999999
+          },
+          {
+            "kind": "braking",
+            "position_m": 689.327622730827,
+            "speed_m_per_s": 48.56374576121297,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        174612.48556806624,
+        0.125
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000012,
+        "energy_j": 113414.48794733091,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.485946796492064,
+        "battery_draw_j": 61197.99762073533,
+        "electrical_work_j": 55078.197858661886,
+        "base_work_j": 734375.971448825,
+        "drag_work_j": 317247.27949477435,
+        "friction_braking_work_j": 672206.889812712,
+        "kinetic_change_j": -199999.99999999927,
+        "energy_residual_j": 1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 694.9676734667637,
+            "speed_m_per_s": 47.45466559250077,
+            "energy_j": 113414.48794733091
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        174612.48556806624,
+        0.375
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000009,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.315439190703001,
+        "battery_draw_j": 124612.48556806624,
+        "electrical_work_j": 112151.23701125955,
+        "base_work_j": 710588.0531807601,
+        "drag_work_j": 329934.16603127617,
+        "friction_braking_work_j": 692805.1241607427,
+        "kinetic_change_j": -199999.99999999977,
+        "energy_residual_j": -5.820766091346741e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 592.553419741733,
+            "speed_m_per_s": 45.31698827715472,
+            "energy_j": 49999.99999999999
+          },
+          {
+            "kind": "braking",
+            "position_m": 691.749199349884,
+            "speed_m_per_s": 48.08973518679046,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        174612.48556806624,
+        0.625
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000012,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.259760616091237,
+        "battery_draw_j": 124612.48556806624,
+        "electrical_work_j": 112151.23701125961,
+        "base_work_j": 707060.8647984907,
+        "drag_work_j": 332675.05111818755,
+        "friction_braking_work_j": 686537.0506915628,
+        "kinetic_change_j": -199999.99999999927,
+        "energy_residual_j": 8.149072527885437e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 508.8457289225367,
+            "speed_m_per_s": 41.751876264017866,
+            "energy_j": 49999.99999999999
+          },
+          {
+            "kind": "braking",
+            "position_m": 692.7285858294433,
+            "speed_m_per_s": 47.89710406557517,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000005,
+        174612.48556806624,
+        0.875
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000114,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.235251270819788,
+        "battery_draw_j": 124612.48556806624,
+        "electrical_work_j": 112151.23701125964,
+        "base_work_j": 705421.6937767159,
+        "drag_work_j": 333522.2828770627,
+        "friction_braking_work_j": 684050.6479109122,
+        "kinetic_change_j": -199999.99999999933,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 475.4447539587174,
+            "speed_m_per_s": 39.93128746118426,
+            "energy_j": 49999.999999999985
+          },
+          {
+            "kind": "braking",
+            "position_m": 693.11708626392,
+            "speed_m_per_s": 47.8205422500705,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        0,
+        20.0,
+        450000.0,
+        0.625
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 30.000000000000064,
+        "energy_j": 114261.11770965836,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.290488783434384,
+        "battery_draw_j": 335738.88229034166,
+        "electrical_work_j": 302164.9940613073,
+        "base_work_j": 805773.3174968198,
+        "drag_work_j": 338106.9192062182,
+        "friction_braking_work_j": 569831.3923519069,
+        "kinetic_change_j": 200000.0000000015,
+        "energy_residual_j": -4.656612873077393e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 310.96384494501456,
+            "speed_m_per_s": 50.128133912040354,
+            "energy_j": 114261.11770965836
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        114261.11770965836,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.0000000000001,
+        "energy_j": 114261.11770965836,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615966,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569973,
+        "drag_work_j": 309128.32122532604,
+        "friction_braking_work_j": 645194.8602316706,
+        "kinetic_change_j": -199999.99999999994,
+        "energy_residual_j": -6.984919309616089e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888015,
+            "speed_m_per_s": 46.61269717898735,
+            "energy_j": 114261.11770965836
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        114261.11770965836,
+        0.125
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000015,
+        "energy_j": 53063.120088922944,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.485946796492062,
+        "battery_draw_j": 61197.99762073541,
+        "electrical_work_j": 55078.19785866188,
+        "base_work_j": 734375.9714488251,
+        "drag_work_j": 317247.2794947747,
+        "friction_braking_work_j": 672206.8898127116,
+        "kinetic_change_j": -199999.99999999919,
+        "energy_residual_j": 2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 694.9676734667638,
+            "speed_m_per_s": 47.45466559250076,
+            "energy_j": 53063.120088922944
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        114261.11770965836,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000014,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.429034842573587,
+        "battery_draw_j": 64261.117709658356,
+        "electrical_work_j": 57835.005938692535,
+        "base_work_j": 730280.8090056115,
+        "drag_work_j": 320748.5684934497,
+        "friction_braking_work_j": 667367.2464508549,
+        "kinetic_change_j": -199999.99999999933,
+        "energy_residual_j": 1.280568540096283e-09,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 541.1461427119084,
+            "speed_m_per_s": 42.02162899082731,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 695.7238677420539,
+            "speed_m_per_s": 47.3045903178775,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        114261.11770965836,
+        0.375
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000114,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.40961335651561,
+        "battery_draw_j": 64261.117709658356,
+        "electrical_work_j": 57835.00593869252,
+        "base_work_j": 728997.7954043762,
+        "drag_work_j": 321459.77556466585,
+        "friction_braking_work_j": 665373.0257784025,
+        "kinetic_change_j": -199999.99999999974,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 489.9793498806148,
+            "speed_m_per_s": 39.33136404588287,
+            "energy_j": 50000.00000000001
+          },
+          {
+            "kind": "braking",
+            "position_m": 696.0354647221246,
+            "speed_m_per_s": 47.2426530671733,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        114261.11770965836,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.0000000000001,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.399602890393314,
+        "battery_draw_j": 64261.117709658356,
+        "electrical_work_j": 57835.00593869253,
+        "base_work_j": 728311.7015283084,
+        "drag_work_j": 321725.65249651176,
+        "friction_braking_work_j": 664421.0549704895,
+        "kinetic_change_j": -199999.99999999994,
+        "energy_residual_j": 3.4924596548080444e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 465.80452251851034,
+            "speed_m_per_s": 37.80825877056991,
+            "energy_j": 49999.99999999999
+          },
+          {
+            "kind": "braking",
+            "position_m": 696.1842101608611,
+            "speed_m_per_s": 47.213066267072286,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        114261.11770965836,
+        0.625
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000146,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.39346061367967,
+        "battery_draw_j": 64261.117709658356,
+        "electrical_work_j": 57835.00593869253,
+        "base_work_j": 727882.4813702011,
+        "drag_work_j": 321855.35488016973,
+        "friction_braking_work_j": 663862.1324287233,
+        "kinetic_change_j": -199999.9999999992,
+        "energy_residual_j": 1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 451.79833155784854,
+            "speed_m_per_s": 36.82890051636474,
+            "energy_j": 50000.00000000001
+          },
+          {
+            "kind": "braking",
+            "position_m": 696.271541808012,
+            "speed_m_per_s": 47.19568914309882,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        114261.11770965836,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000085,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.389298169414898,
+        "battery_draw_j": 64261.117709658356,
+        "electrical_work_j": 57835.00593869253,
+        "base_work_j": 727588.1012737228,
+        "drag_work_j": 321929.0243051954,
+        "friction_braking_work_j": 663494.0829072194,
+        "kinetic_change_j": -200000.00000000015,
+        "energy_residual_j": -6.984919309616089e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 442.6812122713897,
+            "speed_m_per_s": 36.14627270325325,
+            "energy_j": 49999.99999999999
+          },
+          {
+            "kind": "braking",
+            "position_m": 696.329049545747,
+            "speed_m_per_s": 47.18424387883596,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        114261.11770965836,
+        0.875
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000114,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.386288064326585,
+        "battery_draw_j": 64261.117709658356,
+        "electrical_work_j": 57835.00593869251,
+        "base_work_j": 727373.4739491488,
+        "drag_work_j": 321975.23377607897,
+        "friction_braking_work_j": 663233.2461117614,
+        "kinetic_change_j": -199999.99999999974,
+        "energy_residual_j": -5.820766091346741e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 436.28117069135357,
+            "speed_m_per_s": 35.64324885687779,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 696.3698052950373,
+            "speed_m_per_s": 47.17613143400617,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        114261.11770965836,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000013,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.384008712181108,
+        "battery_draw_j": 64261.117709658356,
+        "electrical_work_j": 57835.0059386925,
+        "base_work_j": 727209.9873362342,
+        "drag_work_j": 322006.3225701739,
+        "friction_braking_work_j": 663038.6707047526,
+        "kinetic_change_j": -199999.99999999945,
+        "energy_residual_j": 2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 431.5442127367009,
+            "speed_m_per_s": 35.257173675107445,
+            "energy_j": 49999.99999999999
+          },
+          {
+            "kind": "braking",
+            "position_m": 696.4002077023824,
+            "speed_m_per_s": 47.170079185789305,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        56666.24845281832,
+        0.125
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.00000000000009,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.572596117315861,
+        "battery_draw_j": 6666.2484528183195,
+        "electrical_work_j": 5999.62360753649,
+        "base_work_j": 751420.3983341189,
+        "drag_work_j": 310451.4551762822,
+        "friction_braking_work_j": 646968.5667653736,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 425.1934109693241,
+            "speed_m_per_s": 32.91935936221769,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 698.9111614429104,
+            "speed_m_per_s": 46.66831259367129,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        56666.24845281832,
+        0.375
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000117,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.571593589630336,
+        "battery_draw_j": 6666.2484528183195,
+        "electrical_work_j": 5999.623607536496,
+        "base_work_j": 751346.282602681,
+        "drag_work_j": 310455.4027685392,
+        "friction_braking_work_j": 646890.5034416781,
+        "kinetic_change_j": -199999.99999999988,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 408.15806115590897,
+            "speed_m_per_s": 31.17872253592435,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 698.9233588372379,
+            "speed_m_per_s": 46.66586587016409,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        56666.24845281832,
+        0.625
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000135,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.571387526868197,
+        "battery_draw_j": 6666.2484528183195,
+        "electrical_work_j": 5999.623607536488,
+        "base_work_j": 751330.8752177836,
+        "drag_work_j": 310455.5223914927,
+        "friction_braking_work_j": 646874.9764338271,
+        "kinetic_change_j": -199999.99999999962,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 404.86503352533094,
+            "speed_m_per_s": 30.811886778949095,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 698.9257849322146,
+            "speed_m_per_s": 46.66537919934212,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        56666.24845281832,
+        0.875
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.0000000000001,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.571298594928637,
+        "battery_draw_j": 6666.2484528183195,
+        "electrical_work_j": 5999.623607536495,
+        "base_work_j": 751324.2078958155,
+        "drag_work_j": 310455.5028088917,
+        "friction_braking_work_j": 646868.3286944608,
+        "kinetic_change_j": -200000.00000000017,
+        "energy_residual_j": 3.4924596548080444e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 403.46582107148646,
+            "speed_m_per_s": 30.652626360994475,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 698.9268236414905,
+            "speed_m_per_s": 46.6651708348008,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        0,
+        20.0,
+        450000.0,
+        0.875
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 30.00000000000007,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.07598444108281,
+        "battery_draw_j": 400000.0,
+        "electrical_work_j": 360000.00000000006,
+        "base_work_j": 779360.8634420474,
+        "drag_work_j": 353534.83248279424,
+        "friction_braking_work_j": 585826.0309592515,
+        "kinetic_change_j": 200000.00000000172,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 261.4710574544365,
+            "speed_m_per_s": 49.74496001289524,
+            "energy_j": 50000.000000000015
+          },
+          {
+            "kind": "braking",
+            "position_m": 308.46468266261695,
+            "speed_m_per_s": 50.60376631554634,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000007,
+        50000.0,
+        0.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000085,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569973,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316709,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": -5.820766091346741e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000007,
+        50000.0,
+        0.125
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000085,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569973,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316709,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": -5.820766091346741e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000007,
+        50000.0,
+        0.25
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000085,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569973,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316709,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": -5.820766091346741e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000007,
+        50000.0,
+        0.375
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000085,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569973,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316709,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": -5.820766091346741e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000007,
+        50000.0,
+        0.5
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000085,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569973,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316709,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": -5.820766091346741e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000007,
+        50000.0,
+        0.625
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000085,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569973,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316709,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": -5.820766091346741e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000007,
+        50000.0,
+        0.75
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000085,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569973,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316709,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": -5.820766091346741e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000007,
+        50000.0,
+        0.875
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000085,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569973,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316709,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": -5.820766091346741e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000007,
+        50000.0,
+        1.0
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000085,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615964,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569973,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316709,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": -5.820766091346741e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        50000.0,
+        0.125
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000075,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615966,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569971,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        50000.0,
+        0.375
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000075,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615966,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569971,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        50000.0,
+        0.625
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000075,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615966,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569971,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        50000.0,
+        0.875
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000075,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615966,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569971,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000064,
+        50000.0,
+        0.36857378482818604
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000075,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615966,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569971,
+        "drag_work_j": 309128.3212253261,
+        "friction_braking_work_j": 645194.8602316712,
+        "kinetic_change_j": -200000.00000000035,
+        "energy_residual_j": 0.0,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.61269717898736,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        0,
+        20.0,
+        450000.0,
+        0.5273459553718567
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 30.000000000000075,
+        "energy_j": 161160.41832491322,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.387294680567724,
+        "battery_draw_j": 288839.58167508675,
+        "electrical_work_j": 259955.62350757816,
+        "base_work_j": 821584.7075324937,
+        "drag_work_j": 331262.81082701945,
+        "friction_braking_work_j": 550277.5202130507,
+        "kinetic_change_j": 200000.0000000018,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 314.01913746671084,
+            "speed_m_per_s": 49.542505722008826,
+            "energy_j": 161160.41832491322
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.000000000000075,
+        161160.41832491322,
+        0.3889097273349762
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000103,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.326272133970912,
+        "battery_draw_j": 111160.41832491322,
+        "electrical_work_j": 100044.37649242193,
+        "base_work_j": 714068.6868966098,
+        "drag_work_j": 328668.9710849919,
+        "friction_braking_work_j": 685444.0923040401,
+        "kinetic_change_j": -200000.00000000015,
+        "energy_residual_j": 1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 561.7068337450617,
+            "speed_m_per_s": 43.873987922921565,
+            "energy_j": 50000.0
+          },
+          {
+            "kind": "braking",
+            "position_m": 692.8993605774938,
+            "speed_m_per_s": 47.86345997621342,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        0,
+        20.0,
+        450000.0,
+        0.8851745128631592
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 30.00000000000004,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.069188681581984,
+        "battery_draw_j": 400000.0,
+        "electrical_work_j": 359999.9999999998,
+        "base_work_j": 778945.1060490852,
+        "drag_work_j": 353973.27488660335,
+        "friction_braking_work_j": 584971.8311624809,
+        "kinetic_change_j": 200000.00000000096,
+        "energy_residual_j": 2.3283064365386963e-10,
+        "events": [
+          {
+            "kind": "depletion",
+            "position_m": 257.9203419954227,
+            "speed_m_per_s": 49.64414297512416,
+            "energy_j": 49999.99999999997
+          },
+          {
+            "kind": "braking",
+            "position_m": 308.59815138086236,
+            "speed_m_per_s": 50.578440624838755,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    },
+    {
+      "key": [
+        1,
+        30.00000000000004,
+        50000.0,
+        0.32655641436576843
+      ],
+      "result": {
+        "feasible": true,
+        "speed_m_per_s": 20.000000000000085,
+        "energy_j": 50000.0,
+        "reserve_roundoff_correction_j": 0.0,
+        "duration_s": 10.595681867615967,
+        "battery_draw_j": 0.0,
+        "electrical_work_j": 0.0,
+        "base_work_j": 754323.1814569974,
+        "drag_work_j": 309128.3212253259,
+        "friction_braking_work_j": 645194.8602316709,
+        "kinetic_change_j": -199999.99999999956,
+        "energy_residual_j": -1.1641532182693481e-10,
+        "events": [
+          {
+            "kind": "braking",
+            "position_m": 699.1883030888014,
+            "speed_m_per_s": 46.612697178987354,
+            "energy_j": 50000.0
+          }
+        ],
+        "samples": [],
+        "solver": {
+          "rtol": 1e-09,
+          "atol": 1e-09,
+          "max_step_m": 5
+        },
+        "provenance": "synthetic_event_power_drag"
+      }
+    }
+  ],
+  "interpretation": "Run-local exact-key transition cache; requires matching dependency hashes before reuse."
+}

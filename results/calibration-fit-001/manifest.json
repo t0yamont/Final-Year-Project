@@ -1,0 +1,18 @@
+{
+  "python": "3.12.10",
+  "scipy": "1.18.1",
+  "numpy": "2.5.4",
+  "inputs_sha256": {
+    "results\\calibration-data-001\\fit.csv": "d3b2ab99dcf2fbf02160227b70261f39ffeb5be5ba623aaff7ddc26ecc17f295",
+    "results\\calibration-data-001\\validation.csv": "5081d0542917129de9c04145674112a5960742c7c86da711e6950390383774cb",
+    "results\\calibration-data-001\\manifest.json": "eecd756824d925f9086911d8354c7123fad70f4beb6b4dd47a6a4769b7d34732",
+    "results\\calibration-data-001\\summary.json": "d8dd4d1ccd62d18697abc41ddb74147fd2e2e0dde914056809572d607076e75e"
+  },
+  "outputs_sha256": {
+    "metrics.json": "2b09d46c47057324ab232bfc2b854b8e04bc5ddb1016989dc7d49782091aed99"
+  },
+  "source_sha256": {
+    "scripts\\calibrate_development.py": "f9c1788eddd28ab353e4c13fb48a2847c2dfc79dcf813233deb51aa45f39fe1a",
+    "src\\f1energy\\identification.py": "52bfc0a97d7cf9f4dc17ef343d06d650ccd5167d7fdba40f3a1130a816ec271a"
+  }
+}

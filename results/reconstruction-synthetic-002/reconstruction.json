@@ -1,0 +1,560 @@
+{
+  "provenance": "synthetic_analytic_straight_ground_truth",
+  "truth": {
+    "deployment_w": [
+      40000.0,
+      60000.0,
+      80000.0
+    ],
+    "base_power_w": 200000.0,
+    "mass_kg": 800.0,
+    "lengths_m": [
+      100,
+      150,
+      100
+    ],
+    "initial_speed_m_per_s": 30.0,
+    "initial_energy_j": 2000000.0,
+    "reserve_j": 50000.0,
+    "efficiency": 0.9,
+    "drag": 0.0,
+    "generated": {
+      "rows": [
+        {
+          "speed_m_per_s": 48.90973246508749,
+          "duration_s": 2.486936549677387,
+          "battery_draw_j": 110530.51331899498,
+          "energy_j": 1889469.486681005
+        },
+        {
+          "speed_m_per_s": 64.08988022546876,
+          "duration_s": 2.639001257705381,
+          "battery_draw_j": 175933.41718035872,
+          "energy_j": 1713536.0695006463
+        },
+        {
+          "speed_m_per_s": 71.67718131886292,
+          "duration_s": 1.471579392146027,
+          "battery_draw_j": 130807.05707964684,
+          "energy_j": 1582729.0124209996
+        }
+      ],
+      "feasible": true,
+      "terminal_energy_j": 1582729.0124209996
+    }
+  },
+  "observed_speed_m_per_s": [
+    48.90973246508749,
+    64.08988022546876,
+    71.67718131886292
+  ],
+  "noisy_observed_speed_m_per_s": [
+    48.8304202175717,
+    64.11393735382259,
+    71.48754868390301
+  ],
+  "noise_seed": 2026,
+  "runs": [
+    {
+      "case": "exact",
+      "seed": 0,
+      "assumed_base_power_w": 180000.0,
+      "initial_guess_w": [
+        76435.40247857451,
+        32374.405651664438,
+        4916.822872343363
+      ],
+      "deployment_w": [
+        60000.00000000012,
+        80000.0,
+        100000.00000000047
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 9,
+      "objective_speed_squared": 0.0,
+      "speed_rmse_m_per_s": 0.0,
+      "action_rmse_w": 20000.000000000196,
+      "energy_feasible": true,
+      "terminal_energy_j": 1436117.5190981363,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "exact",
+      "seed": 1,
+      "assumed_base_power_w": 180000.0,
+      "initial_guess_w": [
+        61418.5949640308,
+        114055.64355911224,
+        17299.153526356047
+      ],
+      "deployment_w": [
+        59999.99999999996,
+        80000.0000000001,
+        100000.00000000028
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 8,
+      "objective_speed_squared": 5.048709793414476e-29,
+      "speed_rmse_m_per_s": 4.1023203976182695e-15,
+      "action_rmse_w": 20000.000000000116,
+      "energy_feasible": true,
+      "terminal_energy_j": 1436117.5190981366,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "exact",
+      "seed": 2,
+      "assumed_base_power_w": 180000.0,
+      "initial_guess_w": [
+        31393.456109917966,
+        35818.9372096948,
+        97707.08887131364
+      ],
+      "deployment_w": [
+        59999.99999999996,
+        80000.0000000001,
+        100000.00000000019
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 8,
+      "objective_speed_squared": 5.048709793414476e-29,
+      "speed_rmse_m_per_s": 4.1023203976182695e-15,
+      "action_rmse_w": 20000.000000000084,
+      "energy_feasible": true,
+      "terminal_energy_j": 1436117.5190981366,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "exact",
+      "seed": 3,
+      "assumed_base_power_w": 180000.0,
+      "initial_guess_w": [
+        10277.900057234923,
+        28417.260791531964,
+        96152.93582476763
+      ],
+      "deployment_w": [
+        60000.00000000019,
+        79999.99999999991,
+        100000.00000000041
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 8,
+      "objective_speed_squared": 5.048709793414476e-29,
+      "speed_rmse_m_per_s": 4.1023203976182695e-15,
+      "action_rmse_w": 20000.000000000167,
+      "energy_feasible": true,
+      "terminal_energy_j": 1436117.5190981366,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "exact",
+      "seed": 4,
+      "assumed_base_power_w": 180000.0,
+      "initial_guess_w": [
+        113166.73266868411,
+        61359.30633772339,
+        117149.2446849245
+      ],
+      "deployment_w": [
+        60000.00000000008,
+        80000.00000000012,
+        100000.00000000047
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 7,
+      "objective_speed_squared": 0.0,
+      "speed_rmse_m_per_s": 0.0,
+      "action_rmse_w": 20000.000000000222,
+      "energy_feasible": true,
+      "terminal_energy_j": 1436117.5190981359,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "exact",
+      "seed": 0,
+      "assumed_base_power_w": 200000.0,
+      "initial_guess_w": [
+        76435.40247857451,
+        32374.405651664438,
+        4916.822872343363
+      ],
+      "deployment_w": [
+        40000.000000000015,
+        59999.99999999993,
+        80000.00000000042
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 8,
+      "objective_speed_squared": 0.0,
+      "speed_rmse_m_per_s": 0.0,
+      "action_rmse_w": 2.473825588822365e-10,
+      "energy_feasible": true,
+      "terminal_energy_j": 1582729.0124209991,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "exact",
+      "seed": 1,
+      "assumed_base_power_w": 200000.0,
+      "initial_guess_w": [
+        61418.5949640308,
+        114055.64355911224,
+        17299.153526356047
+      ],
+      "deployment_w": [
+        40000.000000000204,
+        59999.99999999996,
+        80000.0000000003
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 8,
+      "objective_speed_squared": 5.048709793414476e-29,
+      "speed_rmse_m_per_s": 4.1023203976182695e-15,
+      "action_rmse_w": 2.1308330595515312e-10,
+      "energy_feasible": true,
+      "terminal_energy_j": 1582729.0124209984,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "exact",
+      "seed": 2,
+      "assumed_base_power_w": 200000.0,
+      "initial_guess_w": [
+        31393.456109917966,
+        35818.9372096948,
+        97707.08887131364
+      ],
+      "deployment_w": [
+        40000.0000000016,
+        59999.99999999501,
+        80000.00000000105
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 6,
+      "objective_speed_squared": 6.704686605654424e-26,
+      "speed_rmse_m_per_s": 1.4949567001148032e-13,
+      "action_rmse_w": 3.086161270789659e-09,
+      "energy_feasible": true,
+      "terminal_energy_j": 1582729.0124210075,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "exact",
+      "seed": 3,
+      "assumed_base_power_w": 200000.0,
+      "initial_guess_w": [
+        10277.900057234923,
+        28417.260791531964,
+        96152.93582476763
+      ],
+      "deployment_w": [
+        40000.00000000016,
+        60000.00000000036,
+        80000.00000000038
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 7,
+      "objective_speed_squared": 1.666074231826777e-27,
+      "speed_rmse_m_per_s": 2.3566036520288945e-14,
+      "action_rmse_w": 3.140484019954927e-10,
+      "energy_feasible": true,
+      "terminal_energy_j": 1582729.0124209973,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "exact",
+      "seed": 4,
+      "assumed_base_power_w": 200000.0,
+      "initial_guess_w": [
+        113166.73266868411,
+        61359.30633772339,
+        117149.2446849245
+      ],
+      "deployment_w": [
+        39999.99999999999,
+        59999.99999999997,
+        79999.99999999996
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 8,
+      "objective_speed_squared": 0.0,
+      "speed_rmse_m_per_s": 0.0,
+      "action_rmse_w": 3.0582111534794706e-11,
+      "energy_feasible": true,
+      "terminal_energy_j": 1582729.0124209996,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "exact",
+      "seed": 0,
+      "assumed_base_power_w": 220000.0,
+      "initial_guess_w": [
+        76435.40247857451,
+        32374.405651664438,
+        4916.822872343363
+      ],
+      "deployment_w": [
+        20000.000000000084,
+        40000.00000000012,
+        60000.000000000626
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 8,
+      "objective_speed_squared": 0.0,
+      "speed_rmse_m_per_s": 0.0,
+      "action_rmse_w": 19999.999999999727,
+      "energy_feasible": true,
+      "terminal_energy_j": 1729340.5057438598,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "exact",
+      "seed": 1,
+      "assumed_base_power_w": 220000.0,
+      "initial_guess_w": [
+        61418.5949640308,
+        114055.64355911224,
+        17299.153526356047
+      ],
+      "deployment_w": [
+        19999.999999999927,
+        40000.000000000124,
+        60000.000000000386
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 8,
+      "objective_speed_squared": 2.0194839173657902e-28,
+      "speed_rmse_m_per_s": 8.204640795236539e-15,
+      "action_rmse_w": 19999.999999999854,
+      "energy_feasible": true,
+      "terminal_energy_j": 1729340.5057438607,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "exact",
+      "seed": 2,
+      "assumed_base_power_w": 220000.0,
+      "initial_guess_w": [
+        31393.456109917966,
+        35818.9372096948,
+        97707.08887131364
+      ],
+      "deployment_w": [
+        20000.000000000175,
+        40000.0,
+        60000.0000000004
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 7,
+      "objective_speed_squared": 5.048709793414476e-29,
+      "speed_rmse_m_per_s": 4.1023203976182695e-15,
+      "action_rmse_w": 19999.99999999981,
+      "energy_feasible": true,
+      "terminal_energy_j": 1729340.5057438605,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "exact",
+      "seed": 3,
+      "assumed_base_power_w": 220000.0,
+      "initial_guess_w": [
+        10277.900057234923,
+        28417.260791531964,
+        96152.93582476763
+      ],
+      "deployment_w": [
+        20000.000000000004,
+        39999.99999999993,
+        59999.99999999989
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 6,
+      "objective_speed_squared": 0.0,
+      "speed_rmse_m_per_s": 0.0,
+      "action_rmse_w": 20000.00000000006,
+      "energy_feasible": true,
+      "terminal_energy_j": 1729340.505743862,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "exact",
+      "seed": 4,
+      "assumed_base_power_w": 220000.0,
+      "initial_guess_w": [
+        113166.73266868411,
+        61359.30633772339,
+        117149.2446849245
+      ],
+      "deployment_w": [
+        19999.999999999996,
+        40000.00000000029,
+        60000.00000000032
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 9,
+      "objective_speed_squared": 0.0,
+      "speed_rmse_m_per_s": 0.0,
+      "action_rmse_w": 19999.999999999796,
+      "energy_feasible": true,
+      "terminal_energy_j": 1729340.50574386,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "noisy_sigma_0.1",
+      "seed": 0,
+      "assumed_base_power_w": 200000.0,
+      "initial_guess_w": [
+        76435.40247857451,
+        32374.405651664438,
+        4916.822872343363
+      ],
+      "deployment_w": [
+        38484.638063987295,
+        61537.45226531101,
+        71435.70495399067
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 7,
+      "objective_speed_squared": 2.2012374699287113e-25,
+      "speed_rmse_m_per_s": 2.708774304569449e-13,
+      "action_rmse_w": 5099.255857486332,
+      "energy_feasible": true,
+      "terminal_energy_j": 1596070.2884220893,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "noisy_sigma_0.1",
+      "seed": 1,
+      "assumed_base_power_w": 200000.0,
+      "initial_guess_w": [
+        61418.5949640308,
+        114055.64355911224,
+        17299.153526356047
+      ],
+      "deployment_w": [
+        38484.63806398733,
+        61537.452265312786,
+        71435.70495398827
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 7,
+      "objective_speed_squared": 2.7464981276174747e-25,
+      "speed_rmse_m_per_s": 3.0257220227120855e-13,
+      "action_rmse_w": 5099.255857487852,
+      "energy_feasible": true,
+      "terminal_energy_j": 1596070.2884220881,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "noisy_sigma_0.1",
+      "seed": 2,
+      "assumed_base_power_w": 200000.0,
+      "initial_guess_w": [
+        31393.456109917966,
+        35818.9372096948,
+        97707.08887131364
+      ],
+      "deployment_w": [
+        38484.63806398749,
+        61537.45226530506,
+        71435.70495401551
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 7,
+      "objective_speed_squared": 5.048709793414476e-29,
+      "speed_rmse_m_per_s": 4.1023203976182695e-15,
+      "action_rmse_w": 5099.255857471809,
+      "energy_feasible": true,
+      "terminal_energy_j": 1596070.288422065,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "noisy_sigma_0.1",
+      "seed": 3,
+      "assumed_base_power_w": 200000.0,
+      "initial_guess_w": [
+        10277.900057234923,
+        28417.260791531964,
+        96152.93582476763
+      ],
+      "deployment_w": [
+        38484.63806398737,
+        61537.45226530508,
+        71435.70495401547
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 7,
+      "objective_speed_squared": 0.0,
+      "speed_rmse_m_per_s": 0.0,
+      "action_rmse_w": 5099.255857471848,
+      "energy_feasible": true,
+      "terminal_energy_j": 1596070.2884220653,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    },
+    {
+      "case": "noisy_sigma_0.1",
+      "seed": 4,
+      "assumed_base_power_w": 200000.0,
+      "initial_guess_w": [
+        113166.73266868411,
+        61359.30633772339,
+        117149.2446849245
+      ],
+      "deployment_w": [
+        38484.6380639874,
+        61537.45226530515,
+        71435.70495401569
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "`gtol` termination condition is satisfied.",
+      "nfev": 8,
+      "objective_speed_squared": 0.0,
+      "speed_rmse_m_per_s": 0.0,
+      "action_rmse_w": 5099.25585747173,
+      "energy_feasible": true,
+      "terminal_energy_j": 1596070.2884220649,
+      "lower_bound_w": 0.0,
+      "upper_bound_w": 120000.0
+    }
+  ],
+  "interpretation": "Synthetic endpoint inverse fit. Missing battery labels allow different feasible deployment maps under uncertain base power. No real deployment inference."
+}

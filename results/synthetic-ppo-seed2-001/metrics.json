@@ -1,0 +1,114 @@
+{
+  "actual_timesteps": 16384,
+  "training_s": 9.25959359999979,
+  "results": {
+    "training_nominal": {
+      "zero": {
+        "elapsed_s": 28.997141776576022,
+        "terminal_energy_j": 450000.0,
+        "terminal_speed_m_per_s": 20.0,
+        "feasible": true,
+        "actions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "evaluation_s": 0.0002758000046014786
+      },
+      "uniform_half": {
+        "elapsed_s": 27.757070490594437,
+        "terminal_energy_j": 50000.0,
+        "terminal_speed_m_per_s": 20.0,
+        "feasible": true,
+        "actions": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "evaluation_s": 0.00017070000467356294
+      },
+      "uniform_full": {
+        "elapsed_s": 27.76108177679602,
+        "terminal_energy_j": 50000.0,
+        "terminal_speed_m_per_s": 19.999999999999993,
+        "feasible": true,
+        "actions": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "evaluation_s": 0.00026790000265464187
+      },
+      "ppo": {
+        "elapsed_s": 27.76108177679602,
+        "terminal_energy_j": 50000.0,
+        "terminal_speed_m_per_s": 19.999999999999993,
+        "feasible": true,
+        "actions": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "evaluation_s": 0.001370999998471234
+      }
+    },
+    "heldout_mass_energy": {
+      "zero": {
+        "elapsed_s": 29.46890696621303,
+        "terminal_energy_j": 350000.0,
+        "terminal_speed_m_per_s": 19.999999999999993,
+        "feasible": true,
+        "actions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "evaluation_s": 0.00013980000221636146
+      },
+      "uniform_half": {
+        "elapsed_s": 28.362190019464926,
+        "terminal_energy_j": 50000.0,
+        "terminal_speed_m_per_s": 20.0,
+        "feasible": true,
+        "actions": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "evaluation_s": 0.00021230000129435211
+      },
+      "uniform_full": {
+        "elapsed_s": 28.51259452507654,
+        "terminal_energy_j": 50000.0,
+        "terminal_speed_m_per_s": 19.99999999999999,
+        "feasible": true,
+        "actions": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "evaluation_s": 0.00026229999639326707
+      },
+      "ppo": {
+        "elapsed_s": 28.51259452507654,
+        "terminal_energy_j": 50000.0,
+        "terminal_speed_m_per_s": 19.99999999999999,
+        "feasible": true,
+        "actions": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "evaluation_s": 0.0010093999953824095
+      }
+    }
+  }
+}

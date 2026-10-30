@@ -1,0 +1,174 @@
+[
+  {
+    "run": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\results\\event-baselines-001",
+    "verified_outputs": 11,
+    "passed": true,
+    "outputs": [
+      {
+        "path": "four_segment_development-transitions.json",
+        "matched": true
+      },
+      {
+        "path": "metrics.json",
+        "matched": true
+      },
+      {
+        "path": "new_predeclared_evaluation-transitions.json",
+        "matched": true
+      },
+      {
+        "path": "nominal_development-transitions.json",
+        "matched": true
+      },
+      {
+        "path": "validation-evidence.json",
+        "matched": true
+      },
+      {
+        "path": "source/docs/event_baseline_protocol.md",
+        "matched": true
+      },
+      {
+        "path": "source/scripts/benchmark_event_baselines.py",
+        "matched": true
+      },
+      {
+        "path": "source/src/f1energy/event_baselines.py",
+        "matched": true
+      },
+      {
+        "path": "source/src/f1energy/event_power_lap.py",
+        "matched": true
+      },
+      {
+        "path": "source/src/f1energy/event_rl.py",
+        "matched": true
+      },
+      {
+        "path": "source/src/f1energy/power_lap.py",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "run": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\results\\event-baselines-002",
+    "verified_outputs": 9,
+    "passed": true,
+    "outputs": [
+      {
+        "path": "four_segment_development-transitions.json",
+        "matched": true
+      },
+      {
+        "path": "metrics.json",
+        "matched": true
+      },
+      {
+        "path": "validation-evidence.json",
+        "matched": true
+      },
+      {
+        "path": "source/docs/event_baseline_protocol.md",
+        "matched": true
+      },
+      {
+        "path": "source/scripts/benchmark_event_baselines.py",
+        "matched": true
+      },
+      {
+        "path": "source/src/f1energy/event_baselines.py",
+        "matched": true
+      },
+      {
+        "path": "source/src/f1energy/event_power_lap.py",
+        "matched": true
+      },
+      {
+        "path": "source/src/f1energy/event_rl.py",
+        "matched": true
+      },
+      {
+        "path": "source/src/f1energy/power_lap.py",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "run": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\results\\event-baselines-003",
+    "verified_outputs": 9,
+    "passed": true,
+    "outputs": [
+      {
+        "path": "four_segment_development-transitions.json",
+        "matched": true
+      },
+      {
+        "path": "metrics.json",
+        "matched": true
+      },
+      {
+        "path": "validation-evidence.json",
+        "matched": true
+      },
+      {
+        "path": "source/docs/event_baseline_protocol.md",
+        "matched": true
+      },
+      {
+        "path": "source/scripts/benchmark_event_baselines.py",
+        "matched": true
+      },
+      {
+        "path": "source/src/f1energy/event_baselines.py",
+        "matched": true
+      },
+      {
+        "path": "source/src/f1energy/event_power_lap.py",
+        "matched": true
+      },
+      {
+        "path": "source/src/f1energy/event_rl.py",
+        "matched": true
+      },
+      {
+        "path": "source/src/f1energy/power_lap.py",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "run": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\figures\\dissertation\\event-baselines-v1",
+    "verified_outputs": 7,
+    "passed": true,
+    "outputs": [
+      {
+        "path": "01_event_dp_ppo_comparison.png",
+        "matched": true
+      },
+      {
+        "path": "01_event_dp_ppo_comparison.pdf",
+        "matched": true
+      },
+      {
+        "path": "02_event_dp_refinement.png",
+        "matched": true
+      },
+      {
+        "path": "02_event_dp_refinement.pdf",
+        "matched": true
+      },
+      {
+        "path": "03_event_allocation.png",
+        "matched": true
+      },
+      {
+        "path": "03_event_allocation.pdf",
+        "matched": true
+      },
+      {
+        "path": "captions.md",
+        "matched": true
+      }
+    ]
+  }
+]

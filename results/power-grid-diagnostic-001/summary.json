@@ -1,0 +1,524 @@
+{
+  "original": {
+    "summaries": [
+      {
+        "spacing_m": 2.5,
+        "elapsed_s": 20.771106791349926,
+        "energy_draw_j": 400000.0,
+        "terminal_speed_m_per_s": 20.0,
+        "depletion_position_m": 475.0,
+        "mode_transitions": [
+          {
+            "position_m": 300.0,
+            "mode": "throttle"
+          },
+          {
+            "position_m": 302.5,
+            "mode": "brake"
+          },
+          {
+            "position_m": 400.0,
+            "mode": "power"
+          },
+          {
+            "position_m": 685.0,
+            "mode": "brake"
+          }
+        ],
+        "max_abs_energy_residual_j": 3.601599019020796e-10,
+        "min_energy_j": 50000.0,
+        "max_envelope_excess_m_per_s": 0.0
+      },
+      {
+        "spacing_m": 1.25,
+        "elapsed_s": 20.770980954707234,
+        "energy_draw_j": 400000.0,
+        "terminal_speed_m_per_s": 20.0,
+        "depletion_position_m": 473.75,
+        "mode_transitions": [
+          {
+            "position_m": 301.25,
+            "mode": "throttle"
+          },
+          {
+            "position_m": 302.5,
+            "mode": "brake"
+          },
+          {
+            "position_m": 400.0,
+            "mode": "power"
+          },
+          {
+            "position_m": 685.0,
+            "mode": "throttle"
+          },
+          {
+            "position_m": 686.25,
+            "mode": "brake"
+          }
+        ],
+        "max_abs_energy_residual_j": 3.6288838600739837e-10,
+        "min_energy_j": 50000.0,
+        "max_envelope_excess_m_per_s": 0.0
+      },
+      {
+        "spacing_m": 0.625,
+        "elapsed_s": 20.770951376400404,
+        "energy_draw_j": 400000.0,
+        "terminal_speed_m_per_s": 20.0,
+        "depletion_position_m": 473.125,
+        "mode_transitions": [
+          {
+            "position_m": 301.875,
+            "mode": "throttle"
+          },
+          {
+            "position_m": 302.5,
+            "mode": "brake"
+          },
+          {
+            "position_m": 400.0,
+            "mode": "power"
+          },
+          {
+            "position_m": 685.625,
+            "mode": "brake"
+          }
+        ],
+        "max_abs_energy_residual_j": 3.589661901060026e-10,
+        "min_energy_j": 50000.0,
+        "max_envelope_excess_m_per_s": 0.0
+      },
+      {
+        "spacing_m": 0.3125,
+        "elapsed_s": 20.77133266553875,
+        "energy_draw_j": 400000.0,
+        "terminal_speed_m_per_s": 20.0,
+        "depletion_position_m": 472.8125,
+        "mode_transitions": [
+          {
+            "position_m": 302.1875,
+            "mode": "brake"
+          },
+          {
+            "position_m": 400.0,
+            "mode": "power"
+          },
+          {
+            "position_m": 685.9375,
+            "mode": "brake"
+          }
+        ],
+        "max_abs_energy_residual_j": 3.625473254942335e-10,
+        "min_energy_j": 50000.0,
+        "max_envelope_excess_m_per_s": 0.0
+      },
+      {
+        "spacing_m": 0.15625,
+        "elapsed_s": 20.771476853521136,
+        "energy_draw_j": 400000.0,
+        "terminal_speed_m_per_s": 20.0,
+        "depletion_position_m": 472.65625,
+        "mode_transitions": [
+          {
+            "position_m": 302.1875,
+            "mode": "throttle"
+          },
+          {
+            "position_m": 302.34375,
+            "mode": "brake"
+          },
+          {
+            "position_m": 400.0,
+            "mode": "power"
+          },
+          {
+            "position_m": 685.9375,
+            "mode": "brake"
+          }
+        ],
+        "max_abs_energy_residual_j": 3.63286289939424e-10,
+        "min_energy_j": 50000.0,
+        "max_envelope_excess_m_per_s": 0.0
+      }
+    ],
+    "consecutive_signed_time_differences_s": [
+      -0.00012583664269172345,
+      -2.957830682959184e-05,
+      0.0003812891383461192,
+      0.00014418798238580166
+    ],
+    "finest_time_relative_difference": 6.9416336355187584e-06,
+    "shared_node_max_differences": [
+      {
+        "speed_m_per_s": 0.00044139985217128697,
+        "elapsed_s": 0.0001258366427059343,
+        "energy_j": 2.763836024387274
+      },
+      {
+        "speed_m_per_s": 0.00011043991366221917,
+        "elapsed_s": 2.9578306836697266e-05,
+        "energy_j": 0.6915132262511179
+      },
+      {
+        "speed_m_per_s": 0.005022944251734884,
+        "elapsed_s": 0.00038509034797229447,
+        "energy_j": 173.16254434367875
+      },
+      {
+        "speed_m_per_s": 0.0018721951566220696,
+        "elapsed_s": 0.0001442543193483914,
+        "energy_j": 64.4991039945453
+      }
+    ]
+  },
+  "caps_no_depletion": {
+    "summaries": [
+      {
+        "spacing_m": 2.5,
+        "elapsed_s": 20.577598325289184,
+        "energy_draw_j": 574385.6428509951,
+        "terminal_speed_m_per_s": 20.0,
+        "depletion_position_m": null,
+        "mode_transitions": [
+          {
+            "position_m": 300.0,
+            "mode": "throttle"
+          },
+          {
+            "position_m": 302.5,
+            "mode": "brake"
+          },
+          {
+            "position_m": 400.0,
+            "mode": "power"
+          },
+          {
+            "position_m": 667.5,
+            "mode": "throttle"
+          },
+          {
+            "position_m": 670.0,
+            "mode": "brake"
+          }
+        ],
+        "max_abs_energy_residual_j": 3.6220626498106867e-10,
+        "min_energy_j": 999425614.357149,
+        "max_envelope_excess_m_per_s": 0.0
+      },
+      {
+        "spacing_m": 1.25,
+        "elapsed_s": 20.577497009685057,
+        "energy_draw_j": 574680.4233357906,
+        "terminal_speed_m_per_s": 20.0,
+        "depletion_position_m": null,
+        "mode_transitions": [
+          {
+            "position_m": 301.25,
+            "mode": "throttle"
+          },
+          {
+            "position_m": 302.5,
+            "mode": "brake"
+          },
+          {
+            "position_m": 400.0,
+            "mode": "power"
+          },
+          {
+            "position_m": 668.75,
+            "mode": "brake"
+          }
+        ],
+        "max_abs_energy_residual_j": 3.609557097661309e-10,
+        "min_energy_j": 999425319.5766642,
+        "max_envelope_excess_m_per_s": 0.0
+      },
+      {
+        "spacing_m": 0.625,
+        "elapsed_s": 20.577462449514915,
+        "energy_draw_j": 575181.6552996635,
+        "terminal_speed_m_per_s": 20.0,
+        "depletion_position_m": null,
+        "mode_transitions": [
+          {
+            "position_m": 301.875,
+            "mode": "throttle"
+          },
+          {
+            "position_m": 302.5,
+            "mode": "brake"
+          },
+          {
+            "position_m": 400.0,
+            "mode": "power"
+          },
+          {
+            "position_m": 669.375,
+            "mode": "brake"
+          }
+        ],
+        "max_abs_energy_residual_j": 3.5998937164549716e-10,
+        "min_energy_j": 999424818.3447003,
+        "max_envelope_excess_m_per_s": 0.0
+      },
+      {
+        "spacing_m": 0.3125,
+        "elapsed_s": 20.577455300259597,
+        "energy_draw_j": 575354.7826155424,
+        "terminal_speed_m_per_s": 20.0,
+        "depletion_position_m": null,
+        "mode_transitions": [
+          {
+            "position_m": 302.1875,
+            "mode": "brake"
+          },
+          {
+            "position_m": 400.0,
+            "mode": "power"
+          },
+          {
+            "position_m": 669.375,
+            "mode": "brake"
+          }
+        ],
+        "max_abs_energy_residual_j": 3.6291680771682877e-10,
+        "min_energy_j": 999424645.2173845,
+        "max_envelope_excess_m_per_s": 0.0
+      },
+      {
+        "spacing_m": 0.15625,
+        "elapsed_s": 20.57745306353449,
+        "energy_draw_j": 575419.272914648,
+        "terminal_speed_m_per_s": 20.0,
+        "depletion_position_m": null,
+        "mode_transitions": [
+          {
+            "position_m": 302.1875,
+            "mode": "throttle"
+          },
+          {
+            "position_m": 302.34375,
+            "mode": "brake"
+          },
+          {
+            "position_m": 400.0,
+            "mode": "power"
+          },
+          {
+            "position_m": 669.375,
+            "mode": "brake"
+          }
+        ],
+        "max_abs_energy_residual_j": 3.6345682019600645e-10,
+        "min_energy_j": 999424580.7270854,
+        "max_envelope_excess_m_per_s": 0.0
+      }
+    ],
+    "consecutive_signed_time_differences_s": [
+      -0.00010131560412673934,
+      -3.45601701425835e-05,
+      -7.149255317528969e-06,
+      -2.2367251055754878e-06
+    ],
+    "finest_time_relative_difference": 1.0869785967531669e-07,
+    "shared_node_max_differences": [
+      {
+        "speed_m_per_s": 0.00044139985217128697,
+        "elapsed_s": 0.0001013156041409502,
+        "energy_j": 294.7804847955704
+      },
+      {
+        "speed_m_per_s": 0.00011043991366221917,
+        "elapsed_s": 3.456017014968893e-05,
+        "energy_j": 501.23196387290955
+      },
+      {
+        "speed_m_per_s": 2.7615985594309223e-05,
+        "elapsed_s": 7.149255338845251e-06,
+        "energy_j": 173.16254305839539
+      },
+      {
+        "speed_m_per_s": 6.904515785777221e-06,
+        "elapsed_s": 2.2367251197863425e-06,
+        "energy_j": 64.49910593032837
+      }
+    ]
+  },
+  "smooth_depletion": {
+    "summaries": [
+      {
+        "spacing_m": 2.5,
+        "elapsed_s": 17.126635725763702,
+        "energy_draw_j": 400000.0,
+        "terminal_speed_m_per_s": 56.013369997849495,
+        "depletion_position_m": 410.0,
+        "mode_transitions": [],
+        "max_abs_energy_residual_j": 3.631157596828416e-10,
+        "min_energy_j": 50000.0,
+        "max_envelope_excess_m_per_s": -43.986630002150505
+      },
+      {
+        "spacing_m": 1.25,
+        "elapsed_s": 17.126596281897736,
+        "energy_draw_j": 400000.0,
+        "terminal_speed_m_per_s": 56.013331564516164,
+        "depletion_position_m": 410.0,
+        "mode_transitions": [],
+        "max_abs_energy_residual_j": 3.6334313335828483e-10,
+        "min_energy_j": 50000.0,
+        "max_envelope_excess_m_per_s": -43.986668435483836
+      },
+      {
+        "spacing_m": 0.625,
+        "elapsed_s": 17.12658637230135,
+        "energy_draw_j": 400000.0,
+        "terminal_speed_m_per_s": 56.01332173809031,
+        "depletion_position_m": 410.0,
+        "mode_transitions": [],
+        "max_abs_energy_residual_j": 3.637978807091713e-10,
+        "min_energy_j": 50000.0,
+        "max_envelope_excess_m_per_s": -43.98667826190969
+      },
+      {
+        "spacing_m": 0.3125,
+        "elapsed_s": 17.126583873498618,
+        "energy_draw_j": 400000.0,
+        "terminal_speed_m_per_s": 56.013319171116294,
+        "depletion_position_m": 410.0,
+        "mode_transitions": [],
+        "max_abs_energy_residual_j": 3.639115675468929e-10,
+        "min_energy_j": 50000.0,
+        "max_envelope_excess_m_per_s": -43.986680828883706
+      },
+      {
+        "spacing_m": 0.15625,
+        "elapsed_s": 17.126583238251314,
+        "energy_draw_j": 400000.0,
+        "terminal_speed_m_per_s": 56.0133184739569,
+        "depletion_position_m": 410.0,
+        "mode_transitions": [],
+        "max_abs_energy_residual_j": 3.637410372903105e-10,
+        "min_energy_j": 50000.0,
+        "max_envelope_excess_m_per_s": -43.9866815260431
+      }
+    ],
+    "consecutive_signed_time_differences_s": [
+      -3.944386596543836e-05,
+      -9.90959638613731e-06,
+      -2.4988027327310647e-06,
+      -6.352473036486117e-07
+    ],
+    "finest_time_relative_difference": 3.70913038994153e-08,
+    "shared_node_max_differences": [
+      {
+        "speed_m_per_s": 0.00044139985217128697,
+        "elapsed_s": 6.909590060999449e-05,
+        "energy_j": 2.763836024387274
+      },
+      {
+        "speed_m_per_s": 0.00011043991366221917,
+        "elapsed_s": 1.7287830649026503e-05,
+        "energy_j": 0.6915132262511179
+      },
+      {
+        "speed_m_per_s": 2.7615985594309223e-05,
+        "elapsed_s": 4.322829554537222e-06,
+        "energy_j": 0.17291318206116557
+      },
+      {
+        "speed_m_per_s": 6.904515785777221e-06,
+        "elapsed_s": 1.0807675232538116e-06,
+        "energy_j": 0.043230701179709285
+      }
+    ]
+  },
+  "smooth_no_depletion": {
+    "summaries": [
+      {
+        "spacing_m": 2.5,
+        "elapsed_s": 16.85931793144167,
+        "energy_draw_j": 674372.7172578573,
+        "terminal_speed_m_per_s": 59.729746403575575,
+        "depletion_position_m": null,
+        "mode_transitions": [],
+        "max_abs_energy_residual_j": 3.631157596828416e-10,
+        "min_energy_j": 999325627.2827421,
+        "max_envelope_excess_m_per_s": -40.270253596424425
+      },
+      {
+        "spacing_m": 1.25,
+        "elapsed_s": 16.859280142866087,
+        "energy_draw_j": 674371.2057147026,
+        "terminal_speed_m_per_s": 59.72969382764512,
+        "depletion_position_m": null,
+        "mode_transitions": [],
+        "max_abs_energy_residual_j": 3.6413894122233614e-10,
+        "min_energy_j": 999325628.7942853,
+        "max_envelope_excess_m_per_s": -40.27030617235488
+      },
+      {
+        "spacing_m": 0.625,
+        "elapsed_s": 16.859270688499464,
+        "energy_draw_j": 674370.8275414705,
+        "terminal_speed_m_per_s": 59.72968067888199,
+        "depletion_position_m": null,
+        "mode_transitions": [],
+        "max_abs_energy_residual_j": 3.637978807091713e-10,
+        "min_energy_j": 999325629.1724585,
+        "max_envelope_excess_m_per_s": -40.27031932111801
+      },
+      {
+        "spacing_m": 0.3125,
+        "elapsed_s": 16.859268324453346,
+        "energy_draw_j": 674370.7329785824,
+        "terminal_speed_m_per_s": 59.729677391390425,
+        "depletion_position_m": null,
+        "mode_transitions": [],
+        "max_abs_energy_residual_j": 3.6359892874315847e-10,
+        "min_energy_j": 999325629.2670214,
+        "max_envelope_excess_m_per_s": -40.270322608609575
+      },
+      {
+        "spacing_m": 0.15625,
+        "elapsed_s": 16.859267733413397,
+        "energy_draw_j": 674370.7093347311,
+        "terminal_speed_m_per_s": 59.72967656949854,
+        "depletion_position_m": null,
+        "mode_transitions": [],
+        "max_abs_energy_residual_j": 3.638120915638865e-10,
+        "min_energy_j": 999325629.2906653,
+        "max_envelope_excess_m_per_s": -40.27032343050146
+      }
+    ],
+    "consecutive_signed_time_differences_s": [
+      -3.778857558245363e-05,
+      -9.454366622918542e-06,
+      -2.3640461179752492e-06,
+      -5.910399494268859e-07
+    ],
+    "finest_time_relative_difference": 3.505727287641938e-08,
+    "shared_node_max_differences": [
+      {
+        "speed_m_per_s": 0.00044139985217128697,
+        "elapsed_s": 6.909590060999449e-05,
+        "energy_j": 2.763836622238159
+      },
+      {
+        "speed_m_per_s": 0.00011043991366221917,
+        "elapsed_s": 1.7287830649026503e-05,
+        "energy_j": 0.6915128231048584
+      },
+      {
+        "speed_m_per_s": 2.7615985594309223e-05,
+        "elapsed_s": 4.322829554537222e-06,
+        "energy_j": 0.1729135513305664
+      },
+      {
+        "speed_m_per_s": 6.904515785777221e-06,
+        "elapsed_s": 1.0807675232538116e-06,
+        "energy_j": 0.043230295181274414
+      }
+    ]
+  }
+}

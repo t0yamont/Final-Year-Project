@@ -1,0 +1,348 @@
+{
+  "status": "completed",
+  "laps": [
+    {
+      "lap_number": 1,
+      "candidate": false,
+      "exclusion_reasons": [
+        "accuracy_not_confirmed",
+        "pit_in_or_out"
+      ],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": null
+    },
+    {
+      "lap_number": 2,
+      "candidate": false,
+      "exclusion_reasons": [
+        "accuracy_not_confirmed",
+        "pit_in_or_out"
+      ],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": 98.167
+    },
+    {
+      "lap_number": 3,
+      "candidate": false,
+      "exclusion_reasons": [
+        "accuracy_not_confirmed",
+        "pit_in_or_out"
+      ],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": null
+    },
+    {
+      "lap_number": 4,
+      "candidate": true,
+      "exclusion_reasons": [],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": 91.303,
+      "channels": {
+        "sample_count": 337,
+        "missing_counts": {
+          "Speed": 0,
+          "RPM": 0,
+          "nGear": 0,
+          "Throttle": 0,
+          "Brake": 0,
+          "DRS": 0,
+          "Time": 0
+        },
+        "electrical_deployment_label": "not_provided_by_this_pipeline",
+        "battery_state_label": "not_provided_by_this_pipeline",
+        "evidence_class": "source_car_data; source processing may apply"
+      },
+      "time_quality": {
+        "missing_time_count": 0,
+        "nonincreasing_steps": 0,
+        "median_positive_gap_s": 0.24000000000000554,
+        "maximum_gap_s": 0.84,
+        "gaps_over_1s": 0,
+        "span_s": 90.84100000000001,
+        "gap_threshold_note": "1 second is a diagnostic threshold, not a validated exclusion rule"
+      },
+      "export_status": "exported"
+    },
+    {
+      "lap_number": 5,
+      "candidate": false,
+      "exclusion_reasons": [
+        "accuracy_not_confirmed",
+        "pit_in_or_out"
+      ],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": 120.908
+    },
+    {
+      "lap_number": 6,
+      "candidate": false,
+      "exclusion_reasons": [
+        "accuracy_not_confirmed",
+        "pit_in_or_out",
+        "track_not_confirmed_clear"
+      ],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": null
+    },
+    {
+      "lap_number": 7,
+      "candidate": false,
+      "exclusion_reasons": [
+        "accuracy_not_confirmed",
+        "pit_in_or_out"
+      ],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": null
+    },
+    {
+      "lap_number": 8,
+      "candidate": false,
+      "exclusion_reasons": [
+        "accuracy_not_confirmed",
+        "pit_in_or_out"
+      ],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": 96.207
+    },
+    {
+      "lap_number": 9,
+      "candidate": false,
+      "exclusion_reasons": [
+        "accuracy_not_confirmed",
+        "pit_in_or_out"
+      ],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": null
+    },
+    {
+      "lap_number": 10,
+      "candidate": true,
+      "exclusion_reasons": [],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": 91.019,
+      "channels": {
+        "sample_count": 340,
+        "missing_counts": {
+          "Speed": 0,
+          "RPM": 0,
+          "nGear": 0,
+          "Throttle": 0,
+          "Brake": 0,
+          "DRS": 0,
+          "Time": 0
+        },
+        "electrical_deployment_label": "not_provided_by_this_pipeline",
+        "battery_state_label": "not_provided_by_this_pipeline",
+        "evidence_class": "source_car_data; source processing may apply"
+      },
+      "time_quality": {
+        "missing_time_count": 0,
+        "nonincreasing_steps": 0,
+        "median_positive_gap_s": 0.240000000000002,
+        "maximum_gap_s": 0.9200000000000017,
+        "gaps_over_1s": 0,
+        "span_s": 90.23899999999999,
+        "gap_threshold_note": "1 second is a diagnostic threshold, not a validated exclusion rule"
+      },
+      "export_status": "exported"
+    },
+    {
+      "lap_number": 11,
+      "candidate": false,
+      "exclusion_reasons": [
+        "accuracy_not_confirmed",
+        "pit_in_or_out"
+      ],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": 123.071
+    },
+    {
+      "lap_number": 12,
+      "candidate": false,
+      "exclusion_reasons": [
+        "accuracy_not_confirmed",
+        "pit_in_or_out",
+        "track_not_confirmed_clear"
+      ],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": null
+    },
+    {
+      "lap_number": 13,
+      "candidate": true,
+      "exclusion_reasons": [],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": 92.057,
+      "channels": {
+        "sample_count": 344,
+        "missing_counts": {
+          "Speed": 0,
+          "RPM": 0,
+          "nGear": 0,
+          "Throttle": 0,
+          "Brake": 0,
+          "DRS": 0,
+          "Time": 0
+        },
+        "electrical_deployment_label": "not_provided_by_this_pipeline",
+        "battery_state_label": "not_provided_by_this_pipeline",
+        "evidence_class": "source_car_data; source processing may apply"
+      },
+      "time_quality": {
+        "missing_time_count": 0,
+        "nonincreasing_steps": 0,
+        "median_positive_gap_s": 0.240000000000002,
+        "maximum_gap_s": 0.9200000000000017,
+        "gaps_over_1s": 0,
+        "span_s": 91.88,
+        "gap_threshold_note": "1 second is a diagnostic threshold, not a validated exclusion rule"
+      },
+      "export_status": "exported"
+    },
+    {
+      "lap_number": 14,
+      "candidate": false,
+      "exclusion_reasons": [
+        "accuracy_not_confirmed",
+        "pit_in_or_out"
+      ],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": 108.078
+    },
+    {
+      "lap_number": 15,
+      "candidate": false,
+      "exclusion_reasons": [
+        "accuracy_not_confirmed",
+        "pit_in_or_out"
+      ],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": null
+    },
+    {
+      "lap_number": 16,
+      "candidate": true,
+      "exclusion_reasons": [],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": 90.423,
+      "channels": {
+        "sample_count": 326,
+        "missing_counts": {
+          "Speed": 0,
+          "RPM": 0,
+          "nGear": 0,
+          "Throttle": 0,
+          "Brake": 0,
+          "DRS": 0,
+          "Time": 0
+        },
+        "electrical_deployment_label": "not_provided_by_this_pipeline",
+        "battery_state_label": "not_provided_by_this_pipeline",
+        "evidence_class": "source_car_data; source processing may apply"
+      },
+      "time_quality": {
+        "missing_time_count": 0,
+        "nonincreasing_steps": 0,
+        "median_positive_gap_s": 0.240000000000002,
+        "maximum_gap_s": 1.240000000000002,
+        "gaps_over_1s": 2,
+        "span_s": 89.88,
+        "gap_threshold_note": "1 second is a diagnostic threshold, not a validated exclusion rule"
+      },
+      "export_status": "exported"
+    },
+    {
+      "lap_number": 17,
+      "candidate": false,
+      "exclusion_reasons": [
+        "accuracy_not_confirmed",
+        "pit_in_or_out"
+      ],
+      "unresolved_flags": [
+        "weather_not_checked",
+        "deletion_unknown"
+      ],
+      "modelling_eligible": false,
+      "lap_time_s": null
+    }
+  ],
+  "failures": [],
+  "candidate_count": 4,
+  "driver_lap_count": 17,
+  "units": {
+    "Speed": "km/h",
+    "RPM": "rev/min",
+    "nGear": "gear index",
+    "Throttle": "percent",
+    "Brake": "boolean",
+    "DRS": "status code",
+    "Time": "timedelta from slice origin",
+    "SessionTime": "timedelta from session origin",
+    "Date": "source timestamp"
+  },
+  "interpretation": "Candidate source audit only. Weather/deletion unknowns prevent modelling eligibility; no electrical labels."
+}

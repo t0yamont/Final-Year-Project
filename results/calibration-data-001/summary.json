@@ -1,0 +1,51 @@
+{
+  "role": "development_only_within_event",
+  "counts": [
+    {
+      "role": "fit",
+      "lap_number": 4,
+      "input_pairs": 336,
+      "selected_pairs": 137,
+      "excluded_first_reason": {
+        "gear_change": 25,
+        "gap_above_limit": 1,
+        "not_positive_acceleration": 20,
+        "brake_or_unknown": 74,
+        "below_throttle_threshold": 75,
+        "drs_transition": 4
+      }
+    },
+    {
+      "role": "fit",
+      "lap_number": 10,
+      "input_pairs": 339,
+      "selected_pairs": 150,
+      "excluded_first_reason": {
+        "gear_change": 23,
+        "not_positive_acceleration": 13,
+        "below_throttle_threshold": 73,
+        "brake_or_unknown": 73,
+        "gap_above_limit": 2,
+        "drs_transition": 5
+      }
+    },
+    {
+      "role": "validation",
+      "lap_number": 13,
+      "input_pairs": 343,
+      "selected_pairs": 144,
+      "excluded_first_reason": {
+        "gear_change": 27,
+        "not_positive_acceleration": 15,
+        "brake_or_unknown": 71,
+        "gap_above_limit": 4,
+        "below_throttle_threshold": 79,
+        "drs_transition": 3
+      }
+    }
+  ],
+  "final_test": false,
+  "dry_track_verified": false,
+  "derivative": "Adjacent source speed difference / observed dt; finite difference of quantised km/h samples, no smoothing.",
+  "selection_bias": "Positive-acceleration selection is conditional and can bias fitting; not the complete vehicle dynamics or full lap envelope."
+}

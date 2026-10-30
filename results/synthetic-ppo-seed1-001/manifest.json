@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-28T11:05:33.192981+00:00",
+  "python": "3.12.10",
+  "torch": "2.14.1+cpu",
+  "gymnasium": "1.4.0",
+  "sb3": "2.9.2",
+  "outputs": {
+    "config.json": "eb9f331b374327b781448d4777da18c4637bed8bab9fbdf563b91bed7f104888",
+    "environment-lock.txt": "8abca94fa7fa5bd0d5e0307e1bc1810fc8ae50f00872d737e04d07a0edd310d0",
+    "metrics.json": "1f8ff7ad2238a5551dea4c85ce4e7c561b55c9846f98c016e5077f45c29eb1bb",
+    "ppo.zip": "0bc3c0117fa7f584f36817b9fca397ec4053906fdd10c2f0d8e6083870ea691e",
+    "weight_update_check.json": "319ce98faa5c6d847f9fbe974896b23e9b73a9445c893725b4b50587f0b276e9"
+  },
+  "source_sha256": {
+    "scripts\\train_synthetic_ppo.py": "e20567cbdac01fc585124de0b0dcb829b6636c66279da4f741657141d4705744",
+    "src\\f1energy\\rl.py": "1a47084a7e37e7bc82ea796a811a06b96b00854ba3ce4b1e7cd8315b3c28733e",
+    "src\\f1energy\\lap.py": "888ba6eaa7f380afad2076f08b238bd8c32af2b6db3706a94f18be99b92ecf4d"
+  }
+}

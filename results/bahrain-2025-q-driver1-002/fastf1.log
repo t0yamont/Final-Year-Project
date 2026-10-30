@@ -1,0 +1,83 @@
+2026-10-28 11:04:54,012 fastf1.fastf1.core INFO Loading data for Bahrain Grand Prix - Qualifying [v3.9.0]
+2026-10-28 11:04:54,013 fastf1.fastf1.req INFO No cached data found for session_info. Loading data...
+2026-10-28 11:04:54,013 fastf1.api INFO Fetching session info data...
+2026-10-28 11:04:54,248 fastf1.fastf1.req INFO Data has been written to cache!
+2026-10-28 11:04:54,249 fastf1.fastf1.req INFO No cached data found for driver_info. Loading data...
+2026-10-28 11:04:54,249 fastf1.api INFO Fetching driver list...
+2026-10-28 11:04:54,500 fastf1.fastf1.req INFO Data has been written to cache!
+2026-10-28 11:04:54,804 fastf1.fastf1.req INFO No cached data found for session_status_data. Loading data...
+2026-10-28 11:04:54,804 fastf1.api INFO Fetching session status data...
+2026-10-28 11:04:54,999 fastf1.fastf1.req INFO Data has been written to cache!
+2026-10-28 11:04:55,000 fastf1.fastf1.req INFO No cached data found for track_status_data. Loading data...
+2026-10-28 11:04:55,000 fastf1.api INFO Fetching track status data...
+2026-10-28 11:04:55,247 fastf1.fastf1.req INFO Data has been written to cache!
+2026-10-28 11:04:55,248 fastf1.fastf1.req INFO No cached data found for _extended_timing_data. Loading data...
+2026-10-28 11:04:55,248 fastf1.api INFO Fetching timing data...
+2026-10-28 11:04:55,569 fastf1.api INFO Parsing timing data...
+2026-10-28 11:04:55,720 fastf1.fastf1.req INFO Data has been written to cache!
+2026-10-28 11:04:55,720 fastf1.fastf1.req INFO No cached data found for timing_app_data. Loading data...
+2026-10-28 11:04:55,721 fastf1.api INFO Fetching timing app data...
+2026-10-28 11:04:55,914 fastf1.fastf1.req INFO Data has been written to cache!
+2026-10-28 11:04:55,916 fastf1.fastf1.core INFO Processing timing data...
+2026-10-28 11:04:56,291 fastf1.fastf1.req INFO No cached data found for car_data. Loading data...
+2026-10-28 11:04:56,292 fastf1.api INFO Fetching car data...
+2026-10-28 11:04:57,085 fastf1.api INFO Parsing car data...
+2026-10-28 11:04:58,499 fastf1.api WARNING Driver  2: Car data is incomplete!
+2026-10-28 11:04:58,507 fastf1.api WARNING Driver  3: Car data is incomplete!
+2026-10-28 11:04:58,517 fastf1.api WARNING Driver  8: Car data is incomplete!
+2026-10-28 11:04:58,522 fastf1.api WARNING Driver  9: Car data is incomplete!
+2026-10-28 11:04:58,527 fastf1.api WARNING Driver 11: Car data is incomplete!
+2026-10-28 11:04:58,535 fastf1.api WARNING Driver 15: Car data is incomplete!
+2026-10-28 11:04:58,541 fastf1.api WARNING Driver 17: Car data is incomplete!
+2026-10-28 11:04:58,547 fastf1.api WARNING Driver 19: Car data is incomplete!
+2026-10-28 11:04:58,553 fastf1.api WARNING Driver 20: Car data is incomplete!
+2026-10-28 11:04:58,557 fastf1.api WARNING Driver 21: Car data is incomplete!
+2026-10-28 11:04:58,565 fastf1.api WARNING Driver 24: Car data is incomplete!
+2026-10-28 11:04:58,570 fastf1.api WARNING Driver 25: Car data is incomplete!
+2026-10-28 11:04:58,574 fastf1.api WARNING Driver 26: Car data is incomplete!
+2026-10-28 11:04:58,581 fastf1.api WARNING Driver 28: Car data is incomplete!
+2026-10-28 11:04:58,586 fastf1.api WARNING Driver 29: Car data is incomplete!
+2026-10-28 11:04:58,595 fastf1.api WARNING Driver 44: Car data is incomplete!
+2026-10-28 11:04:58,600 fastf1.api WARNING Driver 55: Car data is incomplete!
+2026-10-28 11:04:58,605 fastf1.api WARNING Driver 63: Car data is incomplete!
+2026-10-28 11:04:58,611 fastf1.api WARNING Driver 81: Car data is incomplete!
+2026-10-28 11:04:58,616 fastf1.api WARNING Driver 87: Car data is incomplete!
+2026-10-28 11:04:58,673 fastf1.fastf1.req INFO Data has been written to cache!
+2026-10-28 11:04:58,673 fastf1.fastf1.req INFO No cached data found for position_data. Loading data...
+2026-10-28 11:04:58,673 fastf1.api INFO Fetching position data...
+2026-10-28 11:04:59,469 fastf1.api INFO Parsing position data...
+2026-10-28 11:05:01,084 fastf1.api WARNING Driver  1: Position data is incomplete!
+2026-10-28 11:05:01,089 fastf1.api WARNING Driver  2: Position data is incomplete!
+2026-10-28 11:05:01,093 fastf1.api WARNING Driver  3: Position data is incomplete!
+2026-10-28 11:05:01,099 fastf1.api WARNING Driver  4: Position data is incomplete!
+2026-10-28 11:05:01,104 fastf1.api WARNING Driver  5: Position data is incomplete!
+2026-10-28 11:05:01,109 fastf1.api WARNING Driver  6: Position data is incomplete!
+2026-10-28 11:05:01,116 fastf1.api WARNING Driver  7: Position data is incomplete!
+2026-10-28 11:05:01,121 fastf1.api WARNING Driver  8: Position data is incomplete!
+2026-10-28 11:05:01,129 fastf1.api WARNING Driver  9: Position data is incomplete!
+2026-10-28 11:05:01,137 fastf1.api WARNING Driver 10: Position data is incomplete!
+2026-10-28 11:05:01,141 fastf1.api WARNING Driver 11: Position data is incomplete!
+2026-10-28 11:05:01,150 fastf1.api WARNING Driver 12: Position data is incomplete!
+2026-10-28 11:05:01,156 fastf1.api WARNING Driver 14: Position data is incomplete!
+2026-10-28 11:05:01,162 fastf1.api WARNING Driver 15: Position data is incomplete!
+2026-10-28 11:05:01,169 fastf1.api WARNING Driver 16: Position data is incomplete!
+2026-10-28 11:05:01,176 fastf1.api WARNING Driver 17: Position data is incomplete!
+2026-10-28 11:05:01,182 fastf1.api WARNING Driver 18: Position data is incomplete!
+2026-10-28 11:05:01,187 fastf1.api WARNING Driver 19: Position data is incomplete!
+2026-10-28 11:05:01,194 fastf1.api WARNING Driver 20: Position data is incomplete!
+2026-10-28 11:05:01,200 fastf1.api WARNING Driver 21: Position data is incomplete!
+2026-10-28 11:05:01,209 fastf1.api WARNING Driver 22: Position data is incomplete!
+2026-10-28 11:05:01,215 fastf1.api WARNING Driver 23: Position data is incomplete!
+2026-10-28 11:05:01,221 fastf1.api WARNING Driver 24: Position data is incomplete!
+2026-10-28 11:05:01,228 fastf1.api WARNING Driver 25: Position data is incomplete!
+2026-10-28 11:05:01,235 fastf1.api WARNING Driver 26: Position data is incomplete!
+2026-10-28 11:05:01,243 fastf1.api WARNING Driver 27: Position data is incomplete!
+2026-10-28 11:05:01,249 fastf1.api WARNING Driver 28: Position data is incomplete!
+2026-10-28 11:05:01,256 fastf1.api WARNING Driver 29: Position data is incomplete!
+2026-10-28 11:05:01,264 fastf1.api WARNING Driver 44: Position data is incomplete!
+2026-10-28 11:05:01,271 fastf1.api WARNING Driver 55: Position data is incomplete!
+2026-10-28 11:05:01,275 fastf1.api WARNING Driver 63: Position data is incomplete!
+2026-10-28 11:05:01,283 fastf1.api WARNING Driver 81: Position data is incomplete!
+2026-10-28 11:05:01,292 fastf1.api WARNING Driver 87: Position data is incomplete!
+2026-10-28 11:05:01,602 fastf1.fastf1.req INFO Data has been written to cache!
+2026-10-28 11:05:02,280 fastf1.fastf1.core INFO Finished loading data for 20 drivers: ['81', '63', '16', '12', '10', '4', '1', '55', '44', '22', '7', '6', '14', '31', '23', '27', '30', '5', '18', '87']

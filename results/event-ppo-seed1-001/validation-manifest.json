@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-10-29T11:18:46.718158+00:00",
+  "source_hashes": {
+    "scripts\\validate_event_solver.py": "3da22808ddf70bdb953d4251b87b0b5749a49cfb84a9f9ee49f0a7b23d9a98b8",
+    "docs\\event_validation_protocol.md": "bd79d76ef4ec4b119fd2748a6153c0c32f692c7c3d9693f72649e6ce5ff1be5b",
+    "src\\f1energy\\event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763"
+  },
+  "grids": [
+    40,
+    20,
+    10,
+    5,
+    2.5,
+    1.25,
+    0.625,
+    0.3125,
+    0.15625
+  ],
+  "integration_settings": [
+    [
+      1e-06,
+      20
+    ],
+    [
+      1e-07,
+      10
+    ],
+    [
+      1e-08,
+      5
+    ],
+    [
+      1e-09,
+      2
+    ],
+    [
+      1e-11,
+      1
+    ]
+  ],
+  "vehicle": {
+    "mass_kg": 800.0,
+    "base_power_w": 100000.0,
+    "electrical_limit_w": 60000.0,
+    "discharge_efficiency": 0.9,
+    "drag_kg_per_m": 0.5,
+    "friction_deceleration_m_per_s2": 8.0
+  },
+  "outputs": {
+    "summary.json": "0c4837c293758b1e1640c72673c0ae149e5e534b4bf76de92ec414aeee5cfb94"
+  }
+}

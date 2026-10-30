@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "command": "audit-session",
+  "created_utc": "2026-10-28T11:05:02.372103+00:00",
+  "request": {
+    "year": 2025,
+    "round_number": 4,
+    "session": "Q",
+    "driver": "1",
+    "max_laps": 3
+  },
+  "fastf1_version": "3.9.0",
+  "source": {
+    "commit": null,
+    "package_files_sha256": {
+      "__init__.py": "87a6da2ed795e2f65719911d1997bd19e61af8a10142efee43d791f4d5f2b8fb",
+      "availability.py": "75f17e1a351f72e79ea3de2da1d6c87a908a3ec0f58f2d2a6e7fb76cdd3aa291",
+      "braking.py": "66ee717e37cef3cd984ade560acc82584b12304f78ac799ac451cc9b3d954d4a",
+      "cli.py": "164b0bb2e8b8b7c09501c9db88362e0e082a31bdffc93c9b182acd51971a960c",
+      "config.py": "5980aa02f2a53f2e43e209f7aa390677edc5694abb93f0889bbf8c46b3e597a6",
+      "dynamics.py": "8af1757f5bf4c3f6a662353817f811f3c47e8d07088e1dff274038e9c7d1038d",
+      "fixture.py": "c2a31c5b71b6aa1513798294ccedce44b6b75f8d8321e05fefe4f42f7570128c",
+      "lap.py": "888ba6eaa7f380afad2076f08b238bd8c32af2b6db3706a94f18be99b92ecf4d",
+      "rl.py": "1a47084a7e37e7bc82ea796a811a06b96b00854ba3ce4b1e7cd8315b3c28733e",
+      "telemetry_audit.py": "b7a784c7e47416e25d513571ed2816126136c30d06afff14eb301f18d19a8e2d"
+    },
+    "note": "File hashes identify executed package contents, including uncommitted edits."
+  },
+  "outputs": [
+    {
+      "path": "fastf1.log",
+      "sha256": "93aa0678ad9162ff2502f523826bd53c946143c79bc9c07c0d10496c25196356"
+    },
+    {
+      "path": "driver_laps.csv",
+      "sha256": "bc0e9380394dcc6ea3bfde56b0de46cd72edfa96505c1cf8503ed564c084fbdb"
+    },
+    {
+      "path": "lap-1-car.csv",
+      "sha256": "fdfb1ebab526f7425eded797ac928e6428b6ff4ad31e71c3ad9da6b686b82aa5"
+    },
+    {
+      "path": "lap-2-car.csv",
+      "sha256": "ffb8451148b79c72ed291dd698366903a9c699cdc0555cf638132448c0adb4af"
+    },
+    {
+      "path": "lap-3-car.csv",
+      "sha256": "39b272b385f3bb56322cb9570f7d96d0b188ef7cf155b385a5c964473e9f6842"
+    },
+    {
+      "path": "summary.json",
+      "sha256": "ecbefed8822d6168872e4263fd72199f0f72011cfbfcc6f858ae800e3b088d37"
+    }
+  ]
+}

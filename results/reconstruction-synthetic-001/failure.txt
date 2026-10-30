@@ -1,0 +1,1 @@
+Initial run reached serialization and failed because a NumPy boolean was not converted to a native bool. No reconstruction JSON was written. Corrected run is reconstruction-synthetic-002.

@@ -1,0 +1,13 @@
+# Power-grid validation — 28 October 2026
+
+Implemented scripts/validate_power_grid.py and three offline tests. Tests passed. Executed the declared synthetic 800 m path at 40, 20, 10, 5 and 2.5 m spacings, preserving results/power-grid-001. The script refuses an existing output directory. Each grid trajectory and summary is SHA-256 listed in manifest.json; source hashes, vehicle parameters, Python version and scenario are recorded.
+
+Physical controls were held fixed: electrical wheel-power request is 0.6 at every physical location; node speed caps are 30 m/s at 400 m and 20 m/s at 800 m, with 100 m/s elsewhere. All grids contain both constrained locations exactly. Thus refinement changes integration cells, not control decision count or selected policy. This run evaluates one fixed policy and cannot establish controller superiority.
+
+Declared acceptance criteria were physical accounting/reserve/envelope checks, strictly decreasing consecutive elapsed-time differences, and less than 0.1% finest-pair time and battery-draw changes. These criteria were implemented before the execution. The gate REJECTED: physical checks passed and finest-pair time changed by 0.0142834%, with zero battery-draw change, but consecutive time differences were 0.00184234, 0.00824149, 0.00261013 and 0.00296682 seconds, which do not decrease monotonically. These results do not meet the declared convergence criterion. An exit code of 1 records that scientific gate outcome rather than a program crash.
+
+Discovery: changing spatial resolution shifts cell-wide braking/throttle/depletion switching. Small finest-pair error does not by itself satisfy the predeclared trend criterion. No criterion was relaxed retrospectively. Next work should inspect switching locations and phase events, assess finer grids with a separately recorded protocol, or improve event handling before promoting this model for physical controller claims. The monotone-difference criterion is conservative: failure does not mathematically prove divergence, but it prevents this run from being marked as converged.
+
+Limitations: synthetic open path, assumed speed caps and vehicle parameters, no external telemetry or empirical validation. The battery-draw comparison is uninformative about fine deployment timing when the same available budget is exhausted. Retain complete trajectories to inspect that effect. AI authored the study and tests and recorded the negative result; student interpretation and dissertation reflection remain distinct.
+
+Commands: python -m unittest discover -s tests -p test_power_grid.py -v; python scripts/validate_power_grid.py --output results/power-grid-001. Observed outcomes: 3 tests passed; study gate rejected, artifacts preserved.

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-28T15:36:39.656945+00:00",
+  "request": {
+    "year": 2025,
+    "round_number": 4,
+    "session": "Q",
+    "driver": "1",
+    "max_laps": 3
+  },
+  "source_manifest_sha256": "6dbe81721c06f885a6ce483cb17f8b3125db3b7e74b796bc14647a5840f49471",
+  "fastf1_version": "3.9.0",
+  "source": {
+    "commit": null,
+    "package_files_sha256": {
+      "__init__.py": "87a6da2ed795e2f65719911d1997bd19e61af8a10142efee43d791f4d5f2b8fb",
+      "availability.py": "75f17e1a351f72e79ea3de2da1d6c87a908a3ec0f58f2d2a6e7fb76cdd3aa291",
+      "baselines.py": "ecede478b159a9747e30bb04797ed94681d8f87aefb3c8ce8d20af5b06aa4202",
+      "braking.py": "66ee717e37cef3cd984ade560acc82584b12304f78ac799ac451cc9b3d954d4a",
+      "clean_laps.py": "35303ca443ac66d6abeb63d2285b342cdffe07faeea36dae72989dabe7be369a",
+      "cli.py": "164b0bb2e8b8b7c09501c9db88362e0e082a31bdffc93c9b182acd51971a960c",
+      "config.py": "5980aa02f2a53f2e43e209f7aa390677edc5694abb93f0889bbf8c46b3e597a6",
+      "dynamics.py": "8af1757f5bf4c3f6a662353817f811f3c47e8d07088e1dff274038e9c7d1038d",
+      "fixture.py": "c2a31c5b71b6aa1513798294ccedce44b6b75f8d8321e05fefe4f42f7570128c",
+      "lap.py": "888ba6eaa7f380afad2076f08b238bd8c32af2b6db3706a94f18be99b92ecf4d",
+      "lap_context.py": "7e2be7c0305ba650faa3aec2e2e6498ec5a7546845a27648562a1093f6189dd9",
+      "power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+      "rl.py": "1a47084a7e37e7bc82ea796a811a06b96b00854ba3ce4b1e7cd8315b3c28733e",
+      "telemetry_audit.py": "b7a784c7e47416e25d513571ed2816126136c30d06afff14eb301f18d19a8e2d"
+    },
+    "note": "File hashes identify executed package contents, including uncommitted edits."
+  },
+  "load": {
+    "telemetry": false,
+    "weather": true,
+    "messages": true
+  },
+  "outputs": [
+    {
+      "path": "weather.csv",
+      "sha256": "9b8174052838f156b59ea42455d99352e08fe18706d31afcaa0b34a5c829f9cf"
+    },
+    {
+      "path": "race_control_messages.csv",
+      "sha256": "0c94bb961f3c6e47a8228c48278140e372fca89252e07629d4b4b623980603a5"
+    },
+    {
+      "path": "driver_laps.csv",
+      "sha256": "5c2d0beceacf2360e25cbd989dc1c05ff45438c66cf1e4ddfbfa4fee7da148f7"
+    },
+    {
+      "path": "fastf1.log",
+      "sha256": "8108d06e68ebbc6896a47a210acb966ebb9bd537c353caf89d11c79cec2f85f5"
+    },
+    {
+      "path": "summary.json",
+      "sha256": "f4e5b06d2ab92431b2a8f249773aae8c83a6325cee39acc02220fe38845a2c2e"
+    }
+  ]
+}

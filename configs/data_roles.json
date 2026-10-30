@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "status": "development_roles_only_final_split_not_frozen",
+  "created_date": "2026-10-28",
+  "roles": [
+    {
+      "source": "FastF1",
+      "season": 2025,
+      "round": 4,
+      "session": "Q",
+      "role": "development_pilot",
+      "reason": "Already inspected during acquisition debugging and quality development. Must not later be presented as an untouched final test event."
+    },
+    {
+      "source": "synthetic_constant_force_lap",
+      "scenario": "heldout_mass_energy",
+      "role": "previous_pilot_evaluation",
+      "reason": "Previously evaluated and reported across three seeds. Retain original pilot result; do not tune on this case and claim an untouched final holdout."
+    }
+  ],
+  "final_test_events": [],
+  "constraint": "Select and freeze final event-level splits and allowed geometry provenance before calibration or controller selection. No final empirical evaluation is authorised by this registry alone."
+}

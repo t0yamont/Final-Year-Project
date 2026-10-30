@@ -1,0 +1,11 @@
+test_budget_and_cache_scope (test_event_baselines.EventBaselineTests.test_budget_and_cache_scope) ... ok
+test_dp_replay_matches_finite_reference_after_refinement (test_event_baselines.EventBaselineTests.test_dp_replay_matches_finite_reference_after_refinement) ... ok
+test_exhaustive_prefix_cache_and_identical_replay (test_event_baselines.EventBaselineTests.test_exhaustive_prefix_cache_and_identical_replay) ... ok
+test_infeasible_state_does_not_return_empty_optimum (test_event_baselines.EventBaselineTests.test_infeasible_state_does_not_return_empty_optimum) ... ok
+test_invalid_inputs (test_event_baselines.EventBaselineTests.test_invalid_inputs) ... ok
+test_no_usable_energy_and_unreached_exit_cap (test_event_baselines.EventBaselineTests.test_no_usable_energy_and_unreached_exit_cap) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.122s
+
+OK

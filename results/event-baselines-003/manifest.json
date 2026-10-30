@@ -1,0 +1,27 @@
+{
+  "source_sha256": {
+    "scripts/benchmark_event_baselines.py": "362f34af2fdbc256343f175c603236554cd31bb0dda5afec3389417225c8ccab",
+    "src/f1energy/event_baselines.py": "0c880ae9522f69e85b9e792bcdf41ab62eb43966025168f28807131d23e630ab",
+    "src/f1energy/event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "src/f1energy/power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "src/f1energy/event_rl.py": "fd29c99b069419bca67605482d37ca6818501035126a20ac6c32ef21a5411059",
+    "docs/event_baseline_protocol.md": "e19289d803288bee1a024c0b2378e42a134687bdf334bc7b726eff506afed888"
+  },
+  "inputs_sha256": {
+    "results\\event-validation-002\\summary.json": "0c4837c293758b1e1640c72673c0ae149e5e534b4bf76de92ec414aeee5cfb94",
+    "results\\event-validation-002\\manifest.json": "f52fc05c76e0260d73df8c2da3816f06c799e4e84ddf9a038ef3df66c3fd509c",
+    "results/event-baselines-002/manifest.json": "3ff421148c4ee59f148d2dc837459870b5683e55d042963de41a5d32df1bcb9b",
+    "results/event-baselines-002/four_segment_development-transitions.json": "d954e2f9111b7f7ee0a9b16e68f60ad375703de5944a7400ab3eb1ad68bd203f"
+  },
+  "outputs_sha256": {
+    "four_segment_development-transitions.json": "9738f4436f8e501e2a5c922878d04928c1296ae71b91b5ad296d2a5353e20ead",
+    "metrics.json": "daf23aa59ef72737f43422c95a137b33004505854c7f461c04c62973a5da6730",
+    "validation-evidence.json": "0c4837c293758b1e1640c72673c0ae149e5e534b4bf76de92ec414aeee5cfb94",
+    "source/docs/event_baseline_protocol.md": "e19289d803288bee1a024c0b2378e42a134687bdf334bc7b726eff506afed888",
+    "source/scripts/benchmark_event_baselines.py": "362f34af2fdbc256343f175c603236554cd31bb0dda5afec3389417225c8ccab",
+    "source/src/f1energy/event_baselines.py": "0c880ae9522f69e85b9e792bcdf41ab62eb43966025168f28807131d23e630ab",
+    "source/src/f1energy/event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "source/src/f1energy/event_rl.py": "fd29c99b069419bca67605482d37ca6818501035126a20ac6c32ef21a5411059",
+    "source/src/f1energy/power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763"
+  }
+}

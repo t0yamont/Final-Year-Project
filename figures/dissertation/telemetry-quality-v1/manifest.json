@@ -1,0 +1,14 @@
+{
+  "inputs_sha256": {
+    "results\\clean-laps-001\\lap-4-car.csv": "5cf519b570f28c42e6dd3acf69d169faa5b33dcf706cad32e2568ae4f601ffda",
+    "results\\clean-laps-001\\lap-10-car.csv": "e87d58ff8b9afee5da26594868e76c2e41fffb773f796aa75e5f7c016eb7ed6a",
+    "results\\clean-laps-001\\lap-13-car.csv": "59c95ebae7501208ff95d63e2063ef6c5ac3eea71452920a0431c341bc0105fc",
+    "results\\clean-laps-001\\lap-16-car.csv": "257b36a5e18390ff18cd3b752a2bffe1cfed57408dc1a9fd01debe58265ad0a9"
+  },
+  "source_sha256": "87922732782f11840a446a52df4e11ac1403dc91f0afcec077e77c949cd1f176",
+  "outputs_sha256": {
+    "caption.md": "dbc5d4d49063e81464211a331ba7440d40cb1cdf2d80239899b09f8526272b58",
+    "telemetry_quality.pdf": "53892a7509c358e58300282e32b3bb96865c11d349ee01ede6ffe5099c584c0c",
+    "telemetry_quality.png": "de4162ae398349092270c5e983baf6eb87d9628225dc2e99f8bdfaaeb2888cdb"
+  }
+}

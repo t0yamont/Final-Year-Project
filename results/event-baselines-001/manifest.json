@@ -1,0 +1,33 @@
+{
+  "source_sha256": {
+    "scripts/benchmark_event_baselines.py": "7818e99163cba546a7fa1d987294f05f590f85d792aecc7e7d1563345dcdfe24",
+    "src/f1energy/event_baselines.py": "d114646c1cb76f7f54f9f12a1d76b7abe122119172a2e0c41305a42a52114a0b",
+    "src/f1energy/event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "src/f1energy/power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "src/f1energy/event_rl.py": "fd29c99b069419bca67605482d37ca6818501035126a20ac6c32ef21a5411059",
+    "docs/event_baseline_protocol.md": "0c8a2c9971da601d592a2691fa86d10e61791d8e99e0e993e7f29c691d04a948"
+  },
+  "inputs_sha256": {
+    "results\\event-validation-002\\summary.json": "0c4837c293758b1e1640c72673c0ae149e5e534b4bf76de92ec414aeee5cfb94",
+    "results\\event-validation-002\\manifest.json": "f52fc05c76e0260d73df8c2da3816f06c799e4e84ddf9a038ef3df66c3fd509c",
+    "results/event-ppo-seed0-001/config.json": "94dcf8457d2528bed951b78dcd7dba503d0a444f0f205ef60b34eae23ae72e3c",
+    "results/event-ppo-seed0-001/metrics.json": "dc14c1ad2f72f4b3cf184a58037b45fa4b501dbed98dae9f44d6af0f8cb7ee38",
+    "results/event-ppo-seed1-001/config.json": "514ad1051ce9653eccb537d57512c35ebb462f0a466af99071cf265208e597bb",
+    "results/event-ppo-seed1-001/metrics.json": "b211056620d48bf085df73189678761bbd6c08d7a2b7abf3b0d09a1bf00566ed",
+    "results/event-ppo-seed2-001/config.json": "ecdd68929283a09e02c8351dc69ec86f5dbd87c5defb74a8b59ec41b0cdc546c",
+    "results/event-ppo-seed2-001/metrics.json": "026c24e2b5552cd865c47f9d29f030fb46f47f7909936b109e7d4396b2426e6f"
+  },
+  "outputs_sha256": {
+    "four_segment_development-transitions.json": "c21442a2a347987e3ad3648092f4398320775980a7118d8da829c2c4ab64b640",
+    "metrics.json": "464a252a7f5a3e1e76d672bc75f580ba9a127f8a779a5f95dae2aa5d79e2ac82",
+    "new_predeclared_evaluation-transitions.json": "8fce8170a4fec83273b97c9669628dbacaed9801a88db42d62c1d769a66fafe8",
+    "nominal_development-transitions.json": "d05f160fb2ced0a7186a71e2686e2d0d918f6e892147802782ffdd0fffc09ee4",
+    "validation-evidence.json": "0c4837c293758b1e1640c72673c0ae149e5e534b4bf76de92ec414aeee5cfb94",
+    "source/docs/event_baseline_protocol.md": "0c8a2c9971da601d592a2691fa86d10e61791d8e99e0e993e7f29c691d04a948",
+    "source/scripts/benchmark_event_baselines.py": "7818e99163cba546a7fa1d987294f05f590f85d792aecc7e7d1563345dcdfe24",
+    "source/src/f1energy/event_baselines.py": "d114646c1cb76f7f54f9f12a1d76b7abe122119172a2e0c41305a42a52114a0b",
+    "source/src/f1energy/event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "source/src/f1energy/event_rl.py": "fd29c99b069419bca67605482d37ca6818501035126a20ac6c32ef21a5411059",
+    "source/src/f1energy/power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763"
+  }
+}

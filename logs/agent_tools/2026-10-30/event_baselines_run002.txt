@@ -1,0 +1,6 @@
+{"case": "four_segment_development", "elapsed_s": 23.6227217691091, "dp_gap_s": 0.0, "runtime_s": 1.5074966000101995, "cache": {"uncached_transitions": 219, "hits": 959, "loaded_records": 321, "timing_note": "Sequential warm-cache timings; not an independent hardware speed ranking."}, "assessment": {"physical_replays_passed": true, "finite_reference_consistent": true, "finest_energy_grid_agrees": true, "integration_agrees": true}}
+{
+  "gate": "passed_bounded_synthetic_baseline_gate",
+  "sources_unchanged": true,
+  "scope": "Finite grids on three synthetic development/pilot scenarios; not a continuous optimum or empirical F1 validation."
+}

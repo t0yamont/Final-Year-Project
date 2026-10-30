@@ -1,0 +1,15 @@
+{
+  "inputs_sha256": {
+    "results\\synthetic-ppo-001\\ppo.zip": "35774cda8f6c3a6194b59ef33bd9ef6a317c2e95f05c5554e18dcd91a811651a",
+    "results\\synthetic-ppo-seed1-001\\ppo.zip": "0bc3c0117fa7f584f36817b9fca397ec4053906fdd10c2f0d8e6083870ea691e",
+    "results\\synthetic-ppo-seed2-001\\ppo.zip": "f8af2cbb10c5c3e387bb47edee5097989e12e30ed28f47f06a973d4cf8fe9e24"
+  },
+  "outputs_sha256": {
+    "metrics.json": "3a07c6f462f3e92033732d104560ee0ad93113d94f7c5a794c42953b147fc7d3"
+  },
+  "source_sha256": {
+    "scripts\\benchmark_baselines.py": "e8a50f2bbeebde1b17bbcbab72fc58b98c1b2daec571fec396559c93197bf2f9",
+    "src\\f1energy\\baselines.py": "6fb3a6d57bcc07b84f81d1a213783ee9b7b935d75366f7c413ddbb693d454a15",
+    "src\\f1energy\\lap.py": "888ba6eaa7f380afad2076f08b238bd8c32af2b6db3706a94f18be99b92ecf4d"
+  }
+}

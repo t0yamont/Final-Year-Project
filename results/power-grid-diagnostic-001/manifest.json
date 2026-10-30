@@ -1,0 +1,70 @@
+{
+  "created_utc": "2026-10-28T21:35:50.327845+00:00",
+  "python": "3.12.14",
+  "study": "diagnostic_only_original_gate_unchanged",
+  "vehicle": {
+    "mass_kg": 800.0,
+    "base_power_w": 100000.0,
+    "electrical_limit_w": 60000.0,
+    "discharge_efficiency": 0.9,
+    "drag_kg_per_m": 0.5,
+    "friction_deceleration_m_per_s2": 8.0
+  },
+  "grids": [
+    2.5,
+    1.25,
+    0.625,
+    0.3125,
+    0.15625
+  ],
+  "arms": {
+    "original": [
+      true,
+      450000.0
+    ],
+    "caps_no_depletion": [
+      true,
+      1000000000.0
+    ],
+    "smooth_depletion": [
+      false,
+      450000.0
+    ],
+    "smooth_no_depletion": [
+      false,
+      1000000000.0
+    ]
+  },
+  "initial_speed_m_per_s": 20,
+  "reserve_j": 50000,
+  "requested_deployment_fraction": 0.6,
+  "source_hashes": {
+    "scripts\\diagnose_power_grid.py": "dc3a415990f877860250a7083aeb500fdf3cd05adfa3cc1ac4bbc16775b88a2d",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "src\\f1energy\\braking.py": "66ee717e37cef3cd984ade560acc82584b12304f78ac799ac451cc9b3d954d4a"
+  },
+  "outputs": {
+    "protocol.md": "063b2f7da21139b074502034ba361524aed43e7f644c60d9861f1ba34eb9a389",
+    "original-2.5.json": "876d6297b51d976560901ef14a7d4f02d3f0593041b51fa016fd6cf011cbbcc2",
+    "original-1.25.json": "66d1e18f00294bb223a660b477b92a83d981df9de6d943af5d9bca7b72439f2d",
+    "original-0.625.json": "33896a6397d9d7e539f4956afa8c1bb1bbb7e49030cc6b7250601509729890eb",
+    "original-0.3125.json": "dd675f7582aaf10a8b1a7b38a6543220a666d690f3add5029589fe0a06152a48",
+    "original-0.15625.json": "e4123bb47837762ea4c8e33ef9fe81cde990ea55ea64c4007b241d3fcae4090a",
+    "caps_no_depletion-2.5.json": "05276cf94869e9ede4e2fa98fc2875be6d894f4a198df5aeaefede95b8ff9af6",
+    "caps_no_depletion-1.25.json": "6d2add1a665f74a259be7229ef23887a6a0301fc9c7d5267258d6531f84a1a08",
+    "caps_no_depletion-0.625.json": "af5c3fcf7cbe1cf69dc2ce96d2bb871f2868ba0747445b5b688abbad2b159353",
+    "caps_no_depletion-0.3125.json": "f30f938861bcfa328052d547278e62772ed99b521abf0ad24d5bf10a290cfe39",
+    "caps_no_depletion-0.15625.json": "33c4fe61b7a1b4d2129eb61e1528502092fd71f922c6d7c4a4507b3eb5694b01",
+    "smooth_depletion-2.5.json": "c0836fe87c750a1948f2368fdb8dbcd008f7593d2d64362341115b03663cdef1",
+    "smooth_depletion-1.25.json": "3ffd5029d80ca445f545bd0c3e77ced6f76bc4863642aae9373f54ef45638621",
+    "smooth_depletion-0.625.json": "2378b1c6441649d82cd8b9df55355f943e618ed1a7f19d1c5c4020a489cca8cd",
+    "smooth_depletion-0.3125.json": "1f04048ef6995b9cf81712efd9189449d44f55cc0ad1991068ecb5104faeee14",
+    "smooth_depletion-0.15625.json": "8e49fabd5f88288fb2ad4790e545acf7ee41a6ec97a2c0f8f2c2072c1a7f8e7e",
+    "smooth_no_depletion-2.5.json": "8b84b00700483669a1fbf5a4f0000269dcc518eb41ab6519755dd1d5e8a94882",
+    "smooth_no_depletion-1.25.json": "789325cab8decd827d547e31718a94800a0f2047d137233bd5347b0ac7f243f7",
+    "smooth_no_depletion-0.625.json": "fa8b73af8ada844762f468dd241677ba716d8585430926c710b23cbbe471a48b",
+    "smooth_no_depletion-0.3125.json": "cb5b02a3c486fef5010678d3392dc85593f7bd1d78b9ec47ecb7c157fda71848",
+    "smooth_no_depletion-0.15625.json": "681ba7df124882617e0459f7a8714ef46d5ca0f1ff49c3e7ba1a63957efa2fa0",
+    "summary.json": "83d2e89d1f0b27459db8af9573aba577f3ff25b007d70cd2ef126e4f8f647135"
+  }
+}

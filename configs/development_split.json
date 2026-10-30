@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "role": "development_only_within_event",
+  "session": {"year": 2025, "round_number": 4, "session": "Q", "driver": "1"},
+  "fit_laps": [4, 10],
+  "validation_laps": [13],
+  "excluded_primary_laps": {"16": "Two observed source gaps exceed 1 second; primary development exclusion, not universal validity rule."},
+  "max_pair_gap_s": 0.5,
+  "minimum_throttle_percent": 95,
+  "final_test": false,
+  "limitations": "Same-event validation shares conditions with fit data. Weather samples are not continuous dry-track proof. Electrical deployment remains unobserved."
+}

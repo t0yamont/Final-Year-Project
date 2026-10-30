@@ -1,0 +1,76 @@
+{
+  "status": "completed",
+  "laps": [
+    {
+      "lap_number": 1,
+      "quality_flags": [
+        "accuracy_not_confirmed",
+        "pit_in_or_out",
+        "deletion_status_not_confirmed_valid"
+      ],
+      "selection": "first chronological laps; diagnostic, not modelling selection",
+      "sample_count": 416,
+      "missing_counts": {
+        "Speed": 0,
+        "RPM": 0,
+        "nGear": 0,
+        "Throttle": 0,
+        "Brake": 0,
+        "DRS": 0,
+        "Time": 0
+      },
+      "electrical_deployment_label": "not_provided_by_this_pipeline",
+      "battery_state_label": "not_provided_by_this_pipeline",
+      "evidence_class": "source_car_data; source processing may apply",
+      "status": "exported"
+    },
+    {
+      "lap_number": 2,
+      "quality_flags": [
+        "accuracy_not_confirmed",
+        "pit_in_or_out",
+        "deletion_status_not_confirmed_valid"
+      ],
+      "selection": "first chronological laps; diagnostic, not modelling selection",
+      "sample_count": 379,
+      "missing_counts": {
+        "Speed": 0,
+        "RPM": 0,
+        "nGear": 0,
+        "Throttle": 0,
+        "Brake": 0,
+        "DRS": 0,
+        "Time": 0
+      },
+      "electrical_deployment_label": "not_provided_by_this_pipeline",
+      "battery_state_label": "not_provided_by_this_pipeline",
+      "evidence_class": "source_car_data; source processing may apply",
+      "status": "exported"
+    },
+    {
+      "lap_number": 3,
+      "quality_flags": [
+        "accuracy_not_confirmed",
+        "pit_in_or_out",
+        "deletion_status_not_confirmed_valid"
+      ],
+      "selection": "first chronological laps; diagnostic, not modelling selection",
+      "sample_count": 2340,
+      "missing_counts": {
+        "Speed": 0,
+        "RPM": 0,
+        "nGear": 0,
+        "Throttle": 0,
+        "Brake": 0,
+        "DRS": 0,
+        "Time": 0
+      },
+      "electrical_deployment_label": "not_provided_by_this_pipeline",
+      "battery_state_label": "not_provided_by_this_pipeline",
+      "evidence_class": "source_car_data; source processing may apply",
+      "status": "exported"
+    }
+  ],
+  "failures": [],
+  "interpretation": "Pilot source audit; no deployment reconstruction or dataset eligibility established."
+}

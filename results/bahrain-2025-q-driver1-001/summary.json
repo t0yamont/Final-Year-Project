@@ -1,0 +1,12 @@
+{
+  "status": "partial_failure",
+  "laps": [],
+  "failures": [
+    {
+      "stage": "session_load_or_selection",
+      "error_type": "DataNotLoadedError",
+      "message": "The data you are trying to access has not been loaded yet. See `Session.load`"
+    }
+  ],
+  "interpretation": "Pilot source audit; no deployment reconstruction or dataset eligibility established."
+}

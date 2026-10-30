@@ -1,0 +1,69 @@
+{
+  "summaries": [
+    {
+      "spacing_m": 40.0,
+      "cells": 20,
+      "elapsed_s": 20.780833928348816,
+      "battery_draw_j": 400000.0,
+      "terminal_speed_m_per_s": 20.0,
+      "max_abs_energy_residual_j": 3.5652192309498787e-10,
+      "max_envelope_excess_m_per_s": 0.0,
+      "min_energy_j": 50000.0
+    },
+    {
+      "spacing_m": 20.0,
+      "cells": 40,
+      "elapsed_s": 20.778991589826717,
+      "battery_draw_j": 400000.0,
+      "terminal_speed_m_per_s": 20.0,
+      "max_abs_energy_residual_j": 3.637978807091713e-10,
+      "max_envelope_excess_m_per_s": 0.0,
+      "min_energy_j": 50000.0
+    },
+    {
+      "spacing_m": 10.0,
+      "cells": 80,
+      "elapsed_s": 20.770750095966495,
+      "battery_draw_j": 400000.0,
+      "terminal_speed_m_per_s": 20.0,
+      "max_abs_energy_residual_j": 3.6925484891980886e-10,
+      "max_envelope_excess_m_per_s": 0.0,
+      "min_energy_j": 50000.0
+    },
+    {
+      "spacing_m": 5.0,
+      "cells": 160,
+      "elapsed_s": 20.76813996817293,
+      "battery_draw_j": 400000.0,
+      "terminal_speed_m_per_s": 20.0,
+      "max_abs_energy_residual_j": 3.551576810423285e-10,
+      "max_envelope_excess_m_per_s": 0.0,
+      "min_energy_j": 50000.0
+    },
+    {
+      "spacing_m": 2.5,
+      "cells": 320,
+      "elapsed_s": 20.771106791349926,
+      "battery_draw_j": 400000.0,
+      "terminal_speed_m_per_s": 20.0,
+      "max_abs_energy_residual_j": 3.601599019020796e-10,
+      "max_envelope_excess_m_per_s": 0.0,
+      "min_energy_j": 50000.0
+    }
+  ],
+  "assessment": {
+    "gate": "rejected",
+    "consecutive_time_differences_s": [
+      0.0018423385220991406,
+      0.008241493860221993,
+      0.0026101277935630662,
+      0.002966823176993927
+    ],
+    "finest_time_relative_change": 0.000142834140077189,
+    "finest_energy_relative_change": 0.0,
+    "physical_checks_passed": true,
+    "time_changes_strictly_decreasing": false,
+    "threshold_relative": 0.001,
+    "interpretation": "Successive-grid evidence only, not an exact error bound or general simulator validation."
+  }
+}

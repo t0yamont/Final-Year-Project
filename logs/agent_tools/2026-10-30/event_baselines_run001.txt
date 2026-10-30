@@ -1,0 +1,8 @@
+{"case": "nominal_development", "elapsed_s": 20.597676607316643, "dp_gap_s": 0.0, "runtime_s": 1.3165039000159595, "cache": {"uncached_transitions": 130, "hits": 222, "timing_note": "Sequential warm-cache timings; not an independent hardware speed ranking."}, "assessment": {"physical_replays_passed": true, "finite_reference_consistent": true, "finest_energy_grid_agrees": true, "integration_agrees": true}}
+{"case": "new_predeclared_evaluation", "elapsed_s": 21.132915654922655, "dp_gap_s": 0.0, "runtime_s": 0.8458611000096425, "cache": {"uncached_transitions": 140, "hits": 212, "timing_note": "Sequential warm-cache timings; not an independent hardware speed ranking."}, "assessment": {"physical_replays_passed": true, "finite_reference_consistent": true, "finest_energy_grid_agrees": true, "integration_agrees": true}}
+{"case": "four_segment_development", "elapsed_s": 23.6227217691091, "dp_gap_s": 0.0010619244060201538, "runtime_s": 1.1593179999908898, "cache": {"uncached_transitions": 321, "hits": 430, "timing_note": "Sequential warm-cache timings; not an independent hardware speed ranking."}, "assessment": {"physical_replays_passed": true, "finite_reference_consistent": true, "finest_energy_grid_agrees": false, "integration_agrees": true}}
+{
+  "gate": "rejected",
+  "sources_unchanged": true,
+  "scope": "Finite grids on three synthetic development/pilot scenarios; not a continuous optimum or empirical F1 validation."
+}

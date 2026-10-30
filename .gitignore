@@ -1,0 +1,28 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+# Credentials and authenticated upstream caches
+.env
+.env.*
+!.env.example
+.credentials/
+credentials.json
+token.json
+tokens.json
+*.pem
+*.key
+**/cache/
+**/.cache/
+*.sqlite
+*.sqlite-*
+*.ff1pkl
+# Transient scratch; canonical evidence lives in results and figures
+work/
+Thumbs.db
+Desktop.ini
+# Research results, checkpoints, plots and logs are intentionally versioned.

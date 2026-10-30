@@ -1,0 +1,211 @@
+{
+  "scenario": {
+    "segments": [
+      {
+        "length_m": 180,
+        "exit_speed_cap_m_per_s": 25
+      },
+      {
+        "length_m": 300,
+        "exit_speed_cap_m_per_s": 20
+      },
+      {
+        "length_m": 120,
+        "exit_speed_cap_m_per_s": 30
+      },
+      {
+        "length_m": 260,
+        "exit_speed_cap_m_per_s": 20
+      }
+    ],
+    "mass_kg": 800.0,
+    "base_force_n": 1600.0,
+    "electrical_force_limit_n": 1200.0,
+    "braking_deceleration_m_per_s2": 8.0,
+    "discharge_efficiency": 0.9,
+    "initial_speed_m_per_s": 20.0,
+    "initial_energy_j": 450000.0,
+    "reserve_j": 50000.0
+  },
+  "results": {
+    "zero": {
+      "elapsed_s": 28.997141776576022,
+      "terminal_energy_j": 450000.0,
+      "terminal_speed_m_per_s": 20.0,
+      "actions": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "feasible": true,
+      "solve_and_replay_s": 4.9700000090524554e-05
+    },
+    "half": {
+      "elapsed_s": 27.757070490594437,
+      "terminal_energy_j": 50000.0,
+      "terminal_speed_m_per_s": 20.0,
+      "actions": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "feasible": true,
+      "solve_and_replay_s": 8.05000017862767e-05
+    },
+    "full": {
+      "elapsed_s": 27.76108177679602,
+      "terminal_energy_j": 50000.0,
+      "terminal_speed_m_per_s": 19.999999999999993,
+      "actions": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "feasible": true,
+      "solve_and_replay_s": 0.00018199999612988904
+    },
+    "exhaustive_81": {
+      "elapsed_s": 27.651655874051006,
+      "terminal_energy_j": 50000.0,
+      "terminal_speed_m_per_s": 20.000000000000007,
+      "actions": [
+        1.0,
+        0.5,
+        1.0,
+        0.0
+      ],
+      "feasible": true,
+      "solve_and_replay_s": 0.004445200000191107
+    },
+    "dp_100000J": {
+      "elapsed_s": 27.76108177679602,
+      "terminal_energy_j": 50000.0,
+      "terminal_speed_m_per_s": 19.999999999999993,
+      "actions": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "feasible": true,
+      "grid_objective_s": 27.810746795298463,
+      "energy_step_j": 100000,
+      "states_evaluated": 44,
+      "initial_rounding_loss_j": 0.0,
+      "interpretation": "Finite action-grid DP with downward energy rounding; replay uses unrounded physical state.",
+      "solve_and_replay_s": 0.0020710000026156195
+    },
+    "dp_50000J": {
+      "elapsed_s": 27.73289008745686,
+      "terminal_energy_j": 71570.61004381528,
+      "terminal_speed_m_per_s": 19.99999999999999,
+      "actions": [
+        0.5,
+        0.5,
+        1.0,
+        0.0
+      ],
+      "feasible": true,
+      "grid_objective_s": 27.73289008745686,
+      "energy_step_j": 50000,
+      "states_evaluated": 57,
+      "initial_rounding_loss_j": 0.0,
+      "interpretation": "Finite action-grid DP with downward energy rounding; replay uses unrounded physical state.",
+      "solve_and_replay_s": 0.0021774999986519106
+    },
+    "dp_10000J": {
+      "elapsed_s": 27.661434903888413,
+      "terminal_energy_j": 53100.77519379847,
+      "terminal_speed_m_per_s": 20.00000000000001,
+      "actions": [
+        1.0,
+        0.5,
+        0.5,
+        0.0
+      ],
+      "feasible": true,
+      "grid_objective_s": 27.677453859700343,
+      "energy_step_j": 10000,
+      "states_evaluated": 72,
+      "initial_rounding_loss_j": 0.0,
+      "interpretation": "Finite action-grid DP with downward energy rounding; replay uses unrounded physical state.",
+      "solve_and_replay_s": 0.00241019999521086
+    },
+    "dp_1000J": {
+      "elapsed_s": 27.651655874051006,
+      "terminal_energy_j": 50000.0,
+      "terminal_speed_m_per_s": 20.000000000000007,
+      "actions": [
+        1.0,
+        0.5,
+        1.0,
+        0.0
+      ],
+      "feasible": true,
+      "grid_objective_s": 27.652094652662708,
+      "energy_step_j": 1000,
+      "states_evaluated": 81,
+      "initial_rounding_loss_j": 0.0,
+      "interpretation": "Finite action-grid DP with downward energy rounding; replay uses unrounded physical state.",
+      "solve_and_replay_s": 0.0024594999995315447
+    },
+    "dp_100J": {
+      "elapsed_s": 27.651655874051006,
+      "terminal_energy_j": 50000.0,
+      "terminal_speed_m_per_s": 20.000000000000007,
+      "actions": [
+        1.0,
+        0.5,
+        1.0,
+        0.0
+      ],
+      "feasible": true,
+      "grid_objective_s": 27.651780182476294,
+      "energy_step_j": 100,
+      "states_evaluated": 82,
+      "initial_rounding_loss_j": 0.0,
+      "interpretation": "Finite action-grid DP with downward energy rounding; replay uses unrounded physical state.",
+      "solve_and_replay_s": 0.0022581000011996366
+    },
+    "synthetic-ppo-001": {
+      "elapsed_s": 27.76108177679602,
+      "terminal_energy_j": 50000.0,
+      "terminal_speed_m_per_s": 19.999999999999993,
+      "actions": [
+        1.0,
+        1.0,
+        0.6655253767967224,
+        0.5561985969543457
+      ],
+      "feasible": true
+    },
+    "synthetic-ppo-seed1-001": {
+      "elapsed_s": 27.76108177679602,
+      "terminal_energy_j": 50000.0,
+      "terminal_speed_m_per_s": 19.999999999999993,
+      "actions": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "feasible": true
+    },
+    "synthetic-ppo-seed2-001": {
+      "elapsed_s": 27.76108177679602,
+      "terminal_energy_j": 50000.0,
+      "terminal_speed_m_per_s": 19.999999999999993,
+      "actions": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "feasible": true
+    }
+  },
+  "interpretation": "Nominal synthetic case only. DP energy rounding and finite actions; exhaustive reference covers 81 action sequences, not continuous actions."
+}

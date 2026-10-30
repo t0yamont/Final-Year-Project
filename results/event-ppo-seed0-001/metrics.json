@@ -1,0 +1,215 @@
+{
+  "nominal_discrete_9_sequence_reference": {
+    "elapsed_s": 20.597676607316643,
+    "terminal_energy_j": 50000.0,
+    "terminal_speed_m_per_s": 20.000000000000075,
+    "feasible": true,
+    "trace": [
+      {
+        "action": 1.0,
+        "speed_m_per_s": 30.000000000000064,
+        "energy_j": 50000.0,
+        "duration_s": 10.00199473970068,
+        "energy_residual_j": -2.3283064365386963e-10
+      },
+      {
+        "action": 0.0,
+        "speed_m_per_s": 20.000000000000075,
+        "energy_j": 50000.0,
+        "duration_s": 10.595681867615966,
+        "energy_residual_j": 0.0
+      }
+    ],
+    "sequence": [
+      1.0,
+      0.0
+    ]
+  },
+  "training_s": 24.494919499993557,
+  "actual_timesteps": 4096,
+  "changed_parameter_tensors": 13,
+  "max_parameter_change": 0.25505751371383667,
+  "checkpoint_reload_exact": true,
+  "results": {
+    "nominal_development": {
+      "zero": {
+        "elapsed_s": 21.62837914587383,
+        "terminal_energy_j": 450000.0,
+        "terminal_speed_m_per_s": 20.000000000000103,
+        "feasible": true,
+        "trace": [
+          {
+            "action": 0.0,
+            "speed_m_per_s": 30.000000000000046,
+            "energy_j": 450000.0,
+            "duration_s": 11.032697278257864,
+            "energy_residual_j": -6.402842700481415e-10
+          },
+          {
+            "action": 0.0,
+            "speed_m_per_s": 20.000000000000103,
+            "energy_j": 450000.0,
+            "duration_s": 10.595681867615964,
+            "energy_residual_j": -1.1641532182693481e-10
+          }
+        ]
+      },
+      "half": {
+        "elapsed_s": 20.696253649048202,
+        "terminal_energy_j": 50000.0,
+        "terminal_speed_m_per_s": 20.000000000000107,
+        "feasible": true,
+        "trace": [
+          {
+            "action": 0.5,
+            "speed_m_per_s": 30.00000000000005,
+            "energy_j": 174612.48556806624,
+            "duration_s": 10.415455274519017,
+            "energy_residual_j": 6.984919309616089e-10
+          },
+          {
+            "action": 0.5,
+            "speed_m_per_s": 20.000000000000107,
+            "energy_j": 50000.0,
+            "duration_s": 10.280798374529184,
+            "energy_residual_j": -1.0477378964424133e-09
+          }
+        ]
+      },
+      "full": {
+        "elapsed_s": 20.597676607316643,
+        "terminal_energy_j": 50000.0,
+        "terminal_speed_m_per_s": 20.000000000000075,
+        "feasible": true,
+        "trace": [
+          {
+            "action": 1.0,
+            "speed_m_per_s": 30.000000000000064,
+            "energy_j": 50000.0,
+            "duration_s": 10.00199473970068,
+            "energy_residual_j": -2.3283064365386963e-10
+          },
+          {
+            "action": 1.0,
+            "speed_m_per_s": 20.000000000000075,
+            "energy_j": 50000.0,
+            "duration_s": 10.595681867615966,
+            "energy_residual_j": 0.0
+          }
+        ]
+      },
+      "ppo": {
+        "elapsed_s": 20.597676607316643,
+        "terminal_energy_j": 50000.0,
+        "terminal_speed_m_per_s": 20.000000000000075,
+        "feasible": true,
+        "trace": [
+          {
+            "action": 1.0,
+            "speed_m_per_s": 30.000000000000064,
+            "energy_j": 50000.0,
+            "duration_s": 10.00199473970068,
+            "energy_residual_j": -2.3283064365386963e-10
+          },
+          {
+            "action": 0.36857378482818604,
+            "speed_m_per_s": 20.000000000000075,
+            "energy_j": 50000.0,
+            "duration_s": 10.595681867615966,
+            "energy_residual_j": 0.0
+          }
+        ]
+      }
+    },
+    "new_predeclared_evaluation": {
+      "zero": {
+        "elapsed_s": 22.04637177008616,
+        "terminal_energy_j": 400000.0,
+        "terminal_speed_m_per_s": 20.000000000000064,
+        "feasible": true,
+        "trace": [
+          {
+            "action": 0.0,
+            "speed_m_per_s": 28.00000000000004,
+            "energy_j": 400000.0,
+            "duration_s": 10.324517395954167,
+            "energy_residual_j": -5.820766091346741e-11
+          },
+          {
+            "action": 0.0,
+            "speed_m_per_s": 20.000000000000064,
+            "energy_j": 400000.0,
+            "duration_s": 11.721854374131995,
+            "energy_residual_j": -5.820766091346741e-10
+          }
+        ]
+      },
+      "half": {
+        "elapsed_s": 21.19359655509855,
+        "terminal_energy_j": 50000.0,
+        "terminal_speed_m_per_s": 20.000000000000057,
+        "feasible": true,
+        "trace": [
+          {
+            "action": 0.5,
+            "speed_m_per_s": 28.00000000000004,
+            "energy_j": 147259.61778293722,
+            "duration_s": 9.773085456598604,
+            "energy_residual_j": -3.4924596548080444e-10
+          },
+          {
+            "action": 0.5,
+            "speed_m_per_s": 20.000000000000057,
+            "energy_j": 50000.0,
+            "duration_s": 11.420511098499947,
+            "energy_residual_j": -4.656612873077393e-10
+          }
+        ]
+      },
+      "full": {
+        "elapsed_s": 21.137077716863203,
+        "terminal_energy_j": 50000.0,
+        "terminal_speed_m_per_s": 20.000000000000092,
+        "feasible": true,
+        "trace": [
+          {
+            "action": 1.0,
+            "speed_m_per_s": 28.000000000000075,
+            "energy_j": 50000.0,
+            "duration_s": 9.415223342731213,
+            "energy_residual_j": -1.1641532182693481e-10
+          },
+          {
+            "action": 1.0,
+            "speed_m_per_s": 20.000000000000092,
+            "energy_j": 50000.0,
+            "duration_s": 11.72185437413199,
+            "energy_residual_j": 0.0
+          }
+        ]
+      },
+      "ppo": {
+        "elapsed_s": 21.137077716863203,
+        "terminal_energy_j": 50000.0,
+        "terminal_speed_m_per_s": 20.000000000000092,
+        "feasible": true,
+        "trace": [
+          {
+            "action": 1.0,
+            "speed_m_per_s": 28.000000000000075,
+            "energy_j": 50000.0,
+            "duration_s": 9.415223342731213,
+            "energy_residual_j": -1.1641532182693481e-10
+          },
+          {
+            "action": 0.3644225001335144,
+            "speed_m_per_s": 20.000000000000092,
+            "energy_j": 50000.0,
+            "duration_s": 11.72185437413199,
+            "energy_residual_j": 0.0
+          }
+        ]
+      }
+    }
+  }
+}

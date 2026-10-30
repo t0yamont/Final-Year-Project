@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "command": "audit-session",
+  "created_utc": "2026-10-28T00:36:20.807647+00:00",
+  "request": {
+    "year": 2025,
+    "round_number": 4,
+    "session": "Q",
+    "driver": "1",
+    "max_laps": 3
+  },
+  "fastf1_version": "3.9.0",
+  "source": {
+    "commit": null,
+    "package_files_sha256": {
+      "__init__.py": "87a6da2ed795e2f65719911d1997bd19e61af8a10142efee43d791f4d5f2b8fb",
+      "availability.py": "5f1031ca24f1312b2a522ca550386f6fcf8d962cd1d01ca48b108e1117fbfe6c",
+      "cli.py": "164b0bb2e8b8b7c09501c9db88362e0e082a31bdffc93c9b182acd51971a960c",
+      "config.py": "5980aa02f2a53f2e43e209f7aa390677edc5694abb93f0889bbf8c46b3e597a6",
+      "dynamics.py": "8af1757f5bf4c3f6a662353817f811f3c47e8d07088e1dff274038e9c7d1038d",
+      "fixture.py": "c2a31c5b71b6aa1513798294ccedce44b6b75f8d8321e05fefe4f42f7570128c",
+      "telemetry_audit.py": "0e6c21391303dd4c3468d1cd844bb313bf872011013640ac00964f30507e9c1e"
+    },
+    "note": "File hashes identify executed package contents, including uncommitted edits."
+  },
+  "outputs": [
+    {
+      "path": "summary.json",
+      "sha256": "423b38b5116df41b9614d2ad2b02c02bc48494fdaa1b38521937c70f81a8fbdf"
+    }
+  ]
+}

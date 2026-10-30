@@ -1,0 +1,591 @@
+{
+  "status": "completed",
+  "laps": [
+    {
+      "lap_number": 1,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 939.704,
+      "lap_end_session_s": 1051.608,
+      "weather_samples_in_interval": 2,
+      "weather_sample_session_s": [
+        945.401,
+        1005.429
+      ],
+      "rainfall_observations": [
+        false,
+        false
+      ],
+      "air_temperature_c": [
+        26.3,
+        26.3
+      ],
+      "track_temperature_c": [
+        31.2,
+        31.2
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    },
+    {
+      "lap_number": 2,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 1051.608,
+      "lap_end_session_s": 1149.775,
+      "weather_samples_in_interval": 2,
+      "weather_sample_session_s": [
+        1065.432,
+        1125.418
+      ],
+      "rainfall_observations": [
+        false,
+        false
+      ],
+      "air_temperature_c": [
+        26.2,
+        26.3
+      ],
+      "track_temperature_c": [
+        31.2,
+        31.2
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    },
+    {
+      "lap_number": 3,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 1149.775,
+      "lap_end_session_s": 1777.698,
+      "weather_samples_in_interval": 10,
+      "weather_sample_session_s": [
+        1185.414,
+        1245.429,
+        1305.594,
+        1365.446,
+        1425.463,
+        1485.465,
+        1545.484,
+        1605.48,
+        1665.488,
+        1725.515
+      ],
+      "rainfall_observations": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "air_temperature_c": [
+        26.3,
+        26.3,
+        26.3,
+        26.3,
+        26.3,
+        26.3,
+        26.3,
+        26.3,
+        26.3,
+        26.3
+      ],
+      "track_temperature_c": [
+        31.2,
+        31.2,
+        31.4,
+        31.3,
+        31.3,
+        31.3,
+        31.0,
+        31.0,
+        30.9,
+        31.1
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    },
+    {
+      "lap_number": 4,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 1777.698,
+      "lap_end_session_s": 1869.001,
+      "weather_samples_in_interval": 2,
+      "weather_sample_session_s": [
+        1785.519,
+        1845.531
+      ],
+      "rainfall_observations": [
+        false,
+        false
+      ],
+      "air_temperature_c": [
+        26.3,
+        26.3
+      ],
+      "track_temperature_c": [
+        31.2,
+        31.2
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    },
+    {
+      "lap_number": 5,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 1869.001,
+      "lap_end_session_s": 1989.909,
+      "weather_samples_in_interval": 2,
+      "weather_sample_session_s": [
+        1905.563,
+        1965.564
+      ],
+      "rainfall_observations": [
+        false,
+        false
+      ],
+      "air_temperature_c": [
+        26.2,
+        26.3
+      ],
+      "track_temperature_c": [
+        31.2,
+        31.2
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    },
+    {
+      "lap_number": 6,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 1989.909,
+      "lap_end_session_s": 3048.613,
+      "weather_samples_in_interval": 18,
+      "weather_sample_session_s": [
+        2025.548,
+        2085.574,
+        2145.568,
+        2205.57,
+        2265.567,
+        2325.6,
+        2385.636,
+        2445.657,
+        2505.653,
+        2565.675,
+        2625.7,
+        2685.715,
+        2745.703,
+        2805.698,
+        2865.703,
+        2925.724,
+        2985.719,
+        3045.736
+      ],
+      "rainfall_observations": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "air_temperature_c": [
+        26.3,
+        26.3,
+        26.3,
+        26.3,
+        26.2,
+        26.1,
+        26.1,
+        26.1,
+        26.1,
+        26.1,
+        26.1,
+        26.2,
+        26.2,
+        26.2,
+        26.2,
+        26.2,
+        26.1,
+        26.1
+      ],
+      "track_temperature_c": [
+        31.2,
+        31.2,
+        30.8,
+        30.8,
+        30.7,
+        30.7,
+        30.6,
+        30.4,
+        30.4,
+        30.2,
+        30.4,
+        30.4,
+        30.4,
+        30.3,
+        30.6,
+        30.7,
+        30.7,
+        30.7
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    },
+    {
+      "lap_number": 7,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 3048.613,
+      "lap_end_session_s": 3156.149,
+      "weather_samples_in_interval": 1,
+      "weather_sample_session_s": [
+        3105.734
+      ],
+      "rainfall_observations": [
+        false
+      ],
+      "air_temperature_c": [
+        26.2
+      ],
+      "track_temperature_c": [
+        30.8
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    },
+    {
+      "lap_number": 8,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 3156.149,
+      "lap_end_session_s": 3252.356,
+      "weather_samples_in_interval": 2,
+      "weather_sample_session_s": [
+        3165.735,
+        3225.771
+      ],
+      "rainfall_observations": [
+        false,
+        false
+      ],
+      "air_temperature_c": [
+        26.1,
+        26.2
+      ],
+      "track_temperature_c": [
+        30.9,
+        31.0
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    },
+    {
+      "lap_number": 9,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 3252.356,
+      "lap_end_session_s": 3513.812,
+      "weather_samples_in_interval": 4,
+      "weather_sample_session_s": [
+        3285.79,
+        3345.785,
+        3405.786,
+        3465.804
+      ],
+      "rainfall_observations": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "air_temperature_c": [
+        26.2,
+        26.2,
+        26.2,
+        26.3
+      ],
+      "track_temperature_c": [
+        31.1,
+        30.9,
+        30.9,
+        30.9
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    },
+    {
+      "lap_number": 10,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 3513.812,
+      "lap_end_session_s": 3604.831,
+      "weather_samples_in_interval": 2,
+      "weather_sample_session_s": [
+        3525.801,
+        3585.805
+      ],
+      "rainfall_observations": [
+        false,
+        false
+      ],
+      "air_temperature_c": [
+        26.3,
+        26.3
+      ],
+      "track_temperature_c": [
+        30.8,
+        30.7
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    },
+    {
+      "lap_number": 11,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 3604.831,
+      "lap_end_session_s": 3727.902,
+      "weather_samples_in_interval": 2,
+      "weather_sample_session_s": [
+        3645.811,
+        3705.838
+      ],
+      "rainfall_observations": [
+        false,
+        false
+      ],
+      "air_temperature_c": [
+        26.3,
+        26.3
+      ],
+      "track_temperature_c": [
+        30.7,
+        30.7
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    },
+    {
+      "lap_number": 12,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 3727.902,
+      "lap_end_session_s": 4293.139,
+      "weather_samples_in_interval": 9,
+      "weather_sample_session_s": [
+        3765.834,
+        3825.857,
+        3885.864,
+        3945.871,
+        4005.889,
+        4065.882,
+        4125.89,
+        4185.919,
+        4245.935
+      ],
+      "rainfall_observations": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "air_temperature_c": [
+        26.3,
+        26.3,
+        26.4,
+        26.3,
+        26.3,
+        26.3,
+        26.3,
+        26.3,
+        26.3
+      ],
+      "track_temperature_c": [
+        30.6,
+        30.6,
+        30.7,
+        30.7,
+        30.6,
+        30.4,
+        30.4,
+        30.4,
+        30.6
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    },
+    {
+      "lap_number": 13,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 4293.139,
+      "lap_end_session_s": 4385.196,
+      "weather_samples_in_interval": 2,
+      "weather_sample_session_s": [
+        4305.934,
+        4365.94
+      ],
+      "rainfall_observations": [
+        false,
+        false
+      ],
+      "air_temperature_c": [
+        26.3,
+        26.4
+      ],
+      "track_temperature_c": [
+        30.4,
+        30.6
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    },
+    {
+      "lap_number": 14,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 4385.196,
+      "lap_end_session_s": 4493.274,
+      "weather_samples_in_interval": 2,
+      "weather_sample_session_s": [
+        4425.956,
+        4485.968
+      ],
+      "rainfall_observations": [
+        false,
+        false
+      ],
+      "air_temperature_c": [
+        26.4,
+        26.4
+      ],
+      "track_temperature_c": [
+        30.6,
+        30.5
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    },
+    {
+      "lap_number": 15,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 4493.274,
+      "lap_end_session_s": 4846.782,
+      "weather_samples_in_interval": 6,
+      "weather_sample_session_s": [
+        4545.973,
+        4605.97,
+        4666.006,
+        4726.023,
+        4786.022,
+        4846.008
+      ],
+      "rainfall_observations": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "air_temperature_c": [
+        26.4,
+        26.4,
+        26.5,
+        26.5,
+        26.5,
+        26.5
+      ],
+      "track_temperature_c": [
+        30.5,
+        31.0,
+        31.0,
+        30.8,
+        30.4,
+        30.6
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    },
+    {
+      "lap_number": 16,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 4846.782,
+      "lap_end_session_s": 4937.205,
+      "weather_samples_in_interval": 1,
+      "weather_sample_session_s": [
+        4906.033
+      ],
+      "rainfall_observations": [
+        false
+      ],
+      "air_temperature_c": [
+        26.5
+      ],
+      "track_temperature_c": [
+        30.7
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    },
+    {
+      "lap_number": 17,
+      "deleted_by_fastf1_rcm_parser": false,
+      "deleted_reason": "",
+      "dry_track_verified": false,
+      "lap_start_session_s": 4937.205,
+      "lap_end_session_s": 5058.239,
+      "weather_samples_in_interval": 2,
+      "weather_sample_session_s": [
+        4966.027,
+        5026.026
+      ],
+      "rainfall_observations": [
+        false,
+        false
+      ],
+      "air_temperature_c": [
+        26.5,
+        26.6
+      ],
+      "track_temperature_c": [
+        30.7,
+        30.7
+      ],
+      "rainfall_summary": "no_rain_reported_at_samples"
+    }
+  ],
+  "failures": [],
+  "data_role": "development_pilot",
+  "alignment": "Weather Time inside inclusive [LapStartTime, Time], all session-relative; no nearest sample substituted.",
+  "interpretation": "Sparse rain observations do not prove dry track. Deletion flag is FastF1 interpretation of retrieved messages, not independently verified steward record."
+}
