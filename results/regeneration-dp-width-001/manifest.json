@@ -1,0 +1,29 @@
+{
+  "inputs": {
+    "configs\\regeneration_dp_width.json": "7943ed21b69492c7f07a8de2944155cf0b5628dc890860ea552813b069924cb2",
+    "results\\regeneration-dp-factorial-001\\manifest.json": "3b9f9c65e80caf72e7d8965c925f0f708ae4e1f0aefb6a8db88d99dbe7dc61f3"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\run_regeneration_dp_width.py": "682bc98fa7e338d0502904605b90f7c56f77a8b1fef1ea5375bd10882f7ca3e6",
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src\\f1energy\\event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\optimize_regeneration_dp.py": "b7cf0171ff58633b6fdc569dd6784adbe49e0c7239b755ddeb59d565c654bcfa",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "src\\f1energy\\circuit_training_gate.py": "ee4291988beb2ec37474060bfc7cdcd01b351a3263922f610e2d8ad6a2a0da3f",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\run_regeneration_dp_factorial.py": "17beb6879002027b29a9a42aee3d523706954ea63c439d74b8707403c18e1e44"
+  },
+  "outputs": {
+    "results\\regeneration-dp-width-001\\contract.json": "af942934e0eb7d4962c2ea78e31de7f703149951edd9c82660bbd9720c23afa2",
+    "results\\regeneration-dp-width-001\\metrics.json": "9fe7c59cb76f82621f03deb8e77de44d69ff1b3c34334292119dd0a603a205e0",
+    "results\\regeneration-dp-width-001\\w32.json": "ca3c185cff54d49e3eb7ad15b0b124cbb55a2b33a215317414512df640fc98fe",
+    "results\\regeneration-dp-width-001\\w32_cells160.json.gz": "b4c1e61c479a8b9c2421704a1b46a5ecd1a5fca67eca941b58ef9ed55c895ca5",
+    "results\\regeneration-dp-width-001\\w32_cells320.json.gz": "716bc030f6a0c186f68ad5434c6d755ba5c1d86cd81ce34e37510e755168a25a",
+    "results\\regeneration-dp-width-001\\w32_cells80.json.gz": "6ab4caa4da3c31427cb4c10cf9187ba0c0a3917794bf6c2fdc5a665952d2d466",
+    "results\\regeneration-dp-width-001\\w64.json": "daac37c3fed77d2e2cc61fb0e3c8f29a1983b31620d956e3e4d4f0b75fe1eaef",
+    "results\\regeneration-dp-width-001\\w64_cells160.json.gz": "f2876c8c20e8a3f7aaa35064d68a1779f983eec917cc36e0b6ca5c37a1933bf5",
+    "results\\regeneration-dp-width-001\\w64_cells320.json.gz": "60714d78f0ea6fa9d46d8f21ec628f5fe2a8483fad4f34b6c882baba248447e5",
+    "results\\regeneration-dp-width-001\\w64_cells80.json.gz": "ec184ca3aea114380e6b420ab45ec3f031a5ac561c959e2dd5519248eafa6f03"
+  }
+}

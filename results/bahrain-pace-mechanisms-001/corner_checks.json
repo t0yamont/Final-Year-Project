@@ -1,0 +1,82 @@
+[
+  {
+    "turn": 1,
+    "marker_station_m": 702.7276544205839,
+    "observed": {
+      "minimum_speed_mps": 18.611111111,
+      "minimum_station_m": 712.3056736843229,
+      "exit_100m_mps": 41.35764484843046,
+      "first_brake_within_250m_station_m": 573.3943321516098
+    },
+    "model": {
+      "minimum_speed_mps": 18.843389961275125,
+      "minimum_station_m": 695.9809227875539,
+      "exit_100m_mps": 34.25780472271035,
+      "first_brake_within_250m_station_m": 551.0178185387672
+    }
+  },
+  {
+    "turn": 4,
+    "marker_station_m": 1494.0167676868614,
+    "observed": {
+      "minimum_speed_mps": 32.5,
+      "minimum_station_m": 1518.0671460894782,
+      "exit_100m_mps": 40.37905901355892,
+      "first_brake_within_250m_station_m": 1368.7974749577527
+    },
+    "model": {
+      "minimum_speed_mps": 25.88905605790215,
+      "minimum_station_m": 1479.4260144789973,
+      "exit_100m_mps": 50.53581213751076,
+      "first_brake_within_250m_station_m": 1368.2402373471502
+    }
+  },
+  {
+    "turn": 8,
+    "marker_station_m": 2210.3815753726867,
+    "observed": {
+      "minimum_speed_mps": 19.444444444,
+      "minimum_station_m": 2234.651757316473,
+      "exit_100m_mps": 44.37216628746734,
+      "first_brake_within_250m_station_m": 2111.3339831375047
+    },
+    "model": {
+      "minimum_speed_mps": 25.99522360316337,
+      "minimum_station_m": 2226.394150429441,
+      "exit_100m_mps": 50.21157748875437,
+      "first_brake_within_250m_station_m": 1960.8696698710485
+    }
+  },
+  {
+    "turn": 10,
+    "marker_station_m": 2671.541441382558,
+    "observed": {
+      "minimum_speed_mps": 20.833333333,
+      "minimum_station_m": 2695.9782475291076,
+      "exit_100m_mps": 46.40687797944106,
+      "first_brake_within_250m_station_m": 2562.7775811388633
+    },
+    "model": {
+      "minimum_speed_mps": 19.37643291616699,
+      "minimum_station_m": 2671.1168923382425,
+      "exit_100m_mps": 52.16119301807822,
+      "first_brake_within_250m_station_m": 2563.6977264052066
+    }
+  },
+  {
+    "turn": 14,
+    "marker_station_m": 4866.506020327507,
+    "observed": {
+      "minimum_speed_mps": 33.333333333,
+      "minimum_station_m": 4883.339638237261,
+      "exit_100m_mps": 52.177654725880295,
+      "first_brake_within_250m_station_m": 4755.932991155691
+    },
+    "model": {
+      "minimum_speed_mps": 25.465757441648915,
+      "minimum_station_m": 4859.5633838974645,
+      "exit_100m_mps": 53.98278331844968,
+      "first_brake_within_250m_station_m": 4741.636837332328
+    }
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "session_key": 9839,
+  "meeting_key": 1276,
+  "event": "Abu Dhabi",
+  "role": "test",
+  "session_name": "Race",
+  "drivers": [
+    {
+      "driver_number": 1,
+      "driver_name": "Max VERSTAPPEN",
+      "team": "Red Bull Racing",
+      "lap_count": 58,
+      "native_car_rows": 19274,
+      "aligned_car_rows": 18871,
+      "position_rows": 0,
+      "motion_qc_pass_laps": 53,
+      "conditional_motion_candidates": 18,
+      "exclusion_counts": {
+        "native_motion_qc_failed": 5,
+        "gap_missing_or_over_limit": 35,
+        "pit_activity_reported": 1,
+        "lap_edge_coverage_missing_or_over_limit": 2,
+        "pit_out_or_unknown": 1,
+        "weather_missing_stale_or_ambiguous": 1,
+        "rain_reported_or_unknown": 1,
+        "stint_unknown_or_ambiguous": 1,
+        "wet_or_unknown_tyre_compound": 1
+      },
+      "outputs": {
+        "driver-1-laps.json": "92e6c6923df4ef35b65cb7b28a0427f01cc34892b96b5404f75ab38472bd8310",
+        "driver-1-car.csv.gz": "dff3717128875fe065a07a29aa68f947ecb3032f50e5e470ee4d3e62a8b3f8c0"
+      }
+    },
+    {
+      "driver_number": 22,
+      "driver_name": "Yuki TSUNODA",
+      "team": "Red Bull Racing",
+      "lap_count": 58,
+      "native_car_rows": 19578,
+      "aligned_car_rows": 19127,
+      "position_rows": 0,
+      "motion_qc_pass_laps": 52,
+      "conditional_motion_candidates": 20,
+      "exclusion_counts": {
+        "native_motion_qc_failed": 6,
+        "gap_missing_or_over_limit": 35,
+        "lap_edge_coverage_missing_or_over_limit": 2,
+        "pit_activity_reported": 1,
+        "pit_out_or_unknown": 1,
+        "weather_missing_stale_or_ambiguous": 1,
+        "rain_reported_or_unknown": 1,
+        "stint_unknown_or_ambiguous": 1,
+        "wet_or_unknown_tyre_compound": 1
+      },
+      "outputs": {
+        "driver-22-laps.json": "9a60d6d2b886e5407bdda90285ab52710cdda13e45e218ffb0a0d4d058fe72b8",
+        "driver-22-car.csv.gz": "3aff36990d8765ebcf3006646e391099e161f85fca37207e622c344b272a2c85"
+      }
+    }
+  ],
+  "completed_utc": "2026-11-10T22:15:51.175357+00:00",
+  "outputs": {
+    "context.json": "70c23dbea86497c47097b7cdbde62be7283214f1044cf536df915f4dfa64667a",
+    "driver-1-car.csv.gz": "dff3717128875fe065a07a29aa68f947ecb3032f50e5e470ee4d3e62a8b3f8c0",
+    "driver-1-complete.json": "aad7e47b0cfec7e8f70a6d0f4aad6dcce3f4d0c5e41de76499780369a2d5e6eb",
+    "driver-1-laps.json": "92e6c6923df4ef35b65cb7b28a0427f01cc34892b96b5404f75ab38472bd8310",
+    "driver-22-car.csv.gz": "3aff36990d8765ebcf3006646e391099e161f85fca37207e622c344b272a2c85",
+    "driver-22-complete.json": "7276d01a530e14e3126800640f95cf83516e1c61746c5a47436aa59e80913c64",
+    "driver-22-laps.json": "9a60d6d2b886e5407bdda90285ab52710cdda13e45e218ffb0a0d4d058fe72b8",
+    "requests.json": "a48cc1774a5355e6c89e57aaf5c41bd700ad8defb214fe0470b362f4bd3e1699"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "plan_sha256": "98efc9c4703225e0533b8b1c1bede8a63c10650694106812fec80737727fc99b",
+  "catalogue_sha256": "f0b520cb0ae93eba6c130249f50351bc14f86e92b0f9f16d8d15933b821ec699",
+  "implementation": {
+    "scripts\\acquire_openf1_dataset.py": "d2649ea707396ec184dec4605a5ed8f3e5647cdadd3f99887f0922eb4b3dbcb2",
+    "src\\f1energy\\openf1.py": "2cd2ef7d19d37da1bc9edfff84469e3afac2143158ace4dd292b36fb68b6cc09"
+  },
+  "python": "3.12.10"
+}

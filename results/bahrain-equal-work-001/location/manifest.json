@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "results\\bahrain-pace-inputs-001\\metrics.json": "e6a6c8ae90eb77641374136f0a950ae9c61ed0dd93f41104f877a599db92eb20",
+    "results\\bahrain-equal-work-001\\metrics.json": "aeebf0c75552fe3028a281069411d9b668dff0a35d1baaa4bb8c88ee12da4b72",
+    "results\\bahrain-deployment-zones-001\\central\\selected_160.json.gz": "c7ddbadcb8cc14956e4aa9dedd630157972a6b65b30b1b0c141c4b2d67ef2e4e",
+    "results\\bahrain-equal-work-001\\spread_160_alpha-1.09765625.json.gz": "a3b12e2cd7bec47821146b8f3fb02cd9798581208888e2546b79e582952cbf03",
+    "results\\bahrain-deployment-zones-001\\central\\selected_320.json.gz": "a0dbbf39e4b96e6313d57c92ffd5cd5bce8e3c7eccf279157a9709a40a3c2c04",
+    "results\\bahrain-equal-work-001\\spread_320_alpha-1.09765625.json.gz": "0926d4e0aec5a746352ae61d9746496c7d483b6e207313c908eb18096a09f2b7",
+    "results\\bahrain-equal-work-001\\secondary\\metrics.json": "61ff17f9827a8cedd00e7f7b89aa17b10005651ae0637e279a6108cd4a65aa9a",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_160_beta-0.9468749999999999.json.gz": "46503a2918a6d45259f2bf9881e54daa5abb4aa6120672301758ad3115b88830",
+    "results\\bahrain-deployment-zones-001\\central\\spread_160.json.gz": "8fcd5eb90d93c532d3e3911294b5ff92efee867392d0b41dc34a3cdc94964d00",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_320_beta-0.9468749999999999.json.gz": "8e29548ff27a6bc34111f6a315e39046ac10ee453aba7ed6ccf46c5cf731b3ad",
+    "results\\bahrain-deployment-zones-001\\central\\spread_320.json.gz": "99b41dab50d4904f7cf13673f14daa09954dffeeeaa7237da10c1bbd8d625f1e"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\plot_bahrain_matched_distance.py": "e4d0a7d3dba757edb82a03f4ebe488fa46c08fede45e72a810336852366d2396"
+  },
+  "outputs": {
+    "results\\bahrain-equal-work-001\\location\\metrics.json": "af4890f7c920616f531b19a23fa4d2ef9dfa286bbd91afb17b3d9e05688f685c",
+    "figures\\dissertation\\bahrain-equal-work-v1\\03_bahrain_matched_by_distance.png": "573131c0dbe7b61d94e18b9c82e3298d375585226d2b0aea55fb25aecf49ad2e",
+    "figures\\dissertation\\bahrain-equal-work-v1\\03_bahrain_matched_by_distance.pdf": "126628748970c1ce420956b424f6823f079a445226c3618145739b894fbd8457"
+  }
+}

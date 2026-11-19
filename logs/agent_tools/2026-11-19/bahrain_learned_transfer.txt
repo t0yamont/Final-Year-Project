@@ -1,0 +1,18 @@
+19 November 2026 | Bahrain learned controller transfer
+
+$env:PYTHONPATH='src'
+.venv/Scripts/python.exe scripts/evaluate_bahrain_learned_transfer.py
+.venv/Scripts/python.exe scripts/evaluate_bahrain_learned_transfer.py --verify
+
+CUDA inference on NVIDIA A16-16Q with torch 2.14.1+cu126, CUDA 12.6, SB3 2.9.2. Frozen input protocol was generated and hashed before the first replay. Preflight authenticated the calibrated centreline model, four archived reference laps and all 12 final checkpoint files against the parent manifests. Elapsed evaluation and plot generation 140.935 s excluding preflight and verification. No training, new lap acquisition, fitting or action intervention.
+
+Completed 24 deterministic learned-policy replays and four reference audits. Zero learned replays met finish speed. All learned replays entered the final span with 100 kJ and delivered no wheel assist there. Only the pre-existing selected versus spread pair is feasible. Its advantage is 0.989972 s and 0.988253 s at 160 and 320 cells per span. The largest independently recomputed block residuals were 2.65e-8 J mechanical and 2.10e-8 J battery. Both verification runs checked 90 hashes and 28 traces. Saved 1,320 pre-action observations and 1,540 distance-profile rows.
+
+$env:PYTHONPATH='src;tests'
+.venv/Scripts/python.exe -m unittest test_bahrain_pace test_circuit_control test_regeneration
+13 tests passed. git diff --check passed. The figure was visually inspected using a 1,000-pixel preview. Full PNG 3000 x 2700 at 300 dpi. PDF saved by Matplotlib.
+
+ed610bab6f42a3c8a1089f94fdc3c4be76319ad48d0260edab3e637fa90aa124  configs/bahrain_learned_transfer.json
+3bc3d058c9d1625cefa2e7eaa654269638a80d418a0c651ef9370a59a3f615cb  results/bahrain-learned-transfer-001/manifest.json
+c1a6b027078718cce48b52deeb95e078728514aa0c7d17cf77fdb69835cc282a  figures/dissertation/bahrain-learned-transfer-v1/01_bahrain_learned_transfer.pdf
+2e1f563a716fe76737e58208d7e04bae0ce41dfde4da44048449fee4b38cb65e  figures/dissertation/bahrain-learned-transfer-v1/01_bahrain_learned_transfer.png

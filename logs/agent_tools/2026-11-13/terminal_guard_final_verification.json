@@ -1,0 +1,18 @@
+{
+  "run": "terminal-guard-001",
+  "all64_replays_passed": true,
+  "tests_passed": 133,
+  "figure_hash_checks": {
+    "results\\terminal-guard-001\\manifest.json": true,
+    "figures\\dissertation\\terminal-guard-v1\\01_feasibility_and_comparison.pdf": true,
+    "figures\\dissertation\\terminal-guard-v1\\01_feasibility_and_comparison.png": true,
+    "figures\\dissertation\\terminal-guard-v1\\02_guard_energy_actions.pdf": true,
+    "figures\\dissertation\\terminal-guard-v1\\02_guard_energy_actions.png": true,
+    "figures\\dissertation\\terminal-guard-v1\\verification.json": true,
+    "scripts/report_terminal_guard.py": true
+  },
+  "visual_inspection": "Both PNGs inspected; readable labels, correct units, seed shapes plus color, guard/unguarded legend distinction, no clipped text. Requested and issued actions overlap where identical.",
+  "nominal55_mean_guard_cost_s": 0.14094964617814298,
+  "guard_scope": "nominal/highdrag only at55/110; not all previous sensitivity models",
+  "no_jobs_running": true
+}

@@ -1,0 +1,26 @@
+{
+  "driver_number": 1,
+  "driver_name": "Max VERSTAPPEN",
+  "team": "Red Bull Racing",
+  "lap_count": 31,
+  "native_car_rows": 13370,
+  "aligned_car_rows": 9777,
+  "position_rows": 0,
+  "motion_qc_pass_laps": 27,
+  "conditional_motion_candidates": 8,
+  "exclusion_counts": {
+    "native_motion_qc_failed": 4,
+    "gap_missing_or_over_limit": 23,
+    "lap_edge_coverage_missing_or_over_limit": 4,
+    "pit_out_or_unknown": 4,
+    "weather_missing_stale_or_ambiguous": 4,
+    "rain_reported_or_unknown": 4,
+    "stint_unknown_or_ambiguous": 4,
+    "wet_or_unknown_tyre_compound": 4,
+    "pit_activity_reported": 4
+  },
+  "outputs": {
+    "driver-1-laps.json": "f7c22dce0a7e43a8c2e1df5ad511832aea4b5130d572691aeb631603f9ba462e",
+    "driver-1-car.csv.gz": "32469449fd5af42e578111e558d310fac9ad60c33ee2995ca1182090654e33f6"
+  }
+}

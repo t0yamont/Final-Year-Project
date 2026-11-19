@@ -1,0 +1,13 @@
+{
+  "parent": "results/regeneration-dp-001",
+  "factors": ["actions","width","bins"],
+  "levels": "Low and high values come from the bound parent cases basic and refined. Bins jointly vary speed and all three energy-counter resolutions.",
+  "incumbent": "Common full-request action schedule in every cell. The original refined result is reusable only if its search beat its incumbent strictly: the search uses the incumbent solely at final selection and never to prune or expand.",
+  "design": "Complete 2 x 2 x 2 factorial; reuse two verified endpoints and search all six mixed corners. Max 55*(3+5)*(8+16)*2 = 21120 block expansions for eight corners including reused endpoints.",
+  "workers": 3,
+  "search_cells": 80,
+  "primary_cells": 160,
+  "check_cells": 320,
+  "paired_gap_tolerance_s": 0.005,
+  "analysis": "Report every single-factor contrast with the other two held fixed, factorial marginal effects and all six orders of moving from low to high. Allocate the observed diagonal gain using mean marginal contributions across change orders (Shapley). Positive values indicate faster laps. Recompute on refined grid; flag every edge changing by over 5 ms. Endpoint shares are descriptive and depend on this design."
+}

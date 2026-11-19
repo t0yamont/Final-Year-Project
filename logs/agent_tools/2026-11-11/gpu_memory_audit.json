@@ -1,0 +1,26 @@
+{
+  "checkpoint": "results\\circuit-ppo-gpu-001\\ppo.zip",
+  "checkpoint_sha256": "715aab9f7de0e93ac509056fd172f6e8fa0436de25c19461a6aa310a5c236f1f",
+  "gpu_name": "NVIDIA A16-16Q",
+  "dedicated_cuda_capacity_bytes": 17179410432,
+  "system_ram_total_bytes": 68718280704,
+  "system_ram_available_bytes": 43173924864,
+  "shared_gpu_limit_gib_user_reported": 32,
+  "shared_limit_independently_measured": false,
+  "rollout_storage": "NumPy arrays in system RAM; minibatches transferred to CUDA",
+  "reconstructed_rollout_arrays_bytes": {
+    "observations": 6144,
+    "actions": 1024,
+    "rewards": 1024,
+    "returns": 1024,
+    "episode_starts": 1024,
+    "values": 1024,
+    "log_probs": 1024,
+    "advantages": 1024
+  },
+  "reconstructed_rollout_total_bytes": 13312,
+  "policy_device": "cuda:0",
+  "cuda_allocated_bytes_this_audit_process": 51200,
+  "cuda_reserved_bytes_this_audit_process": 2097152,
+  "interpretation": "Host RAM and dedicated VRAM are separate pools. Windows shared-memory allowance is not extra dedicated CUDA VRAM. This audit does not claim forced spillover or measure peak host usage during training."
+}

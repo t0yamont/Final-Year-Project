@@ -1,0 +1,342 @@
+[
+  {
+    "scenario": "high_drag",
+    "cells": 160,
+    "policy": "zero",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\zero_160.json.gz",
+    "duration_s": 109.98900106495145,
+    "final_energy_j": 4000000.0,
+    "feasible": false,
+    "terminal_speed_error_mps": -0.3042567405217511,
+    "audit": {
+      "recovered_j": 2000000.0000000014,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 1.1408701539039612e-08,
+      "max_battery_residual_j": 4.3655745685100555e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 160,
+    "policy": "half",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\half_160.json.gz",
+    "duration_s": 108.22748912174256,
+    "final_energy_j": 100000.0,
+    "feasible": false,
+    "terminal_speed_error_mps": -0.3042567405217653,
+    "audit": {
+      "recovered_j": 2000000.0000000042,
+      "discharged_j": 3900000.0,
+      "max_work_residual_j": 1.1874362826347351e-08,
+      "max_battery_residual_j": 4.773028194904327e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 160,
+    "policy": "full",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\full_160.json.gz",
+    "duration_s": 108.17152571820442,
+    "final_energy_j": 100000.0,
+    "feasible": false,
+    "terminal_speed_error_mps": -0.3042567405217653,
+    "audit": {
+      "recovered_j": 2000000.0000000051,
+      "discharged_j": 3900000.0000000084,
+      "max_work_residual_j": 8.032657206058502e-09,
+      "max_battery_residual_j": 2.8594513423740864e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 160,
+    "policy": "spread",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\spread_160.json.gz",
+    "duration_s": 108.42963595192553,
+    "final_energy_j": 377367.5601451793,
+    "feasible": true,
+    "terminal_speed_error_mps": -2.842170943040401e-14,
+    "audit": {
+      "recovered_j": 2000000.0000000042,
+      "discharged_j": 3622632.4398548175,
+      "max_work_residual_j": 8.993083611130714e-09,
+      "max_battery_residual_j": 1.2303644325584173e-08
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 160,
+    "policy": "exit_boost",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\exit_boost_160.json.gz",
+    "duration_s": 109.13021567619883,
+    "final_energy_j": 2594438.0887981514,
+    "feasible": false,
+    "terminal_speed_error_mps": -0.30425674052168006,
+    "audit": {
+      "recovered_j": 2000000.0000000037,
+      "discharged_j": 1405561.9112018603,
+      "max_work_residual_j": 8.381903171539307e-09,
+      "max_battery_residual_j": 5.587935447692871e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 160,
+    "policy": "ppo_seed0",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed0_160.json.gz",
+    "duration_s": 107.7204988763193,
+    "final_energy_j": 100000.0,
+    "feasible": false,
+    "terminal_speed_error_mps": -0.3042567405217653,
+    "audit": {
+      "recovered_j": 2000000.0000000051,
+      "discharged_j": 3899999.9999999916,
+      "max_work_residual_j": 1.280568540096283e-08,
+      "max_battery_residual_j": 3.4269760362803936e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 160,
+    "policy": "ppo_seed1",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed1_160.json.gz",
+    "duration_s": 108.12120375704211,
+    "final_energy_j": 100000.0,
+    "feasible": false,
+    "terminal_speed_error_mps": -0.3042567405217653,
+    "audit": {
+      "recovered_j": 2000000.0000000035,
+      "discharged_j": 3900000.0000000075,
+      "max_work_residual_j": 8.265487849712372e-09,
+      "max_battery_residual_j": 2.6775524020195007e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 160,
+    "policy": "ppo_seed2",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed2_160.json.gz",
+    "duration_s": 108.06049075142953,
+    "final_energy_j": 100000.0,
+    "feasible": false,
+    "terminal_speed_error_mps": -0.3042567405217653,
+    "audit": {
+      "recovered_j": 2000000.0000000035,
+      "discharged_j": 3899999.9999999977,
+      "max_work_residual_j": 1.0826624929904938e-08,
+      "max_battery_residual_j": 4.249159246683121e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 160,
+    "policy": "frozen_dp",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\frozen_dp_160.json.gz",
+    "duration_s": 107.77421104365507,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 0.0,
+    "audit": {
+      "recovered_j": 2000000.0000000033,
+      "discharged_j": 3899999.9999999925,
+      "max_work_residual_j": 9.19681042432785e-09,
+      "max_battery_residual_j": 2.6775524020195007e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 160,
+    "policy": "replanned_dp",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\replanned_dp_160.json.gz",
+    "duration_s": 107.7541762809376,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 0.0,
+    "audit": {
+      "recovered_j": 2000000.000000004,
+      "discharged_j": 3899999.999999995,
+      "max_work_residual_j": 8.032657206058502e-09,
+      "max_battery_residual_j": 5.107722245156765e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 320,
+    "policy": "zero",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\zero_320.json.gz",
+    "duration_s": 109.80319628520131,
+    "final_energy_j": 4000000.0,
+    "feasible": false,
+    "terminal_speed_error_mps": -0.2990897659426395,
+    "audit": {
+      "recovered_j": 1999999.9999999916,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 2.223532646894455e-08,
+      "max_battery_residual_j": 6.475602276623249e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 320,
+    "policy": "half",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\half_320.json.gz",
+    "duration_s": 108.0431423801088,
+    "final_energy_j": 100000.0,
+    "feasible": false,
+    "terminal_speed_error_mps": -0.29908976594286685,
+    "audit": {
+      "recovered_j": 1999999.9999999995,
+      "discharged_j": 3900000.0,
+      "max_work_residual_j": 1.955777406692505e-08,
+      "max_battery_residual_j": 5.453330231830478e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 320,
+    "policy": "full",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\full_320.json.gz",
+    "duration_s": 107.98624448103821,
+    "final_energy_j": 100000.0,
+    "feasible": false,
+    "terminal_speed_error_mps": -0.29908976594286685,
+    "audit": {
+      "recovered_j": 2000000.0000000007,
+      "discharged_j": 3899999.999999985,
+      "max_work_residual_j": 8.731149137020111e-09,
+      "max_battery_residual_j": 3.281456883996725e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 320,
+    "policy": "spread",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\spread_320.json.gz",
+    "duration_s": 108.24150222697376,
+    "final_energy_j": 373222.17551666853,
+    "feasible": true,
+    "terminal_speed_error_mps": -4.263256414560601e-14,
+    "audit": {
+      "recovered_j": 1999999.9999999958,
+      "discharged_j": 3626777.8244832894,
+      "max_work_residual_j": 1.1525116860866547e-08,
+      "max_battery_residual_j": 1.1903466656804085e-08
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 320,
+    "policy": "exit_boost",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\exit_boost_320.json.gz",
+    "duration_s": 108.94591755650336,
+    "final_energy_j": 2595032.28180421,
+    "feasible": false,
+    "terminal_speed_error_mps": -0.2990897659429521,
+    "audit": {
+      "recovered_j": 1999999.999999996,
+      "discharged_j": 1404967.7181957867,
+      "max_work_residual_j": 2.223532646894455e-08,
+      "max_battery_residual_j": 6.868503987789154e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 320,
+    "policy": "ppo_seed0",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed0_320.json.gz",
+    "duration_s": 107.53502005901511,
+    "final_energy_j": 100000.0,
+    "feasible": false,
+    "terminal_speed_error_mps": -0.29908976594286685,
+    "audit": {
+      "recovered_j": 1999999.9999999965,
+      "discharged_j": 3899999.999999984,
+      "max_work_residual_j": 8.96397978067398e-09,
+      "max_battery_residual_j": 4.3655745685100555e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 320,
+    "policy": "ppo_seed1",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed1_320.json.gz",
+    "duration_s": 107.93656078989473,
+    "final_energy_j": 100000.0,
+    "feasible": false,
+    "terminal_speed_error_mps": -0.29908976594286685,
+    "audit": {
+      "recovered_j": 1999999.9999999977,
+      "discharged_j": 3900000.0000000014,
+      "max_work_residual_j": 7.799826562404633e-09,
+      "max_battery_residual_j": 4.71482053399086e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 320,
+    "policy": "ppo_seed2",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed2_320.json.gz",
+    "duration_s": 107.87667199146507,
+    "final_energy_j": 100000.0,
+    "feasible": false,
+    "terminal_speed_error_mps": -0.29908976594286685,
+    "audit": {
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 3899999.999999989,
+      "max_work_residual_j": 1.30385160446167e-08,
+      "max_battery_residual_j": 6.6356733441352844e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 320,
+    "policy": "frozen_dp",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\frozen_dp_320.json.gz",
+    "duration_s": 107.58926709797385,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 0.0,
+    "audit": {
+      "recovered_j": 1999999.999999999,
+      "discharged_j": 3899999.9999999953,
+      "max_work_residual_j": 1.5832483768463135e-08,
+      "max_battery_residual_j": 4.9367372412234545e-09
+    }
+  },
+  {
+    "scenario": "high_drag",
+    "cells": 320,
+    "policy": "replanned_dp",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\high_drag\\replanned_dp_320.json.gz",
+    "duration_s": 107.56997453170571,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 0.0,
+    "audit": {
+      "recovered_j": 1999999.9999999977,
+      "discharged_j": 3899999.999999991,
+      "max_work_residual_j": 1.0477378964424133e-08,
+      "max_battery_residual_j": 3.055902197957039e-09
+    }
+  }
+]

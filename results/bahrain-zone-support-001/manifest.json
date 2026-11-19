@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "results\\bahrain-deployment-zones-001\\manifest.json": "fe202f1259f87b48a9cddd3b7abae1359a59e713d51d8eaa05f9e2921b7351bf",
+    "results\\bahrain-pace-calibration-001\\manifest.json": "d3fe71537b8e55fdb8d04cd69ac0df43c05a76caadbeea57655a5b07a09f5f8d",
+    "configs\\bahrain_deployment_zones.json": "bbf754ba6738be59ef7105407592786a22d37a9bb13cd3fbc7fc98c87e1b9b46"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\assess_bahrain_zone_support.py": "7252329c715aaa056d7ee7aa702a06e3a4840b8f66ee8f9fc8016b135123dfd8"
+  },
+  "outputs": {
+    "results\\bahrain-zone-support-001\\metrics.json": "f0f870c524215835bde1ead7a1d17c9db73bc1afb23474a3531a2272773f7686",
+    "figures\\dissertation\\bahrain-zone-support-v1\\zone_motion_support.pdf": "de483c3a1605587a67dfececbe891226cd0d163f60dae7d722a3110441f2b842",
+    "figures\\dissertation\\bahrain-zone-support-v1\\zone_motion_support.png": "237948f5b600de9f913762ee10a061a5181e7423b8ff1f40a2ddec84e2d35fb1"
+  }
+}

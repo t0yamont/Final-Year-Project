@@ -1,0 +1,1050 @@
+{
+  "hash_checks": 327,
+  "replays_checked": 89,
+  "max_absolute_energy_residual_j": 5.0684320740401745e-08,
+  "all_seeds_completed": true,
+  "all_seeds_passed": true,
+  "refinement_cases": [
+    {
+      "seed": 0,
+      "label": "checkpoint_16384_deterministic",
+      "refined_time_s": 107.04117644005925,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.4596322845716685,
+      "refined_advantage_s": 0.4576171714517301,
+      "paired_advantage_discrepancy_s": 0.0020151131199384054,
+      "relative_lap_time_error": 0.0017423757248768996,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 3.026798367500305e-09,
+      "passed": true
+    },
+    {
+      "seed": 0,
+      "label": "final_stochastic_101",
+      "refined_time_s": 107.1725494830361,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.32511638501607365,
+      "refined_advantage_s": 0.32624412847488315,
+      "paired_advantage_discrepancy_s": 0.0011277434588095048,
+      "relative_lap_time_error": 0.0017695651067831599,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 4.423782229423523e-09,
+      "passed": true
+    },
+    {
+      "seed": 0,
+      "label": "final_stochastic_102",
+      "refined_time_s": 107.13791983453552,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.36113140223645246,
+      "refined_advantage_s": 0.36087377697545264,
+      "paired_advantage_discrepancy_s": 0.0002576252609998164,
+      "relative_lap_time_error": 0.00175720637045332,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 4.423782229423523e-09,
+      "passed": true
+    },
+    {
+      "seed": 0,
+      "label": "final_stochastic_103",
+      "refined_time_s": 107.12720715653819,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.37290715831642274,
+      "refined_advantage_s": 0.3715864549727854,
+      "paired_advantage_discrepancy_s": 0.0013207033436373194,
+      "relative_lap_time_error": 0.001747458578792047,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 2.7939677238464355e-09,
+      "passed": true
+    },
+    {
+      "seed": 0,
+      "label": "final_stochastic_104",
+      "refined_time_s": 107.04474386110101,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.4551760345611484,
+      "refined_advantage_s": 0.45404975040996476,
+      "paired_advantage_discrepancy_s": 0.001126284151183654,
+      "relative_lap_time_error": 0.0017506209982933734,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 2.0954757928848267e-09,
+      "passed": true
+    },
+    {
+      "seed": 0,
+      "label": "final_stochastic_105",
+      "refined_time_s": 107.14139873192984,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.35940573812384,
+      "refined_advantage_s": 0.35739487958113614,
+      "paired_advantage_discrepancy_s": 0.002010858542703886,
+      "relative_lap_time_error": 0.0017407855803274655,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 3.259629011154175e-09,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "label": "checkpoint_16384_deterministic",
+      "refined_time_s": 107.48637459054012,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.011611647237245393,
+      "refined_advantage_s": 0.012419020970853012,
+      "paired_advantage_discrepancy_s": 0.0008073737336076192,
+      "relative_lap_time_error": 0.0017614179933614876,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 1.862645149230957e-09,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "label": "final_stochastic_101",
+      "refined_time_s": 107.37196341741597,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.13129281644110335,
+      "refined_advantage_s": 0.12683019409500673,
+      "paired_advantage_discrepancy_s": 0.004462622346096623,
+      "relative_lap_time_error": 0.0017142132108521305,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 2.561137080192566e-09,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "label": "final_stochastic_102",
+      "refined_time_s": 107.34027134906236,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.16156687962941874,
+      "refined_advantage_s": 0.15852226244861356,
+      "paired_advantage_discrepancy_s": 0.003044617180805176,
+      "relative_lap_time_error": 0.0017279297042896635,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 2.3283064365386963e-09,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "label": "final_stochastic_103",
+      "refined_time_s": 107.39622064395324,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.106561190766854,
+      "refined_advantage_s": 0.10257296755773382,
+      "paired_advantage_discrepancy_s": 0.003988223209120179,
+      "relative_lap_time_error": 0.0017182433068479899,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 4.423782229423523e-09,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "label": "final_stochastic_104",
+      "refined_time_s": 107.39905068400341,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.10442726504319921,
+      "refined_advantage_s": 0.0997429275075632,
+      "paired_advantage_discrepancy_s": 0.004684337535636018,
+      "relative_lap_time_error": 0.0017117164612248136,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 1.862645149230957e-09,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "label": "final_stochastic_105",
+      "refined_time_s": 107.42107533221751,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.08135304763152362,
+      "refined_advantage_s": 0.07771827929346387,
+      "paired_advantage_discrepancy_s": 0.0036347683380597573,
+      "relative_lap_time_error": 0.0017211361141332036,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 2.561137080192566e-09,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "label": "checkpoint_16384_deterministic",
+      "refined_time_s": 107.3947423575712,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.10865196248690268,
+      "refined_advantage_s": 0.10405125393977244,
+      "paired_advantage_discrepancy_s": 0.004600708547130239,
+      "relative_lap_time_error": 0.0017125638362432026,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 1.1641532182693481e-09,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "label": "final_stochastic_101",
+      "refined_time_s": 107.53840203666452,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": -0.040332169009573704,
+      "refined_advantage_s": -0.03960842515354557,
+      "paired_advantage_discrepancy_s": 0.0007237438560281362,
+      "relative_lap_time_error": 0.001759788138779197,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 1.3969838619232178e-09,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "label": "final_stochastic_102",
+      "refined_time_s": 107.43902662349689,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.05983453185834264,
+      "refined_advantage_s": 0.05976698801408986,
+      "paired_advantage_discrepancy_s": 6.754384425278204e-05,
+      "relative_lap_time_error": 0.0017540508564687167,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 2.0954757928848267e-09,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "label": "final_stochastic_103",
+      "refined_time_s": 107.4451365056218,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.0528687604821414,
+      "refined_advantage_s": 0.053657105889172385,
+      "paired_advantage_discrepancy_s": 0.0007883454070309881,
+      "relative_lap_time_error": 0.0017619169380317982,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 2.3283064365386963e-09,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "label": "final_stochastic_104",
+      "refined_time_s": 107.41868637407534,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.0811259306929486,
+      "refined_advantage_s": 0.08010723743564085,
+      "paired_advantage_discrepancy_s": 0.0010186932573077456,
+      "relative_lap_time_error": 0.0017455283953212374,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 3.026798367500305e-09,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "label": "final_stochastic_105",
+      "refined_time_s": 107.48299674023684,
+      "refined_final_energy_j": 100000.0,
+      "fine_advantage_s": 0.01737982902506019,
+      "refined_advantage_s": 0.01579687127413365,
+      "paired_advantage_discrepancy_s": 0.0015829577509265391,
+      "relative_lap_time_error": 0.0017392341898712145,
+      "terminal_energy_discrepancy_j": 0.0,
+      "recovery_discrepancy_j": 3.725290298461914e-09,
+      "passed": true
+    }
+  ],
+  "cases": [
+    {
+      "file": "results\\regeneration-multiseed-001\\refined_zero.json.gz",
+      "global_energy_residual_j": 3.852619556710124e-08,
+      "duration_s": 109.28846201300212,
+      "recovered_j": 2000000.0000000026,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 1.3620592653751373e-08,
+      "max_battery_residual_j": 7.30506144464016e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\refined_comparator.json.gz",
+      "global_energy_residual_j": 1.30385160446167e-08,
+      "duration_s": 107.49879361151098,
+      "recovered_j": 2000000.0000000026,
+      "discharged_j": 3900000.0000000144,
+      "max_work_residual_j": 1.0717485565692186e-08,
+      "max_battery_residual_j": 3.521563485264778e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_0_deterministic_fine.json.gz",
+      "global_energy_residual_j": 4.339381121098995e-08,
+      "duration_s": 109.470462842276,
+      "recovered_j": 2000000.0000000014,
+      "discharged_j": 9317.756705578144,
+      "max_work_residual_j": 1.3154931366443634e-08,
+      "max_battery_residual_j": 6.69024302624166e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_0_deterministic_training.json.gz",
+      "global_energy_residual_j": 2.0510924514383078e-08,
+      "duration_s": 109.85048319182445,
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 9271.636826822989,
+      "max_work_residual_j": 6.402842700481415e-09,
+      "max_battery_residual_j": 6.1587854816025356e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_12288_deterministic_fine.json.gz",
+      "global_energy_residual_j": -1.0244548320770264e-08,
+      "duration_s": 107.27376731183627,
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3900000.0000000154,
+      "max_work_residual_j": 6.955815479159355e-09,
+      "max_battery_residual_j": 3.0377123039215803e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_12288_deterministic_training.json.gz",
+      "global_energy_residual_j": 1.1699739843606949e-08,
+      "duration_s": 107.65300883737999,
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 3900000.0000000033,
+      "max_work_residual_j": 8.381903171539307e-09,
+      "max_battery_residual_j": 2.3865140974521637e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_16384_deterministic_fine.json.gz",
+      "global_energy_residual_j": -6.359186954796314e-09,
+      "duration_s": 107.22768238745067,
+      "recovered_j": 2000000.0000000014,
+      "discharged_j": 3899999.999999998,
+      "max_work_residual_j": 1.6298145055770874e-08,
+      "max_battery_residual_j": 3.979948814958334e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_16384_deterministic_refined.json.gz",
+      "global_energy_residual_j": 1.9193976186215878e-08,
+      "duration_s": 107.04117644005925,
+      "recovered_j": 2000000.0000000042,
+      "discharged_j": 3900000.000000001,
+      "max_work_residual_j": 1.5832483768463135e-08,
+      "max_battery_residual_j": 6.111804395914078e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_16384_deterministic_training.json.gz",
+      "global_energy_residual_j": -1.4435499906539917e-08,
+      "duration_s": 107.60744606919005,
+      "recovered_j": 2000000.0000000014,
+      "discharged_j": 3900000.0000000116,
+      "max_work_residual_j": 8.614733815193176e-09,
+      "max_battery_residual_j": 4.598405212163925e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_4096_deterministic_fine.json.gz",
+      "global_energy_residual_j": -3.8708094507455826e-09,
+      "duration_s": 107.67367258185303,
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 3900000.0000000056,
+      "max_work_residual_j": 1.1059455573558807e-08,
+      "max_battery_residual_j": 4.059984348714352e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_4096_deterministic_training.json.gz",
+      "global_energy_residual_j": 7.741618901491165e-09,
+      "duration_s": 108.0602151251693,
+      "recovered_j": 1999999.9999999993,
+      "discharged_j": 3899999.999999996,
+      "max_work_residual_j": 5.718902684748173e-09,
+      "max_battery_residual_j": 2.764863893389702e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_8192_deterministic_fine.json.gz",
+      "global_energy_residual_j": -1.1525116860866547e-08,
+      "duration_s": 107.47074837686786,
+      "recovered_j": 2000000.0,
+      "discharged_j": 3900000.0000000116,
+      "max_work_residual_j": 8.96397978067398e-09,
+      "max_battery_residual_j": 2.9685907065868378e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_8192_deterministic_training.json.gz",
+      "global_energy_residual_j": -2.0314473658800125e-08,
+      "duration_s": 107.85301314322805,
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 3900000.000000008,
+      "max_work_residual_j": 1.1874362826347351e-08,
+      "max_battery_residual_j": 2.7939677238464355e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\final_stochastic_101_fine.json.gz",
+      "global_energy_residual_j": 8.381903171539307e-09,
+      "duration_s": 107.36219828700627,
+      "recovered_j": 1999999.9999999993,
+      "discharged_j": 3900000.0000000102,
+      "max_work_residual_j": 1.1408701539039612e-08,
+      "max_battery_residual_j": 4.3655745685100555e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\final_stochastic_101_refined.json.gz",
+      "global_energy_residual_j": -5.0684320740401745e-08,
+      "duration_s": 107.1725494830361,
+      "recovered_j": 2000000.000000004,
+      "discharged_j": 3900000.0000000126,
+      "max_work_residual_j": 1.0884832590818405e-08,
+      "max_battery_residual_j": 6.4574123825877905e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\final_stochastic_101_training.json.gz",
+      "global_energy_residual_j": -4.336470738053322e-09,
+      "duration_s": 107.74746071318648,
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 3900000.0000000102,
+      "max_work_residual_j": 4.612957127392292e-09,
+      "max_battery_residual_j": 4.431058187037706e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\final_stochastic_102_fine.json.gz",
+      "global_energy_residual_j": 9.575160220265388e-09,
+      "duration_s": 107.32618326978589,
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 3900000.0000000005,
+      "max_work_residual_j": 6.4319465309381485e-09,
+      "max_battery_residual_j": 3.6161509342491627e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\final_stochastic_102_refined.json.gz",
+      "global_energy_residual_j": 2.671731635928154e-08,
+      "duration_s": 107.13791983453552,
+      "recovered_j": 2000000.0000000047,
+      "discharged_j": 3900000.000000022,
+      "max_work_residual_j": 1.30385160446167e-08,
+      "max_battery_residual_j": 5.3551048040390015e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\final_stochastic_102_training.json.gz",
+      "global_energy_residual_j": -2.006709109991789e-08,
+      "duration_s": 107.7085918839817,
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3900000.0000000102,
+      "max_work_residual_j": 5.704350769519806e-09,
+      "max_battery_residual_j": 2.35741026699543e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\final_stochastic_103_fine.json.gz",
+      "global_energy_residual_j": 1.6560079529881477e-08,
+      "duration_s": 107.31440751370592,
+      "recovered_j": 2000000.000000002,
+      "discharged_j": 3900000.000000017,
+      "max_work_residual_j": 9.66247171163559e-09,
+      "max_battery_residual_j": 4.94765117764473e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\final_stochastic_103_refined.json.gz",
+      "global_energy_residual_j": 2.3967004381120205e-08,
+      "duration_s": 107.12720715653819,
+      "recovered_j": 2000000.0000000051,
+      "discharged_j": 3900000.0000000205,
+      "max_work_residual_j": 1.0244548320770264e-08,
+      "max_battery_residual_j": 5.617039278149605e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\final_stochastic_103_training.json.gz",
+      "global_energy_residual_j": -3.0297087505459785e-08,
+      "duration_s": 107.6966049360674,
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 3900000.000000003,
+      "max_work_residual_j": 6.28642737865448e-09,
+      "max_battery_residual_j": 6.548361852765083e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\final_stochastic_104_fine.json.gz",
+      "global_energy_residual_j": 3.637978807091713e-09,
+      "duration_s": 107.23213863746119,
+      "recovered_j": 2000000.0000000014,
+      "discharged_j": 3900000.000000002,
+      "max_work_residual_j": 8.32369551062584e-09,
+      "max_battery_residual_j": 6.51925802230835e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\final_stochastic_104_refined.json.gz",
+      "global_energy_residual_j": 1.9164872355759144e-08,
+      "duration_s": 107.04474386110101,
+      "recovered_j": 2000000.0000000028,
+      "discharged_j": 3899999.9999999674,
+      "max_work_residual_j": 1.932494342327118e-08,
+      "max_battery_residual_j": 7.2177499532699585e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\final_stochastic_104_training.json.gz",
+      "global_energy_residual_j": -2.5029294192790985e-09,
+      "duration_s": 107.61324813028256,
+      "recovered_j": 2000000.0000000007,
+      "discharged_j": 3900000.0000000154,
+      "max_work_residual_j": 7.566995918750763e-09,
+      "max_battery_residual_j": 2.939486876130104e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\final_stochastic_105_fine.json.gz",
+      "global_energy_residual_j": 8.847564458847046e-09,
+      "duration_s": 107.3279089338985,
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3900000.000000006,
+      "max_work_residual_j": 9.42964106798172e-09,
+      "max_battery_residual_j": 4.94765117764473e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\final_stochastic_105_refined.json.gz",
+      "global_energy_residual_j": 1.1423253454267979e-08,
+      "duration_s": 107.14139873192984,
+      "recovered_j": 2000000.0000000042,
+      "discharged_j": 3900000.000000013,
+      "max_work_residual_j": 1.1263182386755943e-08,
+      "max_battery_residual_j": 7.0140231400728226e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\final_stochastic_105_training.json.gz",
+      "global_energy_residual_j": -3.92901711165905e-08,
+      "duration_s": 107.70790337820846,
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3900000.000000002,
+      "max_work_residual_j": 9.19681042432785e-09,
+      "max_battery_residual_j": 2.342858351767063e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\reloaded_final_deterministic_fine.json.gz",
+      "global_energy_residual_j": -6.359186954796314e-09,
+      "duration_s": 107.22768238745067,
+      "recovered_j": 2000000.0000000014,
+      "discharged_j": 3899999.999999998,
+      "max_work_residual_j": 1.6298145055770874e-08,
+      "max_battery_residual_j": 3.979948814958334e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\reloaded_final_deterministic_refined.json.gz",
+      "global_energy_residual_j": 1.9193976186215878e-08,
+      "duration_s": 107.04117644005925,
+      "recovered_j": 2000000.0000000042,
+      "discharged_j": 3900000.000000001,
+      "max_work_residual_j": 1.5832483768463135e-08,
+      "max_battery_residual_j": 6.111804395914078e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\reloaded_final_deterministic_training.json.gz",
+      "global_energy_residual_j": -1.4435499906539917e-08,
+      "duration_s": 107.60744606919005,
+      "recovered_j": 2000000.0000000014,
+      "discharged_j": 3900000.0000000116,
+      "max_work_residual_j": 8.614733815193176e-09,
+      "max_battery_residual_j": 4.598405212163925e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_0_deterministic_fine.json.gz",
+      "global_energy_residual_j": -2.410524757578969e-08,
+      "duration_s": 109.47421014544598,
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 1518.0568247337133,
+      "max_work_residual_j": 1.0477378964424133e-08,
+      "max_battery_residual_j": 7.631285825482337e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_0_deterministic_training.json.gz",
+      "global_energy_residual_j": 1.2845703167840838e-08,
+      "duration_s": 109.85418348581716,
+      "recovered_j": 2000000.0000000007,
+      "discharged_j": 1512.064699484854,
+      "max_work_residual_j": 6.2282197177410126e-09,
+      "max_battery_residual_j": 4.510297912929673e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_12288_deterministic_fine.json.gz",
+      "global_energy_residual_j": -2.34867911785841e-08,
+      "duration_s": 107.68462663933988,
+      "recovered_j": 2000000.0000000007,
+      "discharged_j": 3900000.0000000037,
+      "max_work_residual_j": 7.101334631443024e-09,
+      "max_battery_residual_j": 2.0954757928848267e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_12288_deterministic_training.json.gz",
+      "global_energy_residual_j": 1.284934114664793e-08,
+      "duration_s": 108.06439424183881,
+      "recovered_j": 1999999.9999999995,
+      "discharged_j": 3900000.0000000005,
+      "max_work_residual_j": 5.0640664994716644e-09,
+      "max_battery_residual_j": 2.35741026699543e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_16384_deterministic_fine.json.gz",
+      "global_energy_residual_j": 3.4036929719150066e-08,
+      "duration_s": 107.6757030247851,
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 3900000.000000008,
+      "max_work_residual_j": 9.633367881178856e-09,
+      "max_battery_residual_j": 3.14321368932724e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_16384_deterministic_refined.json.gz",
+      "global_energy_residual_j": -1.1670636013150215e-08,
+      "duration_s": 107.48637459054012,
+      "recovered_j": 2000000.0000000023,
+      "discharged_j": 3900000.000000012,
+      "max_work_residual_j": 1.2456439435482025e-08,
+      "max_battery_residual_j": 3.5797711461782455e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_16384_deterministic_training.json.gz",
+      "global_energy_residual_j": -8.847564458847046e-09,
+      "duration_s": 108.05676460094578,
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 3900000.0000000075,
+      "max_work_residual_j": 5.6461431086063385e-09,
+      "max_battery_residual_j": 2.35741026699543e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_4096_deterministic_fine.json.gz",
+      "global_energy_residual_j": -5.878973752260208e-09,
+      "duration_s": 107.69673007684315,
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3900000.0000000047,
+      "max_work_residual_j": 7.494236342608929e-09,
+      "max_battery_residual_j": 1.877197064459324e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_4096_deterministic_training.json.gz",
+      "global_energy_residual_j": 3.3032847568392754e-09,
+      "duration_s": 108.07008591052816,
+      "recovered_j": 1999999.9999999998,
+      "discharged_j": 3899999.9999999953,
+      "max_work_residual_j": 5.0640664994716644e-09,
+      "max_battery_residual_j": 2.35741026699543e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_8192_deterministic_fine.json.gz",
+      "global_energy_residual_j": 1.3969838619232178e-09,
+      "duration_s": 107.68731467202234,
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 3900000.0000000047,
+      "max_work_residual_j": 7.101334631443024e-09,
+      "max_battery_residual_j": 2.0954757928848267e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_8192_deterministic_training.json.gz",
+      "global_energy_residual_j": 5.806214176118374e-09,
+      "duration_s": 108.067098463353,
+      "recovered_j": 2000000.0000000007,
+      "discharged_j": 3900000.0000000005,
+      "max_work_residual_j": 5.0640664994716644e-09,
+      "max_battery_residual_j": 2.35741026699543e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\final_stochastic_101_fine.json.gz",
+      "global_energy_residual_j": 3.703462425619364e-08,
+      "duration_s": 107.55602185558124,
+      "recovered_j": 2000000.0000000016,
+      "discharged_j": 3900000.000000014,
+      "max_work_residual_j": 7.763446774333715e-09,
+      "max_battery_residual_j": 5.762558430433273e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\final_stochastic_101_refined.json.gz",
+      "global_energy_residual_j": 4.909816198050976e-08,
+      "duration_s": 107.37196341741597,
+      "recovered_j": 2000000.0000000047,
+      "discharged_j": 3899999.999999988,
+      "max_work_residual_j": 9.19681042432785e-09,
+      "max_battery_residual_j": 8.905772119760513e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\final_stochastic_101_training.json.gz",
+      "global_energy_residual_j": -9.70612745732069e-09,
+      "duration_s": 107.9308420796636,
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3899999.999999998,
+      "max_work_residual_j": 5.0640664994716644e-09,
+      "max_battery_residual_j": 2.2118911147117615e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\final_stochastic_102_fine.json.gz",
+      "global_energy_residual_j": -3.0995579436421394e-09,
+      "duration_s": 107.52574779239292,
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3899999.999999998,
+      "max_work_residual_j": 8.60018189996481e-09,
+      "max_battery_residual_j": 3.521563485264778e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\final_stochastic_102_refined.json.gz",
+      "global_energy_residual_j": -3.1912350095808506e-08,
+      "duration_s": 107.34027134906236,
+      "recovered_j": 2000000.0000000035,
+      "discharged_j": 3900000.0000000047,
+      "max_work_residual_j": 1.3504177331924438e-08,
+      "max_battery_residual_j": 7.53789208829403e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\final_stochastic_102_training.json.gz",
+      "global_energy_residual_j": 5.136826075613499e-09,
+      "duration_s": 107.90311713780741,
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3899999.9999999925,
+      "max_work_residual_j": 6.1409082263708115e-09,
+      "max_battery_residual_j": 4.3146428652107716e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\final_stochastic_103_fine.json.gz",
+      "global_energy_residual_j": 9.560608305037022e-09,
+      "duration_s": 107.58075348125548,
+      "recovered_j": 1999999.9999999998,
+      "discharged_j": 3900000.000000009,
+      "max_work_residual_j": 5.878973752260208e-09,
+      "max_battery_residual_j": 4.871253622695804e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\final_stochastic_103_refined.json.gz",
+      "global_energy_residual_j": 7.872586138546467e-09,
+      "duration_s": 107.39622064395324,
+      "recovered_j": 2000000.0000000044,
+      "discharged_j": 3899999.9999999977,
+      "max_work_residual_j": 1.2398231774568558e-08,
+      "max_battery_residual_j": 7.479684427380562e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\final_stochastic_103_training.json.gz",
+      "global_energy_residual_j": -1.6603735275566578e-08,
+      "duration_s": 107.9551475931806,
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 3900000.0,
+      "max_work_residual_j": 8.09086486697197e-09,
+      "max_battery_residual_j": 3.259629011154175e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\final_stochastic_104_fine.json.gz",
+      "global_energy_residual_j": -2.066371962428093e-09,
+      "duration_s": 107.58288740697914,
+      "recovered_j": 2000000.0000000014,
+      "discharged_j": 3899999.9999999925,
+      "max_work_residual_j": 5.9371814131736755e-09,
+      "max_battery_residual_j": 3.536115400493145e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\final_stochastic_104_refined.json.gz",
+      "global_energy_residual_j": 8.018105290830135e-09,
+      "duration_s": 107.39905068400341,
+      "recovered_j": 2000000.0000000035,
+      "discharged_j": 3899999.9999999986,
+      "max_work_residual_j": 1.1947122402489185e-08,
+      "max_battery_residual_j": 4.71482053399086e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\final_stochastic_104_training.json.gz",
+      "global_energy_residual_j": -2.403976395726204e-08,
+      "duration_s": 107.95710789249989,
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 3899999.9999999925,
+      "max_work_residual_j": 5.0640664994716644e-09,
+      "max_battery_residual_j": 2.852175384759903e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\final_stochastic_105_fine.json.gz",
+      "global_energy_residual_j": -1.2281816452741623e-08,
+      "duration_s": 107.60596162439082,
+      "recovered_j": 2000000.0000000016,
+      "discharged_j": 3900000.000000008,
+      "max_work_residual_j": 9.058567229658365e-09,
+      "max_battery_residual_j": 4.336470738053322e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\final_stochastic_105_refined.json.gz",
+      "global_energy_residual_j": 3.179593477398157e-08,
+      "duration_s": 107.42107533221751,
+      "recovered_j": 2000000.0000000037,
+      "discharged_j": 3900000.0000000224,
+      "max_work_residual_j": 9.298673830926418e-09,
+      "max_battery_residual_j": 5.878973752260208e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\final_stochastic_105_training.json.gz",
+      "global_energy_residual_j": 4.2637111619114876e-09,
+      "duration_s": 107.97803043058641,
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 3899999.999999996,
+      "max_work_residual_j": 5.529727786779404e-09,
+      "max_battery_residual_j": 2.35741026699543e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\reloaded_final_deterministic_fine.json.gz",
+      "global_energy_residual_j": 3.4036929719150066e-08,
+      "duration_s": 107.6757030247851,
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 3900000.000000008,
+      "max_work_residual_j": 9.633367881178856e-09,
+      "max_battery_residual_j": 3.14321368932724e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\reloaded_final_deterministic_refined.json.gz",
+      "global_energy_residual_j": -1.1670636013150215e-08,
+      "duration_s": 107.48637459054012,
+      "recovered_j": 2000000.0000000023,
+      "discharged_j": 3900000.000000012,
+      "max_work_residual_j": 1.2456439435482025e-08,
+      "max_battery_residual_j": 3.5797711461782455e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\reloaded_final_deterministic_training.json.gz",
+      "global_energy_residual_j": -8.847564458847046e-09,
+      "duration_s": 108.05676460094578,
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 3900000.0000000075,
+      "max_work_residual_j": 5.6461431086063385e-09,
+      "max_battery_residual_j": 2.35741026699543e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_0_deterministic_fine.json.gz",
+      "global_energy_residual_j": 1.588341547176242e-08,
+      "duration_s": 109.47411144195686,
+      "recovered_j": 2000000.0000000019,
+      "discharged_j": 2219.392509055065,
+      "max_work_residual_j": 1.021544449031353e-08,
+      "max_battery_residual_j": 6.0263118939474225e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_0_deterministic_training.json.gz",
+      "global_energy_residual_j": 4.132743924856186e-09,
+      "duration_s": 109.85408574399317,
+      "recovered_j": 2000000.0000000014,
+      "discharged_j": 2221.9660451904974,
+      "max_work_residual_j": 4.773028194904327e-09,
+      "max_battery_residual_j": 6.9067311869730474e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_12288_deterministic_fine.json.gz",
+      "global_energy_residual_j": 1.3969838619232178e-09,
+      "duration_s": 107.68731467202234,
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 3900000.0000000047,
+      "max_work_residual_j": 7.101334631443024e-09,
+      "max_battery_residual_j": 2.0954757928848267e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_12288_deterministic_training.json.gz",
+      "global_energy_residual_j": 5.806214176118374e-09,
+      "duration_s": 108.067098463353,
+      "recovered_j": 2000000.0000000007,
+      "discharged_j": 3900000.0000000005,
+      "max_work_residual_j": 5.0640664994716644e-09,
+      "max_battery_residual_j": 2.35741026699543e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_16384_deterministic_fine.json.gz",
+      "global_energy_residual_j": 5.675246939063072e-10,
+      "duration_s": 107.57866270953544,
+      "recovered_j": 2000000.0000000026,
+      "discharged_j": 3899999.999999997,
+      "max_work_residual_j": 6.461050361394882e-09,
+      "max_battery_residual_j": 2.939486876130104e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_16384_deterministic_refined.json.gz",
+      "global_energy_residual_j": -1.0186340659856796e-10,
+      "duration_s": 107.3947423575712,
+      "recovered_j": 2000000.0000000035,
+      "discharged_j": 3899999.9999999977,
+      "max_work_residual_j": 1.4435499906539917e-08,
+      "max_battery_residual_j": 5.384208634495735e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_16384_deterministic_training.json.gz",
+      "global_energy_residual_j": 6.897607818245888e-09,
+      "duration_s": 107.95171471839818,
+      "recovered_j": 1999999.9999999993,
+      "discharged_j": 3899999.9999999935,
+      "max_work_residual_j": 7.2177499532699585e-09,
+      "max_battery_residual_j": 2.459273673593998e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_4096_deterministic_fine.json.gz",
+      "global_energy_residual_j": 1.3969838619232178e-09,
+      "duration_s": 107.68731467202234,
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 3900000.0000000047,
+      "max_work_residual_j": 7.101334631443024e-09,
+      "max_battery_residual_j": 2.0954757928848267e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_4096_deterministic_training.json.gz",
+      "global_energy_residual_j": 5.806214176118374e-09,
+      "duration_s": 108.067098463353,
+      "recovered_j": 2000000.0000000007,
+      "discharged_j": 3900000.0000000005,
+      "max_work_residual_j": 5.0640664994716644e-09,
+      "max_battery_residual_j": 2.35741026699543e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_8192_deterministic_fine.json.gz",
+      "global_energy_residual_j": 1.3969838619232178e-09,
+      "duration_s": 107.68731467202234,
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 3900000.0000000047,
+      "max_work_residual_j": 7.101334631443024e-09,
+      "max_battery_residual_j": 2.0954757928848267e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_8192_deterministic_training.json.gz",
+      "global_energy_residual_j": 5.806214176118374e-09,
+      "duration_s": 108.067098463353,
+      "recovered_j": 2000000.0000000007,
+      "discharged_j": 3900000.0000000005,
+      "max_work_residual_j": 5.0640664994716644e-09,
+      "max_battery_residual_j": 2.35741026699543e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\final_stochastic_101_fine.json.gz",
+      "global_energy_residual_j": 1.0462827049195766e-08,
+      "duration_s": 107.72764684103191,
+      "recovered_j": 2000000.0000000016,
+      "discharged_j": 3899999.9999999953,
+      "max_work_residual_j": 1.1874362826347351e-08,
+      "max_battery_residual_j": 3.637978807091713e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\final_stochastic_101_refined.json.gz",
+      "global_energy_residual_j": -1.747685018926859e-08,
+      "duration_s": 107.53840203666452,
+      "recovered_j": 2000000.0000000028,
+      "discharged_j": 3900000.000000005,
+      "max_work_residual_j": 1.0069925338029861e-08,
+      "max_battery_residual_j": 7.737980922684073e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\final_stochastic_101_training.json.gz",
+      "global_energy_residual_j": -1.6283593140542507e-08,
+      "duration_s": 108.11324283552243,
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3899999.9999999967,
+      "max_work_residual_j": 6.28642737865448e-09,
+      "max_battery_residual_j": 3.1723175197839737e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\final_stochastic_102_fine.json.gz",
+      "global_energy_residual_j": 2.486922312527895e-08,
+      "duration_s": 107.627480140164,
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 3900000.000000011,
+      "max_work_residual_j": 5.9371814131736755e-09,
+      "max_battery_residual_j": 4.103640094399452e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\final_stochastic_102_refined.json.gz",
+      "global_energy_residual_j": -2.8361682780086994e-08,
+      "duration_s": 107.43902662349689,
+      "recovered_j": 2000000.0000000033,
+      "discharged_j": 3900000.0000000037,
+      "max_work_residual_j": 1.5366822481155396e-08,
+      "max_battery_residual_j": 4.787580110132694e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\final_stochastic_102_training.json.gz",
+      "global_energy_residual_j": 5.093170329928398e-10,
+      "duration_s": 108.01184344594508,
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 3899999.9999999967,
+      "max_work_residual_j": 8.614733815193176e-09,
+      "max_battery_residual_j": 2.6266206987202168e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\final_stochastic_103_fine.json.gz",
+      "global_energy_residual_j": 1.1175870895385742e-08,
+      "duration_s": 107.6344459115402,
+      "recovered_j": 2000000.0000000019,
+      "discharged_j": 3900000.000000003,
+      "max_work_residual_j": 9.66247171163559e-09,
+      "max_battery_residual_j": 3.841705620288849e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\final_stochastic_103_refined.json.gz",
+      "global_energy_residual_j": -2.2861058823764324e-08,
+      "duration_s": 107.4451365056218,
+      "recovered_j": 2000000.0000000037,
+      "discharged_j": 3899999.999999989,
+      "max_work_residual_j": 8.381903171539307e-09,
+      "max_battery_residual_j": 4.358298610895872e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\final_stochastic_103_training.json.gz",
+      "global_energy_residual_j": 3.063178155571222e-08,
+      "duration_s": 108.01888877875581,
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 3899999.999999991,
+      "max_work_residual_j": 6.28642737865448e-09,
+      "max_battery_residual_j": 3.4888216760009527e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\final_stochastic_104_fine.json.gz",
+      "global_energy_residual_j": 2.112938091158867e-08,
+      "duration_s": 107.60618874132939,
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3900000.000000021,
+      "max_work_residual_j": 7.414200808852911e-09,
+      "max_battery_residual_j": 3.987224772572517e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\final_stochastic_104_refined.json.gz",
+      "global_energy_residual_j": 2.2657332010567188e-08,
+      "duration_s": 107.41868637407534,
+      "recovered_j": 2000000.0000000042,
+      "discharged_j": 3899999.9999999995,
+      "max_work_residual_j": 1.6472768038511276e-08,
+      "max_battery_residual_j": 4.48198989033699e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\final_stochastic_104_training.json.gz",
+      "global_energy_residual_j": -1.525040715932846e-08,
+      "duration_s": 107.98792662167712,
+      "recovered_j": 1999999.9999999995,
+      "discharged_j": 3900000.0000000037,
+      "max_work_residual_j": 7.392372936010361e-09,
+      "max_battery_residual_j": 2.7794158086180687e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\final_stochastic_105_fine.json.gz",
+      "global_energy_residual_j": -9.502400644123554e-09,
+      "duration_s": 107.66993484299728,
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 3899999.9999999935,
+      "max_work_residual_j": 1.2223608791828156e-08,
+      "max_battery_residual_j": 4.627509042620659e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\final_stochastic_105_refined.json.gz",
+      "global_energy_residual_j": -1.9339495338499546e-08,
+      "duration_s": 107.48299674023684,
+      "recovered_j": 2000000.000000005,
+      "discharged_j": 3899999.999999996,
+      "max_work_residual_j": 1.2398231774568558e-08,
+      "max_battery_residual_j": 6.868503987789154e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\final_stochastic_105_training.json.gz",
+      "global_energy_residual_j": -2.153683453798294e-09,
+      "duration_s": 108.04969749774467,
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 3899999.999999993,
+      "max_work_residual_j": 9.778887033462524e-09,
+      "max_battery_residual_j": 2.5029294192790985e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\reloaded_final_deterministic_fine.json.gz",
+      "global_energy_residual_j": 5.675246939063072e-10,
+      "duration_s": 107.57866270953544,
+      "recovered_j": 2000000.0000000026,
+      "discharged_j": 3899999.999999997,
+      "max_work_residual_j": 6.461050361394882e-09,
+      "max_battery_residual_j": 2.939486876130104e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\reloaded_final_deterministic_refined.json.gz",
+      "global_energy_residual_j": -1.0186340659856796e-10,
+      "duration_s": 107.3947423575712,
+      "recovered_j": 2000000.0000000035,
+      "discharged_j": 3899999.9999999977,
+      "max_work_residual_j": 1.4435499906539917e-08,
+      "max_battery_residual_j": 5.384208634495735e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\reloaded_final_deterministic_training.json.gz",
+      "global_energy_residual_j": 6.897607818245888e-09,
+      "duration_s": 107.95171471839818,
+      "recovered_j": 1999999.9999999993,
+      "discharged_j": 3899999.9999999935,
+      "max_work_residual_j": 7.2177499532699585e-09,
+      "max_battery_residual_j": 2.459273673593998e-09
+    }
+  ],
+  "script_sha256": "7ff44d758a52242253e6a050ce5a96549acf2ae536db1a35d417e897b80f5684",
+  "dependency_hashes": {
+    "scripts/validate_regeneration.py": "3a2a581cbe21bbe4dbf7ef375ffe47e8b17f046c7c47a3bbcad520a8f8e4277f"
+  }
+}

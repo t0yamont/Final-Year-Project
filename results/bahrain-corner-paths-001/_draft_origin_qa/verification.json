@@ -1,0 +1,14 @@
+{
+  "hashes_checked": 17,
+  "frozen_replay_hashes_checked": 3,
+  "png_pixels": [
+    3600,
+    3300
+  ],
+  "png_dpi": [
+    299.9994,
+    299.9994
+  ],
+  "pdf_header_valid": true,
+  "figure_visual_review": "All nine panels readable; native support visible; axes and curvature scales labelled; speed panels intentionally show local range40\u2013220km/h."
+}

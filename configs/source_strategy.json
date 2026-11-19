@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "decision_date": "2026-11-10",
+  "status": "implementation_in_progress",
+  "research_scope": "Defensible model-based F1-inspired deployment study",
+  "primary_empirical_source": "OpenF1 historical API",
+  "empirical_fallback": "TracingInsights selected archived files; existing FastF1 evidence retained",
+  "training_source": "Validated action-responsive physics simulator",
+  "geometry_candidate": "TUMFTM racetrack-database; layout and accuracy checks required",
+  "season": 2025,
+  "target_weekends": 8,
+  "candidate_countries": [
+    "Bahrain",
+    "Spain",
+    "United Kingdom",
+    "Italy",
+    "Belgium",
+    "Japan",
+    "Hungary",
+    "United Arab Emirates"
+  ],
+  "initial_team_policy": "Reference team first; two additional constructors as separate contexts",
+  "split_status": "Frozen in configs/openf1_dataset_plan.json; 4 development, 2 validation, 2 test events",
+  "next_action": "Validate adapter and one development session, then acquire frozen frame in resumable batches",
+  "minimum_request_interval_seconds": 2.1,
+  "claim_limit": "No verified real battery/deployment labels; synthetic outcomes remain model-conditional",
+  "evidence_run": "results/source-access-audit-20261110-003"
+}

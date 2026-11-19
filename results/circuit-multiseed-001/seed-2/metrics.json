@@ -1,0 +1,193 @@
+{
+  "seed": 2,
+  "actual_steps": 16384,
+  "training_seconds": 647.4339842998888,
+  "elapsed_seconds": 716.5619571001735,
+  "checkpoints": [
+    {
+      "step": 0,
+      "gpu_training": null,
+      "training_time_s": 109.85466641075348,
+      "fine_time_s": 109.47469735233955,
+      "fine_gain_s": 0.0005091091006050874,
+      "fine_final_energy_j": 1999170.6405589993,
+      "gain_discrepancy_s": 2.416520146653056e-06,
+      "feasible": true,
+      "noise_seed": 9001,
+      "fine_energy_residual_j": -2.6483634840701598e-08,
+      "fine_terminal_speed_error_mps": 0.0
+    },
+    {
+      "step": 4096,
+      "gpu_training": {
+        "policy_device": "cuda:0",
+        "parameter_tensors": 13,
+        "gradient_tensors": 13,
+        "cuda_optimizer_moment_tensors": 26,
+        "allocated_bytes": 17101312,
+        "peak_allocated_bytes": 17157120,
+        "passed": true
+      },
+      "training_time_s": 109.09486653913619,
+      "fine_time_s": 108.71305093399057,
+      "fine_gain_s": 0.762155527449579,
+      "fine_final_energy_j": 457256.3055608135,
+      "gain_discrepancy_s": 0.0018441302115377312,
+      "feasible": true,
+      "noise_seed": 9001,
+      "fine_energy_residual_j": -2.1585636389431784e-08,
+      "fine_terminal_speed_error_mps": 2.842170943040401e-14
+    },
+    {
+      "step": 8192,
+      "gpu_training": {
+        "policy_device": "cuda:0",
+        "parameter_tensors": 13,
+        "gradient_tensors": 13,
+        "cuda_optimizer_moment_tensors": 26,
+        "allocated_bytes": 17102848,
+        "peak_allocated_bytes": 17158656,
+        "passed": true
+      },
+      "training_time_s": 108.70560657735624,
+      "fine_time_s": 108.32299398581847,
+      "fine_gain_s": 1.1522124756216812,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.002641116603683713,
+      "feasible": true,
+      "noise_seed": 9001,
+      "fine_energy_residual_j": -1.896460055661464e-08,
+      "fine_terminal_speed_error_mps": 0.0
+    },
+    {
+      "step": 12288,
+      "gpu_training": {
+        "policy_device": "cuda:0",
+        "parameter_tensors": 13,
+        "gradient_tensors": 13,
+        "cuda_optimizer_moment_tensors": 26,
+        "allocated_bytes": 17101312,
+        "peak_allocated_bytes": 17158656,
+        "passed": true
+      },
+      "training_time_s": 108.66538763587351,
+      "fine_time_s": 108.28304825715661,
+      "fine_gain_s": 1.192158204283544,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.0023679037828259197,
+      "feasible": true,
+      "noise_seed": 9001,
+      "fine_energy_residual_j": -3.107601465046628e-08,
+      "fine_terminal_speed_error_mps": 0.0
+    },
+    {
+      "step": 16384,
+      "gpu_training": {
+        "policy_device": "cuda:0",
+        "parameter_tensors": 13,
+        "gradient_tensors": 13,
+        "cuda_optimizer_moment_tensors": 26,
+        "allocated_bytes": 17101312,
+        "peak_allocated_bytes": 17158656,
+        "passed": true
+      },
+      "training_time_s": 108.66591906458325,
+      "fine_time_s": 108.28399021513165,
+      "fine_gain_s": 1.1912162463084996,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.0019573745175165413,
+      "feasible": true,
+      "noise_seed": 9001,
+      "fine_energy_residual_j": 5.341972197925315e-09,
+      "fine_terminal_speed_error_mps": 0.0
+    }
+  ],
+  "final_deterministic": {
+    "step": 16384,
+    "gpu_training": {
+      "policy_device": "cuda:0",
+      "parameter_tensors": 13,
+      "gradient_tensors": 13,
+      "cuda_optimizer_moment_tensors": 26,
+      "allocated_bytes": 17101312,
+      "peak_allocated_bytes": 17158656,
+      "passed": true
+    },
+    "training_time_s": 108.66591906458325,
+    "fine_time_s": 108.28399021513165,
+    "fine_gain_s": 1.1912162463084996,
+    "fine_final_energy_j": 100000.0,
+    "gain_discrepancy_s": 0.0019573745175165413,
+    "feasible": true,
+    "noise_seed": 9001,
+    "fine_energy_residual_j": 5.341972197925315e-09,
+    "fine_terminal_speed_error_mps": 0.0
+  },
+  "final_stochastic": [
+    {
+      "training_time_s": 108.69768675933597,
+      "fine_time_s": 108.31523041112997,
+      "fine_gain_s": 1.1599760503101777,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.0024848732719107147,
+      "feasible": true,
+      "noise_seed": 101,
+      "fine_energy_residual_j": -1.0087676471925988e-08,
+      "fine_terminal_speed_error_mps": 0.0
+    },
+    {
+      "training_time_s": 108.7045171995386,
+      "fine_time_s": 108.3263397307688,
+      "fine_gain_s": 1.148866730671358,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.0017940061642747196,
+      "feasible": true,
+      "noise_seed": 102,
+      "fine_energy_residual_j": -2.349247729682702e-08,
+      "fine_terminal_speed_error_mps": 0.0
+    },
+    {
+      "training_time_s": 108.6498675854569,
+      "fine_time_s": 108.26343775413876,
+      "fine_gain_s": 1.2117687073013883,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.006458356384058561,
+      "feasible": true,
+      "noise_seed": 103,
+      "fine_energy_residual_j": 1.8588348638104435e-09,
+      "fine_terminal_speed_error_mps": 0.0
+    },
+    {
+      "training_time_s": 108.62928583268507,
+      "fine_time_s": 108.24728573724197,
+      "fine_gain_s": 1.227920724198185,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.0020286205090229714,
+      "feasible": true,
+      "noise_seed": 104,
+      "fine_energy_residual_j": 1.490515266766579e-08,
+      "fine_terminal_speed_error_mps": 0.0
+    },
+    {
+      "training_time_s": 108.73078722062515,
+      "fine_time_s": 108.34069806213125,
+      "fine_gain_s": 1.1345083993088991,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.010117683559812463,
+      "feasible": true,
+      "noise_seed": 105,
+      "fine_energy_residual_j": -1.95360048138582e-08,
+      "fine_terminal_speed_error_mps": 0.0
+    }
+  ],
+  "stochastic_within_seed": {
+    "n": 5,
+    "mean": 108.29859833908215,
+    "sample_sd": 0.040889629355428336,
+    "minimum": 108.24728573724197,
+    "maximum": 108.34069806213125
+  },
+  "final_replay_gate_passed": true,
+  "checkpoint_reload_exact": true,
+  "limitation": "Nominal assumed-model learning study; five stochastic rollouts are nested within one training seed"
+}

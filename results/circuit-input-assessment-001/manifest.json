@@ -1,0 +1,18 @@
+{
+  "inputs": {
+    "results\\openf1-motion-001\\development.csv": "138d0f9f0629c54bbb932b44b45c7e16a36d47c8ee71e105234cbe64ce834d80",
+    "work\\track-source\\sakhir.txt": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a",
+    "work\\track-source\\tracklicense.txt": "1a45b1d0a8603dfe2cfc644f9dab970b1762f92babe2aac6eb2f5d4572c4a680"
+  },
+  "source_sha256": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\assess_circuit_inputs.py": "2806c4105ec4e9421ce0333177a6c4942ecf8972cdf273a4c056ac9cdad83e89",
+    "src/f1energy/identification.py": "52bfc0a97d7cf9f4dc17ef343d06d650ccd5167d7fdba40f3a1130a816ec271a"
+  },
+  "outputs": {
+    "results\\circuit-input-assessment-001\\metrics.json": "9f6824c3829a8ecea524163e25199d6fec245e9e189bf3881092caf363e16861",
+    "results\\circuit-input-assessment-001\\Sakhir.csv": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a",
+    "results\\circuit-input-assessment-001\\SOURCE_LICENSE.txt": "1a45b1d0a8603dfe2cfc644f9dab970b1762f92babe2aac6eb2f5d4572c4a680",
+    "figures\\dissertation\\circuit-inputs-v1\\01_circuit_inputs.pdf": "c7b9ed9e51a9a9ae5ddfb2619d1dae0b61a05534063775297e4fc1f02e1208ab",
+    "figures\\dissertation\\circuit-inputs-v1\\01_circuit_inputs.png": "487fbfefe755e6809450d1e4d090353635446ede502d63fc16c95d614a0843cb"
+  }
+}

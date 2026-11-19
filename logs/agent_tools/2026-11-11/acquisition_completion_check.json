@@ -1,0 +1,23 @@
+{
+  "run": "results\\openf1-dataset-003",
+  "checked_outputs": 320,
+  "roles": {
+    "development": {
+      "sessions": 20,
+      "candidates": 318
+    },
+    "validation": {
+      "sessions": 10,
+      "candidates": 124
+    },
+    "test": {
+      "sessions": 8,
+      "candidates": 101
+    }
+  },
+  "sessions": 38,
+  "lap_entries": 2101,
+  "native_car_rows": 1054001,
+  "conditional_candidates": 543,
+  "running_acquisition": false
+}

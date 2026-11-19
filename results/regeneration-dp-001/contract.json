@@ -1,0 +1,111 @@
+{
+  "protocol": {
+    "baseline": "results/regeneration-validation-001",
+    "ppo": "results/regeneration-multiseed-001",
+    "search_cells": 80,
+    "evaluation_cells": [
+      80,
+      160,
+      320
+    ],
+    "cases": [
+      {
+        "name": "basic",
+        "actions": [
+          0,
+          0.5,
+          1
+        ],
+        "width": 8,
+        "speed_bin_mps": 2,
+        "energy_bin_j": 200000
+      },
+      {
+        "name": "refined",
+        "actions": [
+          0,
+          0.25,
+          0.5,
+          0.75,
+          1
+        ],
+        "width": 16,
+        "speed_bin_mps": 1,
+        "energy_bin_j": 100000
+      }
+    ],
+    "selection": "Minimize feasible 4400-cell lap time. Full request is the basic incumbent. Retain the basic solution as refined incumbent. Never use PPO schedules or evaluation grids for selection.",
+    "state": "Keep the fastest exact prefix per rounded (speed, energy, gross recovered, gross discharged) bucket. If width is exceeded, stratify survivors by stored energy and retain the fastest in each equal-count stratum.",
+    "endpoint": "Refined candidate on 8800 cells, preselected regardless of outcome. Nominal unguarded rolling lap; fixed known circuit and 55 decisions.",
+    "search_stability_s": 0.05,
+    "comparison_gates": {
+      "paired_gap_change_s": 0.005,
+      "relative_lap_change": 0.0025,
+      "terminal_energy_change_j": 10000,
+      "recovered_change_j": 5000
+    },
+    "budget": "At most 55*8*3 + 55*16*5 = 5720 block expansions, plus incumbent and validation replays. No neural training."
+  },
+  "config": {
+    "reference_config": "configs/circuit_reference.json",
+    "numerical_gate": "results/regeneration-validation-001",
+    "action_blocks": 55,
+    "cells_per_block": [
+      80,
+      160
+    ],
+    "fine_cells_per_block": 160,
+    "initial_speed_mps": 70.0,
+    "policies": [
+      "zero",
+      "half",
+      "full",
+      "spread",
+      "exit_boost"
+    ],
+    "gates": {
+      "relative_lap_time": 0.005,
+      "gain_error_s": 0.05,
+      "ranking_tie_s": 0.02
+    },
+    "pilot": {
+      "seed": 0,
+      "steps": 4096,
+      "gamma": 1.0,
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "net_arch": [
+        32,
+        32
+      ]
+    },
+    "interpretation": "MGU-K-only assumed reference model; automatic braking recovery, fixed total braking, no MGU-H. Capacity, efficiency and rear braking share are assumptions. No measured-car or full regulatory compliance claim.",
+    "regeneration": {
+      "capacity_j": 4000000.0,
+      "charge_efficiency": 0.8,
+      "max_power_w": 120000.0,
+      "braking_fraction": 0.4,
+      "recovery_limit_j": 2000000.0,
+      "deployment_limit_j": 4000000.0
+    },
+    "sources": [
+      "https://api.fia.com/sites/default/files/documents/fia_2025_formula_1_technical_regulations_-_issue_03_-_2025-04-07.pdf",
+      "https://www.mclaren.com/racing/formula-1/2025/mcl39-technical-specification/"
+    ]
+  },
+  "inputs": {
+    "configs\\regeneration_dp_protocol.json": "25731403e3a18691e21e9fc23a6b67efecd147c324d999d8ac66261d0208fdb3",
+    "results\\regeneration-multiseed-001\\manifest.json": "894ae6e5b2ac4e28e90bbe491a65fdce39901e793085ea962dc85c30a86827ce",
+    "results\\regeneration-validation-001\\manifest.json": "d3379ef9656e8ff927d89504ac48378a2d2c5cf35a59255df2421df4cc967a64"
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src\\f1energy\\event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\optimize_regeneration_dp.py": "b7cf0171ff58633b6fdc569dd6784adbe49e0c7239b755ddeb59d565c654bcfa",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "src\\f1energy\\circuit_training_gate.py": "ee4291988beb2ec37474060bfc7cdcd01b351a3263922f610e2d8ad6a2a0da3f"
+  }
+}

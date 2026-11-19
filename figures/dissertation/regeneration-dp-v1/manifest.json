@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "results\\regeneration-dp-001\\manifest.json": "b16a6deefa444584561207027d61657f7cd5969d575f0d4eca73d7c45f83a01b"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\verify_regeneration_dp.py": "bb22d5290450f76c4fbfbaa1416737f561423cebbf84f31b9e0c4f7bc4af2707"
+  },
+  "outputs": {
+    "figures\\dissertation\\regeneration-dp-v1\\verification.json": "c7885bd93ead72450aa5ac6681c700a1f04b9251759aef6c85f45ea32fe7c5fa",
+    "figures\\dissertation\\regeneration-dp-v1\\01_comparison.png": "1e4ad111b9f8de147c3c868636ea540214c0fa7eae5304538eef842fe8eede14",
+    "figures\\dissertation\\regeneration-dp-v1\\01_comparison.pdf": "e09c6d9dc84d65ec08b7c5c088d395abfdc155c8e7d065d6053ad8c40f58a83e",
+    "figures\\dissertation\\regeneration-dp-v1\\02_strategy.png": "61aafd07effa74bb5bcc2c6dc3d91d78ff2f3e1dd861f3843af854fa4420ce44",
+    "figures\\dissertation\\regeneration-dp-v1\\02_strategy.pdf": "79a0ab7e3680b9deae3fff4e55d974316c272cc5a039db2aa40cb72bc9de1591"
+  }
+}

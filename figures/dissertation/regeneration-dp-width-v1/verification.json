@@ -1,0 +1,96 @@
+{
+  "times": {
+    "16": {
+      "80": 107.52159775684144,
+      "160": 107.14322495010416,
+      "320": 106.95583404733816
+    },
+    "32": {
+      "80": 107.49198920512454,
+      "160": 107.1139563251417,
+      "320": 106.9269963644535
+    },
+    "64": {
+      "80": 107.43450001214995,
+      "160": 107.05674697104922,
+      "320": 106.86968129757446
+    }
+  },
+  "pairs": [
+    {
+      "low": 16,
+      "high": 32,
+      "primary_gain_s": 0.029268624962455192,
+      "refined_gain_s": 0.0288376828846566,
+      "change_s": 0.0004309420777985906,
+      "grid_pass": true,
+      "width_stable": true
+    },
+    {
+      "low": 32,
+      "high": 64,
+      "primary_gain_s": 0.05720935409247829,
+      "refined_gain_s": 0.057315066879041865,
+      "change_s": 0.00010571278656357208,
+      "grid_pass": true,
+      "width_stable": false
+    }
+  ],
+  "hash_checks": 57,
+  "audits": {
+    "16/80": {
+      "recovered_j": 2000000.0000000016,
+      "discharged_j": 3900000.000000011,
+      "max_work_residual_j": 3.6088749766349792e-09,
+      "max_battery_residual_j": 4.598405212163925e-09
+    },
+    "16/160": {
+      "recovered_j": 2000000.0,
+      "discharged_j": 3899999.9999999925,
+      "max_work_residual_j": 8.847564458847046e-09,
+      "max_battery_residual_j": 3.6088749766349792e-09
+    },
+    "16/320": {
+      "recovered_j": 2000000.0000000042,
+      "discharged_j": 3900000.000000013,
+      "max_work_residual_j": 1.0564690455794334e-08,
+      "max_battery_residual_j": 4.685716703534126e-09
+    },
+    "32/80": {
+      "recovered_j": 2000000.0,
+      "discharged_j": 3900000.0000000023,
+      "max_work_residual_j": 6.250047590583563e-09,
+      "max_battery_residual_j": 3.194145392626524e-09
+    },
+    "32/160": {
+      "recovered_j": 1999999.9999999998,
+      "discharged_j": 3900000.000000008,
+      "max_work_residual_j": 5.9371814131736755e-09,
+      "max_battery_residual_j": 2.6193447411060333e-09
+    },
+    "32/320": {
+      "recovered_j": 2000000.0000000023,
+      "discharged_j": 3900000.000000004,
+      "max_work_residual_j": 1.3969838619232178e-08,
+      "max_battery_residual_j": 5.034962669014931e-09
+    },
+    "64/80": {
+      "recovered_j": 2000000.0000000016,
+      "discharged_j": 3900000.0000000177,
+      "max_work_residual_j": 4.889443516731262e-09,
+      "max_battery_residual_j": 3.5070115700364113e-09
+    },
+    "64/160": {
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3899999.9999999963,
+      "max_work_residual_j": 8.43283487483859e-09,
+      "max_battery_residual_j": 3.4633558243513107e-09
+    },
+    "64/320": {
+      "recovered_j": 2000000.0000000047,
+      "discharged_j": 3900000.000000004,
+      "max_work_residual_j": 1.3853423297405243e-08,
+      "max_battery_residual_j": 5.617039278149605e-09
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# Introduction
+
+## Abstract
+
+Where should a Formula One car deploy a limited amount of electrical energy during a qualifying lap at Bahrain? A distance-based vehicle model combined circuit curvature, braking, battery discharge and automatic braking-energy recovery. Public qualifying telemetry provided speed and sector checks. A bounded search allocated electrical assistance over 55 sections, and controlled replays tested the effect of changing deployment timing. Against a policy that spread its remaining energy across the lap, the selected allocation saved 0.871–0.955 s at two matched levels of total electrical work delivered to the wheels. Delaying the opening burst by 98 m cost 0.059 s at equal wheel work. The model represented the opening straight more closely than several corner exits. Its sector-two predictions were 1.118–1.259 s too fast on three laps from a second driver. The findings identify where earlier deployment helped in the simulator and quantify the uncertainty in applying its locations to a real car.
+
+## The qualifying problem
+
+Electrical assistance used on a corner exit can raise speed along the straight that follows. The same amount used immediately before heavy braking has less distance over which a speed advantage can accumulate. Saving energy for later has its own cost if the car arrives at a braking zone with too little spare battery capacity to store recovered energy. The relevant decision is therefore a sequence of power requests around an entire flying lap. The time at the finish reflects all the earlier choices.
+
+The question investigated here is **where along the Bahrain circuit, and with how much electrical wheel power, should a model car deploy a finite energy budget to minimise its qualifying lap time?** A location is reported as distance from the timing line, with approximate turn names for orientation. Its value is assessed against another feasible allocation or by moving an existing burst to an adjacent section. An absolute lap time alone does not show whether the distribution helped. A different vehicle model, a larger total discharge or a slower finish speed can each change that time.
+
+Public telemetry presents a second problem. Timing and speed can show where a car lost or gained time, but the measured acceleration combines several forces. A given trace can be compatible with different combinations of engine power, electrical assistance and drag. The project therefore studied the forward decision problem in a simulator with known energy flows. Real observations served to estimate the motion model, test it on other laps and identify locations where the simulated speeds deserve less confidence. [Scope and evidence plan](../docs/scope.md)
+
+## Research questions and contribution
+
+The primary control experiment addresses RQ2. It compares bounded dynamic programming, simple rules and learned policies, and asks whether a location advantage survives equal-work and feasibility checks. RQ1 asks how much of the hidden deployment can be inferred from public motion observations. RQ3 asks whether adding practice and race observations improves qualifying acceleration prediction on separate events. RQ4 was proposed as a further comparison of policies with and without driver-profile inputs. The available experiments supply no paired test of that question. [Evidence matrix](../docs/evidence_matrix.csv)
+
+The contribution is a reproducible connection between a map, the physical state of the car and a change in elapsed time. The map records actual wheel work after braking and battery limits act. Matched comparisons distinguish the effect of timing from the effect of spending more energy. Finally, separate-lap speed and sector errors show how strongly the public data support the motion at those locations. These three forms of evidence allow a useful model-based conclusion even when the unobserved deployment of the real car remains unknown.

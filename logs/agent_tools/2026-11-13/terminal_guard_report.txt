@@ -1,0 +1,1 @@
+{"hash_checks": 445, "replays_checked": 64, "physically_feasible_replays": 64, "all_cases_passed": true, "max_abs_energy_residual_j": 5.198671715334058e-08, "max_abs_battery_error_j": 1.1663153554053451e-08}

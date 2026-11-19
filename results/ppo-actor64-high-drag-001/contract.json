@@ -1,0 +1,21 @@
+{
+  "inputs": {
+    "results\\regeneration-robustness-001\\manifest.json": "cd84af77877b1143b25bc586252ef5decba7c183d7a9279475a2d9d79b60a2af",
+    "results\\regeneration-ppo-actor64-001\\manifest.json": "588ea8215f6b38ecd29ddd526aa88729a29f5e6a60b6bcee35a28a4827a322bf"
+  },
+  "scenario": {
+    "name": "high_drag",
+    "parameter": "drag_kg_per_m",
+    "value": 1.1
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "grids": [
+    160,
+    320
+  ],
+  "question": "Secondary diagnostic using the known historical 1.1 kg/m failure. Report finish success before elapsed time on both grids for every final policy. No retraining or selection."
+}

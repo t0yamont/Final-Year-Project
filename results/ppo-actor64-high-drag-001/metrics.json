@@ -1,0 +1,113 @@
+{
+  "rows": [
+    {
+      "width": 32,
+      "seed": 0,
+      "cells": 160,
+      "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed0_160.json.gz",
+      "duration_s": 107.7204988763193,
+      "feasible": false,
+      "terminal_speed_error_mps": -0.3042567405217653
+    },
+    {
+      "width": 64,
+      "seed": 0,
+      "cells": 160,
+      "file": "results\\ppo-actor64-high-drag-001\\seed-0_160.json.gz",
+      "duration_s": 107.6839183546794,
+      "feasible": false,
+      "terminal_speed_error_mps": -0.3042567405217653
+    },
+    {
+      "width": 32,
+      "seed": 0,
+      "cells": 320,
+      "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed0_320.json.gz",
+      "duration_s": 107.53502005901511,
+      "feasible": false,
+      "terminal_speed_error_mps": -0.29908976594286685
+    },
+    {
+      "width": 64,
+      "seed": 0,
+      "cells": 320,
+      "file": "results\\ppo-actor64-high-drag-001\\seed-0_320.json.gz",
+      "duration_s": 107.49800209619177,
+      "feasible": false,
+      "terminal_speed_error_mps": -0.29908976594286685
+    },
+    {
+      "width": 32,
+      "seed": 1,
+      "cells": 160,
+      "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed1_160.json.gz",
+      "duration_s": 108.12120375704211,
+      "feasible": false,
+      "terminal_speed_error_mps": -0.3042567405217653
+    },
+    {
+      "width": 64,
+      "seed": 1,
+      "cells": 160,
+      "file": "results\\ppo-actor64-high-drag-001\\seed-1_160.json.gz",
+      "duration_s": 107.68204117635757,
+      "feasible": false,
+      "terminal_speed_error_mps": -0.3042567405217653
+    },
+    {
+      "width": 32,
+      "seed": 1,
+      "cells": 320,
+      "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed1_320.json.gz",
+      "duration_s": 107.93656078989473,
+      "feasible": false,
+      "terminal_speed_error_mps": -0.29908976594286685
+    },
+    {
+      "width": 64,
+      "seed": 1,
+      "cells": 320,
+      "file": "results\\ppo-actor64-high-drag-001\\seed-1_320.json.gz",
+      "duration_s": 107.49678979881871,
+      "feasible": false,
+      "terminal_speed_error_mps": -0.29908976594286685
+    },
+    {
+      "width": 32,
+      "seed": 2,
+      "cells": 160,
+      "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed2_160.json.gz",
+      "duration_s": 108.06049075142953,
+      "feasible": false,
+      "terminal_speed_error_mps": -0.3042567405217653
+    },
+    {
+      "width": 64,
+      "seed": 2,
+      "cells": 160,
+      "file": "results\\ppo-actor64-high-drag-001\\seed-2_160.json.gz",
+      "duration_s": 107.96040185148982,
+      "feasible": false,
+      "terminal_speed_error_mps": -0.3042567405217653
+    },
+    {
+      "width": 32,
+      "seed": 2,
+      "cells": 320,
+      "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed2_320.json.gz",
+      "duration_s": 107.87667199146507,
+      "feasible": false,
+      "terminal_speed_error_mps": -0.29908976594286685
+    },
+    {
+      "width": 64,
+      "seed": 2,
+      "cells": 320,
+      "file": "results\\ppo-actor64-high-drag-001\\seed-2_320.json.gz",
+      "duration_s": 107.77285762581,
+      "feasible": false,
+      "terminal_speed_error_mps": -0.29908976594286685
+    }
+  ],
+  "finish_target_mps": 70.0
+}

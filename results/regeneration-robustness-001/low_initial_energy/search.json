@@ -1,0 +1,397 @@
+{
+  "name": "replanned_dp",
+  "actions": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0.25,
+    0,
+    0,
+    1,
+    0.5,
+    0,
+    0.25,
+    0,
+    0,
+    0,
+    0,
+    0.75,
+    0.25,
+    0.25,
+    0.25,
+    0.5,
+    0.75,
+    1,
+    0.75,
+    0.5,
+    0,
+    0,
+    0,
+    1,
+    0.5,
+    0.5,
+    0,
+    0,
+    0,
+    0,
+    0.25,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.25,
+    0.25,
+    1,
+    0.25,
+    0.25,
+    0,
+    0,
+    0.5,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+  ],
+  "search_time_s": 108.0880210562895,
+  "wall_seconds": 134.36258279997855,
+  "transitions": 3605,
+  "layers": [
+    {
+      "block": 1,
+      "expansions": 5,
+      "buckets": 5,
+      "retained": 5
+    },
+    {
+      "block": 2,
+      "expansions": 25,
+      "buckets": 8,
+      "retained": 8
+    },
+    {
+      "block": 3,
+      "expansions": 40,
+      "buckets": 10,
+      "retained": 10
+    },
+    {
+      "block": 4,
+      "expansions": 50,
+      "buckets": 16,
+      "retained": 16
+    },
+    {
+      "block": 5,
+      "expansions": 80,
+      "buckets": 23,
+      "retained": 16
+    },
+    {
+      "block": 6,
+      "expansions": 80,
+      "buckets": 16,
+      "retained": 16
+    },
+    {
+      "block": 7,
+      "expansions": 80,
+      "buckets": 10,
+      "retained": 10
+    },
+    {
+      "block": 8,
+      "expansions": 50,
+      "buckets": 36,
+      "retained": 16
+    },
+    {
+      "block": 9,
+      "expansions": 80,
+      "buckets": 39,
+      "retained": 16
+    },
+    {
+      "block": 10,
+      "expansions": 80,
+      "buckets": 38,
+      "retained": 16
+    },
+    {
+      "block": 11,
+      "expansions": 80,
+      "buckets": 55,
+      "retained": 16
+    },
+    {
+      "block": 12,
+      "expansions": 80,
+      "buckets": 47,
+      "retained": 16
+    },
+    {
+      "block": 13,
+      "expansions": 80,
+      "buckets": 36,
+      "retained": 16
+    },
+    {
+      "block": 14,
+      "expansions": 80,
+      "buckets": 13,
+      "retained": 13
+    },
+    {
+      "block": 15,
+      "expansions": 65,
+      "buckets": 10,
+      "retained": 10
+    },
+    {
+      "block": 16,
+      "expansions": 50,
+      "buckets": 19,
+      "retained": 16
+    },
+    {
+      "block": 17,
+      "expansions": 80,
+      "buckets": 65,
+      "retained": 16
+    },
+    {
+      "block": 18,
+      "expansions": 80,
+      "buckets": 18,
+      "retained": 16
+    },
+    {
+      "block": 19,
+      "expansions": 80,
+      "buckets": 20,
+      "retained": 16
+    },
+    {
+      "block": 20,
+      "expansions": 80,
+      "buckets": 18,
+      "retained": 16
+    },
+    {
+      "block": 21,
+      "expansions": 80,
+      "buckets": 48,
+      "retained": 16
+    },
+    {
+      "block": 22,
+      "expansions": 80,
+      "buckets": 14,
+      "retained": 14
+    },
+    {
+      "block": 23,
+      "expansions": 70,
+      "buckets": 18,
+      "retained": 16
+    },
+    {
+      "block": 24,
+      "expansions": 80,
+      "buckets": 58,
+      "retained": 16
+    },
+    {
+      "block": 25,
+      "expansions": 80,
+      "buckets": 60,
+      "retained": 16
+    },
+    {
+      "block": 26,
+      "expansions": 80,
+      "buckets": 15,
+      "retained": 15
+    },
+    {
+      "block": 27,
+      "expansions": 75,
+      "buckets": 20,
+      "retained": 16
+    },
+    {
+      "block": 28,
+      "expansions": 80,
+      "buckets": 27,
+      "retained": 16
+    },
+    {
+      "block": 29,
+      "expansions": 80,
+      "buckets": 55,
+      "retained": 16
+    },
+    {
+      "block": 30,
+      "expansions": 80,
+      "buckets": 46,
+      "retained": 16
+    },
+    {
+      "block": 31,
+      "expansions": 80,
+      "buckets": 41,
+      "retained": 16
+    },
+    {
+      "block": 32,
+      "expansions": 80,
+      "buckets": 33,
+      "retained": 16
+    },
+    {
+      "block": 33,
+      "expansions": 80,
+      "buckets": 33,
+      "retained": 16
+    },
+    {
+      "block": 34,
+      "expansions": 80,
+      "buckets": 11,
+      "retained": 11
+    },
+    {
+      "block": 35,
+      "expansions": 55,
+      "buckets": 8,
+      "retained": 8
+    },
+    {
+      "block": 36,
+      "expansions": 40,
+      "buckets": 30,
+      "retained": 16
+    },
+    {
+      "block": 37,
+      "expansions": 80,
+      "buckets": 15,
+      "retained": 15
+    },
+    {
+      "block": 38,
+      "expansions": 75,
+      "buckets": 8,
+      "retained": 8
+    },
+    {
+      "block": 39,
+      "expansions": 40,
+      "buckets": 8,
+      "retained": 8
+    },
+    {
+      "block": 40,
+      "expansions": 40,
+      "buckets": 14,
+      "retained": 14
+    },
+    {
+      "block": 41,
+      "expansions": 70,
+      "buckets": 8,
+      "retained": 8
+    },
+    {
+      "block": 42,
+      "expansions": 40,
+      "buckets": 8,
+      "retained": 8
+    },
+    {
+      "block": 43,
+      "expansions": 40,
+      "buckets": 31,
+      "retained": 16
+    },
+    {
+      "block": 44,
+      "expansions": 80,
+      "buckets": 28,
+      "retained": 16
+    },
+    {
+      "block": 45,
+      "expansions": 80,
+      "buckets": 23,
+      "retained": 16
+    },
+    {
+      "block": 46,
+      "expansions": 80,
+      "buckets": 22,
+      "retained": 16
+    },
+    {
+      "block": 47,
+      "expansions": 80,
+      "buckets": 19,
+      "retained": 16
+    },
+    {
+      "block": 48,
+      "expansions": 80,
+      "buckets": 14,
+      "retained": 14
+    },
+    {
+      "block": 49,
+      "expansions": 70,
+      "buckets": 4,
+      "retained": 4
+    },
+    {
+      "block": 50,
+      "expansions": 20,
+      "buckets": 4,
+      "retained": 4
+    },
+    {
+      "block": 51,
+      "expansions": 20,
+      "buckets": 4,
+      "retained": 4
+    },
+    {
+      "block": 52,
+      "expansions": 20,
+      "buckets": 11,
+      "retained": 11
+    },
+    {
+      "block": 53,
+      "expansions": 55,
+      "buckets": 10,
+      "retained": 10
+    },
+    {
+      "block": 54,
+      "expansions": 50,
+      "buckets": 12,
+      "retained": 12
+    },
+    {
+      "block": 55,
+      "expansions": 60,
+      "buckets": 0,
+      "retained": 0
+    }
+  ],
+  "incumbent_time_s": 108.35900265803437,
+  "status": "completed"
+}

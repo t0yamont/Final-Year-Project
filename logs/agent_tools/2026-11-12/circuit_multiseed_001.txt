@@ -1,0 +1,39 @@
+{
+  "all_seeds_completed_and_passed": true,
+  "worker_exit_codes": {
+    "1": 0,
+    "2": 0,
+    "0": 0
+  },
+  "scope": "Longer GPU learning-budget study on the fixed assumed Bahrain model",
+  "primary_endpoint": "Final deterministic fine-grid policy from every training seed; no best-checkpoint selection",
+  "parallel_workers_used": 3,
+  "deterministic_lap_time_s": {
+    "n": 3,
+    "mean": 108.23839147524926,
+    "sample_sd": 0.049186627594538415,
+    "minimum": 108.18626821530388,
+    "maximum": 108.28399021513165
+  },
+  "deterministic_gain_s": {
+    "n": 3,
+    "mean": 1.2368149861908933,
+    "sample_sd": 0.049186627594538415,
+    "minimum": 1.1912162463084996,
+    "maximum": 1.2889382461362686
+  },
+  "stochastic_seed_mean_lap_time_s": {
+    "n": 3,
+    "mean": 108.31074405894292,
+    "sample_sd": 0.025929957137822292,
+    "minimum": 108.29311620593111,
+    "maximum": 108.34051763181546
+  },
+  "fine_baselines_s": {
+    "zero": 109.47520646144015,
+    "half": 108.64398339076611,
+    "full": 108.60810666695829,
+    "spread": 108.67932665276965,
+    "exit_boost": 108.62819093882248
+  }
+}

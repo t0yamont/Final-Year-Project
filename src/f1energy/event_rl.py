@@ -1,5 +1,5 @@
 """Synthetic event-based power/drag/braking environment; training requires validation."""
-from dataclasses import dataclass,asdict
+from dataclasses import dataclass
 import numpy as np
 import gymnasium as gym
 from .power_lap import PowerVehicle,PowerState

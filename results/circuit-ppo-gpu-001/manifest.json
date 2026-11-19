@@ -1,0 +1,30 @@
+{
+  "inputs": {
+    "results\\circuit-control-baselines-001\\manifest.json": "3c2b27317c8b6aeed262cb4482fe2647acb47ce94295ba25420fc524a3836bbf"
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "69b5f4ffac4a297cfa8dcecb9fd57ebf4a03acf800363f162e2338a3e1b78e52",
+    "src\\f1energy\\event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\train_circuit_ppo.py": "01d7d13b2db9c029ef265da0cd6613cf1cc0e2f835b35a637b774bfecbfd3d3a",
+    "src\\f1energy\\circuit_training_gate.py": "ee4291988beb2ec37474060bfc7cdcd01b351a3263922f610e2d8ad6a2a0da3f",
+    "src\\f1energy\\training_device.py": "5e9eff32770f5413707808049ae46e72040cb99bdd3dd76111d68acd7925e814",
+    "scripts\\benchmark_circuit_control.py": "782b00b91a3d53bd879bb35c4ea6be3f32ee0d7ecb31efa14d7f4e0d5fa98625"
+  },
+  "outputs": {
+    "results\\circuit-ppo-gpu-001\\contract.json": "506a8e36c33bf7edd6b7672f0bfbeb23f3ccd6ee5288ac3b7b578ecff39f3b2b",
+    "results\\circuit-ppo-gpu-001\\episodes.monitor.csv": "cc86757b2c4f158c72cc7a01f583a4d124b8297e080d1224f87e20c1f0af4d27",
+    "results\\circuit-ppo-gpu-001\\initial_policy.zip": "9146e0a13d827a38708f297a80f94c1f08b0eedad7ad11bfd087799bfee524dd",
+    "results\\circuit-ppo-gpu-001\\metrics.json": "bba439c425f10bcf312fe3773bf6507e460bc3b1be74f08649a5d5323d38f264",
+    "results\\circuit-ppo-gpu-001\\ppo.zip": "715aab9f7de0e93ac509056fd172f6e8fa0436de25c19461a6aa310a5c236f1f",
+    "results\\circuit-ppo-gpu-001\\trained_fine_grid.json.gz": "abdc8764e27341173860aefc1f6c09665314e81500a845fb7ceb400e3ad29b7a",
+    "results\\circuit-ppo-gpu-001\\trained_training_grid.json.gz": "851dfaca7db50c805b4533546df5b3b75729d056c333aee67dc5f3387c1ca872",
+    "results\\circuit-ppo-gpu-001\\untrained.json.gz": "b8d3f0c94a23c55fb86d8c28a05556e5a43471f40004c3c0b8bd7ac6642480e2",
+    "results\\circuit-ppo-gpu-001\\checkpoints\\ppo_1024_steps.zip": "60b4b33a4abaec13d5664dc49cd318bd0634401e61574c0b96b07d872820dca6",
+    "results\\circuit-ppo-gpu-001\\checkpoints\\ppo_2048_steps.zip": "78fd68a3711be0bfecbe523075f8bc14240e2f791bc5c635e4b4a23ad87ad79b",
+    "results\\circuit-ppo-gpu-001\\checkpoints\\ppo_3072_steps.zip": "386f1f9f64b9a5ff153dcbd9fb3f84afcfa976bbbc0f8d0abb64b10c37c6ec8d",
+    "results\\circuit-ppo-gpu-001\\checkpoints\\ppo_4096_steps.zip": "7f19390115b26df269fb939fee9e708cedd5f3d408b20581ff6139a85940d581",
+    "results\\circuit-ppo-gpu-001\\logs\\progress.csv": "488b3b71e21aa644c0339e9e9c1cd651c6eca85d91d8e60db839a725ee11c399"
+  }
+}

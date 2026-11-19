@@ -1,0 +1,34 @@
+{
+  "checkpoints_loaded": 12,
+  "device": "NVIDIA A16-16Q",
+  "actions_independently_reproduced": 1320,
+  "max_action_difference": 0.0,
+  "distance_profile_rows": 1540,
+  "replay_cases": {
+    "baseline_160": 2,
+    "baseline_320": 2,
+    "learned_160": 12,
+    "learned_320": 12
+  },
+  "learned_speed_deficit_mps": {
+    "160": [
+      0.847045605485448,
+      1.0093906790345528
+    ],
+    "320": [
+      0.8393618041902045,
+      1.0006060878250338
+    ]
+  },
+  "feasible_comparison": {
+    "first": "selected",
+    "second": "spread",
+    "time_savings_s": {
+      "160": 0.989972415888758,
+      "320": 0.988253104681192
+    },
+    "gap_change_s": 0.0017193112075659656,
+    "grid_pass": true,
+    "resolved_direction": true
+  }
+}

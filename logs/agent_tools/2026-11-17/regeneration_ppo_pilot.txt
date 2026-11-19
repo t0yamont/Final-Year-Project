@@ -1,0 +1,36 @@
+C:\Users\fm.mm\Desktop\COM3001\COM3001\.venv\Lib\site-packages\stable_baselines3\common\on_policy_algorithm.py:150: UserWarning: You are trying to run PPO on the GPU, but it is primarily intended to run on the CPU when not using a CNN policy (you are using ActorCriticPolicy which should be a MlpPolicy). See https://github.com/DLR-RM/stable-baselines3/issues/1245 for more info. You can pass `device='cpu'` or `export CUDA_VISIBLE_DEVICES=` to force using the CPU.Note: The model will train, but the GPU utilization will be poor and the training might take longer than on CPU.
+  warnings.warn(
+{
+  "gpu_training": {
+    "policy_device": "cuda:0",
+    "parameter_tensors": 13,
+    "gradient_tensors": 13,
+    "cuda_optimizer_moment_tensors": 26,
+    "allocated_bytes": 17101312,
+    "peak_allocated_bytes": 17157632,
+    "passed": true
+  },
+  "actual_steps": 4096,
+  "seed": 0,
+  "training_seconds": 159.95983780012466,
+  "checkpoint_reload_exact": true,
+  "untrained_training_grid_s": 109.85048319182445,
+  "trained_training_grid_s": 108.0602151251693,
+  "trained_fine_grid_s": 107.67367258185303,
+  "fine_baselines_s": {
+    "zero": 109.47520646143805,
+    "half": 107.72028110543953,
+    "full": 107.68731467202234,
+    "spread": 107.9518537764125,
+    "exit_boost": 108.62819093882047
+  },
+  "fine_gain_over_zero_s": 1.8015338795850226,
+  "learned_gain_over_untrained_training_grid_s": 1.790268066655159,
+  "time_gain_grid_discrepancy_s": 0.006571068259688673,
+  "fine_policy_feasible": true,
+  "terminal_speed_error_mps": 0.0,
+  "energy_residual_j": -8.77098838003576e-09,
+  "final_energy_j": 100000.0,
+  "interpretation": "One seed,4096-step model-based pilot; not convergence, optimality, or final held-out performance",
+  "pilot_replay_gate_passed": true
+}

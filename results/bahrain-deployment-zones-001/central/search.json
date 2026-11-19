@@ -1,0 +1,451 @@
+{
+  "name": "central",
+  "actions": [
+    1,
+    1,
+    1,
+    0.5,
+    0,
+    0,
+    0.25,
+    1,
+    1,
+    1,
+    1,
+    0.25,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.5,
+    0.5,
+    0,
+    0,
+    0.75,
+    0.25,
+    0,
+    0,
+    0.75,
+    1,
+    0.25,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0.25,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0.25,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0.75,
+    0,
+    0,
+    0,
+    1
+  ],
+  "search_time_s": 89.11696088529075,
+  "wall_seconds": 73.84226120007224,
+  "transitions": 3960,
+  "layers": [
+    {
+      "block": 1,
+      "expansions": 5,
+      "buckets": 3,
+      "retained": 3
+    },
+    {
+      "block": 2,
+      "expansions": 15,
+      "buckets": 5,
+      "retained": 5
+    },
+    {
+      "block": 3,
+      "expansions": 25,
+      "buckets": 6,
+      "retained": 6
+    },
+    {
+      "block": 4,
+      "expansions": 30,
+      "buckets": 10,
+      "retained": 10
+    },
+    {
+      "block": 5,
+      "expansions": 50,
+      "buckets": 12,
+      "retained": 12
+    },
+    {
+      "block": 6,
+      "expansions": 60,
+      "buckets": 15,
+      "retained": 15
+    },
+    {
+      "block": 7,
+      "expansions": 75,
+      "buckets": 11,
+      "retained": 11
+    },
+    {
+      "block": 8,
+      "expansions": 55,
+      "buckets": 18,
+      "retained": 16
+    },
+    {
+      "block": 9,
+      "expansions": 80,
+      "buckets": 50,
+      "retained": 16
+    },
+    {
+      "block": 10,
+      "expansions": 80,
+      "buckets": 45,
+      "retained": 16
+    },
+    {
+      "block": 11,
+      "expansions": 80,
+      "buckets": 42,
+      "retained": 16
+    },
+    {
+      "block": 12,
+      "expansions": 80,
+      "buckets": 37,
+      "retained": 16
+    },
+    {
+      "block": 13,
+      "expansions": 80,
+      "buckets": 39,
+      "retained": 16
+    },
+    {
+      "block": 14,
+      "expansions": 80,
+      "buckets": 22,
+      "retained": 16
+    },
+    {
+      "block": 15,
+      "expansions": 80,
+      "buckets": 15,
+      "retained": 15
+    },
+    {
+      "block": 16,
+      "expansions": 75,
+      "buckets": 49,
+      "retained": 16
+    },
+    {
+      "block": 17,
+      "expansions": 80,
+      "buckets": 65,
+      "retained": 16
+    },
+    {
+      "block": 18,
+      "expansions": 80,
+      "buckets": 49,
+      "retained": 16
+    },
+    {
+      "block": 19,
+      "expansions": 80,
+      "buckets": 35,
+      "retained": 16
+    },
+    {
+      "block": 20,
+      "expansions": 80,
+      "buckets": 20,
+      "retained": 16
+    },
+    {
+      "block": 21,
+      "expansions": 80,
+      "buckets": 52,
+      "retained": 16
+    },
+    {
+      "block": 22,
+      "expansions": 80,
+      "buckets": 24,
+      "retained": 16
+    },
+    {
+      "block": 23,
+      "expansions": 80,
+      "buckets": 36,
+      "retained": 16
+    },
+    {
+      "block": 24,
+      "expansions": 80,
+      "buckets": 62,
+      "retained": 16
+    },
+    {
+      "block": 25,
+      "expansions": 80,
+      "buckets": 47,
+      "retained": 16
+    },
+    {
+      "block": 26,
+      "expansions": 80,
+      "buckets": 36,
+      "retained": 16
+    },
+    {
+      "block": 27,
+      "expansions": 80,
+      "buckets": 19,
+      "retained": 16
+    },
+    {
+      "block": 28,
+      "expansions": 80,
+      "buckets": 60,
+      "retained": 16
+    },
+    {
+      "block": 29,
+      "expansions": 80,
+      "buckets": 60,
+      "retained": 16
+    },
+    {
+      "block": 30,
+      "expansions": 80,
+      "buckets": 43,
+      "retained": 16
+    },
+    {
+      "block": 31,
+      "expansions": 80,
+      "buckets": 35,
+      "retained": 16
+    },
+    {
+      "block": 32,
+      "expansions": 80,
+      "buckets": 29,
+      "retained": 16
+    },
+    {
+      "block": 33,
+      "expansions": 80,
+      "buckets": 29,
+      "retained": 16
+    },
+    {
+      "block": 34,
+      "expansions": 80,
+      "buckets": 11,
+      "retained": 11
+    },
+    {
+      "block": 35,
+      "expansions": 55,
+      "buckets": 34,
+      "retained": 16
+    },
+    {
+      "block": 36,
+      "expansions": 80,
+      "buckets": 40,
+      "retained": 16
+    },
+    {
+      "block": 37,
+      "expansions": 80,
+      "buckets": 36,
+      "retained": 16
+    },
+    {
+      "block": 38,
+      "expansions": 80,
+      "buckets": 12,
+      "retained": 12
+    },
+    {
+      "block": 39,
+      "expansions": 60,
+      "buckets": 24,
+      "retained": 16
+    },
+    {
+      "block": 40,
+      "expansions": 80,
+      "buckets": 30,
+      "retained": 16
+    },
+    {
+      "block": 41,
+      "expansions": 80,
+      "buckets": 10,
+      "retained": 10
+    },
+    {
+      "block": 42,
+      "expansions": 50,
+      "buckets": 21,
+      "retained": 16
+    },
+    {
+      "block": 43,
+      "expansions": 80,
+      "buckets": 27,
+      "retained": 16
+    },
+    {
+      "block": 44,
+      "expansions": 80,
+      "buckets": 28,
+      "retained": 16
+    },
+    {
+      "block": 45,
+      "expansions": 80,
+      "buckets": 23,
+      "retained": 16
+    },
+    {
+      "block": 46,
+      "expansions": 80,
+      "buckets": 18,
+      "retained": 16
+    },
+    {
+      "block": 47,
+      "expansions": 80,
+      "buckets": 19,
+      "retained": 16
+    },
+    {
+      "block": 48,
+      "expansions": 80,
+      "buckets": 16,
+      "retained": 16
+    },
+    {
+      "block": 49,
+      "expansions": 80,
+      "buckets": 9,
+      "retained": 9
+    },
+    {
+      "block": 50,
+      "expansions": 45,
+      "buckets": 18,
+      "retained": 16
+    },
+    {
+      "block": 51,
+      "expansions": 80,
+      "buckets": 29,
+      "retained": 16
+    },
+    {
+      "block": 52,
+      "expansions": 80,
+      "buckets": 26,
+      "retained": 16
+    },
+    {
+      "block": 53,
+      "expansions": 80,
+      "buckets": 20,
+      "retained": 16
+    },
+    {
+      "block": 54,
+      "expansions": 80,
+      "buckets": 20,
+      "retained": 16
+    },
+    {
+      "block": 55,
+      "expansions": 80,
+      "buckets": 0,
+      "retained": 0
+    }
+  ],
+  "incumbent_time_s": 90.11420466033407,
+  "incumbent_name": "spread",
+  "probes": {
+    "full": {
+      "duration_s": 89.61177117212954,
+      "final_energy_j": 100000.0,
+      "terminal_speed_error_mps": -1.0628482134889339,
+      "energy_residual_j": 8.538280749093019e-09,
+      "feasible": false,
+      "recovered_j": 1487578.073034935,
+      "discharged_j": 3387578.073034931,
+      "max_work_residual_j": 5.384208634495735e-09,
+      "max_battery_residual_j": 1.902662916108966e-09,
+      "file": "results\\bahrain-deployment-zones-001\\central\\full_40.json.gz",
+      "wheel_assist_j": 3048820.265731438
+    },
+    "spread": {
+      "duration_s": 90.11420466033407,
+      "final_energy_j": 194596.90182359592,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "energy_residual_j": -7.249749911508729e-09,
+      "feasible": true,
+      "recovered_j": 1498908.775713271,
+      "discharged_j": 3304311.8738896693,
+      "max_work_residual_j": 5.922629497945309e-09,
+      "max_battery_residual_j": 3.2878233469091356e-09,
+      "file": "results\\bahrain-deployment-zones-001\\central\\spread_40.json.gz",
+      "wheel_assist_j": 2973880.6865007016
+    },
+    "zero": {
+      "duration_s": 91.7981237466019,
+      "final_energy_j": 3420833.2574129035,
+      "terminal_speed_error_mps": -1.6049966842299028,
+      "energy_residual_j": -2.8033502186275427e-09,
+      "feasible": false,
+      "recovered_j": 1420833.257412906,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 4.831235855817795e-09,
+      "max_battery_residual_j": 3.7834979593753815e-09,
+      "file": "results\\bahrain-deployment-zones-001\\central\\zero_40.json.gz",
+      "wheel_assist_j": 0.0
+    },
+    "finish_only": {
+      "duration_s": 91.6337594324542,
+      "final_energy_j": 2921885.873046515,
+      "terminal_speed_error_mps": 0.0,
+      "energy_residual_j": 1.3780516727734948e-09,
+      "feasible": true,
+      "recovered_j": 1431069.451313595,
+      "discharged_j": 509183.57826707064,
+      "max_work_residual_j": 4.831235855817795e-09,
+      "max_battery_residual_j": 3.8471625884994864e-09,
+      "file": "results\\bahrain-deployment-zones-001\\central\\finish_only_40.json.gz",
+      "wheel_assist_j": 458265.2204403636
+    }
+  }
+}

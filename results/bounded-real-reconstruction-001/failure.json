@@ -1,0 +1,1 @@
+{"reason":"Serialization failed after numerical runs and figure generation: relative output path passed to Path.relative_to absolute ROOT. Original bytes retained; corrected path serialization in run002. No protocol, selection, constraints, or thresholds changed."}

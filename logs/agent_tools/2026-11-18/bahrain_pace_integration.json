@@ -1,0 +1,23 @@
+{
+  "docs": 18,
+  "local_links": 214,
+  "broken": [],
+  "hash_checks": {
+    "results\\bahrain-deployment-zones-001": 92,
+    "results\\bahrain-pace-calibration-001": 27,
+    "results\\bahrain-pace-diagnosis-001": 18,
+    "results\\bahrain-pace-mechanisms-001": 11,
+    "results\\bahrain-path-candidate-001": 20,
+    "results\\bahrain-zone-support-001": 7,
+    "figures\\dissertation\\ppo-imitation-comparison-v1": 8
+  },
+  "figure_pairs": 11,
+  "unit_tests_passed": 146,
+  "software_verification": "92 hashes and 60 replays checked",
+  "pace_gate": false,
+  "primary_and_refined_gains_s": {
+    "160": 0.989972415888758,
+    "320": 0.988253104681192
+  },
+  "recurring_zones": 7
+}

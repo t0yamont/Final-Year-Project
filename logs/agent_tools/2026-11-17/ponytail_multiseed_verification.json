@@ -1,0 +1,339 @@
+{
+  "hash_checks": 116,
+  "replays_checked": 66,
+  "max_absolute_energy_residual_j": 7.44112185202539e-08,
+  "all_seeds_passed": true,
+  "cases": [
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\checkpoint_0_deterministic_fine.json.gz",
+      "global_energy_residual_j": -3.918103175237775e-08,
+      "duration_s": 109.47504466161473
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\checkpoint_0_deterministic_training.json.gz",
+      "global_energy_residual_j": -4.780304152518511e-09,
+      "duration_s": 109.85502191571635
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\checkpoint_12288_deterministic_fine.json.gz",
+      "global_energy_residual_j": -2.270098775625229e-09,
+      "duration_s": 108.2994757983378
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\checkpoint_12288_deterministic_training.json.gz",
+      "global_energy_residual_j": -1.1190422810614109e-08,
+      "duration_s": 108.68836625956041
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\checkpoint_16384_deterministic_fine.json.gz",
+      "global_energy_residual_j": -4.090543370693922e-08,
+      "duration_s": 108.24491599531224
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\checkpoint_16384_deterministic_training.json.gz",
+      "global_energy_residual_j": -2.5262124836444855e-08,
+      "duration_s": 108.62888353477253
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\checkpoint_4096_deterministic_fine.json.gz",
+      "global_energy_residual_j": -6.056507118046284e-08,
+      "duration_s": 109.41553909562438
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\checkpoint_4096_deterministic_training.json.gz",
+      "global_energy_residual_j": 2.546585164964199e-09,
+      "duration_s": 109.7950864839508
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\checkpoint_8192_deterministic_fine.json.gz",
+      "global_energy_residual_j": -5.00003807246685e-08,
+      "duration_s": 108.30305628209794
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\checkpoint_8192_deterministic_training.json.gz",
+      "global_energy_residual_j": 5.7480065152049065e-09,
+      "duration_s": 108.68725371434681
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\final_stochastic_101_fine.json.gz",
+      "global_energy_residual_j": -1.853914000093937e-08,
+      "duration_s": 108.31473479979907
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\final_stochastic_101_training.json.gz",
+      "global_energy_residual_j": -2.8026988729834557e-08,
+      "duration_s": 108.6947794740769
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\final_stochastic_102_fine.json.gz",
+      "global_energy_residual_j": -1.2354576028883457e-08,
+      "duration_s": 108.35132765985125
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\final_stochastic_102_training.json.gz",
+      "global_energy_residual_j": -5.689798854291439e-09,
+      "duration_s": 108.72699313501568
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\final_stochastic_103_fine.json.gz",
+      "global_energy_residual_j": -1.1612428352236748e-08,
+      "duration_s": 108.33470086325559
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\final_stochastic_103_training.json.gz",
+      "global_energy_residual_j": -2.0081643015146255e-08,
+      "duration_s": 108.71415822894336
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\final_stochastic_104_fine.json.gz",
+      "global_energy_residual_j": -2.648448571562767e-08,
+      "duration_s": 108.32336211877339
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\final_stochastic_104_training.json.gz",
+      "global_energy_residual_j": -2.034357748925686e-08,
+      "duration_s": 108.70928021111938
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\final_stochastic_105_fine.json.gz",
+      "global_energy_residual_j": -1.552689354866743e-08,
+      "duration_s": 108.37846271739804
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\final_stochastic_105_training.json.gz",
+      "global_energy_residual_j": -5.2532413974404335e-09,
+      "duration_s": 108.76235321207243
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\reloaded_final_deterministic_fine.json.gz",
+      "global_energy_residual_j": -4.090543370693922e-08,
+      "duration_s": 108.24491599531224
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-0\\reloaded_final_deterministic_training.json.gz",
+      "global_energy_residual_j": -2.5262124836444855e-08,
+      "duration_s": 108.62888353477253
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\checkpoint_0_deterministic_fine.json.gz",
+      "global_energy_residual_j": -4.791218088939786e-08,
+      "duration_s": 109.46330059656901
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\checkpoint_0_deterministic_training.json.gz",
+      "global_energy_residual_j": -8.905772119760513e-09,
+      "duration_s": 109.84333657824882
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\checkpoint_12288_deterministic_fine.json.gz",
+      "global_energy_residual_j": 9.022187441587448e-10,
+      "duration_s": 108.18668317347911
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\checkpoint_12288_deterministic_training.json.gz",
+      "global_energy_residual_j": -3.405148163437843e-08,
+      "duration_s": 108.57216015698968
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\checkpoint_16384_deterministic_fine.json.gz",
+      "global_energy_residual_j": -3.591412678360939e-08,
+      "duration_s": 108.18626821530388
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\checkpoint_16384_deterministic_training.json.gz",
+      "global_energy_residual_j": -8.818460628390312e-09,
+      "duration_s": 108.56731726152024
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\checkpoint_4096_deterministic_fine.json.gz",
+      "global_energy_residual_j": -9.720679372549057e-09,
+      "duration_s": 109.25489199516875
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\checkpoint_4096_deterministic_training.json.gz",
+      "global_energy_residual_j": -2.236629370599985e-08,
+      "duration_s": 109.63522642665937
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\checkpoint_8192_deterministic_fine.json.gz",
+      "global_energy_residual_j": -7.44112185202539e-08,
+      "duration_s": 108.25712059999952
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\checkpoint_8192_deterministic_training.json.gz",
+      "global_energy_residual_j": -1.1350493878126144e-09,
+      "duration_s": 108.64171774125165
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\final_stochastic_101_fine.json.gz",
+      "global_energy_residual_j": -1.437729224562645e-08,
+      "duration_s": 108.16919517419761
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\final_stochastic_101_training.json.gz",
+      "global_energy_residual_j": -1.3620592653751373e-08,
+      "duration_s": 108.54936964156943
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\final_stochastic_102_fine.json.gz",
+      "global_energy_residual_j": 1.4391844160854816e-08,
+      "duration_s": 108.39163499879348
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\final_stochastic_102_training.json.gz",
+      "global_energy_residual_j": -5.7480065152049065e-09,
+      "duration_s": 108.76695658941283
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\final_stochastic_103_fine.json.gz",
+      "global_energy_residual_j": -3.326567821204662e-08,
+      "duration_s": 108.33534402057825
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\final_stochastic_103_training.json.gz",
+      "global_energy_residual_j": -1.2092641554772854e-08,
+      "duration_s": 108.71588855499095
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\final_stochastic_104_fine.json.gz",
+      "global_energy_residual_j": 2.8812792152166367e-09,
+      "duration_s": 108.18130586473416
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\final_stochastic_104_training.json.gz",
+      "global_energy_residual_j": -2.8492650017142296e-08,
+      "duration_s": 108.560778059325
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\final_stochastic_105_fine.json.gz",
+      "global_energy_residual_j": -1.3271346688270569e-08,
+      "duration_s": 108.38810097135213
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\final_stochastic_105_training.json.gz",
+      "global_energy_residual_j": -9.851646609604359e-09,
+      "duration_s": 108.77339374944356
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\reloaded_final_deterministic_fine.json.gz",
+      "global_energy_residual_j": -3.591412678360939e-08,
+      "duration_s": 108.18626821530388
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-1\\reloaded_final_deterministic_training.json.gz",
+      "global_energy_residual_j": -8.818460628390312e-09,
+      "duration_s": 108.56731726152024
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\checkpoint_0_deterministic_fine.json.gz",
+      "global_energy_residual_j": -3.786408342421055e-08,
+      "duration_s": 109.47469735233955
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\checkpoint_0_deterministic_training.json.gz",
+      "global_energy_residual_j": 2.371962182223797e-09,
+      "duration_s": 109.85466641075348
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\checkpoint_12288_deterministic_fine.json.gz",
+      "global_energy_residual_j": -1.2441887520253658e-08,
+      "duration_s": 108.28304825715661
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\checkpoint_12288_deterministic_training.json.gz",
+      "global_energy_residual_j": 2.0081643015146255e-09,
+      "duration_s": 108.66538763587351
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\checkpoint_16384_deterministic_fine.json.gz",
+      "global_energy_residual_j": -1.3387762010097504e-09,
+      "duration_s": 108.28399021513165
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\checkpoint_16384_deterministic_training.json.gz",
+      "global_energy_residual_j": 7.0285750553011894e-09,
+      "duration_s": 108.66591906458325
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\checkpoint_4096_deterministic_fine.json.gz",
+      "global_energy_residual_j": -3.3862306736409664e-08,
+      "duration_s": 108.71305093399057
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\checkpoint_4096_deterministic_training.json.gz",
+      "global_energy_residual_j": -1.7898855730891228e-08,
+      "duration_s": 109.09486653913619
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\checkpoint_8192_deterministic_fine.json.gz",
+      "global_energy_residual_j": -2.0954757928848267e-09,
+      "duration_s": 108.32299398581847
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\checkpoint_8192_deterministic_training.json.gz",
+      "global_energy_residual_j": 1.30385160446167e-08,
+      "duration_s": 108.70560657735624
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\final_stochastic_101_fine.json.gz",
+      "global_energy_residual_j": -8.396455086767673e-09,
+      "duration_s": 108.31523041112997
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\final_stochastic_101_training.json.gz",
+      "global_energy_residual_j": -8.571078069508076e-09,
+      "duration_s": 108.69768675933597
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\final_stochastic_102_fine.json.gz",
+      "global_energy_residual_j": -2.2264430299401283e-08,
+      "duration_s": 108.3263397307688
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\final_stochastic_102_training.json.gz",
+      "global_energy_residual_j": -3.0122464522719383e-09,
+      "duration_s": 108.7045171995386
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\final_stochastic_103_fine.json.gz",
+      "global_energy_residual_j": 3.92901711165905e-10,
+      "duration_s": 108.26343775413876
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\final_stochastic_103_training.json.gz",
+      "global_energy_residual_j": 2.764863893389702e-09,
+      "duration_s": 108.6498675854569
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\final_stochastic_104_fine.json.gz",
+      "global_energy_residual_j": 1.900480128824711e-08,
+      "duration_s": 108.24728573724197
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\final_stochastic_104_training.json.gz",
+      "global_energy_residual_j": 3.2756361179053783e-08,
+      "duration_s": 108.62928583268507
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\final_stochastic_105_fine.json.gz",
+      "global_energy_residual_j": 5.282345227897167e-09,
+      "duration_s": 108.34069806213125
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\final_stochastic_105_training.json.gz",
+      "global_energy_residual_j": -1.3955286704003811e-08,
+      "duration_s": 108.73078722062515
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\reloaded_final_deterministic_fine.json.gz",
+      "global_energy_residual_j": -1.3387762010097504e-09,
+      "duration_s": 108.28399021513165
+    },
+    {
+      "file": "results\\circuit-multiseed-001\\seed-2\\reloaded_final_deterministic_training.json.gz",
+      "global_energy_residual_j": 7.0285750553011894e-09,
+      "duration_s": 108.66591906458325
+    }
+  ],
+  "script_sha256": "1902eeab13f239157914307c0d8ed21494dd1994ae4f6c074b28a2f6a4e3e7fd"
+}

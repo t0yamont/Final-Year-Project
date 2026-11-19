@@ -1,0 +1,26 @@
+{
+  "study": "Regenerative Sakhir supervised-imitation width pilot",
+  "teacher_manifest": "results/regeneration-robustness-001/manifest.json",
+  "teacher_manifest_sha256": "cd84af77877b1143b25bc586252ef5decba7c183d7a9279475a2d9d79b60a2af",
+  "ppo_transfer_protocol": "configs/regeneration_ppo_actor64.json",
+  "ppo_transfer_protocol_sha256": "938f77426e608205aeebdd92ac8f2987470f4bd52291964d22cbc7a520918052",
+  "fit_scenarios": ["nominal", "low_initial_energy", "low_charge_efficiency", "low_braking_share"],
+  "evaluation": [
+    {"name": "nominal", "parameter": null, "value": null, "split": "in_sample"},
+    {"name": "energy_1p5MJ", "parameter": "initial_energy_j", "value": 1500000, "split": "held_out"},
+    {"name": "drag_1p05", "parameter": "drag_kg_per_m", "value": 1.05, "split": "held_out"},
+    {"name": "high_drag", "parameter": "drag_kg_per_m", "value": 1.1, "split": "held_out"}
+  ],
+  "action_blocks": 55,
+  "teacher_cells": 160,
+  "evaluation_cells": [160, 320],
+  "widths": [32, 64],
+  "seeds": [0, 1, 2],
+  "architecture": "8 unchanged CircuitControlEnv observations; two same-width Tanh hidden layers; one linear output; clamp continuous deployment request to [0, 1] for inference",
+  "optimizer": "CUDA Adam (standard defaults except learning rate, capturable state), float32 full-batch MSE on raw output, no shuffling or data transforms",
+  "epochs": 500,
+  "learning_rate": 0.003,
+  "gates": {"paired_gap_change_s": 0.005, "relative_lap_change": 0.0025, "terminal_energy_change_j": 10000, "recovered_change_j": 5000},
+  "selection": "One fit per seed and width, final epoch only. No held-out labels, scenario parameters, selection, or tuning in fit. No terminal guard, query of a new expert, or online corrective actions.",
+  "interpretation": "Common whole-scenario splits, closed-loop physics at both grids. Compare paired widths only after physical feasibility and report numerical failures. The high-drag archived teacher may be audited only as a post-fit reference. The two intermediate conditions have no model-aware label. Prior PPO used nominal-only training, so between-method outcomes are descriptive."
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-19",
+  "meeting_key": 1257,
+  "session_key": 10010,
+  "driver_number": 22,
+  "laps": [2, 5, 13],
+  "selection": "All conditional motion candidates in the existing Bahrain qualifying acquisition for the other Red Bull driver. This is a new driver comparison for free-running pace within a known development event.",
+  "inputs": {
+    "results/openf1-dataset-003/development/1257/10010/driver-22-laps.json": "98e1c7a62ae99c2a08af5b0e8d3c084de05038421f75802d473421bd611e19dd",
+    "results/openf1-dataset-003/development/1257/10010/driver-22-complete.json": "41defb27e71cb01d78814d94d30065075e3016e9465ec291bf5ecc0b1c2202f4",
+    "results/bahrain-pace-calibration-001/model.json": "6884eb5359a3451e02b24480fda61c75f5b39309d9ea5c0c80e0787234ec59b1"
+  },
+  "candidate": "Change only the model path. Use driver 1 lap 13 native XY in metres at the same timing bounds, with the rolling line at the midpoint of its interpolated endpoint coordinates and duplicate consecutive vertices removed. Keep native scale and apply the same periodic 5 m interpolation and 10 m smoothing as the reference. Preserve the original vehicle, DRS block pattern, 55 decisions, common line speed, energy rules and quarter request. No new parameter fitting.",
+  "curve_lock": "results/bahrain-path-candidate-001/locked_predictions.json",
+  "gates": {"absolute_lap_error_s": 2.0, "absolute_each_sector_error_s": 1.0, "speed_rmse_mps": 5.0, "absolute_grid_time_change_s": 0.25, "absolute_finish_speed_error_mps": 0.00001},
+  "evaluation": "Use original driver 1 sector boundary fractions and distance weighting. Report all three individual outcomes and unchanged-reference scores on the same laps. Freeze both free-running traces and their hashes before accessing the transfer measurements. The original driver 1 checks (laps 4 and 10) are known diagnostic data.",
+  "decision": "Adopt the path replacement for a new deployment search only if both original separate laps and all three cross-driver laps pass every existing pace, grid and finish criterion. Otherwise preserve the original conditional map and document where each approach succeeds or fails."
+}

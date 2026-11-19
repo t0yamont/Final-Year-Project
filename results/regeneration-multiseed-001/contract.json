@@ -1,0 +1,103 @@
+{
+  "protocol": {
+    "study": "Regeneration-aware GPU multi-seed study on the fixed assumed Bahrain model",
+    "baselines": "results/regeneration-validation-001",
+    "training_seeds": [
+      0,
+      1,
+      2
+    ],
+    "steps_per_seed": 16384,
+    "checkpoint_steps": [
+      0,
+      4096,
+      8192,
+      12288,
+      16384
+    ],
+    "stochastic_evaluation_seeds": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "parallel_workers": 3,
+    "hyperparameters": {
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "gamma": 1.0,
+      "gae_lambda": 0.95,
+      "learning_rate": 0.0003,
+      "clip_range": 0.2,
+      "ent_coef": 0.0,
+      "net_arch": [
+        32,
+        32
+      ]
+    },
+    "primary_endpoint": "Final deterministic fine-grid policy from every training seed; no best-checkpoint selection",
+    "secondary_endpoint": "Final stochastic training/fine/refined paired evaluations with five fixed action-noise seeds; summarize within training seed first",
+    "aggregation": "Mean, sample standard deviation and range across three training seeds; no significance or convergence claim from this sample alone",
+    "conditions": "Same 55 decisions/lap, 8 observations, automatic MGU-K recovery, 2 MJ initial/0.1 MJ reserve and 70 m/s start/finish as regeneration pilot; no final-test telemetry",
+    "rng_isolation": "Every evaluation restores Python, NumPy, torch CPU and all CUDA RNG states; each coarse/fine stochastic member starts from the same evaluation seed",
+    "schedule": "Constant learning rate and clip range; training state persists across4096-step learn calls; separate evaluation environments",
+    "gate": "All final deterministic and stochastic replays feasible; training-to-fine gain-versus-zero discrepancy <=0.05 s; additional fine-to-refined paired advantage, lap-time and battery/recovery convergence gates apply to all final pairs",
+    "failure_policy": "Preserve all failed gates and seeds; aggregate completed seeds without filtering numerical failures. An accepted study requires all three complete and all final replay/refinement gates pass. Do not relax thresholds after observing results.",
+    "refinement": {
+      "cells_per_block": 320,
+      "baseline_policy": "full",
+      "max_paired_advantage_error_s": 0.005,
+      "max_relative_lap_time_error": 0.0025,
+      "max_terminal_energy_error_j": 10000.0,
+      "max_recovery_error_j": 5000.0
+    },
+    "interpretation": "Primary endpoint remains final deterministic 8800-cell lap. The 17600-cell replay diagnoses paired numerical uncertainty. Passing a numerical gate is not evidence of statistical significance; three seeds provide descriptive variation only."
+  },
+  "gpu": {
+    "device": "cuda:0",
+    "gpu_name": "NVIDIA A16-16Q",
+    "total_memory_bytes": 17179410432,
+    "compute_capability": [
+      8,
+      6
+    ],
+    "torch_version": "2.14.1+cu126",
+    "cuda_runtime": "12.6",
+    "cudnn_version": 91002,
+    "cuda_optimizer_smoke_passed": true,
+    "cpu_fallback_allowed": false
+  },
+  "inputs": {
+    "configs\\regeneration_multiseed_protocol.json": "d8488fcd1a5c3e498d29a077052f7c7e9f2bd6958f4a24fabcd6157e05cd486a",
+    "results\\regeneration-validation-001\\manifest.json": "d3379ef9656e8ff927d89504ac48378a2d2c5cf35a59255df2421df4cc967a64"
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src\\f1energy\\event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\train_circuit_multiseed.py": "491d4609997db5a8a05cbed9e8fa0419fe10531c5014f6e84114649dc2aaea69",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "src\\f1energy\\experiment.py": "59de362c2cfa54f456ff4df925d2702d9ca555a793dedfb6bf37ee72749fee4a",
+    "src\\f1energy\\training_device.py": "5e9eff32770f5413707808049ae46e72040cb99bdd3dd76111d68acd7925e814",
+    "src\\f1energy\\circuit_training_gate.py": "ee4291988beb2ec37474060bfc7cdcd01b351a3263922f610e2d8ad6a2a0da3f"
+  },
+  "refinement_inputs": {
+    "results\\regeneration-multiseed-001\\refined_zero.json.gz": "f187f0f0942ca865cfbc6c7376d86120f4694f2b5900eab2d7c491b3709e3f30",
+    "results\\regeneration-multiseed-001\\refined_comparator.json.gz": "0076c5cd2778d77c12efa77e0f93866083f34930051dd9b78182b8b1a2dda1a1"
+  },
+  "refinement_baseline_check": {
+    "refined_time_s": 107.49879361151098,
+    "refined_final_energy_j": 100000.0,
+    "fine_advantage_s": 0.0,
+    "refined_advantage_s": 0.0,
+    "paired_advantage_discrepancy_s": 0.0,
+    "relative_lap_time_error": 0.001753703964275706,
+    "terminal_energy_discrepancy_j": 0.0,
+    "recovery_discrepancy_j": 1.1641532182693481e-09,
+    "passed": true
+  },
+  "logical_cpu_count": 16
+}

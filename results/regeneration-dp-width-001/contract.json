@@ -1,0 +1,85 @@
+{
+  "protocol": {
+    "parent": "results/regeneration-dp-factorial-001",
+    "corner": "110",
+    "widths": [
+      16,
+      32,
+      64
+    ],
+    "search_cells": 80,
+    "replay_cells": [
+      80,
+      160,
+      320
+    ],
+    "primary_cells": 160,
+    "stability_s": 0.05,
+    "gap_change_s": 0.005,
+    "selection": "Full request incumbent in each independent search. Hold five actions, original speed and energy bins, solver and 55 blocks fixed. Report all widths. Compare 16 to 32 and 32 to 64 on both replay grids.",
+    "stop": "No width beyond 64. Report both adjacent changes and compare the final pair against 50 ms. A pass supports local stability only."
+  },
+  "config": {
+    "reference_config": "configs/circuit_reference.json",
+    "numerical_gate": "results/regeneration-validation-001",
+    "action_blocks": 55,
+    "cells_per_block": [
+      80,
+      160
+    ],
+    "fine_cells_per_block": 160,
+    "initial_speed_mps": 70.0,
+    "policies": [
+      "zero",
+      "half",
+      "full",
+      "spread",
+      "exit_boost"
+    ],
+    "gates": {
+      "relative_lap_time": 0.005,
+      "gain_error_s": 0.05,
+      "ranking_tie_s": 0.02
+    },
+    "pilot": {
+      "seed": 0,
+      "steps": 4096,
+      "gamma": 1.0,
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "net_arch": [
+        32,
+        32
+      ]
+    },
+    "interpretation": "MGU-K-only assumed reference model; automatic braking recovery, fixed total braking, no MGU-H. Capacity, efficiency and rear braking share are assumptions. No measured-car or full regulatory compliance claim.",
+    "regeneration": {
+      "capacity_j": 4000000.0,
+      "charge_efficiency": 0.8,
+      "max_power_w": 120000.0,
+      "braking_fraction": 0.4,
+      "recovery_limit_j": 2000000.0,
+      "deployment_limit_j": 4000000.0
+    },
+    "sources": [
+      "https://api.fia.com/sites/default/files/documents/fia_2025_formula_1_technical_regulations_-_issue_03_-_2025-04-07.pdf",
+      "https://www.mclaren.com/racing/formula-1/2025/mcl39-technical-specification/"
+    ]
+  },
+  "inputs": {
+    "configs\\regeneration_dp_width.json": "7943ed21b69492c7f07a8de2944155cf0b5628dc890860ea552813b069924cb2",
+    "results\\regeneration-dp-factorial-001\\manifest.json": "3b9f9c65e80caf72e7d8965c925f0f708ae4e1f0aefb6a8db88d99dbe7dc61f3"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\run_regeneration_dp_width.py": "682bc98fa7e338d0502904605b90f7c56f77a8b1fef1ea5375bd10882f7ca3e6",
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src\\f1energy\\event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\optimize_regeneration_dp.py": "b7cf0171ff58633b6fdc569dd6784adbe49e0c7239b755ddeb59d565c654bcfa",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "src\\f1energy\\circuit_training_gate.py": "ee4291988beb2ec37474060bfc7cdcd01b351a3263922f610e2d8ad6a2a0da3f",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\run_regeneration_dp_factorial.py": "17beb6879002027b29a9a42aee3d523706954ea63c439d74b8707403c18e1e44"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "protocol": {
+    "inputs": "results/bahrain-pace-inputs-001",
+    "historic": "results/regeneration-dp-width-001",
+    "fit_laps": [
+      13
+    ],
+    "check_laps": [
+      4,
+      10
+    ],
+    "reference_action": 0.25,
+    "fit_cells_per_block": 80,
+    "bounds": {
+      "lateral_base_mps2": [
+        12,
+        32
+      ],
+      "lateral_aero_per_m": [
+        0,
+        0.012
+      ],
+      "brake_mps2": [
+        8,
+        40
+      ],
+      "base_power_kw": [
+        330,
+        650
+      ],
+      "drag_kg_per_m": [
+        0.45,
+        1.4
+      ],
+      "drs_drag_factor": [
+        0.65,
+        1.0
+      ]
+    },
+    "development_objective": "Fit free-running speed against lap 13 on a uniform fractional distance grid and sector durations at fixed development-derived boundaries. Include weak regularisation about engineering starting values. Keep mass, electrical power, efficiency and energy budgets fixed. Conditional unknown deployment represented by a constant quarter request. DRS zones are a fixed distance lookup derived only from the development lap. Validate the fast fit integrator against exact finite-battery event replays. Stop after one fit. Holdout target speeds do not enter the simulator.",
+    "diagnostics": "Report signed lap/sector time errors and distance-weighted speed RMSE, observed braking, corner-exit and throttle/DRS residuals, and the change from the historical best schedule. The historical trace is rotated by the independently located start line.",
+    "assessment": {
+      "absolute_lap_error_s": 2.0,
+      "absolute_each_sector_error_s": 1.0,
+      "speed_rmse_mps": 5.0,
+      "absolute_grid_time_change_s": 0.25
+    },
+    "claim": "All held-out laps must meet the empirical criteria. These are practical dissertation thresholds, not measurement confidence intervals. A failure permits only a conditional map and must be reported by criterion. No fitting to the pole or protected RQ3 events.",
+    "zone_sensitivities": "Scale both lateral acceleration terms together by 0.95 and 1.05. These local grip/aero scenarios test robustness of zone choices and are not a statistical parameter range."
+  },
+  "inputs": {
+    "configs\\bahrain_pace_protocol.json": "a0d050b0b47ec88e9424cbbe2d77414599b4bcc40b83190332c79bdb991f3c30",
+    "results\\bahrain-pace-inputs-001\\metrics.json": "e6a6c8ae90eb77641374136f0a950ae9c61ed0dd93f41104f877a599db92eb20",
+    "results\\bahrain-pace-inputs-001\\lap-13.csv": "00765ca5d3d0b0c6ed91ca63321aed217c9c96a545472b3e571257e7f8faa23b",
+    "results\\regeneration-dp-width-001\\manifest.json": "e5a27bed69673d5317c7e645730c662ee953b38605f8bb64059b4f09187349a8",
+    "configs\\circuit_reference.json": "19b80d69d3e91d32a9ce4a2b00a40589fcd16ceb387c17ca4ad151a5a6043657",
+    "configs\\regeneration_study.json": "e2cf5f325d40b3b3341fa83f90cdff5ee4d6d71d515729fe662d997e3f0e0edb"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\calibrate_bahrain_pace.py": "c314dfe3c85077c46f0d5f16ef8735e3bf73f570019b6429b964992089c3cc19",
+    "scripts\\bahrain_pace_model.py": "4983b5bb3e0426d4b9d1b4b02c3c9933142702560a783a92ae3446e0508dc217",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "src\\f1energy\\circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "src\\f1energy\\event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b"
+  }
+}

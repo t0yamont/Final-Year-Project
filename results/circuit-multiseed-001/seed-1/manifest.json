@@ -1,0 +1,51 @@
+{
+  "inputs": {
+    "configs\\circuit_multiseed_protocol.json": "c8f349200400ff8c75f6783bab5ca28514a1f283531ce4840244878ff4f9cfeb",
+    "results\\circuit-control-baselines-001\\manifest.json": "3c2b27317c8b6aeed262cb4482fe2647acb47ce94295ba25420fc524a3836bbf"
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "69b5f4ffac4a297cfa8dcecb9fd57ebf4a03acf800363f162e2338a3e1b78e52",
+    "src\\f1energy\\event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\train_circuit_multiseed.py": "98bb4518787ed3a19cb5afa03d4ffd68f1cc392f01d2435e28fbd1fdbec79ea9",
+    "scripts\\benchmark_circuit_control.py": "782b00b91a3d53bd879bb35c4ea6be3f32ee0d7ecb31efa14d7f4e0d5fa98625",
+    "src\\f1energy\\experiment.py": "59de362c2cfa54f456ff4df925d2702d9ca555a793dedfb6bf37ee72749fee4a",
+    "src\\f1energy\\training_device.py": "5e9eff32770f5413707808049ae46e72040cb99bdd3dd76111d68acd7925e814",
+    "src\\f1energy\\circuit_training_gate.py": "ee4291988beb2ec37474060bfc7cdcd01b351a3263922f610e2d8ad6a2a0da3f"
+  },
+  "outputs": {
+    "results\\circuit-multiseed-001\\seed-1\\checkpoint_0.zip": "226d9fe433acbd4127ed4788c7d24c027e20d592820da0a9d44575431c41a024",
+    "results\\circuit-multiseed-001\\seed-1\\checkpoint_0_deterministic_fine.json.gz": "75f7ed7d0479573e9b2c0483d705254c0677aa943c2e32f75d94ea706eed675a",
+    "results\\circuit-multiseed-001\\seed-1\\checkpoint_0_deterministic_training.json.gz": "7053d9cd2aec72a44096ae93d584d04f845da9f47e094bde7a8398bd5b489696",
+    "results\\circuit-multiseed-001\\seed-1\\checkpoint_12288.zip": "bdf3ebf5dcd452a759ef716857b4dc09184b00d39bed57b84fb61b6632cec3ed",
+    "results\\circuit-multiseed-001\\seed-1\\checkpoint_12288_deterministic_fine.json.gz": "74fa2de1c3cc422aa94bca7bc26e057bd3b4eae86df054ca9c123e4d63676989",
+    "results\\circuit-multiseed-001\\seed-1\\checkpoint_12288_deterministic_training.json.gz": "e225a59cea4579bcf73070ee56ccc22774d84d20cbe48a75ee9a0ab42f01aef4",
+    "results\\circuit-multiseed-001\\seed-1\\checkpoint_16384.zip": "979a21b1783dd0d7fe95023a4d2d1c01a4fb3cfa0140a03d5baef61de92b2c87",
+    "results\\circuit-multiseed-001\\seed-1\\checkpoint_16384_deterministic_fine.json.gz": "ae8e603dc82f1432683fe8168ecaba4b0b9cc3a49252f46243b28f97c8daad27",
+    "results\\circuit-multiseed-001\\seed-1\\checkpoint_16384_deterministic_training.json.gz": "0346b95fc50143c35ac33c0ed22562ee7a88b49dcf2dd9b13b6f55216c677d35",
+    "results\\circuit-multiseed-001\\seed-1\\checkpoint_4096.zip": "f886d08476619253bb18f5c4afa7d3425a238a6a5b20d432fce41cfa8ab65114",
+    "results\\circuit-multiseed-001\\seed-1\\checkpoint_4096_deterministic_fine.json.gz": "987464dfd9a095a7ffb4c6e97cb620fa328529bcb438276d7a956aa76c131572",
+    "results\\circuit-multiseed-001\\seed-1\\checkpoint_4096_deterministic_training.json.gz": "b1aa1728d695265f32be53315644db2b126ca8a2d0e41a83e7b32b9986505024",
+    "results\\circuit-multiseed-001\\seed-1\\checkpoint_8192.zip": "659537821e328d54b5dcab9fa42c828ee45bab8d5cc964a986a284fb737331dd",
+    "results\\circuit-multiseed-001\\seed-1\\checkpoint_8192_deterministic_fine.json.gz": "a6df5d847786432a938930e40e866d247a82b5afaae71c54a06fa1b53f16ee84",
+    "results\\circuit-multiseed-001\\seed-1\\checkpoint_8192_deterministic_training.json.gz": "ea84d6fe8e0204c3e6c870ef8b450d5e8cc7f4eea3f0f21fe74ee71e3d7f20b2",
+    "results\\circuit-multiseed-001\\seed-1\\contract.json": "2f169a83c51556ce40c21e5d9e252da069da3b6f8661cd127a9af7453fb7aa02",
+    "results\\circuit-multiseed-001\\seed-1\\episodes.monitor.csv": "a7e25138a230030b4caad019f0a89dad9a54ba9b8dd908f7986f4e949e0c83d2",
+    "results\\circuit-multiseed-001\\seed-1\\final_stochastic_101_fine.json.gz": "fa8b7e4247616fd8c6664ac1c1bc6ad867eb4a0584d00f41dad985f4974072d9",
+    "results\\circuit-multiseed-001\\seed-1\\final_stochastic_101_training.json.gz": "5a468fecde13240db805280c07bfc02417d65132626a6da546e5f28d004651f7",
+    "results\\circuit-multiseed-001\\seed-1\\final_stochastic_102_fine.json.gz": "27df629ec1324c02b557f50ea97ecb984e0c79ac417e32b07ccb7f2acbd39181",
+    "results\\circuit-multiseed-001\\seed-1\\final_stochastic_102_training.json.gz": "e9245ebec6a6f629216119ad6ac1db63f0d9d794f0a93de47f72cc393366ee6d",
+    "results\\circuit-multiseed-001\\seed-1\\final_stochastic_103_fine.json.gz": "91ab5f19976c60e1d273bdc22e6b0e5ae6ac2a42f1db263992ce471d8eb6e7f4",
+    "results\\circuit-multiseed-001\\seed-1\\final_stochastic_103_training.json.gz": "b9e93a6061dc4aeb902d2dabe86d0b4ddbbabc57807c1cfb5915414f6d39e774",
+    "results\\circuit-multiseed-001\\seed-1\\final_stochastic_104_fine.json.gz": "af25f81143e69a87bf47b7555a9b1518a5feb1ca096dee321697c87cefa33f93",
+    "results\\circuit-multiseed-001\\seed-1\\final_stochastic_104_training.json.gz": "fd8618fbb4b8f2fc001ac4496dac96a24a6c28b398d7b5b93d3e4b6aaaa3381b",
+    "results\\circuit-multiseed-001\\seed-1\\final_stochastic_105_fine.json.gz": "15b73c11815ee6b73518a6ca68e72d1cb45c7cae11fab92dbced9030af6ec2f2",
+    "results\\circuit-multiseed-001\\seed-1\\final_stochastic_105_training.json.gz": "53aa0069dac92663578e278fc0d88055e76bd41287f6e87cf7a6018da1afb0ec",
+    "results\\circuit-multiseed-001\\seed-1\\metrics.json": "ad3059c575a6fae995a401624d9b1882866e486d16603f10fcf42ee0ba6f5eed",
+    "results\\circuit-multiseed-001\\seed-1\\progress.json": "e93a5cb21b95821cb4f89817d3d3172bf995d9e8e3f9b4b112abd3acad1f73a0",
+    "results\\circuit-multiseed-001\\seed-1\\reloaded_final_deterministic_fine.json.gz": "51c4ad3a47101c5aa862a865d09bf91321a0a2f3a44964db3aee79547f950284",
+    "results\\circuit-multiseed-001\\seed-1\\reloaded_final_deterministic_training.json.gz": "363d5fc1aa8db52183aa4d018bbabe5d689ac126a5a4d4de96a07eaf474d22eb",
+    "results\\circuit-multiseed-001\\seed-1\\logs\\progress.csv": "9022046b9c3895de1e81751e6ab6ab092ba4f445c97053f445b364ef6b221229"
+  }
+}

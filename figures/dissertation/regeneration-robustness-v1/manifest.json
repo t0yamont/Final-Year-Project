@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "results\\regeneration-robustness-001\\manifest.json": "cd84af77877b1143b25bc586252ef5decba7c183d7a9279475a2d9d79b60a2af"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\report_regeneration_robustness.py": "e681f7412984e5aa472790532eef350a62cb6614f4e085ae56fb2ce251801178"
+  },
+  "outputs": {
+    "figures\\dissertation\\regeneration-robustness-v1\\verification.json": "e1767de9a7cc749440c609f25048aeb157a3065610f832b333f861fe142fa62f",
+    "figures\\dissertation\\regeneration-robustness-v1\\01_transfer_feasibility.png": "d89a0ad80d625713078a849fb1aa3fa39d0f1366f2319e35cb23661b9eed10b6",
+    "figures\\dissertation\\regeneration-robustness-v1\\01_transfer_feasibility.pdf": "b887596adeaa731029473a1a024e900bfbc478039c1b8e8812cb64117ae161ed",
+    "figures\\dissertation\\regeneration-robustness-v1\\02_feasibility_grid_checks.png": "7dd9cfdafa10def6ca91dd19c1f952b9dd0cbebd01516ecd6000deffd3a472c0",
+    "figures\\dissertation\\regeneration-robustness-v1\\02_feasibility_grid_checks.pdf": "fbfc85d59ff91ffd9613f99551cb0ae20f8f14655d94548d16ba171abf73a7c1"
+  }
+}

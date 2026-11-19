@@ -1,0 +1,65 @@
+{
+  "config": {
+    "scope": "Assumed point-mass research reference, not a fitted F1 car or regulatory specification",
+    "geometry": "results/circuit-input-assessment-001/Sakhir.csv",
+    "geometry_sha256": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a",
+    "smoothing_sigma_m": 10.0,
+    "resample_spacing_m": 5.0,
+    "smoothing_sensitivity_m": [
+      5.0,
+      10.0,
+      20.0
+    ],
+    "grid_spacing_m": [
+      20.0,
+      10.0,
+      5.0,
+      2.5,
+      1.25,
+      0.625
+    ],
+    "lateral_acceleration_mps2": 20.0,
+    "max_speed_mps": 95.0,
+    "vehicle": {
+      "mass_kg": 800.0,
+      "base_power_w": 450000.0,
+      "electrical_limit_w": 120000.0,
+      "discharge_efficiency": 0.9,
+      "drag_kg_per_m": 1.0,
+      "friction_deceleration_m_per_s2": 12.0
+    },
+    "initial_energy_j": 2000000.0,
+    "reserve_j": 100000.0,
+    "gates": {
+      "speed_closure_mps": 1e-06,
+      "cap_excess_mps": 1e-05,
+      "energy_balance_j": 1.0,
+      "battery_identity_j": 0.01,
+      "finest_grid_time_relative": 0.005,
+      "solver_time_absolute_s": 0.0001
+    },
+    "limitations": [
+      "All vehicle and grip values are declared assumptions, not telemetry-estimated component powers.",
+      "450 kW base plus at most 120 kW electrical gives 570 kW total; effective total-power fits are not added.",
+      "Independent lateral and longitudinal constraints; no combined-slip tyre model, downforce map, grade, regeneration or DRS.",
+      "Source origin is retained; it is not certified to coincide with the official timing line.",
+      "Periodic speed for a single finite-energy lap does not imply battery periodicity or a sustainable race strategy."
+    ]
+  },
+  "inputs": {
+    "configs\\circuit_reference.json": "19b80d69d3e91d32a9ce4a2b00a40589fcd16ceb387c17ca4ad151a5a6043657",
+    "results\\circuit-input-assessment-001\\Sakhir.csv": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a",
+    "results\\circuit-validation-003\\manifest.json": "a6d59939abe422d59a4a384dadf064fe218227ea78cae6ed8b21efe87cc0583d"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\validate_circuit.py": "9b412ddca9e80025431d1aea4c49164e5e06b7515c15de14f11e4aa929e94ec4",
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763"
+  },
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  }
+}

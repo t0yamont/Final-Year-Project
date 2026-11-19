@@ -1,0 +1,130 @@
+[
+  {
+    "scenario": "nominal",
+    "method": "PPO",
+    "width": 32,
+    "feasible": 3,
+    "attempted": 3,
+    "mean_all_seeds_s": 107.4940160405904
+  },
+  {
+    "scenario": "nominal",
+    "method": "PPO",
+    "width": 64,
+    "feasible": 3,
+    "attempted": 3,
+    "mean_all_seeds_s": 107.29121548332782
+  },
+  {
+    "scenario": "nominal",
+    "method": "Imitation",
+    "width": 32,
+    "feasible": 3,
+    "attempted": 3,
+    "mean_all_seeds_s": 107.38794172844818
+  },
+  {
+    "scenario": "nominal",
+    "method": "Imitation",
+    "width": 64,
+    "feasible": 3,
+    "attempted": 3,
+    "mean_all_seeds_s": 107.38835290679397
+  },
+  {
+    "scenario": "energy_1p5MJ",
+    "method": "PPO",
+    "width": 32,
+    "feasible": 3,
+    "attempted": 3,
+    "mean_all_seeds_s": 107.70522594188773
+  },
+  {
+    "scenario": "energy_1p5MJ",
+    "method": "PPO",
+    "width": 64,
+    "feasible": 3,
+    "attempted": 3,
+    "mean_all_seeds_s": 107.51304591960096
+  },
+  {
+    "scenario": "energy_1p5MJ",
+    "method": "Imitation",
+    "width": 32,
+    "feasible": 3,
+    "attempted": 3,
+    "mean_all_seeds_s": 107.57814509032885
+  },
+  {
+    "scenario": "energy_1p5MJ",
+    "method": "Imitation",
+    "width": 64,
+    "feasible": 3,
+    "attempted": 3,
+    "mean_all_seeds_s": 107.56807418100666
+  },
+  {
+    "scenario": "drag_1p05",
+    "method": "PPO",
+    "width": 32,
+    "feasible": 3,
+    "attempted": 3,
+    "mean_all_seeds_s": 107.72612689541872
+  },
+  {
+    "scenario": "drag_1p05",
+    "method": "PPO",
+    "width": 64,
+    "feasible": 3,
+    "attempted": 3,
+    "mean_all_seeds_s": 107.53048855135516
+  },
+  {
+    "scenario": "drag_1p05",
+    "method": "Imitation",
+    "width": 32,
+    "feasible": 3,
+    "attempted": 3,
+    "mean_all_seeds_s": 107.63229549301585
+  },
+  {
+    "scenario": "drag_1p05",
+    "method": "Imitation",
+    "width": 64,
+    "feasible": 3,
+    "attempted": 3,
+    "mean_all_seeds_s": 107.63204861875606
+  },
+  {
+    "scenario": "high_drag",
+    "method": "PPO",
+    "width": 32,
+    "feasible": 0,
+    "attempted": 3,
+    "mean_all_seeds_s": null
+  },
+  {
+    "scenario": "high_drag",
+    "method": "PPO",
+    "width": 64,
+    "feasible": 0,
+    "attempted": 3,
+    "mean_all_seeds_s": null
+  },
+  {
+    "scenario": "high_drag",
+    "method": "Imitation",
+    "width": 32,
+    "feasible": 0,
+    "attempted": 3,
+    "mean_all_seeds_s": null
+  },
+  {
+    "scenario": "high_drag",
+    "method": "Imitation",
+    "width": 64,
+    "feasible": 0,
+    "attempted": 3,
+    "mean_all_seeds_s": null
+  }
+]

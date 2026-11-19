@@ -1,0 +1,22 @@
+{
+  "study": "Longer GPU learning-budget study on the fixed assumed Bahrain model",
+  "baselines": "results/circuit-control-baselines-001",
+  "training_seeds": [0, 1, 2],
+  "steps_per_seed": 16384,
+  "checkpoint_steps": [0, 4096, 8192, 12288, 16384],
+  "stochastic_evaluation_seeds": [101, 102, 103, 104, 105],
+  "parallel_workers": 3,
+  "hyperparameters": {
+    "n_steps": 256, "batch_size": 64, "n_epochs": 10,
+    "gamma": 1.0, "gae_lambda": 0.95, "learning_rate": 0.0003,
+    "clip_range": 0.2, "ent_coef": 0.0, "net_arch": [32, 32]
+  },
+  "primary_endpoint": "Final deterministic fine-grid policy from every training seed; no best-checkpoint selection",
+  "secondary_endpoint": "Final stochastic coarse/fine paired evaluations with five fixed action-noise seeds; summarize within training seed first",
+  "aggregation": "Mean, sample standard deviation and range across three training seeds; no significance or convergence claim from this sample alone",
+  "conditions": "Same55 decisions/lap, model, initial/terminal70 m/s, battery/reserve and reward as accepted pilot; no empirical final-test inputs",
+  "rng_isolation": "Every evaluation restores Python, NumPy, torch CPU and all CUDA RNG states; each coarse/fine stochastic member starts from the same evaluation seed",
+  "schedule": "Constant learning rate and clip range; training state persists across4096-step learn calls; separate evaluation environments",
+  "gate": "All reported final policies feasible; absolute gain-versus-zero discrepancy <=0.05 s between training and fine grids for deterministic and each stochastic pair",
+  "failure_policy": "Preserve failed seeds and partial checkpoints; do not exclude a seed to improve the average. All three must complete for an accepted study."
+}

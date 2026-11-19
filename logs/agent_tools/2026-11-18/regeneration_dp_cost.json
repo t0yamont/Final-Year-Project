@@ -1,0 +1,25 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "checkpoint_sha256": "bd7b0a4fa4d7ff80392ea40ab2b0265aa3ac090fb1a6d377863a05d901db3ef4",
+      "ppo_ms_per_55_actions": 40.0868,
+      "training_seconds": 656.0054700998589
+    },
+    {
+      "seed": 1,
+      "checkpoint_sha256": "629551dea0a8763c0984a5e00259df02dfb3d6b21cbbc6d1e20e92a54444459b",
+      "ppo_ms_per_55_actions": 37.5094,
+      "training_seconds": 627.5154579000082
+    },
+    {
+      "seed": 2,
+      "checkpoint_sha256": "e988a9580acbd62ebcb96090c32f37d36e78d28f8b4cba6033ba9b6a767dbb05",
+      "ppo_ms_per_55_actions": 33.1241,
+      "training_seconds": 645.6196816000156
+    }
+  ],
+  "schedule_ms_per_55_lookups": 0.0013,
+  "source_sha256": "da640d8b98f9803cd62555772b6accb71414faeef6bd70ef3356d2b62b51fb22",
+  "scope": "Median of 21 warm repetitions at batch size one; synchronized CUDA. Excludes simulator, loading and offline planning. Schedule lookup depends only on block index."
+}

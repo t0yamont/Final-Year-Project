@@ -1,0 +1,107 @@
+{
+  "decision": "OpenF1 + physics simulation; TracingInsights fallback; independent geometry candidate",
+  "checks": [
+    {
+      "url": "https://api.openf1.org/v1/sessions?year=2025",
+      "rows": 123,
+      "sha256": "d58a1eb3cb39d01e9ba8a230910830cd9b938ea0e65ded069d6e99e856d7febd",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.openf1.org/v1/laps?session_key=10010&driver_number=1",
+      "rows": 17,
+      "sha256": "4fed623c2aefba8cd88297182ecdcfe24c17182a62443c768b3e0077330c1472",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=10010&driver_number=1&date%3E=2025-04-12T16%3A05%3A06.600999%2B00%3A00&date%3C=2025-04-12T16%3A06%3A44.768000%2B00%3A00",
+      "rows": 379,
+      "sha256": "f351d7fe058d46505d2d41f82e813fb0a125319a03f07247a40a6458e7b65627",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.openf1.org/v1/laps?session_key=9966&driver_number=1",
+      "rows": 14,
+      "sha256": "1966cdc1a0564ad6f923a26e40dc57e930778e8180486e2a0ad150611937c120",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=9966&driver_number=1&date%3E=2025-05-31T10%3A53%3A23.313999%2B00%3A00&date%3C=2025-05-31T10%3A55%3A46.336000%2B00%3A00",
+      "rows": 538,
+      "sha256": "4178621a67f74eab8edd33bd8608504fc0a7951c473f95512553b9fff8289bf1",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.openf1.org/v1/laps?session_key=9967&driver_number=1",
+      "rows": 12,
+      "sha256": "26248a89426e38c1c90bed21a61e81406758e8312a562440539f422da302d995",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=9967&driver_number=1&date%3E=2025-05-31T14%3A09%3A51.267999%2B00%3A00&date%3C=2025-05-31T14%3A11%3A04.066000%2B00%3A00",
+      "rows": 273,
+      "sha256": "644eba13707264229ee1984339f8cda3a06bfb6bc66ec43bae0f6d794304a7d0",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.openf1.org/v1/drivers?session_key=9967",
+      "rows": 20,
+      "sha256": "76828c12a98b9bc97fcfa5523d19475dab62c81342213e6d80b4ee1db49d136f",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.openf1.org/v1/stints?session_key=9967&driver_number=1",
+      "rows": 4,
+      "sha256": "8db9e4e3749840a064134876847aea78d8a724689ad066e31dd51ecbccd2e69d",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.openf1.org/v1/weather?session_key=9967",
+      "rows": 77,
+      "sha256": "9aa5fe75266b69e8b43a1a1f35243a3eec3a384fc7c44f01275b986f19451f2e",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.openf1.org/v1/race_control?session_key=9967",
+      "rows": 28,
+      "sha256": "e70c6f9bab7f401b05b99213be75c77acb94d5df7f0cc31796aa1bc380c5680f",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.openf1.org/v1/location?session_key=9967&driver_number=1&date%3E=2025-05-31T14%3A09%3A51.267999%2B00%3A00&date%3C=2025-05-31T14%3A11%3A04.066000%2B00%3A00",
+      "rows": 279,
+      "sha256": "68596113b7c6d4525ecee0d3d2741971147ed5584da78719b292a7b1a09b3cb6",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.openf1.org/v1/laps?session_key=9971&driver_number=1",
+      "rows": 66,
+      "sha256": "058cd0812c68cf8d4be2a1e8a6d95cb0648ea72381dbce8652f273b9c5426701",
+      "cache_hit": true
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=9971&driver_number=1&date%3E=2025-06-01T13%3A04%3A41.842999%2B00%3A00&date%3C=2025-06-01T13%3A06%3A01.926000%2B00%3A00",
+      "rows": 301,
+      "sha256": "f35a0f83902d9b7698285ca89720451d042a41d21705a3192b30f4331f5c45c1",
+      "cache_hit": true
+    }
+  ],
+  "document_cache_sha256": {
+    "work\\source-review-cache\\archive_readme.json": "7f439809ebc5921bb041404abe45ac7e958a77e1316f7d384f2b4a55480af481",
+    "work\\source-review-cache\\archive_sample.json": "0d9c0277dd92c94e6b5863fc85d3b4e02293fc216352a09be62e7da97256f451",
+    "work\\source-review-cache\\archive_spanish_q.json": "12eb82592f074370e4f055fdff67229c5181fd6eb575d8e13c80c03a7b86891b",
+    "work\\source-review-cache\\archive_spanish_ver.json": "251abe2da2dcfbabe9bd23af144418a32047d817b28c842e5fa16df69fd8b3b3",
+    "work\\source-review-cache\\archive_tree.json": "286267b52c0047f30cbf9c96f9014d095b0e22522e06b5a80c855728bf24b34a",
+    "work\\source-review-cache\\data_audit_first_0.json": "412d65ecfec3edee8cbcd148b38a9ae7477d08f0ab81284f820d5e4dd495474b",
+    "work\\source-review-cache\\data_audit_sources2.json": "ca5f9440a218ae9945751f13d3a29f67473b1d8bfc7c7a4bfbc9826a08cef5e0",
+    "work\\source-review-cache\\data_audit_sources3.json": "5c89f110a6719a8625d1988b5385abc8e37d5c19be1f7ef0b6fa4e0658ba5040",
+    "work\\source-review-cache\\data_audit_sources4.json": "9b6208bb896c11ccf7b1dc7a064c7aabf5cb0eae47dc1f169f7ebb1835b87df5",
+    "work\\source-review-cache\\data_audit_sources5.json": "17240b0ced702a30164258f6151e228cfae34931cc61b020247d1d4cc6c048f7",
+    "work\\source-review-cache\\data_audit_sources6.json": "44490ab58ecc3e9fc40a56483b956d3e2d4757f66a8965bb1fe918c34596a1bc",
+    "work\\source-review-cache\\track_database_readme.json": "57982ff94edbf93d3a5f01ab56c4b85db9f1746f98d7f3ee920191e3fb6c2305"
+  },
+  "archive_sample_url": "https://github.com/TracingInsights/2025/blob/main/Spanish%20Grand%20Prix/Qualifying/VER/2_tel.json",
+  "archive_columns_length": 554,
+  "figure_visual_check": "Passed: labels readable, four windows, scope and one-second reference explicit",
+  "no_new_model_training": true
+}

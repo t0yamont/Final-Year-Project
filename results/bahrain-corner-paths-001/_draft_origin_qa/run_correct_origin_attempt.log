@@ -1,0 +1,332 @@
+{
+  "run_id": "bahrain-corner-paths-001",
+  "elapsed_s": 2.2927469999995083,
+  "scope": "Driver1 development lap13 only. Existing frozen registration, no re-estimation or simulation.",
+  "method": "Absolute three-point circumcircle curvature at own physical arclength offsets h=10,20,40 m; peaks searched \u00b160 m about projected marker. Both reference paths project the same observed marker point independently.",
+  "registration": {
+    "method": "XY arclength phase search with fitted rotation, translation and common scale",
+    "selected": {
+      "phase_fraction": 0.0075202468261320755,
+      "rmse_m": 5.809519574462817,
+      "direction": 1,
+      "handedness": 1
+    },
+    "alternatives": [
+      {
+        "phase_fraction": 0.0075202468261320755,
+        "rmse_m": 5.809519574462817,
+        "direction": 1,
+        "handedness": 1
+      },
+      {
+        "phase_fraction": 0.5063852664179402,
+        "rmse_m": 329.52982145254913,
+        "direction": 1,
+        "handedness": -1
+      },
+      {
+        "phase_fraction": 0.5697451518953003,
+        "rmse_m": 322.075827919835,
+        "direction": -1,
+        "handedness": 1
+      },
+      {
+        "phase_fraction": 0.09850903208318675,
+        "rmse_m": 163.16351614380787,
+        "direction": -1,
+        "handedness": -1
+      }
+    ],
+    "scale_reference_m_per_openf1_m": 1.004013366067569,
+    "rotation_openf1_to_reference": [
+      [
+        0.9999806613732121,
+        -0.006219073853149008
+      ],
+      [
+        0.0062190738531493145,
+        0.999980661373213
+      ]
+    ],
+    "translation_to_reference_m": [
+      35.28909394413006,
+      -105.29767101259748
+    ],
+    "p95_residual_m": 10.201795368378312,
+    "max_residual_m": 12.166958798292864,
+    "edge_closure_m": 1.0053330673157013,
+    "edge_projection_fractions": [
+      0.0068359375,
+      0.00701904296875
+    ],
+    "source_length_m": 5405.749125640374,
+    "location_length_m": 5338.52215755411,
+    "location_max_gap_s": 1.1399998664855957,
+    "location_native_samples": 342,
+    "location_edge_brackets_s": [
+      [
+        -0.06299996376037598,
+        0.1380000114440918
+      ],
+      [
+        91.73699998855591,
+        92.15700006484985
+      ]
+    ]
+  },
+  "corners": [
+    {
+      "turn": 1,
+      "native_samples_within_150m": 27,
+      "max_local_location_gap_s": 0.8190000000000008,
+      "max_local_location_step_m": 31.325217021308163,
+      "rms_projection_residual_m": 4.869883196453613,
+      "max_projection_residual_m": 10.470380193264493,
+      "raw_reference_center_station_m": 747.249645203882,
+      "marker_fit_lap_distance_m": 701.4652965089836,
+      "previous_speed_check": {
+        "turn": 1,
+        "marker_station_m": 702.7276544205839,
+        "observed": {
+          "minimum_speed_mps": 18.611111111,
+          "minimum_station_m": 712.3056736843229,
+          "exit_100m_mps": 41.35764484843046,
+          "first_brake_within_250m_station_m": 573.3943321516098
+        },
+        "model": {
+          "minimum_speed_mps": 18.843389961275125,
+          "minimum_station_m": 695.9809227875539,
+          "exit_100m_mps": 34.25780472271035,
+          "first_brake_within_250m_station_m": 551.0178185387672
+        }
+      },
+      "curvature": [
+        {
+          "path": "observed",
+          "chord_halfspan_m": 10,
+          "peak_within_60m_per_m": 0.05880068472066334,
+          "peak_distance_from_marker_m": 3.0
+        },
+        {
+          "path": "observed",
+          "chord_halfspan_m": 20,
+          "peak_within_60m_per_m": 0.053160614641857964,
+          "peak_distance_from_marker_m": 3.0
+        },
+        {
+          "path": "observed",
+          "chord_halfspan_m": 40,
+          "peak_within_60m_per_m": 0.03686732056245285,
+          "peak_distance_from_marker_m": 5.0
+        },
+        {
+          "path": "raw_reference",
+          "chord_halfspan_m": 10,
+          "peak_within_60m_per_m": 0.08732863587546014,
+          "peak_distance_from_marker_m": -11.0
+        },
+        {
+          "path": "raw_reference",
+          "chord_halfspan_m": 20,
+          "peak_within_60m_per_m": 0.06956951970014656,
+          "peak_distance_from_marker_m": -8.0
+        },
+        {
+          "path": "raw_reference",
+          "chord_halfspan_m": 40,
+          "peak_within_60m_per_m": 0.042924383038765494,
+          "peak_distance_from_marker_m": -6.0
+        },
+        {
+          "path": "smoothed_reference",
+          "chord_halfspan_m": 10,
+          "peak_within_60m_per_m": 0.0820720241474138,
+          "peak_distance_from_marker_m": -6.0
+        },
+        {
+          "path": "smoothed_reference",
+          "chord_halfspan_m": 20,
+          "peak_within_60m_per_m": 0.06548388464823403,
+          "peak_distance_from_marker_m": -6.0
+        },
+        {
+          "path": "smoothed_reference",
+          "chord_halfspan_m": 40,
+          "peak_within_60m_per_m": 0.041509392406010696,
+          "peak_distance_from_marker_m": -6.0
+        }
+      ]
+    },
+    {
+      "turn": 8,
+      "native_samples_within_150m": 32,
+      "max_local_location_gap_s": 0.46000000000000085,
+      "max_local_location_step_m": 25.15910054126425,
+      "rms_projection_residual_m": 3.342335834318831,
+      "max_projection_residual_m": 6.216100522603904,
+      "raw_reference_center_station_m": 2268.3553919808933,
+      "marker_fit_lap_distance_m": 2206.410915257385,
+      "previous_speed_check": {
+        "turn": 8,
+        "marker_station_m": 2210.3815753726867,
+        "observed": {
+          "minimum_speed_mps": 19.444444444,
+          "minimum_station_m": 2234.651757316473,
+          "exit_100m_mps": 44.37216628746734,
+          "first_brake_within_250m_station_m": 2111.3339831375047
+        },
+        "model": {
+          "minimum_speed_mps": 25.99522360316337,
+          "minimum_station_m": 2226.394150429441,
+          "exit_100m_mps": 50.21157748875437,
+          "first_brake_within_250m_station_m": 1960.8696698710485
+        }
+      },
+      "curvature": [
+        {
+          "path": "observed",
+          "chord_halfspan_m": 10,
+          "peak_within_60m_per_m": 0.06191936319931091,
+          "peak_distance_from_marker_m": 1.0
+        },
+        {
+          "path": "observed",
+          "chord_halfspan_m": 20,
+          "peak_within_60m_per_m": 0.04685346606854986,
+          "peak_distance_from_marker_m": 0.0
+        },
+        {
+          "path": "observed",
+          "chord_halfspan_m": 40,
+          "peak_within_60m_per_m": 0.034528033176667756,
+          "peak_distance_from_marker_m": -1.0
+        },
+        {
+          "path": "raw_reference",
+          "chord_halfspan_m": 10,
+          "peak_within_60m_per_m": 0.0612018204992718,
+          "peak_distance_from_marker_m": 15.0
+        },
+        {
+          "path": "raw_reference",
+          "chord_halfspan_m": 20,
+          "peak_within_60m_per_m": 0.0461810162560587,
+          "peak_distance_from_marker_m": 16.0
+        },
+        {
+          "path": "raw_reference",
+          "chord_halfspan_m": 40,
+          "peak_within_60m_per_m": 0.03740101359075298,
+          "peak_distance_from_marker_m": 4.0
+        },
+        {
+          "path": "smoothed_reference",
+          "chord_halfspan_m": 10,
+          "peak_within_60m_per_m": 0.04751354420348868,
+          "peak_distance_from_marker_m": 15.0
+        },
+        {
+          "path": "smoothed_reference",
+          "chord_halfspan_m": 20,
+          "peak_within_60m_per_m": 0.042142574863899065,
+          "peak_distance_from_marker_m": 14.0
+        },
+        {
+          "path": "smoothed_reference",
+          "chord_halfspan_m": 40,
+          "peak_within_60m_per_m": 0.03699750957019328,
+          "peak_distance_from_marker_m": 4.0
+        }
+      ]
+    },
+    {
+      "turn": 14,
+      "native_samples_within_150m": 25,
+      "max_local_location_gap_s": 0.42099999999999227,
+      "max_local_location_step_m": 30.89654362393503,
+      "rms_projection_residual_m": 6.3729441393700235,
+      "max_projection_residual_m": 10.985347287243522,
+      "raw_reference_center_station_m": 4944.179839688388,
+      "marker_fit_lap_distance_m": 4857.763981590358,
+      "previous_speed_check": {
+        "turn": 14,
+        "marker_station_m": 4866.506020327507,
+        "observed": {
+          "minimum_speed_mps": 33.333333333,
+          "minimum_station_m": 4883.339638237261,
+          "exit_100m_mps": 52.177654725880295,
+          "first_brake_within_250m_station_m": 4755.932991155691
+        },
+        "model": {
+          "minimum_speed_mps": 25.465757441648915,
+          "minimum_station_m": 4859.5633838974645,
+          "exit_100m_mps": 53.98278331844968,
+          "first_brake_within_250m_station_m": 4741.636837332328
+        }
+      },
+      "curvature": [
+        {
+          "path": "observed",
+          "chord_halfspan_m": 10,
+          "peak_within_60m_per_m": 0.03307704357626599,
+          "peak_distance_from_marker_m": 0.0
+        },
+        {
+          "path": "observed",
+          "chord_halfspan_m": 20,
+          "peak_within_60m_per_m": 0.02693333756633521,
+          "peak_distance_from_marker_m": -1.0
+        },
+        {
+          "path": "observed",
+          "chord_halfspan_m": 40,
+          "peak_within_60m_per_m": 0.02055876408239668,
+          "peak_distance_from_marker_m": -1.0
+        },
+        {
+          "path": "raw_reference",
+          "chord_halfspan_m": 10,
+          "peak_within_60m_per_m": 0.05330661740879914,
+          "peak_distance_from_marker_m": -8.0
+        },
+        {
+          "path": "raw_reference",
+          "chord_halfspan_m": 20,
+          "peak_within_60m_per_m": 0.04924449205162621,
+          "peak_distance_from_marker_m": -14.0
+        },
+        {
+          "path": "raw_reference",
+          "chord_halfspan_m": 40,
+          "peak_within_60m_per_m": 0.03212833331762273,
+          "peak_distance_from_marker_m": -13.0
+        },
+        {
+          "path": "smoothed_reference",
+          "chord_halfspan_m": 10,
+          "peak_within_60m_per_m": 0.050362879776159795,
+          "peak_distance_from_marker_m": -12.0
+        },
+        {
+          "path": "smoothed_reference",
+          "chord_halfspan_m": 20,
+          "peak_within_60m_per_m": 0.04394877309785103,
+          "peak_distance_from_marker_m": -12.0
+        },
+        {
+          "path": "smoothed_reference",
+          "chord_halfspan_m": 40,
+          "peak_within_60m_per_m": 0.030301842030227205,
+          "peak_distance_from_marker_m": -11.0
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "known_circle_and_straight": true,
+    "input_hashes_match_frozen_records": true,
+    "native_locations_in_lap": 342,
+    "source_length_m": 5405.749125640374,
+    "transformed_observed_interior_length_m": 5331.707914678704
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "seed": 0,
+  "completed_steps": 16384,
+  "checkpoints": [
+    {
+      "step": 0,
+      "gpu_training": null,
+      "training_time_s": 109.85454660630525,
+      "fine_time_s": 109.47456542919122,
+      "fine_gain_s": 0.0006410322468326513,
+      "fine_final_energy_j": 3998659.3065332943,
+      "gain_discrepancy_s": 9.702057454319402e-06,
+      "feasible": true,
+      "noise_seed": 9001,
+      "fine_energy_residual_j": 1.462895937720532e-08,
+      "fine_terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "step": 4096,
+      "gpu_training": {
+        "policy_device": "cuda:0",
+        "parameter_tensors": 13,
+        "gradient_tensors": 13,
+        "cuda_optimizer_moment_tensors": 26,
+        "allocated_bytes": 17154560,
+        "peak_allocated_bytes": 17222656,
+        "passed": true
+      },
+      "training_time_s": 107.95152389275323,
+      "fine_time_s": 107.5715789014832,
+      "fine_gain_s": 1.9036275599548418,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 2.6483786555786537e-05,
+      "feasible": true,
+      "noise_seed": 9001,
+      "fine_energy_residual_j": -4.464794667313754e-08,
+      "fine_terminal_speed_error_mps": 0.0
+    },
+    {
+      "step": 8192,
+      "gpu_training": {
+        "policy_device": "cuda:0",
+        "parameter_tensors": 13,
+        "gradient_tensors": 13,
+        "cuda_optimizer_moment_tensors": 26,
+        "allocated_bytes": 17154560,
+        "peak_allocated_bytes": 17224192,
+        "passed": true
+      },
+      "training_time_s": 107.76329496316973,
+      "fine_time_s": 107.38227575426136,
+      "fine_gain_s": 2.0929307071766914,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.0010477338517915769,
+      "feasible": true,
+      "noise_seed": 9001,
+      "fine_energy_residual_j": -1.6897566013085452e-08,
+      "fine_terminal_speed_error_mps": 0.0
+    },
+    {
+      "step": 12288,
+      "gpu_training": {
+        "policy_device": "cuda:0",
+        "parameter_tensors": 13,
+        "gradient_tensors": 13,
+        "cuda_optimizer_moment_tensors": 26,
+        "allocated_bytes": 17154560,
+        "peak_allocated_bytes": 17224192,
+        "passed": true
+      },
+      "training_time_s": 107.5908475279265,
+      "fine_time_s": 107.21140533056877,
+      "fine_gain_s": 2.2638011308692825,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.0005292776988454762,
+      "feasible": true,
+      "noise_seed": 9001,
+      "fine_energy_residual_j": 4.591641733497909e-09,
+      "fine_terminal_speed_error_mps": 0.0
+    },
+    {
+      "step": 16384,
+      "gpu_training": {
+        "policy_device": "cuda:0",
+        "parameter_tensors": 13,
+        "gradient_tensors": 13,
+        "cuda_optimizer_moment_tensors": 26,
+        "allocated_bytes": 17156096,
+        "peak_allocated_bytes": 17224192,
+        "passed": true
+      },
+      "training_time_s": 107.57606794316867,
+      "fine_time_s": 107.195209655478,
+      "fine_gain_s": 2.279996805960053,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.0008868126340928484,
+      "feasible": true,
+      "noise_seed": 9001,
+      "fine_energy_residual_j": 5.7804712128017854e-09,
+      "fine_terminal_speed_error_mps": 0.0,
+      "refinement": {
+        "refined_time_s": 107.00814265562661,
+        "refined_final_energy_j": 100000.0,
+        "fine_advantage_s": 0.49210501654434324,
+        "refined_advantage_s": 0.49065095588436236,
+        "paired_advantage_discrepancy_s": 0.0014540606599808825,
+        "relative_lap_time_error": 0.0017481566842385116,
+        "terminal_energy_discrepancy_j": 0.0,
+        "recovery_discrepancy_j": 2.7939677238464355e-09,
+        "passed": true
+      }
+    }
+  ],
+  "training_seconds": 648.1084660000633
+}

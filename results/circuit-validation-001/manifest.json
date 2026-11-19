@@ -1,0 +1,32 @@
+{
+  "inputs": {
+    "configs\\circuit_reference.json": "4eb72199332edc5d9c4aa37fbd37a3b704eddec46bc8343116aacb8000104aa3",
+    "results\\circuit-input-assessment-001\\Sakhir.csv": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\validate_circuit.py": "b329757ec16ac168f00b4af49597db2d053ca34c99eed851a0d0d623520d74f0",
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763"
+  },
+  "outputs": {
+    "results\\circuit-validation-001\\contract.json": "84c5c10f0018b57363e1211ba80668bd53187a4e98790973db725686ac611aee",
+    "results\\circuit-validation-001\\metrics.json": "ee35740ad4d1d6ab5a63673ebdd159a150db2eeb0070fa3af61469ea01471702",
+    "results\\circuit-validation-001\\progress.json": "08147edcf1fda180477b3b58210aa4383ffcbea4f9a01e4d361ec08f9d651179",
+    "results\\circuit-validation-001\\sigma-10_grid-10_action-0.json.gz": "94d2f5d2769dbe5bdd3884b916da7ef5d80f25fb5e306e8a7e74476d7fbe5d7d",
+    "results\\circuit-validation-001\\sigma-10_grid-10_action-1.json.gz": "893545c14d606410e4eded2b6b979aaac57539437a6602399b289710486ae7a2",
+    "results\\circuit-validation-001\\sigma-10_grid-2.5_action-0.json.gz": "48f666ab7e99be5f5dbe8a46a2506aca265a3a8f6c7391f918edb9b6a69e5606",
+    "results\\circuit-validation-001\\sigma-10_grid-2.5_action-1.json.gz": "ab46aec56ae08a57f1fd8def1f12e52ff602f7d94ec0538436f38e4a9fc0929f",
+    "results\\circuit-validation-001\\sigma-10_grid-2.5_action-1_tight.json.gz": "cd5f0efc56f038af11226b140289b858949094e995abbd87a025c277c1de3f7d",
+    "results\\circuit-validation-001\\sigma-10_grid-20_action-0.json.gz": "a18eb9cd6e44a522508f65de819c81072744fd1402ee17d6ed3702b57f289440",
+    "results\\circuit-validation-001\\sigma-10_grid-20_action-1.json.gz": "b30fddb27751ed8d00268b65c0ff9b26e6c07f64f22ddf647f1f7de53c0f2008",
+    "results\\circuit-validation-001\\sigma-10_grid-5_action-0.json.gz": "8a48c8e2faf497ff8ab5a2d73e589b8831a50b307202b758278dd238459f603d",
+    "results\\circuit-validation-001\\sigma-10_grid-5_action-1.json.gz": "d59753ce3109bd99e807be45fc46a27bf95445f9ca4f6c0ee045ce937f47a6d2",
+    "results\\circuit-validation-001\\sigma-20_grid-5_action-1.json.gz": "c552ed6b4395542ed7279757181ba4bebe6edfdac38a4e5acc172fe03b3f2357",
+    "results\\circuit-validation-001\\sigma-5_grid-5_action-1.json.gz": "a8ee5f650f2c2cb9ebc28f981db0f989d82d59e277b9409276d47bef69f00a0c",
+    "figures\\dissertation\\circuit-validation-v1\\01_curvature_speed_envelope.pdf": "1d3dad9bb6415a584916c4d0312cc279405e5816e1c6d75f0ec6f5863dc47fc1",
+    "figures\\dissertation\\circuit-validation-v1\\01_curvature_speed_envelope.png": "019352a0ac4a0e2a02126ba612fe8aad2b4ca1d22f669ba9cfcccfbf854adcfa",
+    "figures\\dissertation\\circuit-validation-v1\\02_refinement_sensitivity_energy.pdf": "9469343447016639f5523885426b192a5b8113013289e22932e655a4e67db3fd",
+    "figures\\dissertation\\circuit-validation-v1\\02_refinement_sensitivity_energy.png": "99c5aa205638e61790e0d0c0008c95f08f33c71c07322974a7cfa6f18e1d0d42"
+  }
+}

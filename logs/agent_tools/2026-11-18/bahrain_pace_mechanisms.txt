@@ -1,0 +1,1 @@
+[('Calibrated', 90.002, 0.0), ('Original limits', 108.411, -7.237), ('Original cornering', 102.769, -1.316), ('Original braking', 95.153, 0.0), ('Original power and drag', 91.726, -6.28), ('No DRS drag reduction', 90.289, -0.209)]

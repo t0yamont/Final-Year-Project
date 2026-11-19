@@ -1,0 +1,25 @@
+{
+  "model": "results/bahrain-pace-calibration-001/model.json",
+  "landmarks": "configs/bahrain_turn_landmarks.json",
+  "search_cells_per_block": 40,
+  "replay_cells_per_block": [160, 320],
+  "search": {
+    "actions": [0, 0.25, 0.5, 0.75, 1],
+    "width": 16,
+    "speed_bin_mps": 1,
+    "energy_bin_j": 100000
+  },
+  "scenarios": {
+    "low_grip": {"keys": ["lateral_base_mps2", "lateral_aero_per_m"], "multiplier": 0.95},
+    "high_grip": {"keys": ["lateral_base_mps2", "lateral_aero_per_m"], "multiplier": 1.05}
+  },
+  "zone_min_wheel_j": 20000,
+  "active_min_wheel_kj": 10,
+  "shift_window_count": 4,
+  "refinement": {
+    "paired_gap_change_s": 0.005,
+    "relative_lap_change": 0.0025,
+    "terminal_energy_change_j": 10000,
+    "recovered_change_j": 5000
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "inputs": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\results\\openf1-dataset-003\\development\\1257\\10010\\driver-22-complete.json": "41defb27e71cb01d78814d94d30065075e3016e9465ec291bf5ecc0b1c2202f4",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\results\\openf1-dataset-003\\development\\1257\\10010\\driver-22-laps.json": "98e1c7a62ae99c2a08af5b0e8d3c084de05038421f75802d473421bd611e19dd",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\results\\openf1-dataset-003\\development\\1257\\10010\\driver-22-car.csv.gz": "1291a35671b643dbb2f8fd92565c32830e053934cdcd780f17897f1a60bbf048",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\results\\openf1-dataset-003\\development\\1257\\10010\\requests.json": "024b7bdd5db7e3fdc0e9770160b8b7579b584dc2bbed23dad1bf5239e523bd0e",
+    "results/openf1-dataset-003/development/1257/10010/driver-22-laps.json": "98e1c7a62ae99c2a08af5b0e8d3c084de05038421f75802d473421bd611e19dd",
+    "results/openf1-dataset-003/development/1257/10010/driver-22-complete.json": "41defb27e71cb01d78814d94d30065075e3016e9465ec291bf5ecc0b1c2202f4",
+    "results/bahrain-pace-calibration-001/model.json": "6884eb5359a3451e02b24480fda61c75f5b39309d9ea5c0c80e0787234ec59b1",
+    "configs/bahrain_driver_transfer_protocol.json": "b95caa05685530f48d856486f8424959065bb137de88dfdfcb25ee45a2051954",
+    "results/openf1-dataset-003/development/1257/10010/driver-1-position.csv.gz": "9909a84bc2ec266033799254aa94da2cda9e35b5ce07fb4759eeb14ca8128921",
+    "results/bahrain-pace-inputs-001/metrics.json": "e6a6c8ae90eb77641374136f0a950ae9c61ed0dd93f41104f877a599db92eb20",
+    "results/bahrain-pace-calibration-001/speed_time.csv": "aee8c217d469d65e46b444a025b4c8f7fff1cceaad6fe12d3f36aaa7add5a784",
+    "results/bahrain-pace-calibration-001/metrics.json": "0dc468f5ad1049ff2e57590586026301f1b3513f3b3811693d6621116d4e9855",
+    "configs/bahrain_pace_protocol.json": "a0d050b0b47ec88e9424cbbe2d77414599b4bcc40b83190332c79bdb991f3c30",
+    "results/bahrain-path-candidate-001/speed_time.csv": "8d0cb2d0822497340cbbc68851d973616e52fe20a4751b02847e92f2a476c4bd",
+    "results/bahrain-path-candidate-001/model.json": "8b85071d84b3cd70e0b4ed505a1d4b5f93a78db17f183fc6c75ad10993d1eb5e",
+    "results/bahrain-path-candidate-001/driver1_lap13_xy_m.csv": "c198edab2d2a694b924faaa1cd9070ee06cbd3553ce4f67beaf987bb06d22840",
+    "results\\bahrain-path-candidate-001\\locked_predictions.json": "e71728247517b28218daad5b3efba624cda649b480ddf7867ad398c080c0058d",
+    "configs\\bahrain_pace_protocol.json": "a0d050b0b47ec88e9424cbbe2d77414599b4bcc40b83190332c79bdb991f3c30",
+    "configs\\openf1_dataset_plan.json": "98efc9c4703225e0533b8b1c1bede8a63c10650694106812fec80737727fc99b",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\results\\openf1-dataset-003\\development\\1257\\10010\\complete.json": "ddacde226d377fc1415c4ed7210ec01a2e14bac23f682026b81dff25c8c31fad"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\score_bahrain_driver_transfer.py": "4b05baf60bc70dc096862fa07435fadfca70644793fb6ef3eb8b5a65c01526c6",
+    "scripts\\prepare_bahrain_pace.py": "d39020bef6355ad5cebf2bc71a3fdd152d4bf6d54bab189a8cf6ce3fc671b02e",
+    "scripts\\calibrate_bahrain_pace.py": "c314dfe3c85077c46f0d5f16ef8735e3bf73f570019b6429b964992089c3cc19",
+    "src\\f1energy\\openf1.py": "2cd2ef7d19d37da1bc9edfff84469e3afac2143158ace4dd292b36fb68b6cc09"
+  },
+  "outputs": {
+    "results\\bahrain-driver-transfer-001\\lap-13.csv": "f3e61ac8d5288b466643401560fafba39acd1d891678439fb99ce1717e7fd418",
+    "results\\bahrain-driver-transfer-001\\lap-2.csv": "0f74a430f3c8532d6d3da24cd4a4e359ad31b30ec8b89fac4aa3f2940b972528",
+    "results\\bahrain-driver-transfer-001\\lap-5.csv": "9524816b80a2bf9a47419f45d786fa9a6a1bd1eb0d6ac299b5b54c8b3716ff64",
+    "results\\bahrain-driver-transfer-001\\metrics.json": "d6b44536870f5e31f424b6f218ee0c9da5942275e5ff68b06b863c29505bfa16",
+    "figures\\dissertation\\bahrain-driver-transfer-v1\\01_paired_transfer.pdf": "266057afdffbc21cea91fbd414255f2d34738f1dea8bb9e2af10665a5bbcbfd4",
+    "figures\\dissertation\\bahrain-driver-transfer-v1\\01_paired_transfer.png": "87fa5669da861e0fdb6383f3b8859cccd45bf7cea5b104e93b59b81521ed0467"
+  }
+}

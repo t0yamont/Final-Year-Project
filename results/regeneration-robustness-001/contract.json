@@ -1,0 +1,936 @@
+{
+  "protocol": {
+    "baseline": "results/regeneration-validation-001",
+    "ppo": "results/regeneration-multiseed-001",
+    "dp": "results/regeneration-dp-001",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "checkpoint_steps": 16384,
+    "fixed_policies": [
+      "zero",
+      "half",
+      "full",
+      "spread",
+      "exit_boost"
+    ],
+    "scenarios": [
+      {
+        "name": "nominal",
+        "parameter": null,
+        "value": null
+      },
+      {
+        "name": "low_initial_energy",
+        "parameter": "initial_energy_j",
+        "value": 1000000
+      },
+      {
+        "name": "low_charge_efficiency",
+        "parameter": "charge_efficiency",
+        "value": 0.6
+      },
+      {
+        "name": "low_braking_share",
+        "parameter": "braking_fraction",
+        "value": 0.2
+      },
+      {
+        "name": "high_drag",
+        "parameter": "drag_kg_per_m",
+        "value": 1.1
+      }
+    ],
+    "evaluation_cells": [
+      160,
+      320
+    ],
+    "search_cells": 80,
+    "search": {
+      "name": "replanned_dp",
+      "actions": [
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1
+      ],
+      "width": 16,
+      "speed_bin_mps": 1,
+      "energy_bin_j": 100000
+    },
+    "incumbent": "Unchanged basic schedule from regeneration-dp-001 in every scenario; no PPO or evaluation-grid selection.",
+    "frozen_dp": "Unchanged original refined schedule from regeneration-dp-001, predeclared regardless of subsequent factorial or width outcomes.",
+    "budget": "Each scenario gets one width16 five-action search, at most 55*16*5=4400 block expansions, plus incumbent/replay checks. No retries or tuning.",
+    "workers": 3,
+    "gates": {
+      "paired_gap_change_s": 0.005,
+      "relative_lap_change": 0.0025,
+      "terminal_energy_change_j": 10000,
+      "recovered_change_j": 5000
+    },
+    "failure_policy": "Save all physical failures. A bounded search with no terminal-feasible schedule is a failed search, not proof of physical impossibility; no fabricated replan. Numerical checks never rehabilitate infeasibility. Compare all controller pairs, retaining failed paired checks.",
+    "interpretation": "One-factor assumed-model transfer and model-aware replanning. Unchanged three final CUDA PPO policies; CPU physics; no retraining, final-test telemetry, universal robustness or optimality claim."
+  },
+  "config": {
+    "reference_config": "configs/circuit_reference.json",
+    "numerical_gate": "results/regeneration-validation-001",
+    "action_blocks": 55,
+    "cells_per_block": [
+      80,
+      160
+    ],
+    "fine_cells_per_block": 160,
+    "initial_speed_mps": 70.0,
+    "policies": [
+      "zero",
+      "half",
+      "full",
+      "spread",
+      "exit_boost"
+    ],
+    "gates": {
+      "relative_lap_time": 0.005,
+      "gain_error_s": 0.05,
+      "ranking_tie_s": 0.02
+    },
+    "pilot": {
+      "seed": 0,
+      "steps": 4096,
+      "gamma": 1.0,
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "net_arch": [
+        32,
+        32
+      ]
+    },
+    "interpretation": "MGU-K-only assumed reference model; automatic braking recovery, fixed total braking, no MGU-H. Capacity, efficiency and rear braking share are assumptions. No measured-car or full regulatory compliance claim.",
+    "regeneration": {
+      "capacity_j": 4000000.0,
+      "charge_efficiency": 0.8,
+      "max_power_w": 120000.0,
+      "braking_fraction": 0.4,
+      "recovery_limit_j": 2000000.0,
+      "deployment_limit_j": 4000000.0
+    },
+    "sources": [
+      "https://api.fia.com/sites/default/files/documents/fia_2025_formula_1_technical_regulations_-_issue_03_-_2025-04-07.pdf",
+      "https://www.mclaren.com/racing/formula-1/2025/mcl39-technical-specification/"
+    ]
+  },
+  "inputs": {
+    "configs\\regeneration_robustness_protocol.json": "10a0345c7eadfedd0e9bea5a0df52af94eda91546067555c56b8310629cf1ae4",
+    "results\\regeneration-validation-001\\manifest.json": "d3379ef9656e8ff927d89504ac48378a2d2c5cf35a59255df2421df4cc967a64",
+    "results\\regeneration-multiseed-001\\manifest.json": "894ae6e5b2ac4e28e90bbe491a65fdce39901e793085ea962dc85c30a86827ce",
+    "results\\regeneration-dp-001\\manifest.json": "b16a6deefa444584561207027d61657f7cd5969d575f0d4eca73d7c45f83a01b"
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src\\f1energy\\event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\run_regeneration_robustness.py": "2a20b58a520962dca4a1952bc6e4353c1507b6f3dde976a7b5bbd584b8e2905e",
+    "scripts\\optimize_regeneration_dp.py": "b7cf0171ff58633b6fdc569dd6784adbe49e0c7239b755ddeb59d565c654bcfa",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "scripts\\validate_regeneration.py": "3a2a581cbe21bbe4dbf7ef375ffe47e8b17f046c7c47a3bbcad520a8f8e4277f",
+    "src\\f1energy\\circuit_training_gate.py": "ee4291988beb2ec37474060bfc7cdcd01b351a3263922f610e2d8ad6a2a0da3f"
+  },
+  "frozen_original_actions": {
+    "basic": {
+      "name": "basic",
+      "actions": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0.5,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0.5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0.5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "search_time_s": 107.84928289855354,
+      "wall_seconds": 41.22980099986307,
+      "transitions": 1086,
+      "layers": [
+        {
+          "block": 1,
+          "expansions": 3,
+          "buckets": 3,
+          "retained": 3
+        },
+        {
+          "block": 2,
+          "expansions": 9,
+          "buckets": 3,
+          "retained": 3
+        },
+        {
+          "block": 3,
+          "expansions": 9,
+          "buckets": 5,
+          "retained": 5
+        },
+        {
+          "block": 4,
+          "expansions": 15,
+          "buckets": 7,
+          "retained": 7
+        },
+        {
+          "block": 5,
+          "expansions": 21,
+          "buckets": 8,
+          "retained": 8
+        },
+        {
+          "block": 6,
+          "expansions": 24,
+          "buckets": 10,
+          "retained": 8
+        },
+        {
+          "block": 7,
+          "expansions": 24,
+          "buckets": 6,
+          "retained": 6
+        },
+        {
+          "block": 8,
+          "expansions": 18,
+          "buckets": 14,
+          "retained": 8
+        },
+        {
+          "block": 9,
+          "expansions": 24,
+          "buckets": 15,
+          "retained": 8
+        },
+        {
+          "block": 10,
+          "expansions": 24,
+          "buckets": 7,
+          "retained": 7
+        },
+        {
+          "block": 11,
+          "expansions": 21,
+          "buckets": 13,
+          "retained": 8
+        },
+        {
+          "block": 12,
+          "expansions": 24,
+          "buckets": 18,
+          "retained": 8
+        },
+        {
+          "block": 13,
+          "expansions": 24,
+          "buckets": 18,
+          "retained": 8
+        },
+        {
+          "block": 14,
+          "expansions": 24,
+          "buckets": 8,
+          "retained": 8
+        },
+        {
+          "block": 15,
+          "expansions": 24,
+          "buckets": 8,
+          "retained": 8
+        },
+        {
+          "block": 16,
+          "expansions": 24,
+          "buckets": 14,
+          "retained": 8
+        },
+        {
+          "block": 17,
+          "expansions": 24,
+          "buckets": 22,
+          "retained": 8
+        },
+        {
+          "block": 18,
+          "expansions": 24,
+          "buckets": 11,
+          "retained": 8
+        },
+        {
+          "block": 19,
+          "expansions": 24,
+          "buckets": 7,
+          "retained": 7
+        },
+        {
+          "block": 20,
+          "expansions": 21,
+          "buckets": 9,
+          "retained": 8
+        },
+        {
+          "block": 21,
+          "expansions": 24,
+          "buckets": 22,
+          "retained": 8
+        },
+        {
+          "block": 22,
+          "expansions": 24,
+          "buckets": 15,
+          "retained": 8
+        },
+        {
+          "block": 23,
+          "expansions": 24,
+          "buckets": 9,
+          "retained": 8
+        },
+        {
+          "block": 24,
+          "expansions": 24,
+          "buckets": 21,
+          "retained": 8
+        },
+        {
+          "block": 25,
+          "expansions": 24,
+          "buckets": 19,
+          "retained": 8
+        },
+        {
+          "block": 26,
+          "expansions": 24,
+          "buckets": 9,
+          "retained": 8
+        },
+        {
+          "block": 27,
+          "expansions": 24,
+          "buckets": 11,
+          "retained": 8
+        },
+        {
+          "block": 28,
+          "expansions": 24,
+          "buckets": 12,
+          "retained": 8
+        },
+        {
+          "block": 29,
+          "expansions": 24,
+          "buckets": 16,
+          "retained": 8
+        },
+        {
+          "block": 30,
+          "expansions": 24,
+          "buckets": 15,
+          "retained": 8
+        },
+        {
+          "block": 31,
+          "expansions": 24,
+          "buckets": 14,
+          "retained": 8
+        },
+        {
+          "block": 32,
+          "expansions": 24,
+          "buckets": 13,
+          "retained": 8
+        },
+        {
+          "block": 33,
+          "expansions": 24,
+          "buckets": 11,
+          "retained": 8
+        },
+        {
+          "block": 34,
+          "expansions": 24,
+          "buckets": 3,
+          "retained": 3
+        },
+        {
+          "block": 35,
+          "expansions": 9,
+          "buckets": 3,
+          "retained": 3
+        },
+        {
+          "block": 36,
+          "expansions": 9,
+          "buckets": 8,
+          "retained": 8
+        },
+        {
+          "block": 37,
+          "expansions": 24,
+          "buckets": 7,
+          "retained": 7
+        },
+        {
+          "block": 38,
+          "expansions": 21,
+          "buckets": 4,
+          "retained": 4
+        },
+        {
+          "block": 39,
+          "expansions": 12,
+          "buckets": 4,
+          "retained": 4
+        },
+        {
+          "block": 40,
+          "expansions": 12,
+          "buckets": 4,
+          "retained": 4
+        },
+        {
+          "block": 41,
+          "expansions": 12,
+          "buckets": 4,
+          "retained": 4
+        },
+        {
+          "block": 42,
+          "expansions": 12,
+          "buckets": 4,
+          "retained": 4
+        },
+        {
+          "block": 43,
+          "expansions": 12,
+          "buckets": 8,
+          "retained": 8
+        },
+        {
+          "block": 44,
+          "expansions": 24,
+          "buckets": 6,
+          "retained": 6
+        },
+        {
+          "block": 45,
+          "expansions": 18,
+          "buckets": 10,
+          "retained": 8
+        },
+        {
+          "block": 46,
+          "expansions": 24,
+          "buckets": 7,
+          "retained": 7
+        },
+        {
+          "block": 47,
+          "expansions": 21,
+          "buckets": 8,
+          "retained": 8
+        },
+        {
+          "block": 48,
+          "expansions": 24,
+          "buckets": 7,
+          "retained": 7
+        },
+        {
+          "block": 49,
+          "expansions": 21,
+          "buckets": 4,
+          "retained": 4
+        },
+        {
+          "block": 50,
+          "expansions": 12,
+          "buckets": 4,
+          "retained": 4
+        },
+        {
+          "block": 51,
+          "expansions": 12,
+          "buckets": 4,
+          "retained": 4
+        },
+        {
+          "block": 52,
+          "expansions": 12,
+          "buckets": 6,
+          "retained": 6
+        },
+        {
+          "block": 53,
+          "expansions": 18,
+          "buckets": 6,
+          "retained": 6
+        },
+        {
+          "block": 54,
+          "expansions": 18,
+          "buckets": 6,
+          "retained": 6
+        },
+        {
+          "block": 55,
+          "expansions": 18,
+          "buckets": 0,
+          "retained": 0
+        }
+      ],
+      "incumbent_time_s": 108.067098463353
+    },
+    "refined": {
+      "name": "refined",
+      "actions": [
+        1,
+        1,
+        1,
+        1,
+        0.25,
+        0.25,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.75,
+        0.5,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0.75,
+        1,
+        1,
+        1,
+        0,
+        0.5,
+        0,
+        1,
+        0.75,
+        0,
+        0.25,
+        0,
+        0,
+        0,
+        0.25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.25,
+        0.5,
+        0.25,
+        0,
+        0,
+        0,
+        0,
+        0.25,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "search_time_s": 107.64238167613189,
+      "wall_seconds": 137.52138659986667,
+      "transitions": 3810,
+      "layers": [
+        {
+          "block": 1,
+          "expansions": 5,
+          "buckets": 5,
+          "retained": 5
+        },
+        {
+          "block": 2,
+          "expansions": 25,
+          "buckets": 8,
+          "retained": 8
+        },
+        {
+          "block": 3,
+          "expansions": 40,
+          "buckets": 10,
+          "retained": 10
+        },
+        {
+          "block": 4,
+          "expansions": 50,
+          "buckets": 16,
+          "retained": 16
+        },
+        {
+          "block": 5,
+          "expansions": 80,
+          "buckets": 23,
+          "retained": 16
+        },
+        {
+          "block": 6,
+          "expansions": 80,
+          "buckets": 16,
+          "retained": 16
+        },
+        {
+          "block": 7,
+          "expansions": 80,
+          "buckets": 10,
+          "retained": 10
+        },
+        {
+          "block": 8,
+          "expansions": 50,
+          "buckets": 37,
+          "retained": 16
+        },
+        {
+          "block": 9,
+          "expansions": 80,
+          "buckets": 39,
+          "retained": 16
+        },
+        {
+          "block": 10,
+          "expansions": 80,
+          "buckets": 39,
+          "retained": 16
+        },
+        {
+          "block": 11,
+          "expansions": 80,
+          "buckets": 56,
+          "retained": 16
+        },
+        {
+          "block": 12,
+          "expansions": 80,
+          "buckets": 53,
+          "retained": 16
+        },
+        {
+          "block": 13,
+          "expansions": 80,
+          "buckets": 49,
+          "retained": 16
+        },
+        {
+          "block": 14,
+          "expansions": 80,
+          "buckets": 27,
+          "retained": 16
+        },
+        {
+          "block": 15,
+          "expansions": 80,
+          "buckets": 14,
+          "retained": 14
+        },
+        {
+          "block": 16,
+          "expansions": 70,
+          "buckets": 29,
+          "retained": 16
+        },
+        {
+          "block": 17,
+          "expansions": 80,
+          "buckets": 72,
+          "retained": 16
+        },
+        {
+          "block": 18,
+          "expansions": 80,
+          "buckets": 26,
+          "retained": 16
+        },
+        {
+          "block": 19,
+          "expansions": 80,
+          "buckets": 18,
+          "retained": 16
+        },
+        {
+          "block": 20,
+          "expansions": 80,
+          "buckets": 28,
+          "retained": 16
+        },
+        {
+          "block": 21,
+          "expansions": 80,
+          "buckets": 50,
+          "retained": 16
+        },
+        {
+          "block": 22,
+          "expansions": 80,
+          "buckets": 30,
+          "retained": 16
+        },
+        {
+          "block": 23,
+          "expansions": 80,
+          "buckets": 19,
+          "retained": 16
+        },
+        {
+          "block": 24,
+          "expansions": 80,
+          "buckets": 64,
+          "retained": 16
+        },
+        {
+          "block": 25,
+          "expansions": 80,
+          "buckets": 59,
+          "retained": 16
+        },
+        {
+          "block": 26,
+          "expansions": 80,
+          "buckets": 29,
+          "retained": 16
+        },
+        {
+          "block": 27,
+          "expansions": 80,
+          "buckets": 22,
+          "retained": 16
+        },
+        {
+          "block": 28,
+          "expansions": 80,
+          "buckets": 36,
+          "retained": 16
+        },
+        {
+          "block": 29,
+          "expansions": 80,
+          "buckets": 77,
+          "retained": 16
+        },
+        {
+          "block": 30,
+          "expansions": 80,
+          "buckets": 52,
+          "retained": 16
+        },
+        {
+          "block": 31,
+          "expansions": 80,
+          "buckets": 49,
+          "retained": 16
+        },
+        {
+          "block": 32,
+          "expansions": 80,
+          "buckets": 45,
+          "retained": 16
+        },
+        {
+          "block": 33,
+          "expansions": 80,
+          "buckets": 39,
+          "retained": 16
+        },
+        {
+          "block": 34,
+          "expansions": 80,
+          "buckets": 10,
+          "retained": 10
+        },
+        {
+          "block": 35,
+          "expansions": 50,
+          "buckets": 10,
+          "retained": 10
+        },
+        {
+          "block": 36,
+          "expansions": 50,
+          "buckets": 35,
+          "retained": 16
+        },
+        {
+          "block": 37,
+          "expansions": 80,
+          "buckets": 19,
+          "retained": 16
+        },
+        {
+          "block": 38,
+          "expansions": 80,
+          "buckets": 9,
+          "retained": 9
+        },
+        {
+          "block": 39,
+          "expansions": 45,
+          "buckets": 9,
+          "retained": 9
+        },
+        {
+          "block": 40,
+          "expansions": 45,
+          "buckets": 16,
+          "retained": 16
+        },
+        {
+          "block": 41,
+          "expansions": 80,
+          "buckets": 9,
+          "retained": 9
+        },
+        {
+          "block": 42,
+          "expansions": 45,
+          "buckets": 9,
+          "retained": 9
+        },
+        {
+          "block": 43,
+          "expansions": 45,
+          "buckets": 37,
+          "retained": 16
+        },
+        {
+          "block": 44,
+          "expansions": 80,
+          "buckets": 30,
+          "retained": 16
+        },
+        {
+          "block": 45,
+          "expansions": 80,
+          "buckets": 26,
+          "retained": 16
+        },
+        {
+          "block": 46,
+          "expansions": 80,
+          "buckets": 27,
+          "retained": 16
+        },
+        {
+          "block": 47,
+          "expansions": 80,
+          "buckets": 24,
+          "retained": 16
+        },
+        {
+          "block": 48,
+          "expansions": 80,
+          "buckets": 23,
+          "retained": 16
+        },
+        {
+          "block": 49,
+          "expansions": 80,
+          "buckets": 6,
+          "retained": 6
+        },
+        {
+          "block": 50,
+          "expansions": 30,
+          "buckets": 6,
+          "retained": 6
+        },
+        {
+          "block": 51,
+          "expansions": 30,
+          "buckets": 6,
+          "retained": 6
+        },
+        {
+          "block": 52,
+          "expansions": 30,
+          "buckets": 19,
+          "retained": 16
+        },
+        {
+          "block": 53,
+          "expansions": 80,
+          "buckets": 17,
+          "retained": 16
+        },
+        {
+          "block": 54,
+          "expansions": 80,
+          "buckets": 18,
+          "retained": 16
+        },
+        {
+          "block": 55,
+          "expansions": 80,
+          "buckets": 0,
+          "retained": 0
+        }
+      ],
+      "incumbent_time_s": 107.84928289855354
+    }
+  }
+}

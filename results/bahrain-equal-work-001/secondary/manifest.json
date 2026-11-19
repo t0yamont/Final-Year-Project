@@ -1,0 +1,47 @@
+{
+  "inputs": {
+    "results\\bahrain-pace-calibration-001\\model.json": "6884eb5359a3451e02b24480fda61c75f5b39309d9ea5c0c80e0787234ec59b1",
+    "results\\bahrain-deployment-zones-001\\central\\search.json": "84dd6b40dafad6357fa23e7506d78ff976f8728835668a57dbb24b9bab99f023",
+    "results\\circuit-input-assessment-001\\Sakhir.csv": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a",
+    "results\\bahrain-deployment-zones-001\\central\\spread_160.json.gz": "8fcd5eb90d93c532d3e3911294b5ff92efee867392d0b41dc34a3cdc94964d00",
+    "results\\bahrain-deployment-zones-001\\central\\spread_320.json.gz": "99b41dab50d4904f7cf13673f14daa09954dffeeeaa7237da10c1bbd8d625f1e",
+    "results\\bahrain-deployment-zones-001\\central\\selected_160.json.gz": "c7ddbadcb8cc14956e4aa9dedd630157972a6b65b30b1b0c141c4b2d67ef2e4e",
+    "results\\bahrain-deployment-zones-001\\central\\selected_320.json.gz": "a0dbbf39e4b96e6313d57c92ffd5cd5bce8e3c7eccf279157a9709a40a3c2c04",
+    "results\\bahrain-deployment-zones-001\\manifest.json": "fe202f1259f87b48a9cddd3b7abae1359a59e713d51d8eaa05f9e2921b7351bf"
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src\\f1energy\\event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "scripts\\bahrain_pace_model.py": "4983b5bb3e0426d4b9d1b4b02c3c9933142702560a783a92ae3446e0508dc217",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "scripts\\optimize_regeneration_dp.py": "b7cf0171ff58633b6fdc569dd6784adbe49e0c7239b755ddeb59d565c654bcfa",
+    "scripts\\validate_regeneration.py": "3a2a581cbe21bbe4dbf7ef375ffe47e8b17f046c7c47a3bbcad520a8f8e4277f",
+    "scripts\\verify_bahrain_deployment.py": "021d6666a3a42193eef68398042f493c2d690194d16df48557d0572c31a986db",
+    "scripts/compare_bahrain_equal_work.py": "82afc105c116fd079c69d2e087ac3fe7d5b17fd8400a91560bf3cac9e8e6644a",
+    "results\\bahrain-equal-work-001\\secondary\\compare_selected_work.py": "de009927f6abe8e16511a47257cec11f3229b37ea132c51cab4d767c7705e9f7"
+  },
+  "outputs": {
+    "results\\bahrain-equal-work-001\\secondary\\contract.json": "ab8f0f906755b2fb8eff5eb3409b6d3f365b64d0f72b7c9da4bdba39c8709e7b",
+    "results\\bahrain-equal-work-001\\secondary\\metrics.json": "61ff17f9827a8cedd00e7f7b89aa17b10005651ae0637e279a6108cd4a65aa9a",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_160_beta-0.0.json.gz": "32ae62e550e7fd5ebac955a25a19ad51debbdcc08e9629a5482e4045525f48c8",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_160_beta-0.1.json.gz": "cac10deacdef135dddd3d4127752b71619e092f888c5787d68c7d8579a9e3f41",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_160_beta-0.2.json.gz": "674ceccb5807be8fbfe6188700fad0069be808a33d8c9421dc8986712dc14311",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_160_beta-0.3.json.gz": "bbf2b190690ebda198df7383e4ca598ed42807a31523488e3924322ab0ba83cf",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_160_beta-0.4.json.gz": "2150b7025d518711d43a87d580a9a6f845926438a96e6ff4f598b387a3fc7055",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_160_beta-0.5.json.gz": "a16e60ecc8a65f6cbd8ef4ffb324ad9e58584388a46038c3f9ab305f67c42127",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_160_beta-0.6.json.gz": "93655ad5a18563f63f5c56d6ea0a3983a24ab51922b4506d4b2932dec9072bf5",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_160_beta-0.7.json.gz": "30e6e4b472ba0f7d08b3459758a9acdeb7aa85c4651aad1afbcc34f327c410a5",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_160_beta-0.8.json.gz": "fe73bc521d42bce08779fcaf49865425c7a7c60907c0056d62c89033bed66233",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_160_beta-0.9.json.gz": "103457fad3fea1eed7b925dbd4cb53e2f49a0da9a61a2b19125e61f9f2970811",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_160_beta-0.925.json.gz": "134bd8da64055524f4c505453d96d315a7bb5c69a15f037a09a225a125a54732",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_160_beta-0.9375.json.gz": "352ce5f6fbe2c8b251aeecf85dabce772f6662f654e14e7c0c1041d8121fd7ea",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_160_beta-0.94375.json.gz": "41e7263f8931af863de8a3478a21b1a5c6f8365d057f1e0ba406b7e173251bae",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_160_beta-0.9468749999999999.json.gz": "46503a2918a6d45259f2bf9881e54daa5abb4aa6120672301758ad3115b88830",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_160_beta-0.95.json.gz": "e263e35a45e0c85976f587a4f20ecb6dcd599ffe67ad87d1965d70162bc57915",
+    "results\\bahrain-equal-work-001\\secondary\\scaled_selected_320_beta-0.9468749999999999.json.gz": "8e29548ff27a6bc34111f6a315e39046ac10ee453aba7ed6ccf46c5cf731b3ad",
+    "figures\\dissertation\\bahrain-equal-work-v1\\02_bahrain_selected_work_match.png": "e84143e62009e5830dce4d52f10ec74fe87170834ef59d3efd9d9850c07ec194",
+    "figures\\dissertation\\bahrain-equal-work-v1\\02_bahrain_selected_work_match.pdf": "4e17ca436cfad78dafc9a42490507e377f7ab6aab59d0a79dd90c344129e4338"
+  }
+}

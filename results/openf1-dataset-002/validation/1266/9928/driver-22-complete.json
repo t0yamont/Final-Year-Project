@@ -1,0 +1,26 @@
+{
+  "driver_number": 22,
+  "driver_name": "Yuki TSUNODA",
+  "team": "Red Bull Racing",
+  "lap_count": 69,
+  "native_car_rows": 21488,
+  "aligned_car_rows": 20726,
+  "position_rows": 0,
+  "motion_qc_pass_laps": 67,
+  "conditional_motion_candidates": 29,
+  "exclusion_counts": {
+    "gap_missing_or_over_limit": 39,
+    "pit_activity_reported": 3,
+    "native_motion_qc_failed": 2,
+    "lap_edge_coverage_missing_or_over_limit": 2,
+    "pit_out_or_unknown": 2,
+    "weather_missing_stale_or_ambiguous": 2,
+    "rain_reported_or_unknown": 2,
+    "stint_unknown_or_ambiguous": 2,
+    "wet_or_unknown_tyre_compound": 2
+  },
+  "outputs": {
+    "driver-22-laps.json": "38e0c6ec0668d613e3e9bc278bb3237541ee084e6822ab0b37dc8c2c9685d8d5",
+    "driver-22-car.csv.gz": "b493cb5790d109750118f274523395d487741f063db588c75591226712ec7b15"
+  }
+}

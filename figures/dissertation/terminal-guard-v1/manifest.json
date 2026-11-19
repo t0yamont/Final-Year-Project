@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "results\\terminal-guard-001\\manifest.json": "b419d09b3f338444de97fa25fb498ae233f74fef0977e3cb65bbfafab9979541"
+  },
+  "source_sha256": "3e0a1a2c656d7f3fb9ff806d636c16ef7ad451d6f727d249d770b28de9278d28",
+  "outputs": {
+    "figures\\dissertation\\terminal-guard-v1\\01_feasibility_and_comparison.pdf": "0dacf2016281b6d776e85e1c23be26166717bdb87d9648dfdb2b856e25b07e35",
+    "figures\\dissertation\\terminal-guard-v1\\01_feasibility_and_comparison.png": "ebfd20f97f451d98ccfacfd7f784c06381eaf35a3fc2e24ebd9f65356b6ab252",
+    "figures\\dissertation\\terminal-guard-v1\\02_guard_energy_actions.pdf": "d6725158061a801dc208683b5d5388d45478cfa9162555e3355d2f11480c1948",
+    "figures\\dissertation\\terminal-guard-v1\\02_guard_energy_actions.png": "7d78f057b60ca7fc4c9114d209d5f8e9bdacc5736ddddcdd8f9d571b669e5664",
+    "figures\\dissertation\\terminal-guard-v1\\verification.json": "5cc3edf2d53296e37a10f55e05930613633e817ddd7f82d98a86c315a46ed491"
+  }
+}

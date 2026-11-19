@@ -1,0 +1,5 @@
+{
+  "src/f1energy/event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+  "src/f1energy/circuit_control.py": "69b5f4ffac4a297cfa8dcecb9fd57ebf4a03acf800363f162e2338a3e1b78e52",
+  "scripts/benchmark_circuit_control.py": "782b00b91a3d53bd879bb35c4ea6be3f32ee0d7ecb31efa14d7f4e0d5fa98625"
+}

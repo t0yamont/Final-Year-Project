@@ -1,0 +1,97 @@
+{
+  "config": {
+    "reference_config": "configs/circuit_reference.json",
+    "numerical_gate": "results/regeneration-validation-001",
+    "action_blocks": 55,
+    "cells_per_block": [
+      80,
+      160
+    ],
+    "fine_cells_per_block": 160,
+    "initial_speed_mps": 70.0,
+    "policies": [
+      "zero",
+      "half",
+      "full",
+      "spread",
+      "exit_boost"
+    ],
+    "gates": {
+      "relative_lap_time": 0.005,
+      "gain_error_s": 0.05,
+      "ranking_tie_s": 0.02
+    },
+    "pilot": {
+      "seed": 0,
+      "steps": 4096,
+      "gamma": 1.0,
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "net_arch": [
+        32,
+        32
+      ]
+    },
+    "interpretation": "MGU-K-only assumed reference model; automatic braking recovery, fixed total braking, no MGU-H. Capacity, efficiency and rear braking share are assumptions. No measured-car or full regulatory compliance claim.",
+    "regeneration": {
+      "capacity_j": 4000000.0,
+      "charge_efficiency": 0.8,
+      "max_power_w": 120000.0,
+      "braking_fraction": 0.4,
+      "recovery_limit_j": 2000000.0,
+      "deployment_limit_j": 4000000.0
+    },
+    "sources": [
+      "https://api.fia.com/sites/default/files/documents/fia_2025_formula_1_technical_regulations_-_issue_03_-_2025-04-07.pdf",
+      "https://www.mclaren.com/racing/formula-1/2025/mcl39-technical-specification/"
+    ]
+  },
+  "reference": {
+    "scope": "Assumed point-mass research reference, not a fitted F1 car or regulatory specification",
+    "geometry": "results/circuit-input-assessment-001/Sakhir.csv",
+    "geometry_sha256": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a",
+    "smoothing_sigma_m": 10.0,
+    "resample_spacing_m": 5.0,
+    "smoothing_sensitivity_m": [
+      5.0,
+      10.0,
+      20.0
+    ],
+    "grid_spacing_m": [
+      20.0,
+      10.0,
+      5.0,
+      2.5,
+      1.25,
+      0.625
+    ],
+    "lateral_acceleration_mps2": 20.0,
+    "max_speed_mps": 95.0,
+    "vehicle": {
+      "mass_kg": 800.0,
+      "base_power_w": 450000.0,
+      "electrical_limit_w": 120000.0,
+      "discharge_efficiency": 0.9,
+      "drag_kg_per_m": 1.0,
+      "friction_deceleration_m_per_s2": 12.0
+    },
+    "initial_energy_j": 1000000,
+    "reserve_j": 100000.0,
+    "gates": {
+      "speed_closure_mps": 1e-06,
+      "cap_excess_mps": 1e-05,
+      "energy_balance_j": 1.0,
+      "battery_identity_j": 0.01,
+      "finest_grid_time_relative": 0.005,
+      "solver_time_absolute_s": 0.0001
+    },
+    "limitations": [
+      "All vehicle and grip values are declared assumptions, not telemetry-estimated component powers.",
+      "450 kW base plus at most 120 kW electrical gives 570 kW total; effective total-power fits are not added.",
+      "Independent lateral and longitudinal constraints; no combined-slip tyre model, downforce map, grade, regeneration or DRS.",
+      "Source origin is retained; it is not certified to coincide with the official timing line.",
+      "Periodic speed for a single finite-energy lap does not imply battery periodicity or a sustainable race strategy."
+    ]
+  }
+}

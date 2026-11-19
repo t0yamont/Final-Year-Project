@@ -24,4 +24,6 @@ Record failed attempts and subsequent fixes in the project log, then explain onl
 
 ## Immediate writing state
 
-The related-work file is an initial bounded draft. No results or conclusions chapter has been populated with findings because no empirical F1 experiment has yet been established. Scope, implementation and verification records should be used to draft the first synopsis once their acceptance evidence is reviewed.
+The editable technical draft draws on the [introduction and abstract](01_introduction.md), [related work](02_related_work.md), [data and modelling assumptions](03_data.md), [methods and experimental design](04_methods.md), [results](06_results.md), [discussion and conclusion](07_conclusion.md) and [professional practice](08_professional_practice.md). The methods chapter incorporates experimental design, so the assembled draft has seven technical chapters. The [dissertation reading guide](../docs/DISSERTATION_GUIDE.md) links each result to its local evidence.
+
+The student’s personal AI reflection, confirmation of the institution’s ethics record, source redistribution position, preferred reference style and submission details remain to be supplied or confirmed. The professional-practice section records the evidence currently available. The original chapter and page plan above is retained as a planning record.

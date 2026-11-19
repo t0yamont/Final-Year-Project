@@ -1,0 +1,3815 @@
+{
+  "cases": [
+    {
+      "scenario": "low_initial_energy",
+      "search": {
+        "name": "replanned_dp",
+        "actions": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0.25,
+          0,
+          0,
+          1,
+          0.5,
+          0,
+          0.25,
+          0,
+          0,
+          0,
+          0,
+          0.75,
+          0.25,
+          0.25,
+          0.25,
+          0.5,
+          0.75,
+          1,
+          0.75,
+          0.5,
+          0,
+          0,
+          0,
+          1,
+          0.5,
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          0.25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.25,
+          0.25,
+          1,
+          0.25,
+          0.25,
+          0,
+          0,
+          0.5,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "search_time_s": 108.0880210562895,
+        "wall_seconds": 134.36258279997855,
+        "transitions": 3605,
+        "layers": [
+          {
+            "block": 1,
+            "expansions": 5,
+            "buckets": 5,
+            "retained": 5
+          },
+          {
+            "block": 2,
+            "expansions": 25,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 3,
+            "expansions": 40,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 4,
+            "expansions": 50,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 5,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 6,
+            "expansions": 80,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 7,
+            "expansions": 80,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 8,
+            "expansions": 50,
+            "buckets": 36,
+            "retained": 16
+          },
+          {
+            "block": 9,
+            "expansions": 80,
+            "buckets": 39,
+            "retained": 16
+          },
+          {
+            "block": 10,
+            "expansions": 80,
+            "buckets": 38,
+            "retained": 16
+          },
+          {
+            "block": 11,
+            "expansions": 80,
+            "buckets": 55,
+            "retained": 16
+          },
+          {
+            "block": 12,
+            "expansions": 80,
+            "buckets": 47,
+            "retained": 16
+          },
+          {
+            "block": 13,
+            "expansions": 80,
+            "buckets": 36,
+            "retained": 16
+          },
+          {
+            "block": 14,
+            "expansions": 80,
+            "buckets": 13,
+            "retained": 13
+          },
+          {
+            "block": 15,
+            "expansions": 65,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 16,
+            "expansions": 50,
+            "buckets": 19,
+            "retained": 16
+          },
+          {
+            "block": 17,
+            "expansions": 80,
+            "buckets": 65,
+            "retained": 16
+          },
+          {
+            "block": 18,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 19,
+            "expansions": 80,
+            "buckets": 20,
+            "retained": 16
+          },
+          {
+            "block": 20,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 21,
+            "expansions": 80,
+            "buckets": 48,
+            "retained": 16
+          },
+          {
+            "block": 22,
+            "expansions": 80,
+            "buckets": 14,
+            "retained": 14
+          },
+          {
+            "block": 23,
+            "expansions": 70,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 24,
+            "expansions": 80,
+            "buckets": 58,
+            "retained": 16
+          },
+          {
+            "block": 25,
+            "expansions": 80,
+            "buckets": 60,
+            "retained": 16
+          },
+          {
+            "block": 26,
+            "expansions": 80,
+            "buckets": 15,
+            "retained": 15
+          },
+          {
+            "block": 27,
+            "expansions": 75,
+            "buckets": 20,
+            "retained": 16
+          },
+          {
+            "block": 28,
+            "expansions": 80,
+            "buckets": 27,
+            "retained": 16
+          },
+          {
+            "block": 29,
+            "expansions": 80,
+            "buckets": 55,
+            "retained": 16
+          },
+          {
+            "block": 30,
+            "expansions": 80,
+            "buckets": 46,
+            "retained": 16
+          },
+          {
+            "block": 31,
+            "expansions": 80,
+            "buckets": 41,
+            "retained": 16
+          },
+          {
+            "block": 32,
+            "expansions": 80,
+            "buckets": 33,
+            "retained": 16
+          },
+          {
+            "block": 33,
+            "expansions": 80,
+            "buckets": 33,
+            "retained": 16
+          },
+          {
+            "block": 34,
+            "expansions": 80,
+            "buckets": 11,
+            "retained": 11
+          },
+          {
+            "block": 35,
+            "expansions": 55,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 36,
+            "expansions": 40,
+            "buckets": 30,
+            "retained": 16
+          },
+          {
+            "block": 37,
+            "expansions": 80,
+            "buckets": 15,
+            "retained": 15
+          },
+          {
+            "block": 38,
+            "expansions": 75,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 39,
+            "expansions": 40,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 40,
+            "expansions": 40,
+            "buckets": 14,
+            "retained": 14
+          },
+          {
+            "block": 41,
+            "expansions": 70,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 42,
+            "expansions": 40,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 43,
+            "expansions": 40,
+            "buckets": 31,
+            "retained": 16
+          },
+          {
+            "block": 44,
+            "expansions": 80,
+            "buckets": 28,
+            "retained": 16
+          },
+          {
+            "block": 45,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 46,
+            "expansions": 80,
+            "buckets": 22,
+            "retained": 16
+          },
+          {
+            "block": 47,
+            "expansions": 80,
+            "buckets": 19,
+            "retained": 16
+          },
+          {
+            "block": 48,
+            "expansions": 80,
+            "buckets": 14,
+            "retained": 14
+          },
+          {
+            "block": 49,
+            "expansions": 70,
+            "buckets": 4,
+            "retained": 4
+          },
+          {
+            "block": 50,
+            "expansions": 20,
+            "buckets": 4,
+            "retained": 4
+          },
+          {
+            "block": 51,
+            "expansions": 20,
+            "buckets": 4,
+            "retained": 4
+          },
+          {
+            "block": 52,
+            "expansions": 20,
+            "buckets": 11,
+            "retained": 11
+          },
+          {
+            "block": 53,
+            "expansions": 55,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 54,
+            "expansions": 50,
+            "buckets": 12,
+            "retained": 12
+          },
+          {
+            "block": 55,
+            "expansions": 60,
+            "buckets": 0,
+            "retained": 0
+          }
+        ],
+        "incumbent_time_s": 108.35900265803437,
+        "status": "completed"
+      },
+      "results": [
+        {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "zero",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\zero_160.json.gz",
+          "duration_s": 109.4752064614381,
+          "final_energy_j": 2999999.999999973,
+          "feasible": true,
+          "terminal_speed_error_mps": 2.842170943040401e-14,
+          "audit": {
+            "recovered_j": 2000000.000000003,
+            "discharged_j": 0.0,
+            "max_work_residual_j": 7.741618901491165e-09,
+            "max_battery_residual_j": 6.9267116487026215e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "half",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\half_160.json.gz",
+          "duration_s": 108.18246972097741,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000002,
+            "discharged_j": 2900000.0000000005,
+            "max_work_residual_j": 9.720679372549057e-09,
+            "max_battery_residual_j": 2.3283064365386963e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "full",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\full_160.json.gz",
+          "duration_s": 107.99292011263347,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000002,
+            "discharged_j": 2899999.999999999,
+            "max_work_residual_j": 6.155460141599178e-09,
+            "max_battery_residual_j": 1.0477378964424133e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "spread",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\spread_160.json.gz",
+          "duration_s": 108.29552978546668,
+          "final_energy_j": 228432.8567779305,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.000000001,
+            "discharged_j": 2771567.1432220642,
+            "max_work_residual_j": 6.51925802230835e-09,
+            "max_battery_residual_j": 5.2532413974404335e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "exit_boost",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\exit_boost_160.json.gz",
+          "duration_s": 108.62819093882047,
+          "final_energy_j": 1612300.5477320128,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000005,
+            "discharged_j": 1387699.4522679916,
+            "max_work_residual_j": 7.814378477633e-09,
+            "max_battery_residual_j": 4.903995431959629e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\ppo_seed0_160.json.gz",
+          "duration_s": 107.81413067259953,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000007,
+            "discharged_j": 2900000.000000023,
+            "max_work_residual_j": 6.577465683221817e-09,
+            "max_battery_residual_j": 3.623426891863346e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\ppo_seed1_160.json.gz",
+          "duration_s": 107.92799800810778,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000002,
+            "discharged_j": 2899999.9999999963,
+            "max_work_residual_j": 1.0477378964424133e-08,
+            "max_battery_residual_j": 1.0477378964424133e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\ppo_seed2_160.json.gz",
+          "duration_s": 107.94808351876796,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000002,
+            "discharged_j": 2900000.0000000005,
+            "max_work_residual_j": 8.32369551062584e-09,
+            "max_battery_residual_j": 1.8044374883174896e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "frozen_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\frozen_dp_160.json.gz",
+          "duration_s": 107.84181374377404,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000005,
+            "discharged_j": 2900000.0000000005,
+            "max_work_residual_j": 7.0285750553011894e-09,
+            "max_battery_residual_j": 2.444721758365631e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "replanned_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\replanned_dp_160.json.gz",
+          "duration_s": 107.71165699972185,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.0,
+            "discharged_j": 2899999.9999999963,
+            "max_work_residual_j": 9.778887033462524e-09,
+            "max_battery_residual_j": 1.964508555829525e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 320,
+          "policy": "zero",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\zero_320.json.gz",
+          "duration_s": 109.28846201300206,
+          "final_energy_j": 2999999.9999999856,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000033,
+            "discharged_j": 0.0,
+            "max_work_residual_j": 1.2216332834213972e-08,
+            "max_battery_residual_j": 1.3518729247152805e-08
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 320,
+          "policy": "half",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\half_320.json.gz",
+          "duration_s": 107.9953792684825,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000054,
+            "discharged_j": 2900000.000000002,
+            "max_work_residual_j": 1.0710209608078003e-08,
+            "max_battery_residual_j": 3.055902197957039e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 320,
+          "policy": "full",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\full_320.json.gz",
+          "duration_s": 107.80825183558339,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000037,
+            "discharged_j": 2900000.0000000023,
+            "max_work_residual_j": 1.5308614820241928e-08,
+            "max_battery_residual_j": 1.3969838619232178e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 320,
+          "policy": "spread",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\spread_320.json.gz",
+          "duration_s": 108.10745325868952,
+          "final_energy_j": 226052.49587121754,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.1368683772161603e-13,
+          "audit": {
+            "recovered_j": 2000000.0000000044,
+            "discharged_j": 2773947.504128749,
+            "max_work_residual_j": 8.672941476106644e-09,
+            "max_battery_residual_j": 1.0204530553892255e-08
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 320,
+          "policy": "exit_boost",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\exit_boost_320.json.gz",
+          "duration_s": 108.44299459849631,
+          "final_energy_j": 1612948.9853819632,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000035,
+            "discharged_j": 1387051.0146180748,
+            "max_work_residual_j": 1.2216332834213972e-08,
+            "max_battery_residual_j": 8.003553375601768e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 320,
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\ppo_seed0_320.json.gz",
+          "duration_s": 107.6296591552476,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000033,
+            "discharged_j": 2899999.9999999925,
+            "max_work_residual_j": 1.5774276107549667e-08,
+            "max_battery_residual_j": 5.1513779908418655e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 320,
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\ppo_seed1_320.json.gz",
+          "duration_s": 107.74315513444166,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000035,
+            "discharged_j": 2900000.0000000047,
+            "max_work_residual_j": 1.7258571460843086e-08,
+            "max_battery_residual_j": 1.2078089639544487e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 320,
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\ppo_seed2_320.json.gz",
+          "duration_s": 107.76248233996168,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 2000000.000000004,
+            "discharged_j": 2900000.0000000093,
+            "max_work_residual_j": 8.381903171539307e-09,
+            "max_battery_residual_j": 2.371962182223797e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 320,
+          "policy": "frozen_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\frozen_dp_320.json.gz",
+          "duration_s": 107.65337919623323,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000054,
+            "discharged_j": 2900000.0000000037,
+            "max_work_residual_j": 1.2747477740049362e-08,
+            "max_battery_residual_j": 1.7025740817189217e-09
+          }
+        },
+        {
+          "scenario": "low_initial_energy",
+          "cells": 320,
+          "policy": "replanned_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\replanned_dp_320.json.gz",
+          "duration_s": 107.52485888999148,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000037,
+            "discharged_j": 2900000.0000000033,
+            "max_work_residual_j": 8.149072527885437e-09,
+            "max_battery_residual_j": 3.6961864680051804e-09
+          }
+        }
+      ],
+      "devices": [
+        {
+          "seed": 0,
+          "checkpoint": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_16384.zip",
+          "sha256": "bd7b0a4fa4d7ff80392ea40ab2b0265aa3ac090fb1a6d377863a05d901db3ef4",
+          "device": "cuda:0"
+        },
+        {
+          "seed": 1,
+          "checkpoint": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_16384.zip",
+          "sha256": "629551dea0a8763c0984a5e00259df02dfb3d6b21cbbc6d1e20e92a54444459b",
+          "device": "cuda:0"
+        },
+        {
+          "seed": 2,
+          "checkpoint": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_16384.zip",
+          "sha256": "e988a9580acbd62ebcb96090c32f37d36e78d28f8b4cba6033ba9b6a767dbb05",
+          "device": "cuda:0"
+        }
+      ]
+    },
+    {
+      "scenario": "nominal",
+      "search": {
+        "name": "replanned_dp",
+        "actions": [
+          1,
+          1,
+          1,
+          1,
+          0.25,
+          0.25,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0.75,
+          0.5,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0.75,
+          1,
+          1,
+          1,
+          0,
+          0.5,
+          0,
+          1,
+          0.75,
+          0,
+          0.25,
+          0,
+          0,
+          0,
+          0.25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.25,
+          0.5,
+          0.25,
+          0,
+          0,
+          0,
+          0,
+          0.25,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "search_time_s": 107.64238167613189,
+        "wall_seconds": 141.20266709988937,
+        "transitions": 3810,
+        "layers": [
+          {
+            "block": 1,
+            "expansions": 5,
+            "buckets": 5,
+            "retained": 5
+          },
+          {
+            "block": 2,
+            "expansions": 25,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 3,
+            "expansions": 40,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 4,
+            "expansions": 50,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 5,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 6,
+            "expansions": 80,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 7,
+            "expansions": 80,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 8,
+            "expansions": 50,
+            "buckets": 37,
+            "retained": 16
+          },
+          {
+            "block": 9,
+            "expansions": 80,
+            "buckets": 39,
+            "retained": 16
+          },
+          {
+            "block": 10,
+            "expansions": 80,
+            "buckets": 39,
+            "retained": 16
+          },
+          {
+            "block": 11,
+            "expansions": 80,
+            "buckets": 56,
+            "retained": 16
+          },
+          {
+            "block": 12,
+            "expansions": 80,
+            "buckets": 53,
+            "retained": 16
+          },
+          {
+            "block": 13,
+            "expansions": 80,
+            "buckets": 49,
+            "retained": 16
+          },
+          {
+            "block": 14,
+            "expansions": 80,
+            "buckets": 27,
+            "retained": 16
+          },
+          {
+            "block": 15,
+            "expansions": 80,
+            "buckets": 14,
+            "retained": 14
+          },
+          {
+            "block": 16,
+            "expansions": 70,
+            "buckets": 29,
+            "retained": 16
+          },
+          {
+            "block": 17,
+            "expansions": 80,
+            "buckets": 72,
+            "retained": 16
+          },
+          {
+            "block": 18,
+            "expansions": 80,
+            "buckets": 26,
+            "retained": 16
+          },
+          {
+            "block": 19,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 20,
+            "expansions": 80,
+            "buckets": 28,
+            "retained": 16
+          },
+          {
+            "block": 21,
+            "expansions": 80,
+            "buckets": 50,
+            "retained": 16
+          },
+          {
+            "block": 22,
+            "expansions": 80,
+            "buckets": 30,
+            "retained": 16
+          },
+          {
+            "block": 23,
+            "expansions": 80,
+            "buckets": 19,
+            "retained": 16
+          },
+          {
+            "block": 24,
+            "expansions": 80,
+            "buckets": 64,
+            "retained": 16
+          },
+          {
+            "block": 25,
+            "expansions": 80,
+            "buckets": 59,
+            "retained": 16
+          },
+          {
+            "block": 26,
+            "expansions": 80,
+            "buckets": 29,
+            "retained": 16
+          },
+          {
+            "block": 27,
+            "expansions": 80,
+            "buckets": 22,
+            "retained": 16
+          },
+          {
+            "block": 28,
+            "expansions": 80,
+            "buckets": 36,
+            "retained": 16
+          },
+          {
+            "block": 29,
+            "expansions": 80,
+            "buckets": 77,
+            "retained": 16
+          },
+          {
+            "block": 30,
+            "expansions": 80,
+            "buckets": 52,
+            "retained": 16
+          },
+          {
+            "block": 31,
+            "expansions": 80,
+            "buckets": 49,
+            "retained": 16
+          },
+          {
+            "block": 32,
+            "expansions": 80,
+            "buckets": 45,
+            "retained": 16
+          },
+          {
+            "block": 33,
+            "expansions": 80,
+            "buckets": 39,
+            "retained": 16
+          },
+          {
+            "block": 34,
+            "expansions": 80,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 35,
+            "expansions": 50,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 36,
+            "expansions": 50,
+            "buckets": 35,
+            "retained": 16
+          },
+          {
+            "block": 37,
+            "expansions": 80,
+            "buckets": 19,
+            "retained": 16
+          },
+          {
+            "block": 38,
+            "expansions": 80,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 39,
+            "expansions": 45,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 40,
+            "expansions": 45,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 41,
+            "expansions": 80,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 42,
+            "expansions": 45,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 43,
+            "expansions": 45,
+            "buckets": 37,
+            "retained": 16
+          },
+          {
+            "block": 44,
+            "expansions": 80,
+            "buckets": 30,
+            "retained": 16
+          },
+          {
+            "block": 45,
+            "expansions": 80,
+            "buckets": 26,
+            "retained": 16
+          },
+          {
+            "block": 46,
+            "expansions": 80,
+            "buckets": 27,
+            "retained": 16
+          },
+          {
+            "block": 47,
+            "expansions": 80,
+            "buckets": 24,
+            "retained": 16
+          },
+          {
+            "block": 48,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 49,
+            "expansions": 80,
+            "buckets": 6,
+            "retained": 6
+          },
+          {
+            "block": 50,
+            "expansions": 30,
+            "buckets": 6,
+            "retained": 6
+          },
+          {
+            "block": 51,
+            "expansions": 30,
+            "buckets": 6,
+            "retained": 6
+          },
+          {
+            "block": 52,
+            "expansions": 30,
+            "buckets": 19,
+            "retained": 16
+          },
+          {
+            "block": 53,
+            "expansions": 80,
+            "buckets": 17,
+            "retained": 16
+          },
+          {
+            "block": 54,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 55,
+            "expansions": 80,
+            "buckets": 0,
+            "retained": 0
+          }
+        ],
+        "incumbent_time_s": 107.84928289855354,
+        "status": "completed"
+      },
+      "results": [
+        {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "zero",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\zero_160.json.gz",
+          "duration_s": 109.47520646143805,
+          "final_energy_j": 4000000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 2.842170943040401e-14,
+          "audit": {
+            "recovered_j": 1999999.999999993,
+            "discharged_j": 0.0,
+            "max_work_residual_j": 1.1030351743102074e-08,
+            "max_battery_residual_j": 4.20550350099802e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "half",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\half_160.json.gz",
+          "duration_s": 107.72028110543953,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000012,
+            "discharged_j": 3900000.0000000107,
+            "max_work_residual_j": 1.0593794286251068e-08,
+            "max_battery_residual_j": 4.700268618762493e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "full",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\full_160.json.gz",
+          "duration_s": 107.68731467202234,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000012,
+            "discharged_j": 3900000.0000000047,
+            "max_work_residual_j": 7.101334631443024e-09,
+            "max_battery_residual_j": 2.0954757928848267e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "spread",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\spread_160.json.gz",
+          "duration_s": 107.9518537764125,
+          "final_energy_j": 418288.6661748216,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 1999999.9999999993,
+            "discharged_j": 3581711.333825172,
+            "max_work_residual_j": 1.0710209608078003e-08,
+            "max_battery_residual_j": 6.417394615709782e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "exit_boost",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\exit_boost_160.json.gz",
+          "duration_s": 108.62819093882047,
+          "final_energy_j": 2612300.5477319914,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000012,
+            "discharged_j": 1387699.4522679914,
+            "max_work_residual_j": 1.0477378964424133e-08,
+            "max_battery_residual_j": 7.334165275096893e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\ppo_seed0_160.json.gz",
+          "duration_s": 107.22768238745067,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000014,
+            "discharged_j": 3899999.999999998,
+            "max_work_residual_j": 1.6298145055770874e-08,
+            "max_battery_residual_j": 3.979948814958334e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\ppo_seed1_160.json.gz",
+          "duration_s": 107.6757030247851,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000005,
+            "discharged_j": 3900000.000000008,
+            "max_work_residual_j": 9.633367881178856e-09,
+            "max_battery_residual_j": 3.14321368932724e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\ppo_seed2_160.json.gz",
+          "duration_s": 107.57866270953544,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000026,
+            "discharged_j": 3899999.999999997,
+            "max_work_residual_j": 6.461050361394882e-09,
+            "max_battery_residual_j": 2.939486876130104e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "frozen_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\frozen_dp_160.json.gz",
+          "duration_s": 107.26587781782062,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000012,
+            "discharged_j": 3899999.9999999963,
+            "max_work_residual_j": 7.916241884231567e-09,
+            "max_battery_residual_j": 4.190951585769653e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "replanned_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\replanned_dp_160.json.gz",
+          "duration_s": 107.26587781782062,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000012,
+            "discharged_j": 3899999.9999999963,
+            "max_work_residual_j": 7.916241884231567e-09,
+            "max_battery_residual_j": 4.190951585769653e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 320,
+          "policy": "zero",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\zero_320.json.gz",
+          "duration_s": 109.28846201300212,
+          "final_energy_j": 3999999.999999991,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000026,
+            "discharged_j": 0.0,
+            "max_work_residual_j": 1.3620592653751373e-08,
+            "max_battery_residual_j": 7.30506144464016e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 320,
+          "policy": "half",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\half_320.json.gz",
+          "duration_s": 107.53690445401043,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000047,
+            "discharged_j": 3900000.0000000065,
+            "max_work_residual_j": 1.885928213596344e-08,
+            "max_battery_residual_j": 7.741618901491165e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 320,
+          "policy": "full",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\full_320.json.gz",
+          "duration_s": 107.49879361151098,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000026,
+            "discharged_j": 3900000.0000000144,
+            "max_work_residual_j": 1.0717485565692186e-08,
+            "max_battery_residual_j": 3.521563485264778e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 320,
+          "policy": "spread",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\spread_320.json.gz",
+          "duration_s": 107.7627629136471,
+          "final_energy_j": 414044.5484099612,
+          "feasible": true,
+          "terminal_speed_error_mps": -7.105427357601002e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000028,
+            "discharged_j": 3585955.451590043,
+            "max_work_residual_j": 1.2922100722789764e-08,
+            "max_battery_residual_j": 1.4035322237759829e-08
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 320,
+          "policy": "exit_boost",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\exit_boost_320.json.gz",
+          "duration_s": 108.4429945984964,
+          "final_energy_j": 2612948.985381943,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.000000002,
+            "discharged_j": 1387051.0146180752,
+            "max_work_residual_j": 1.605803845450282e-08,
+            "max_battery_residual_j": 7.30506144464016e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 320,
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\ppo_seed0_320.json.gz",
+          "duration_s": 107.04117644005925,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000042,
+            "discharged_j": 3900000.000000001,
+            "max_work_residual_j": 1.5832483768463135e-08,
+            "max_battery_residual_j": 6.111804395914078e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 320,
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\ppo_seed1_320.json.gz",
+          "duration_s": 107.48637459054012,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000023,
+            "discharged_j": 3900000.000000012,
+            "max_work_residual_j": 1.2456439435482025e-08,
+            "max_battery_residual_j": 3.5797711461782455e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 320,
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\ppo_seed2_320.json.gz",
+          "duration_s": 107.3947423575712,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000035,
+            "discharged_j": 3899999.9999999977,
+            "max_work_residual_j": 1.4435499906539917e-08,
+            "max_battery_residual_j": 5.384208634495735e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 320,
+          "policy": "frozen_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\frozen_dp_320.json.gz",
+          "duration_s": 107.07970860780809,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.000000004,
+            "discharged_j": 3900000.0000000237,
+            "max_work_residual_j": 9.633367881178856e-09,
+            "max_battery_residual_j": 5.093170329928398e-09
+          }
+        },
+        {
+          "scenario": "nominal",
+          "cells": 320,
+          "policy": "replanned_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\replanned_dp_320.json.gz",
+          "duration_s": 107.07970860780809,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.000000004,
+            "discharged_j": 3900000.0000000237,
+            "max_work_residual_j": 9.633367881178856e-09,
+            "max_battery_residual_j": 5.093170329928398e-09
+          }
+        }
+      ],
+      "devices": [
+        {
+          "seed": 0,
+          "checkpoint": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_16384.zip",
+          "sha256": "bd7b0a4fa4d7ff80392ea40ab2b0265aa3ac090fb1a6d377863a05d901db3ef4",
+          "device": "cuda:0"
+        },
+        {
+          "seed": 1,
+          "checkpoint": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_16384.zip",
+          "sha256": "629551dea0a8763c0984a5e00259df02dfb3d6b21cbbc6d1e20e92a54444459b",
+          "device": "cuda:0"
+        },
+        {
+          "seed": 2,
+          "checkpoint": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_16384.zip",
+          "sha256": "e988a9580acbd62ebcb96090c32f37d36e78d28f8b4cba6033ba9b6a767dbb05",
+          "device": "cuda:0"
+        }
+      ]
+    },
+    {
+      "scenario": "low_charge_efficiency",
+      "search": {
+        "name": "replanned_dp",
+        "actions": [
+          1,
+          1,
+          1,
+          1,
+          0.25,
+          0.25,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0.75,
+          1,
+          0,
+          0.25,
+          0,
+          1,
+          0.5,
+          0.75,
+          0.25,
+          0,
+          0.5,
+          0,
+          0.5,
+          0.25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.75,
+          1,
+          0.5,
+          0.5,
+          0,
+          0,
+          0.25,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "search_time_s": 107.52705183582995,
+        "wall_seconds": 151.20147319999523,
+        "transitions": 3955,
+        "layers": [
+          {
+            "block": 1,
+            "expansions": 5,
+            "buckets": 5,
+            "retained": 5
+          },
+          {
+            "block": 2,
+            "expansions": 25,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 3,
+            "expansions": 40,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 4,
+            "expansions": 50,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 5,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 6,
+            "expansions": 80,
+            "buckets": 22,
+            "retained": 16
+          },
+          {
+            "block": 7,
+            "expansions": 80,
+            "buckets": 12,
+            "retained": 12
+          },
+          {
+            "block": 8,
+            "expansions": 60,
+            "buckets": 37,
+            "retained": 16
+          },
+          {
+            "block": 9,
+            "expansions": 80,
+            "buckets": 52,
+            "retained": 16
+          },
+          {
+            "block": 10,
+            "expansions": 80,
+            "buckets": 48,
+            "retained": 16
+          },
+          {
+            "block": 11,
+            "expansions": 80,
+            "buckets": 62,
+            "retained": 16
+          },
+          {
+            "block": 12,
+            "expansions": 80,
+            "buckets": 59,
+            "retained": 16
+          },
+          {
+            "block": 13,
+            "expansions": 80,
+            "buckets": 57,
+            "retained": 16
+          },
+          {
+            "block": 14,
+            "expansions": 80,
+            "buckets": 29,
+            "retained": 16
+          },
+          {
+            "block": 15,
+            "expansions": 80,
+            "buckets": 15,
+            "retained": 15
+          },
+          {
+            "block": 16,
+            "expansions": 75,
+            "buckets": 26,
+            "retained": 16
+          },
+          {
+            "block": 17,
+            "expansions": 80,
+            "buckets": 74,
+            "retained": 16
+          },
+          {
+            "block": 18,
+            "expansions": 80,
+            "buckets": 31,
+            "retained": 16
+          },
+          {
+            "block": 19,
+            "expansions": 80,
+            "buckets": 22,
+            "retained": 16
+          },
+          {
+            "block": 20,
+            "expansions": 80,
+            "buckets": 25,
+            "retained": 16
+          },
+          {
+            "block": 21,
+            "expansions": 80,
+            "buckets": 46,
+            "retained": 16
+          },
+          {
+            "block": 22,
+            "expansions": 80,
+            "buckets": 20,
+            "retained": 16
+          },
+          {
+            "block": 23,
+            "expansions": 80,
+            "buckets": 17,
+            "retained": 16
+          },
+          {
+            "block": 24,
+            "expansions": 80,
+            "buckets": 59,
+            "retained": 16
+          },
+          {
+            "block": 25,
+            "expansions": 80,
+            "buckets": 56,
+            "retained": 16
+          },
+          {
+            "block": 26,
+            "expansions": 80,
+            "buckets": 15,
+            "retained": 15
+          },
+          {
+            "block": 27,
+            "expansions": 75,
+            "buckets": 22,
+            "retained": 16
+          },
+          {
+            "block": 28,
+            "expansions": 80,
+            "buckets": 36,
+            "retained": 16
+          },
+          {
+            "block": 29,
+            "expansions": 80,
+            "buckets": 72,
+            "retained": 16
+          },
+          {
+            "block": 30,
+            "expansions": 80,
+            "buckets": 53,
+            "retained": 16
+          },
+          {
+            "block": 31,
+            "expansions": 80,
+            "buckets": 44,
+            "retained": 16
+          },
+          {
+            "block": 32,
+            "expansions": 80,
+            "buckets": 49,
+            "retained": 16
+          },
+          {
+            "block": 33,
+            "expansions": 80,
+            "buckets": 44,
+            "retained": 16
+          },
+          {
+            "block": 34,
+            "expansions": 80,
+            "buckets": 12,
+            "retained": 12
+          },
+          {
+            "block": 35,
+            "expansions": 60,
+            "buckets": 11,
+            "retained": 11
+          },
+          {
+            "block": 36,
+            "expansions": 55,
+            "buckets": 35,
+            "retained": 16
+          },
+          {
+            "block": 37,
+            "expansions": 80,
+            "buckets": 29,
+            "retained": 16
+          },
+          {
+            "block": 38,
+            "expansions": 80,
+            "buckets": 15,
+            "retained": 15
+          },
+          {
+            "block": 39,
+            "expansions": 75,
+            "buckets": 20,
+            "retained": 16
+          },
+          {
+            "block": 40,
+            "expansions": 80,
+            "buckets": 28,
+            "retained": 16
+          },
+          {
+            "block": 41,
+            "expansions": 80,
+            "buckets": 20,
+            "retained": 16
+          },
+          {
+            "block": 42,
+            "expansions": 80,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 43,
+            "expansions": 50,
+            "buckets": 41,
+            "retained": 16
+          },
+          {
+            "block": 44,
+            "expansions": 80,
+            "buckets": 31,
+            "retained": 16
+          },
+          {
+            "block": 45,
+            "expansions": 80,
+            "buckets": 31,
+            "retained": 16
+          },
+          {
+            "block": 46,
+            "expansions": 80,
+            "buckets": 28,
+            "retained": 16
+          },
+          {
+            "block": 47,
+            "expansions": 80,
+            "buckets": 24,
+            "retained": 16
+          },
+          {
+            "block": 48,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 49,
+            "expansions": 80,
+            "buckets": 7,
+            "retained": 7
+          },
+          {
+            "block": 50,
+            "expansions": 35,
+            "buckets": 7,
+            "retained": 7
+          },
+          {
+            "block": 51,
+            "expansions": 35,
+            "buckets": 7,
+            "retained": 7
+          },
+          {
+            "block": 52,
+            "expansions": 35,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 53,
+            "expansions": 80,
+            "buckets": 22,
+            "retained": 16
+          },
+          {
+            "block": 54,
+            "expansions": 80,
+            "buckets": 21,
+            "retained": 16
+          },
+          {
+            "block": 55,
+            "expansions": 80,
+            "buckets": 0,
+            "retained": 0
+          }
+        ],
+        "incumbent_time_s": 107.83017492775973,
+        "status": "completed"
+      },
+      "results": [
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "zero",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\zero_160.json.gz",
+          "duration_s": 109.47520646143816,
+          "final_energy_j": 4000000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 2.842170943040401e-14,
+          "audit": {
+            "recovered_j": 1999999.9999999846,
+            "discharged_j": 0.0,
+            "max_work_residual_j": 1.1030351743102074e-08,
+            "max_battery_residual_j": 5.675246939063072e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "half",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\half_160.json.gz",
+          "duration_s": 107.72028110543957,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.000000002,
+            "discharged_j": 3900000.0000000005,
+            "max_work_residual_j": 1.1059455573558807e-08,
+            "max_battery_residual_j": 3.6416167858988047e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "full",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\full_160.json.gz",
+          "duration_s": 107.76072757348497,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 1999999.9999999988,
+            "discharged_j": 3899999.999999998,
+            "max_work_residual_j": 8.731149137020111e-09,
+            "max_battery_residual_j": 2.0081643015146255e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "spread",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\spread_160.json.gz",
+          "duration_s": 107.97249251725043,
+          "final_energy_j": 494844.20649777254,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.000000001,
+            "discharged_j": 3505155.79350223,
+            "max_work_residual_j": 7.101334631443024e-09,
+            "max_battery_residual_j": 8.96397978067398e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "exit_boost",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\exit_boost_160.json.gz",
+          "duration_s": 108.62819093882054,
+          "final_energy_j": 2612300.547732007,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 1999999.9999999998,
+            "discharged_j": 1387699.4522679916,
+            "max_work_residual_j": 1.0477378964424133e-08,
+            "max_battery_residual_j": 8.119968697428703e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\ppo_seed0_160.json.gz",
+          "duration_s": 107.19117577376029,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 1999999.9999999995,
+            "discharged_j": 3899999.9999999898,
+            "max_work_residual_j": 1.2456439435482025e-08,
+            "max_battery_residual_j": 2.8812792152166367e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\ppo_seed1_160.json.gz",
+          "duration_s": 107.7060031925601,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000007,
+            "discharged_j": 3899999.999999999,
+            "max_work_residual_j": 7.974449545145035e-09,
+            "max_battery_residual_j": 3.92901711165905e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\ppo_seed2_160.json.gz",
+          "duration_s": 107.69470824954334,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0,
+            "discharged_j": 3899999.9999999874,
+            "max_work_residual_j": 5.878973752260208e-09,
+            "max_battery_residual_j": 2.473825588822365e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "frozen_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\frozen_dp_160.json.gz",
+          "duration_s": 107.26587781782064,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 1999999.9999999993,
+            "discharged_j": 3900000.000000002,
+            "max_work_residual_j": 1.076841726899147e-08,
+            "max_battery_residual_j": 5.638867150992155e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "replanned_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\replanned_dp_160.json.gz",
+          "duration_s": 107.15215654586282,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 1999999.999999999,
+            "discharged_j": 3900000.000000001,
+            "max_work_residual_j": 7.62520357966423e-09,
+            "max_battery_residual_j": 5.638867150992155e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 320,
+          "policy": "zero",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\zero_320.json.gz",
+          "duration_s": 109.28846201300207,
+          "final_energy_j": 3999999.999999988,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 1999999.9999999998,
+            "discharged_j": 0.0,
+            "max_work_residual_j": 1.3620592653751373e-08,
+            "max_battery_residual_j": 7.756170816719532e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 320,
+          "policy": "half",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\half_320.json.gz",
+          "duration_s": 107.53690445401045,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 1999999.9999999995,
+            "discharged_j": 3900000.0000000256,
+            "max_work_residual_j": 1.3853423297405243e-08,
+            "max_battery_residual_j": 5.980837158858776e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 320,
+          "policy": "full",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\full_320.json.gz",
+          "duration_s": 107.56999466790323,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 2000000.000000001,
+            "discharged_j": 3900000.0000000037,
+            "max_work_residual_j": 1.1641532182693481e-08,
+            "max_battery_residual_j": 7.654307410120964e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 320,
+          "policy": "spread",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\spread_320.json.gz",
+          "duration_s": 107.78347625363065,
+          "final_energy_j": 489554.30382249557,
+          "feasible": true,
+          "terminal_speed_error_mps": 2.842170943040401e-14,
+          "audit": {
+            "recovered_j": 1999999.9999999998,
+            "discharged_j": 3510445.696177459,
+            "max_work_residual_j": 1.5366822481155396e-08,
+            "max_battery_residual_j": 1.1583324521780014e-08
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 320,
+          "policy": "exit_boost",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\exit_boost_320.json.gz",
+          "duration_s": 108.44299459849641,
+          "final_energy_j": 2612948.985381919,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000005,
+            "discharged_j": 1387051.014618076,
+            "max_work_residual_j": 1.605803845450282e-08,
+            "max_battery_residual_j": 1.0419171303510666e-08
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 320,
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\ppo_seed0_320.json.gz",
+          "duration_s": 107.00446424312278,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 1999999.999999999,
+            "discharged_j": 3899999.9999999953,
+            "max_work_residual_j": 8.96397978067398e-09,
+            "max_battery_residual_j": 5.2677933126688e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 320,
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\ppo_seed1_320.json.gz",
+          "duration_s": 107.5166465318438,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000012,
+            "discharged_j": 3900000.0000000075,
+            "max_work_residual_j": 9.89530235528946e-09,
+            "max_battery_residual_j": 5.784386303275824e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 320,
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\ppo_seed2_320.json.gz",
+          "duration_s": 107.50620944924299,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000016,
+            "discharged_j": 3899999.999999995,
+            "max_work_residual_j": 1.4435499906539917e-08,
+            "max_battery_residual_j": 3.259629011154175e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 320,
+          "policy": "frozen_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\frozen_dp_320.json.gz",
+          "duration_s": 107.07970860780814,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 1999999.999999999,
+            "discharged_j": 3900000.000000003,
+            "max_work_residual_j": 1.2631062418222427e-08,
+            "max_battery_residual_j": 3.856257535517216e-09
+          }
+        },
+        {
+          "scenario": "low_charge_efficiency",
+          "cells": 320,
+          "policy": "replanned_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\replanned_dp_320.json.gz",
+          "duration_s": 106.96653192204128,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.0,
+            "discharged_j": 3900000.0000000023,
+            "max_work_residual_j": 1.229636836796999e-08,
+            "max_battery_residual_j": 5.471520125865936e-09
+          }
+        }
+      ],
+      "devices": [
+        {
+          "seed": 0,
+          "checkpoint": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_16384.zip",
+          "sha256": "bd7b0a4fa4d7ff80392ea40ab2b0265aa3ac090fb1a6d377863a05d901db3ef4",
+          "device": "cuda:0"
+        },
+        {
+          "seed": 1,
+          "checkpoint": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_16384.zip",
+          "sha256": "629551dea0a8763c0984a5e00259df02dfb3d6b21cbbc6d1e20e92a54444459b",
+          "device": "cuda:0"
+        },
+        {
+          "seed": 2,
+          "checkpoint": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_16384.zip",
+          "sha256": "e988a9580acbd62ebcb96090c32f37d36e78d28f8b4cba6033ba9b6a767dbb05",
+          "device": "cuda:0"
+        }
+      ]
+    },
+    {
+      "scenario": "low_braking_share",
+      "search": {
+        "name": "replanned_dp",
+        "actions": [
+          1,
+          1,
+          1,
+          1,
+          0.25,
+          0.25,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0.25,
+          1,
+          0.25,
+          0.25,
+          0,
+          1,
+          1,
+          0.75,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.75,
+          0.5,
+          0.5,
+          0,
+          0,
+          0,
+          0.25,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "search_time_s": 107.52480723153298,
+        "wall_seconds": 150.17897210014053,
+        "transitions": 3980,
+        "layers": [
+          {
+            "block": 1,
+            "expansions": 5,
+            "buckets": 5,
+            "retained": 5
+          },
+          {
+            "block": 2,
+            "expansions": 25,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 3,
+            "expansions": 40,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 4,
+            "expansions": 50,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 5,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 6,
+            "expansions": 80,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 7,
+            "expansions": 80,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 8,
+            "expansions": 45,
+            "buckets": 35,
+            "retained": 16
+          },
+          {
+            "block": 9,
+            "expansions": 80,
+            "buckets": 60,
+            "retained": 16
+          },
+          {
+            "block": 10,
+            "expansions": 80,
+            "buckets": 38,
+            "retained": 16
+          },
+          {
+            "block": 11,
+            "expansions": 80,
+            "buckets": 53,
+            "retained": 16
+          },
+          {
+            "block": 12,
+            "expansions": 80,
+            "buckets": 51,
+            "retained": 16
+          },
+          {
+            "block": 13,
+            "expansions": 80,
+            "buckets": 50,
+            "retained": 16
+          },
+          {
+            "block": 14,
+            "expansions": 80,
+            "buckets": 27,
+            "retained": 16
+          },
+          {
+            "block": 15,
+            "expansions": 80,
+            "buckets": 15,
+            "retained": 15
+          },
+          {
+            "block": 16,
+            "expansions": 75,
+            "buckets": 26,
+            "retained": 16
+          },
+          {
+            "block": 17,
+            "expansions": 80,
+            "buckets": 75,
+            "retained": 16
+          },
+          {
+            "block": 18,
+            "expansions": 80,
+            "buckets": 26,
+            "retained": 16
+          },
+          {
+            "block": 19,
+            "expansions": 80,
+            "buckets": 20,
+            "retained": 16
+          },
+          {
+            "block": 20,
+            "expansions": 80,
+            "buckets": 31,
+            "retained": 16
+          },
+          {
+            "block": 21,
+            "expansions": 80,
+            "buckets": 55,
+            "retained": 16
+          },
+          {
+            "block": 22,
+            "expansions": 80,
+            "buckets": 28,
+            "retained": 16
+          },
+          {
+            "block": 23,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 24,
+            "expansions": 80,
+            "buckets": 48,
+            "retained": 16
+          },
+          {
+            "block": 25,
+            "expansions": 80,
+            "buckets": 56,
+            "retained": 16
+          },
+          {
+            "block": 26,
+            "expansions": 80,
+            "buckets": 22,
+            "retained": 16
+          },
+          {
+            "block": 27,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 28,
+            "expansions": 80,
+            "buckets": 29,
+            "retained": 16
+          },
+          {
+            "block": 29,
+            "expansions": 80,
+            "buckets": 70,
+            "retained": 16
+          },
+          {
+            "block": 30,
+            "expansions": 80,
+            "buckets": 44,
+            "retained": 16
+          },
+          {
+            "block": 31,
+            "expansions": 80,
+            "buckets": 40,
+            "retained": 16
+          },
+          {
+            "block": 32,
+            "expansions": 80,
+            "buckets": 40,
+            "retained": 16
+          },
+          {
+            "block": 33,
+            "expansions": 80,
+            "buckets": 37,
+            "retained": 16
+          },
+          {
+            "block": 34,
+            "expansions": 80,
+            "buckets": 14,
+            "retained": 14
+          },
+          {
+            "block": 35,
+            "expansions": 70,
+            "buckets": 14,
+            "retained": 14
+          },
+          {
+            "block": 36,
+            "expansions": 70,
+            "buckets": 51,
+            "retained": 16
+          },
+          {
+            "block": 37,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 38,
+            "expansions": 80,
+            "buckets": 14,
+            "retained": 14
+          },
+          {
+            "block": 39,
+            "expansions": 70,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 40,
+            "expansions": 80,
+            "buckets": 26,
+            "retained": 16
+          },
+          {
+            "block": 41,
+            "expansions": 80,
+            "buckets": 17,
+            "retained": 16
+          },
+          {
+            "block": 42,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 43,
+            "expansions": 80,
+            "buckets": 63,
+            "retained": 16
+          },
+          {
+            "block": 44,
+            "expansions": 80,
+            "buckets": 49,
+            "retained": 16
+          },
+          {
+            "block": 45,
+            "expansions": 80,
+            "buckets": 42,
+            "retained": 16
+          },
+          {
+            "block": 46,
+            "expansions": 80,
+            "buckets": 30,
+            "retained": 16
+          },
+          {
+            "block": 47,
+            "expansions": 80,
+            "buckets": 28,
+            "retained": 16
+          },
+          {
+            "block": 48,
+            "expansions": 80,
+            "buckets": 31,
+            "retained": 16
+          },
+          {
+            "block": 49,
+            "expansions": 80,
+            "buckets": 6,
+            "retained": 6
+          },
+          {
+            "block": 50,
+            "expansions": 30,
+            "buckets": 6,
+            "retained": 6
+          },
+          {
+            "block": 51,
+            "expansions": 30,
+            "buckets": 6,
+            "retained": 6
+          },
+          {
+            "block": 52,
+            "expansions": 30,
+            "buckets": 19,
+            "retained": 16
+          },
+          {
+            "block": 53,
+            "expansions": 80,
+            "buckets": 17,
+            "retained": 16
+          },
+          {
+            "block": 54,
+            "expansions": 80,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 55,
+            "expansions": 80,
+            "buckets": 0,
+            "retained": 0
+          }
+        ],
+        "incumbent_time_s": 107.88247776770093,
+        "status": "completed"
+      },
+      "results": [
+        {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "zero",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\zero_160.json.gz",
+          "duration_s": 109.47520646143805,
+          "final_energy_j": 4000000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 2.842170943040401e-14,
+          "audit": {
+            "recovered_j": 1999999.9999999965,
+            "discharged_j": 0.0,
+            "max_work_residual_j": 1.1030351743102074e-08,
+            "max_battery_residual_j": 6.51925802230835e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "half",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\half_160.json.gz",
+          "duration_s": 107.72028110543953,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000007,
+            "discharged_j": 3900000.0000000056,
+            "max_work_residual_j": 9.19681042432785e-09,
+            "max_battery_residual_j": 3.805325832217932e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "full",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\full_160.json.gz",
+          "duration_s": 107.72918013239334,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.000000001,
+            "discharged_j": 3899999.999999999,
+            "max_work_residual_j": 7.62520357966423e-09,
+            "max_battery_residual_j": 2.735760062932968e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "spread",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\spread_160.json.gz",
+          "duration_s": 107.98630159130744,
+          "final_energy_j": 535686.6405816588,
+          "feasible": true,
+          "terminal_speed_error_mps": 2.842170943040401e-14,
+          "audit": {
+            "recovered_j": 1999999.9999999998,
+            "discharged_j": 3464313.3594183396,
+            "max_work_residual_j": 1.3940734788775444e-08,
+            "max_battery_residual_j": 7.81938069849275e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "exit_boost",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\exit_boost_160.json.gz",
+          "duration_s": 108.62819093882041,
+          "final_energy_j": 2612300.5477320193,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.000000001,
+            "discharged_j": 1387699.4522679914,
+            "max_work_residual_j": 1.0477378964424133e-08,
+            "max_battery_residual_j": 8.09086486697197e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed0_160.json.gz",
+          "duration_s": 107.18157474856241,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 1999999.9999999998,
+            "discharged_j": 3900000.000000012,
+            "max_work_residual_j": 9.42964106798172e-09,
+            "max_battery_residual_j": 3.2414391171187162e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed1_160.json.gz",
+          "duration_s": 107.68712667185758,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000014,
+            "discharged_j": 3900000.000000006,
+            "max_work_residual_j": 1.4115357771515846e-08,
+            "max_battery_residual_j": 2.8448994271457195e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed2_160.json.gz",
+          "duration_s": 107.66125500242389,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.000000001,
+            "discharged_j": 3899999.999999993,
+            "max_work_residual_j": 7.144990377128124e-09,
+            "max_battery_residual_j": 2.5029294192790985e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "frozen_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\frozen_dp_160.json.gz",
+          "duration_s": 107.25804052111417,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000005,
+            "discharged_j": 3900000.0000000065,
+            "max_work_residual_j": 1.0186340659856796e-08,
+            "max_battery_residual_j": 2.648448571562767e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "replanned_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\replanned_dp_160.json.gz",
+          "duration_s": 107.14805581909073,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000002,
+            "discharged_j": 3899999.999999998,
+            "max_work_residual_j": 8.185452315956354e-09,
+            "max_battery_residual_j": 2.648448571562767e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 320,
+          "policy": "zero",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\zero_320.json.gz",
+          "duration_s": 109.2884620130021,
+          "final_energy_j": 3999999.9999999823,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 1999999.9999999984,
+            "discharged_j": 0.0,
+            "max_work_residual_j": 1.3620592653751373e-08,
+            "max_battery_residual_j": 8.87666828930378e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 320,
+          "policy": "half",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\half_320.json.gz",
+          "duration_s": 107.5369044540104,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.0,
+            "discharged_j": 3899999.9999999963,
+            "max_work_residual_j": 1.2922100722789764e-08,
+            "max_battery_residual_j": 3.914465196430683e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 320,
+          "policy": "full",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\full_320.json.gz",
+          "duration_s": 107.53841396383628,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 1999999.9999999981,
+            "discharged_j": 3900000.000000009,
+            "max_work_residual_j": 1.8801074475049973e-08,
+            "max_battery_residual_j": 3.7325662560760975e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 320,
+          "policy": "spread",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\spread_320.json.gz",
+          "duration_s": 107.796720175891,
+          "final_energy_j": 529459.6472536755,
+          "feasible": true,
+          "terminal_speed_error_mps": -7.105427357601002e-14,
+          "audit": {
+            "recovered_j": 1999999.9999999974,
+            "discharged_j": 3470540.352746291,
+            "max_work_residual_j": 1.792795956134796e-08,
+            "max_battery_residual_j": 1.3740191207034513e-08
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 320,
+          "policy": "exit_boost",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\exit_boost_320.json.gz",
+          "duration_s": 108.4429945984964,
+          "final_energy_j": 2612948.9853819082,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 1999999.9999999984,
+            "discharged_j": 1387051.0146180762,
+            "max_work_residual_j": 1.605803845450282e-08,
+            "max_battery_residual_j": 1.028092810884118e-08
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 320,
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed0_320.json.gz",
+          "duration_s": 106.99579575989779,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 1999999.9999999998,
+            "discharged_j": 3899999.999999994,
+            "max_work_residual_j": 1.4784745872020721e-08,
+            "max_battery_residual_j": 3.841705620288849e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 320,
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed1_320.json.gz",
+          "duration_s": 107.49802722728779,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 1999999.9999999984,
+            "discharged_j": 3900000.000000002,
+            "max_work_residual_j": 1.2863893061876297e-08,
+            "max_battery_residual_j": 3.1141098588705063e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 320,
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed2_320.json.gz",
+          "duration_s": 107.4711714554986,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 1999999.9999999986,
+            "discharged_j": 3899999.9999999935,
+            "max_work_residual_j": 1.4435499906539917e-08,
+            "max_battery_residual_j": 5.529727786779404e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 320,
+          "policy": "frozen_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\frozen_dp_320.json.gz",
+          "duration_s": 107.07137823488885,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000014,
+            "discharged_j": 3900000.0000000107,
+            "max_work_residual_j": 1.4391844160854816e-08,
+            "max_battery_residual_j": 5.093170329928398e-09
+          }
+        },
+        {
+          "scenario": "low_braking_share",
+          "cells": 320,
+          "policy": "replanned_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\replanned_dp_320.json.gz",
+          "duration_s": 106.96143738924614,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.0,
+            "discharged_j": 3900000.0000000214,
+            "max_work_residual_j": 1.0360963642597198e-08,
+            "max_battery_residual_j": 5.093170329928398e-09
+          }
+        }
+      ],
+      "devices": [
+        {
+          "seed": 0,
+          "checkpoint": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_16384.zip",
+          "sha256": "bd7b0a4fa4d7ff80392ea40ab2b0265aa3ac090fb1a6d377863a05d901db3ef4",
+          "device": "cuda:0"
+        },
+        {
+          "seed": 1,
+          "checkpoint": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_16384.zip",
+          "sha256": "629551dea0a8763c0984a5e00259df02dfb3d6b21cbbc6d1e20e92a54444459b",
+          "device": "cuda:0"
+        },
+        {
+          "seed": 2,
+          "checkpoint": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_16384.zip",
+          "sha256": "e988a9580acbd62ebcb96090c32f37d36e78d28f8b4cba6033ba9b6a767dbb05",
+          "device": "cuda:0"
+        }
+      ]
+    },
+    {
+      "scenario": "high_drag",
+      "search": {
+        "name": "replanned_dp",
+        "actions": [
+          1,
+          1,
+          1,
+          1,
+          0.5,
+          0,
+          0,
+          1,
+          1,
+          0.75,
+          1,
+          0.5,
+          1,
+          0,
+          0,
+          0.5,
+          1,
+          0,
+          1,
+          0,
+          0.25,
+          0.75,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0.25,
+          1,
+          0.25,
+          0,
+          0.25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.5,
+          0.75,
+          0.25,
+          0,
+          0.25,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "search_time_s": 108.12718964797575,
+        "wall_seconds": 142.89992430014536,
+        "transitions": 3780,
+        "layers": [
+          {
+            "block": 1,
+            "expansions": 5,
+            "buckets": 4,
+            "retained": 4
+          },
+          {
+            "block": 2,
+            "expansions": 20,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 3,
+            "expansions": 45,
+            "buckets": 13,
+            "retained": 13
+          },
+          {
+            "block": 4,
+            "expansions": 65,
+            "buckets": 17,
+            "retained": 16
+          },
+          {
+            "block": 5,
+            "expansions": 80,
+            "buckets": 21,
+            "retained": 16
+          },
+          {
+            "block": 6,
+            "expansions": 80,
+            "buckets": 24,
+            "retained": 16
+          },
+          {
+            "block": 7,
+            "expansions": 80,
+            "buckets": 12,
+            "retained": 12
+          },
+          {
+            "block": 8,
+            "expansions": 60,
+            "buckets": 41,
+            "retained": 16
+          },
+          {
+            "block": 9,
+            "expansions": 80,
+            "buckets": 49,
+            "retained": 16
+          },
+          {
+            "block": 10,
+            "expansions": 80,
+            "buckets": 51,
+            "retained": 16
+          },
+          {
+            "block": 11,
+            "expansions": 80,
+            "buckets": 70,
+            "retained": 16
+          },
+          {
+            "block": 12,
+            "expansions": 80,
+            "buckets": 60,
+            "retained": 16
+          },
+          {
+            "block": 13,
+            "expansions": 80,
+            "buckets": 63,
+            "retained": 16
+          },
+          {
+            "block": 14,
+            "expansions": 80,
+            "buckets": 28,
+            "retained": 16
+          },
+          {
+            "block": 15,
+            "expansions": 80,
+            "buckets": 14,
+            "retained": 14
+          },
+          {
+            "block": 16,
+            "expansions": 70,
+            "buckets": 27,
+            "retained": 16
+          },
+          {
+            "block": 17,
+            "expansions": 80,
+            "buckets": 74,
+            "retained": 16
+          },
+          {
+            "block": 18,
+            "expansions": 80,
+            "buckets": 31,
+            "retained": 16
+          },
+          {
+            "block": 19,
+            "expansions": 80,
+            "buckets": 22,
+            "retained": 16
+          },
+          {
+            "block": 20,
+            "expansions": 80,
+            "buckets": 42,
+            "retained": 16
+          },
+          {
+            "block": 21,
+            "expansions": 80,
+            "buckets": 50,
+            "retained": 16
+          },
+          {
+            "block": 22,
+            "expansions": 80,
+            "buckets": 29,
+            "retained": 16
+          },
+          {
+            "block": 23,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 24,
+            "expansions": 80,
+            "buckets": 60,
+            "retained": 16
+          },
+          {
+            "block": 25,
+            "expansions": 80,
+            "buckets": 61,
+            "retained": 16
+          },
+          {
+            "block": 26,
+            "expansions": 80,
+            "buckets": 30,
+            "retained": 16
+          },
+          {
+            "block": 27,
+            "expansions": 80,
+            "buckets": 21,
+            "retained": 16
+          },
+          {
+            "block": 28,
+            "expansions": 80,
+            "buckets": 31,
+            "retained": 16
+          },
+          {
+            "block": 29,
+            "expansions": 80,
+            "buckets": 71,
+            "retained": 16
+          },
+          {
+            "block": 30,
+            "expansions": 80,
+            "buckets": 53,
+            "retained": 16
+          },
+          {
+            "block": 31,
+            "expansions": 80,
+            "buckets": 43,
+            "retained": 16
+          },
+          {
+            "block": 32,
+            "expansions": 80,
+            "buckets": 45,
+            "retained": 16
+          },
+          {
+            "block": 33,
+            "expansions": 80,
+            "buckets": 41,
+            "retained": 16
+          },
+          {
+            "block": 34,
+            "expansions": 80,
+            "buckets": 19,
+            "retained": 16
+          },
+          {
+            "block": 35,
+            "expansions": 80,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 36,
+            "expansions": 50,
+            "buckets": 43,
+            "retained": 16
+          },
+          {
+            "block": 37,
+            "expansions": 80,
+            "buckets": 27,
+            "retained": 16
+          },
+          {
+            "block": 38,
+            "expansions": 80,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 39,
+            "expansions": 45,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 40,
+            "expansions": 45,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 41,
+            "expansions": 45,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 42,
+            "expansions": 45,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 43,
+            "expansions": 45,
+            "buckets": 36,
+            "retained": 16
+          },
+          {
+            "block": 44,
+            "expansions": 80,
+            "buckets": 30,
+            "retained": 16
+          },
+          {
+            "block": 45,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 46,
+            "expansions": 80,
+            "buckets": 21,
+            "retained": 16
+          },
+          {
+            "block": 47,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 48,
+            "expansions": 80,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 49,
+            "expansions": 80,
+            "buckets": 5,
+            "retained": 5
+          },
+          {
+            "block": 50,
+            "expansions": 25,
+            "buckets": 5,
+            "retained": 5
+          },
+          {
+            "block": 51,
+            "expansions": 25,
+            "buckets": 5,
+            "retained": 5
+          },
+          {
+            "block": 52,
+            "expansions": 25,
+            "buckets": 17,
+            "retained": 16
+          },
+          {
+            "block": 53,
+            "expansions": 80,
+            "buckets": 13,
+            "retained": 13
+          },
+          {
+            "block": 54,
+            "expansions": 65,
+            "buckets": 12,
+            "retained": 12
+          },
+          {
+            "block": 55,
+            "expansions": 60,
+            "buckets": 0,
+            "retained": 0
+          }
+        ],
+        "incumbent_time_s": 108.38129018121053,
+        "status": "completed"
+      },
+      "results": [
+        {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "zero",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\zero_160.json.gz",
+          "duration_s": 109.98900106495145,
+          "final_energy_j": 4000000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.3042567405217511,
+          "audit": {
+            "recovered_j": 2000000.0000000014,
+            "discharged_j": 0.0,
+            "max_work_residual_j": 1.1408701539039612e-08,
+            "max_battery_residual_j": 4.3655745685100555e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "half",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\half_160.json.gz",
+          "duration_s": 108.22748912174256,
+          "final_energy_j": 100000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.3042567405217653,
+          "audit": {
+            "recovered_j": 2000000.0000000042,
+            "discharged_j": 3900000.0,
+            "max_work_residual_j": 1.1874362826347351e-08,
+            "max_battery_residual_j": 4.773028194904327e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "full",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\full_160.json.gz",
+          "duration_s": 108.17152571820442,
+          "final_energy_j": 100000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.3042567405217653,
+          "audit": {
+            "recovered_j": 2000000.0000000051,
+            "discharged_j": 3900000.0000000084,
+            "max_work_residual_j": 8.032657206058502e-09,
+            "max_battery_residual_j": 2.8594513423740864e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "spread",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\spread_160.json.gz",
+          "duration_s": 108.42963595192553,
+          "final_energy_j": 377367.5601451793,
+          "feasible": true,
+          "terminal_speed_error_mps": -2.842170943040401e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000042,
+            "discharged_j": 3622632.4398548175,
+            "max_work_residual_j": 8.993083611130714e-09,
+            "max_battery_residual_j": 1.2303644325584173e-08
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "exit_boost",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\exit_boost_160.json.gz",
+          "duration_s": 109.13021567619883,
+          "final_energy_j": 2594438.0887981514,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.30425674052168006,
+          "audit": {
+            "recovered_j": 2000000.0000000037,
+            "discharged_j": 1405561.9112018603,
+            "max_work_residual_j": 8.381903171539307e-09,
+            "max_battery_residual_j": 5.587935447692871e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed0_160.json.gz",
+          "duration_s": 107.7204988763193,
+          "final_energy_j": 100000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.3042567405217653,
+          "audit": {
+            "recovered_j": 2000000.0000000051,
+            "discharged_j": 3899999.9999999916,
+            "max_work_residual_j": 1.280568540096283e-08,
+            "max_battery_residual_j": 3.4269760362803936e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed1_160.json.gz",
+          "duration_s": 108.12120375704211,
+          "final_energy_j": 100000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.3042567405217653,
+          "audit": {
+            "recovered_j": 2000000.0000000035,
+            "discharged_j": 3900000.0000000075,
+            "max_work_residual_j": 8.265487849712372e-09,
+            "max_battery_residual_j": 2.6775524020195007e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed2_160.json.gz",
+          "duration_s": 108.06049075142953,
+          "final_energy_j": 100000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.3042567405217653,
+          "audit": {
+            "recovered_j": 2000000.0000000035,
+            "discharged_j": 3899999.9999999977,
+            "max_work_residual_j": 1.0826624929904938e-08,
+            "max_battery_residual_j": 4.249159246683121e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "frozen_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\frozen_dp_160.json.gz",
+          "duration_s": 107.77421104365507,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000033,
+            "discharged_j": 3899999.9999999925,
+            "max_work_residual_j": 9.19681042432785e-09,
+            "max_battery_residual_j": 2.6775524020195007e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "replanned_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\replanned_dp_160.json.gz",
+          "duration_s": 107.7541762809376,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.000000004,
+            "discharged_j": 3899999.999999995,
+            "max_work_residual_j": 8.032657206058502e-09,
+            "max_battery_residual_j": 5.107722245156765e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 320,
+          "policy": "zero",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\zero_320.json.gz",
+          "duration_s": 109.80319628520131,
+          "final_energy_j": 4000000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.2990897659426395,
+          "audit": {
+            "recovered_j": 1999999.9999999916,
+            "discharged_j": 0.0,
+            "max_work_residual_j": 2.223532646894455e-08,
+            "max_battery_residual_j": 6.475602276623249e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 320,
+          "policy": "half",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\half_320.json.gz",
+          "duration_s": 108.0431423801088,
+          "final_energy_j": 100000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.29908976594286685,
+          "audit": {
+            "recovered_j": 1999999.9999999995,
+            "discharged_j": 3900000.0,
+            "max_work_residual_j": 1.955777406692505e-08,
+            "max_battery_residual_j": 5.453330231830478e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 320,
+          "policy": "full",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\full_320.json.gz",
+          "duration_s": 107.98624448103821,
+          "final_energy_j": 100000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.29908976594286685,
+          "audit": {
+            "recovered_j": 2000000.0000000007,
+            "discharged_j": 3899999.999999985,
+            "max_work_residual_j": 8.731149137020111e-09,
+            "max_battery_residual_j": 3.281456883996725e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 320,
+          "policy": "spread",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\spread_320.json.gz",
+          "duration_s": 108.24150222697376,
+          "final_energy_j": 373222.17551666853,
+          "feasible": true,
+          "terminal_speed_error_mps": -4.263256414560601e-14,
+          "audit": {
+            "recovered_j": 1999999.9999999958,
+            "discharged_j": 3626777.8244832894,
+            "max_work_residual_j": 1.1525116860866547e-08,
+            "max_battery_residual_j": 1.1903466656804085e-08
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 320,
+          "policy": "exit_boost",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\exit_boost_320.json.gz",
+          "duration_s": 108.94591755650336,
+          "final_energy_j": 2595032.28180421,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.2990897659429521,
+          "audit": {
+            "recovered_j": 1999999.999999996,
+            "discharged_j": 1404967.7181957867,
+            "max_work_residual_j": 2.223532646894455e-08,
+            "max_battery_residual_j": 6.868503987789154e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 320,
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed0_320.json.gz",
+          "duration_s": 107.53502005901511,
+          "final_energy_j": 100000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.29908976594286685,
+          "audit": {
+            "recovered_j": 1999999.9999999965,
+            "discharged_j": 3899999.999999984,
+            "max_work_residual_j": 8.96397978067398e-09,
+            "max_battery_residual_j": 4.3655745685100555e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 320,
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed1_320.json.gz",
+          "duration_s": 107.93656078989473,
+          "final_energy_j": 100000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.29908976594286685,
+          "audit": {
+            "recovered_j": 1999999.9999999977,
+            "discharged_j": 3900000.0000000014,
+            "max_work_residual_j": 7.799826562404633e-09,
+            "max_battery_residual_j": 4.71482053399086e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 320,
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed2_320.json.gz",
+          "duration_s": 107.87667199146507,
+          "final_energy_j": 100000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.29908976594286685,
+          "audit": {
+            "recovered_j": 2000000.0000000002,
+            "discharged_j": 3899999.999999989,
+            "max_work_residual_j": 1.30385160446167e-08,
+            "max_battery_residual_j": 6.6356733441352844e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 320,
+          "policy": "frozen_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\frozen_dp_320.json.gz",
+          "duration_s": 107.58926709797385,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 1999999.999999999,
+            "discharged_j": 3899999.9999999953,
+            "max_work_residual_j": 1.5832483768463135e-08,
+            "max_battery_residual_j": 4.9367372412234545e-09
+          }
+        },
+        {
+          "scenario": "high_drag",
+          "cells": 320,
+          "policy": "replanned_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\replanned_dp_320.json.gz",
+          "duration_s": 107.56997453170571,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 1999999.9999999977,
+            "discharged_j": 3899999.999999991,
+            "max_work_residual_j": 1.0477378964424133e-08,
+            "max_battery_residual_j": 3.055902197957039e-09
+          }
+        }
+      ],
+      "devices": [
+        {
+          "seed": 0,
+          "checkpoint": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_16384.zip",
+          "sha256": "bd7b0a4fa4d7ff80392ea40ab2b0265aa3ac090fb1a6d377863a05d901db3ef4",
+          "device": "cuda:0"
+        },
+        {
+          "seed": 1,
+          "checkpoint": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_16384.zip",
+          "sha256": "629551dea0a8763c0984a5e00259df02dfb3d6b21cbbc6d1e20e92a54444459b",
+          "device": "cuda:0"
+        },
+        {
+          "seed": 2,
+          "checkpoint": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_16384.zip",
+          "sha256": "e988a9580acbd62ebcb96090c32f37d36e78d28f8b4cba6033ba9b6a767dbb05",
+          "device": "cuda:0"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

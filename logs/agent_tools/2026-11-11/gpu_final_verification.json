@@ -1,0 +1,24 @@
+{
+  "hash_checks": 22,
+  "cuda_training": {
+    "policy_device": "cuda:0",
+    "parameter_tensors": 13,
+    "gradient_tensors": 13,
+    "cuda_optimizer_moment_tensors": 26,
+    "allocated_bytes": 17101312,
+    "peak_allocated_bytes": 17157120,
+    "passed": true
+  },
+  "actual_steps": 4096,
+  "independent_global_energy_residual_j": -6.056507118046284e-08,
+  "tests_passed": 119,
+  "removed_packages": [
+    "torch==2.14.1"
+  ],
+  "added_packages": [
+    "torch==2.14.1+cu126"
+  ],
+  "gpu_lock_sha256": "acd86618fc93b388ca88878e785d8af10fef33d8bdb8de2fd4dab25944bcac3d",
+  "figure_outputs_checked": 4,
+  "figures_visually_inspected": true
+}

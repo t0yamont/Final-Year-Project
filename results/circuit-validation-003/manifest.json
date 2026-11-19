@@ -1,0 +1,37 @@
+{
+  "inputs": {
+    "configs\\circuit_reference.json": "19b80d69d3e91d32a9ce4a2b00a40589fcd16ceb387c17ca4ad151a5a6043657",
+    "results\\circuit-input-assessment-001\\Sakhir.csv": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a",
+    "results\\circuit-validation-001\\manifest.json": "837404a08cfe457d5eb2e572858a5bf8aea44b8a1a1630d803c7a2cb4bd7637f"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\validate_circuit.py": "78de0e386972032f2869e7c78e7e249be361badd477d0c304b97a1821b2b63ef",
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763"
+  },
+  "outputs": {
+    "results\\circuit-validation-003\\contract.json": "85ca6a90ee3928263dfdb22ca9c638a4544af1e6f916b730462852cd2650434d",
+    "results\\circuit-validation-003\\metrics.json": "d9beb14278f7cb661ea6efbede987ff75d5e7eecea04a3cbed918a72c6272fc9",
+    "results\\circuit-validation-003\\progress.json": "ca3f6e2532a12c67ee3edc3277521b24293098a70a09c0e08822c84188bf4166",
+    "results\\circuit-validation-003\\sigma-10_grid-0.625_action-0.json.gz": "fd17065135733d50c007420f7d2e0eee1e2c3a9cfa134fc2177b8507014cb8ac",
+    "results\\circuit-validation-003\\sigma-10_grid-0.625_action-1.json.gz": "a2a0e9ae63916a6d4e4a14defe1ecd6e78e96edb340f7ff3a4d319de42371df2",
+    "results\\circuit-validation-003\\sigma-10_grid-0.625_action-1_tight.json.gz": "23229e32395a90f5b48489a221c3406e799c81f921f2f83f6fc89012201ce782",
+    "results\\circuit-validation-003\\sigma-10_grid-1.25_action-0.json.gz": "a8efe7fe63eeb3102a092005673d0774eef7b996c10096fc93956c2ff1d94d3f",
+    "results\\circuit-validation-003\\sigma-10_grid-1.25_action-1.json.gz": "7435d98ccf805d7d0c0855c58fff782304f7e0202b2fb3297ac774eabdacb381",
+    "results\\circuit-validation-003\\sigma-10_grid-10_action-0.json.gz": "94d2f5d2769dbe5bdd3884b916da7ef5d80f25fb5e306e8a7e74476d7fbe5d7d",
+    "results\\circuit-validation-003\\sigma-10_grid-10_action-1.json.gz": "893545c14d606410e4eded2b6b979aaac57539437a6602399b289710486ae7a2",
+    "results\\circuit-validation-003\\sigma-10_grid-2.5_action-0.json.gz": "48f666ab7e99be5f5dbe8a46a2506aca265a3a8f6c7391f918edb9b6a69e5606",
+    "results\\circuit-validation-003\\sigma-10_grid-2.5_action-1.json.gz": "ab46aec56ae08a57f1fd8def1f12e52ff602f7d94ec0538436f38e4a9fc0929f",
+    "results\\circuit-validation-003\\sigma-10_grid-20_action-0.json.gz": "a18eb9cd6e44a522508f65de819c81072744fd1402ee17d6ed3702b57f289440",
+    "results\\circuit-validation-003\\sigma-10_grid-20_action-1.json.gz": "b30fddb27751ed8d00268b65c0ff9b26e6c07f64f22ddf647f1f7de53c0f2008",
+    "results\\circuit-validation-003\\sigma-10_grid-5_action-0.json.gz": "8a48c8e2faf497ff8ab5a2d73e589b8831a50b307202b758278dd238459f603d",
+    "results\\circuit-validation-003\\sigma-10_grid-5_action-1.json.gz": "d59753ce3109bd99e807be45fc46a27bf95445f9ca4f6c0ee045ce937f47a6d2",
+    "results\\circuit-validation-003\\sigma-20_grid-5_action-1.json.gz": "c552ed6b4395542ed7279757181ba4bebe6edfdac38a4e5acc172fe03b3f2357",
+    "results\\circuit-validation-003\\sigma-5_grid-5_action-1.json.gz": "a8ee5f650f2c2cb9ebc28f981db0f989d82d59e277b9409276d47bef69f00a0c",
+    "figures\\dissertation\\circuit-validation-v3\\01_curvature_speed_envelope.pdf": "95b8352a80025491404ca9685a60b585a90022fce72738fe2f0b81907a60aaf0",
+    "figures\\dissertation\\circuit-validation-v3\\01_curvature_speed_envelope.png": "c0db54935dba60b80307e7255f5203c1b991ac4808a86fbeb76368b0266022a4",
+    "figures\\dissertation\\circuit-validation-v3\\02_refinement_sensitivity_energy.pdf": "82a05934b5d9e22f14a4cab717ca6ab0a23d1986434d110fdadc0362f9c336e4",
+    "figures\\dissertation\\circuit-validation-v3\\02_refinement_sensitivity_energy.png": "70163633109188cbbae7c2a74797bae2f04ae6f04a7e152e5ca8e4486d60a814"
+  }
+}

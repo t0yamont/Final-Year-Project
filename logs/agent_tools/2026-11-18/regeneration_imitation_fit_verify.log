@@ -1,0 +1,7 @@
+32 0 params=1377 initial_mse=0.28331015 final_mse=0.08436497 clamped_mse=0.08324037 peak_CUDA_bytes=17187328
+32 1 params=1377 initial_mse=0.24495947 final_mse=0.06959757 clamped_mse=0.06795360 peak_CUDA_bytes=17208832
+32 2 params=1377 initial_mse=0.26971948 final_mse=0.08122217 clamped_mse=0.08013584 peak_CUDA_bytes=17230336
+64 0 params=4801 initial_mse=0.22013888 final_mse=0.05101215 clamped_mse=0.04967695 peak_CUDA_bytes=17404416
+64 1 params=4801 initial_mse=0.21208236 final_mse=0.06955211 clamped_mse=0.06796637 peak_CUDA_bytes=17465856
+64 2 params=4801 initial_mse=0.27849379 final_mse=0.05577425 clamped_mse=0.05471084 peak_CUDA_bytes=17527296
+FIT VERIFIED {'nominal': 55, 'low_initial_energy': 55, 'low_charge_efficiency': 55, 'low_braking_share': 55} 18 bound artifacts

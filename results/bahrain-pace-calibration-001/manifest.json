@@ -1,0 +1,35 @@
+{
+  "inputs": {
+    "configs\\bahrain_pace_protocol.json": "a0d050b0b47ec88e9424cbbe2d77414599b4bcc40b83190332c79bdb991f3c30",
+    "results\\bahrain-pace-inputs-001\\metrics.json": "e6a6c8ae90eb77641374136f0a950ae9c61ed0dd93f41104f877a599db92eb20",
+    "results\\bahrain-pace-inputs-001\\lap-13.csv": "00765ca5d3d0b0c6ed91ca63321aed217c9c96a545472b3e571257e7f8faa23b",
+    "results\\regeneration-dp-width-001\\manifest.json": "e5a27bed69673d5317c7e645730c662ee953b38605f8bb64059b4f09187349a8",
+    "configs\\circuit_reference.json": "19b80d69d3e91d32a9ce4a2b00a40589fcd16ceb387c17ca4ad151a5a6043657",
+    "configs\\regeneration_study.json": "e2cf5f325d40b3b3341fa83f90cdff5ee4d6d71d515729fe662d997e3f0e0edb",
+    "results\\bahrain-pace-diagnosis-001\\historical.json": "f0e0c2640299439ac41d332a7271d5da69e7fdb0cf97675cb23affeed1391d05",
+    "results\\bahrain-pace-inputs-001\\lap-4.csv": "7829474599c0a350468d5f427c3564c264215db390e014de95c41bdd8901686d",
+    "results\\bahrain-pace-inputs-001\\lap-10.csv": "6a9261096774564b19488aa98b47df69e1a71a2848a67cde1af2a0259dfcd2e4"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\calibrate_bahrain_pace.py": "c314dfe3c85077c46f0d5f16ef8735e3bf73f570019b6429b964992089c3cc19",
+    "scripts\\bahrain_pace_model.py": "4983b5bb3e0426d4b9d1b4b02c3c9933142702560a783a92ae3446e0508dc217",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "src\\f1energy\\circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "src\\f1energy\\event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b"
+  },
+  "outputs": {
+    "results\\bahrain-pace-calibration-001\\contract.json": "90873b60cf15879b92d494d11ac278640d0ca6f4b6f4452743f454af7567b544",
+    "results\\bahrain-pace-calibration-001\\fit.json": "cebb8517c96f6d24c6bff81585f24a50e3d6899e7ed0db2411e6646e645822c3",
+    "results\\bahrain-pace-calibration-001\\metrics.json": "0dc468f5ad1049ff2e57590586026301f1b3513f3b3811693d6621116d4e9855",
+    "results\\bahrain-pace-calibration-001\\model.json": "6884eb5359a3451e02b24480fda61c75f5b39309d9ea5c0c80e0787234ec59b1",
+    "results\\bahrain-pace-calibration-001\\speed_time.csv": "aee8c217d469d65e46b444a025b4c8f7fff1cceaad6fe12d3f36aaa7add5a784",
+    "figures\\dissertation\\bahrain-pace-calibration-v1\\lap-10.pdf": "6e1ac16e5951fd91545ed44a4373ab26377bf89c8de980268c309c95f4efaf32",
+    "figures\\dissertation\\bahrain-pace-calibration-v1\\lap-10.png": "cc92f77aecadf39dfc63a6780f10e46b17de8492cd1ac04ec9d01f46214336d0",
+    "figures\\dissertation\\bahrain-pace-calibration-v1\\lap-13.pdf": "b9b7ab6d4073901b3aa67cee5842315e5f95a553c3374cc0d6a1d1a88f3c1021",
+    "figures\\dissertation\\bahrain-pace-calibration-v1\\lap-13.png": "a8d42795dece811137772ca9ef927ad1f58fcbf2c71c082c79a404328f2f3b74",
+    "figures\\dissertation\\bahrain-pace-calibration-v1\\lap-4.pdf": "8073ac523506f50c20eee14a3c7860fcf11508149b15f5a95fe59404ebb1a356",
+    "figures\\dissertation\\bahrain-pace-calibration-v1\\lap-4.png": "0507e195821cb1280047954ac613f08377f33ec58c301e419db3f77c9969141b"
+  }
+}

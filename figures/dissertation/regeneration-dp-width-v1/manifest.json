@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "results\\regeneration-dp-width-001\\manifest.json": "e5a27bed69673d5317c7e645730c662ee953b38605f8bb64059b4f09187349a8"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\report_regeneration_dp_width.py": "a5bf9ee805e3495f55fc0c7fb3d8a1ec007e90b0d20f20c31185dc227a26cb1a",
+    "scripts\\validate_regeneration.py": "3a2a581cbe21bbe4dbf7ef375ffe47e8b17f046c7c47a3bbcad520a8f8e4277f",
+    "scripts\\verify_regeneration_dp.py": "bb22d5290450f76c4fbfbaa1416737f561423cebbf84f31b9e0c4f7bc4af2707"
+  },
+  "outputs": {
+    "figures\\dissertation\\regeneration-dp-width-v1\\verification.json": "fdb16ae34e8ab2ce5d4faa892527db0ce7cb7f0ab7514bba816502575c49afb0",
+    "figures\\dissertation\\regeneration-dp-width-v1\\width_comparison.pdf": "4c86f526136e8911fa23c26f1a79f1b94223902f412381bf01d956144378d64d",
+    "figures\\dissertation\\regeneration-dp-width-v1\\width_comparison.png": "aa93e0068b9426ab7c3e15ffbee62657245086045d40cd83dfeb8f81a0d91582"
+  }
+}

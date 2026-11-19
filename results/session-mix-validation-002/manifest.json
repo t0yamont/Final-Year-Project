@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "configs\\session_mix_protocol.json": "de791867834170c5dae9026a7e4ddc1ebe218f8ec908ebbeccc58478afffc1b6",
+    "configs\\data_roles.json": "66b5e96b1ccca63d1459d775fcbe4a23b5c82c8c784e10aa6354725bea5cf526",
+    "results\\openf1-motion-001\\manifest.json": "f61a9a0b9f54933e84c40f0923a205d4e19bfd4d00aa0fc710e638478d711319",
+    "results\\openf1-motion-001\\development.csv": "138d0f9f0629c54bbb932b44b45c7e16a36d47c8ee71e105234cbe64ce834d80",
+    "results\\openf1-motion-001\\validation.csv": "3e6380e691a504e287a78b82c3de284d244e5e36aa732b7a5a81eea60d6c7006"
+  },
+  "sources": {
+    "scripts/study_session_mix.py": "63235beaed2494618ebee275d5e2708dc1001814cdab442da22c305487f8a659",
+    "src/f1energy/identification.py": "52bfc0a97d7cf9f4dc17ef343d06d650ccd5167d7fdba40f3a1130a816ec271a"
+  },
+  "outputs": {
+    "results\\session-mix-validation-002\\contract.json": "65f5c8a7a885321ec10a4863e53fccc692564886c88fb62c157052bdad471339",
+    "results\\session-mix-validation-002\\coverage.json": "1502b3c2adff88dd8ffbb5a34e8026e58c337cc7d9d1073ee6a7a3e27914b792",
+    "results\\session-mix-validation-002\\group_metrics.json": "968b05f33b08358983d62ded27cdcc15d5bee1015c0b8fcbe1bdb363e332cf35",
+    "results\\session-mix-validation-002\\metrics.json": "cde222d0218a02e47441d8c4aa9f74c12e165ea429be818ff0ea2e6b83fb6414",
+    "results\\session-mix-validation-002\\models.json": "37fba1cb9f3687569ed0952d416d69a3e40c8e1d0413117b85a0c5b6a8c5033c",
+    "results\\session-mix-validation-002\\predictions.csv": "1e2b8ad18688c0cbdd550b4cd6cf5dd9035f8d8f0841502a3d5c76da3a232352",
+    "figures\\dissertation\\session-mix-v2\\01_session_mix.pdf": "90637d4453d4c5c71c6dd981ab4a624e98ad9e913861f930a2980323f184e5f5",
+    "figures\\dissertation\\session-mix-v2\\01_session_mix.png": "92642a166b9913f0b1709b9538e9f9a98d808cb63da1cf66e5f40cfb910fb0fa"
+  }
+}

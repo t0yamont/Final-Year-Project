@@ -1,0 +1,13 @@
+{
+  "reference_config": "configs/circuit_reference.json",
+  "numerical_gate": "results/circuit-validation-004",
+  "action_blocks": 55,
+  "cells_per_block": [20, 40, 80, 160],
+  "fine_cells_per_block": 160,
+  "initial_speed_mps": 70.0,
+  "policies": ["zero", "half", "full", "spread", "exit_boost"],
+  "gates": {"relative_lap_time": 0.005, "gain_error_s": 0.05, "ranking_tie_s": 0.02},
+  "cadence_sensitivity_blocks": 110,
+  "pilot": {"seed": 0, "steps": 4096, "gamma": 1.0, "n_steps": 256, "batch_size": 64, "n_epochs": 10, "net_arch": [32,32]},
+  "interpretation": "Bounded model-based controller study. Baseline ranking and time-gain checks support a pilot, not a continuous-action optimum or general grid-independent RL ranking. Replay the trained policy at the fine grid."
+}

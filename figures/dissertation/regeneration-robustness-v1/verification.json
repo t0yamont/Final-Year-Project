@@ -1,0 +1,5704 @@
+{
+  "cases": [
+    {
+      "scenario": "nominal",
+      "primary": {
+        "zero": {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "zero",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\zero_160.json.gz",
+          "duration_s": 109.47520646143805,
+          "final_energy_j": 4000000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 2.842170943040401e-14,
+          "audit": {
+            "recovered_j": 1999999.999999993,
+            "discharged_j": 0.0,
+            "max_work_residual_j": 1.1030351743102074e-08,
+            "max_battery_residual_j": 4.20550350099802e-09
+          }
+        },
+        "half": {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "half",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\half_160.json.gz",
+          "duration_s": 107.72028110543953,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000012,
+            "discharged_j": 3900000.0000000107,
+            "max_work_residual_j": 1.0593794286251068e-08,
+            "max_battery_residual_j": 4.700268618762493e-09
+          }
+        },
+        "full": {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "full",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\full_160.json.gz",
+          "duration_s": 107.68731467202234,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000012,
+            "discharged_j": 3900000.0000000047,
+            "max_work_residual_j": 7.101334631443024e-09,
+            "max_battery_residual_j": 2.0954757928848267e-09
+          }
+        },
+        "spread": {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "spread",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\spread_160.json.gz",
+          "duration_s": 107.9518537764125,
+          "final_energy_j": 418288.6661748216,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 1999999.9999999993,
+            "discharged_j": 3581711.333825172,
+            "max_work_residual_j": 1.0710209608078003e-08,
+            "max_battery_residual_j": 6.417394615709782e-09
+          }
+        },
+        "exit_boost": {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "exit_boost",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\exit_boost_160.json.gz",
+          "duration_s": 108.62819093882047,
+          "final_energy_j": 2612300.5477319914,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000012,
+            "discharged_j": 1387699.4522679914,
+            "max_work_residual_j": 1.0477378964424133e-08,
+            "max_battery_residual_j": 7.334165275096893e-09
+          }
+        },
+        "ppo_seed0": {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\ppo_seed0_160.json.gz",
+          "duration_s": 107.22768238745067,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000014,
+            "discharged_j": 3899999.999999998,
+            "max_work_residual_j": 1.6298145055770874e-08,
+            "max_battery_residual_j": 3.979948814958334e-09
+          }
+        },
+        "ppo_seed1": {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\ppo_seed1_160.json.gz",
+          "duration_s": 107.6757030247851,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000005,
+            "discharged_j": 3900000.000000008,
+            "max_work_residual_j": 9.633367881178856e-09,
+            "max_battery_residual_j": 3.14321368932724e-09
+          }
+        },
+        "ppo_seed2": {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\ppo_seed2_160.json.gz",
+          "duration_s": 107.57866270953544,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000026,
+            "discharged_j": 3899999.999999997,
+            "max_work_residual_j": 6.461050361394882e-09,
+            "max_battery_residual_j": 2.939486876130104e-09
+          }
+        },
+        "frozen_dp": {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "frozen_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\frozen_dp_160.json.gz",
+          "duration_s": 107.26587781782062,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000012,
+            "discharged_j": 3899999.9999999963,
+            "max_work_residual_j": 7.916241884231567e-09,
+            "max_battery_residual_j": 4.190951585769653e-09
+          }
+        },
+        "replanned_dp": {
+          "scenario": "nominal",
+          "cells": 160,
+          "policy": "replanned_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\nominal\\replanned_dp_160.json.gz",
+          "duration_s": 107.26587781782062,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000012,
+            "discharged_j": 3899999.9999999963,
+            "max_work_residual_j": 7.916241884231567e-09,
+            "max_battery_residual_j": 4.190951585769653e-09
+          }
+        }
+      },
+      "strongest_feasible_fixed": "full",
+      "all_controllers_feasible": true,
+      "numerical": [
+        {
+          "policy": "zero",
+          "status": "completed",
+          "relative_lap_change": 0.0017087297688727103,
+          "terminal_energy_change_j": 8.847564458847046e-09,
+          "recovered_change_j": 9.546056389808655e-09,
+          "passed": true
+        },
+        {
+          "policy": "half",
+          "status": "completed",
+          "relative_lap_change": 0.001705243910080408,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 3.4924596548080444e-09,
+          "passed": true
+        },
+        {
+          "policy": "full",
+          "status": "completed",
+          "relative_lap_change": 0.001753703964275706,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 1.3969838619232178e-09,
+          "passed": true
+        },
+        {
+          "policy": "spread",
+          "status": "completed",
+          "relative_lap_change": 0.0017546957562412759,
+          "terminal_energy_change_j": 4244.117764860392,
+          "recovered_change_j": 3.4924596548080444e-09,
+          "passed": true
+        },
+        {
+          "policy": "exit_boost",
+          "status": "completed",
+          "relative_lap_change": 0.0017077759703127623,
+          "terminal_energy_change_j": 648.4376499517821,
+          "recovered_change_j": 9.313225746154785e-10,
+          "passed": true
+        },
+        {
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "relative_lap_change": 0.0017423757248768996,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 2.7939677238464355e-09,
+          "passed": true
+        },
+        {
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "relative_lap_change": 0.0017614179933614876,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 1.862645149230957e-09,
+          "passed": true
+        },
+        {
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "relative_lap_change": 0.0017125638362432026,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 9.313225746154785e-10,
+          "passed": true
+        },
+        {
+          "policy": "frozen_dp",
+          "status": "completed",
+          "relative_lap_change": 0.0017386040028779229,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 2.7939677238464355e-09,
+          "passed": true
+        },
+        {
+          "policy": "replanned_dp",
+          "status": "completed",
+          "relative_lap_change": 0.0017386040028779229,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 2.7939677238464355e-09,
+          "passed": true
+        }
+      ],
+      "pairs": [
+        {
+          "a": "zero",
+          "b": "half",
+          "status": "completed",
+          "paired_gap_change_s": 0.003367797006831097,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "full",
+          "status": "completed",
+          "paired_gap_change_s": 0.0017766120754316717,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "spread",
+          "status": "completed",
+          "paired_gap_change_s": 0.0023464143294802398,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.0015481081118622342,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0002385010445067337,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.002583985809039291,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0028240964716985673,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.000575238423394353,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.000575238423394353,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "full",
+          "status": "completed",
+          "paired_gap_change_s": 0.005144409082262769,
+          "passed": false
+        },
+        {
+          "a": "half",
+          "b": "spread",
+          "status": "completed",
+          "paired_gap_change_s": 0.005714211336311337,
+          "passed": false
+        },
+        {
+          "a": "half",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.0018196888949688628,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0031292959623243632,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.005951782815870388,
+          "passed": false
+        },
+        {
+          "a": "half",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0005437005351325297,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.002792558583436744,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.002792558583436744,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "spread",
+          "status": "completed",
+          "paired_gap_change_s": 0.0005698022540485681,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.003324720187293906,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0020151131199384054,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.0008073737336076192,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.004600708547130239,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0023518504988260247,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0023518504988260247,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.003894522441342474,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0025849153739869735,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.0002375714795590511,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.005170510801178807,
+          "passed": false
+        },
+        {
+          "a": "spread",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.002921652752874593,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.002921652752874593,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0013096070673555005,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.004132093920901525,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.001275988359836333,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0009728696884678811,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0009728696884678811,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.0028224868535460246,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0025855954271918336,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.00033673737888761934,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.00033673737888761934,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed1",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.005408082280737858,
+          "passed": false
+        },
+        {
+          "a": "ppo_seed1",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.003159224232433644,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed1",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.003159224232433644,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed2",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.002248858048304214,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed2",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.002248858048304214,
+          "passed": true
+        },
+        {
+          "a": "frozen_dp",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0,
+          "passed": true
+        }
+      ],
+      "all_numerical_checks_passed": false,
+      "ppo_feasible_seeds": 3,
+      "search": {
+        "name": "replanned_dp",
+        "actions": [
+          1,
+          1,
+          1,
+          1,
+          0.25,
+          0.25,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0.75,
+          0.5,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0.75,
+          1,
+          1,
+          1,
+          0,
+          0.5,
+          0,
+          1,
+          0.75,
+          0,
+          0.25,
+          0,
+          0,
+          0,
+          0.25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.25,
+          0.5,
+          0.25,
+          0,
+          0,
+          0,
+          0,
+          0.25,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "search_time_s": 107.64238167613189,
+        "wall_seconds": 141.20266709988937,
+        "transitions": 3810,
+        "layers": [
+          {
+            "block": 1,
+            "expansions": 5,
+            "buckets": 5,
+            "retained": 5
+          },
+          {
+            "block": 2,
+            "expansions": 25,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 3,
+            "expansions": 40,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 4,
+            "expansions": 50,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 5,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 6,
+            "expansions": 80,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 7,
+            "expansions": 80,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 8,
+            "expansions": 50,
+            "buckets": 37,
+            "retained": 16
+          },
+          {
+            "block": 9,
+            "expansions": 80,
+            "buckets": 39,
+            "retained": 16
+          },
+          {
+            "block": 10,
+            "expansions": 80,
+            "buckets": 39,
+            "retained": 16
+          },
+          {
+            "block": 11,
+            "expansions": 80,
+            "buckets": 56,
+            "retained": 16
+          },
+          {
+            "block": 12,
+            "expansions": 80,
+            "buckets": 53,
+            "retained": 16
+          },
+          {
+            "block": 13,
+            "expansions": 80,
+            "buckets": 49,
+            "retained": 16
+          },
+          {
+            "block": 14,
+            "expansions": 80,
+            "buckets": 27,
+            "retained": 16
+          },
+          {
+            "block": 15,
+            "expansions": 80,
+            "buckets": 14,
+            "retained": 14
+          },
+          {
+            "block": 16,
+            "expansions": 70,
+            "buckets": 29,
+            "retained": 16
+          },
+          {
+            "block": 17,
+            "expansions": 80,
+            "buckets": 72,
+            "retained": 16
+          },
+          {
+            "block": 18,
+            "expansions": 80,
+            "buckets": 26,
+            "retained": 16
+          },
+          {
+            "block": 19,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 20,
+            "expansions": 80,
+            "buckets": 28,
+            "retained": 16
+          },
+          {
+            "block": 21,
+            "expansions": 80,
+            "buckets": 50,
+            "retained": 16
+          },
+          {
+            "block": 22,
+            "expansions": 80,
+            "buckets": 30,
+            "retained": 16
+          },
+          {
+            "block": 23,
+            "expansions": 80,
+            "buckets": 19,
+            "retained": 16
+          },
+          {
+            "block": 24,
+            "expansions": 80,
+            "buckets": 64,
+            "retained": 16
+          },
+          {
+            "block": 25,
+            "expansions": 80,
+            "buckets": 59,
+            "retained": 16
+          },
+          {
+            "block": 26,
+            "expansions": 80,
+            "buckets": 29,
+            "retained": 16
+          },
+          {
+            "block": 27,
+            "expansions": 80,
+            "buckets": 22,
+            "retained": 16
+          },
+          {
+            "block": 28,
+            "expansions": 80,
+            "buckets": 36,
+            "retained": 16
+          },
+          {
+            "block": 29,
+            "expansions": 80,
+            "buckets": 77,
+            "retained": 16
+          },
+          {
+            "block": 30,
+            "expansions": 80,
+            "buckets": 52,
+            "retained": 16
+          },
+          {
+            "block": 31,
+            "expansions": 80,
+            "buckets": 49,
+            "retained": 16
+          },
+          {
+            "block": 32,
+            "expansions": 80,
+            "buckets": 45,
+            "retained": 16
+          },
+          {
+            "block": 33,
+            "expansions": 80,
+            "buckets": 39,
+            "retained": 16
+          },
+          {
+            "block": 34,
+            "expansions": 80,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 35,
+            "expansions": 50,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 36,
+            "expansions": 50,
+            "buckets": 35,
+            "retained": 16
+          },
+          {
+            "block": 37,
+            "expansions": 80,
+            "buckets": 19,
+            "retained": 16
+          },
+          {
+            "block": 38,
+            "expansions": 80,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 39,
+            "expansions": 45,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 40,
+            "expansions": 45,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 41,
+            "expansions": 80,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 42,
+            "expansions": 45,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 43,
+            "expansions": 45,
+            "buckets": 37,
+            "retained": 16
+          },
+          {
+            "block": 44,
+            "expansions": 80,
+            "buckets": 30,
+            "retained": 16
+          },
+          {
+            "block": 45,
+            "expansions": 80,
+            "buckets": 26,
+            "retained": 16
+          },
+          {
+            "block": 46,
+            "expansions": 80,
+            "buckets": 27,
+            "retained": 16
+          },
+          {
+            "block": 47,
+            "expansions": 80,
+            "buckets": 24,
+            "retained": 16
+          },
+          {
+            "block": 48,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 49,
+            "expansions": 80,
+            "buckets": 6,
+            "retained": 6
+          },
+          {
+            "block": 50,
+            "expansions": 30,
+            "buckets": 6,
+            "retained": 6
+          },
+          {
+            "block": 51,
+            "expansions": 30,
+            "buckets": 6,
+            "retained": 6
+          },
+          {
+            "block": 52,
+            "expansions": 30,
+            "buckets": 19,
+            "retained": 16
+          },
+          {
+            "block": 53,
+            "expansions": 80,
+            "buckets": 17,
+            "retained": 16
+          },
+          {
+            "block": 54,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 55,
+            "expansions": 80,
+            "buckets": 0,
+            "retained": 0
+          }
+        ],
+        "incumbent_time_s": 107.84928289855354,
+        "status": "completed"
+      },
+      "ppo_mean_s": 107.4940160405904,
+      "ppo_sample_sd_s": 0.2356998447008474,
+      "ppo_mean_advantage_s": 0.1932986314319436
+    },
+    {
+      "scenario": "low_initial_energy",
+      "primary": {
+        "zero": {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "zero",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\zero_160.json.gz",
+          "duration_s": 109.4752064614381,
+          "final_energy_j": 2999999.999999973,
+          "feasible": true,
+          "terminal_speed_error_mps": 2.842170943040401e-14,
+          "audit": {
+            "recovered_j": 2000000.000000003,
+            "discharged_j": 0.0,
+            "max_work_residual_j": 7.741618901491165e-09,
+            "max_battery_residual_j": 6.9267116487026215e-09
+          }
+        },
+        "half": {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "half",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\half_160.json.gz",
+          "duration_s": 108.18246972097741,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000002,
+            "discharged_j": 2900000.0000000005,
+            "max_work_residual_j": 9.720679372549057e-09,
+            "max_battery_residual_j": 2.3283064365386963e-09
+          }
+        },
+        "full": {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "full",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\full_160.json.gz",
+          "duration_s": 107.99292011263347,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000002,
+            "discharged_j": 2899999.999999999,
+            "max_work_residual_j": 6.155460141599178e-09,
+            "max_battery_residual_j": 1.0477378964424133e-09
+          }
+        },
+        "spread": {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "spread",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\spread_160.json.gz",
+          "duration_s": 108.29552978546668,
+          "final_energy_j": 228432.8567779305,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.000000001,
+            "discharged_j": 2771567.1432220642,
+            "max_work_residual_j": 6.51925802230835e-09,
+            "max_battery_residual_j": 5.2532413974404335e-09
+          }
+        },
+        "exit_boost": {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "exit_boost",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\exit_boost_160.json.gz",
+          "duration_s": 108.62819093882047,
+          "final_energy_j": 1612300.5477320128,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000005,
+            "discharged_j": 1387699.4522679916,
+            "max_work_residual_j": 7.814378477633e-09,
+            "max_battery_residual_j": 4.903995431959629e-09
+          }
+        },
+        "ppo_seed0": {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\ppo_seed0_160.json.gz",
+          "duration_s": 107.81413067259953,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000007,
+            "discharged_j": 2900000.000000023,
+            "max_work_residual_j": 6.577465683221817e-09,
+            "max_battery_residual_j": 3.623426891863346e-09
+          }
+        },
+        "ppo_seed1": {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\ppo_seed1_160.json.gz",
+          "duration_s": 107.92799800810778,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000002,
+            "discharged_j": 2899999.9999999963,
+            "max_work_residual_j": 1.0477378964424133e-08,
+            "max_battery_residual_j": 1.0477378964424133e-09
+          }
+        },
+        "ppo_seed2": {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\ppo_seed2_160.json.gz",
+          "duration_s": 107.94808351876796,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000002,
+            "discharged_j": 2900000.0000000005,
+            "max_work_residual_j": 8.32369551062584e-09,
+            "max_battery_residual_j": 1.8044374883174896e-09
+          }
+        },
+        "frozen_dp": {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "frozen_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\frozen_dp_160.json.gz",
+          "duration_s": 107.84181374377404,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000005,
+            "discharged_j": 2900000.0000000005,
+            "max_work_residual_j": 7.0285750553011894e-09,
+            "max_battery_residual_j": 2.444721758365631e-09
+          }
+        },
+        "replanned_dp": {
+          "scenario": "low_initial_energy",
+          "cells": 160,
+          "policy": "replanned_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_initial_energy\\replanned_dp_160.json.gz",
+          "duration_s": 107.71165699972185,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.0,
+            "discharged_j": 2899999.9999999963,
+            "max_work_residual_j": 9.778887033462524e-09,
+            "max_battery_residual_j": 1.964508555829525e-09
+          }
+        }
+      },
+      "strongest_feasible_fixed": "full",
+      "all_controllers_feasible": true,
+      "numerical": [
+        {
+          "policy": "zero",
+          "status": "completed",
+          "relative_lap_change": 0.0017087297688737513,
+          "terminal_energy_change_j": 1.257285475730896e-08,
+          "recovered_change_j": 2.3283064365386963e-10,
+          "passed": true
+        },
+        {
+          "policy": "half",
+          "status": "completed",
+          "relative_lap_change": 0.0017323931242446654,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 5.122274160385132e-09,
+          "passed": true
+        },
+        {
+          "policy": "full",
+          "status": "completed",
+          "relative_lap_change": 0.0017129326735741317,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 3.4924596548080444e-09,
+          "passed": true
+        },
+        {
+          "policy": "spread",
+          "status": "completed",
+          "relative_lap_change": 0.0017397184107844955,
+          "terminal_energy_change_j": 2380.3609067129437,
+          "recovered_change_j": 3.4924596548080444e-09,
+          "passed": true
+        },
+        {
+          "policy": "exit_boost",
+          "status": "completed",
+          "relative_lap_change": 0.0017077759703135501,
+          "terminal_energy_change_j": 648.4376499503851,
+          "recovered_change_j": 3.026798367500305e-09,
+          "passed": true
+        },
+        {
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "relative_lap_change": 0.0017139468692904754,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 2.561137080192566e-09,
+          "passed": true
+        },
+        {
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "relative_lap_change": 0.0017155880894286686,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 3.259629011154175e-09,
+          "passed": true
+        },
+        {
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "relative_lap_change": 0.001722317218164651,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 3.725290298461914e-09,
+          "passed": true
+        },
+        {
+          "policy": "frozen_dp",
+          "status": "completed",
+          "relative_lap_change": 0.0017503820962027129,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 4.889443516731262e-09,
+          "passed": true
+        },
+        {
+          "policy": "replanned_dp",
+          "status": "completed",
+          "relative_lap_change": 0.0017372551022967473,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 3.725290298461914e-09,
+          "passed": true
+        }
+      ],
+      "pairs": [
+        {
+          "a": "zero",
+          "b": "half",
+          "status": "completed",
+          "paired_gap_change_s": 0.00034600405886919816,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "full",
+          "status": "completed",
+          "paired_gap_change_s": 0.0020761713859656084,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "spread",
+          "status": "completed",
+          "paired_gap_change_s": 0.0013320783411217008,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.0015481081118906559,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0022729310841071992,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.0019015747699313579,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0011432696297646316,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0016900991047634761,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 5.36612943307091e-05,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "full",
+          "status": "completed",
+          "paired_gap_change_s": 0.0024221754448348065,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "spread",
+          "status": "completed",
+          "paired_gap_change_s": 0.0009860742822525026,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.001894112170759854,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0026189351429763974,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.002247578828800556,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0014892736886338298,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.001344095045894278,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.00029234276453848906,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "spread",
+          "status": "completed",
+          "paired_gap_change_s": 0.003408249727087309,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.0005280632740749525,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0001967596981415909,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.00017459661603425047,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0009329017562009767,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0037662704907290845,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0021298326802963174,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.0028801864530123567,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0036050094252289,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.0032336531110530586,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0024753479708863324,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0003580207636417754,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0012784170467909917,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0007248229722165433,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.000353466658040702,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.00040483848212602425,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.003238207216654132,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.001601769406221365,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.00037135631417584136,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0011296614543425676,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.003963030188870675,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0023265923784379083,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed1",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0007583051401667262,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed1",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.003591673874694834,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed1",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.001955236064262067,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed2",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0028333687345281078,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed2",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0011969309240953407,
+          "passed": true
+        },
+        {
+          "a": "frozen_dp",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.001636437810432767,
+          "passed": true
+        }
+      ],
+      "all_numerical_checks_passed": true,
+      "ppo_feasible_seeds": 3,
+      "search": {
+        "name": "replanned_dp",
+        "actions": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0.25,
+          0,
+          0,
+          1,
+          0.5,
+          0,
+          0.25,
+          0,
+          0,
+          0,
+          0,
+          0.75,
+          0.25,
+          0.25,
+          0.25,
+          0.5,
+          0.75,
+          1,
+          0.75,
+          0.5,
+          0,
+          0,
+          0,
+          1,
+          0.5,
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          0.25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.25,
+          0.25,
+          1,
+          0.25,
+          0.25,
+          0,
+          0,
+          0.5,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "search_time_s": 108.0880210562895,
+        "wall_seconds": 134.36258279997855,
+        "transitions": 3605,
+        "layers": [
+          {
+            "block": 1,
+            "expansions": 5,
+            "buckets": 5,
+            "retained": 5
+          },
+          {
+            "block": 2,
+            "expansions": 25,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 3,
+            "expansions": 40,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 4,
+            "expansions": 50,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 5,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 6,
+            "expansions": 80,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 7,
+            "expansions": 80,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 8,
+            "expansions": 50,
+            "buckets": 36,
+            "retained": 16
+          },
+          {
+            "block": 9,
+            "expansions": 80,
+            "buckets": 39,
+            "retained": 16
+          },
+          {
+            "block": 10,
+            "expansions": 80,
+            "buckets": 38,
+            "retained": 16
+          },
+          {
+            "block": 11,
+            "expansions": 80,
+            "buckets": 55,
+            "retained": 16
+          },
+          {
+            "block": 12,
+            "expansions": 80,
+            "buckets": 47,
+            "retained": 16
+          },
+          {
+            "block": 13,
+            "expansions": 80,
+            "buckets": 36,
+            "retained": 16
+          },
+          {
+            "block": 14,
+            "expansions": 80,
+            "buckets": 13,
+            "retained": 13
+          },
+          {
+            "block": 15,
+            "expansions": 65,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 16,
+            "expansions": 50,
+            "buckets": 19,
+            "retained": 16
+          },
+          {
+            "block": 17,
+            "expansions": 80,
+            "buckets": 65,
+            "retained": 16
+          },
+          {
+            "block": 18,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 19,
+            "expansions": 80,
+            "buckets": 20,
+            "retained": 16
+          },
+          {
+            "block": 20,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 21,
+            "expansions": 80,
+            "buckets": 48,
+            "retained": 16
+          },
+          {
+            "block": 22,
+            "expansions": 80,
+            "buckets": 14,
+            "retained": 14
+          },
+          {
+            "block": 23,
+            "expansions": 70,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 24,
+            "expansions": 80,
+            "buckets": 58,
+            "retained": 16
+          },
+          {
+            "block": 25,
+            "expansions": 80,
+            "buckets": 60,
+            "retained": 16
+          },
+          {
+            "block": 26,
+            "expansions": 80,
+            "buckets": 15,
+            "retained": 15
+          },
+          {
+            "block": 27,
+            "expansions": 75,
+            "buckets": 20,
+            "retained": 16
+          },
+          {
+            "block": 28,
+            "expansions": 80,
+            "buckets": 27,
+            "retained": 16
+          },
+          {
+            "block": 29,
+            "expansions": 80,
+            "buckets": 55,
+            "retained": 16
+          },
+          {
+            "block": 30,
+            "expansions": 80,
+            "buckets": 46,
+            "retained": 16
+          },
+          {
+            "block": 31,
+            "expansions": 80,
+            "buckets": 41,
+            "retained": 16
+          },
+          {
+            "block": 32,
+            "expansions": 80,
+            "buckets": 33,
+            "retained": 16
+          },
+          {
+            "block": 33,
+            "expansions": 80,
+            "buckets": 33,
+            "retained": 16
+          },
+          {
+            "block": 34,
+            "expansions": 80,
+            "buckets": 11,
+            "retained": 11
+          },
+          {
+            "block": 35,
+            "expansions": 55,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 36,
+            "expansions": 40,
+            "buckets": 30,
+            "retained": 16
+          },
+          {
+            "block": 37,
+            "expansions": 80,
+            "buckets": 15,
+            "retained": 15
+          },
+          {
+            "block": 38,
+            "expansions": 75,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 39,
+            "expansions": 40,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 40,
+            "expansions": 40,
+            "buckets": 14,
+            "retained": 14
+          },
+          {
+            "block": 41,
+            "expansions": 70,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 42,
+            "expansions": 40,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 43,
+            "expansions": 40,
+            "buckets": 31,
+            "retained": 16
+          },
+          {
+            "block": 44,
+            "expansions": 80,
+            "buckets": 28,
+            "retained": 16
+          },
+          {
+            "block": 45,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 46,
+            "expansions": 80,
+            "buckets": 22,
+            "retained": 16
+          },
+          {
+            "block": 47,
+            "expansions": 80,
+            "buckets": 19,
+            "retained": 16
+          },
+          {
+            "block": 48,
+            "expansions": 80,
+            "buckets": 14,
+            "retained": 14
+          },
+          {
+            "block": 49,
+            "expansions": 70,
+            "buckets": 4,
+            "retained": 4
+          },
+          {
+            "block": 50,
+            "expansions": 20,
+            "buckets": 4,
+            "retained": 4
+          },
+          {
+            "block": 51,
+            "expansions": 20,
+            "buckets": 4,
+            "retained": 4
+          },
+          {
+            "block": 52,
+            "expansions": 20,
+            "buckets": 11,
+            "retained": 11
+          },
+          {
+            "block": 53,
+            "expansions": 55,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 54,
+            "expansions": 50,
+            "buckets": 12,
+            "retained": 12
+          },
+          {
+            "block": 55,
+            "expansions": 60,
+            "buckets": 0,
+            "retained": 0
+          }
+        ],
+        "incumbent_time_s": 108.35900265803437,
+        "status": "completed"
+      },
+      "ppo_mean_s": 107.89673739982508,
+      "ppo_sample_sd_s": 0.07224098886233712,
+      "ppo_mean_advantage_s": 0.09618271280838542
+    },
+    {
+      "scenario": "low_charge_efficiency",
+      "primary": {
+        "zero": {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "zero",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\zero_160.json.gz",
+          "duration_s": 109.47520646143816,
+          "final_energy_j": 4000000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 2.842170943040401e-14,
+          "audit": {
+            "recovered_j": 1999999.9999999846,
+            "discharged_j": 0.0,
+            "max_work_residual_j": 1.1030351743102074e-08,
+            "max_battery_residual_j": 5.675246939063072e-09
+          }
+        },
+        "half": {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "half",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\half_160.json.gz",
+          "duration_s": 107.72028110543957,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.000000002,
+            "discharged_j": 3900000.0000000005,
+            "max_work_residual_j": 1.1059455573558807e-08,
+            "max_battery_residual_j": 3.6416167858988047e-09
+          }
+        },
+        "full": {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "full",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\full_160.json.gz",
+          "duration_s": 107.76072757348497,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 1999999.9999999988,
+            "discharged_j": 3899999.999999998,
+            "max_work_residual_j": 8.731149137020111e-09,
+            "max_battery_residual_j": 2.0081643015146255e-09
+          }
+        },
+        "spread": {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "spread",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\spread_160.json.gz",
+          "duration_s": 107.97249251725043,
+          "final_energy_j": 494844.20649777254,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.000000001,
+            "discharged_j": 3505155.79350223,
+            "max_work_residual_j": 7.101334631443024e-09,
+            "max_battery_residual_j": 8.96397978067398e-09
+          }
+        },
+        "exit_boost": {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "exit_boost",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\exit_boost_160.json.gz",
+          "duration_s": 108.62819093882054,
+          "final_energy_j": 2612300.547732007,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 1999999.9999999998,
+            "discharged_j": 1387699.4522679916,
+            "max_work_residual_j": 1.0477378964424133e-08,
+            "max_battery_residual_j": 8.119968697428703e-09
+          }
+        },
+        "ppo_seed0": {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\ppo_seed0_160.json.gz",
+          "duration_s": 107.19117577376029,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 1999999.9999999995,
+            "discharged_j": 3899999.9999999898,
+            "max_work_residual_j": 1.2456439435482025e-08,
+            "max_battery_residual_j": 2.8812792152166367e-09
+          }
+        },
+        "ppo_seed1": {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\ppo_seed1_160.json.gz",
+          "duration_s": 107.7060031925601,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000007,
+            "discharged_j": 3899999.999999999,
+            "max_work_residual_j": 7.974449545145035e-09,
+            "max_battery_residual_j": 3.92901711165905e-09
+          }
+        },
+        "ppo_seed2": {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\ppo_seed2_160.json.gz",
+          "duration_s": 107.69470824954334,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0,
+            "discharged_j": 3899999.9999999874,
+            "max_work_residual_j": 5.878973752260208e-09,
+            "max_battery_residual_j": 2.473825588822365e-09
+          }
+        },
+        "frozen_dp": {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "frozen_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\frozen_dp_160.json.gz",
+          "duration_s": 107.26587781782064,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 1999999.9999999993,
+            "discharged_j": 3900000.000000002,
+            "max_work_residual_j": 1.076841726899147e-08,
+            "max_battery_residual_j": 5.638867150992155e-09
+          }
+        },
+        "replanned_dp": {
+          "scenario": "low_charge_efficiency",
+          "cells": 160,
+          "policy": "replanned_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\replanned_dp_160.json.gz",
+          "duration_s": 107.15215654586282,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 1999999.999999999,
+            "discharged_j": 3900000.000000001,
+            "max_work_residual_j": 7.62520357966423e-09,
+            "max_battery_residual_j": 5.638867150992155e-09
+          }
+        }
+      },
+      "strongest_feasible_fixed": "half",
+      "all_controllers_feasible": true,
+      "numerical": [
+        {
+          "policy": "zero",
+          "status": "completed",
+          "relative_lap_change": 0.0017087297688741412,
+          "terminal_energy_change_j": 1.210719347000122e-08,
+          "recovered_change_j": 1.5133991837501526e-08,
+          "passed": true
+        },
+        {
+          "policy": "half",
+          "status": "completed",
+          "relative_lap_change": 0.0017052439100805397,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 2.561137080192566e-09,
+          "passed": true
+        },
+        {
+          "policy": "full",
+          "status": "completed",
+          "relative_lap_change": 0.0017731050946928316,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 2.0954757928848267e-09,
+          "passed": true
+        },
+        {
+          "policy": "spread",
+          "status": "completed",
+          "relative_lap_change": 0.001753666426336015,
+          "terminal_energy_change_j": 5289.902675276971,
+          "recovered_change_j": 1.1641532182693481e-09,
+          "passed": true
+        },
+        {
+          "policy": "exit_boost",
+          "status": "completed",
+          "relative_lap_change": 0.0017077759703132865,
+          "terminal_energy_change_j": 648.4376499117352,
+          "recovered_change_j": 6.984919309616089e-10,
+          "passed": true
+        },
+        {
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "relative_lap_change": 0.0017448947757290397,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 4.656612873077393e-10,
+          "passed": true
+        },
+        {
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "relative_lap_change": 0.0017611845869859484,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 4.656612873077393e-10,
+          "passed": true
+        },
+        {
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "relative_lap_change": 0.0017533759330371284,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 1.6298145055770874e-09,
+          "passed": true
+        },
+        {
+          "policy": "frozen_dp",
+          "status": "completed",
+          "relative_lap_change": 0.0017386040028775239,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 2.3283064365386963e-10,
+          "passed": true
+        },
+        {
+          "policy": "replanned_dp",
+          "status": "completed",
+          "relative_lap_change": 0.0017353523619595796,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 9.313225746154785e-10,
+          "passed": true
+        }
+      ],
+      "pairs": [
+        {
+          "a": "zero",
+          "b": "half",
+          "status": "completed",
+          "paired_gap_change_s": 0.0033677970069732055,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "full",
+          "status": "completed",
+          "paired_gap_change_s": 0.003988457145652546,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "spread",
+          "status": "completed",
+          "paired_gap_change_s": 0.002271815183689796,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.0015481081119617102,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 3.291779857761412e-05,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.002612212280212134,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.001754351864263981,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.000575238423593305,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0011198246145482926,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "full",
+          "status": "completed",
+          "paired_gap_change_s": 0.007356254152625752,
+          "passed": false
+        },
+        {
+          "a": "half",
+          "b": "spread",
+          "status": "completed",
+          "paired_gap_change_s": 0.0056396121906630015,
+          "passed": false
+        },
+        {
+          "a": "half",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.0018196888950114953,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0033348792083955914,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.005980009287185339,
+          "passed": false
+        },
+        {
+          "a": "half",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0051221488712371865,
+          "passed": false
+        },
+        {
+          "a": "half",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0027925585833799005,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.002247972392424913,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "spread",
+          "status": "completed",
+          "paired_gap_change_s": 0.0017166419619627504,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.0055365652576142566,
+          "passed": false
+        },
+        {
+          "a": "full",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0040213749442301605,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.0013762448654404125,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0022341052813885653,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.004563695569245851,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.005108281760200839,
+          "passed": false
+        },
+        {
+          "a": "spread",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.003819923295651506,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.00230473298226741,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.00034039709652233796,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0005174633194258149,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.002847053607283101,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0033916397982380886,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.001515190313384096,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.004160320392173844,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.003302459976225691,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0009728696883684051,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.00042828349741341754,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.002645130078789748,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0017872696628415952,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0005423206250156909,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0010869068159706785,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed1",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0008578604159481529,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed1",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.003187450703805439,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed1",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0037320368947604265,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed2",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.002329590287857286,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed2",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0028741764788122737,
+          "passed": true
+        },
+        {
+          "a": "frozen_dp",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0005445861909549876,
+          "passed": true
+        }
+      ],
+      "all_numerical_checks_passed": false,
+      "ppo_feasible_seeds": 3,
+      "search": {
+        "name": "replanned_dp",
+        "actions": [
+          1,
+          1,
+          1,
+          1,
+          0.25,
+          0.25,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0.75,
+          1,
+          0,
+          0.25,
+          0,
+          1,
+          0.5,
+          0.75,
+          0.25,
+          0,
+          0.5,
+          0,
+          0.5,
+          0.25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.75,
+          1,
+          0.5,
+          0.5,
+          0,
+          0,
+          0.25,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "search_time_s": 107.52705183582995,
+        "wall_seconds": 151.20147319999523,
+        "transitions": 3955,
+        "layers": [
+          {
+            "block": 1,
+            "expansions": 5,
+            "buckets": 5,
+            "retained": 5
+          },
+          {
+            "block": 2,
+            "expansions": 25,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 3,
+            "expansions": 40,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 4,
+            "expansions": 50,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 5,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 6,
+            "expansions": 80,
+            "buckets": 22,
+            "retained": 16
+          },
+          {
+            "block": 7,
+            "expansions": 80,
+            "buckets": 12,
+            "retained": 12
+          },
+          {
+            "block": 8,
+            "expansions": 60,
+            "buckets": 37,
+            "retained": 16
+          },
+          {
+            "block": 9,
+            "expansions": 80,
+            "buckets": 52,
+            "retained": 16
+          },
+          {
+            "block": 10,
+            "expansions": 80,
+            "buckets": 48,
+            "retained": 16
+          },
+          {
+            "block": 11,
+            "expansions": 80,
+            "buckets": 62,
+            "retained": 16
+          },
+          {
+            "block": 12,
+            "expansions": 80,
+            "buckets": 59,
+            "retained": 16
+          },
+          {
+            "block": 13,
+            "expansions": 80,
+            "buckets": 57,
+            "retained": 16
+          },
+          {
+            "block": 14,
+            "expansions": 80,
+            "buckets": 29,
+            "retained": 16
+          },
+          {
+            "block": 15,
+            "expansions": 80,
+            "buckets": 15,
+            "retained": 15
+          },
+          {
+            "block": 16,
+            "expansions": 75,
+            "buckets": 26,
+            "retained": 16
+          },
+          {
+            "block": 17,
+            "expansions": 80,
+            "buckets": 74,
+            "retained": 16
+          },
+          {
+            "block": 18,
+            "expansions": 80,
+            "buckets": 31,
+            "retained": 16
+          },
+          {
+            "block": 19,
+            "expansions": 80,
+            "buckets": 22,
+            "retained": 16
+          },
+          {
+            "block": 20,
+            "expansions": 80,
+            "buckets": 25,
+            "retained": 16
+          },
+          {
+            "block": 21,
+            "expansions": 80,
+            "buckets": 46,
+            "retained": 16
+          },
+          {
+            "block": 22,
+            "expansions": 80,
+            "buckets": 20,
+            "retained": 16
+          },
+          {
+            "block": 23,
+            "expansions": 80,
+            "buckets": 17,
+            "retained": 16
+          },
+          {
+            "block": 24,
+            "expansions": 80,
+            "buckets": 59,
+            "retained": 16
+          },
+          {
+            "block": 25,
+            "expansions": 80,
+            "buckets": 56,
+            "retained": 16
+          },
+          {
+            "block": 26,
+            "expansions": 80,
+            "buckets": 15,
+            "retained": 15
+          },
+          {
+            "block": 27,
+            "expansions": 75,
+            "buckets": 22,
+            "retained": 16
+          },
+          {
+            "block": 28,
+            "expansions": 80,
+            "buckets": 36,
+            "retained": 16
+          },
+          {
+            "block": 29,
+            "expansions": 80,
+            "buckets": 72,
+            "retained": 16
+          },
+          {
+            "block": 30,
+            "expansions": 80,
+            "buckets": 53,
+            "retained": 16
+          },
+          {
+            "block": 31,
+            "expansions": 80,
+            "buckets": 44,
+            "retained": 16
+          },
+          {
+            "block": 32,
+            "expansions": 80,
+            "buckets": 49,
+            "retained": 16
+          },
+          {
+            "block": 33,
+            "expansions": 80,
+            "buckets": 44,
+            "retained": 16
+          },
+          {
+            "block": 34,
+            "expansions": 80,
+            "buckets": 12,
+            "retained": 12
+          },
+          {
+            "block": 35,
+            "expansions": 60,
+            "buckets": 11,
+            "retained": 11
+          },
+          {
+            "block": 36,
+            "expansions": 55,
+            "buckets": 35,
+            "retained": 16
+          },
+          {
+            "block": 37,
+            "expansions": 80,
+            "buckets": 29,
+            "retained": 16
+          },
+          {
+            "block": 38,
+            "expansions": 80,
+            "buckets": 15,
+            "retained": 15
+          },
+          {
+            "block": 39,
+            "expansions": 75,
+            "buckets": 20,
+            "retained": 16
+          },
+          {
+            "block": 40,
+            "expansions": 80,
+            "buckets": 28,
+            "retained": 16
+          },
+          {
+            "block": 41,
+            "expansions": 80,
+            "buckets": 20,
+            "retained": 16
+          },
+          {
+            "block": 42,
+            "expansions": 80,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 43,
+            "expansions": 50,
+            "buckets": 41,
+            "retained": 16
+          },
+          {
+            "block": 44,
+            "expansions": 80,
+            "buckets": 31,
+            "retained": 16
+          },
+          {
+            "block": 45,
+            "expansions": 80,
+            "buckets": 31,
+            "retained": 16
+          },
+          {
+            "block": 46,
+            "expansions": 80,
+            "buckets": 28,
+            "retained": 16
+          },
+          {
+            "block": 47,
+            "expansions": 80,
+            "buckets": 24,
+            "retained": 16
+          },
+          {
+            "block": 48,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 49,
+            "expansions": 80,
+            "buckets": 7,
+            "retained": 7
+          },
+          {
+            "block": 50,
+            "expansions": 35,
+            "buckets": 7,
+            "retained": 7
+          },
+          {
+            "block": 51,
+            "expansions": 35,
+            "buckets": 7,
+            "retained": 7
+          },
+          {
+            "block": 52,
+            "expansions": 35,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 53,
+            "expansions": 80,
+            "buckets": 22,
+            "retained": 16
+          },
+          {
+            "block": 54,
+            "expansions": 80,
+            "buckets": 21,
+            "retained": 16
+          },
+          {
+            "block": 55,
+            "expansions": 80,
+            "buckets": 0,
+            "retained": 0
+          }
+        ],
+        "incumbent_time_s": 107.83017492775973,
+        "status": "completed"
+      },
+      "ppo_mean_s": 107.53062907195458,
+      "ppo_sample_sd_s": 0.2940294205954093,
+      "ppo_mean_advantage_s": 0.1896520334849896
+    },
+    {
+      "scenario": "low_braking_share",
+      "primary": {
+        "zero": {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "zero",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\zero_160.json.gz",
+          "duration_s": 109.47520646143805,
+          "final_energy_j": 4000000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 2.842170943040401e-14,
+          "audit": {
+            "recovered_j": 1999999.9999999965,
+            "discharged_j": 0.0,
+            "max_work_residual_j": 1.1030351743102074e-08,
+            "max_battery_residual_j": 6.51925802230835e-09
+          }
+        },
+        "half": {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "half",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\half_160.json.gz",
+          "duration_s": 107.72028110543953,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000007,
+            "discharged_j": 3900000.0000000056,
+            "max_work_residual_j": 9.19681042432785e-09,
+            "max_battery_residual_j": 3.805325832217932e-09
+          }
+        },
+        "full": {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "full",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\full_160.json.gz",
+          "duration_s": 107.72918013239334,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.000000001,
+            "discharged_j": 3899999.999999999,
+            "max_work_residual_j": 7.62520357966423e-09,
+            "max_battery_residual_j": 2.735760062932968e-09
+          }
+        },
+        "spread": {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "spread",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\spread_160.json.gz",
+          "duration_s": 107.98630159130744,
+          "final_energy_j": 535686.6405816588,
+          "feasible": true,
+          "terminal_speed_error_mps": 2.842170943040401e-14,
+          "audit": {
+            "recovered_j": 1999999.9999999998,
+            "discharged_j": 3464313.3594183396,
+            "max_work_residual_j": 1.3940734788775444e-08,
+            "max_battery_residual_j": 7.81938069849275e-09
+          }
+        },
+        "exit_boost": {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "exit_boost",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\exit_boost_160.json.gz",
+          "duration_s": 108.62819093882041,
+          "final_energy_j": 2612300.5477320193,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.000000001,
+            "discharged_j": 1387699.4522679914,
+            "max_work_residual_j": 1.0477378964424133e-08,
+            "max_battery_residual_j": 8.09086486697197e-09
+          }
+        },
+        "ppo_seed0": {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed0_160.json.gz",
+          "duration_s": 107.18157474856241,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 1999999.9999999998,
+            "discharged_j": 3900000.000000012,
+            "max_work_residual_j": 9.42964106798172e-09,
+            "max_battery_residual_j": 3.2414391171187162e-09
+          }
+        },
+        "ppo_seed1": {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed1_160.json.gz",
+          "duration_s": 107.68712667185758,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000014,
+            "discharged_j": 3900000.000000006,
+            "max_work_residual_j": 1.4115357771515846e-08,
+            "max_battery_residual_j": 2.8448994271457195e-09
+          }
+        },
+        "ppo_seed2": {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed2_160.json.gz",
+          "duration_s": 107.66125500242389,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.000000001,
+            "discharged_j": 3899999.999999993,
+            "max_work_residual_j": 7.144990377128124e-09,
+            "max_battery_residual_j": 2.5029294192790985e-09
+          }
+        },
+        "frozen_dp": {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "frozen_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\frozen_dp_160.json.gz",
+          "duration_s": 107.25804052111417,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000005,
+            "discharged_j": 3900000.0000000065,
+            "max_work_residual_j": 1.0186340659856796e-08,
+            "max_battery_residual_j": 2.648448571562767e-09
+          }
+        },
+        "replanned_dp": {
+          "scenario": "low_braking_share",
+          "cells": 160,
+          "policy": "replanned_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\low_braking_share\\replanned_dp_160.json.gz",
+          "duration_s": 107.14805581909073,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 1.4210854715202004e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000002,
+            "discharged_j": 3899999.999999998,
+            "max_work_residual_j": 8.185452315956354e-09,
+            "max_battery_residual_j": 2.648448571562767e-09
+          }
+        }
+      },
+      "strongest_feasible_fixed": "half",
+      "all_controllers_feasible": true,
+      "numerical": [
+        {
+          "policy": "zero",
+          "status": "completed",
+          "relative_lap_change": 0.0017087297688728404,
+          "terminal_energy_change_j": 1.7695128917694092e-08,
+          "recovered_change_j": 1.862645149230957e-09,
+          "passed": true
+        },
+        {
+          "policy": "half",
+          "status": "completed",
+          "relative_lap_change": 0.0017052439100806727,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 6.984919309616089e-10,
+          "passed": true
+        },
+        {
+          "policy": "full",
+          "status": "completed",
+          "relative_lap_change": 0.0017739351132816013,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 2.7939677238464355e-09,
+          "passed": true
+        },
+        {
+          "policy": "spread",
+          "status": "completed",
+          "relative_lap_change": 0.0017586937256263721,
+          "terminal_energy_change_j": 6226.993327983306,
+          "recovered_change_j": 2.3283064365386963e-09,
+          "passed": true
+        },
+        {
+          "policy": "exit_boost",
+          "status": "completed",
+          "relative_lap_change": 0.0017077759703122382,
+          "terminal_energy_change_j": 648.4376498889178,
+          "recovered_change_j": 2.561137080192566e-09,
+          "passed": true
+        },
+        {
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "relative_lap_change": 0.0017363204539505219,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 0.0,
+          "passed": true
+        },
+        {
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "relative_lap_change": 0.0017590968824941326,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 3.026798367500305e-09,
+          "passed": true
+        },
+        {
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "relative_lap_change": 0.0017686933560967933,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 2.3283064365386963e-09,
+          "passed": true
+        },
+        {
+          "policy": "frozen_dp",
+          "status": "completed",
+          "relative_lap_change": 0.001743344386730706,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 9.313225746154785e-10,
+          "passed": true
+        },
+        {
+          "policy": "replanned_dp",
+          "status": "completed",
+          "relative_lap_change": 0.0017447262714454547,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 2.3283064365386963e-10,
+          "passed": true
+        }
+      ],
+      "pairs": [
+        {
+          "a": "zero",
+          "b": "half",
+          "status": "completed",
+          "paired_gap_change_s": 0.003367797006816886,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "full",
+          "status": "completed",
+          "paired_gap_change_s": 0.004021720121116346,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "spread",
+          "status": "completed",
+          "paired_gap_change_s": 0.0028369669804959585,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.0015481081119332885,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0009654597713222302,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.0023549961338460434,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0033390984893344466,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 8.216221063150897e-05,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0001260185913594114,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "full",
+          "status": "completed",
+          "paired_gap_change_s": 0.007389517127933232,
+          "passed": false
+        },
+        {
+          "a": "half",
+          "b": "spread",
+          "status": "completed",
+          "paired_gap_change_s": 0.006204763987312845,
+          "passed": false
+        },
+        {
+          "a": "half",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.0018196888948835976,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.002402337235494656,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.0057227931406629295,
+          "passed": false
+        },
+        {
+          "a": "half",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.006706895496151333,
+          "passed": false
+        },
+        {
+          "a": "half",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.003285634796185377,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0032417784154574747,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "spread",
+          "status": "completed",
+          "paired_gap_change_s": 0.001184753140620387,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.005569828233049634,
+          "passed": false
+        },
+        {
+          "a": "full",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.004987179892438576,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.0016667239872703021,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0006826216317818989,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0041038823317478546,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.004147738712475757,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.004385075092429247,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0038024267518181887,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.0004819708466499151,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0005021315088384881,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0029191291911274675,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.00296298557185537,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0005826483406110583,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.003903104245779332,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.004887206601267735,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0014659459013017795,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.001422089520573877,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.0033204559051682736,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.004304558260656677,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0008832975606907212,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0008394411799628188,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed1",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0009841023554884032,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed1",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0024371583444775524,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed1",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.002481014725205455,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed2",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0034212606999659556,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed2",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.003465117080693858,
+          "passed": true
+        },
+        {
+          "a": "frozen_dp",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 4.385638072790243e-05,
+          "passed": true
+        }
+      ],
+      "all_numerical_checks_passed": false,
+      "ppo_feasible_seeds": 3,
+      "search": {
+        "name": "replanned_dp",
+        "actions": [
+          1,
+          1,
+          1,
+          1,
+          0.25,
+          0.25,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0.25,
+          1,
+          0.25,
+          0.25,
+          0,
+          1,
+          1,
+          0.75,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.75,
+          0.5,
+          0.5,
+          0,
+          0,
+          0,
+          0.25,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "search_time_s": 107.52480723153298,
+        "wall_seconds": 150.17897210014053,
+        "transitions": 3980,
+        "layers": [
+          {
+            "block": 1,
+            "expansions": 5,
+            "buckets": 5,
+            "retained": 5
+          },
+          {
+            "block": 2,
+            "expansions": 25,
+            "buckets": 8,
+            "retained": 8
+          },
+          {
+            "block": 3,
+            "expansions": 40,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 4,
+            "expansions": 50,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 5,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 6,
+            "expansions": 80,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 7,
+            "expansions": 80,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 8,
+            "expansions": 45,
+            "buckets": 35,
+            "retained": 16
+          },
+          {
+            "block": 9,
+            "expansions": 80,
+            "buckets": 60,
+            "retained": 16
+          },
+          {
+            "block": 10,
+            "expansions": 80,
+            "buckets": 38,
+            "retained": 16
+          },
+          {
+            "block": 11,
+            "expansions": 80,
+            "buckets": 53,
+            "retained": 16
+          },
+          {
+            "block": 12,
+            "expansions": 80,
+            "buckets": 51,
+            "retained": 16
+          },
+          {
+            "block": 13,
+            "expansions": 80,
+            "buckets": 50,
+            "retained": 16
+          },
+          {
+            "block": 14,
+            "expansions": 80,
+            "buckets": 27,
+            "retained": 16
+          },
+          {
+            "block": 15,
+            "expansions": 80,
+            "buckets": 15,
+            "retained": 15
+          },
+          {
+            "block": 16,
+            "expansions": 75,
+            "buckets": 26,
+            "retained": 16
+          },
+          {
+            "block": 17,
+            "expansions": 80,
+            "buckets": 75,
+            "retained": 16
+          },
+          {
+            "block": 18,
+            "expansions": 80,
+            "buckets": 26,
+            "retained": 16
+          },
+          {
+            "block": 19,
+            "expansions": 80,
+            "buckets": 20,
+            "retained": 16
+          },
+          {
+            "block": 20,
+            "expansions": 80,
+            "buckets": 31,
+            "retained": 16
+          },
+          {
+            "block": 21,
+            "expansions": 80,
+            "buckets": 55,
+            "retained": 16
+          },
+          {
+            "block": 22,
+            "expansions": 80,
+            "buckets": 28,
+            "retained": 16
+          },
+          {
+            "block": 23,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 24,
+            "expansions": 80,
+            "buckets": 48,
+            "retained": 16
+          },
+          {
+            "block": 25,
+            "expansions": 80,
+            "buckets": 56,
+            "retained": 16
+          },
+          {
+            "block": 26,
+            "expansions": 80,
+            "buckets": 22,
+            "retained": 16
+          },
+          {
+            "block": 27,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 28,
+            "expansions": 80,
+            "buckets": 29,
+            "retained": 16
+          },
+          {
+            "block": 29,
+            "expansions": 80,
+            "buckets": 70,
+            "retained": 16
+          },
+          {
+            "block": 30,
+            "expansions": 80,
+            "buckets": 44,
+            "retained": 16
+          },
+          {
+            "block": 31,
+            "expansions": 80,
+            "buckets": 40,
+            "retained": 16
+          },
+          {
+            "block": 32,
+            "expansions": 80,
+            "buckets": 40,
+            "retained": 16
+          },
+          {
+            "block": 33,
+            "expansions": 80,
+            "buckets": 37,
+            "retained": 16
+          },
+          {
+            "block": 34,
+            "expansions": 80,
+            "buckets": 14,
+            "retained": 14
+          },
+          {
+            "block": 35,
+            "expansions": 70,
+            "buckets": 14,
+            "retained": 14
+          },
+          {
+            "block": 36,
+            "expansions": 70,
+            "buckets": 51,
+            "retained": 16
+          },
+          {
+            "block": 37,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 38,
+            "expansions": 80,
+            "buckets": 14,
+            "retained": 14
+          },
+          {
+            "block": 39,
+            "expansions": 70,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 40,
+            "expansions": 80,
+            "buckets": 26,
+            "retained": 16
+          },
+          {
+            "block": 41,
+            "expansions": 80,
+            "buckets": 17,
+            "retained": 16
+          },
+          {
+            "block": 42,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 43,
+            "expansions": 80,
+            "buckets": 63,
+            "retained": 16
+          },
+          {
+            "block": 44,
+            "expansions": 80,
+            "buckets": 49,
+            "retained": 16
+          },
+          {
+            "block": 45,
+            "expansions": 80,
+            "buckets": 42,
+            "retained": 16
+          },
+          {
+            "block": 46,
+            "expansions": 80,
+            "buckets": 30,
+            "retained": 16
+          },
+          {
+            "block": 47,
+            "expansions": 80,
+            "buckets": 28,
+            "retained": 16
+          },
+          {
+            "block": 48,
+            "expansions": 80,
+            "buckets": 31,
+            "retained": 16
+          },
+          {
+            "block": 49,
+            "expansions": 80,
+            "buckets": 6,
+            "retained": 6
+          },
+          {
+            "block": 50,
+            "expansions": 30,
+            "buckets": 6,
+            "retained": 6
+          },
+          {
+            "block": 51,
+            "expansions": 30,
+            "buckets": 6,
+            "retained": 6
+          },
+          {
+            "block": 52,
+            "expansions": 30,
+            "buckets": 19,
+            "retained": 16
+          },
+          {
+            "block": 53,
+            "expansions": 80,
+            "buckets": 17,
+            "retained": 16
+          },
+          {
+            "block": 54,
+            "expansions": 80,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 55,
+            "expansions": 80,
+            "buckets": 0,
+            "retained": 0
+          }
+        ],
+        "incumbent_time_s": 107.88247776770093,
+        "status": "completed"
+      },
+      "ppo_mean_s": 107.5099854742813,
+      "ppo_sample_sd_s": 0.28470605788290454,
+      "ppo_mean_advantage_s": 0.2102956311582318
+    },
+    {
+      "scenario": "high_drag",
+      "primary": {
+        "zero": {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "zero",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\zero_160.json.gz",
+          "duration_s": 109.98900106495145,
+          "final_energy_j": 4000000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.3042567405217511,
+          "audit": {
+            "recovered_j": 2000000.0000000014,
+            "discharged_j": 0.0,
+            "max_work_residual_j": 1.1408701539039612e-08,
+            "max_battery_residual_j": 4.3655745685100555e-09
+          }
+        },
+        "half": {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "half",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\half_160.json.gz",
+          "duration_s": 108.22748912174256,
+          "final_energy_j": 100000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.3042567405217653,
+          "audit": {
+            "recovered_j": 2000000.0000000042,
+            "discharged_j": 3900000.0,
+            "max_work_residual_j": 1.1874362826347351e-08,
+            "max_battery_residual_j": 4.773028194904327e-09
+          }
+        },
+        "full": {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "full",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\full_160.json.gz",
+          "duration_s": 108.17152571820442,
+          "final_energy_j": 100000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.3042567405217653,
+          "audit": {
+            "recovered_j": 2000000.0000000051,
+            "discharged_j": 3900000.0000000084,
+            "max_work_residual_j": 8.032657206058502e-09,
+            "max_battery_residual_j": 2.8594513423740864e-09
+          }
+        },
+        "spread": {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "spread",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\spread_160.json.gz",
+          "duration_s": 108.42963595192553,
+          "final_energy_j": 377367.5601451793,
+          "feasible": true,
+          "terminal_speed_error_mps": -2.842170943040401e-14,
+          "audit": {
+            "recovered_j": 2000000.0000000042,
+            "discharged_j": 3622632.4398548175,
+            "max_work_residual_j": 8.993083611130714e-09,
+            "max_battery_residual_j": 1.2303644325584173e-08
+          }
+        },
+        "exit_boost": {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "exit_boost",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\exit_boost_160.json.gz",
+          "duration_s": 109.13021567619883,
+          "final_energy_j": 2594438.0887981514,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.30425674052168006,
+          "audit": {
+            "recovered_j": 2000000.0000000037,
+            "discharged_j": 1405561.9112018603,
+            "max_work_residual_j": 8.381903171539307e-09,
+            "max_battery_residual_j": 5.587935447692871e-09
+          }
+        },
+        "ppo_seed0": {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed0_160.json.gz",
+          "duration_s": 107.7204988763193,
+          "final_energy_j": 100000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.3042567405217653,
+          "audit": {
+            "recovered_j": 2000000.0000000051,
+            "discharged_j": 3899999.9999999916,
+            "max_work_residual_j": 1.280568540096283e-08,
+            "max_battery_residual_j": 3.4269760362803936e-09
+          }
+        },
+        "ppo_seed1": {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed1_160.json.gz",
+          "duration_s": 108.12120375704211,
+          "final_energy_j": 100000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.3042567405217653,
+          "audit": {
+            "recovered_j": 2000000.0000000035,
+            "discharged_j": 3900000.0000000075,
+            "max_work_residual_j": 8.265487849712372e-09,
+            "max_battery_residual_j": 2.6775524020195007e-09
+          }
+        },
+        "ppo_seed2": {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed2_160.json.gz",
+          "duration_s": 108.06049075142953,
+          "final_energy_j": 100000.0,
+          "feasible": false,
+          "terminal_speed_error_mps": -0.3042567405217653,
+          "audit": {
+            "recovered_j": 2000000.0000000035,
+            "discharged_j": 3899999.9999999977,
+            "max_work_residual_j": 1.0826624929904938e-08,
+            "max_battery_residual_j": 4.249159246683121e-09
+          }
+        },
+        "frozen_dp": {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "frozen_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\frozen_dp_160.json.gz",
+          "duration_s": 107.77421104365507,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.0000000033,
+            "discharged_j": 3899999.9999999925,
+            "max_work_residual_j": 9.19681042432785e-09,
+            "max_battery_residual_j": 2.6775524020195007e-09
+          }
+        },
+        "replanned_dp": {
+          "scenario": "high_drag",
+          "cells": 160,
+          "policy": "replanned_dp",
+          "status": "completed",
+          "file": "results\\regeneration-robustness-001\\high_drag\\replanned_dp_160.json.gz",
+          "duration_s": 107.7541762809376,
+          "final_energy_j": 100000.0,
+          "feasible": true,
+          "terminal_speed_error_mps": 0.0,
+          "audit": {
+            "recovered_j": 2000000.000000004,
+            "discharged_j": 3899999.999999995,
+            "max_work_residual_j": 8.032657206058502e-09,
+            "max_battery_residual_j": 5.107722245156765e-09
+          }
+        }
+      },
+      "strongest_feasible_fixed": "spread",
+      "all_controllers_feasible": false,
+      "numerical": [
+        {
+          "policy": "zero",
+          "status": "completed",
+          "relative_lap_change": 0.0016921618498931122,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 9.778887033462524e-09,
+          "passed": true
+        },
+        {
+          "policy": "half",
+          "status": "completed",
+          "relative_lap_change": 0.0017062326916150424,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 4.6566128730773926e-09,
+          "passed": true
+        },
+        {
+          "policy": "full",
+          "status": "completed",
+          "relative_lap_change": 0.0017157855433961556,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 4.423782229423523e-09,
+          "passed": true
+        },
+        {
+          "policy": "spread",
+          "status": "completed",
+          "relative_lap_change": 0.0017380923313246996,
+          "terminal_energy_change_j": 4145.384628510743,
+          "recovered_change_j": 8.381903171539307e-09,
+          "passed": true
+        },
+        {
+          "policy": "exit_boost",
+          "status": "completed",
+          "relative_lap_change": 0.0016916477811101626,
+          "terminal_energy_change_j": 594.1930060586892,
+          "recovered_change_j": 7.683411240577698e-09,
+          "passed": true
+        },
+        {
+          "policy": "ppo_seed0",
+          "status": "completed",
+          "relative_lap_change": 0.0017248224550699505,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 8.614733815193176e-09,
+          "passed": true
+        },
+        {
+          "policy": "ppo_seed1",
+          "status": "completed",
+          "relative_lap_change": 0.0017106619462037697,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 5.820766091346741e-09,
+          "passed": true
+        },
+        {
+          "policy": "ppo_seed2",
+          "status": "completed",
+          "relative_lap_change": 0.0017039713644391625,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 3.259629011154175e-09,
+          "passed": true
+        },
+        {
+          "policy": "frozen_dp",
+          "status": "completed",
+          "relative_lap_change": 0.0017189813693294432,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 4.190951585769653e-09,
+          "passed": true
+        },
+        {
+          "policy": "replanned_dp",
+          "status": "completed",
+          "relative_lap_change": 0.0017123900050529089,
+          "terminal_energy_change_j": 0.0,
+          "recovered_change_j": 6.28642737865448e-09,
+          "passed": true
+        }
+      ],
+      "pairs": [
+        {
+          "a": "zero",
+          "b": "half",
+          "status": "completed",
+          "paired_gap_change_s": 0.001458038116382454,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "full",
+          "status": "completed",
+          "paired_gap_change_s": 0.0005235425839344998,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "spread",
+          "status": "completed",
+          "paired_gap_change_s": 0.002328945201625743,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.001506660054673148,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0003259624459559518,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.0011618126027599374,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0019860197856900186,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0008608340689164606,
+          "passed": true
+        },
+        {
+          "a": "zero",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.001603030518253945,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "full",
+          "status": "completed",
+          "paired_gap_change_s": 0.0009344955324479542,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "spread",
+          "status": "completed",
+          "paired_gap_change_s": 0.003786983318008197,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 4.8621938290693834e-05,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0011320756704265023,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.0002962255136225167,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0005279816693075645,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0005972040474659934,
+          "passed": true
+        },
+        {
+          "a": "half",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.00014499240187149098,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "spread",
+          "status": "completed",
+          "paired_gap_change_s": 0.0028524877855602426,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.000983117470738648,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.000197580137978548,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.0006382700188254375,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0014624772017555188,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0003372914849819608,
+          "passed": true
+        },
+        {
+          "a": "full",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0010794879343194452,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "exit_boost",
+          "status": "completed",
+          "paired_gap_change_s": 0.0038356052562988907,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.0026549076475816946,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.00349075780438568,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.004314964987315761,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0031897792705422034,
+          "passed": true
+        },
+        {
+          "a": "spread",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.003931975719879688,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "ppo_seed0",
+          "status": "completed",
+          "paired_gap_change_s": 0.001180697608717196,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.00034484745191321053,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0004793597310168707,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0006458259857566873,
+          "passed": true
+        },
+        {
+          "a": "exit_boost",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 9.637046358079715e-05,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "ppo_seed1",
+          "status": "completed",
+          "paired_gap_change_s": 0.0008358501568039856,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0016600573397340668,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0005348716229605088,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed0",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0012770680722979932,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed1",
+          "b": "ppo_seed2",
+          "status": "completed",
+          "paired_gap_change_s": 0.0008242071829300812,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed1",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0003009785338434767,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed1",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0004412179154940077,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed2",
+          "b": "frozen_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.001125185716773558,
+          "passed": true
+        },
+        {
+          "a": "ppo_seed2",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.00038298926743607353,
+          "passed": true
+        },
+        {
+          "a": "frozen_dp",
+          "b": "replanned_dp",
+          "status": "completed",
+          "paired_gap_change_s": 0.0007421964493374844,
+          "passed": true
+        }
+      ],
+      "all_numerical_checks_passed": true,
+      "ppo_feasible_seeds": 0,
+      "search": {
+        "name": "replanned_dp",
+        "actions": [
+          1,
+          1,
+          1,
+          1,
+          0.5,
+          0,
+          0,
+          1,
+          1,
+          0.75,
+          1,
+          0.5,
+          1,
+          0,
+          0,
+          0.5,
+          1,
+          0,
+          1,
+          0,
+          0.25,
+          0.75,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0.25,
+          1,
+          0.25,
+          0,
+          0.25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.5,
+          0.75,
+          0.25,
+          0,
+          0.25,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "search_time_s": 108.12718964797575,
+        "wall_seconds": 142.89992430014536,
+        "transitions": 3780,
+        "layers": [
+          {
+            "block": 1,
+            "expansions": 5,
+            "buckets": 4,
+            "retained": 4
+          },
+          {
+            "block": 2,
+            "expansions": 20,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 3,
+            "expansions": 45,
+            "buckets": 13,
+            "retained": 13
+          },
+          {
+            "block": 4,
+            "expansions": 65,
+            "buckets": 17,
+            "retained": 16
+          },
+          {
+            "block": 5,
+            "expansions": 80,
+            "buckets": 21,
+            "retained": 16
+          },
+          {
+            "block": 6,
+            "expansions": 80,
+            "buckets": 24,
+            "retained": 16
+          },
+          {
+            "block": 7,
+            "expansions": 80,
+            "buckets": 12,
+            "retained": 12
+          },
+          {
+            "block": 8,
+            "expansions": 60,
+            "buckets": 41,
+            "retained": 16
+          },
+          {
+            "block": 9,
+            "expansions": 80,
+            "buckets": 49,
+            "retained": 16
+          },
+          {
+            "block": 10,
+            "expansions": 80,
+            "buckets": 51,
+            "retained": 16
+          },
+          {
+            "block": 11,
+            "expansions": 80,
+            "buckets": 70,
+            "retained": 16
+          },
+          {
+            "block": 12,
+            "expansions": 80,
+            "buckets": 60,
+            "retained": 16
+          },
+          {
+            "block": 13,
+            "expansions": 80,
+            "buckets": 63,
+            "retained": 16
+          },
+          {
+            "block": 14,
+            "expansions": 80,
+            "buckets": 28,
+            "retained": 16
+          },
+          {
+            "block": 15,
+            "expansions": 80,
+            "buckets": 14,
+            "retained": 14
+          },
+          {
+            "block": 16,
+            "expansions": 70,
+            "buckets": 27,
+            "retained": 16
+          },
+          {
+            "block": 17,
+            "expansions": 80,
+            "buckets": 74,
+            "retained": 16
+          },
+          {
+            "block": 18,
+            "expansions": 80,
+            "buckets": 31,
+            "retained": 16
+          },
+          {
+            "block": 19,
+            "expansions": 80,
+            "buckets": 22,
+            "retained": 16
+          },
+          {
+            "block": 20,
+            "expansions": 80,
+            "buckets": 42,
+            "retained": 16
+          },
+          {
+            "block": 21,
+            "expansions": 80,
+            "buckets": 50,
+            "retained": 16
+          },
+          {
+            "block": 22,
+            "expansions": 80,
+            "buckets": 29,
+            "retained": 16
+          },
+          {
+            "block": 23,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 24,
+            "expansions": 80,
+            "buckets": 60,
+            "retained": 16
+          },
+          {
+            "block": 25,
+            "expansions": 80,
+            "buckets": 61,
+            "retained": 16
+          },
+          {
+            "block": 26,
+            "expansions": 80,
+            "buckets": 30,
+            "retained": 16
+          },
+          {
+            "block": 27,
+            "expansions": 80,
+            "buckets": 21,
+            "retained": 16
+          },
+          {
+            "block": 28,
+            "expansions": 80,
+            "buckets": 31,
+            "retained": 16
+          },
+          {
+            "block": 29,
+            "expansions": 80,
+            "buckets": 71,
+            "retained": 16
+          },
+          {
+            "block": 30,
+            "expansions": 80,
+            "buckets": 53,
+            "retained": 16
+          },
+          {
+            "block": 31,
+            "expansions": 80,
+            "buckets": 43,
+            "retained": 16
+          },
+          {
+            "block": 32,
+            "expansions": 80,
+            "buckets": 45,
+            "retained": 16
+          },
+          {
+            "block": 33,
+            "expansions": 80,
+            "buckets": 41,
+            "retained": 16
+          },
+          {
+            "block": 34,
+            "expansions": 80,
+            "buckets": 19,
+            "retained": 16
+          },
+          {
+            "block": 35,
+            "expansions": 80,
+            "buckets": 10,
+            "retained": 10
+          },
+          {
+            "block": 36,
+            "expansions": 50,
+            "buckets": 43,
+            "retained": 16
+          },
+          {
+            "block": 37,
+            "expansions": 80,
+            "buckets": 27,
+            "retained": 16
+          },
+          {
+            "block": 38,
+            "expansions": 80,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 39,
+            "expansions": 45,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 40,
+            "expansions": 45,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 41,
+            "expansions": 45,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 42,
+            "expansions": 45,
+            "buckets": 9,
+            "retained": 9
+          },
+          {
+            "block": 43,
+            "expansions": 45,
+            "buckets": 36,
+            "retained": 16
+          },
+          {
+            "block": 44,
+            "expansions": 80,
+            "buckets": 30,
+            "retained": 16
+          },
+          {
+            "block": 45,
+            "expansions": 80,
+            "buckets": 23,
+            "retained": 16
+          },
+          {
+            "block": 46,
+            "expansions": 80,
+            "buckets": 21,
+            "retained": 16
+          },
+          {
+            "block": 47,
+            "expansions": 80,
+            "buckets": 18,
+            "retained": 16
+          },
+          {
+            "block": 48,
+            "expansions": 80,
+            "buckets": 16,
+            "retained": 16
+          },
+          {
+            "block": 49,
+            "expansions": 80,
+            "buckets": 5,
+            "retained": 5
+          },
+          {
+            "block": 50,
+            "expansions": 25,
+            "buckets": 5,
+            "retained": 5
+          },
+          {
+            "block": 51,
+            "expansions": 25,
+            "buckets": 5,
+            "retained": 5
+          },
+          {
+            "block": 52,
+            "expansions": 25,
+            "buckets": 17,
+            "retained": 16
+          },
+          {
+            "block": 53,
+            "expansions": 80,
+            "buckets": 13,
+            "retained": 13
+          },
+          {
+            "block": 54,
+            "expansions": 65,
+            "buckets": 12,
+            "retained": 12
+          },
+          {
+            "block": 55,
+            "expansions": 60,
+            "buckets": 0,
+            "retained": 0
+          }
+        ],
+        "incumbent_time_s": 108.38129018121053,
+        "status": "completed"
+      }
+    }
+  ],
+  "hashes_checked": 137,
+  "saved_replays_checked": 100,
+  "audits": [
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\zero_160.json.gz",
+      "recovered_j": 1999999.999999993,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 1.1030351743102074e-08,
+      "max_battery_residual_j": 4.20550350099802e-09,
+      "global_work_residual_j": 2.9867806006222963e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\half_160.json.gz",
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 3900000.0000000107,
+      "max_work_residual_j": 1.0593794286251068e-08,
+      "max_battery_residual_j": 4.700268618762493e-09,
+      "global_work_residual_j": 4.1487510316073895e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\full_160.json.gz",
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 3900000.0000000047,
+      "max_work_residual_j": 7.101334631443024e-09,
+      "max_battery_residual_j": 2.0954757928848267e-09,
+      "global_work_residual_j": 1.3969838619232178e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\spread_160.json.gz",
+      "recovered_j": 1999999.9999999993,
+      "discharged_j": 3581711.333825172,
+      "max_work_residual_j": 1.0710209608078003e-08,
+      "max_battery_residual_j": 6.417394615709782e-09,
+      "global_work_residual_j": -2.990418579429388e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\exit_boost_160.json.gz",
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 1387699.4522679914,
+      "max_work_residual_j": 1.0477378964424133e-08,
+      "max_battery_residual_j": 7.334165275096893e-09,
+      "global_work_residual_j": -2.226079232059419e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\ppo_seed0_160.json.gz",
+      "recovered_j": 2000000.0000000014,
+      "discharged_j": 3899999.999999998,
+      "max_work_residual_j": 1.6298145055770874e-08,
+      "max_battery_residual_j": 3.979948814958334e-09,
+      "global_work_residual_j": -6.359186954796314e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\ppo_seed1_160.json.gz",
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 3900000.000000008,
+      "max_work_residual_j": 9.633367881178856e-09,
+      "max_battery_residual_j": 3.14321368932724e-09,
+      "global_work_residual_j": 3.4036929719150066e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\ppo_seed2_160.json.gz",
+      "recovered_j": 2000000.0000000026,
+      "discharged_j": 3899999.999999997,
+      "max_work_residual_j": 6.461050361394882e-09,
+      "max_battery_residual_j": 2.939486876130104e-09,
+      "global_work_residual_j": 5.675246939063072e-10
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\frozen_dp_160.json.gz",
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 3899999.9999999963,
+      "max_work_residual_j": 7.916241884231567e-09,
+      "max_battery_residual_j": 4.190951585769653e-09,
+      "global_work_residual_j": -2.198066795244813e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\replanned_dp_160.json.gz",
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 3899999.9999999963,
+      "max_work_residual_j": 7.916241884231567e-09,
+      "max_battery_residual_j": 4.190951585769653e-09,
+      "global_work_residual_j": -2.198066795244813e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\zero_320.json.gz",
+      "recovered_j": 2000000.0000000026,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 1.3620592653751373e-08,
+      "max_battery_residual_j": 7.30506144464016e-09,
+      "global_work_residual_j": 3.852619556710124e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\half_320.json.gz",
+      "recovered_j": 2000000.0000000047,
+      "discharged_j": 3900000.0000000065,
+      "max_work_residual_j": 1.885928213596344e-08,
+      "max_battery_residual_j": 7.741618901491165e-09,
+      "global_work_residual_j": -4.579487722367048e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\full_320.json.gz",
+      "recovered_j": 2000000.0000000026,
+      "discharged_j": 3900000.0000000144,
+      "max_work_residual_j": 1.0717485565692186e-08,
+      "max_battery_residual_j": 3.521563485264778e-09,
+      "global_work_residual_j": 1.30385160446167e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\spread_320.json.gz",
+      "recovered_j": 2000000.0000000028,
+      "discharged_j": 3585955.451590043,
+      "max_work_residual_j": 1.2922100722789764e-08,
+      "max_battery_residual_j": 1.4035322237759829e-08,
+      "global_work_residual_j": -1.382431946694851e-10
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\exit_boost_320.json.gz",
+      "recovered_j": 2000000.000000002,
+      "discharged_j": 1387051.0146180752,
+      "max_work_residual_j": 1.605803845450282e-08,
+      "max_battery_residual_j": 7.30506144464016e-09,
+      "global_work_residual_j": 3.960667527280748e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\ppo_seed0_320.json.gz",
+      "recovered_j": 2000000.0000000042,
+      "discharged_j": 3900000.000000001,
+      "max_work_residual_j": 1.5832483768463135e-08,
+      "max_battery_residual_j": 6.111804395914078e-09,
+      "global_work_residual_j": 1.9193976186215878e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\ppo_seed1_320.json.gz",
+      "recovered_j": 2000000.0000000023,
+      "discharged_j": 3900000.000000012,
+      "max_work_residual_j": 1.2456439435482025e-08,
+      "max_battery_residual_j": 3.5797711461782455e-09,
+      "global_work_residual_j": -1.1670636013150215e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\ppo_seed2_320.json.gz",
+      "recovered_j": 2000000.0000000035,
+      "discharged_j": 3899999.9999999977,
+      "max_work_residual_j": 1.4435499906539917e-08,
+      "max_battery_residual_j": 5.384208634495735e-09,
+      "global_work_residual_j": -1.0186340659856796e-10
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\frozen_dp_320.json.gz",
+      "recovered_j": 2000000.000000004,
+      "discharged_j": 3900000.0000000237,
+      "max_work_residual_j": 9.633367881178856e-09,
+      "max_battery_residual_j": 5.093170329928398e-09,
+      "global_work_residual_j": -2.474553184583783e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\nominal\\replanned_dp_320.json.gz",
+      "recovered_j": 2000000.000000004,
+      "discharged_j": 3900000.0000000237,
+      "max_work_residual_j": 9.633367881178856e-09,
+      "max_battery_residual_j": 5.093170329928398e-09,
+      "global_work_residual_j": -2.474553184583783e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\zero_160.json.gz",
+      "recovered_j": 2000000.000000003,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 7.741618901491165e-09,
+      "max_battery_residual_j": 6.9267116487026215e-09,
+      "global_work_residual_j": 3.1868694350123405e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\half_160.json.gz",
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 2900000.0000000005,
+      "max_work_residual_j": 9.720679372549057e-09,
+      "max_battery_residual_j": 2.3283064365386963e-09,
+      "global_work_residual_j": -6.79574441164732e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\full_160.json.gz",
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 2899999.999999999,
+      "max_work_residual_j": 6.155460141599178e-09,
+      "max_battery_residual_j": 1.0477378964424133e-09,
+      "global_work_residual_j": 3.328568709548563e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\spread_160.json.gz",
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 2771567.1432220642,
+      "max_work_residual_j": 6.51925802230835e-09,
+      "max_battery_residual_j": 5.2532413974404335e-09,
+      "global_work_residual_j": 1.840271579567343e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\exit_boost_160.json.gz",
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 1387699.4522679916,
+      "max_work_residual_j": 7.814378477633e-09,
+      "max_battery_residual_j": 4.903995431959629e-09,
+      "global_work_residual_j": -9.720679372549057e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\ppo_seed0_160.json.gz",
+      "recovered_j": 2000000.0000000007,
+      "discharged_j": 2900000.000000023,
+      "max_work_residual_j": 6.577465683221817e-09,
+      "max_battery_residual_j": 3.623426891863346e-09,
+      "global_work_residual_j": 1.1408701539039612e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\ppo_seed1_160.json.gz",
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 2899999.9999999963,
+      "max_work_residual_j": 1.0477378964424133e-08,
+      "max_battery_residual_j": 1.0477378964424133e-09,
+      "global_work_residual_j": 1.7622369341552258e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\ppo_seed2_160.json.gz",
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 2900000.0000000005,
+      "max_work_residual_j": 8.32369551062584e-09,
+      "max_battery_residual_j": 1.8044374883174896e-09,
+      "global_work_residual_j": 1.5090336091816425e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\frozen_dp_160.json.gz",
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 2900000.0000000005,
+      "max_work_residual_j": 7.0285750553011894e-09,
+      "max_battery_residual_j": 2.444721758365631e-09,
+      "global_work_residual_j": 6.075424607843161e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\replanned_dp_160.json.gz",
+      "recovered_j": 2000000.0,
+      "discharged_j": 2899999.9999999963,
+      "max_work_residual_j": 9.778887033462524e-09,
+      "max_battery_residual_j": 1.964508555829525e-09,
+      "global_work_residual_j": -2.611523086670786e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\zero_320.json.gz",
+      "recovered_j": 2000000.0000000033,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 1.2216332834213972e-08,
+      "max_battery_residual_j": 1.3518729247152805e-08,
+      "global_work_residual_j": -7.596099749207497e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\half_320.json.gz",
+      "recovered_j": 2000000.0000000054,
+      "discharged_j": 2900000.000000002,
+      "max_work_residual_j": 1.0710209608078003e-08,
+      "max_battery_residual_j": 3.055902197957039e-09,
+      "global_work_residual_j": 1.6050762496888638e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\full_320.json.gz",
+      "recovered_j": 2000000.0000000037,
+      "discharged_j": 2900000.0000000023,
+      "max_work_residual_j": 1.5308614820241928e-08,
+      "max_battery_residual_j": 1.3969838619232178e-09,
+      "global_work_residual_j": 1.4926627045497298e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\spread_320.json.gz",
+      "recovered_j": 2000000.0000000044,
+      "discharged_j": 2773947.504128749,
+      "max_work_residual_j": 8.672941476106644e-09,
+      "max_battery_residual_j": 1.0204530553892255e-08,
+      "global_work_residual_j": 3.2378011383116245e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\exit_boost_320.json.gz",
+      "recovered_j": 2000000.0000000035,
+      "discharged_j": 1387051.0146180748,
+      "max_work_residual_j": 1.2216332834213972e-08,
+      "max_battery_residual_j": 8.003553375601768e-09,
+      "global_work_residual_j": 5.441688699647784e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\ppo_seed0_320.json.gz",
+      "recovered_j": 2000000.0000000033,
+      "discharged_j": 2899999.9999999925,
+      "max_work_residual_j": 1.5774276107549667e-08,
+      "max_battery_residual_j": 5.1513779908418655e-09,
+      "global_work_residual_j": 4.339381121098995e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\ppo_seed1_320.json.gz",
+      "recovered_j": 2000000.0000000035,
+      "discharged_j": 2900000.0000000047,
+      "max_work_residual_j": 1.7258571460843086e-08,
+      "max_battery_residual_j": 1.2078089639544487e-09,
+      "global_work_residual_j": -1.1496013030409813e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\ppo_seed2_320.json.gz",
+      "recovered_j": 2000000.000000004,
+      "discharged_j": 2900000.0000000093,
+      "max_work_residual_j": 8.381903171539307e-09,
+      "max_battery_residual_j": 2.371962182223797e-09,
+      "global_work_residual_j": 3.329478204250336e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\frozen_dp_320.json.gz",
+      "recovered_j": 2000000.0000000054,
+      "discharged_j": 2900000.0000000037,
+      "max_work_residual_j": 1.2747477740049362e-08,
+      "max_battery_residual_j": 1.7025740817189217e-09,
+      "global_work_residual_j": -1.7425918485969305e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_initial_energy\\replanned_dp_320.json.gz",
+      "recovered_j": 2000000.0000000037,
+      "discharged_j": 2900000.0000000033,
+      "max_work_residual_j": 8.149072527885437e-09,
+      "max_battery_residual_j": 3.6961864680051804e-09,
+      "global_work_residual_j": -1.6705598682165146e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\zero_160.json.gz",
+      "recovered_j": 1999999.9999999846,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 1.1030351743102074e-08,
+      "max_battery_residual_j": 5.675246939063072e-09,
+      "global_work_residual_j": -4.663888830691576e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\half_160.json.gz",
+      "recovered_j": 2000000.000000002,
+      "discharged_j": 3900000.0000000005,
+      "max_work_residual_j": 1.1059455573558807e-08,
+      "max_battery_residual_j": 3.6416167858988047e-09,
+      "global_work_residual_j": 4.731555236503482e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\full_160.json.gz",
+      "recovered_j": 1999999.9999999988,
+      "discharged_j": 3899999.999999998,
+      "max_work_residual_j": 8.731149137020111e-09,
+      "max_battery_residual_j": 2.0081643015146255e-09,
+      "global_work_residual_j": -2.393790055066347e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\spread_160.json.gz",
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3505155.79350223,
+      "max_work_residual_j": 7.101334631443024e-09,
+      "max_battery_residual_j": 8.96397978067398e-09,
+      "global_work_residual_j": -3.580862539820373e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\exit_boost_160.json.gz",
+      "recovered_j": 1999999.9999999998,
+      "discharged_j": 1387699.4522679916,
+      "max_work_residual_j": 1.0477378964424133e-08,
+      "max_battery_residual_j": 8.119968697428703e-09,
+      "global_work_residual_j": -1.813896233215928e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\ppo_seed0_160.json.gz",
+      "recovered_j": 1999999.9999999995,
+      "discharged_j": 3899999.9999999898,
+      "max_work_residual_j": 1.2456439435482025e-08,
+      "max_battery_residual_j": 2.8812792152166367e-09,
+      "global_work_residual_j": 2.0867446437478065e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\ppo_seed1_160.json.gz",
+      "recovered_j": 2000000.0000000007,
+      "discharged_j": 3899999.999999999,
+      "max_work_residual_j": 7.974449545145035e-09,
+      "max_battery_residual_j": 3.92901711165905e-09,
+      "global_work_residual_j": -1.743319444358349e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\ppo_seed2_160.json.gz",
+      "recovered_j": 2000000.0,
+      "discharged_j": 3899999.9999999874,
+      "max_work_residual_j": 5.878973752260208e-09,
+      "max_battery_residual_j": 2.473825588822365e-09,
+      "global_work_residual_j": -1.0812073014676571e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\frozen_dp_160.json.gz",
+      "recovered_j": 1999999.9999999993,
+      "discharged_j": 3900000.000000002,
+      "max_work_residual_j": 1.076841726899147e-08,
+      "max_battery_residual_j": 5.638867150992155e-09,
+      "global_work_residual_j": -1.6232661437243223e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\replanned_dp_160.json.gz",
+      "recovered_j": 1999999.999999999,
+      "discharged_j": 3900000.000000001,
+      "max_work_residual_j": 7.62520357966423e-09,
+      "max_battery_residual_j": 5.638867150992155e-09,
+      "global_work_residual_j": -4.5351043809205294e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\zero_320.json.gz",
+      "recovered_j": 1999999.9999999998,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 1.3620592653751373e-08,
+      "max_battery_residual_j": 7.756170816719532e-09,
+      "global_work_residual_j": -6.097252480685711e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\half_320.json.gz",
+      "recovered_j": 1999999.9999999995,
+      "discharged_j": 3900000.0000000256,
+      "max_work_residual_j": 1.3853423297405243e-08,
+      "max_battery_residual_j": 5.980837158858776e-09,
+      "global_work_residual_j": 8.840288501232862e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\full_320.json.gz",
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3900000.0000000037,
+      "max_work_residual_j": 1.1641532182693481e-08,
+      "max_battery_residual_j": 7.654307410120964e-09,
+      "global_work_residual_j": 4.366302164271474e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\spread_320.json.gz",
+      "recovered_j": 1999999.9999999998,
+      "discharged_j": 3510445.696177459,
+      "max_work_residual_j": 1.5366822481155396e-08,
+      "max_battery_residual_j": 1.1583324521780014e-08,
+      "global_work_residual_j": 3.464083420112729e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\exit_boost_320.json.gz",
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 1387051.014618076,
+      "max_work_residual_j": 1.605803845450282e-08,
+      "max_battery_residual_j": 1.0419171303510666e-08,
+      "global_work_residual_j": 1.8546415958553553e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\ppo_seed0_320.json.gz",
+      "recovered_j": 1999999.999999999,
+      "discharged_j": 3899999.9999999953,
+      "max_work_residual_j": 8.96397978067398e-09,
+      "max_battery_residual_j": 5.2677933126688e-09,
+      "global_work_residual_j": 8.425558917224407e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\ppo_seed1_320.json.gz",
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 3900000.0000000075,
+      "max_work_residual_j": 9.89530235528946e-09,
+      "max_battery_residual_j": 5.784386303275824e-09,
+      "global_work_residual_j": 1.1496013030409813e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\ppo_seed2_320.json.gz",
+      "recovered_j": 2000000.0000000016,
+      "discharged_j": 3899999.999999995,
+      "max_work_residual_j": 1.4435499906539917e-08,
+      "max_battery_residual_j": 3.259629011154175e-09,
+      "global_work_residual_j": -4.634785000234842e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\frozen_dp_320.json.gz",
+      "recovered_j": 1999999.999999999,
+      "discharged_j": 3900000.000000003,
+      "max_work_residual_j": 1.2631062418222427e-08,
+      "max_battery_residual_j": 3.856257535517216e-09,
+      "global_work_residual_j": -3.250897862017155e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_charge_efficiency\\replanned_dp_320.json.gz",
+      "recovered_j": 2000000.0,
+      "discharged_j": 3900000.0000000023,
+      "max_work_residual_j": 1.229636836796999e-08,
+      "max_battery_residual_j": 5.471520125865936e-09,
+      "global_work_residual_j": 6.4319465309381485e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\zero_160.json.gz",
+      "recovered_j": 1999999.9999999965,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 1.1030351743102074e-08,
+      "max_battery_residual_j": 6.51925802230835e-09,
+      "global_work_residual_j": 2.4374458007514477e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\half_160.json.gz",
+      "recovered_j": 2000000.0000000007,
+      "discharged_j": 3900000.0000000056,
+      "max_work_residual_j": 9.19681042432785e-09,
+      "max_battery_residual_j": 3.805325832217932e-09,
+      "global_work_residual_j": 1.9193976186215878e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\full_160.json.gz",
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3899999.999999999,
+      "max_work_residual_j": 7.62520357966423e-09,
+      "max_battery_residual_j": 2.735760062932968e-09,
+      "global_work_residual_j": -4.423782229423523e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\spread_160.json.gz",
+      "recovered_j": 1999999.9999999998,
+      "discharged_j": 3464313.3594183396,
+      "max_work_residual_j": 1.3940734788775444e-08,
+      "max_battery_residual_j": 7.81938069849275e-09,
+      "global_work_residual_j": 4.484900273382664e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\exit_boost_160.json.gz",
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 1387699.4522679914,
+      "max_work_residual_j": 1.0477378964424133e-08,
+      "max_battery_residual_j": 8.09086486697197e-09,
+      "global_work_residual_j": -1.461012288928032e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed0_160.json.gz",
+      "recovered_j": 1999999.9999999998,
+      "discharged_j": 3900000.000000012,
+      "max_work_residual_j": 9.42964106798172e-09,
+      "max_battery_residual_j": 3.2414391171187162e-09,
+      "global_work_residual_j": -2.8645445127040148e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed1_160.json.gz",
+      "recovered_j": 2000000.0000000014,
+      "discharged_j": 3900000.000000006,
+      "max_work_residual_j": 1.4115357771515846e-08,
+      "max_battery_residual_j": 2.8448994271457195e-09,
+      "global_work_residual_j": -8.87666828930378e-10
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed2_160.json.gz",
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3899999.999999993,
+      "max_work_residual_j": 7.144990377128124e-09,
+      "max_battery_residual_j": 2.5029294192790985e-09,
+      "global_work_residual_j": 1.3533281162381172e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\frozen_dp_160.json.gz",
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 3900000.0000000065,
+      "max_work_residual_j": 1.0186340659856796e-08,
+      "max_battery_residual_j": 2.648448571562767e-09,
+      "global_work_residual_j": -2.803426468744874e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\replanned_dp_160.json.gz",
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 3899999.999999998,
+      "max_work_residual_j": 8.185452315956354e-09,
+      "max_battery_residual_j": 2.648448571562767e-09,
+      "global_work_residual_j": -3.199966158717871e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\zero_320.json.gz",
+      "recovered_j": 1999999.9999999984,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 1.3620592653751373e-08,
+      "max_battery_residual_j": 8.87666828930378e-09,
+      "global_work_residual_j": -4.2186002247035503e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\half_320.json.gz",
+      "recovered_j": 2000000.0,
+      "discharged_j": 3899999.9999999963,
+      "max_work_residual_j": 1.2922100722789764e-08,
+      "max_battery_residual_j": 3.914465196430683e-09,
+      "global_work_residual_j": 5.2241375669837e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\full_320.json.gz",
+      "recovered_j": 1999999.9999999981,
+      "discharged_j": 3900000.000000009,
+      "max_work_residual_j": 1.8801074475049973e-08,
+      "max_battery_residual_j": 3.7325662560760975e-09,
+      "global_work_residual_j": 1.945591066032648e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\spread_320.json.gz",
+      "recovered_j": 1999999.9999999974,
+      "discharged_j": 3470540.352746291,
+      "max_work_residual_j": 1.792795956134796e-08,
+      "max_battery_residual_j": 1.3740191207034513e-08,
+      "global_work_residual_j": -2.179149305447936e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\exit_boost_320.json.gz",
+      "recovered_j": 1999999.9999999984,
+      "discharged_j": 1387051.0146180762,
+      "max_work_residual_j": 1.605803845450282e-08,
+      "max_battery_residual_j": 1.028092810884118e-08,
+      "global_work_residual_j": 5.2190443966537714e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed0_320.json.gz",
+      "recovered_j": 1999999.9999999998,
+      "discharged_j": 3899999.999999994,
+      "max_work_residual_j": 1.4784745872020721e-08,
+      "max_battery_residual_j": 3.841705620288849e-09,
+      "global_work_residual_j": -1.83936208486557e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed1_320.json.gz",
+      "recovered_j": 1999999.9999999984,
+      "discharged_j": 3900000.000000002,
+      "max_work_residual_j": 1.2863893061876297e-08,
+      "max_battery_residual_j": 3.1141098588705063e-09,
+      "global_work_residual_j": -3.557943273335695e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed2_320.json.gz",
+      "recovered_j": 1999999.9999999986,
+      "discharged_j": 3899999.9999999935,
+      "max_work_residual_j": 1.4435499906539917e-08,
+      "max_battery_residual_j": 5.529727786779404e-09,
+      "global_work_residual_j": -4.0192389860749245e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\frozen_dp_320.json.gz",
+      "recovered_j": 2000000.0000000014,
+      "discharged_j": 3900000.0000000107,
+      "max_work_residual_j": 1.4391844160854816e-08,
+      "max_battery_residual_j": 5.093170329928398e-09,
+      "global_work_residual_j": -1.7811544239521027e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\low_braking_share\\replanned_dp_320.json.gz",
+      "recovered_j": 2000000.0,
+      "discharged_j": 3900000.0000000214,
+      "max_work_residual_j": 1.0360963642597198e-08,
+      "max_battery_residual_j": 5.093170329928398e-09,
+      "global_work_residual_j": -9.211362339556217e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\zero_160.json.gz",
+      "recovered_j": 2000000.0000000014,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 1.1408701539039612e-08,
+      "max_battery_residual_j": 4.3655745685100555e-09,
+      "global_work_residual_j": 2.202432369813323e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\half_160.json.gz",
+      "recovered_j": 2000000.0000000042,
+      "discharged_j": 3900000.0,
+      "max_work_residual_j": 1.1874362826347351e-08,
+      "max_battery_residual_j": 4.773028194904327e-09,
+      "global_work_residual_j": 1.8320861272513866e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\full_160.json.gz",
+      "recovered_j": 2000000.0000000051,
+      "discharged_j": 3900000.0000000084,
+      "max_work_residual_j": 8.032657206058502e-09,
+      "max_battery_residual_j": 2.8594513423740864e-09,
+      "global_work_residual_j": 2.514570951461792e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\spread_160.json.gz",
+      "recovered_j": 2000000.0000000042,
+      "discharged_j": 3622632.4398548175,
+      "max_work_residual_j": 8.993083611130714e-09,
+      "max_battery_residual_j": 1.2303644325584173e-08,
+      "global_work_residual_j": 2.4519977159798145e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\exit_boost_160.json.gz",
+      "recovered_j": 2000000.0000000037,
+      "discharged_j": 1405561.9112018603,
+      "max_work_residual_j": 8.381903171539307e-09,
+      "max_battery_residual_j": 5.587935447692871e-09,
+      "global_work_residual_j": -1.178705133497715e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed0_160.json.gz",
+      "recovered_j": 2000000.0000000051,
+      "discharged_j": 3899999.9999999916,
+      "max_work_residual_j": 1.280568540096283e-08,
+      "max_battery_residual_j": 3.4269760362803936e-09,
+      "global_work_residual_j": -5.820766091346741e-11
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed1_160.json.gz",
+      "recovered_j": 2000000.0000000035,
+      "discharged_j": 3900000.0000000075,
+      "max_work_residual_j": 8.265487849712372e-09,
+      "max_battery_residual_j": 2.6775524020195007e-09,
+      "global_work_residual_j": 1.363514456897974e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed2_160.json.gz",
+      "recovered_j": 2000000.0000000035,
+      "discharged_j": 3899999.9999999977,
+      "max_work_residual_j": 1.0826624929904938e-08,
+      "max_battery_residual_j": 4.249159246683121e-09,
+      "global_work_residual_j": 1.3373210094869137e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\frozen_dp_160.json.gz",
+      "recovered_j": 2000000.0000000033,
+      "discharged_j": 3899999.9999999925,
+      "max_work_residual_j": 9.19681042432785e-09,
+      "max_battery_residual_j": 2.6775524020195007e-09,
+      "global_work_residual_j": 2.5640474632382393e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\replanned_dp_160.json.gz",
+      "recovered_j": 2000000.000000004,
+      "discharged_j": 3899999.999999995,
+      "max_work_residual_j": 8.032657206058502e-09,
+      "max_battery_residual_j": 5.107722245156765e-09,
+      "global_work_residual_j": 2.329761628061533e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\zero_320.json.gz",
+      "recovered_j": 1999999.9999999916,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 2.223532646894455e-08,
+      "max_battery_residual_j": 6.475602276623249e-09,
+      "global_work_residual_j": -1.2878444977104664e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\half_320.json.gz",
+      "recovered_j": 1999999.9999999995,
+      "discharged_j": 3900000.0,
+      "max_work_residual_j": 1.955777406692505e-08,
+      "max_battery_residual_j": 5.453330231830478e-09,
+      "global_work_residual_j": -2.074739313684404e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\full_320.json.gz",
+      "recovered_j": 2000000.0000000007,
+      "discharged_j": 3899999.999999985,
+      "max_work_residual_j": 8.731149137020111e-09,
+      "max_battery_residual_j": 3.281456883996725e-09,
+      "global_work_residual_j": -2.0227162167429924e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\spread_320.json.gz",
+      "recovered_j": 1999999.9999999958,
+      "discharged_j": 3626777.8244832894,
+      "max_work_residual_j": 1.1525116860866547e-08,
+      "max_battery_residual_j": 1.1903466656804085e-08,
+      "global_work_residual_j": -1.5497789718210697e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\exit_boost_320.json.gz",
+      "recovered_j": 1999999.999999996,
+      "discharged_j": 1404967.7181957867,
+      "max_work_residual_j": 2.223532646894455e-08,
+      "max_battery_residual_j": 6.868503987789154e-09,
+      "global_work_residual_j": -3.636523615568876e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed0_320.json.gz",
+      "recovered_j": 1999999.9999999965,
+      "discharged_j": 3899999.999999984,
+      "max_work_residual_j": 8.96397978067398e-09,
+      "max_battery_residual_j": 4.3655745685100555e-09,
+      "global_work_residual_j": 4.6245986595749855e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed1_320.json.gz",
+      "recovered_j": 1999999.9999999977,
+      "discharged_j": 3900000.0000000014,
+      "max_work_residual_j": 7.799826562404633e-09,
+      "max_battery_residual_j": 4.71482053399086e-09,
+      "global_work_residual_j": -3.227614797651768e-08
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\ppo_seed2_320.json.gz",
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 3899999.999999989,
+      "max_work_residual_j": 1.30385160446167e-08,
+      "max_battery_residual_j": 6.6356733441352844e-09,
+      "global_work_residual_j": -3.7834979593753815e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\frozen_dp_320.json.gz",
+      "recovered_j": 1999999.999999999,
+      "discharged_j": 3899999.9999999953,
+      "max_work_residual_j": 1.5832483768463135e-08,
+      "max_battery_residual_j": 4.9367372412234545e-09,
+      "global_work_residual_j": 9.356881491839886e-09
+    },
+    {
+      "file": "results\\regeneration-robustness-001\\high_drag\\replanned_dp_320.json.gz",
+      "recovered_j": 1999999.9999999977,
+      "discharged_j": 3899999.999999991,
+      "max_work_residual_j": 1.0477378964424133e-08,
+      "max_battery_residual_j": 3.055902197957039e-09,
+      "global_work_residual_j": 1.280568540096283e-09
+    }
+  ],
+  "all_cases_passed": false,
+  "thresholds": {
+    "paired_gap_change_s": 0.005,
+    "relative_lap_change": 0.0025,
+    "terminal_energy_change_j": 10000,
+    "recovered_change_j": 5000
+  },
+  "nominal_replan_reproduces_original": true,
+  "training_performed": false
+}

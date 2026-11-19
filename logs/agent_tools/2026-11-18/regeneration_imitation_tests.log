@@ -1,0 +1,15 @@
+test_analytic_braking_replaces_friction_independent_of_action (test_regeneration.RegenerationTests.test_analytic_braking_replaces_friction_independent_of_action) ... ok
+test_capacity_recovery_and_simultaneous_saturation (test_regeneration.RegenerationTests.test_capacity_recovery_and_simultaneous_saturation) ... ok
+test_deployment_exhaustion_survives_recharge (test_regeneration.RegenerationTests.test_deployment_exhaustion_survives_recharge) ... ok
+test_environment_counters_observations_and_reset (test_regeneration.RegenerationTests.test_environment_counters_observations_and_reset) ... ok
+test_generator_power_bound (test_regeneration.RegenerationTests.test_generator_power_bound) ... ok
+test_guard_restores_physical_reserve_observation (test_regeneration.RegenerationTests.test_guard_restores_physical_reserve_observation) ... ok
+test_invalid_parameters_and_cumulative_inputs (test_regeneration.RegenerationTests.test_invalid_parameters_and_cumulative_inputs) ... ok
+test_zero_budgets_are_observed_as_exhausted (test_regeneration.RegenerationTests.test_zero_budgets_are_observed_as_exhausted) ... ok
+test_exhaustive_and_width_bound (test_regeneration_dp.CircuitDPTest.test_exhaustive_and_width_bound) ... ok
+test_one_factor_and_accounting (test_regeneration_robustness.RobustnessTest.test_one_factor_and_accounting) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 3.674s
+
+OK

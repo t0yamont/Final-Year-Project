@@ -1,0 +1,24 @@
+{
+  "inputs": {
+    "configs/bahrain_driver_transfer_protocol.json": "b95caa05685530f48d856486f8424959065bb137de88dfdfcb25ee45a2051954",
+    "results/bahrain-pace-calibration-001/model.json": "6884eb5359a3451e02b24480fda61c75f5b39309d9ea5c0c80e0787234ec59b1",
+    "results/openf1-dataset-003/development/1257/10010/driver-1-position.csv.gz": "9909a84bc2ec266033799254aa94da2cda9e35b5ce07fb4759eeb14ca8128921",
+    "results/bahrain-pace-inputs-001/metrics.json": "e6a6c8ae90eb77641374136f0a950ae9c61ed0dd93f41104f877a599db92eb20",
+    "results/bahrain-pace-calibration-001/speed_time.csv": "aee8c217d469d65e46b444a025b4c8f7fff1cceaad6fe12d3f36aaa7add5a784",
+    "results/bahrain-pace-calibration-001/metrics.json": "0dc468f5ad1049ff2e57590586026301f1b3513f3b3811693d6621116d4e9855",
+    "configs/bahrain_pace_protocol.json": "a0d050b0b47ec88e9424cbbe2d77414599b4bcc40b83190332c79bdb991f3c30",
+    "results/bahrain-path-candidate-001/speed_time.csv": "8d0cb2d0822497340cbbc68851d973616e52fe20a4751b02847e92f2a476c4bd",
+    "results/bahrain-path-candidate-001/model.json": "8b85071d84b3cd70e0b4ed505a1d4b5f93a78db17f183fc6c75ad10993d1eb5e",
+    "results/bahrain-path-candidate-001/driver1_lap13_xy_m.csv": "c198edab2d2a694b924faaa1cd9070ee06cbd3553ce4f67beaf987bb06d22840"
+  },
+  "current": {
+    "profile": "results/bahrain-pace-calibration-001/speed_time.csv",
+    "model": "results/bahrain-pace-calibration-001/model.json",
+    "grid_error_s": 0.12039802383418419
+  },
+  "candidate": {
+    "profile": "results/bahrain-path-candidate-001/speed_time.csv",
+    "model": "results/bahrain-path-candidate-001/model.json",
+    "grid_error_s": 0.07309140110632484
+  }
+}

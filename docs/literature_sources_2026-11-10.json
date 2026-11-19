@@ -1,0 +1,32 @@
+[
+  {
+    "file": "1-s2.0-S2352152X25032657-main.pdf",
+    "pages": 18,
+    "sha256": "40abcb0820a89d3f627b4bfd9c90be1d2069354edcb3fdc1ed839c2ad2b36232"
+  },
+  {
+    "file": "Minimum_Lap_Time_Control_of_Hybrid_Electric_Race_Cars_in_Qualifying_Scenarios.pdf",
+    "pages": 13,
+    "sha256": "7d1f2ce873b595e2bae0e7c68856d210ee5914c370d2adb559be3625939df41f"
+  },
+  {
+    "file": "Optimal control of Formula One car energy recovery systems.pdf",
+    "pages": 17,
+    "sha256": "6fcdb723fbad87cf9fe20e80cccbfb02359395422dc7f0d3c3b0c9e1053ff8aa"
+  },
+  {
+    "file": "s41467-025-58192-9.pdf",
+    "pages": 16,
+    "sha256": "d7e16ff9905f98f32a66d1a909195372e9ee9d38e4e320a865b55aec2eefad23"
+  },
+  {
+    "file": "ssrn-4184478.pdf",
+    "pages": 30,
+    "sha256": "cf4b6ff4841d4c7ceacbc11d238e36126fd2240235684dbc7321b8396dc59841"
+  },
+  {
+    "file": "Time-optimal_Control_Strategies_for_a_Hybrid_Electric_Race_Car.pdf",
+    "pages": 15,
+    "sha256": "2832589807a8d616339c559ac98190bc0f76612fdc58804ab2d34d31601a9e07"
+  }
+]

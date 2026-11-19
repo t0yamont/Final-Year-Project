@@ -1,0 +1,13 @@
+{
+  "moved_files": 66,
+  "moved_bytes": 170293043,
+  "per_file_inventory": "delete/inventory.csv (local review folder)",
+  "retained_session_cache": "results/bahrain-2025-q-driver1-002/cache",
+  "identical_cache_copies_checked": 23,
+  "checks": {
+    "python -m unittest discover -s tests -q": "146 passed",
+    "python scripts/verify_bahrain_deployment.py results/bahrain-deployment-zones-001": "92 hashes and 60 replays checked",
+    "python scripts/evaluate_bahrain_learned_transfer.py --verify": "90 hashes and 28 replays checked",
+    "Get-FileHash SHA256": "All moved files and retained duplicates verified, plus the Word draft and 36 telemetry export and corner study bindings."
+  }
+}

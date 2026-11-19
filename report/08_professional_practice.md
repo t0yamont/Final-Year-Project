@@ -1,0 +1,13 @@
+# Professional practice and responsible use of evidence
+
+## Drivers and public data
+
+This study used published race-session data and simulated experiments. Driver identifiers link measurements to specific sessions, cars and laps. Weather, setup, traffic, tyre condition and fuel can differ between observations. Reporting a missed sector-time tolerance as a model error avoids attributing it to a driver's ability. The comparison between the two Red Bull entries is an example of how well a fixed model transfers within one session. [Evaluation scope](../docs/bahrain_driver_transfer.md)
+
+The project records acquisition sources, request receipts, the provenance of the geometry and changes made during processing. These records let a reader check what was used to produce a figure. Reuse and redistribution of the underlying source material are separate questions. The project register leaves the raw telemetry redistribution position and the university ethics decision unresolved. The evidence for either decision would have to come from the applicable source or institution. [Ethics and permissions register](../docs/ethics_status.md) · [Track geometry provenance](../docs/model_preparation_2026-11-11.md)
+
+## Resource use and reproducibility
+
+The matched-work experiment bears on a narrow question related to UN Sustainable Development Goal 12, which includes efficient resource use. It asks how much performance can be obtained from a fixed amount of electrical work. The simulator records recovered and discharged energy separately. Its lap-time gains say nothing quantitative about material consumption, fuel saved or lifecycle emissions. Archiving model predictions and replaying saved checkpoints also reduced the need for repeated training. The study measured neither wall-socket energy nor avoided carbon emissions. [UN Goal 12 and target 12.2](https://sdgs.un.org/goals/goal12) · [Matched-work design](../docs/bahrain_equal_work.md)
+
+AI assistance supported implementation, examination of results, draft prose and figure preparation. The project preserved source hashes, fixed experiment definitions, tested physical identities and kept failed cases in the evidence. For example, the second driver's qualifying data were scored after the candidate predictions were locked, and the candidate that missed the criteria was recorded. These checks make computational claims inspectable. Personal learning, decisions taken by the student and any formal declaration require the student's own account. [Project execution policy](../docs/agent_execution_policy.md) · [Prediction lock](../results/bahrain-path-candidate-001/locked_predictions.json)

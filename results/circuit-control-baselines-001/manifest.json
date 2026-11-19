@@ -1,0 +1,47 @@
+{
+  "inputs": {
+    "configs\\circuit_controller_study.json": "0631bd378753a759af796799b7c8f19819329c7a14ead3bc7ac372df1ccc3328",
+    "configs\\circuit_reference.json": "19b80d69d3e91d32a9ce4a2b00a40589fcd16ceb387c17ca4ad151a5a6043657",
+    "results\\circuit-input-assessment-001\\Sakhir.csv": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a",
+    "results\\circuit-validation-004\\manifest.json": "52f7d06549655e1ac6380c60ecec595f177c524143d309d709603a15ff89cca7"
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "69b5f4ffac4a297cfa8dcecb9fd57ebf4a03acf800363f162e2338a3e1b78e52",
+    "src\\f1energy\\event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763"
+  },
+  "script_sha256": "ba5acdea9c3265dd50f9e782c5e589a39ad47e7d959b6d686f3390d7b779fd3d",
+  "outputs": {
+    "results\\circuit-control-baselines-001\\blocks-110_cells-80_exit_boost.json.gz": "ab84800aeb8bc72cef67881d085869f776926fa0981fc280bbd48cf94dcfebbb",
+    "results\\circuit-control-baselines-001\\blocks-110_cells-80_full.json.gz": "6a142a746901117c3c725646d112ff4a653b967bf154ccb79968786786aa302d",
+    "results\\circuit-control-baselines-001\\blocks-110_cells-80_half.json.gz": "4ed4ea3e204dd06f762f58a0ab83ef75b91247bbf0415f77520ad94bfde61f21",
+    "results\\circuit-control-baselines-001\\blocks-110_cells-80_spread.json.gz": "e790ccd5c74d408b2514fa4aa09d1630b85bd39a545dbc369f93ab6b8191d4ab",
+    "results\\circuit-control-baselines-001\\blocks-110_cells-80_zero.json.gz": "052f91cda03f6ccc2b34f0db1e083558a44e28a416c9b309ad9ae4397f26b095",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-160_exit_boost.json.gz": "00261e3cf8fead9449fa3c902555d87ecf3872192625e1048489a3e3dfad3eef",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-160_full.json.gz": "5b4c84b4cb4fe12c22cdc56d9c3b5355f969082a461ef0b399e5cd4bb919fc4f",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-160_half.json.gz": "ddc9d198d1b99fb410e49d90737a1cc08648763cd64db9459ec538b0bd7a9595",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-160_spread.json.gz": "045b68cfce906c6ebc7823da2c110a72199fb4b7a4406fb5f2519604b801809b",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-160_zero.json.gz": "f2a9aef19b4db19c633fe55188e34f08372d49387c65ae6c6bb3210297aed6a6",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-20_exit_boost.json.gz": "32f3e6cfd9343cd86ca9fc2519b09aa5d4cd0a0159070c9483d7473fa0d77dd4",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-20_full.json.gz": "8777629145102703724895e8838c860335ab33284a0a4af4b427c98bc60aba6e",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-20_half.json.gz": "f5f89337241cb2529d4d4daf678b455a15f7cf46d08b56b100afacb4861d2756",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-20_spread.json.gz": "77b9bad497a86880128681d88704c6fe995e4eb74af68c21ab85049f21d16495",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-20_zero.json.gz": "56fe1468f31ca7b44349ce9c3c968165b1eb8158355a8fea7bacfe61be8abfa4",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-40_exit_boost.json.gz": "98d2cb4c3486d1861651e87567ab24f1f025e6741939182ff5ff8c65bfcd1172",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-40_full.json.gz": "28d3bf8e139468f4346e6288af85955e5658ea11ae7db090c711fb4aa5aa768d",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-40_half.json.gz": "0aa3c65a894e9eca41e5b6b5e3ba5417d47607ece66e7409b97a6ad0e47459e1",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-40_spread.json.gz": "b1fd3c20921633ac4ed038d77865d0c93ba151830038bb6a146e9a6c259c7e4d",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-40_zero.json.gz": "1f8c7bf2a675d75a343b1743fbabff2cafa19562539797fd334a4532b8935bee",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-80_exit_boost.json.gz": "4d9434a839a4918dfc93f03f18ce30ad19f6ce57d25799780be1ce589090e4ec",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-80_full.json.gz": "92d4915bf2cca7a719f51f6a95832ed16c1583eaf046dd2efe07962fc786a7cd",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-80_half.json.gz": "0c2afc6b4fed3315ff7a47725fc673370e5c76846c5870e6e6d560b1b97bb66b",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-80_spread.json.gz": "ee51361d47472997376c7698f41d63f1b1e960adab2d35a2c4c84aaa5acfe43b",
+    "results\\circuit-control-baselines-001\\blocks-55_cells-80_zero.json.gz": "6ac12969ebd044bb7abda0a93c16c56b90b7f1bd9b8c1e702bc650a48a2d33da",
+    "results\\circuit-control-baselines-001\\contract.json": "6c6feec343e87e99019c80c53d1857f391ed20023b19e6c9added870db996b56",
+    "results\\circuit-control-baselines-001\\metrics.json": "2772b527bce7123cfb2e78ecf111b7edece5858b859e50157d423b7b818c2332",
+    "results\\circuit-control-baselines-001\\progress.json": "6bed08d4379ebb2ff8bf483d4aec37e28073baa31445a68e18a34476ea462cf1",
+    "figures\\dissertation\\circuit-control-baselines-v1\\01_baseline_grid_cadence.pdf": "15619aac169673161601d726d3ec32f5b2f7042f2579b8345a5e41dfad26d544",
+    "figures\\dissertation\\circuit-control-baselines-v1\\01_baseline_grid_cadence.png": "56707cc6a94d3d88dfe4b9a9dbdcc11534aa030ff0e714eb895d083a2e9ac251"
+  }
+}

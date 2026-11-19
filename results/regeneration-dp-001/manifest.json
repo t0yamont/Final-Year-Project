@@ -1,0 +1,26 @@
+{
+  "inputs": {
+    "configs\\regeneration_dp_protocol.json": "25731403e3a18691e21e9fc23a6b67efecd147c324d999d8ac66261d0208fdb3",
+    "results\\regeneration-multiseed-001\\manifest.json": "894ae6e5b2ac4e28e90bbe491a65fdce39901e793085ea962dc85c30a86827ce",
+    "results\\regeneration-validation-001\\manifest.json": "d3379ef9656e8ff927d89504ac48378a2d2c5cf35a59255df2421df4cc967a64"
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src\\f1energy\\event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\optimize_regeneration_dp.py": "b7cf0171ff58633b6fdc569dd6784adbe49e0c7239b755ddeb59d565c654bcfa",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "src\\f1energy\\circuit_training_gate.py": "ee4291988beb2ec37474060bfc7cdcd01b351a3263922f610e2d8ad6a2a0da3f"
+  },
+  "outputs": {
+    "results\\regeneration-dp-001\\basic_160.json.gz": "680a7d9d4fcac6ebfb59569bf6ab79269174cd227348e70c031ba961e0fefe0c",
+    "results\\regeneration-dp-001\\basic_320.json.gz": "ac5788677d4d1093183e9d9cb009ab3b6ed921a219eb04432adf1722304e0adb",
+    "results\\regeneration-dp-001\\basic_80.json.gz": "036ec58deb541d1680002fe79a6a9495abc2769b2b54aed6c014ccb5696b5309",
+    "results\\regeneration-dp-001\\contract.json": "65df1a5563e8bbac77021eca2a8cab9f58c08d1264abb082d9ccfe7a2d74cd43",
+    "results\\regeneration-dp-001\\metrics.json": "ee1e906a7f44fea488bb1464e2ef0b9a4779b7c438c32b1229c776a32077cc65",
+    "results\\regeneration-dp-001\\refined_160.json.gz": "c1b4940eb3326320f59c5f325ab7cfe5516b291aebc881b949fd7f6ff37ac59b",
+    "results\\regeneration-dp-001\\refined_320.json.gz": "bdb801063cce43ed59c843da2983e94833dd6c53bf90e7e281d3cf994f28cace",
+    "results\\regeneration-dp-001\\refined_80.json.gz": "b45d6c1fd43673016fb5b9d0156253052955ab9b686c48033aa3afe25790c14c"
+  }
+}

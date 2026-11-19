@@ -1,5 +1,17 @@
 # Guide step status — 28 October 2026
 
+## Technical draft and calibrated controller comparison
+
+The [assembled technical draft](../report/Bahrain_deployment_draft.docx) now includes related work, data, method, results, discussion and professional practice. Its [transfer comparison](bahrain_learned_transfer.md) evaluates every original PPO and imitation checkpoint on the calibrated model. All 24 learned laps missed the finish-speed criterion. The technical draft records the evidence for the dissertation. The student's personal reflection and institutional approval evidence remain outstanding.
+
+## Current position on 18 November 2026
+
+The 19 November follow-up tested one geometry-only replacement and scored two frozen predictions on three qualifying laps from the second driver. All three original-model sector-two errors were above tolerance. No replacement vehicle qualified for a new deployment search. [Corner evidence](bahrain_corner_paths.md) · [Cross-driver results](bahrain_driver_transfer.md)
+
+The location study now covers timing-line alignment, qualifying-pace calibration, separate-lap validation and constrained deployment by circuit distance. Its seven recurring zones and opening-straight timing shift address the main deployment question. The remaining physical uncertainty is local corner speed. A fresh evaluation is required if the racing line or fitted dynamics change in response. [Zone results](bahrain_deployment_zones.md) · [Pace checks](bahrain_qualifying_pace.md)
+
+Steps 08–13 now include a validated regenerative full-circuit simulator, a bounded reconstruction on real development windows, three GPU-trained PPO policies, a feasible full-circuit DP reference, a width diagnostic and five controller scenarios. The width and robustness studies retained failures under their predeclared criteria. Final qualifying prediction was assessed using frozen models on one eligible test event. The [current status](PROJECT_STATUS.md) links the evidence for each research question. The optional profile-conditioning comparison remains open. Chapters for [methods](../report/04_methods.md) and [results](../report/06_results.md) are drafted. Dissertation assembly and student-authored reflection remain.
+
 ## Superseding update — 30 October 2026
 
 The table below is the preserved28October snapshot. Current evidence is summarised here and in PROJECT_STATUS.md:

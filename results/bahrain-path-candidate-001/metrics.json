@@ -1,0 +1,59 @@
+{
+  "length_m": 5313.624652844078,
+  "vertices": 343,
+  "endpoint_separation_m": 1.0053332263055956,
+  "primary_lap_s": 82.36875776940238,
+  "refined_lap_s": 82.29566636829605,
+  "grid_error_s": 0.07309140110632484,
+  "finish_error_mps": -1.4210854715202004e-14,
+  "laps": {
+    "13": {
+      "lap_error_s": -9.688242230597623,
+      "sector_error_s": [
+        -3.104201729557598,
+        -4.396390476011284,
+        -2.187650025028738
+      ],
+      "speed_rmse_mps": 5.939074729577667,
+      "checks": {
+        "lap": false,
+        "sectors": false,
+        "speed": false,
+        "grid": true,
+        "finish": true
+      }
+    },
+    "4": {
+      "lap_error_s": -8.934242230597619,
+      "sector_error_s": [
+        -2.5972017295575967,
+        -4.170390476011278,
+        -2.166650025028737
+      ],
+      "speed_rmse_mps": 5.645128102022334,
+      "checks": {
+        "lap": false,
+        "sectors": false,
+        "speed": false,
+        "grid": true,
+        "finish": true
+      }
+    },
+    "10": {
+      "lap_error_s": -8.650242230597627,
+      "sector_error_s": [
+        -2.474201729557599,
+        -3.946390476011281,
+        -2.2296500250287394
+      ],
+      "speed_rmse_mps": 5.850068167338821,
+      "checks": {
+        "lap": false,
+        "sectors": false,
+        "speed": false,
+        "grid": true,
+        "finish": true
+      }
+    }
+  }
+}

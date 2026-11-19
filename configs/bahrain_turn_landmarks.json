@@ -1,0 +1,285 @@
+{
+  "purpose": "Approximate visualization landmarks only; never brake/deployment zone boundaries.",
+  "fraction_definition": "Distance integrated from speed on development qualifying lap13, divided by its total; zero at timing line.",
+  "distance_length_m": 5363.025592757939,
+  "approximate_station_uncertainty_m": 50,
+  "uncertainty_note": "Conservative display tolerance, not a statistical confidence interval; manual markers and sparse XY samples.",
+  "source_url": "https://api.multiviewer.app/api/v1/circuits/63/2025",
+  "returned_source_year": 2022,
+  "returned_candidate_lap": {
+    "driverNumber": "1",
+    "lapNumber": 3,
+    "lapStartDate": "2022-03-18T12:05:19.921000",
+    "lapStartSessionTime": 1219.908,
+    "lapTime": 97.766,
+    "session": "FP1",
+    "sessionStartTime": 900.206
+  },
+  "source_rotation_degrees": 92,
+  "native_xy_to_m": 0.1,
+  "projection": "Nearest continuous segment in unrotated F1 XY; interpolate time then car-distance fraction.",
+  "geometry_phase_fraction": 0.0075202468261320755,
+  "input_sha256": {
+    "work/track-source/bahrain_multiviewer_2025.json": "1280088c6c25f337cab281af676f84c58c6a40611e1e9884f02872e236609fe2",
+    "results/openf1-dataset-003/development/1257/10010/driver-1-position.csv.gz": "9909a84bc2ec266033799254aa94da2cda9e35b5ce07fb4759eeb14ca8128921",
+    "results/bahrain-pace-inputs-001/lap-13.csv": "00765ca5d3d0b0c6ed91ca63321aed217c9c96a545472b3e571257e7f8faa23b",
+    "results/bahrain-pace-inputs-001/metrics.json": "e6a6c8ae90eb77641374136f0a950ae9c61ed0dd93f41104f877a599db92eb20"
+  },
+  "corners": [
+    {
+      "turn": 1,
+      "label": "T1",
+      "marker_native_xy": [
+        4.240593929993702,
+        832.9202564224179
+      ],
+      "marker_xy_units": "m",
+      "fraction": 0.1307965595868534,
+      "fit_lap_distance_m": 701.4652965089836,
+      "fit_lap_time_s": 9.480547613271389,
+      "xy_residual_m": 0.37923875586014844,
+      "location_segment_length_m": 7.940403012442139,
+      "location_segment_duration_s": 0.3000000000000007,
+      "location_arclength_fraction": 0.1308411490535691,
+      "source_geometry_fraction": 0.1383613958797012
+    },
+    {
+      "turn": 2,
+      "label": "T2",
+      "marker_native_xy": [
+        82.0781621255148,
+        787.9043840540198
+      ],
+      "marker_xy_units": "m",
+      "fraction": 0.1478149025137283,
+      "fit_lap_distance_m": 792.7351051721447,
+      "fit_lap_time_s": 12.944089150147741,
+      "xy_residual_m": 1.605844249078303,
+      "location_segment_length_m": 16.376812876747433,
+      "location_segment_duration_s": 0.4399999999999995,
+      "location_arclength_fraction": 0.14860965027216336,
+      "source_geometry_fraction": 0.15612989709829544
+    },
+    {
+      "turn": 3,
+      "label": "T3",
+      "marker_native_xy": [
+        191.29699973016062,
+        806.5442166737511
+      ],
+      "marker_xy_units": "m",
+      "fraction": 0.16916131738358745,
+      "fit_lap_distance_m": 907.2164744328279,
+      "fit_lap_time_s": 15.246154937348042,
+      "xy_residual_m": 0.1348109214210773,
+      "location_segment_length_m": 12.059850745345074,
+      "location_segment_duration_s": 0.30100000000000016,
+      "location_arclength_fraction": 0.16965338128090252,
+      "source_geometry_fraction": 0.1771736281070346
+    },
+    {
+      "turn": 4,
+      "label": "T4",
+      "marker_native_xy": [
+        748.7745292571567,
+        679.071071569364
+      ],
+      "marker_xy_units": "m",
+      "fraction": 0.27807679397452323,
+      "fit_lap_distance_m": 1491.3329628374447,
+      "fit_lap_time_s": 23.634080712578385,
+      "xy_residual_m": 2.8752070024914382,
+      "location_segment_length_m": 34.74276903184316,
+      "location_segment_duration_s": 1.1400000000000006,
+      "location_arclength_fraction": 0.27886364607251335,
+      "source_geometry_fraction": 0.2863838928986454
+    },
+    {
+      "turn": 5,
+      "label": "T5",
+      "marker_native_xy": [
+        582.0228442599813,
+        486.07409362179044
+      ],
+      "marker_xy_units": "m",
+      "fraction": 0.32835016778123166,
+      "fit_lap_distance_m": 1760.9503531971088,
+      "fit_lap_time_s": 29.507155133783584,
+      "xy_residual_m": 0.025316636875125604,
+      "location_segment_length_m": 19.20833152566878,
+      "location_segment_duration_s": 0.28000000000000114,
+      "location_arclength_fraction": 0.32823479305023123,
+      "source_geometry_fraction": 0.3357550398763633
+    },
+    {
+      "turn": 6,
+      "label": "T6",
+      "marker_native_xy": [
+        518.0404120509692,
+        421.45988612146084
+      ],
+      "marker_xy_units": "m",
+      "fraction": 0.3453102324246211,
+      "fit_lap_distance_m": 1851.9076139344354,
+      "fit_lap_time_s": 30.939316008401352,
+      "xy_residual_m": 0.4666623807747502,
+      "location_segment_length_m": 18.155439956112357,
+      "location_segment_duration_s": 0.21999999999999886,
+      "location_arclength_fraction": 0.34570861355263316,
+      "source_geometry_fraction": 0.3532288603787652
+    },
+    {
+      "turn": 7,
+      "label": "T7",
+      "marker_native_xy": [
+        427.6202937249184,
+        415.6240630824386
+      ],
+      "marker_xy_units": "m",
+      "fraction": 0.3632183292635186,
+      "fit_lap_distance_m": 1947.9491955990302,
+      "fit_lap_time_s": 32.56946150436697,
+      "xy_residual_m": 0.1458507261775569,
+      "location_segment_length_m": 12.299999999999997,
+      "location_segment_duration_s": 0.19999999999999574,
+      "location_arclength_fraction": 0.3627323292086279,
+      "source_geometry_fraction": 0.37025257603476
+    },
+    {
+      "turn": 8,
+      "label": "T8",
+      "marker_native_xy": [
+        249.0099010685538,
+        245.86003965290044
+      ],
+      "marker_xy_units": "m",
+      "fraction": 0.41141159539437083,
+      "fit_lap_distance_m": 2206.410915257385,
+      "fit_lap_time_s": 37.37095506411419,
+      "xy_residual_m": 0.6627787467478952,
+      "location_segment_length_m": 7.269112738154516,
+      "location_segment_duration_s": 0.30000000000000426,
+      "location_arclength_fraction": 0.4108543703594922,
+      "source_geometry_fraction": 0.41837461718562424
+    },
+    {
+      "turn": 9,
+      "label": "T9",
+      "marker_native_xy": [
+        271.11552878922834,
+        595.0242339493997
+      ],
+      "marker_xy_units": "m",
+      "fraction": 0.47772918940019,
+      "fit_lap_distance_m": 2562.073869160724,
+      "fit_lap_time_s": 45.378378097930025,
+      "xy_residual_m": 0.741495559867942,
+      "location_segment_length_m": 66.6817066368281,
+      "location_segment_duration_s": 0.8200000000000003,
+      "location_arclength_fraction": 0.47822940639535855,
+      "source_geometry_fraction": 0.4857496532214906
+    },
+    {
+      "turn": 10,
+      "label": "T10",
+      "marker_native_xy": [
+        210.0132715648695,
+        661.3999850943208
+      ],
+      "marker_xy_units": "m",
+      "fraction": 0.49724587772862616,
+      "fit_lap_distance_m": 2666.742368152007,
+      "fit_lap_time_s": 47.775552661776246,
+      "xy_residual_m": 0.041335888146807886,
+      "location_segment_length_m": 5.063595560468857,
+      "location_segment_duration_s": 0.2190000000000012,
+      "location_arclength_fraction": 0.49608862115116176,
+      "source_geometry_fraction": 0.5036088679772939
+    },
+    {
+      "turn": 11,
+      "label": "T11",
+      "marker_native_xy": [
+        212.09852205176358,
+        -66.39950720811103
+      ],
+      "marker_xy_units": "m",
+      "fraction": 0.6412924769531226,
+      "fit_lap_distance_m": 3439.2679663427275,
+      "fit_lap_time_s": 61.284843914490516,
+      "xy_residual_m": 0.4156072422225605,
+      "location_segment_length_m": 15.628499608087784,
+      "location_segment_duration_s": 0.3400000000000034,
+      "location_arclength_fraction": 0.640589399059676,
+      "source_geometry_fraction": 0.6481096458858081
+    },
+    {
+      "turn": 12,
+      "label": "T12",
+      "marker_native_xy": [
+        498.12511615456026,
+        160.3747622062561
+      ],
+      "marker_xy_units": "m",
+      "fraction": 0.7149536302420391,
+      "fit_lap_distance_m": 3834.314616623252,
+      "fit_lap_time_s": 67.54967593742661,
+      "xy_residual_m": 0.27967463604794096,
+      "location_segment_length_m": 17.71327186038759,
+      "location_segment_duration_s": 0.3580000000000041,
+      "location_arclength_fraction": 0.714617712749092,
+      "source_geometry_fraction": 0.7221379595752241
+    },
+    {
+      "turn": 13,
+      "label": "T13",
+      "marker_native_xy": [
+        666.5934072283377,
+        44.92756371061455
+      ],
+      "marker_xy_units": "m",
+      "fraction": 0.7561414679058424,
+      "fit_lap_distance_m": 4055.2060441245885,
+      "fit_lap_time_s": 71.1349983558551,
+      "xy_residual_m": 0.006592771662326413,
+      "location_segment_length_m": 3.1000000000000014,
+      "location_segment_duration_s": 0.0800000000000125,
+      "location_arclength_fraction": 0.755386308266467,
+      "source_geometry_fraction": 0.7629065550925991
+    },
+    {
+      "turn": 14,
+      "label": "T14",
+      "marker_native_xy": [
+        -14.54124578081196,
+        -347.28085483980504
+      ],
+      "marker_xy_units": "m",
+      "fraction": 0.9057879544990665,
+      "fit_lap_distance_m": 4857.763981590358,
+      "fit_lap_time_s": 83.70762076615974,
+      "xy_residual_m": 0.06200366152748342,
+      "location_segment_length_m": 8.01311425102627,
+      "location_segment_duration_s": 0.23900000000000432,
+      "location_arclength_fraction": 0.9057728209122508,
+      "source_geometry_fraction": 0.9132930677383828
+    },
+    {
+      "turn": 15,
+      "label": "T15",
+      "marker_native_xy": [
+        -55.28126057447135,
+        -280.366625094119
+      ],
+      "marker_xy_units": "m",
+      "fraction": 0.9217827429554056,
+      "fit_lap_distance_m": 4943.544441432454,
+      "fit_lap_time_s": 85.96844281562812,
+      "xy_residual_m": 0.22007650852894836,
+      "location_segment_length_m": 16.297545827516483,
+      "location_segment_duration_s": 0.35999999999999943,
+      "location_arclength_fraction": 0.9209238535388975,
+      "source_geometry_fraction": 0.9284441003650296
+    }
+  ]
+}

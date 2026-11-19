@@ -1,0 +1,36 @@
+{
+  "scope": "Assumed point-mass research reference, not a fitted F1 car or regulatory specification",
+  "geometry": "results/circuit-input-assessment-001/Sakhir.csv",
+  "geometry_sha256": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a",
+  "smoothing_sigma_m": 10.0,
+  "resample_spacing_m": 5.0,
+  "smoothing_sensitivity_m": [5.0, 10.0, 20.0],
+  "grid_spacing_m": [20.0, 10.0, 5.0, 2.5, 1.25, 0.625],
+  "lateral_acceleration_mps2": 20.0,
+  "max_speed_mps": 95.0,
+  "vehicle": {
+    "mass_kg": 800.0,
+    "base_power_w": 450000.0,
+    "electrical_limit_w": 120000.0,
+    "discharge_efficiency": 0.9,
+    "drag_kg_per_m": 1.0,
+    "friction_deceleration_m_per_s2": 12.0
+  },
+  "initial_energy_j": 2000000.0,
+  "reserve_j": 100000.0,
+  "gates": {
+    "speed_closure_mps": 0.000001,
+    "cap_excess_mps": 0.00001,
+    "energy_balance_j": 1.0,
+    "battery_identity_j": 0.01,
+    "finest_grid_time_relative": 0.005,
+    "solver_time_absolute_s": 0.0001
+  },
+  "limitations": [
+    "All vehicle and grip values are declared assumptions, not telemetry-estimated component powers.",
+    "450 kW base plus at most 120 kW electrical gives 570 kW total; effective total-power fits are not added.",
+    "Independent lateral and longitudinal constraints; no combined-slip tyre model, downforce map, grade, regeneration or DRS.",
+    "Source origin is retained; it is not certified to coincide with the official timing line.",
+    "Periodic speed for a single finite-energy lap does not imply battery periodicity or a sustainable race strategy."
+  ]
+}

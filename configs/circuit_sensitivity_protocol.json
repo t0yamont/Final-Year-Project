@@ -1,0 +1,32 @@
+{
+  "study": "Unchanged final CUDA PPO policy transfer under action-cadence and assumed-model sensitivity",
+  "source_run": "results/circuit-multiseed-001",
+  "baselines": "results/circuit-control-baselines-001",
+  "training_seeds": [0, 1, 2],
+  "checkpoint_steps": 16384,
+  "fixed_policies": ["zero", "half", "full", "spread", "exit_boost"],
+  "cadences": [
+    {"blocks": 55, "coarse_cells_per_block": 80, "fine_cells_per_block": 160},
+    {"blocks": 110, "coarse_cells_per_block": 40, "fine_cells_per_block": 80}
+  ],
+  "scenarios": [
+    {"name": "nominal", "parameter": null, "value": null},
+    {"name": "mass_minus10", "parameter": "mass_kg", "value": 720.0},
+    {"name": "mass_plus10", "parameter": "mass_kg", "value": 880.0},
+    {"name": "drag_minus10", "parameter": "drag_kg_per_m", "value": 0.9},
+    {"name": "drag_plus10", "parameter": "drag_kg_per_m", "value": 1.1},
+    {"name": "lateral_minus10", "parameter": "lateral_acceleration_mps2", "value": 18.0},
+    {"name": "lateral_plus10", "parameter": "lateral_acceleration_mps2", "value": 22.0},
+    {"name": "smoothing5", "parameter": "smoothing_sigma_m", "value": 5.0},
+    {"name": "smoothing20", "parameter": "smoothing_sigma_m", "value": 20.0}
+  ],
+  "design": "All nine scenarios at55 decisions; nominal only at110. Eight policies on two physical grids per case:160 deterministic rollouts. No stochastic sampling, retraining, checkpoint selection or parameter fitting.",
+  "transfer": "Reuse the final16384-step checkpoint from every seed unchanged. Recompute the existing six observations at each new action boundary; normalized progress and one/two-block lookahead follow the existing interface. At110 decisions the physical lookahead halves; this is cadence/interface transfer, not action duplication or a separately trained110-decision controller.",
+  "conditions": {"initial_speed_mps": 70.0, "terminal_speed_mps": 70.0, "initial_energy_j": 2000000.0, "reserve_j": 100000.0},
+  "gates": {"relative_lap_time": 0.005, "gain_error_s": 0.05, "terminal_speed_error_mps": 0.00001, "cap_excess_mps": 0.00001, "energy_balance_j": 1.0, "battery_identity_j": 0.01},
+  "primary_endpoint": "Fine-grid lap-time advantage against each scenario/cadence's strongest matched fixed baseline; retain all three seeds and summarize mean, sample SD and range. Numerical acceptance does not require a positive advantage.",
+  "secondary_endpoint": "Paired110-minus55 nominal changes for each unchanged policy and baseline; model sensitivities are one parameter at a time at55 decisions. No interaction or uncertainty-distribution inference.",
+  "numerical_gate": "Every rollout must satisfy boundary/reserve/cap/work-energy/battery identities. Each policy's absolute lap-time coarse/fine difference relative to the fine time must be<=0.5%, and its gain against its scenario/cadence's matching zero baseline must change by no more than0.05s between4400 and8800 physical cells. Nominal55 replay must reproduce saved source checkpoint durations, energies and actions exactly.",
+  "failure_policy": "A new output directory is required. Preserve contract, partial traces, errors and hashes. Any missing/failed rollout, provenance mismatch, source mutation or numerical failure makes the study unaccepted; do not exclude failed seeds or average incomplete groups.",
+  "interpretation": "Assumed-model deterministic feedback transfer only; sensitivities are declared perturbations, not calibrated uncertainty bounds. No convergence, statistical significance, optimum, real-car accuracy or empirical final-test claim. No telemetry is read. Retraining at another cadence requires a separate predeclared experiment."
+}

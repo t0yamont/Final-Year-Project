@@ -1,0 +1,748 @@
+[
+  {
+    "lap": {
+      "meeting_key": 1266,
+      "session_key": 9924,
+      "driver_number": 22,
+      "lap_number": 1,
+      "date_start": "2025-08-02T14:03:39.621000+00:00",
+      "duration_sector_1": null,
+      "duration_sector_2": 35.958,
+      "duration_sector_3": 26.147,
+      "i1_speed": 233,
+      "i2_speed": 195,
+      "is_pit_out_lap": true,
+      "lap_duration": null,
+      "segments_sector_1": [
+        2064,
+        2064,
+        2049,
+        2049,
+        2049,
+        2049,
+        2049
+      ],
+      "segments_sector_2": [
+        2049,
+        2049,
+        2049,
+        2049,
+        2049,
+        2049,
+        2049,
+        2049
+      ],
+      "segments_sector_3": [
+        2049,
+        2049,
+        2049,
+        2049,
+        2049
+      ],
+      "st_speed": null
+    },
+    "lap_number": 1,
+    "lap_start_utc": null,
+    "lap_end_utc": null,
+    "qc": {
+      "passed": false,
+      "sample_count": 0
+    },
+    "context": {},
+    "clean": false,
+    "quality_flags": [
+      "pit_out_lap_not_aligned"
+    ],
+    "conditional_motion_candidate": false,
+    "screening_exclusions": [
+      "native_motion_qc_failed",
+      "gap_missing_or_over_limit",
+      "lap_edge_coverage_missing_or_over_limit",
+      "pit_out_or_unknown",
+      "weather_missing_stale_or_ambiguous",
+      "rain_reported_or_unknown",
+      "stint_unknown_or_ambiguous",
+      "wet_or_unknown_tyre_compound"
+    ],
+    "verified_clean_lap": false,
+    "dry_track_verified": false,
+    "remaining_limitations": [
+      "approximate_lap_boundaries",
+      "unverified_full_flag_and_pit_history",
+      "unknown_fuel_setup_traffic",
+      "no_electrical_labels"
+    ]
+  },
+  {
+    "lap": {
+      "meeting_key": 1266,
+      "session_key": 9924,
+      "driver_number": 22,
+      "lap_number": 2,
+      "date_start": "2025-08-02T14:05:23.307000+00:00",
+      "duration_sector_1": 27.848,
+      "duration_sector_2": 26.921,
+      "duration_sector_3": 21.765,
+      "i1_speed": 281,
+      "i2_speed": 257,
+      "is_pit_out_lap": false,
+      "lap_duration": 76.534,
+      "segments_sector_1": [
+        2049,
+        2049,
+        2049,
+        2049,
+        2049,
+        2049,
+        2051
+      ],
+      "segments_sector_2": [
+        2049,
+        2049,
+        2051,
+        2049,
+        2049,
+        2051,
+        2049,
+        2049
+      ],
+      "segments_sector_3": [
+        2051,
+        2049,
+        2049,
+        2049,
+        2048,
+        2048
+      ],
+      "st_speed": 308
+    },
+    "lap_number": 2,
+    "lap_start_utc": "2025-08-02T14:05:23.307000+00:00",
+    "lap_end_utc": "2025-08-02T14:06:39.841000+00:00",
+    "qc": {
+      "sample_count": 288,
+      "missing_counts": {
+        "speed": 0,
+        "rpm": 0,
+        "n_gear": 0,
+        "throttle": 0,
+        "brake": 0,
+        "drs": 0
+      },
+      "invalid_counts": {
+        "speed": 0,
+        "rpm": 0,
+        "n_gear": 0,
+        "throttle": 0,
+        "brake": 0,
+        "drs": 0
+      },
+      "invalid_timestamp_count": 0,
+      "duplicate_timestamp_count": 0,
+      "conflicting_duplicate_timestamp_count": 0,
+      "out_of_order_step_count": 0,
+      "stream_count": 1,
+      "maximum_positive_gap_s": 0.881,
+      "passed": true,
+      "channel_and_timestamp_checks_passed": true,
+      "duplicate_lap_identity": false,
+      "overlapping_lap_count": 0,
+      "maximum_pairwise_overlap_s": 0.0,
+      "max_lap_overlap_s": 0.5,
+      "ambiguous_sample_count": 0,
+      "unassigned_invalid_timestamp_count": 0,
+      "unassigned_invalid_stream_count": 0,
+      "coverage_span_s": 76.361,
+      "leading_gap_s": 0.136,
+      "trailing_gap_s": 0.037
+    },
+    "context": {
+      "weather_at_start": {
+        "date": "2025-08-02T14:04:28.611000+00:00",
+        "session_key": 9924,
+        "track_temperature": 46.7,
+        "air_temperature": 29.0,
+        "humidity": 34.0,
+        "wind_speed": 1.9,
+        "wind_direction": 156,
+        "meeting_key": 1266,
+        "pressure": 983.4,
+        "rainfall": 0
+      },
+      "weather_age_at_start_s": 54.696,
+      "weather_start_status": "matched",
+      "weather_max_age_s": 120,
+      "rainfall_summary": "no_rain_reported_at_samples",
+      "dry_track_verified": false,
+      "stint": {
+        "meeting_key": 1266,
+        "session_key": 9924,
+        "stint_number": 1,
+        "driver_number": 22,
+        "lap_start": 1,
+        "lap_end": 3,
+        "compound": "SOFT",
+        "tyre_age_at_start": 0
+      },
+      "stint_status": "assigned",
+      "stint_candidate_count": 1,
+      "pit_records": [],
+      "race_control_records": [],
+      "pit_status": "unknown",
+      "track_status": "unknown",
+      "validity_status": "unknown"
+    },
+    "clean": false,
+    "quality_flags": [
+      "dry_track_unverified",
+      "pit_unknown",
+      "track_unknown",
+      "validity_unknown"
+    ],
+    "conditional_motion_candidate": true,
+    "screening_exclusions": [],
+    "verified_clean_lap": false,
+    "dry_track_verified": false,
+    "remaining_limitations": [
+      "approximate_lap_boundaries",
+      "unverified_full_flag_and_pit_history",
+      "unknown_fuel_setup_traffic",
+      "no_electrical_labels"
+    ]
+  },
+  {
+    "lap": {
+      "meeting_key": 1266,
+      "session_key": 9924,
+      "driver_number": 22,
+      "lap_number": 3,
+      "date_start": "2025-08-02T14:06:39.988000+00:00",
+      "duration_sector_1": 38.946,
+      "duration_sector_2": 36.386,
+      "duration_sector_3": 30.46,
+      "i1_speed": 211,
+      "i2_speed": 224,
+      "is_pit_out_lap": false,
+      "lap_duration": 105.792,
+      "segments_sector_1": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "segments_sector_2": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "segments_sector_3": [
+        2048,
+        2048,
+        2048,
+        2064,
+        2064,
+        2064
+      ],
+      "st_speed": 273
+    },
+    "lap_number": 3,
+    "lap_start_utc": "2025-08-02T14:06:39.988000+00:00",
+    "lap_end_utc": "2025-08-02T14:08:25.780000+00:00",
+    "qc": {
+      "sample_count": 399,
+      "missing_counts": {
+        "speed": 0,
+        "rpm": 0,
+        "n_gear": 0,
+        "throttle": 0,
+        "brake": 0,
+        "drs": 0
+      },
+      "invalid_counts": {
+        "speed": 0,
+        "rpm": 0,
+        "n_gear": 0,
+        "throttle": 0,
+        "brake": 0,
+        "drs": 0
+      },
+      "invalid_timestamp_count": 0,
+      "duplicate_timestamp_count": 0,
+      "conflicting_duplicate_timestamp_count": 0,
+      "out_of_order_step_count": 0,
+      "stream_count": 1,
+      "maximum_positive_gap_s": 1.0,
+      "passed": true,
+      "channel_and_timestamp_checks_passed": true,
+      "duplicate_lap_identity": false,
+      "overlapping_lap_count": 0,
+      "maximum_pairwise_overlap_s": 0.0,
+      "max_lap_overlap_s": 0.5,
+      "ambiguous_sample_count": 0,
+      "unassigned_invalid_timestamp_count": 0,
+      "unassigned_invalid_stream_count": 0,
+      "coverage_span_s": 105.68,
+      "leading_gap_s": 0.096,
+      "trailing_gap_s": 0.016
+    },
+    "context": {
+      "weather_at_start": {
+        "date": "2025-08-02T14:06:27.847000+00:00",
+        "session_key": 9924,
+        "track_temperature": 45.7,
+        "air_temperature": 28.9,
+        "humidity": 34.0,
+        "wind_speed": 1.7,
+        "wind_direction": 159,
+        "meeting_key": 1266,
+        "pressure": 983.3,
+        "rainfall": 0
+      },
+      "weather_age_at_start_s": 12.141,
+      "weather_start_status": "matched",
+      "weather_max_age_s": 120,
+      "rainfall_summary": "no_rain_reported_at_samples",
+      "dry_track_verified": false,
+      "stint": {
+        "meeting_key": 1266,
+        "session_key": 9924,
+        "stint_number": 1,
+        "driver_number": 22,
+        "lap_start": 1,
+        "lap_end": 3,
+        "compound": "SOFT",
+        "tyre_age_at_start": 0
+      },
+      "stint_status": "assigned",
+      "stint_candidate_count": 1,
+      "pit_records": [],
+      "race_control_records": [],
+      "pit_status": "pit_activity_reported",
+      "track_status": "unknown",
+      "validity_status": "unknown"
+    },
+    "clean": false,
+    "quality_flags": [
+      "dry_track_unverified",
+      "pit_activity_reported",
+      "track_unknown",
+      "validity_unknown"
+    ],
+    "conditional_motion_candidate": false,
+    "screening_exclusions": [
+      "pit_activity_reported"
+    ],
+    "verified_clean_lap": false,
+    "dry_track_verified": false,
+    "remaining_limitations": [
+      "approximate_lap_boundaries",
+      "unverified_full_flag_and_pit_history",
+      "unknown_fuel_setup_traffic",
+      "no_electrical_labels"
+    ]
+  },
+  {
+    "lap": {
+      "meeting_key": 1266,
+      "session_key": 9924,
+      "driver_number": 22,
+      "lap_number": 4,
+      "date_start": "2025-08-02T14:13:43.144000+00:00",
+      "duration_sector_1": null,
+      "duration_sector_2": 36.489,
+      "duration_sector_3": 26.347,
+      "i1_speed": 228,
+      "i2_speed": 210,
+      "is_pit_out_lap": true,
+      "lap_duration": 426.859,
+      "segments_sector_1": [
+        2064,
+        2064,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "segments_sector_2": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "segments_sector_3": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2049,
+        2049
+      ],
+      "st_speed": null
+    },
+    "lap_number": 4,
+    "lap_start_utc": null,
+    "lap_end_utc": null,
+    "qc": {
+      "passed": false,
+      "sample_count": 0
+    },
+    "context": {},
+    "clean": false,
+    "quality_flags": [
+      "pit_out_lap_not_aligned"
+    ],
+    "conditional_motion_candidate": false,
+    "screening_exclusions": [
+      "native_motion_qc_failed",
+      "gap_missing_or_over_limit",
+      "lap_edge_coverage_missing_or_over_limit",
+      "pit_out_or_unknown",
+      "weather_missing_stale_or_ambiguous",
+      "rain_reported_or_unknown",
+      "stint_unknown_or_ambiguous",
+      "wet_or_unknown_tyre_compound"
+    ],
+    "verified_clean_lap": false,
+    "dry_track_verified": false,
+    "remaining_limitations": [
+      "approximate_lap_boundaries",
+      "unverified_full_flag_and_pit_history",
+      "unknown_fuel_setup_traffic",
+      "no_electrical_labels"
+    ]
+  },
+  {
+    "lap": {
+      "meeting_key": 1266,
+      "session_key": 9924,
+      "driver_number": 22,
+      "lap_number": 5,
+      "date_start": "2025-08-02T14:15:32.638000+00:00",
+      "duration_sector_1": 27.623,
+      "duration_sector_2": 26.734,
+      "duration_sector_3": 21.542,
+      "i1_speed": 285,
+      "i2_speed": 257,
+      "is_pit_out_lap": false,
+      "lap_duration": 75.899,
+      "segments_sector_1": [
+        2049,
+        2049,
+        2049,
+        2049,
+        2049,
+        2051,
+        2049
+      ],
+      "segments_sector_2": [
+        2048,
+        2049,
+        2051,
+        2049,
+        2049,
+        2051,
+        2049,
+        2048
+      ],
+      "segments_sector_3": [
+        2048,
+        2049,
+        2049,
+        2049,
+        2048,
+        2048
+      ],
+      "st_speed": 311
+    },
+    "lap_number": 5,
+    "lap_start_utc": "2025-08-02T14:15:32.638000+00:00",
+    "lap_end_utc": "2025-08-02T14:16:48.537000+00:00",
+    "qc": {
+      "sample_count": 281,
+      "missing_counts": {
+        "speed": 0,
+        "rpm": 0,
+        "n_gear": 0,
+        "throttle": 0,
+        "brake": 0,
+        "drs": 0
+      },
+      "invalid_counts": {
+        "speed": 0,
+        "rpm": 0,
+        "n_gear": 0,
+        "throttle": 0,
+        "brake": 0,
+        "drs": 0
+      },
+      "invalid_timestamp_count": 0,
+      "duplicate_timestamp_count": 0,
+      "conflicting_duplicate_timestamp_count": 0,
+      "out_of_order_step_count": 0,
+      "stream_count": 1,
+      "maximum_positive_gap_s": 1.121,
+      "passed": true,
+      "channel_and_timestamp_checks_passed": true,
+      "duplicate_lap_identity": false,
+      "overlapping_lap_count": 1,
+      "maximum_pairwise_overlap_s": 0.006,
+      "max_lap_overlap_s": 0.5,
+      "ambiguous_sample_count": 0,
+      "unassigned_invalid_timestamp_count": 0,
+      "unassigned_invalid_stream_count": 0,
+      "coverage_span_s": 75.4,
+      "leading_gap_s": 0.248,
+      "trailing_gap_s": 0.251
+    },
+    "context": {
+      "weather_at_start": {
+        "date": "2025-08-02T14:15:27.857000+00:00",
+        "session_key": 9924,
+        "track_temperature": 43.3,
+        "air_temperature": 28.7,
+        "humidity": 35.0,
+        "wind_speed": 2.4,
+        "wind_direction": 173,
+        "meeting_key": 1266,
+        "pressure": 983.4,
+        "rainfall": 0
+      },
+      "weather_age_at_start_s": 4.781,
+      "weather_start_status": "matched",
+      "weather_max_age_s": 120,
+      "rainfall_summary": "no_rain_reported_at_samples",
+      "dry_track_verified": false,
+      "stint": {
+        "meeting_key": 1266,
+        "session_key": 9924,
+        "stint_number": 2,
+        "driver_number": 22,
+        "lap_start": 4,
+        "lap_end": 6,
+        "compound": "SOFT",
+        "tyre_age_at_start": 0
+      },
+      "stint_status": "assigned",
+      "stint_candidate_count": 1,
+      "pit_records": [],
+      "race_control_records": [],
+      "pit_status": "unknown",
+      "track_status": "unknown",
+      "validity_status": "unknown"
+    },
+    "clean": false,
+    "quality_flags": [
+      "overlapping_lap_intervals",
+      "dry_track_unverified",
+      "pit_unknown",
+      "track_unknown",
+      "validity_unknown"
+    ],
+    "conditional_motion_candidate": false,
+    "screening_exclusions": [
+      "gap_missing_or_over_limit"
+    ],
+    "verified_clean_lap": false,
+    "dry_track_verified": false,
+    "remaining_limitations": [
+      "approximate_lap_boundaries",
+      "unverified_full_flag_and_pit_history",
+      "unknown_fuel_setup_traffic",
+      "no_electrical_labels"
+    ]
+  },
+  {
+    "lap": {
+      "meeting_key": 1266,
+      "session_key": 9924,
+      "driver_number": 22,
+      "lap_number": 6,
+      "date_start": "2025-08-02T14:16:48.531000+00:00",
+      "duration_sector_1": 36.077,
+      "duration_sector_2": 37.588,
+      "duration_sector_3": 32.438,
+      "i1_speed": 184,
+      "i2_speed": 146,
+      "is_pit_out_lap": false,
+      "lap_duration": 106.103,
+      "segments_sector_1": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "segments_sector_2": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "segments_sector_3": [
+        2048,
+        2048,
+        2048,
+        2064,
+        2064,
+        2064
+      ],
+      "st_speed": 279
+    },
+    "lap_number": 6,
+    "lap_start_utc": "2025-08-02T14:16:48.531000+00:00",
+    "lap_end_utc": "2025-08-02T14:18:34.634000+00:00",
+    "qc": {
+      "sample_count": 410,
+      "missing_counts": {
+        "speed": 0,
+        "rpm": 0,
+        "n_gear": 0,
+        "throttle": 0,
+        "brake": 0,
+        "drs": 0
+      },
+      "invalid_counts": {
+        "speed": 0,
+        "rpm": 0,
+        "n_gear": 0,
+        "throttle": 0,
+        "brake": 0,
+        "drs": 0
+      },
+      "invalid_timestamp_count": 0,
+      "duplicate_timestamp_count": 0,
+      "conflicting_duplicate_timestamp_count": 0,
+      "out_of_order_step_count": 0,
+      "stream_count": 1,
+      "maximum_positive_gap_s": 1.32,
+      "passed": true,
+      "channel_and_timestamp_checks_passed": true,
+      "duplicate_lap_identity": false,
+      "overlapping_lap_count": 1,
+      "maximum_pairwise_overlap_s": 0.006,
+      "max_lap_overlap_s": 0.5,
+      "ambiguous_sample_count": 0,
+      "unassigned_invalid_timestamp_count": 0,
+      "unassigned_invalid_stream_count": 0,
+      "coverage_span_s": 105.96,
+      "leading_gap_s": 0.075,
+      "trailing_gap_s": 0.068
+    },
+    "context": {
+      "weather_at_start": {
+        "date": "2025-08-02T14:16:28.284000+00:00",
+        "session_key": 9924,
+        "track_temperature": 43.3,
+        "air_temperature": 28.6,
+        "humidity": 34.0,
+        "wind_speed": 1.8,
+        "wind_direction": 157,
+        "meeting_key": 1266,
+        "pressure": 983.3,
+        "rainfall": 0
+      },
+      "weather_age_at_start_s": 20.247,
+      "weather_start_status": "matched",
+      "weather_max_age_s": 120,
+      "rainfall_summary": "no_rain_reported_at_samples",
+      "dry_track_verified": false,
+      "stint": {
+        "meeting_key": 1266,
+        "session_key": 9924,
+        "stint_number": 2,
+        "driver_number": 22,
+        "lap_start": 4,
+        "lap_end": 6,
+        "compound": "SOFT",
+        "tyre_age_at_start": 0
+      },
+      "stint_status": "assigned",
+      "stint_candidate_count": 1,
+      "pit_records": [],
+      "race_control_records": [
+        {
+          "meeting_key": 1266,
+          "session_key": 9924,
+          "date": "2025-08-02T14:18:00+00:00",
+          "driver_number": null,
+          "lap_number": null,
+          "category": "Flag",
+          "flag": "CHEQUERED",
+          "scope": "Track",
+          "sector": null,
+          "qualifying_phase": 1,
+          "message": "CHEQUERED FLAG"
+        },
+        {
+          "meeting_key": 1266,
+          "session_key": 9924,
+          "date": "2025-08-02T14:18:00.058000+00:00",
+          "driver_number": null,
+          "lap_number": null,
+          "category": "SessionStatus",
+          "flag": null,
+          "scope": null,
+          "sector": null,
+          "qualifying_phase": 1,
+          "message": "SESSION FINISHED"
+        },
+        {
+          "meeting_key": 1266,
+          "session_key": 9924,
+          "date": "2025-08-02T14:18:10+00:00",
+          "driver_number": null,
+          "lap_number": null,
+          "category": "Other",
+          "flag": null,
+          "scope": null,
+          "sector": null,
+          "qualifying_phase": null,
+          "message": "FIRST CAR TO TAKE THE FLAG - CAR 4 (NOR)"
+        }
+      ],
+      "pit_status": "pit_activity_reported",
+      "track_status": "unknown",
+      "validity_status": "unknown"
+    },
+    "clean": false,
+    "quality_flags": [
+      "overlapping_lap_intervals",
+      "dry_track_unverified",
+      "pit_activity_reported",
+      "track_unknown",
+      "validity_unknown"
+    ],
+    "conditional_motion_candidate": false,
+    "screening_exclusions": [
+      "gap_missing_or_over_limit",
+      "pit_activity_reported"
+    ],
+    "verified_clean_lap": false,
+    "dry_track_verified": false,
+    "remaining_limitations": [
+      "approximate_lap_boundaries",
+      "unverified_full_flag_and_pit_history",
+      "unknown_fuel_setup_traffic",
+      "no_electrical_labels"
+    ]
+  }
+]

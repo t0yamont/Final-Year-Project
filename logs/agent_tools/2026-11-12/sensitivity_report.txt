@@ -1,0 +1,1 @@
+{"hash_checks": 369, "replays_checked": 160, "all_cases_completed_and_passed": false, "physically_feasible_replays": 146, "max_block_energy_residual_j": 1.4581019058823586e-08, "max_global_energy_residual_j": 5.4060365073382854e-08, "max_battery_error_j": 5.711626727133989e-09}

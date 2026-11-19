@@ -1,0 +1,124 @@
+{
+  "manifest_hashes_checked": 66,
+  "split": {
+    "fit": [
+      13
+    ],
+    "check": [
+      4,
+      10
+    ]
+  },
+  "historical_archive_duration_s": 107.05674697104922,
+  "lap_metrics": {
+    "4": {
+      "historical": {
+        "lap_s": 107.05674697104924,
+        "lap_error_s": 15.753746971049239,
+        "sector_prediction_s": [
+          34.2399159096277,
+          46.7435904302845,
+          26.07324063113704
+        ],
+        "sector_error_s": [
+          5.118915909627699,
+          7.455590430284502,
+          3.1792406311370414
+        ],
+        "speed_rmse_mps": 12.858194317689943
+      },
+      "revised": {
+        "lap_s": 89.77333314066017,
+        "lap_error_s": -1.5296668593398266,
+        "sector_prediction_s": [
+          28.726921390692425,
+          38.29243390932707,
+          22.753977840640673
+        ],
+        "sector_error_s": [
+          -0.39407860930757366,
+          -0.9955660906729236,
+          -0.14002215935932583
+        ],
+        "speed_rmse_mps": 4.530511037035224
+      },
+      "checks": {
+        "lap": true,
+        "sectors": true,
+        "speed": true,
+        "grid": true,
+        "finish": true
+      }
+    },
+    "10": {
+      "historical": {
+        "lap_s": 107.05674697104924,
+        "lap_error_s": 16.03774697104923,
+        "sector_prediction_s": [
+          34.2399159096277,
+          46.7435904302845,
+          26.07324063113704
+        ],
+        "sector_error_s": [
+          5.241915909627696,
+          7.679590430284499,
+          3.116240631137039
+        ],
+        "speed_rmse_mps": 14.243877957967218
+      },
+      "revised": {
+        "lap_s": 89.77333314066017,
+        "lap_error_s": -1.2456668593398348,
+        "sector_prediction_s": [
+          28.726921390692425,
+          38.29243390932707,
+          22.753977840640673
+        ],
+        "sector_error_s": [
+          -0.2710786093075761,
+          -0.7715660906729269,
+          -0.2030221593593282
+        ],
+        "speed_rmse_mps": 5.357276292474121
+      },
+      "checks": {
+        "lap": true,
+        "sectors": true,
+        "speed": false,
+        "grid": true,
+        "finish": true
+      }
+    }
+  },
+  "historical_envelope_max_difference_mps": 5.684341886080802E-14,
+  "block_cellwise_parity": {
+    "historical": {
+      "max_block_end_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 109.58553976537375
+    },
+    "revised": {
+      "max_block_end_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 90.47372085211356
+    }
+  },
+  "audit_source_sha256": "9aba95c5a6994d899b5b40715790f09d5128c0069b9176025a7bf0d718e75374",
+  "figure_visual_review": {
+    "diagnosis": "figures/dissertation/bahrain-pace-diagnosis-v1/01_historic_gap.png",
+    "holdout": "figures/dissertation/bahrain-pace-calibration-v1/lap-4.png",
+    "finding": "Both figures label speed in km/h, x position in model-path km from the timing line, and signed cumulative time error in seconds. Traces begin at x=0 with cumulative error zero. The dotted sector stations, main braking troughs, and terminal error signs match the archived registration and metrics."
+  }
+}

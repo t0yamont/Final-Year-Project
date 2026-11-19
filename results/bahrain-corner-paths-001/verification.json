@@ -1,0 +1,14 @@
+{
+  "hashes_checked": 18,
+  "frozen_replay_hashes_checked": 3,
+  "png_pixels": [
+    3600,
+    3300
+  ],
+  "png_dpi": [
+    299.9994,
+    299.9994
+  ],
+  "pdf_header_valid": true,
+  "figure_visual_review": "Nine panels checked; registered native support, scales and labels visible."
+}

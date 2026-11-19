@@ -1,0 +1,21 @@
+{
+  "inputs": "results/bahrain-pace-inputs-001",
+  "historic": "results/regeneration-dp-width-001",
+  "fit_laps": [13],
+  "check_laps": [4, 10],
+  "reference_action": 0.25,
+  "fit_cells_per_block": 80,
+  "bounds": {
+    "lateral_base_mps2": [12, 32],
+    "lateral_aero_per_m": [0, 0.012],
+    "brake_mps2": [8, 40],
+    "base_power_kw": [330, 650],
+    "drag_kg_per_m": [0.45, 1.40],
+    "drs_drag_factor": [0.65, 1.0]
+  },
+  "development_objective": "Fit free-running speed against lap 13 on a uniform fractional distance grid and sector durations at fixed development-derived boundaries. Include weak regularisation about engineering starting values. Keep mass, electrical power, efficiency and energy budgets fixed. Conditional unknown deployment represented by a constant quarter request. DRS zones are a fixed distance lookup derived only from the development lap. Validate the fast fit integrator against exact finite-battery event replays. Stop after one fit. Holdout target speeds do not enter the simulator.",
+  "diagnostics": "Report signed lap/sector time errors and distance-weighted speed RMSE, observed braking, corner-exit and throttle/DRS residuals, and the change from the historical best schedule. The historical trace is rotated by the independently located start line.",
+  "assessment": {"absolute_lap_error_s": 2.0, "absolute_each_sector_error_s": 1.0, "speed_rmse_mps": 5.0, "absolute_grid_time_change_s": 0.25},
+  "claim": "All held-out laps must meet the empirical criteria. These are practical dissertation thresholds, not measurement confidence intervals. A failure permits only a conditional map and must be reported by criterion. No fitting to the pole or protected RQ3 events.",
+  "zone_sensitivities": "Scale both lateral acceleration terms together by 0.95 and 1.05. These local grip/aero scenarios test robustness of zone choices and are not a statistical parameter range."
+}

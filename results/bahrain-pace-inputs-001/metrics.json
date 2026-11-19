@@ -1,0 +1,656 @@
+{
+  "meeting_key": 1257,
+  "session_key": 10010,
+  "driver_number": 1,
+  "acquisition_role": "development",
+  "calibration_laps": [
+    13
+  ],
+  "holdout_laps": [
+    4,
+    10
+  ],
+  "selection_rule": "Freeze the previously used inverse-study lap 13 for calibration. Reserve every other driver-1 qualifying lap passing the unchanged acquisition conditional-motion screen for local holdout.",
+  "alignment": {
+    "method": "XY arclength phase search with fitted rotation, translation and common scale",
+    "selected": {
+      "phase_fraction": 0.0075202468261320755,
+      "rmse_m": 5.809519574462817,
+      "direction": 1,
+      "handedness": 1
+    },
+    "alternatives": [
+      {
+        "phase_fraction": 0.0075202468261320755,
+        "rmse_m": 5.809519574462817,
+        "direction": 1,
+        "handedness": 1
+      },
+      {
+        "phase_fraction": 0.5063852664179402,
+        "rmse_m": 329.52982145254913,
+        "direction": 1,
+        "handedness": -1
+      },
+      {
+        "phase_fraction": 0.5697451518953003,
+        "rmse_m": 322.075827919835,
+        "direction": -1,
+        "handedness": 1
+      },
+      {
+        "phase_fraction": 0.09850903208318675,
+        "rmse_m": 163.16351614380787,
+        "direction": -1,
+        "handedness": -1
+      }
+    ],
+    "scale_reference_m_per_openf1_m": 1.004013366067569,
+    "rotation_openf1_to_reference": [
+      [
+        0.9999806613732121,
+        -0.006219073853149008
+      ],
+      [
+        0.0062190738531493145,
+        0.999980661373213
+      ]
+    ],
+    "translation_to_reference_m": [
+      35.28909394413006,
+      -105.29767101259748
+    ],
+    "p95_residual_m": 10.201795368378312,
+    "max_residual_m": 12.166958798292864,
+    "edge_closure_m": 1.0053330673157013,
+    "edge_projection_fractions": [
+      0.0068359375,
+      0.00701904296875
+    ],
+    "source_length_m": 5405.749125640374,
+    "location_length_m": 5338.52215755411,
+    "location_max_gap_s": 1.1399998664855957,
+    "location_native_samples": 342,
+    "location_edge_brackets_s": [
+      [
+        -0.06299996376037598,
+        0.1380000114440918
+      ],
+      [
+        91.73699998855591,
+        92.15700006484985
+      ]
+    ]
+  },
+  "timing_line_offset_fraction": 0.0075202468261320755,
+  "provenance": {
+    "directory": "results/openf1-dataset-003/development/1257/10010",
+    "acquisition_output_sha256": {
+      "context.json": "1fdb437d2ad70fa5da981f6e423bc6c64f03121690d132124a80742729cbed55",
+      "driver-1-car.csv.gz": "537f1e4d2743c5608c626654b03186a030e9d167dcb4f5b3ead034abae5a133a",
+      "driver-1-complete.json": "779efdaf8ab0d09e758eec86ced622d7c4a5036d21e18dd6b8e3a2510edd39f3",
+      "driver-1-laps.json": "ab83bde6dd7d6614b30f72291100540b1627f5ddfb883cd94ddc5575bd0eff6f",
+      "driver-1-position.csv.gz": "9909a84bc2ec266033799254aa94da2cda9e35b5ce07fb4759eeb14ca8128921",
+      "driver-22-car.csv.gz": "1291a35671b643dbb2f8fd92565c32830e053934cdcd780f17897f1a60bbf048",
+      "driver-22-complete.json": "41defb27e71cb01d78814d94d30065075e3016e9465ec291bf5ecc0b1c2202f4",
+      "driver-22-laps.json": "98e1c7a62ae99c2a08af5b0e8d3c084de05038421f75802d473421bd611e19dd",
+      "driver-22-position.csv.gz": "a3d4b98e211c925f931a5ebaccbb5901dff2fe1d2fbfe948290387766c4db305",
+      "requests.json": "024b7bdd5db7e3fdc0e9770160b8b7579b584dc2bbed23dad1bf5239e523bd0e"
+    },
+    "acquisition_completion_sha256": "ddacde226d377fc1415c4ed7210ec01a2e14bac23f682026b81dff25c8c31fad",
+    "raw_cache_responses": [
+      {
+        "url": "https://api.openf1.org/v1/laps?session_key=10010&driver_number=1",
+        "status": 200,
+        "retrieved_utc": "2026-11-10T14:31:39.247397+00:00",
+        "bytes": 8398,
+        "sha256": "4fed623c2aefba8cd88297182ecdcfe24c17182a62443c768b3e0077330c1472",
+        "cache_hit": true,
+        "cache_key": "acb9443f2aa959ceb2ab76112ba7acfe4624709fe5c51f78195374c11232ebbd",
+        "rows": 17
+      },
+      {
+        "url": "https://api.openf1.org/v1/car_data?session_key=10010&driver_number=1&date%3E=2025-04-12T16%3A05%3A06.600999%2B00%3A00&date%3C=2025-04-12T16%3A20%3A06.601000%2B00%3A00",
+        "cache_key": "2732fb71563e64ea51587faab5d245429ee6a81cf60d5e3bc979f63ea044df75",
+        "cache_hit": true,
+        "attempt": 1,
+        "status": 200,
+        "retrieved_utc": "2026-11-10T21:52:57.144168+00:00",
+        "bytes": 552731,
+        "sha256": "a6ba53836db5216e696b9f4c4361ee84753252d120de989df55343c1535df80e",
+        "rows": 3356
+      },
+      {
+        "url": "https://api.openf1.org/v1/location?session_key=10010&driver_number=1&date%3E=2025-04-12T16%3A05%3A06.600999%2B00%3A00&date%3C=2025-04-12T16%3A20%3A06.601000%2B00%3A00",
+        "cache_key": "58f3c187a390a3a8ffb9c076cc93cb7a2e9465a2dec6befae1258d635ede5da1",
+        "cache_hit": true,
+        "attempt": 1,
+        "status": 200,
+        "retrieved_utc": "2026-11-10T21:52:59.245581+00:00",
+        "bytes": 440335,
+        "sha256": "c6603afd29494e1c23330019052ddd90c7ad3de46f178580234dab83d05fae2a",
+        "rows": 3448
+      },
+      {
+        "url": "https://api.openf1.org/v1/car_data?session_key=10010&driver_number=1&date%3E=2025-04-12T16%3A20%3A06.600999%2B00%3A00&date%3C=2025-04-12T16%3A35%3A06.601000%2B00%3A00",
+        "cache_key": "76cd0e04ab33d70e3ae2c5d4701559f16d806aac39382be9a37d047aa5291134",
+        "cache_hit": true,
+        "attempt": 1,
+        "status": 200,
+        "retrieved_utc": "2026-11-10T21:53:01.498776+00:00",
+        "bytes": 550961,
+        "sha256": "0ee28197b5c32e6e4b3d6bd28b7ee428ca7cc975fe252d1af5ecc05c3e531f29",
+        "rows": 3359
+      },
+      {
+        "url": "https://api.openf1.org/v1/location?session_key=10010&driver_number=1&date%3E=2025-04-12T16%3A20%3A06.600999%2B00%3A00&date%3C=2025-04-12T16%3A35%3A06.601000%2B00%3A00",
+        "cache_key": "f2a4187c549299847fce5505b30850807f2c63277c67b7d45864f48d2605bd6b",
+        "cache_hit": true,
+        "attempt": 1,
+        "status": 200,
+        "retrieved_utc": "2026-11-10T21:53:03.527560+00:00",
+        "bytes": 442502,
+        "sha256": "949dbfa1e651f6f57d736cb6859a158ac0c7be7f01fc97ca56e9f1ddd173f8a1",
+        "rows": 3461
+      },
+      {
+        "url": "https://api.openf1.org/v1/car_data?session_key=10010&driver_number=1&date%3E=2025-04-12T16%3A35%3A06.600999%2B00%3A00&date%3C=2025-04-12T16%3A50%3A06.601000%2B00%3A00",
+        "cache_key": "71bbd52aa5f7cffde8f7bbde6cf6822fd7f1ccd1c8748a9f5e1cc4c0048729f6",
+        "cache_hit": true,
+        "attempt": 1,
+        "status": 200,
+        "retrieved_utc": "2026-11-10T21:53:05.642567+00:00",
+        "bytes": 555114,
+        "sha256": "028ae4bc7dc55b8c685e0508c9d54959f79d61d8ff25201c91adb61a9831f692",
+        "rows": 3340
+      },
+      {
+        "url": "https://api.openf1.org/v1/location?session_key=10010&driver_number=1&date%3E=2025-04-12T16%3A35%3A06.600999%2B00%3A00&date%3C=2025-04-12T16%3A50%3A06.601000%2B00%3A00",
+        "cache_key": "9873194e416f99801f445de5b5bd70c19260ba12de4367305ad4afb6dc61f257",
+        "cache_hit": true,
+        "attempt": 1,
+        "status": 200,
+        "retrieved_utc": "2026-11-10T21:53:07.582526+00:00",
+        "bytes": 442547,
+        "sha256": "556732b7c04ee66785689027b6e491d82632009eed35d40b2272ac9a763fc0e2",
+        "rows": 3467
+      },
+      {
+        "url": "https://api.openf1.org/v1/car_data?session_key=10010&driver_number=1&date%3E=2025-04-12T16%3A50%3A06.600999%2B00%3A00&date%3C=2025-04-12T17%3A05%3A06.601000%2B00%3A00",
+        "cache_key": "ce5fa700dc4ca37cd202d05022cb83c98ba1172c59c3a09b2201651d2ab9dc0b",
+        "cache_hit": true,
+        "attempt": 1,
+        "status": 200,
+        "retrieved_utc": "2026-11-10T21:53:10.022406+00:00",
+        "bytes": 549642,
+        "sha256": "104a19d26ae4b788204776e3f532f5321aeed6d482620a118c2fd6227a86bcc9",
+        "rows": 3349
+      },
+      {
+        "url": "https://api.openf1.org/v1/location?session_key=10010&driver_number=1&date%3E=2025-04-12T16%3A50%3A06.600999%2B00%3A00&date%3C=2025-04-12T17%3A05%3A06.601000%2B00%3A00",
+        "cache_key": "e660205810559e95709bb0cc0202dda8c58da09c7816d03ae6e53e7d00bf7300",
+        "cache_hit": true,
+        "attempt": 1,
+        "status": 200,
+        "retrieved_utc": "2026-11-10T21:53:11.821049+00:00",
+        "bytes": 436076,
+        "sha256": "fbc933537f113566c54ebe25e64b7161529c8f34728d63bab2a6e91885dcce29",
+        "rows": 3413
+      },
+      {
+        "url": "https://api.openf1.org/v1/car_data?session_key=10010&driver_number=1&date%3E=2025-04-12T17%3A05%3A06.600999%2B00%3A00&date%3C=2025-04-12T17%3A12%3A15.767000%2B00%3A00",
+        "cache_key": "3c1d50cab050557f13de84925ee06f0ad92c4d0bd5a9286bae5b59ddb8ff3a4b",
+        "cache_hit": true,
+        "attempt": 1,
+        "status": 200,
+        "retrieved_utc": "2026-11-10T21:53:13.949412+00:00",
+        "bytes": 263064,
+        "sha256": "7c75d987e076b6487de993c4f2623cf452c8f3e16db54a7c5de13c5a17a42a03",
+        "rows": 1577
+      },
+      {
+        "url": "https://api.openf1.org/v1/location?session_key=10010&driver_number=1&date%3E=2025-04-12T17%3A05%3A06.600999%2B00%3A00&date%3C=2025-04-12T17%3A12%3A15.767000%2B00%3A00",
+        "cache_key": "7e6a4e58d25d6368f90e36455585097abee2498025b18c91b2ebc70ccc817240",
+        "cache_hit": true,
+        "attempt": 1,
+        "status": 200,
+        "retrieved_utc": "2026-11-10T21:53:15.936849+00:00",
+        "bytes": 206382,
+        "sha256": "7cf77ab25e6be9ad38e232907dd195bda73cd22d76a97abf3093536897585dc4",
+        "rows": 1619
+      }
+    ],
+    "split_sha256": "1fa684e2b058d572717d32af7d746052607d391117c2159bbb1502fa434b2a85",
+    "script_sha256": "d39020bef6355ad5cebf2bc71a3fdd152d4bf6d54bab189a8cf6ce3fc671b02e",
+    "reference_geometry_sha256": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a"
+  },
+  "acquisition_screening": [
+    {
+      "lap_number": 1,
+      "conditional_motion_candidate": false,
+      "screening_exclusions": [
+        "native_motion_qc_failed",
+        "gap_missing_or_over_limit",
+        "lap_edge_coverage_missing_or_over_limit",
+        "pit_out_or_unknown",
+        "weather_missing_stale_or_ambiguous",
+        "rain_reported_or_unknown",
+        "stint_unknown_or_ambiguous",
+        "wet_or_unknown_tyre_compound"
+      ],
+      "quality_flags": [
+        "pit_out_lap_not_aligned"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    },
+    {
+      "lap_number": 2,
+      "conditional_motion_candidate": false,
+      "screening_exclusions": [
+        "pit_activity_reported"
+      ],
+      "quality_flags": [
+        "dry_track_unverified",
+        "pit_activity_reported",
+        "track_unknown",
+        "validity_unknown"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    },
+    {
+      "lap_number": 3,
+      "conditional_motion_candidate": false,
+      "screening_exclusions": [
+        "native_motion_qc_failed",
+        "gap_missing_or_over_limit",
+        "lap_edge_coverage_missing_or_over_limit",
+        "pit_out_or_unknown",
+        "weather_missing_stale_or_ambiguous",
+        "rain_reported_or_unknown",
+        "stint_unknown_or_ambiguous",
+        "wet_or_unknown_tyre_compound"
+      ],
+      "quality_flags": [
+        "pit_out_lap_not_aligned"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    },
+    {
+      "lap_number": 4,
+      "conditional_motion_candidate": true,
+      "screening_exclusions": [],
+      "quality_flags": [
+        "overlapping_lap_intervals",
+        "dry_track_unverified",
+        "pit_unknown",
+        "track_unknown",
+        "validity_unknown"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    },
+    {
+      "lap_number": 5,
+      "conditional_motion_candidate": false,
+      "screening_exclusions": [
+        "gap_missing_or_over_limit",
+        "pit_activity_reported"
+      ],
+      "quality_flags": [
+        "overlapping_lap_intervals",
+        "dry_track_unverified",
+        "pit_activity_reported",
+        "track_unknown",
+        "validity_unknown"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    },
+    {
+      "lap_number": 6,
+      "conditional_motion_candidate": false,
+      "screening_exclusions": [
+        "native_motion_qc_failed",
+        "gap_missing_or_over_limit",
+        "lap_edge_coverage_missing_or_over_limit",
+        "pit_out_or_unknown",
+        "weather_missing_stale_or_ambiguous",
+        "rain_reported_or_unknown",
+        "stint_unknown_or_ambiguous",
+        "wet_or_unknown_tyre_compound"
+      ],
+      "quality_flags": [
+        "pit_out_lap_not_aligned"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    },
+    {
+      "lap_number": 7,
+      "conditional_motion_candidate": false,
+      "screening_exclusions": [
+        "native_motion_qc_failed",
+        "gap_missing_or_over_limit",
+        "lap_edge_coverage_missing_or_over_limit",
+        "pit_out_or_unknown",
+        "weather_missing_stale_or_ambiguous",
+        "rain_reported_or_unknown",
+        "stint_unknown_or_ambiguous",
+        "wet_or_unknown_tyre_compound"
+      ],
+      "quality_flags": [
+        "pit_out_lap_not_aligned"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    },
+    {
+      "lap_number": 8,
+      "conditional_motion_candidate": false,
+      "screening_exclusions": [
+        "pit_activity_reported"
+      ],
+      "quality_flags": [
+        "dry_track_unverified",
+        "pit_activity_reported",
+        "track_unknown",
+        "validity_unknown"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    },
+    {
+      "lap_number": 9,
+      "conditional_motion_candidate": false,
+      "screening_exclusions": [
+        "native_motion_qc_failed",
+        "gap_missing_or_over_limit",
+        "lap_edge_coverage_missing_or_over_limit",
+        "pit_out_or_unknown",
+        "weather_missing_stale_or_ambiguous",
+        "rain_reported_or_unknown",
+        "stint_unknown_or_ambiguous",
+        "wet_or_unknown_tyre_compound"
+      ],
+      "quality_flags": [
+        "pit_out_lap_not_aligned"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    },
+    {
+      "lap_number": 10,
+      "conditional_motion_candidate": true,
+      "screening_exclusions": [],
+      "quality_flags": [
+        "dry_track_unverified",
+        "pit_unknown",
+        "track_unknown",
+        "validity_unknown"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    },
+    {
+      "lap_number": 11,
+      "conditional_motion_candidate": false,
+      "screening_exclusions": [
+        "gap_missing_or_over_limit",
+        "pit_activity_reported"
+      ],
+      "quality_flags": [
+        "dry_track_unverified",
+        "pit_activity_reported",
+        "track_unknown",
+        "validity_unknown"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    },
+    {
+      "lap_number": 12,
+      "conditional_motion_candidate": false,
+      "screening_exclusions": [
+        "native_motion_qc_failed",
+        "gap_missing_or_over_limit",
+        "lap_edge_coverage_missing_or_over_limit",
+        "pit_out_or_unknown",
+        "weather_missing_stale_or_ambiguous",
+        "rain_reported_or_unknown",
+        "stint_unknown_or_ambiguous",
+        "wet_or_unknown_tyre_compound"
+      ],
+      "quality_flags": [
+        "pit_out_lap_not_aligned"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    },
+    {
+      "lap_number": 13,
+      "conditional_motion_candidate": true,
+      "screening_exclusions": [],
+      "quality_flags": [
+        "overlapping_lap_intervals",
+        "dry_track_unverified",
+        "pit_unknown",
+        "track_unknown",
+        "validity_unknown"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    },
+    {
+      "lap_number": 14,
+      "conditional_motion_candidate": false,
+      "screening_exclusions": [
+        "pit_activity_reported"
+      ],
+      "quality_flags": [
+        "overlapping_lap_intervals",
+        "dry_track_unverified",
+        "pit_activity_reported",
+        "track_unknown",
+        "validity_unknown"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    },
+    {
+      "lap_number": 15,
+      "conditional_motion_candidate": false,
+      "screening_exclusions": [
+        "native_motion_qc_failed",
+        "gap_missing_or_over_limit",
+        "lap_edge_coverage_missing_or_over_limit",
+        "pit_out_or_unknown",
+        "weather_missing_stale_or_ambiguous",
+        "rain_reported_or_unknown",
+        "stint_unknown_or_ambiguous",
+        "wet_or_unknown_tyre_compound"
+      ],
+      "quality_flags": [
+        "pit_out_lap_not_aligned"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    },
+    {
+      "lap_number": 16,
+      "conditional_motion_candidate": false,
+      "screening_exclusions": [
+        "gap_missing_or_over_limit"
+      ],
+      "quality_flags": [
+        "dry_track_unverified",
+        "pit_unknown",
+        "track_unknown",
+        "validity_unknown"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    },
+    {
+      "lap_number": 17,
+      "conditional_motion_candidate": false,
+      "screening_exclusions": [
+        "native_motion_qc_failed",
+        "gap_missing_or_over_limit",
+        "lap_edge_coverage_missing_or_over_limit",
+        "weather_missing_stale_or_ambiguous",
+        "rain_reported_or_unknown",
+        "stint_unknown_or_ambiguous",
+        "wet_or_unknown_tyre_compound"
+      ],
+      "quality_flags": [
+        "invalid_lap_interval_or_identity"
+      ],
+      "verified_clean_lap": false,
+      "dry_track_verified": false
+    }
+  ],
+  "laps": {
+    "13": {
+      "date_start": "2025-04-12T16:59:08.215000+00:00",
+      "duration_s": 92.057,
+      "sector_times_s": [
+        29.628,
+        39.514,
+        22.915
+      ],
+      "sector_boundary_distances_m": [
+        0.0,
+        1769.16213234127,
+        3954.213401785716,
+        5363.025592757939
+      ],
+      "sector_distances_m": [
+        1769.16213234127,
+        2185.051269444446,
+        1408.812190972223
+      ],
+      "sector_boundary_fractions": [
+        0.0,
+        0.3298813518119867,
+        0.7373101868328508,
+        1.0
+      ],
+      "integrated_distance_m": 5363.025592757939,
+      "native_interior_samples": 344,
+      "max_bracketing_native_gap_s": 0.9200000000000017,
+      "edge_speeds_mps": [
+        82.02579365079364,
+        79.28009259259254
+      ],
+      "edge_brackets_s": [
+        [
+          -0.041,
+          0.239
+        ],
+        [
+          92.0,
+          92.36
+        ]
+      ],
+      "csv_sha256": "00765ca5d3d0b0c6ed91ca63321aed217c9c96a545472b3e571257e7f8faa23b"
+    },
+    "4": {
+      "date_start": "2025-04-12T16:17:12.835000+00:00",
+      "duration_s": 91.303,
+      "sector_times_s": [
+        29.121,
+        39.288,
+        22.894
+      ],
+      "sector_boundary_distances_m": [
+        0.0,
+        1768.0459597222227,
+        3953.5812638888865,
+        5365.709407638886
+      ],
+      "sector_distances_m": [
+        1768.0459597222227,
+        2185.535304166664,
+        1412.1281437499993
+      ],
+      "sector_boundary_fractions": [
+        0.0,
+        0.32950833252452066,
+        0.736823589115798,
+        1.0
+      ],
+      "integrated_distance_m": 5365.709407638886,
+      "native_interior_samples": 338,
+      "max_bracketing_native_gap_s": 0.8390000000000001,
+      "edge_speeds_mps": [
+        82.3,
+        81.47916666666666
+      ],
+      "edge_brackets_s": [
+        [
+          -0.228,
+          0.172
+        ],
+        [
+          91.212,
+          91.492
+        ]
+      ],
+      "csv_sha256": "7829474599c0a350468d5f427c3564c264215db390e014de95c41bdd8901686d"
+    },
+    "10": {
+      "date_start": "2025-04-12T16:46:08.796000+00:00",
+      "duration_s": 91.019,
+      "sector_times_s": [
+        28.998,
+        39.064,
+        22.957
+      ],
+      "sector_boundary_distances_m": [
+        0.0,
+        1771.1903737654318,
+        3956.5483027777777,
+        5365.555963343426
+      ],
+      "sector_distances_m": [
+        1771.1903737654318,
+        2185.357929012346,
+        1409.0076605656482
+      ],
+      "sector_boundary_fractions": [
+        0.0,
+        0.33010379275994994,
+        0.7373976396496932,
+        1.0
+      ],
+      "integrated_distance_m": 5365.555963343426,
+      "native_interior_samples": 340,
+      "max_bracketing_native_gap_s": 0.9200000000000017,
+      "edge_speeds_mps": [
+        81.66111111111111,
+        81.26907554546601
+      ],
+      "edge_brackets_s": [
+        [
+          -0.264,
+          0.136
+        ],
+        [
+          90.376,
+          91.257
+        ]
+      ],
+      "csv_sha256": "6a9261096774564b19488aa98b47df69e1a71a2848a67cde1af2a0259dfcd2e4"
+    }
+  },
+  "rolling_line_speed_mps": 80.65294312169308,
+  "sector_boundary_fractions": [
+    0.0,
+    0.3298813518119867,
+    0.7373101868328508,
+    1.0
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "commands": [
+    "scripts/verify_circuit_multiseed.py --input results/regeneration-multiseed-001 --output logs/agent_tools/2026-11-18/ppo_actor32_independent_verification.json",
+    "scripts/verify_circuit_multiseed.py --input results/regeneration-ppo-actor64-001 --output logs/agent_tools/2026-11-18/ppo_actor64_independent_verification.json",
+    "scripts/evaluate_ppo_actor_width.py --width 32",
+    "scripts/evaluate_ppo_actor_width.py --width 64",
+    "scripts/evaluate_ppo_actor_width.py"
+  ],
+  "completed_replays": 36,
+  "exact_nominal_replay_matches": 12,
+  "all_feasible": true,
+  "all_numerical_passed": true,
+  "figure_manifest_hash_checks": 6,
+  "png_visually_inspected": true,
+  "baseline_untouched": true,
+  "training_performed_by_evaluator": false,
+  "retained_precheck_failure": "results/ppo-actor-width-evaluation-001/actor-32-failed-precheck"
+}

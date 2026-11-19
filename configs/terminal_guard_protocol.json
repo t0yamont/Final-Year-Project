@@ -1,0 +1,68 @@
+{
+  "study": "Fixed terminal-reserve guard on unchanged final CUDA policies",
+  "source_run": "results/circuit-multiseed-001",
+  "baselines": "results/circuit-control-baselines-001",
+  "training_seeds": [
+    0,
+    1,
+    2
+  ],
+  "checkpoint_steps": 16384,
+  "fixed_policies": [
+    "zero",
+    "half",
+    "full",
+    "spread",
+    "exit_boost"
+  ],
+  "cadences": [
+    {
+      "blocks": 55,
+      "coarse_cells_per_block": 80,
+      "fine_cells_per_block": 160
+    },
+    {
+      "blocks": 110,
+      "coarse_cells_per_block": 40,
+      "fine_cells_per_block": 80
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "nominal",
+      "parameter": null,
+      "value": null
+    },
+    {
+      "name": "drag_plus10",
+      "parameter": "drag_kg_per_m",
+      "value": 1.1
+    }
+  ],
+  "design": "Four cases: nominal/high drag1.1 at55/110 decisions; eight policies on4400/8800 physical cells:64 deterministic rollouts. One fixed guard; no tuning, retraining, checkpoint selection, parameter fitting or telemetry.",
+  "transfer": "All three original final16384-step CUDA policies remain unchanged. Every policy uses the original six observations and physical0.1MJ reserve normalization. Guard protects an additional0.25MJ until the last1/55 lap action span (one block at55, two at110); then releases the protected budget and forces full request. The assumed conservative budget is intended to cover this short full-request span; it is not a calculated minimum or a feasibility guarantee.",
+  "conditions": {
+    "initial_speed_mps": 70.0,
+    "terminal_speed_mps": 70.0,
+    "initial_energy_j": 2000000.0,
+    "reserve_j": 100000.0
+  },
+  "gates": {
+    "relative_lap_time": 0.005,
+    "gain_error_s": 0.05,
+    "terminal_speed_error_mps": 1e-05,
+    "cap_excess_mps": 1e-05,
+    "energy_balance_j": 1.0,
+    "battery_identity_j": 0.01
+  },
+  "primary_endpoint": "Fine-grid PPO advantage against strongest matched guarded fixed baseline, reported only when all eight fine-grid policies pass feasibility/accounting; mean, sample SD and range over all three seeds.",
+  "secondary_endpoint": "Guard interventions and nominal110-minus55 time changes. Guarded zero requests terminal assistance and is no longer a zero-electrical-deployment diagnostic.",
+  "numerical_gate": "Original feasibility/accounting gates unchanged. Relative coarse/fine lap error<=0.005 and gain discrepancy<=0.05s against matching guarded zero. Guarded-zero block durations define the common reward reference, assigned after its physical replay without another rollout. Guard-disabled exact replay is tested separately; guard-enabled nominal identity to unguarded checkpoints is not expected.",
+  "failure_policy": "A new output directory is required. Preserve contract, partial traces, errors and hashes. Any missing/failed rollout, provenance mismatch, source mutation or numerical failure makes the study unaccepted; do not exclude failed seeds or average incomplete groups.",
+  "interpretation": "Replay-verified heuristic on this declared assumed-model matrix only. No universal or recursive feasibility, optimality, robustness beyond tested cases, convergence, significance or real-car claim. Original sensitivity failure remains unchanged. Further guard changes require a new protocol and output directory.",
+  "sensitivity_run": "results/circuit-sensitivity-001",
+  "guard": {
+    "protected_energy_j": 250000.0,
+    "terminal_span_lap_fraction": 0.01818181818181818
+  }
+}

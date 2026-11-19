@@ -1,0 +1,57 @@
+{
+  "only_protected_files_read": "Acquisition complete.json metadata; no lap audits or car telemetry",
+  "records": [
+    {
+      "path": "results\\openf1-dataset-003\\test\\1265\\9935\\complete.json",
+      "sha256": "ea8d00adf246458515cc1a4fa5a235992a61bd1d4fdb196a1da4e6340286edd4",
+      "event": "Belgium",
+      "meeting_key": 1265,
+      "session_key": 9935,
+      "session_name": "Qualifying",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "conditional_motion_candidates": 0,
+          "motion_qc_pass_laps": 9
+        },
+        {
+          "driver_number": 22,
+          "conditional_motion_candidates": 0,
+          "motion_qc_pass_laps": 10
+        }
+      ]
+    },
+    {
+      "path": "results\\openf1-dataset-003\\test\\1276\\9835\\complete.json",
+      "sha256": "2184d3cc5fe0ea7080e09c30c8a89842aa717a85d9e5c980fb436cc0d48a9617",
+      "event": "Abu Dhabi",
+      "meeting_key": 1276,
+      "session_key": 9835,
+      "session_name": "Qualifying",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "conditional_motion_candidates": 3,
+          "motion_qc_pass_laps": 10
+        },
+        {
+          "driver_number": 22,
+          "conditional_motion_candidates": 3,
+          "motion_qc_pass_laps": 11
+        }
+      ]
+    }
+  ],
+  "decision": "No two-event protected qualifying scoring: Belgium has zero conditional candidates under unchanged QC",
+  "validation_protocol_sha256": "de791867834170c5dae9026a7e4ddc1ebe218f8ec908ebbeccc58478afffc1b6",
+  "initial_failures": [
+    {
+      "run": "session-mix-validation-001",
+      "failure": "Implementation added an unrequired every-context Q/P/R-support guard, leaving only Bahrain and triggering two-event assertion. Removed guard to match frozen protocol, which uses available rows and records missing classes. No validation results saved from this attempt."
+    },
+    {
+      "command": "initial direct script execution",
+      "failure": "PYTHONPATH omitted: ModuleNotFoundError before any outputs; rerun with PYTHONPATH=src"
+    }
+  ]
+}

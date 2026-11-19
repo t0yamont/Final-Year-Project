@@ -1,0 +1,45 @@
+STRUCTURAL PASS 258 paragraphs, 49 relative project links, 8 captions
+DOCX SHA256 89f4db223dc31cd4239615e1359822d69df59f06ace50d759f1d4b9879095c67
+Table 1. OpenF1 2025 acquisition and first-pass screening by preassigned event role. Run openf1-dataset-003.
+Figure 1. Modelled Bahrain deployment at central grip, with the timing line as the distance origin. Colour shows mean delivered wheel power in kW per action block. Run bahrain-deployment-zones-001.
+Table 2. Repeated deployment locations across three grip settings and two grids, with minimum and maximum wheel work and separate-lap speed errors. Run bahrain-zone-support-001.
+Figure 2. Cumulative wheel-work difference (kJ) and time saved (s) from the timing line (km), at both matched-wheel-work targets. Positive time means the selected allocation is ahead. Run bahrain-equal-work-001.
+Figure 3. Observed and simulated speed (km/h) and simulated minus observed time (s) versus distance (km) for the centreline and lap-13 path on driver 22�s Bahrain laps 2, 5 and 13. Run bahrain-driver-transfer-001.
+Figure 4. Frozen learned controllers transferred to the calibrated Bahrain vehicle. Finish-speed error (m/s), feasible time saving (s), and cumulative wheel-work difference (kJ) along the lap (km) are relative to the target or selected schedule. Run bahrain-learned-transfer-001.
+Table 3. Primary-grid lap times (s) for the earlier regenerative Sakhir reference vehicle. Runs regeneration-multiseed-001 and regeneration-dp-001.
+Table 4. Mean qualifying lap/DRS-group acceleration RMSE (m/s�) across the validation and final-test events. Runs session-mix-validation-002 and session-mix-final-001.
+1 5 Electrical Energy Deployment on a | Bahrain Qualifying Lap Technical dissertation draft | November 2026
+2 23 2 | Abstract 7  Professional practice and responsible use of evidence...........................................................................25 | References........................................................................................................................................................................26
+3 37 3 | 1  Introduction support the motion at those locations. These three forms of evidence allow a useful model- | based conclusion even when the unobserved deployment of the real car remains unknown.
+4 40 4 | 2  Related work and design rationale in principle from model outputs from how well they can be estimated in practice from a | particular dataset. Their examples concern nonlinear biological models, and the distinction
+5 42 5 | applies to the vehicle inverse problem. For example, on a straight, higher assumed resistance time is part of the cost, and correlated decisions from the same lap provide less evidence of | transfer than whole-scenario holdouts. [12, abstract] � Proceedings record.
+6 13 6 | 2.4  Session coverage and evidence of motion with shared physical scenarios and separately defined controller information. [13, PDF pp. 1� | 2, 11] � Article.
+7 36 7 | 3  Data and modelling assumptions predictions for that comparison were frozen before opening the second driver's | measurements for scoring. All six observations came from the same qualifying session. They
+8 26 8 | test local pace and within-session transfer. They provide little evidence about deployment at state of charge or MGU-K wheel work for validating those trajectories. Vehicle assumptions | and regulatory sources
+9 41 9 | 4  Methods and experimental design and replayed on the finer grid. A valid comparison required two feasible laps and at most 0.5 | kJ mismatch. We calculated cumulative time differences at each block boundary. This design
+10 39 10 | allows braking recovery and terminal battery energy to differ. Matched-work protocol and final energy = initial energy + 0.80 � recovered mechanical work (1) | - deployed wheel work / 0.90
+11 41 11 | The model tracked gross energy recovered and discharged separately. The nominal upper change in its time difference exceeding 5 ms under grid refinement. Width protocol � | Robustness protocol
+12 41 12 | 4.4.1  PPO actor size policies was interpreted as a performance comparison only when both finished feasibly. | Refinement tested whether the paired difference changed by more than 5 ms. Wheel work by
+13 33 13 | location supplied a second way to examine the controllers, including ones that missed the score was calculated on the remaining eligible event, with both events retained in the | coverage record. Validation design � Final scoring design
+14 16 14 | 5  Results and discussion 469 kJ in the first 393 m, averaging 106 kW. Moving the same requests 98 m later cost 59 ms | with equal delivered wheel work. Across three grip settings and both integration grids the
+15 44 15 | first 295 m consistently received assist. On that stretch the quarter-request simulation's available work differently around the lap. Regeneration and remaining charge were allowed | to differ. Matched comparisons � Where the advantage accumulated
+16 24 16 | Figure 2. Cumulative wheel-work difference (kJ) and time saved (s) from the timing line (km), at curvature than the smoothed centreline near T14 at all three chord scales tested. This agrees | with the original simulator being too slow at T14. At T8 the observed path was tighter over
+17 22 17 | the two shorter scales and flatter at the longest. At T1 a curvature difference coexisted with 0.847�1.009 m/s below the required 80.653 m/s. The six imitation policies missed by 0.886� | 0.934 m/s. The spread policy and the planner's selected schedule both reached the target. A
+18 17 18 | lap-time ranking among the learned policies would reward a car that crossed the line with result measures transfer under those conditions and leaves performance after training on the | calibrated model open. Archived traces and distance profiles
+19 38 19 | 5.3  Controller-method comparison on the earlier Sakhir reference vehicle estimated from speed readings in restricted driving windows. Across validation lap/DRS | groups, transferred development fits had mean RMSEs of 2.776 m/s� in Hungary and 1.922
+20 38 20 | m/s� in the UK. For the assumed vehicle at full request, the corresponding errors were 3.169 combined acceptance criteria, despite every individual controller passing the absolute lap- | time and energy refinement checks. Scenario table and failure plots
+21 38 21 | 5.4.3  RQ2 extension. Does a wider PPO actor improve the lap addition in two of five matched draws on primary windows. Consequently the evidence | supports adding practice for this observable-motion model and leaves the incremental benefit
+22 18 22 | of race data unresolved. Only Bahrain supplied overlapping race and qualifying development would require paired training on a defensible family of profiles with the same information and | evaluation rules apart from profile inputs.
+23 40 23 | 6  Discussion and conclusion saving would combine those distinct quantities. The 0.871�0.955 s advantage over the | model's matched-work comparator is the quantity supported by the experiment. Numerical
+24 17 24 | refinement changed that advantage by less than 2 ms. Vehicle uncertainty is a larger such a revision. A fresh evaluation would be needed to test whether an improvement in local | motion also makes the recommended deployment zones more stable.
+25 31 25 | 7  Professional practice and responsible use of Personal learning, decisions taken by the student and any formal declaration require the | student's own account. Project execution policy � Prediction lock
+26 41 26 | References energy management for electric vehicles using offline reinforcement learning. Nature | Communications, 16, 2835. https://doi.org/10.1038/s41467-025-58192-9
+RENDER PASS 26 pages
+CONTENTS 1  Introduction ... 3
+CONTENTS 2  Related work and design rationale ... 4
+CONTENTS 3  Data and modelling assumptions ... 7
+CONTENTS 4  Methods and experimental design ... 9
+CONTENTS 5  Results and discussion ... 14
+CONTENTS 6  Discussion and conclusion ... 23
+CONTENTS 7  Professional practice and responsible use of evidence ... 25
+CONTENTS References ... 26

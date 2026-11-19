@@ -1,0 +1,45 @@
+{
+  "inputs": {
+    "configs\\regeneration_study.json": "e2cf5f325d40b3b3341fa83f90cdff5ee4d6d71d515729fe662d997e3f0e0edb",
+    "configs\\circuit_reference.json": "19b80d69d3e91d32a9ce4a2b00a40589fcd16ceb387c17ca4ad151a5a6043657",
+    "results\\circuit-input-assessment-001\\Sakhir.csv": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a"
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src\\f1energy\\event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\validate_regeneration.py": "3a2a581cbe21bbe4dbf7ef375ffe47e8b17f046c7c47a3bbcad520a8f8e4277f",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "tests\\test_regeneration.py": "ce0b217624dece31eb6a3c137ff1d42517dd187261e68967d6f82632f57c71de"
+  },
+  "outputs": {
+    "results\\regeneration-validation-001\\contract.json": "3e35f0e729856207696420a1455142d189d0405fc56b1c6d4a601e3331961d3f",
+    "results\\regeneration-validation-001\\metrics.json": "0c5899c118e78ae521c6132f9631f726e88ef04d616f10f06e7d592cfc26eb2e",
+    "results\\regeneration-validation-001\\no_regeneration_cells-160_exit_boost.json.gz": "36eb81f14652d9149ebd6a3dd3e6e8d0fce80743a15e6cb3c5bb47dc16954263",
+    "results\\regeneration-validation-001\\no_regeneration_cells-160_full.json.gz": "6cf74c4dba4ee9c1bfa0ea8f0c71c7ce56a717552b9a0f25de35271f389c5b02",
+    "results\\regeneration-validation-001\\no_regeneration_cells-160_half.json.gz": "5a358be0e31282ba6f0d5232a3637a8f9f148c73b38686240740310a2fc9f2d5",
+    "results\\regeneration-validation-001\\no_regeneration_cells-160_spread.json.gz": "12a8f890fdd5e7b7d33facdeb0df1a0fde4e7389b1a64b41ec8e571755746b77",
+    "results\\regeneration-validation-001\\no_regeneration_cells-160_zero.json.gz": "69d103f6551ce1059a8b145115df1879633313c2b412cbf0a05182789d2f9358",
+    "results\\regeneration-validation-001\\no_regeneration_cells-80_exit_boost.json.gz": "7242e57998668ca0b2589d5080f1dc6f20d05048bb05d646985963df06c292cb",
+    "results\\regeneration-validation-001\\no_regeneration_cells-80_full.json.gz": "07c7a038bf852e32052f6125559397144a272deb098cfc072094012f8880aba9",
+    "results\\regeneration-validation-001\\no_regeneration_cells-80_half.json.gz": "b1a971986d8acb9357568f094be065a1646bc74b804a5c2ecc649f986a6ebfa9",
+    "results\\regeneration-validation-001\\no_regeneration_cells-80_spread.json.gz": "fde009900e02d814b433f1512191cc8c47e3d7a2719cbac40a803d4df0669d56",
+    "results\\regeneration-validation-001\\no_regeneration_cells-80_zero.json.gz": "5f33fbb3d34910fd8ebb06720f40981ec6488ac20e3147b32c41cfc98e50f495",
+    "results\\regeneration-validation-001\\progress.json": "0500ae8fb54ae91f73474a4553c328c3d11dd696942e7a723b1bfa5e44bd0fe8",
+    "results\\regeneration-validation-001\\regeneration_cells-160_exit_boost.json.gz": "8a76052e8dddcac9a54b907b127e46aa5ea597aa3133501ba6fb0c64d00a1c12",
+    "results\\regeneration-validation-001\\regeneration_cells-160_full.json.gz": "a6ec6e686aae7bb8626f3e8cc71496524ced118974be5a3d1ccda00320b4851e",
+    "results\\regeneration-validation-001\\regeneration_cells-160_half.json.gz": "62a82dc289d2db784f7b186af82d83409910fd1a46ce65d8d790922e3dc2b350",
+    "results\\regeneration-validation-001\\regeneration_cells-160_spread.json.gz": "5ea6e3de2214bbf1bf3243ff59b7adc06780cb608d18e351963c891f5ee7f90b",
+    "results\\regeneration-validation-001\\regeneration_cells-160_zero.json.gz": "3e9388c08d8ed33017c639b3a3f6bdef3b253b33d4e555ff9c0879914f0f7458",
+    "results\\regeneration-validation-001\\regeneration_cells-80_exit_boost.json.gz": "d4ad78ea7e5af71ffc7fb90f236393efd260e60ab2036587da11cb97dbc4aebd",
+    "results\\regeneration-validation-001\\regeneration_cells-80_full.json.gz": "507b1dce9d68cb070ac8e0c12c6c59ccd068b16b5cc2a5eb4bce5c86bd9a9cec",
+    "results\\regeneration-validation-001\\regeneration_cells-80_half.json.gz": "f7e187886bfc613c47abac14536b0775105df2f025b852445af4af42aa61fe62",
+    "results\\regeneration-validation-001\\regeneration_cells-80_spread.json.gz": "38987f23e9703645d675475b59e793dc4559a6635ff886857209c466f2966bce",
+    "results\\regeneration-validation-001\\regeneration_cells-80_zero.json.gz": "7b01340d8bd7e499d502664dfb5f074295e66e4f43c4cb943b32dc3377278d6f",
+    "figures\\dissertation\\regeneration-v1\\01_regeneration_comparison.pdf": "6342f220cb539ededf73880ff8c5426ce9af84b359ce2a825987dd5abec5c1e8",
+    "figures\\dissertation\\regeneration-v1\\01_regeneration_comparison.png": "2f8be4309a5628182d384812f8f1544ff9486b615e87e298730ad67a37e170be",
+    "figures\\dissertation\\regeneration-v1\\02_battery_recovery.pdf": "629cfc738a9a3fcaf033ed09bf042c176e56292508beccd2b72221300d6a426e",
+    "figures\\dissertation\\regeneration-v1\\02_battery_recovery.png": "56a1a4e403ca8e6d1b40363ad8f9e601397f49e04abada91f9bc075b9317f893"
+  }
+}

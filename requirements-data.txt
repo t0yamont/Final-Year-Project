@@ -1,2 +1,3 @@
 # Optional ingestion dependency; resolve and freeze the actual environment before collection.
 fastf1>=3.6,<4
+requests>=2.32,<3

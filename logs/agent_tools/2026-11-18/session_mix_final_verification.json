@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "hash_checks": 17,
+  "manifest_sha256": "fe59c136b6191bd00d7d88d3a245d1e9e49f6796ff903e75d2bb167504866d5f",
+  "saved_prediction_rows": 6975,
+  "forecasts_checked": 41850,
+  "max_forecast_discrepancy": 3.552713678800501e-15,
+  "event_filter_seed_scores": 15,
+  "macro_scores_checked": 90,
+  "matched_draw_observation_identity_checked": true,
+  "validated_using_saved_predictions_only": true
+}

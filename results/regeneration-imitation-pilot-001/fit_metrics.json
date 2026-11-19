@@ -1,0 +1,140 @@
+[
+  {
+    "width": 32,
+    "seed": 0,
+    "checkpoint": "results\\regeneration-imitation-pilot-001\\width32_seed0.pt",
+    "parameter_count": 1377,
+    "input_device": "cuda:0",
+    "target_device": "cuda:0",
+    "cuda_adam_step_tensors": 6,
+    "initial_mse": 0.2833101451396942,
+    "final_mse": 0.08436497300863266,
+    "clamped_mse": 0.08324036747217178,
+    "fit_seconds": 0.5022501999046654,
+    "fit_prediction_reload_exact": true,
+    "cuda": {
+      "policy_device": "cuda:0",
+      "parameter_tensors": 6,
+      "gradient_tensors": 6,
+      "cuda_optimizer_moment_tensors": 12,
+      "allocated_bytes": 17080320,
+      "peak_allocated_bytes": 17187328,
+      "passed": true
+    }
+  },
+  {
+    "width": 32,
+    "seed": 1,
+    "checkpoint": "results\\regeneration-imitation-pilot-001\\width32_seed1.pt",
+    "parameter_count": 1377,
+    "input_device": "cuda:0",
+    "target_device": "cuda:0",
+    "cuda_adam_step_tensors": 6,
+    "initial_mse": 0.24495947360992432,
+    "final_mse": 0.06959757208824158,
+    "clamped_mse": 0.06795360147953033,
+    "fit_seconds": 0.47374970000237226,
+    "fit_prediction_reload_exact": true,
+    "cuda": {
+      "policy_device": "cuda:0",
+      "parameter_tensors": 6,
+      "gradient_tensors": 6,
+      "cuda_optimizer_moment_tensors": 12,
+      "allocated_bytes": 17101824,
+      "peak_allocated_bytes": 17208832,
+      "passed": true
+    }
+  },
+  {
+    "width": 32,
+    "seed": 2,
+    "checkpoint": "results\\regeneration-imitation-pilot-001\\width32_seed2.pt",
+    "parameter_count": 1377,
+    "input_device": "cuda:0",
+    "target_device": "cuda:0",
+    "cuda_adam_step_tensors": 6,
+    "initial_mse": 0.2697194814682007,
+    "final_mse": 0.08122216910123825,
+    "clamped_mse": 0.08013583719730377,
+    "fit_seconds": 0.4631984999869019,
+    "fit_prediction_reload_exact": true,
+    "cuda": {
+      "policy_device": "cuda:0",
+      "parameter_tensors": 6,
+      "gradient_tensors": 6,
+      "cuda_optimizer_moment_tensors": 12,
+      "allocated_bytes": 17123328,
+      "peak_allocated_bytes": 17230336,
+      "passed": true
+    }
+  },
+  {
+    "width": 64,
+    "seed": 0,
+    "checkpoint": "results\\regeneration-imitation-pilot-001\\width64_seed0.pt",
+    "parameter_count": 4801,
+    "input_device": "cuda:0",
+    "target_device": "cuda:0",
+    "cuda_adam_step_tensors": 6,
+    "initial_mse": 0.22013887763023376,
+    "final_mse": 0.051012150943279266,
+    "clamped_mse": 0.04967694729566574,
+    "fit_seconds": 0.467297799885273,
+    "fit_prediction_reload_exact": true,
+    "cuda": {
+      "policy_device": "cuda:0",
+      "parameter_tensors": 6,
+      "gradient_tensors": 6,
+      "cuda_optimizer_moment_tensors": 12,
+      "allocated_bytes": 17198080,
+      "peak_allocated_bytes": 17404416,
+      "passed": true
+    }
+  },
+  {
+    "width": 64,
+    "seed": 1,
+    "checkpoint": "results\\regeneration-imitation-pilot-001\\width64_seed1.pt",
+    "parameter_count": 4801,
+    "input_device": "cuda:0",
+    "target_device": "cuda:0",
+    "cuda_adam_step_tensors": 6,
+    "initial_mse": 0.21208235621452332,
+    "final_mse": 0.06955210864543915,
+    "clamped_mse": 0.06796637177467346,
+    "fit_seconds": 0.4694242998957634,
+    "fit_prediction_reload_exact": true,
+    "cuda": {
+      "policy_device": "cuda:0",
+      "parameter_tensors": 6,
+      "gradient_tensors": 6,
+      "cuda_optimizer_moment_tensors": 12,
+      "allocated_bytes": 17259520,
+      "peak_allocated_bytes": 17465856,
+      "passed": true
+    }
+  },
+  {
+    "width": 64,
+    "seed": 2,
+    "checkpoint": "results\\regeneration-imitation-pilot-001\\width64_seed2.pt",
+    "parameter_count": 4801,
+    "input_device": "cuda:0",
+    "target_device": "cuda:0",
+    "cuda_adam_step_tensors": 6,
+    "initial_mse": 0.2784937918186188,
+    "final_mse": 0.05577424541115761,
+    "clamped_mse": 0.054710838943719864,
+    "fit_seconds": 0.45789439999498427,
+    "fit_prediction_reload_exact": true,
+    "cuda": {
+      "policy_device": "cuda:0",
+      "parameter_tensors": 6,
+      "gradient_tensors": 6,
+      "cuda_optimizer_moment_tensors": 12,
+      "allocated_bytes": 17320960,
+      "peak_allocated_bytes": 17527296,
+      "passed": true
+    }
+  }
+]

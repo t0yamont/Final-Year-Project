@@ -1,0 +1,1291 @@
+{
+  "hash_checks": 369,
+  "replays_checked": 160,
+  "all_cases_completed_and_passed": false,
+  "physically_feasible_replays": 146,
+  "max_block_energy_residual_j": 1.4581019058823586e-08,
+  "max_global_energy_residual_j": 5.4060365073382854e-08,
+  "max_battery_error_j": 5.711626727133989e-09,
+  "replays": [
+    {
+      "file": "nominal_blocks-55_coarse_zero.json.gz",
+      "max_block_energy_residual_j": 3.958120942115784e-09,
+      "global_energy_residual_j": -6.402842700481415e-10,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-55_coarse_half.json.gz",
+      "max_block_energy_residual_j": 6.0390448197722435e-09,
+      "global_energy_residual_j": 1.83063093572855e-08,
+      "max_battery_error_j": 2.342858351767063e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-55_coarse_full.json.gz",
+      "max_block_energy_residual_j": 6.0390448197722435e-09,
+      "global_energy_residual_j": -4.874891601502895e-09,
+      "max_battery_error_j": 2.1245796233415604e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-55_coarse_spread.json.gz",
+      "max_block_energy_residual_j": 6.788468454033136e-09,
+      "global_energy_residual_j": -2.1631421986967325e-08,
+      "max_battery_error_j": 2.6302586775273085e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-55_coarse_exit_boost.json.gz",
+      "max_block_energy_residual_j": 5.5442797020077705e-09,
+      "global_energy_residual_j": -2.4199835024774075e-08,
+      "max_battery_error_j": 1.6007106751203537e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-55_coarse_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 6.83940015733242e-09,
+      "global_energy_residual_j": -2.556771505624056e-08,
+      "max_battery_error_j": 1.1641532182693481e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-55_coarse_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 4.511093720793724e-09,
+      "global_energy_residual_j": -9.080395102500916e-09,
+      "max_battery_error_j": 1.6443664208054543e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-55_coarse_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 5.3551048040390015e-09,
+      "global_energy_residual_j": 7.07223080098629e-09,
+      "max_battery_error_j": 1.4110810298006982e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-55_fine_zero.json.gz",
+      "max_block_energy_residual_j": 1.04482751339674e-08,
+      "global_energy_residual_j": -4.019966581836343e-08,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 2.842170943040401e-14
+    },
+    {
+      "file": "nominal_blocks-55_fine_half.json.gz",
+      "max_block_energy_residual_j": 1.0273652151226997e-08,
+      "global_energy_residual_j": 1.8451828509569168e-08,
+      "max_battery_error_j": 2.0954757928848267e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-55_fine_full.json.gz",
+      "max_block_energy_residual_j": 5.908077582716942e-09,
+      "global_energy_residual_j": -3.856257535517216e-09,
+      "max_battery_error_j": 1.1641532182693481e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-55_fine_spread.json.gz",
+      "max_block_energy_residual_j": 1.076841726899147e-08,
+      "global_energy_residual_j": -9.49512468650937e-09,
+      "max_battery_error_j": 4.94765117764473e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 7.105427357601002e-14
+    },
+    {
+      "file": "nominal_blocks-55_fine_exit_boost.json.gz",
+      "max_block_energy_residual_j": 1.04482751339674e-08,
+      "global_energy_residual_j": -1.9404978957027197e-08,
+      "max_battery_error_j": 2.4156179279088974e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "file": "nominal_blocks-55_fine_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 1.1670636013150215e-08,
+      "global_energy_residual_j": -4.06944309361279e-08,
+      "max_battery_error_j": 3.434251993894577e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-55_fine_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 1.229636836796999e-08,
+      "global_energy_residual_j": -3.587774699553847e-08,
+      "max_battery_error_j": 5.093170329928398e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-55_fine_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 1.04482751339674e-08,
+      "global_energy_residual_j": -1.6152625903487206e-09,
+      "max_battery_error_j": 2.066371962428093e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-110_coarse_zero.json.gz",
+      "max_block_energy_residual_j": 4.190951585769653e-09,
+      "global_energy_residual_j": 1.4551915228366852e-09,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-110_coarse_half.json.gz",
+      "max_block_energy_residual_j": 5.4569682106375694e-09,
+      "global_energy_residual_j": 2.087472239509225e-08,
+      "max_battery_error_j": 1.673470251262188e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-110_coarse_full.json.gz",
+      "max_block_energy_residual_j": 5.4569682106375694e-09,
+      "global_energy_residual_j": -1.2441887520253658e-09,
+      "max_battery_error_j": 2.0227162167429924e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-110_coarse_spread.json.gz",
+      "max_block_energy_residual_j": 7.668859325349331e-09,
+      "global_energy_residual_j": 3.92901711165905e-10,
+      "max_battery_error_j": 2.164597390219569e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-110_coarse_exit_boost.json.gz",
+      "max_block_energy_residual_j": 5.4569682106375694e-09,
+      "global_energy_residual_j": 4.067260306328535e-09,
+      "max_battery_error_j": 1.0913936421275139e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-110_coarse_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 6.0390448197722435e-09,
+      "global_energy_residual_j": -3.78859112970531e-08,
+      "max_battery_error_j": 1.2660166248679161e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-110_coarse_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 5.238689482212067e-09,
+      "global_energy_residual_j": -2.4971086531877518e-08,
+      "max_battery_error_j": 1.3897079043090343e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-110_coarse_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 5.4569682106375694e-09,
+      "global_energy_residual_j": 2.6411726139485836e-09,
+      "max_battery_error_j": 1.9063008949160576e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-110_fine_zero.json.gz",
+      "max_block_energy_residual_j": 9.633367881178856e-09,
+      "global_energy_residual_j": -3.412424121052027e-08,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 2.842170943040401e-14
+    },
+    {
+      "file": "nominal_blocks-110_fine_half.json.gz",
+      "max_block_energy_residual_j": 7.4214767664670944e-09,
+      "global_energy_residual_j": 2.5582266971468925e-08,
+      "max_battery_error_j": 2.3646862246096134e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-110_fine_full.json.gz",
+      "max_block_energy_residual_j": 7.086782716214657e-09,
+      "global_energy_residual_j": 4.69299266114831e-09,
+      "max_battery_error_j": 1.5279510989785194e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-110_fine_spread.json.gz",
+      "max_block_energy_residual_j": 7.814378477633e-09,
+      "global_energy_residual_j": -1.949956640601158e-09,
+      "max_battery_error_j": 2.6448105927556753e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 4.263256414560601e-14
+    },
+    {
+      "file": "nominal_blocks-110_fine_exit_boost.json.gz",
+      "max_block_energy_residual_j": 8.105416782200336e-09,
+      "global_energy_residual_j": -9.997165761888027e-09,
+      "max_battery_error_j": 2.7212081477046013e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-110_fine_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 8.221832104027271e-09,
+      "global_energy_residual_j": 2.815795596688986e-09,
+      "max_battery_error_j": 3.6816345527768135e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "nominal_blocks-110_fine_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 8.105416782200336e-09,
+      "global_energy_residual_j": -2.08092387765646e-09,
+      "max_battery_error_j": 3.6816345527768135e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "file": "nominal_blocks-110_fine_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 8.105416782200336e-09,
+      "global_energy_residual_j": 1.8502760212868452e-08,
+      "max_battery_error_j": 1.508851710241288e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_minus10_blocks-55_coarse_zero.json.gz",
+      "max_block_energy_residual_j": 7.974449545145035e-09,
+      "global_energy_residual_j": -1.3940734788775444e-08,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_minus10_blocks-55_coarse_half.json.gz",
+      "max_block_energy_residual_j": 5.820766091346741e-09,
+      "global_energy_residual_j": -5.769834388047457e-09,
+      "max_battery_error_j": 2.066371962428093e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_minus10_blocks-55_coarse_full.json.gz",
+      "max_block_energy_residual_j": 4.685716703534126e-09,
+      "global_energy_residual_j": -1.1343217920511961e-08,
+      "max_battery_error_j": 2.1827872842550278e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_minus10_blocks-55_coarse_spread.json.gz",
+      "max_block_energy_residual_j": 5.9371814131736755e-09,
+      "global_energy_residual_j": 1.8408172763884068e-09,
+      "max_battery_error_j": 2.582964953035116e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -7.105427357601002e-14
+    },
+    {
+      "file": "mass_minus10_blocks-55_coarse_exit_boost.json.gz",
+      "max_block_energy_residual_j": 6.446498446166515e-09,
+      "global_energy_residual_j": -4.656612873077393e-10,
+      "max_battery_error_j": 2.939486876130104e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_minus10_blocks-55_coarse_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 6.446498446166515e-09,
+      "global_energy_residual_j": -1.0695657692849636e-08,
+      "max_battery_error_j": 1.5425030142068863e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_minus10_blocks-55_coarse_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 6.446498446166515e-09,
+      "global_energy_residual_j": -1.3860699255019426e-08,
+      "max_battery_error_j": 1.1059455573558807e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_minus10_blocks-55_coarse_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 6.446498446166515e-09,
+      "global_energy_residual_j": -1.8320861272513866e-08,
+      "max_battery_error_j": 1.1059455573558807e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_minus10_blocks-55_fine_zero.json.gz",
+      "max_block_energy_residual_j": 1.1263182386755943e-08,
+      "global_energy_residual_j": 1.726584741845727e-08,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "file": "mass_minus10_blocks-55_fine_half.json.gz",
+      "max_block_energy_residual_j": 7.174094207584858e-09,
+      "global_energy_residual_j": 2.6702764444053173e-08,
+      "max_battery_error_j": 3.14321368932724e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -1.4210854715202004e-14
+    },
+    {
+      "file": "mass_minus10_blocks-55_fine_full.json.gz",
+      "max_block_energy_residual_j": 9.66247171163559e-09,
+      "global_energy_residual_j": 3.773311618715525e-08,
+      "max_battery_error_j": 1.6298145055770874e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -1.4210854715202004e-14
+    },
+    {
+      "file": "mass_minus10_blocks-55_fine_spread.json.gz",
+      "max_block_energy_residual_j": 9.837094694375992e-09,
+      "global_energy_residual_j": -1.3773387763649225e-08,
+      "max_battery_error_j": 3.39787220582366e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -4.263256414560601e-14
+    },
+    {
+      "file": "mass_minus10_blocks-55_fine_exit_boost.json.gz",
+      "max_block_energy_residual_j": 1.1263182386755943e-08,
+      "global_energy_residual_j": -6.868503987789154e-09,
+      "max_battery_error_j": 2.7939677238464355e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 2.842170943040401e-14
+    },
+    {
+      "file": "mass_minus10_blocks-55_fine_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 1.1263182386755943e-08,
+      "global_energy_residual_j": 3.004970494657755e-08,
+      "max_battery_error_j": 4.336470738053322e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -1.4210854715202004e-14
+    },
+    {
+      "file": "mass_minus10_blocks-55_fine_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 1.1263182386755943e-08,
+      "global_energy_residual_j": 1.1561496648937464e-08,
+      "max_battery_error_j": 3.725290298461914e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 2.842170943040401e-14
+    },
+    {
+      "file": "mass_minus10_blocks-55_fine_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 1.1263182386755943e-08,
+      "global_energy_residual_j": -6.6720531322062016e-09,
+      "max_battery_error_j": 2.7939677238464355e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -1.4210854715202004e-14
+    },
+    {
+      "file": "mass_plus10_blocks-55_coarse_zero.json.gz",
+      "max_block_energy_residual_j": 6.024492904543877e-09,
+      "global_energy_residual_j": -1.5585101209580898e-08,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_plus10_blocks-55_coarse_half.json.gz",
+      "max_block_energy_residual_j": 9.124050848186016e-09,
+      "global_energy_residual_j": 1.3700628187507391e-08,
+      "max_battery_error_j": 2.7939677238464355e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_plus10_blocks-55_coarse_full.json.gz",
+      "max_block_energy_residual_j": 9.124050848186016e-09,
+      "global_energy_residual_j": -5.922629497945309e-09,
+      "max_battery_error_j": 2.852175384759903e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_plus10_blocks-55_coarse_spread.json.gz",
+      "max_block_energy_residual_j": 6.461050361394882e-09,
+      "global_energy_residual_j": 1.6621925169602036e-08,
+      "max_battery_error_j": 2.7321220841258764e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_plus10_blocks-55_coarse_exit_boost.json.gz",
+      "max_block_energy_residual_j": 6.024492904543877e-09,
+      "global_energy_residual_j": 2.563319867476821e-08,
+      "max_battery_error_j": 1.775333657860756e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_plus10_blocks-55_coarse_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 5.587935447692871e-09,
+      "global_energy_residual_j": 1.3271346688270569e-08,
+      "max_battery_error_j": 1.2514647096395493e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_plus10_blocks-55_coarse_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 5.3551048040390015e-09,
+      "global_energy_residual_j": 2.6670022634789348e-08,
+      "max_battery_error_j": 1.775333657860756e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_plus10_blocks-55_coarse_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 9.124050848186016e-09,
+      "global_energy_residual_j": 1.008811523206532e-08,
+      "max_battery_error_j": 3.0508999770972878e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_plus10_blocks-55_fine_zero.json.gz",
+      "max_block_energy_residual_j": 1.157604856416583e-08,
+      "global_energy_residual_j": -2.7052010409533978e-08,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_plus10_blocks-55_fine_half.json.gz",
+      "max_block_energy_residual_j": 1.4581019058823586e-08,
+      "global_energy_residual_j": -6.079062586650252e-09,
+      "max_battery_error_j": 3.2741809263825417e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "file": "mass_plus10_blocks-55_fine_full.json.gz",
+      "max_block_energy_residual_j": 7.916241884231567e-09,
+      "global_energy_residual_j": 2.313026925548911e-08,
+      "max_battery_error_j": 3.987224772572517e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "file": "mass_plus10_blocks-55_fine_spread.json.gz",
+      "max_block_energy_residual_j": 6.6356733441352844e-09,
+      "global_energy_residual_j": 5.0851667765527964e-08,
+      "max_battery_error_j": 3.2232492230832577e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -4.263256414560601e-14
+    },
+    {
+      "file": "mass_plus10_blocks-55_fine_exit_boost.json.gz",
+      "max_block_energy_residual_j": 1.157604856416583e-08,
+      "global_energy_residual_j": 6.56291376799345e-09,
+      "max_battery_error_j": 3.7834979593753815e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "mass_plus10_blocks-55_fine_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 1.157604856416583e-08,
+      "global_energy_residual_j": -1.017178874462843e-08,
+      "max_battery_error_j": 1.748048816807568e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "file": "mass_plus10_blocks-55_fine_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 1.157604856416583e-08,
+      "global_energy_residual_j": -2.2821041056886315e-08,
+      "max_battery_error_j": 5.5442797020077705e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "file": "mass_plus10_blocks-55_fine_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 7.683411240577698e-09,
+      "global_energy_residual_j": -9.062205208465457e-09,
+      "max_battery_error_j": 1.5859313862165436e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "file": "drag_minus10_blocks-55_coarse_zero.json.gz",
+      "max_block_energy_residual_j": 6.51925802230835e-09,
+      "global_energy_residual_j": -2.7954229153692722e-08,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -1.4210854715202004e-14
+    },
+    {
+      "file": "drag_minus10_blocks-55_coarse_half.json.gz",
+      "max_block_energy_residual_j": 6.082700565457344e-09,
+      "global_energy_residual_j": -3.757304511964321e-08,
+      "max_battery_error_j": 3.157765604555607e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "drag_minus10_blocks-55_coarse_full.json.gz",
+      "max_block_energy_residual_j": 8.149072527885437e-09,
+      "global_energy_residual_j": -1.8524588085711002e-08,
+      "max_battery_error_j": 1.4551915228366852e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "drag_minus10_blocks-55_coarse_spread.json.gz",
+      "max_block_energy_residual_j": 9.807990863919258e-09,
+      "global_energy_residual_j": -4.612957127392292e-09,
+      "max_battery_error_j": 2.7685018721967936e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 4.263256414560601e-14
+    },
+    {
+      "file": "drag_minus10_blocks-55_coarse_exit_boost.json.gz",
+      "max_block_energy_residual_j": 6.51925802230835e-09,
+      "global_energy_residual_j": -7.989001460373402e-09,
+      "max_battery_error_j": 2.5902409106492996e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "drag_minus10_blocks-55_coarse_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 6.51925802230835e-09,
+      "global_energy_residual_j": -5.4060365073382854e-08,
+      "max_battery_error_j": 2.0081643015146255e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "drag_minus10_blocks-55_coarse_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 6.51925802230835e-09,
+      "global_energy_residual_j": -3.518653102219105e-08,
+      "max_battery_error_j": 2.5902409106492996e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "drag_minus10_blocks-55_coarse_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 6.51925802230835e-09,
+      "global_energy_residual_j": -5.3405528888106346e-08,
+      "max_battery_error_j": 2.5902409106492996e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "drag_minus10_blocks-55_fine_zero.json.gz",
+      "max_block_energy_residual_j": 8.527422323822975e-09,
+      "global_energy_residual_j": -1.2332748156040907e-08,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "file": "drag_minus10_blocks-55_fine_half.json.gz",
+      "max_block_energy_residual_j": 7.334165275096893e-09,
+      "global_energy_residual_j": -1.936859916895628e-08,
+      "max_battery_error_j": 4.918547347187996e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -7.105427357601002e-14
+    },
+    {
+      "file": "drag_minus10_blocks-55_fine_full.json.gz",
+      "max_block_energy_residual_j": 8.32369551062584e-09,
+      "global_energy_residual_j": 8.498318493366241e-09,
+      "max_battery_error_j": 2.9103830456733704e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -7.105427357601002e-14
+    },
+    {
+      "file": "drag_minus10_blocks-55_fine_spread.json.gz",
+      "max_block_energy_residual_j": 1.3795215636491776e-08,
+      "global_energy_residual_j": 1.382431946694851e-09,
+      "max_battery_error_j": 3.899913281202316e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "drag_minus10_blocks-55_fine_exit_boost.json.gz",
+      "max_block_energy_residual_j": 1.1175870895385742e-08,
+      "global_energy_residual_j": -1.992157194763422e-08,
+      "max_battery_error_j": 3.637978807091713e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -1.4210854715202004e-14
+    },
+    {
+      "file": "drag_minus10_blocks-55_fine_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 1.2689270079135895e-08,
+      "global_energy_residual_j": -2.6731868274509907e-08,
+      "max_battery_error_j": 3.637978807091713e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -7.105427357601002e-14
+    },
+    {
+      "file": "drag_minus10_blocks-55_fine_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 1.201988197863102e-08,
+      "global_energy_residual_j": 8.571078069508076e-09,
+      "max_battery_error_j": 1.7462298274040222e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -7.105427357601002e-14
+    },
+    {
+      "file": "drag_minus10_blocks-55_fine_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 8.527422323822975e-09,
+      "global_energy_residual_j": -1.7724232748150826e-08,
+      "max_battery_error_j": 2.5320332497358322e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -7.105427357601002e-14
+    },
+    {
+      "file": "drag_plus10_blocks-55_coarse_zero.json.gz",
+      "max_block_energy_residual_j": 6.2282197177410126e-09,
+      "global_energy_residual_j": 3.3032847568392754e-09,
+      "max_battery_error_j": 0.0,
+      "physical_pass": false,
+      "terminal_speed_error_mps": -0.31643383918070356
+    },
+    {
+      "file": "drag_plus10_blocks-55_coarse_half.json.gz",
+      "max_block_energy_residual_j": 7.159542292356491e-09,
+      "global_energy_residual_j": -1.5788828022778034e-09,
+      "max_battery_error_j": 2.3283064365386963e-09,
+      "physical_pass": false,
+      "terminal_speed_error_mps": -0.3164338391807746
+    },
+    {
+      "file": "drag_plus10_blocks-55_coarse_full.json.gz",
+      "max_block_energy_residual_j": 8.32369551062584e-09,
+      "global_energy_residual_j": 2.727028913795948e-08,
+      "max_battery_error_j": 1.862645149230957e-09,
+      "physical_pass": false,
+      "terminal_speed_error_mps": -0.3164338391807746
+    },
+    {
+      "file": "drag_plus10_blocks-55_coarse_spread.json.gz",
+      "max_block_energy_residual_j": 7.697963155806065e-09,
+      "global_energy_residual_j": -2.6338966563344e-09,
+      "max_battery_error_j": 3.3651303965598345e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "drag_plus10_blocks-55_coarse_exit_boost.json.gz",
+      "max_block_energy_residual_j": 6.082700565457344e-09,
+      "global_energy_residual_j": -1.7491402104496956e-08,
+      "max_battery_error_j": 1.6880221664905548e-09,
+      "physical_pass": false,
+      "terminal_speed_error_mps": -0.3164338391807888
+    },
+    {
+      "file": "drag_plus10_blocks-55_coarse_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 7.654307410120964e-09,
+      "global_energy_residual_j": -2.468004822731018e-08,
+      "max_battery_error_j": 2.5029294192790985e-09,
+      "physical_pass": false,
+      "terminal_speed_error_mps": -0.3164338391807746
+    },
+    {
+      "file": "drag_plus10_blocks-55_coarse_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 6.388290785253048e-09,
+      "global_energy_residual_j": -5.08807715959847e-08,
+      "max_battery_error_j": 1.9936123862862587e-09,
+      "physical_pass": false,
+      "terminal_speed_error_mps": -0.3164338391807746
+    },
+    {
+      "file": "drag_plus10_blocks-55_coarse_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 9.487848728895187e-09,
+      "global_energy_residual_j": -4.46016201749444e-09,
+      "max_battery_error_j": 2.590695658000186e-09,
+      "physical_pass": false,
+      "terminal_speed_error_mps": -0.3164338391807746
+    },
+    {
+      "file": "drag_plus10_blocks-55_fine_zero.json.gz",
+      "max_block_energy_residual_j": 9.953510016202927e-09,
+      "global_energy_residual_j": -4.222238203510642e-08,
+      "max_battery_error_j": 0.0,
+      "physical_pass": false,
+      "terminal_speed_error_mps": -0.3042567405218364
+    },
+    {
+      "file": "drag_plus10_blocks-55_fine_half.json.gz",
+      "max_block_energy_residual_j": 8.96397978067398e-09,
+      "global_energy_residual_j": 9.42964106798172e-09,
+      "max_battery_error_j": 3.4633558243513107e-09,
+      "physical_pass": false,
+      "terminal_speed_error_mps": -0.3042567405217653
+    },
+    {
+      "file": "drag_plus10_blocks-55_fine_full.json.gz",
+      "max_block_energy_residual_j": 7.945345714688301e-09,
+      "global_energy_residual_j": 2.000888343900442e-08,
+      "max_battery_error_j": 2.4156179279088974e-09,
+      "physical_pass": false,
+      "terminal_speed_error_mps": -0.3042567405217653
+    },
+    {
+      "file": "drag_plus10_blocks-55_fine_spread.json.gz",
+      "max_block_energy_residual_j": 1.2878444977104664e-08,
+      "global_energy_residual_j": 2.3566826712340117e-08,
+      "max_battery_error_j": 3.3760443329811096e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 2.842170943040401e-14
+    },
+    {
+      "file": "drag_plus10_blocks-55_fine_exit_boost.json.gz",
+      "max_block_energy_residual_j": 1.123407855629921e-08,
+      "global_energy_residual_j": -3.2399839255958796e-08,
+      "max_battery_error_j": 2.0954757928848267e-09,
+      "physical_pass": false,
+      "terminal_speed_error_mps": -0.3042567405217511
+    },
+    {
+      "file": "drag_plus10_blocks-55_fine_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 7.741618901491165e-09,
+      "global_energy_residual_j": -4.140019882470369e-09,
+      "max_battery_error_j": 3.5797711461782455e-09,
+      "physical_pass": false,
+      "terminal_speed_error_mps": -0.3042567405217653
+    },
+    {
+      "file": "drag_plus10_blocks-55_fine_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 1.0477378964424133e-08,
+      "global_energy_residual_j": -3.410241333767772e-08,
+      "max_battery_error_j": 2.6193447411060333e-09,
+      "physical_pass": false,
+      "terminal_speed_error_mps": -0.3042567405217653
+    },
+    {
+      "file": "drag_plus10_blocks-55_fine_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 8.076312951743603e-09,
+      "global_energy_residual_j": 5.107722245156765e-09,
+      "max_battery_error_j": 3.010541149706114e-09,
+      "physical_pass": false,
+      "terminal_speed_error_mps": -0.3042567405217653
+    },
+    {
+      "file": "lateral_minus10_blocks-55_coarse_zero.json.gz",
+      "max_block_energy_residual_j": 4.307366907596588e-09,
+      "global_energy_residual_j": -9.553332347422838e-09,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_minus10_blocks-55_coarse_half.json.gz",
+      "max_block_energy_residual_j": 7.799826562404633e-09,
+      "global_energy_residual_j": -4.773028194904327e-09,
+      "max_battery_error_j": 2.342858351767063e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_minus10_blocks-55_coarse_full.json.gz",
+      "max_block_energy_residual_j": 6.28642737865448e-09,
+      "global_energy_residual_j": -2.9598595574498177e-08,
+      "max_battery_error_j": 2.1245796233415604e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_minus10_blocks-55_coarse_spread.json.gz",
+      "max_block_energy_residual_j": 7.2177499532699585e-09,
+      "global_energy_residual_j": 6.148184183984995e-09,
+      "max_battery_error_j": 3.383320290595293e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_minus10_blocks-55_coarse_exit_boost.json.gz",
+      "max_block_energy_residual_j": 7.508788257837296e-09,
+      "global_energy_residual_j": 1.4857505448162556e-08,
+      "max_battery_error_j": 1.280568540096283e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_minus10_blocks-55_coarse_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 6.4319465309381485e-09,
+      "global_energy_residual_j": -1.7811544239521027e-08,
+      "max_battery_error_j": 2.1245796233415604e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_minus10_blocks-55_coarse_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 6.650225259363651e-09,
+      "global_energy_residual_j": -1.5890691429376602e-08,
+      "max_battery_error_j": 2.5029294192790985e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_minus10_blocks-55_coarse_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 7.683411240577698e-09,
+      "global_energy_residual_j": -1.9339495338499546e-08,
+      "max_battery_error_j": 1.4110810298006982e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_minus10_blocks-55_fine_zero.json.gz",
+      "max_block_energy_residual_j": 1.234002411365509e-08,
+      "global_energy_residual_j": -1.837179297581315e-08,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -1.4210854715202004e-14
+    },
+    {
+      "file": "lateral_minus10_blocks-55_fine_half.json.gz",
+      "max_block_energy_residual_j": 1.2209056876599789e-08,
+      "global_energy_residual_j": 1.5410478226840496e-08,
+      "max_battery_error_j": 2.1391315385699272e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_minus10_blocks-55_fine_full.json.gz",
+      "max_block_energy_residual_j": 1.2209056876599789e-08,
+      "global_energy_residual_j": -1.4537363313138485e-08,
+      "max_battery_error_j": 1.3969838619232178e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_minus10_blocks-55_fine_spread.json.gz",
+      "max_block_energy_residual_j": 8.381903171539307e-09,
+      "global_energy_residual_j": -2.6891939342021942e-08,
+      "max_battery_error_j": 5.711626727133989e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 5.684341886080802e-14
+    },
+    {
+      "file": "lateral_minus10_blocks-55_fine_exit_boost.json.gz",
+      "max_block_energy_residual_j": 1.100124791264534e-08,
+      "global_energy_residual_j": 4.068715497851372e-08,
+      "max_battery_error_j": 3.637978807091713e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_minus10_blocks-55_fine_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 1.2209056876599789e-08,
+      "global_energy_residual_j": -6.5847416408360004e-09,
+      "max_battery_error_j": 2.35741026699543e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_minus10_blocks-55_fine_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 1.2209056876599789e-08,
+      "global_energy_residual_j": 1.0586518328636885e-08,
+      "max_battery_error_j": 4.118192009627819e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_minus10_blocks-55_fine_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 1.2209056876599789e-08,
+      "global_energy_residual_j": 1.3489625416696072e-08,
+      "max_battery_error_j": 2.764863893389702e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_plus10_blocks-55_coarse_zero.json.gz",
+      "max_block_energy_residual_j": 5.966285243630409e-09,
+      "global_energy_residual_j": 1.8175342120230198e-08,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_plus10_blocks-55_coarse_half.json.gz",
+      "max_block_energy_residual_j": 6.199115887284279e-09,
+      "global_energy_residual_j": -1.6276317182928324e-08,
+      "max_battery_error_j": 2.342858351767063e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_plus10_blocks-55_coarse_full.json.gz",
+      "max_block_energy_residual_j": 4.6566128730773926e-09,
+      "global_energy_residual_j": -3.157765604555607e-08,
+      "max_battery_error_j": 2.1245796233415604e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_plus10_blocks-55_coarse_spread.json.gz",
+      "max_block_energy_residual_j": 7.683411240577698e-09,
+      "global_energy_residual_j": -3.965396899729967e-09,
+      "max_battery_error_j": 2.0572770154103637e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -1.4210854715202004e-14
+    },
+    {
+      "file": "lateral_plus10_blocks-55_coarse_exit_boost.json.gz",
+      "max_block_energy_residual_j": 6.7229848355054855e-09,
+      "global_energy_residual_j": -2.1042069420218468e-08,
+      "max_battery_error_j": 2.5320332497358322e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_plus10_blocks-55_coarse_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 3.790773916989565e-09,
+      "global_energy_residual_j": -2.444721758365631e-09,
+      "max_battery_error_j": 2.852175384759903e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_plus10_blocks-55_coarse_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 4.700268618762493e-09,
+      "global_energy_residual_j": -9.604264050722122e-09,
+      "max_battery_error_j": 1.1932570487260818e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_plus10_blocks-55_coarse_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 4.6566128730773926e-09,
+      "global_energy_residual_j": 4.896719474345446e-09,
+      "max_battery_error_j": 2.9976945370435715e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_plus10_blocks-55_fine_zero.json.gz",
+      "max_block_energy_residual_j": 1.04482751339674e-08,
+      "global_energy_residual_j": -2.4367182049900293e-08,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 2.842170943040401e-14
+    },
+    {
+      "file": "lateral_plus10_blocks-55_fine_half.json.gz",
+      "max_block_energy_residual_j": 1.2078089639544487e-08,
+      "global_energy_residual_j": 2.068554749712348e-08,
+      "max_battery_error_j": 3.6088749766349792e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_plus10_blocks-55_fine_full.json.gz",
+      "max_block_energy_residual_j": 1.1059455573558807e-08,
+      "global_energy_residual_j": -8.774804882705212e-09,
+      "max_battery_error_j": 1.6589183360338211e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_plus10_blocks-55_fine_spread.json.gz",
+      "max_block_energy_residual_j": 1.437729224562645e-08,
+      "global_energy_residual_j": -2.3122993297874928e-08,
+      "max_battery_error_j": 5.598849384114146e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 1.2789769243681803e-13
+    },
+    {
+      "file": "lateral_plus10_blocks-55_fine_exit_boost.json.gz",
+      "max_block_energy_residual_j": 1.04482751339674e-08,
+      "global_energy_residual_j": -1.8611899577081203e-08,
+      "max_battery_error_j": 3.521563485264778e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_plus10_blocks-55_fine_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 1.1059455573558807e-08,
+      "global_energy_residual_j": -1.3278622645884752e-08,
+      "max_battery_error_j": 2.270098775625229e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_plus10_blocks-55_fine_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 1.1059455573558807e-08,
+      "global_energy_residual_j": -8.294591680169106e-10,
+      "max_battery_error_j": 2.1827872842550278e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "lateral_plus10_blocks-55_fine_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 1.1059455573558807e-08,
+      "global_energy_residual_j": -8.527422323822975e-09,
+      "max_battery_error_j": 2.444721758365631e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "smoothing5_blocks-55_coarse_zero.json.gz",
+      "max_block_energy_residual_j": 5.675246939063072e-09,
+      "global_energy_residual_j": 1.8895661924034357e-08,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "smoothing5_blocks-55_coarse_half.json.gz",
+      "max_block_energy_residual_j": 7.566995918750763e-09,
+      "global_energy_residual_j": -1.0179064702242613e-08,
+      "max_battery_error_j": 3.2741809263825417e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "smoothing5_blocks-55_coarse_full.json.gz",
+      "max_block_energy_residual_j": 6.79574441164732e-09,
+      "global_energy_residual_j": 4.103640094399452e-09,
+      "max_battery_error_j": 1.1641532182693481e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "smoothing5_blocks-55_coarse_spread.json.gz",
+      "max_block_energy_residual_j": 7.2177499532699585e-09,
+      "global_energy_residual_j": 8.381903171539307e-09,
+      "max_battery_error_j": 3.194145392626524e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "smoothing5_blocks-55_coarse_exit_boost.json.gz",
+      "max_block_energy_residual_j": 5.77711034566164e-09,
+      "global_energy_residual_j": 2.3370375856757164e-08,
+      "max_battery_error_j": 2.270098775625229e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "smoothing5_blocks-55_coarse_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 8.381903171539307e-09,
+      "global_energy_residual_j": -5.369656719267368e-09,
+      "max_battery_error_j": 2.9685907065868378e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "smoothing5_blocks-55_coarse_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 6.79574441164732e-09,
+      "global_energy_residual_j": 2.1595042198896408e-08,
+      "max_battery_error_j": 1.8044374883174896e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "smoothing5_blocks-55_coarse_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 6.79574441164732e-09,
+      "global_energy_residual_j": 1.183070708066225e-08,
+      "max_battery_error_j": 1.6152625903487206e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "smoothing5_blocks-55_fine_zero.json.gz",
+      "max_block_energy_residual_j": 6.6356733441352844e-09,
+      "global_energy_residual_j": 1.0622898116707802e-08,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "smoothing5_blocks-55_fine_half.json.gz",
+      "max_block_energy_residual_j": 9.080395102500916e-09,
+      "global_energy_residual_j": -4.338653525337577e-08,
+      "max_battery_error_j": 3.958120942115784e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "smoothing5_blocks-55_fine_full.json.gz",
+      "max_block_energy_residual_j": 9.080395102500916e-09,
+      "global_energy_residual_j": -1.717853592708707e-08,
+      "max_battery_error_j": 2.066371962428093e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "smoothing5_blocks-55_fine_spread.json.gz",
+      "max_block_energy_residual_j": 7.232301868498325e-09,
+      "global_energy_residual_j": -1.0855728760361671e-08,
+      "max_battery_error_j": 3.332388587296009e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "file": "smoothing5_blocks-55_fine_exit_boost.json.gz",
+      "max_block_energy_residual_j": 1.280568540096283e-08,
+      "global_energy_residual_j": 3.055902197957039e-09,
+      "max_battery_error_j": 1.862645149230957e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -2.842170943040401e-14
+    },
+    {
+      "file": "smoothing5_blocks-55_fine_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 7.974449545145035e-09,
+      "global_energy_residual_j": 1.5796103980392218e-08,
+      "max_battery_error_j": 1.949956640601158e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "smoothing5_blocks-55_fine_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 8.789356797933578e-09,
+      "global_energy_residual_j": 1.4770193956792355e-09,
+      "max_battery_error_j": 3.3032847568392754e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "smoothing5_blocks-55_fine_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 9.080395102500916e-09,
+      "global_energy_residual_j": -1.2129021342843771e-08,
+      "max_battery_error_j": 2.240994945168495e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 0.0
+    },
+    {
+      "file": "smoothing20_blocks-55_coarse_zero.json.gz",
+      "max_block_energy_residual_j": 7.712515071034431e-09,
+      "global_energy_residual_j": 1.05355866253376e-08,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "file": "smoothing20_blocks-55_coarse_half.json.gz",
+      "max_block_energy_residual_j": 5.180481821298599e-09,
+      "global_energy_residual_j": -1.8131686374545097e-08,
+      "max_battery_error_j": 3.521563485264778e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 2.842170943040401e-14
+    },
+    {
+      "file": "smoothing20_blocks-55_coarse_full.json.gz",
+      "max_block_energy_residual_j": 5.180481821298599e-09,
+      "global_energy_residual_j": -1.6574631445109844e-08,
+      "max_battery_error_j": 2.9103830456733704e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 2.842170943040401e-14
+    },
+    {
+      "file": "smoothing20_blocks-55_coarse_spread.json.gz",
+      "max_block_energy_residual_j": 5.122274160385132e-09,
+      "global_energy_residual_j": 1.1496013030409813e-09,
+      "max_battery_error_j": 2.5938788894563913e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 4.263256414560601e-14
+    },
+    {
+      "file": "smoothing20_blocks-55_coarse_exit_boost.json.gz",
+      "max_block_energy_residual_j": 6.9267116487026215e-09,
+      "global_energy_residual_j": 1.7214915715157986e-08,
+      "max_battery_error_j": 1.3387762010097504e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "file": "smoothing20_blocks-55_coarse_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 6.111804395914078e-09,
+      "global_energy_residual_j": 4.219327820464969e-08,
+      "max_battery_error_j": 1.6589183360338211e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "file": "smoothing20_blocks-55_coarse_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 5.73345459997654e-09,
+      "global_energy_residual_j": 3.1359377317130566e-08,
+      "max_battery_error_j": 9.313225746154785e-10,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "file": "smoothing20_blocks-55_coarse_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 5.326000973582268e-09,
+      "global_energy_residual_j": -2.4185283109545708e-08,
+      "max_battery_error_j": 3.810669113590848e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 2.842170943040401e-14
+    },
+    {
+      "file": "smoothing20_blocks-55_fine_zero.json.gz",
+      "max_block_energy_residual_j": 6.51925802230835e-09,
+      "global_energy_residual_j": -2.1464074961841106e-09,
+      "max_battery_error_j": 0.0,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 2.842170943040401e-14
+    },
+    {
+      "file": "smoothing20_blocks-55_fine_half.json.gz",
+      "max_block_energy_residual_j": 9.022187441587448e-09,
+      "global_energy_residual_j": 1.2500095181167126e-08,
+      "max_battery_error_j": 5.3551048040390015e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 4.263256414560601e-14
+    },
+    {
+      "file": "smoothing20_blocks-55_fine_full.json.gz",
+      "max_block_energy_residual_j": 9.022187441587448e-09,
+      "global_energy_residual_j": 1.979060471057892e-09,
+      "max_battery_error_j": 2.9976945370435715e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 4.263256414560601e-14
+    },
+    {
+      "file": "smoothing20_blocks-55_fine_spread.json.gz",
+      "max_block_energy_residual_j": 8.541974239051342e-09,
+      "global_energy_residual_j": -2.8594513423740864e-08,
+      "max_battery_error_j": 2.9976945370435715e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": -4.263256414560601e-14
+    },
+    {
+      "file": "smoothing20_blocks-55_fine_exit_boost.json.gz",
+      "max_block_energy_residual_j": 5.413312464952469e-09,
+      "global_energy_residual_j": -9.866198524832726e-09,
+      "max_battery_error_j": 3.550667315721512e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 4.263256414560601e-14
+    },
+    {
+      "file": "smoothing20_blocks-55_fine_ppo_seed0.json.gz",
+      "max_block_energy_residual_j": 6.752088665962219e-09,
+      "global_energy_residual_j": -2.796878106892109e-08,
+      "max_battery_error_j": 1.4551915228366852e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 4.263256414560601e-14
+    },
+    {
+      "file": "smoothing20_blocks-55_fine_ppo_seed1.json.gz",
+      "max_block_energy_residual_j": 8.207280188798904e-09,
+      "global_energy_residual_j": -1.733133103698492e-08,
+      "max_battery_error_j": 4.409230314195156e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 4.263256414560601e-14
+    },
+    {
+      "file": "smoothing20_blocks-55_fine_ppo_seed2.json.gz",
+      "max_block_energy_residual_j": 1.0870280675590038e-08,
+      "global_energy_residual_j": -2.8572685550898314e-08,
+      "max_battery_error_j": 2.0081643015146255e-09,
+      "physical_pass": true,
+      "terminal_speed_error_mps": 4.263256414560601e-14
+    }
+  ]
+}

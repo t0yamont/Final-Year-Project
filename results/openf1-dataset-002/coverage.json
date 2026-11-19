@@ -1,0 +1,2597 @@
+{
+  "plan_id": "openf1-2025-eight-events-v1",
+  "expected_sessions": 38,
+  "completed_sessions": 35,
+  "pending_session_keys": [
+    9942,
+    9966,
+    10000
+  ],
+  "scope": "Acquisition and screening only; no model evaluation",
+  "native_car_rows": 999326,
+  "lap_count": 2027,
+  "conditional_motion_candidates": 537,
+  "sessions": [
+    {
+      "session_key": 10001,
+      "meeting_key": 1256,
+      "event": "Japan",
+      "role": "development",
+      "session_name": "Practice 3",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 21,
+          "native_car_rows": 11406,
+          "aligned_car_rows": 5791,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 15,
+          "conditional_motion_candidates": 8,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 6,
+            "gap_missing_or_over_limit": 13,
+            "lap_edge_coverage_missing_or_over_limit": 6,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 6,
+            "rain_reported_or_unknown": 6,
+            "stint_unknown_or_ambiguous": 6,
+            "wet_or_unknown_tyre_compound": 6,
+            "pit_activity_reported": 2
+          },
+          "outputs": {
+            "driver-1-laps.json": "2302a0fd5d3d405f4b82a7ed5db6595b2eb6651b32f941872c67cef3476c1faa",
+            "driver-1-car.csv.gz": "ab2b2ed1628372025e75fd82234f31af892eac71b9e11d41ef4bbc2466985401"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 15,
+          "native_car_rows": 10266,
+          "aligned_car_rows": 3918,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 9,
+          "conditional_motion_candidates": 5,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 6,
+            "gap_missing_or_over_limit": 10,
+            "lap_edge_coverage_missing_or_over_limit": 6,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 6,
+            "rain_reported_or_unknown": 6,
+            "stint_unknown_or_ambiguous": 6,
+            "wet_or_unknown_tyre_compound": 6,
+            "pit_activity_reported": 4
+          },
+          "outputs": {
+            "driver-22-laps.json": "ef866ba333f5c38f775f5dd4ec698e8d84fc8bc886ca5839cdb8ec8739480566",
+            "driver-22-car.csv.gz": "e3657822efe4af8555f4aafbff14d27008659effa05141bb2393abec3dc6b391"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:01:08.281073+00:00",
+      "outputs": {
+        "context.json": "211a93c883a44a8400219942250e38b4843fed94af887e9ae677fbdcb8ea6b2c",
+        "driver-1-car.csv.gz": "ab2b2ed1628372025e75fd82234f31af892eac71b9e11d41ef4bbc2466985401",
+        "driver-1-complete.json": "10158cf4b0e194e9c95b9a5301fda6973c83a12a51f283752d267cc24d5815f7",
+        "driver-1-laps.json": "2302a0fd5d3d405f4b82a7ed5db6595b2eb6651b32f941872c67cef3476c1faa",
+        "driver-22-car.csv.gz": "e3657822efe4af8555f4aafbff14d27008659effa05141bb2393abec3dc6b391",
+        "driver-22-complete.json": "67a85b8e67171b0ce717042127376bada81a11252ecd4100fe634bfbbe165ad8",
+        "driver-22-laps.json": "ef866ba333f5c38f775f5dd4ec698e8d84fc8bc886ca5839cdb8ec8739480566",
+        "requests.json": "19a683471e42a4f47131c3cd3c4437989c11eb3150edb0f0e872c2f675e0bb4a"
+      }
+    },
+    {
+      "session_key": 10002,
+      "meeting_key": 1256,
+      "event": "Japan",
+      "role": "development",
+      "session_name": "Qualifying",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 17,
+          "native_car_rows": 14693,
+          "aligned_car_rows": 4176,
+          "position_rows": 15064,
+          "motion_qc_pass_laps": 11,
+          "conditional_motion_candidates": 0,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 6,
+            "gap_missing_or_over_limit": 14,
+            "lap_edge_coverage_missing_or_over_limit": 6,
+            "pit_out_or_unknown": 6,
+            "weather_missing_stale_or_ambiguous": 6,
+            "rain_reported_or_unknown": 6,
+            "stint_unknown_or_ambiguous": 6,
+            "wet_or_unknown_tyre_compound": 6,
+            "pit_activity_reported": 6
+          },
+          "outputs": {
+            "driver-1-laps.json": "72522974191b8473e994984b71eedebc81f3515aaa809157189934a2bed6e9d9",
+            "driver-1-car.csv.gz": "182312ac3bd4cfc6042a9567b8d296b2da085d266ebcbba4432500c84a54c003",
+            "driver-1-position.csv.gz": "060c980105e9f034ba7870b3572764c152b06b3c65125e38a83ab55ff8a7a4f4"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 12,
+          "native_car_rows": 11333,
+          "aligned_car_rows": 3137,
+          "position_rows": 11630,
+          "motion_qc_pass_laps": 8,
+          "conditional_motion_candidates": 1,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 4,
+            "gap_missing_or_over_limit": 9,
+            "lap_edge_coverage_missing_or_over_limit": 4,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4,
+            "pit_activity_reported": 4
+          },
+          "outputs": {
+            "driver-22-laps.json": "4ce260351c95952b775a1c2d6cebf42a2f2249ed3357a2bcafc1c10c7d87d44c",
+            "driver-22-car.csv.gz": "25b2530e4eb4c34bf38e2714f122c86049ba7b803d0051274a7643022385a0fa",
+            "driver-22-position.csv.gz": "41820478491481f32dfd928a5fc7c3c7348e109fc498e0efeacf1de7c962bfcc"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:02:00.760622+00:00",
+      "outputs": {
+        "context.json": "f2978415718b3197b76ed9cfb0d0cf895e707a04492f1a563568ebcebfadcdcc",
+        "driver-1-car.csv.gz": "182312ac3bd4cfc6042a9567b8d296b2da085d266ebcbba4432500c84a54c003",
+        "driver-1-complete.json": "e309fed0df9940c38dbf571c13d221192c528ee634116c99b7b266f1286a75eb",
+        "driver-1-laps.json": "72522974191b8473e994984b71eedebc81f3515aaa809157189934a2bed6e9d9",
+        "driver-1-position.csv.gz": "060c980105e9f034ba7870b3572764c152b06b3c65125e38a83ab55ff8a7a4f4",
+        "driver-22-car.csv.gz": "25b2530e4eb4c34bf38e2714f122c86049ba7b803d0051274a7643022385a0fa",
+        "driver-22-complete.json": "2548bbdc191a3f31c44eb9375fbb98c0d5b30b288584e3c5edb26acf434db44e",
+        "driver-22-laps.json": "4ce260351c95952b775a1c2d6cebf42a2f2249ed3357a2bcafc1c10c7d87d44c",
+        "driver-22-position.csv.gz": "41820478491481f32dfd928a5fc7c3c7348e109fc498e0efeacf1de7c962bfcc",
+        "requests.json": "abd52be35ba98a9f95ff9c188504a56f9c0eb41954a0f93c24991e90842c9973"
+      }
+    },
+    {
+      "session_key": 10006,
+      "meeting_key": 1256,
+      "event": "Japan",
+      "role": "development",
+      "session_name": "Race",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 53,
+          "native_car_rows": 18403,
+          "aligned_car_rows": 17966,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 52,
+          "conditional_motion_candidates": 19,
+          "exclusion_counts": {
+            "gap_missing_or_over_limit": 33,
+            "pit_activity_reported": 1,
+            "native_motion_qc_failed": 1,
+            "lap_edge_coverage_missing_or_over_limit": 1,
+            "pit_out_or_unknown": 1,
+            "weather_missing_stale_or_ambiguous": 1,
+            "rain_reported_or_unknown": 1,
+            "stint_unknown_or_ambiguous": 1,
+            "wet_or_unknown_tyre_compound": 1
+          },
+          "outputs": {
+            "driver-1-laps.json": "6535b6ac208216ffefcdb8813bdf30b0c11bafc8cf145dc24eec6fc5721a1dfa",
+            "driver-1-car.csv.gz": "1a78a54735b0bd576f84c4073fd1bc4b023d76ebbe07e25db25800402e32009a"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 53,
+          "native_car_rows": 18611,
+          "aligned_car_rows": 18174,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 52,
+          "conditional_motion_candidates": 17,
+          "exclusion_counts": {
+            "gap_missing_or_over_limit": 34,
+            "lap_edge_coverage_missing_or_over_limit": 3,
+            "pit_activity_reported": 1,
+            "native_motion_qc_failed": 1,
+            "pit_out_or_unknown": 1,
+            "weather_missing_stale_or_ambiguous": 1,
+            "rain_reported_or_unknown": 1,
+            "stint_unknown_or_ambiguous": 1,
+            "wet_or_unknown_tyre_compound": 1
+          },
+          "outputs": {
+            "driver-22-laps.json": "1eea6ee2933e2105ca702c91c3ad410165f3dc8f22e8d3e270d6a55a2606d084",
+            "driver-22-car.csv.gz": "54b846d43950687e81e4493378d26b581748ac584350da3d2ff7e3c35667352f"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:02:41.178233+00:00",
+      "outputs": {
+        "context.json": "c501720c152d8c267b9cdfa3336a5fc76d03b49de65db25a7e8d5bcb298e9c5f",
+        "driver-1-car.csv.gz": "1a78a54735b0bd576f84c4073fd1bc4b023d76ebbe07e25db25800402e32009a",
+        "driver-1-complete.json": "35343197efc96e3f6121f8aa95d51a3bdd0e2e15f7cf063a8f55723467f96b81",
+        "driver-1-laps.json": "6535b6ac208216ffefcdb8813bdf30b0c11bafc8cf145dc24eec6fc5721a1dfa",
+        "driver-22-car.csv.gz": "54b846d43950687e81e4493378d26b581748ac584350da3d2ff7e3c35667352f",
+        "driver-22-complete.json": "f223784235ef3acdb248f17e17d4f61655802125d32034d3d8a69b5e8b58d3a9",
+        "driver-22-laps.json": "1eea6ee2933e2105ca702c91c3ad410165f3dc8f22e8d3e270d6a55a2606d084",
+        "requests.json": "bc95ea45e9ea0607d5368a369a57690b1329d4e8d44452e93ece74518da923ca"
+      }
+    },
+    {
+      "session_key": 9999,
+      "meeting_key": 1256,
+      "event": "Japan",
+      "role": "development",
+      "session_name": "Practice 1",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 23,
+          "native_car_rows": 14046,
+          "aligned_car_rows": 7783,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 17,
+          "conditional_motion_candidates": 8,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 6,
+            "gap_missing_or_over_limit": 12,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4,
+            "pit_activity_reported": 4
+          },
+          "outputs": {
+            "driver-1-laps.json": "e907625a296f38711e5ecdb6a8366c34325c58ce6193e19268d16f318beaf98b",
+            "driver-1-car.csv.gz": "29ee50e9cc235650fc9d2f19931577e04db1771d85bd008b6da6f779525d5c16"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 25,
+          "native_car_rows": 14169,
+          "aligned_car_rows": 9802,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 22,
+          "conditional_motion_candidates": 11,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 3,
+            "gap_missing_or_over_limit": 12,
+            "lap_edge_coverage_missing_or_over_limit": 3,
+            "pit_out_or_unknown": 3,
+            "weather_missing_stale_or_ambiguous": 3,
+            "rain_reported_or_unknown": 3,
+            "stint_unknown_or_ambiguous": 3,
+            "wet_or_unknown_tyre_compound": 3,
+            "pit_activity_reported": 3
+          },
+          "outputs": {
+            "driver-22-laps.json": "6e19141df658a51961d19367635b08705247e4d9d62a7ceca595d1592ea8d1f3",
+            "driver-22-car.csv.gz": "ef8172772979b87d8183dd648feb7dcdd9eeffa6574b0106580cfd05cf361a3d"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:00:17.802462+00:00",
+      "outputs": {
+        "context.json": "9643ba9eaa95c32e3ad4c8500b4b45c9a20df9c1e954ee855546d15f720aa0e3",
+        "driver-1-car.csv.gz": "29ee50e9cc235650fc9d2f19931577e04db1771d85bd008b6da6f779525d5c16",
+        "driver-1-complete.json": "9afbb011bab472c93cac244ce096be4a27da454ce2ad9bbba4ca6640f314b454",
+        "driver-1-laps.json": "e907625a296f38711e5ecdb6a8366c34325c58ce6193e19268d16f318beaf98b",
+        "driver-22-car.csv.gz": "ef8172772979b87d8183dd648feb7dcdd9eeffa6574b0106580cfd05cf361a3d",
+        "driver-22-complete.json": "84e1270e529a085b8292869ed102bf3425323de125e65a2947898e05ea391815",
+        "driver-22-laps.json": "6e19141df658a51961d19367635b08705247e4d9d62a7ceca595d1592ea8d1f3",
+        "requests.json": "35bb48a27f3c896cc8522e56ca9dfdd038215290f4565879e3ac2d8ec12642d1"
+      }
+    },
+    {
+      "session_key": 10007,
+      "meeting_key": 1257,
+      "event": "Bahrain",
+      "role": "development",
+      "session_name": "Practice 1",
+      "drivers": [
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 23,
+          "native_car_rows": 13855,
+          "aligned_car_rows": 8860,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 19,
+          "conditional_motion_candidates": 6,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 4,
+            "gap_missing_or_over_limit": 16,
+            "lap_edge_coverage_missing_or_over_limit": 4,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4,
+            "flag_reported": 1,
+            "pit_activity_reported": 4
+          },
+          "outputs": {
+            "driver-22-laps.json": "fe56fcae76db8aebeaa87cbdcd0e1445eaf5012d37087ee3d1fec06ef02729c9",
+            "driver-22-car.csv.gz": "030ffdc3417a80ac59955ecf2970d7b4deb1c3479552797e4c352dd97073009b"
+          }
+        },
+        {
+          "driver_number": 37,
+          "driver_name": "Ayumu IWASA",
+          "team": "Red Bull Racing",
+          "lap_count": 20,
+          "native_car_rows": 12936,
+          "aligned_car_rows": 6729,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 15,
+          "conditional_motion_candidates": 2,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 17,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 5,
+            "rain_reported_or_unknown": 5,
+            "stint_unknown_or_ambiguous": 5,
+            "wet_or_unknown_tyre_compound": 5,
+            "pit_activity_reported": 5
+          },
+          "outputs": {
+            "driver-37-laps.json": "2066ada01c9843fca60f5a4c7fd15b9732059f9e49ea1a71e7e6c8ccee41f1f7",
+            "driver-37-car.csv.gz": "14e0cf076c3452e53c3edd1e31381ad95e1aafc16d7ef1295e8b8283e5f27d9e"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T21:51:37.309897+00:00",
+      "outputs": {
+        "context.json": "c3a4d3013674c264b7f19155008fb17a76c0839413cc90a4ab79183e40896005",
+        "driver-22-car.csv.gz": "030ffdc3417a80ac59955ecf2970d7b4deb1c3479552797e4c352dd97073009b",
+        "driver-22-complete.json": "f2ccae982612cd7d805de6cf0baf4b44848fd295947d211ec93c3533262039f9",
+        "driver-22-laps.json": "fe56fcae76db8aebeaa87cbdcd0e1445eaf5012d37087ee3d1fec06ef02729c9",
+        "driver-37-car.csv.gz": "14e0cf076c3452e53c3edd1e31381ad95e1aafc16d7ef1295e8b8283e5f27d9e",
+        "driver-37-complete.json": "92eacfd8619f91e7059298d162b7379670a3540c4e1f12dfaaeff89581c025f2",
+        "driver-37-laps.json": "2066ada01c9843fca60f5a4c7fd15b9732059f9e49ea1a71e7e6c8ccee41f1f7",
+        "requests.json": "f6f5d920e5ada14a00ea79dbcb5ab5f5ec1c8c6903018315c592219747c4b718"
+      }
+    },
+    {
+      "session_key": 10008,
+      "meeting_key": 1257,
+      "event": "Bahrain",
+      "role": "development",
+      "session_name": "Practice 2",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 27,
+          "native_car_rows": 13933,
+          "aligned_car_rows": 9776,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 24,
+          "conditional_motion_candidates": 9,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 3,
+            "gap_missing_or_over_limit": 18,
+            "lap_edge_coverage_missing_or_over_limit": 3,
+            "pit_out_or_unknown": 3,
+            "weather_missing_stale_or_ambiguous": 3,
+            "rain_reported_or_unknown": 3,
+            "stint_unknown_or_ambiguous": 3,
+            "wet_or_unknown_tyre_compound": 3,
+            "pit_activity_reported": 3
+          },
+          "outputs": {
+            "driver-1-laps.json": "506108519d8cab8a4b5f710c866deb86550d94122acfd2a2d1dceaabe9948237",
+            "driver-1-car.csv.gz": "086821c80e84f4018d05b4db81d79704791b24a69abf0325413215d81330a4b6"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 25,
+          "native_car_rows": 14312,
+          "aligned_car_rows": 8789,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 20,
+          "conditional_motion_candidates": 9,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 16,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4,
+            "pit_activity_reported": 4,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-22-laps.json": "6c641e3b169ec5d5d8f1f64f40d9885c65882587fcdaf13ebf6871ee7a7d5b22",
+            "driver-22-car.csv.gz": "2e248cdadbbc7a4befcbf09f439469a83b9676e0d1c1d655b40003c9ed2fc2c9"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T21:52:12.784697+00:00",
+      "outputs": {
+        "context.json": "d93cafa6198c99b8e7e58614ac9d8a6107ac6e49482cb21fad730587cc0c0958",
+        "driver-1-car.csv.gz": "086821c80e84f4018d05b4db81d79704791b24a69abf0325413215d81330a4b6",
+        "driver-1-complete.json": "b536f713ae09468f308f5cabd90f9fa702df24855e82b81f54a5719041cf5a11",
+        "driver-1-laps.json": "506108519d8cab8a4b5f710c866deb86550d94122acfd2a2d1dceaabe9948237",
+        "driver-22-car.csv.gz": "2e248cdadbbc7a4befcbf09f439469a83b9676e0d1c1d655b40003c9ed2fc2c9",
+        "driver-22-complete.json": "7ab1b82a00899705e8d86420206439e667150c814957686fb7898b57410dc712",
+        "driver-22-laps.json": "6c641e3b169ec5d5d8f1f64f40d9885c65882587fcdaf13ebf6871ee7a7d5b22",
+        "requests.json": "0d9048a9452a44687757605c79a888be8cfe57e6b73c5aa10905f1ee9929099e"
+      }
+    },
+    {
+      "session_key": 10009,
+      "meeting_key": 1257,
+      "event": "Bahrain",
+      "role": "development",
+      "session_name": "Practice 3",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 13,
+          "native_car_rows": 10399,
+          "aligned_car_rows": 4011,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 8,
+          "conditional_motion_candidates": 1,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 11,
+            "lap_edge_coverage_missing_or_over_limit": 4,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4,
+            "pit_activity_reported": 4,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-1-laps.json": "8c05fc439f4deccb47459839cf3de2e1601cb39a1f509b624cb005331ba312ab",
+            "driver-1-car.csv.gz": "d3878dfb7115e0efde0eaf4131b9ed1c7916b95dd8e1ce4e369397df04ec4033"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 15,
+          "native_car_rows": 10854,
+          "aligned_car_rows": 4772,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 10,
+          "conditional_motion_candidates": 1,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 12,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 5,
+            "rain_reported_or_unknown": 5,
+            "stint_unknown_or_ambiguous": 5,
+            "wet_or_unknown_tyre_compound": 5,
+            "pit_activity_reported": 4
+          },
+          "outputs": {
+            "driver-22-laps.json": "b4ed33d7406c49c2377fe64818243052524246d80bb58526b865aad50fb670bc",
+            "driver-22-car.csv.gz": "132d87fed8c7e74ce2b4798e6cf9184650149c13834f4f649702fcad941724da"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T21:52:44.276726+00:00",
+      "outputs": {
+        "context.json": "791c99c640e3315b6dd9f5974719965aac25bc1cf289e2b6e5cf69d297f29cb6",
+        "driver-1-car.csv.gz": "d3878dfb7115e0efde0eaf4131b9ed1c7916b95dd8e1ce4e369397df04ec4033",
+        "driver-1-complete.json": "a2eccfcf9b35ade269747be33e73344d59573a57cfae4d5e058412d925f4e2fb",
+        "driver-1-laps.json": "8c05fc439f4deccb47459839cf3de2e1601cb39a1f509b624cb005331ba312ab",
+        "driver-22-car.csv.gz": "132d87fed8c7e74ce2b4798e6cf9184650149c13834f4f649702fcad941724da",
+        "driver-22-complete.json": "eadd5dc04c6fd744feca4493d392d3de7b2fab7cc3766a15d7771ea7fd05f4c2",
+        "driver-22-laps.json": "b4ed33d7406c49c2377fe64818243052524246d80bb58526b865aad50fb670bc",
+        "requests.json": "cd4815ccdccb15b021e6003dd4e024aa09b02ca66e15b424ee2b32b0bbac771e"
+      }
+    },
+    {
+      "session_key": 10010,
+      "meeting_key": 1257,
+      "event": "Bahrain",
+      "role": "development",
+      "session_name": "Qualifying",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 17,
+          "native_car_rows": 14981,
+          "aligned_car_rows": 3381,
+          "position_rows": 15408,
+          "motion_qc_pass_laps": 9,
+          "conditional_motion_candidates": 3,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 8,
+            "gap_missing_or_over_limit": 11,
+            "lap_edge_coverage_missing_or_over_limit": 8,
+            "pit_out_or_unknown": 7,
+            "weather_missing_stale_or_ambiguous": 8,
+            "rain_reported_or_unknown": 8,
+            "stint_unknown_or_ambiguous": 8,
+            "wet_or_unknown_tyre_compound": 8,
+            "pit_activity_reported": 5
+          },
+          "outputs": {
+            "driver-1-laps.json": "ab83bde6dd7d6614b30f72291100540b1627f5ddfb883cd94ddc5575bd0eff6f",
+            "driver-1-car.csv.gz": "6547f72f5c4899272d729a4d70bc5c3ebead36a814e4b380a638890c3b479260",
+            "driver-1-position.csv.gz": "a4e7691d859b762417b99923e37a05f20eadbba409198b04534dc146fd35899d"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 17,
+          "native_car_rows": 14462,
+          "aligned_car_rows": 3468,
+          "position_rows": 14873,
+          "motion_qc_pass_laps": 9,
+          "conditional_motion_candidates": 3,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 8,
+            "gap_missing_or_over_limit": 13,
+            "lap_edge_coverage_missing_or_over_limit": 8,
+            "pit_out_or_unknown": 6,
+            "weather_missing_stale_or_ambiguous": 8,
+            "rain_reported_or_unknown": 8,
+            "stint_unknown_or_ambiguous": 8,
+            "wet_or_unknown_tyre_compound": 8,
+            "pit_activity_reported": 4
+          },
+          "outputs": {
+            "driver-22-laps.json": "98e1c7a62ae99c2a08af5b0e8d3c084de05038421f75802d473421bd611e19dd",
+            "driver-22-car.csv.gz": "69481423b25a6c72a11782a7fb30f00005271de175403e1e7181a35eb858efdf",
+            "driver-22-position.csv.gz": "df8547f4e9f5260d6730f500030c47a79ea635826874cd5b90cb198aed400633"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T21:53:39.208964+00:00",
+      "outputs": {
+        "context.json": "1fdb437d2ad70fa5da981f6e423bc6c64f03121690d132124a80742729cbed55",
+        "driver-1-car.csv.gz": "6547f72f5c4899272d729a4d70bc5c3ebead36a814e4b380a638890c3b479260",
+        "driver-1-complete.json": "ffe2b8d8cf49bae7954f5df492bd5fd7afb4f6b49097b1b445d56f1cd4d0ace4",
+        "driver-1-laps.json": "ab83bde6dd7d6614b30f72291100540b1627f5ddfb883cd94ddc5575bd0eff6f",
+        "driver-1-position.csv.gz": "a4e7691d859b762417b99923e37a05f20eadbba409198b04534dc146fd35899d",
+        "driver-22-car.csv.gz": "69481423b25a6c72a11782a7fb30f00005271de175403e1e7181a35eb858efdf",
+        "driver-22-complete.json": "6bda493aecdcffa497954a4742d80e64357831588a1ca413df2d6419eff5cd53",
+        "driver-22-laps.json": "98e1c7a62ae99c2a08af5b0e8d3c084de05038421f75802d473421bd611e19dd",
+        "driver-22-position.csv.gz": "df8547f4e9f5260d6730f500030c47a79ea635826874cd5b90cb198aed400633",
+        "requests.json": "22e895d51193da6425a900f1ec90a1efd30c8da4a9261c41ec7098be35215403"
+      }
+    },
+    {
+      "session_key": 10014,
+      "meeting_key": 1257,
+      "event": "Bahrain",
+      "role": "development",
+      "session_name": "Race",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 57,
+          "native_car_rows": 21440,
+          "aligned_car_rows": 20530,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 55,
+          "conditional_motion_candidates": 24,
+          "exclusion_counts": {
+            "gap_missing_or_over_limit": 30,
+            "pit_activity_reported": 2,
+            "native_motion_qc_failed": 2,
+            "lap_edge_coverage_missing_or_over_limit": 2,
+            "pit_out_or_unknown": 2,
+            "weather_missing_stale_or_ambiguous": 2,
+            "rain_reported_or_unknown": 2,
+            "stint_unknown_or_ambiguous": 2,
+            "wet_or_unknown_tyre_compound": 2,
+            "flag_reported": 2
+          },
+          "outputs": {
+            "driver-1-laps.json": "35e963a91b882efa83f8a5b34834e1cd7f5c6b094665c5e0f794d2596d77d10d",
+            "driver-1-car.csv.gz": "f67228927f932b7960eb723ef99c30f0f576d17f79100df4ceee7062207ac89d"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 57,
+          "native_car_rows": 21479,
+          "aligned_car_rows": 20456,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 55,
+          "conditional_motion_candidates": 25,
+          "exclusion_counts": {
+            "gap_missing_or_over_limit": 30,
+            "pit_activity_reported": 2,
+            "native_motion_qc_failed": 2,
+            "lap_edge_coverage_missing_or_over_limit": 2,
+            "pit_out_or_unknown": 2,
+            "weather_missing_stale_or_ambiguous": 2,
+            "rain_reported_or_unknown": 2,
+            "stint_unknown_or_ambiguous": 2,
+            "wet_or_unknown_tyre_compound": 2,
+            "flag_reported": 2
+          },
+          "outputs": {
+            "driver-22-laps.json": "ac47242e3c129df28f1b89e08606c15ad2e8af4a3539ec0e850b4986a8bc8364",
+            "driver-22-car.csv.gz": "405853960c90e9cdb9fa1568db0b8621e9ba7123927c49451d052cb59f26a82a"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T21:54:23.762884+00:00",
+      "outputs": {
+        "context.json": "64287d6dd375b41f83e66ac032f1293d32632097e62c95b226d54f5893aad7de",
+        "driver-1-car.csv.gz": "f67228927f932b7960eb723ef99c30f0f576d17f79100df4ceee7062207ac89d",
+        "driver-1-complete.json": "c620b5e3d8949def1a8900e9506a7dd17fdff0f10137fefdde9c6012a3a40e6a",
+        "driver-1-laps.json": "35e963a91b882efa83f8a5b34834e1cd7f5c6b094665c5e0f794d2596d77d10d",
+        "driver-22-car.csv.gz": "405853960c90e9cdb9fa1568db0b8621e9ba7123927c49451d052cb59f26a82a",
+        "driver-22-complete.json": "36f96d6ac7c14306ae57311ae4b8cd62179866722354e3bae79431b1e223cb69",
+        "driver-22-laps.json": "ac47242e3c129df28f1b89e08606c15ad2e8af4a3539ec0e850b4986a8bc8364",
+        "requests.json": "f86be3e86ea57c68baee4fa5d4df6ec79d9acffefdffe54995f2450e37b4d4d0"
+      }
+    },
+    {
+      "session_key": 9964,
+      "meeting_key": 1262,
+      "event": "Spain",
+      "role": "development",
+      "session_name": "Practice 1",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 18,
+          "native_car_rows": 13646,
+          "aligned_car_rows": 5077,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 14,
+          "conditional_motion_candidates": 5,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 4,
+            "gap_missing_or_over_limit": 12,
+            "lap_edge_coverage_missing_or_over_limit": 4,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4,
+            "pit_activity_reported": 4
+          },
+          "outputs": {
+            "driver-1-laps.json": "0bf6597eb7026bff210f8fcd57ba471ae84475e46596722e6d0fd6fe760d052c",
+            "driver-1-car.csv.gz": "f1f4abd99783f5f51d644b9f982ad6e4389fc3fe56f8147a8959500cbbad915c"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 27,
+          "native_car_rows": 13673,
+          "aligned_car_rows": 8546,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 23,
+          "conditional_motion_candidates": 9,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 4,
+            "gap_missing_or_over_limit": 17,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4,
+            "pit_activity_reported": 4,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-22-laps.json": "9e910ff9104453dac6ad5cef45713522f3ba47ef7fc6dd554d749f94d376d962",
+            "driver-22-car.csv.gz": "3f29e386f7ed81d20f1f91d1ed94e18545698cb8ac8c77bdc005356b692d3d7a"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T21:54:58.930589+00:00",
+      "outputs": {
+        "context.json": "048c51e9127ab3183a7a0875067e1af4126083d2249003d7bbf9fdd0a35b05cc",
+        "driver-1-car.csv.gz": "f1f4abd99783f5f51d644b9f982ad6e4389fc3fe56f8147a8959500cbbad915c",
+        "driver-1-complete.json": "9f1d2f76399a99a62bcbf113f16e1cd35d8a764b4f9d0fe445416699db047dfa",
+        "driver-1-laps.json": "0bf6597eb7026bff210f8fcd57ba471ae84475e46596722e6d0fd6fe760d052c",
+        "driver-22-car.csv.gz": "3f29e386f7ed81d20f1f91d1ed94e18545698cb8ac8c77bdc005356b692d3d7a",
+        "driver-22-complete.json": "cf0cd8fa6fb3e8268dbb421ea8f3dd19015c6f74ea15d5bc2efa7ca0f0705e06",
+        "driver-22-laps.json": "9e910ff9104453dac6ad5cef45713522f3ba47ef7fc6dd554d749f94d376d962",
+        "requests.json": "229958a05d15aae79f9980a55f6714d5ea38ac750c3854e7c8dc4f56e0a07132"
+      }
+    },
+    {
+      "session_key": 9965,
+      "meeting_key": 1262,
+      "event": "Spain",
+      "role": "development",
+      "session_name": "Practice 2",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 30,
+          "native_car_rows": 13226,
+          "aligned_car_rows": 8070,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 25,
+          "conditional_motion_candidates": 9,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 18,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 5,
+            "rain_reported_or_unknown": 5,
+            "stint_unknown_or_ambiguous": 5,
+            "wet_or_unknown_tyre_compound": 5,
+            "pit_activity_reported": 5
+          },
+          "outputs": {
+            "driver-1-laps.json": "63be37590fd4a994929ab19f870d9deb148c9d196cf3caa942eca2f5ab861f08",
+            "driver-1-car.csv.gz": "3c9c9040170a6efa910ba8eec2cd79357d95fcb3b636865f74249194fd5b499e"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 31,
+          "native_car_rows": 13596,
+          "aligned_car_rows": 8561,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 26,
+          "conditional_motion_candidates": 11,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 18,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 5,
+            "rain_reported_or_unknown": 5,
+            "stint_unknown_or_ambiguous": 5,
+            "wet_or_unknown_tyre_compound": 5,
+            "pit_activity_reported": 5,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-22-laps.json": "1a7615b693e06df7135a0d112c0e325d6ebae6320b72b9b963534e129c7d852a",
+            "driver-22-car.csv.gz": "64a16f93d2f16f0c34f611c4d8390495d7d47501357c3625be68a2c36ad9a61a"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T21:55:32.523815+00:00",
+      "outputs": {
+        "context.json": "19933866691ca2905d76790c5c4baf3844f9f65bbcba0f1811318626b3d72ca4",
+        "driver-1-car.csv.gz": "3c9c9040170a6efa910ba8eec2cd79357d95fcb3b636865f74249194fd5b499e",
+        "driver-1-complete.json": "d0c59df1e660e70d06cbd121e75f0dcbf687da220df3d510c8675e733938bb57",
+        "driver-1-laps.json": "63be37590fd4a994929ab19f870d9deb148c9d196cf3caa942eca2f5ab861f08",
+        "driver-22-car.csv.gz": "64a16f93d2f16f0c34f611c4d8390495d7d47501357c3625be68a2c36ad9a61a",
+        "driver-22-complete.json": "888c36275d72bd9345f31147ada061981ea040a1ff1f57c4cc3f67c15cfcb3ee",
+        "driver-22-laps.json": "1a7615b693e06df7135a0d112c0e325d6ebae6320b72b9b963534e129c7d852a",
+        "requests.json": "f082c9d957c1f3d468206536e0a31c1fa37e33c3cba10aaecc9af6f5601fea1b"
+      }
+    },
+    {
+      "session_key": 9967,
+      "meeting_key": 1262,
+      "event": "Spain",
+      "role": "development",
+      "session_name": "Qualifying",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 12,
+          "native_car_rows": 11990,
+          "aligned_car_rows": 2322,
+          "position_rows": 12240,
+          "motion_qc_pass_laps": 7,
+          "conditional_motion_candidates": 1,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 10,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 5,
+            "rain_reported_or_unknown": 5,
+            "stint_unknown_or_ambiguous": 5,
+            "wet_or_unknown_tyre_compound": 5,
+            "pit_activity_reported": 3
+          },
+          "outputs": {
+            "driver-1-laps.json": "4a107ebc2d8337b1669cd03a2d5f4cbf9ddffb157707a9778c41ec9ad30fc67f",
+            "driver-1-car.csv.gz": "88f1bebcc46b5d26993c99a2604c5b9eeac6e5c5bf22a95cd994ad71c07b3a96",
+            "driver-1-position.csv.gz": "46ddb82cbf7c35da8bc8edb9bfd3f87728aec9c9be066ca830ba523cf79b19aa"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 6,
+          "native_car_rows": 3903,
+          "aligned_car_rows": 1323,
+          "position_rows": 3966,
+          "motion_qc_pass_laps": 4,
+          "conditional_motion_candidates": 1,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 2,
+            "gap_missing_or_over_limit": 5,
+            "lap_edge_coverage_missing_or_over_limit": 2,
+            "pit_out_or_unknown": 2,
+            "weather_missing_stale_or_ambiguous": 2,
+            "rain_reported_or_unknown": 2,
+            "stint_unknown_or_ambiguous": 2,
+            "wet_or_unknown_tyre_compound": 2,
+            "pit_activity_reported": 2
+          },
+          "outputs": {
+            "driver-22-laps.json": "456ed9da2f52ff2a9137fa146e0b3cb5a23507e742d3c902985bd90b8969dd90",
+            "driver-22-car.csv.gz": "37bf1ba09a60223a1c96ae4df8a89a06a63d5544504f8ba5f0177d5ff650e6a1",
+            "driver-22-position.csv.gz": "6241fbd989d46667f6d6f13492b84bc98facbe3ac81da0a9d8c3c461a5e218b9"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T21:50:34.591079+00:00",
+      "outputs": {
+        "context.json": "89ef714bb24ea2e8834d3eeb6973c54e9874a99058c2ee1de17384eb97f42d2b",
+        "driver-1-car.csv.gz": "88f1bebcc46b5d26993c99a2604c5b9eeac6e5c5bf22a95cd994ad71c07b3a96",
+        "driver-1-complete.json": "7b43cd6835586a737cf75b9d8b6a2905e65ce1ec2a25dea74550cc987b5c5621",
+        "driver-1-laps.json": "4a107ebc2d8337b1669cd03a2d5f4cbf9ddffb157707a9778c41ec9ad30fc67f",
+        "driver-1-position.csv.gz": "46ddb82cbf7c35da8bc8edb9bfd3f87728aec9c9be066ca830ba523cf79b19aa",
+        "driver-22-car.csv.gz": "37bf1ba09a60223a1c96ae4df8a89a06a63d5544504f8ba5f0177d5ff650e6a1",
+        "driver-22-complete.json": "73c68cf7b6a022b41d55549d1b794896e04089889fef6fea7c3f6cd367b71cd4",
+        "driver-22-laps.json": "456ed9da2f52ff2a9137fa146e0b3cb5a23507e742d3c902985bd90b8969dd90",
+        "driver-22-position.csv.gz": "6241fbd989d46667f6d6f13492b84bc98facbe3ac81da0a9d8c3c461a5e218b9",
+        "requests.json": "bb77b508a80a09132cc2d0c060428148778728606eaae58b8ecc83e51799da81"
+      }
+    },
+    {
+      "session_key": 9971,
+      "meeting_key": 1262,
+      "event": "Spain",
+      "role": "development",
+      "session_name": "Race",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 66,
+          "native_car_rows": 20775,
+          "aligned_car_rows": 19131,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 61,
+          "conditional_motion_candidates": 25,
+          "exclusion_counts": {
+            "gap_missing_or_over_limit": 37,
+            "native_motion_qc_failed": 5,
+            "pit_activity_reported": 4,
+            "lap_edge_coverage_missing_or_over_limit": 4,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4,
+            "flag_reported": 2
+          },
+          "outputs": {
+            "driver-1-laps.json": "da1beb3e61654516090aad4f0e461ea495741356e76239180381174722e91a44",
+            "driver-1-car.csv.gz": "50c4368f5e4f66ec601ec2a3b9649146da3ae453cc7ddfc229329a62bed11dd3"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 66,
+          "native_car_rows": 20840,
+          "aligned_car_rows": 19231,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 61,
+          "conditional_motion_candidates": 25,
+          "exclusion_counts": {
+            "pit_activity_reported": 6,
+            "gap_missing_or_over_limit": 36,
+            "native_motion_qc_failed": 5,
+            "lap_edge_coverage_missing_or_over_limit": 4,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4,
+            "flag_reported": 2
+          },
+          "outputs": {
+            "driver-22-laps.json": "4c1c5ff2ce445acb012e2ffde7eaf53097de5ff15c1a7975ef7cabc9656f0d28",
+            "driver-22-car.csv.gz": "07b0603241e19215d576d7e2885419288e406083e679c37a5db29c665a3620ac"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T21:56:34.782756+00:00",
+      "outputs": {
+        "context.json": "fc561f003c8b87bbe0e69dab4d54c4268725f9aaba3a53e03d0ce10c98b21271",
+        "driver-1-car.csv.gz": "50c4368f5e4f66ec601ec2a3b9649146da3ae453cc7ddfc229329a62bed11dd3",
+        "driver-1-complete.json": "5ef0a95b5cad9fa95bfea9fdac43550872fb981e53d65845c4267a0c35a53dd7",
+        "driver-1-laps.json": "da1beb3e61654516090aad4f0e461ea495741356e76239180381174722e91a44",
+        "driver-22-car.csv.gz": "07b0603241e19215d576d7e2885419288e406083e679c37a5db29c665a3620ac",
+        "driver-22-complete.json": "6a3949bcf23f3e0ab5642597d5c5265521c9f67d16b237d952cb55fdda7f34a8",
+        "driver-22-laps.json": "4c1c5ff2ce445acb012e2ffde7eaf53097de5ff15c1a7975ef7cabc9656f0d28",
+        "requests.json": "000895ce37549085ade89c22149770e79ea7a57e948f1b23ddc9c3853568c0c6"
+      }
+    },
+    {
+      "session_key": 9905,
+      "meeting_key": 1268,
+      "event": "Monza",
+      "role": "development",
+      "session_name": "Practice 1",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 22,
+          "native_car_rows": 14092,
+          "aligned_car_rows": 7129,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 17,
+          "conditional_motion_candidates": 3,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 17,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 5,
+            "rain_reported_or_unknown": 5,
+            "stint_unknown_or_ambiguous": 5,
+            "wet_or_unknown_tyre_compound": 5,
+            "pit_activity_reported": 4,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-1-laps.json": "718e84f6e352fd7915948d598d16e893276acd29742330919bdec99ad2001a3d",
+            "driver-1-car.csv.gz": "89da84b275148a3743e8193d0b0f757bd72dd464f6b986cc363abcd8ed49fbff"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 24,
+          "native_car_rows": 13958,
+          "aligned_car_rows": 7803,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 19,
+          "conditional_motion_candidates": 5,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 17,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 5,
+            "rain_reported_or_unknown": 5,
+            "stint_unknown_or_ambiguous": 5,
+            "wet_or_unknown_tyre_compound": 5,
+            "flag_reported": 2,
+            "pit_activity_reported": 3
+          },
+          "outputs": {
+            "driver-22-laps.json": "7037dd66ed554856f8db175480c50834fedd3a9ddca6e79b1ed061b5309b2dd5",
+            "driver-22-car.csv.gz": "d025b467453a3dfa720452bdc64af2da9f1afa9aa1f695788e29f548e974b9a2"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T21:57:10.232652+00:00",
+      "outputs": {
+        "context.json": "7470a4a1080d69f7e6ddf0ac01f038ea543becff7fb523384a27f67a1a84d92e",
+        "driver-1-car.csv.gz": "89da84b275148a3743e8193d0b0f757bd72dd464f6b986cc363abcd8ed49fbff",
+        "driver-1-complete.json": "51716fb838f9c4d36abd0c6c3769f2b81a98206d37f737423430ac09becf93ac",
+        "driver-1-laps.json": "718e84f6e352fd7915948d598d16e893276acd29742330919bdec99ad2001a3d",
+        "driver-22-car.csv.gz": "d025b467453a3dfa720452bdc64af2da9f1afa9aa1f695788e29f548e974b9a2",
+        "driver-22-complete.json": "43ecb8658a5c7147266d450533090fae04d2524a6e3db7af7aec9edd40fd8e47",
+        "driver-22-laps.json": "7037dd66ed554856f8db175480c50834fedd3a9ddca6e79b1ed061b5309b2dd5",
+        "requests.json": "0b12f5d6049b4f6d9d7b2011e4ae8471fe368293e34e1998d9faa6c5b75345ae"
+      }
+    },
+    {
+      "session_key": 9906,
+      "meeting_key": 1268,
+      "event": "Monza",
+      "role": "development",
+      "session_name": "Practice 2",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 27,
+          "native_car_rows": 13527,
+          "aligned_car_rows": 7763,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 21,
+          "conditional_motion_candidates": 8,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 6,
+            "gap_missing_or_over_limit": 17,
+            "lap_edge_coverage_missing_or_over_limit": 6,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 6,
+            "rain_reported_or_unknown": 6,
+            "stint_unknown_or_ambiguous": 6,
+            "wet_or_unknown_tyre_compound": 6,
+            "pit_activity_reported": 4
+          },
+          "outputs": {
+            "driver-1-laps.json": "343a1deb86e180e8261840f518f9f7ce6d1c44c3ed0e86acb2465324be9a56de",
+            "driver-1-car.csv.gz": "b5f3466978950b335869770db98f5e9e8e351fb9bc492f7f9ff92a81faec89b7"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 28,
+          "native_car_rows": 13809,
+          "aligned_car_rows": 8550,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 22,
+          "conditional_motion_candidates": 7,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 6,
+            "gap_missing_or_over_limit": 21,
+            "lap_edge_coverage_missing_or_over_limit": 7,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 6,
+            "rain_reported_or_unknown": 6,
+            "stint_unknown_or_ambiguous": 6,
+            "wet_or_unknown_tyre_compound": 6,
+            "pit_activity_reported": 4,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-22-laps.json": "9512cbb92d8d7a724627bc34600c7f4dd4f8e53856e720ef028392e06e2a6304",
+            "driver-22-car.csv.gz": "166ea7c4a0abe0a80f8c95f127a587a12200497a9703c182581b958a509b8a42"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T21:57:45.918235+00:00",
+      "outputs": {
+        "context.json": "ca3d87b99fc05a6bea74ae07b25e6d171c46449660b07ed9a3367f315b9ece04",
+        "driver-1-car.csv.gz": "b5f3466978950b335869770db98f5e9e8e351fb9bc492f7f9ff92a81faec89b7",
+        "driver-1-complete.json": "d456b45ed18be050f4e029564c83e324df2f5bf9677fe7d3abae76f4eeaa04e2",
+        "driver-1-laps.json": "343a1deb86e180e8261840f518f9f7ce6d1c44c3ed0e86acb2465324be9a56de",
+        "driver-22-car.csv.gz": "166ea7c4a0abe0a80f8c95f127a587a12200497a9703c182581b958a509b8a42",
+        "driver-22-complete.json": "5ff57044e35d5537bafa2168e70dc7d6c760fc55c37636a14fc2a1d2b07e35a1",
+        "driver-22-laps.json": "9512cbb92d8d7a724627bc34600c7f4dd4f8e53856e720ef028392e06e2a6304",
+        "requests.json": "f5ced4755c346c7d6a4f81a64295c80d4d4c2f5d4d7b056e7dd93eef3753e559"
+      }
+    },
+    {
+      "session_key": 9907,
+      "meeting_key": 1268,
+      "event": "Monza",
+      "role": "development",
+      "session_name": "Practice 3",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 18,
+          "native_car_rows": 10595,
+          "aligned_car_rows": 4894,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 13,
+          "conditional_motion_candidates": 4,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 14,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 5,
+            "rain_reported_or_unknown": 5,
+            "stint_unknown_or_ambiguous": 5,
+            "wet_or_unknown_tyre_compound": 5,
+            "pit_activity_reported": 2
+          },
+          "outputs": {
+            "driver-1-laps.json": "781bba979426222c5ce6868b0541e1bf5f76b7e9e72592c642041e7ad2bf4ba0",
+            "driver-1-car.csv.gz": "27b3855b06e5fc2390683c2b23296156b2a583c5e5231d2c2f20a3c4941e2b7b"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 24,
+          "native_car_rows": 13184,
+          "aligned_car_rows": 7404,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 20,
+          "conditional_motion_candidates": 7,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 4,
+            "gap_missing_or_over_limit": 17,
+            "lap_edge_coverage_missing_or_over_limit": 4,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4
+          },
+          "outputs": {
+            "driver-22-laps.json": "f56df52e9e8f6f1b5ca160f57d05b0f76d02686de8f50a540145677640ff4729",
+            "driver-22-car.csv.gz": "90bd0b62a943464c1f1603b1a20160e0deb6ee43ea3761d8d0cd30241df90f0f"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T21:58:17.791808+00:00",
+      "outputs": {
+        "context.json": "b3a1523bc37a9755b79b4ad7a0a56a0922e291b400c2e06cfaf51e66049ec038",
+        "driver-1-car.csv.gz": "27b3855b06e5fc2390683c2b23296156b2a583c5e5231d2c2f20a3c4941e2b7b",
+        "driver-1-complete.json": "6285fbd8831b8d161235a077f95b602e13a95d75cb0a9666e64f95e49a3403b8",
+        "driver-1-laps.json": "781bba979426222c5ce6868b0541e1bf5f76b7e9e72592c642041e7ad2bf4ba0",
+        "driver-22-car.csv.gz": "90bd0b62a943464c1f1603b1a20160e0deb6ee43ea3761d8d0cd30241df90f0f",
+        "driver-22-complete.json": "85dddf33e5422231d6d79f107aa8398168642e425ad6aa285db3d9d25d9fc286",
+        "driver-22-laps.json": "f56df52e9e8f6f1b5ca160f57d05b0f76d02686de8f50a540145677640ff4729",
+        "requests.json": "f1bce6dec1885fddc34a50af932f545c58e1691d2733fb5f4cc2bcbf458ca6bd"
+      }
+    },
+    {
+      "session_key": 9908,
+      "meeting_key": 1268,
+      "event": "Monza",
+      "role": "development",
+      "session_name": "Qualifying",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 18,
+          "native_car_rows": 13141,
+          "aligned_car_rows": 4231,
+          "position_rows": 13521,
+          "motion_qc_pass_laps": 12,
+          "conditional_motion_candidates": 2,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 6,
+            "gap_missing_or_over_limit": 11,
+            "lap_edge_coverage_missing_or_over_limit": 6,
+            "pit_out_or_unknown": 6,
+            "weather_missing_stale_or_ambiguous": 6,
+            "rain_reported_or_unknown": 6,
+            "stint_unknown_or_ambiguous": 6,
+            "wet_or_unknown_tyre_compound": 6,
+            "pit_activity_reported": 6
+          },
+          "outputs": {
+            "driver-1-laps.json": "3eef89b82d0e06e726ea81ea4696589504c6e49a2b88a26cbece7e460ae776fa",
+            "driver-1-car.csv.gz": "7e65079de2a728927765d32d6b5bb241a8619151ae39a3ffd5a40afed9ac41b9",
+            "driver-1-position.csv.gz": "f06421d204305044da0ccf4d9be9639604cbaf62d59cc82365483dfdc0870357"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 18,
+          "native_car_rows": 12911,
+          "aligned_car_rows": 3823,
+          "position_rows": 13296,
+          "motion_qc_pass_laps": 11,
+          "conditional_motion_candidates": 2,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 7,
+            "gap_missing_or_over_limit": 12,
+            "lap_edge_coverage_missing_or_over_limit": 7,
+            "pit_out_or_unknown": 6,
+            "weather_missing_stale_or_ambiguous": 7,
+            "rain_reported_or_unknown": 7,
+            "stint_unknown_or_ambiguous": 7,
+            "wet_or_unknown_tyre_compound": 7,
+            "pit_activity_reported": 5
+          },
+          "outputs": {
+            "driver-22-laps.json": "5506c995f89696373c33f2b241fe922e0792de38233b96964b6b64ae8cd3c12f",
+            "driver-22-car.csv.gz": "73f31af41790855c5ac84d746e9c8114a9c59eba93dc879f67dae25b589ba482",
+            "driver-22-position.csv.gz": "8abd9d407a57d9bbb7f0d115194bb1d7e8b3cfa6f63418d9205dfa85b3910d71"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T21:59:06.128094+00:00",
+      "outputs": {
+        "context.json": "c3d828f5801a5ac6501131e6091db1e46d2c2d3e1934e796872913db2a49a6a3",
+        "driver-1-car.csv.gz": "7e65079de2a728927765d32d6b5bb241a8619151ae39a3ffd5a40afed9ac41b9",
+        "driver-1-complete.json": "f24771045f0f9ef4c69f1cab4455ea1a7f793cba1d2b242d45b230368ea842e8",
+        "driver-1-laps.json": "3eef89b82d0e06e726ea81ea4696589504c6e49a2b88a26cbece7e460ae776fa",
+        "driver-1-position.csv.gz": "f06421d204305044da0ccf4d9be9639604cbaf62d59cc82365483dfdc0870357",
+        "driver-22-car.csv.gz": "73f31af41790855c5ac84d746e9c8114a9c59eba93dc879f67dae25b589ba482",
+        "driver-22-complete.json": "2655ebed8a95c2ea4f5ee781aebdc6afb3a6c3a7a6ea15750a3c40e2ab74a1ac",
+        "driver-22-laps.json": "5506c995f89696373c33f2b241fe922e0792de38233b96964b6b64ae8cd3c12f",
+        "driver-22-position.csv.gz": "8abd9d407a57d9bbb7f0d115194bb1d7e8b3cfa6f63418d9205dfa85b3910d71",
+        "requests.json": "d0fddfbcdb4a4d532eef33a4769f8dcdb88dc88dc915185d857870da8e8ac8fc"
+      }
+    },
+    {
+      "session_key": 9912,
+      "meeting_key": 1268,
+      "event": "Monza",
+      "role": "development",
+      "session_name": "Race",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 53,
+          "native_car_rows": 16388,
+          "aligned_car_rows": 15992,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 52,
+          "conditional_motion_candidates": 21,
+          "exclusion_counts": {
+            "gap_missing_or_over_limit": 31,
+            "pit_activity_reported": 1,
+            "native_motion_qc_failed": 1,
+            "lap_edge_coverage_missing_or_over_limit": 1,
+            "pit_out_or_unknown": 1,
+            "weather_missing_stale_or_ambiguous": 1,
+            "rain_reported_or_unknown": 1,
+            "stint_unknown_or_ambiguous": 1,
+            "wet_or_unknown_tyre_compound": 1,
+            "flag_reported": 2
+          },
+          "outputs": {
+            "driver-1-laps.json": "ff3a572207d674106d39bbb2658838d788e6ed07fe5b508a829c14b4baa08ac4",
+            "driver-1-car.csv.gz": "db2c574aa0b4d8a11c03f0426ccacd79381db12bc900e470ec54f9eca7cb752d"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 53,
+          "native_car_rows": 16678,
+          "aligned_car_rows": 16274,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 52,
+          "conditional_motion_candidates": 18,
+          "exclusion_counts": {
+            "gap_missing_or_over_limit": 34,
+            "pit_activity_reported": 1,
+            "native_motion_qc_failed": 1,
+            "lap_edge_coverage_missing_or_over_limit": 1,
+            "pit_out_or_unknown": 1,
+            "weather_missing_stale_or_ambiguous": 1,
+            "rain_reported_or_unknown": 1,
+            "stint_unknown_or_ambiguous": 1,
+            "wet_or_unknown_tyre_compound": 1,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-22-laps.json": "9b93f784eace0530ad3682c8e2d45c394212add5ccf0a3508636ac1c666f41ac",
+            "driver-22-car.csv.gz": "278a351e2689e9c67de104eb9e216bcdafaaccc13e1c4aded9b92028288d21f8"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T21:59:42.499325+00:00",
+      "outputs": {
+        "context.json": "d1badce4cda70d5be570766ec049b5f0cf11a2b4b8c8c05648a395c89e541569",
+        "driver-1-car.csv.gz": "db2c574aa0b4d8a11c03f0426ccacd79381db12bc900e470ec54f9eca7cb752d",
+        "driver-1-complete.json": "1c307c6b097740d35b91aebc45782ad5f8b8b1615fdd4074c3f301a70fd4ad70",
+        "driver-1-laps.json": "ff3a572207d674106d39bbb2658838d788e6ed07fe5b508a829c14b4baa08ac4",
+        "driver-22-car.csv.gz": "278a351e2689e9c67de104eb9e216bcdafaaccc13e1c4aded9b92028288d21f8",
+        "driver-22-complete.json": "5a794d999689c028c59707ef4b3499f705117e562419f24a817c00da190485f5",
+        "driver-22-laps.json": "9b93f784eace0530ad3682c8e2d45c394212add5ccf0a3508636ac1c666f41ac",
+        "requests.json": "cea2b7ccfbea97225eeec69c135651a061c8ef0b741bdfb6440fe99bbf9e38e8"
+      }
+    },
+    {
+      "session_key": 9929,
+      "meeting_key": 1265,
+      "event": "Belgium",
+      "role": "test",
+      "session_name": "Practice 1",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 23,
+          "native_car_rows": 13990,
+          "aligned_car_rows": 7813,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 17,
+          "conditional_motion_candidates": 2,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 6,
+            "gap_missing_or_over_limit": 20,
+            "lap_edge_coverage_missing_or_over_limit": 6,
+            "pit_out_or_unknown": 6,
+            "weather_missing_stale_or_ambiguous": 6,
+            "rain_reported_or_unknown": 7,
+            "stint_unknown_or_ambiguous": 6,
+            "wet_or_unknown_tyre_compound": 6,
+            "pit_activity_reported": 6,
+            "flag_reported": 2
+          },
+          "outputs": {
+            "driver-1-laps.json": "a6d49f1dfbb6a92d7d516c46da49631768ef11200b5b018b82c343de19390bb6",
+            "driver-1-car.csv.gz": "71ee4092241a3014a0e5cf1e24a861eda91639e3973fe0c039bda523e1fe3a92"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 23,
+          "native_car_rows": 13672,
+          "aligned_car_rows": 8577,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 17,
+          "conditional_motion_candidates": 1,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 6,
+            "gap_missing_or_over_limit": 20,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 5,
+            "rain_reported_or_unknown": 6,
+            "stint_unknown_or_ambiguous": 5,
+            "wet_or_unknown_tyre_compound": 5,
+            "pit_activity_reported": 5,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-22-laps.json": "73261a7dc0bbf3b5a6463bd1611494e7d1b5835b37483a1ec6afe79d308ff990",
+            "driver-22-car.csv.gz": "d897481b6e7b7577f98e3c0b3a7399594205c408dfab3f7fe3ec45f013cdec83"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:09:31.342315+00:00",
+      "outputs": {
+        "context.json": "69d76821c3a80afa5a75cd21d861be72d2cad193151d6abc8d4a320608731f09",
+        "driver-1-car.csv.gz": "71ee4092241a3014a0e5cf1e24a861eda91639e3973fe0c039bda523e1fe3a92",
+        "driver-1-complete.json": "c7421f819df67d20ec629a9a12ce189b590b2d473b4a92819c86613b9952e3e8",
+        "driver-1-laps.json": "a6d49f1dfbb6a92d7d516c46da49631768ef11200b5b018b82c343de19390bb6",
+        "driver-22-car.csv.gz": "d897481b6e7b7577f98e3c0b3a7399594205c408dfab3f7fe3ec45f013cdec83",
+        "driver-22-complete.json": "8c6abd6c9b9dc2528209d31d8be28277aeacbcea648e3fd52976c20cfb49d9fa",
+        "driver-22-laps.json": "73261a7dc0bbf3b5a6463bd1611494e7d1b5835b37483a1ec6afe79d308ff990",
+        "requests.json": "9ee0649a6824fa7a14dcf04b605ffb549f172250465672b0e390fbc6a1871d66"
+      }
+    },
+    {
+      "session_key": 9935,
+      "meeting_key": 1265,
+      "event": "Belgium",
+      "role": "test",
+      "session_name": "Qualifying",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 15,
+          "native_car_rows": 12803,
+          "aligned_car_rows": 4054,
+          "position_rows": 13063,
+          "motion_qc_pass_laps": 9,
+          "conditional_motion_candidates": 0,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 6,
+            "gap_missing_or_over_limit": 15,
+            "lap_edge_coverage_missing_or_over_limit": 6,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 6,
+            "rain_reported_or_unknown": 6,
+            "stint_unknown_or_ambiguous": 6,
+            "wet_or_unknown_tyre_compound": 6,
+            "pit_activity_reported": 4
+          },
+          "outputs": {
+            "driver-1-laps.json": "85031566019f393031b053e2a99c0277ca7a1151fba5544a012817775b8929fe",
+            "driver-1-car.csv.gz": "0fc4a24b09aa88eb486c18b4d046b456bdcc2708e17d3544b1b5f8cfd3973197",
+            "driver-1-position.csv.gz": "3d7c029eecb5d44b9b18ad1166b30096f801fbf65ab2870b0cbdde45c53e87a8"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 17,
+          "native_car_rows": 12316,
+          "aligned_car_rows": 4569,
+          "position_rows": 12576,
+          "motion_qc_pass_laps": 10,
+          "conditional_motion_candidates": 0,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 7,
+            "gap_missing_or_over_limit": 16,
+            "lap_edge_coverage_missing_or_over_limit": 7,
+            "pit_out_or_unknown": 6,
+            "weather_missing_stale_or_ambiguous": 7,
+            "rain_reported_or_unknown": 7,
+            "stint_unknown_or_ambiguous": 7,
+            "wet_or_unknown_tyre_compound": 7,
+            "pit_activity_reported": 5
+          },
+          "outputs": {
+            "driver-22-laps.json": "b0d9e4216f9065907f43d30f2f469d67fca98ce61012214fb879edefa617d112",
+            "driver-22-car.csv.gz": "035eda66fbbd0f443185d78dd167ea38b865f858c76eaa69cf79284080e40585",
+            "driver-22-position.csv.gz": "6d98ea3a8d6dce0ad68c6f88820d61505f5dad5f145bff27eb44e1d272c43f14"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:10:20.424240+00:00",
+      "outputs": {
+        "context.json": "639947ac17a30f3fc1d73843233880eed78abf753d034b34517554b2b248f270",
+        "driver-1-car.csv.gz": "0fc4a24b09aa88eb486c18b4d046b456bdcc2708e17d3544b1b5f8cfd3973197",
+        "driver-1-complete.json": "fd1a69503fb602520456a76c2a957b81dbbdb02f067ed91783373c2222ce0839",
+        "driver-1-laps.json": "85031566019f393031b053e2a99c0277ca7a1151fba5544a012817775b8929fe",
+        "driver-1-position.csv.gz": "3d7c029eecb5d44b9b18ad1166b30096f801fbf65ab2870b0cbdde45c53e87a8",
+        "driver-22-car.csv.gz": "035eda66fbbd0f443185d78dd167ea38b865f858c76eaa69cf79284080e40585",
+        "driver-22-complete.json": "50818cc0489d774947f43657a13f64ac8ecaf6ac7de1a2375d8301304572d4d5",
+        "driver-22-laps.json": "b0d9e4216f9065907f43d30f2f469d67fca98ce61012214fb879edefa617d112",
+        "driver-22-position.csv.gz": "6d98ea3a8d6dce0ad68c6f88820d61505f5dad5f145bff27eb44e1d272c43f14",
+        "requests.json": "9d70c8bfd407924a4dc5b4e6f13fd9b953f758a587c980fb17cd47847f558c3f"
+      }
+    },
+    {
+      "session_key": 9939,
+      "meeting_key": 1265,
+      "event": "Belgium",
+      "role": "test",
+      "session_name": "Race",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 44,
+          "native_car_rows": 19159,
+          "aligned_car_rows": 18648,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 43,
+          "conditional_motion_candidates": 13,
+          "exclusion_counts": {
+            "gap_missing_or_over_limit": 30,
+            "pit_activity_reported": 2,
+            "wet_or_unknown_tyre_compound": 2,
+            "native_motion_qc_failed": 1,
+            "lap_edge_coverage_missing_or_over_limit": 1,
+            "pit_out_or_unknown": 1,
+            "weather_missing_stale_or_ambiguous": 1,
+            "rain_reported_or_unknown": 1,
+            "stint_unknown_or_ambiguous": 1
+          },
+          "outputs": {
+            "driver-1-laps.json": "78460fcaf8a87ef5317992d1f7a48975c62ad86fb1c63fe59ecd536024f837a9",
+            "driver-1-car.csv.gz": "312edd04b6a95d72b4fbaa3286f98abb34451beb79d4dae98341941049ad1fd1"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 44,
+          "native_car_rows": 19356,
+          "aligned_car_rows": 18842,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 40,
+          "conditional_motion_candidates": 12,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 4,
+            "gap_missing_or_over_limit": 31,
+            "pit_activity_reported": 2,
+            "wet_or_unknown_tyre_compound": 2,
+            "lap_edge_coverage_missing_or_over_limit": 1,
+            "pit_out_or_unknown": 1,
+            "weather_missing_stale_or_ambiguous": 1,
+            "rain_reported_or_unknown": 1,
+            "stint_unknown_or_ambiguous": 1
+          },
+          "outputs": {
+            "driver-22-laps.json": "1aaad1ec2d83ec717c55c954958bc5b6ad3b3b0ddb88d039370c393dfd6aef74",
+            "driver-22-car.csv.gz": "15e2c28442c4d17c7c336cfe65dcb5eaf398830dc05b731b32c413f368eb98e1"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:11:00.537215+00:00",
+      "outputs": {
+        "context.json": "2eabf8696f07285f1fa2bde8ffe4a389e29e48e493b33bfd751209d04d4d4a7c",
+        "driver-1-car.csv.gz": "312edd04b6a95d72b4fbaa3286f98abb34451beb79d4dae98341941049ad1fd1",
+        "driver-1-complete.json": "3e470c6cdc14112f913e812c04483e537f8a9d20f7141257264f29903d11fff5",
+        "driver-1-laps.json": "78460fcaf8a87ef5317992d1f7a48975c62ad86fb1c63fe59ecd536024f837a9",
+        "driver-22-car.csv.gz": "15e2c28442c4d17c7c336cfe65dcb5eaf398830dc05b731b32c413f368eb98e1",
+        "driver-22-complete.json": "6a1088a869271e4569e31c95eeb54c2505ee19f8b5d55354daa490562be1536e",
+        "driver-22-laps.json": "1aaad1ec2d83ec717c55c954958bc5b6ad3b3b0ddb88d039370c393dfd6aef74",
+        "requests.json": "f64f0f96987ec613a30174c4597d03bb05fc2398dee092d83e0d91c1de3319f1"
+      }
+    },
+    {
+      "session_key": 9832,
+      "meeting_key": 1276,
+      "event": "Abu Dhabi",
+      "role": "test",
+      "session_name": "Practice 1",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 30,
+          "native_car_rows": 13870,
+          "aligned_car_rows": 9944,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 24,
+          "conditional_motion_candidates": 7,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 6,
+            "gap_missing_or_over_limit": 21,
+            "lap_edge_coverage_missing_or_over_limit": 6,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4,
+            "flag_reported": 1,
+            "pit_activity_reported": 4
+          },
+          "outputs": {
+            "driver-1-laps.json": "47983621984361420860495e274f7960de01c2a1b54eb2aa0be4b78a60afe45c",
+            "driver-1-car.csv.gz": "21d2e259364950f2f28339aac94e2a558d1b4e236c6ca57ea235e1ec1e43ad86"
+          }
+        },
+        {
+          "driver_number": 36,
+          "driver_name": "Arvid LINDBLAD",
+          "team": "Red Bull Racing",
+          "lap_count": 26,
+          "native_car_rows": 13305,
+          "aligned_car_rows": 9189,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 21,
+          "conditional_motion_candidates": 5,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 20,
+            "lap_edge_coverage_missing_or_over_limit": 3,
+            "pit_out_or_unknown": 3,
+            "weather_missing_stale_or_ambiguous": 3,
+            "rain_reported_or_unknown": 3,
+            "stint_unknown_or_ambiguous": 3,
+            "wet_or_unknown_tyre_compound": 3,
+            "flag_reported": 1,
+            "pit_activity_reported": 3
+          },
+          "outputs": {
+            "driver-36-laps.json": "45008fb6cb25bb762c740904014fb4652c5026a331e2f1de0e89a1990faf5347",
+            "driver-36-car.csv.gz": "79d9ad39d9af8437c008e2788d157dbf18b5bf6f4098d54744c54c9cb408b133"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:11:35.669936+00:00",
+      "outputs": {
+        "context.json": "ceb962ce3c3d1e88eb6c3be96be56e7ec144ada3ce9dc74a70335f749d9e3c46",
+        "driver-1-car.csv.gz": "21d2e259364950f2f28339aac94e2a558d1b4e236c6ca57ea235e1ec1e43ad86",
+        "driver-1-complete.json": "728431e1970c68017a35b79f6b8309c47361b29ed0307d51f723a763c694a865",
+        "driver-1-laps.json": "47983621984361420860495e274f7960de01c2a1b54eb2aa0be4b78a60afe45c",
+        "driver-36-car.csv.gz": "79d9ad39d9af8437c008e2788d157dbf18b5bf6f4098d54744c54c9cb408b133",
+        "driver-36-complete.json": "1970f215f9211e5fd77581624f52fcb27751b4f9c564c07d71444ebe61ea8ec5",
+        "driver-36-laps.json": "45008fb6cb25bb762c740904014fb4652c5026a331e2f1de0e89a1990faf5347",
+        "requests.json": "cdf29b90c80f191043b8f30e436c9bab14432c6228c083fa537191456273d943"
+      }
+    },
+    {
+      "session_key": 9833,
+      "meeting_key": 1276,
+      "event": "Abu Dhabi",
+      "role": "test",
+      "session_name": "Practice 2",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 31,
+          "native_car_rows": 13370,
+          "aligned_car_rows": 9777,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 27,
+          "conditional_motion_candidates": 8,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 4,
+            "gap_missing_or_over_limit": 23,
+            "lap_edge_coverage_missing_or_over_limit": 4,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4,
+            "pit_activity_reported": 4
+          },
+          "outputs": {
+            "driver-1-laps.json": "f7c22dce0a7e43a8c2e1df5ad511832aea4b5130d572691aeb631603f9ba462e",
+            "driver-1-car.csv.gz": "b0eea1a2fcc79d0c072e04a9fe1b427802eab08e03dc2268caf61ace11192d6f"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 29,
+          "native_car_rows": 14122,
+          "aligned_car_rows": 9751,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 24,
+          "conditional_motion_candidates": 4,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 24,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 5,
+            "rain_reported_or_unknown": 5,
+            "stint_unknown_or_ambiguous": 5,
+            "wet_or_unknown_tyre_compound": 5,
+            "pit_activity_reported": 5
+          },
+          "outputs": {
+            "driver-22-laps.json": "98ff4f973b5cf3da6cfcc9f364216c6ea162054ef272b5b6bd2663a4d7f52ec6",
+            "driver-22-car.csv.gz": "0443bd8d59ac0c4157de23cc761cf00b239b85bbd9a47594e0bb1bdceef16208"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:12:11.393256+00:00",
+      "outputs": {
+        "context.json": "29e564a3dbcaff765ca561d75cdfc5aaa966a1fcd7cf472969d153b71f3109a8",
+        "driver-1-car.csv.gz": "b0eea1a2fcc79d0c072e04a9fe1b427802eab08e03dc2268caf61ace11192d6f",
+        "driver-1-complete.json": "288139b9e7042081466f5f48c46af0fe7f65e5d83d05388acc621d06e7545d00",
+        "driver-1-laps.json": "f7c22dce0a7e43a8c2e1df5ad511832aea4b5130d572691aeb631603f9ba462e",
+        "driver-22-car.csv.gz": "0443bd8d59ac0c4157de23cc761cf00b239b85bbd9a47594e0bb1bdceef16208",
+        "driver-22-complete.json": "4f2b59e80bd58dec9985f511db02266fb8c9d3829f6627b80d107a7e727ad1b1",
+        "driver-22-laps.json": "98ff4f973b5cf3da6cfcc9f364216c6ea162054ef272b5b6bd2663a4d7f52ec6",
+        "requests.json": "58c2e0bee94b43b1e6bd2f207478a98dfad63716c63c522c7558309ea63b4a30"
+      }
+    },
+    {
+      "session_key": 9834,
+      "meeting_key": 1276,
+      "event": "Abu Dhabi",
+      "role": "test",
+      "session_name": "Practice 3",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 15,
+          "native_car_rows": 9154,
+          "aligned_car_rows": 4572,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 11,
+          "conditional_motion_candidates": 3,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 4,
+            "gap_missing_or_over_limit": 10,
+            "lap_edge_coverage_missing_or_over_limit": 4,
+            "pit_out_or_unknown": 3,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4,
+            "flag_reported": 2,
+            "pit_activity_reported": 2
+          },
+          "outputs": {
+            "driver-1-laps.json": "dae1bf1e598a17d17eeb3fd3fcebc9206ff0693b4d806c0fb4d55bda6d1879dc",
+            "driver-1-car.csv.gz": "e38e7a2e36495ea3e4a9da6681ef58602aba39a2f8ae7dcb2e10c14e72fb7d45"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 10,
+          "native_car_rows": 9500,
+          "aligned_car_rows": 2747,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 6,
+          "conditional_motion_candidates": 2,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 4,
+            "gap_missing_or_over_limit": 8,
+            "lap_edge_coverage_missing_or_over_limit": 4,
+            "pit_out_or_unknown": 3,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4,
+            "pit_activity_reported": 1,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-22-laps.json": "dd509aff2e6148429141c82808e93ef349458ff2f538eabdd699e967d183cf8e",
+            "driver-22-car.csv.gz": "f8b4ebf36dd14cf31d0419b9f81d10553dd352f53762c95d591d6d88472f3baf"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:12:38.989326+00:00",
+      "outputs": {
+        "context.json": "00c22ce50179cdc4c2b9f83043f27331f86b5f34b1e93263ca8be91b1d80735e",
+        "driver-1-car.csv.gz": "e38e7a2e36495ea3e4a9da6681ef58602aba39a2f8ae7dcb2e10c14e72fb7d45",
+        "driver-1-complete.json": "4178a86ef2a77c72c91578b6e239de0a14f3b9d526e85a1d7902d50c1a708b77",
+        "driver-1-laps.json": "dae1bf1e598a17d17eeb3fd3fcebc9206ff0693b4d806c0fb4d55bda6d1879dc",
+        "driver-22-car.csv.gz": "f8b4ebf36dd14cf31d0419b9f81d10553dd352f53762c95d591d6d88472f3baf",
+        "driver-22-complete.json": "c6269c3a5ccf3dd29dc1636947e471b94a0327f7161c74a8ec09da14daff6e9b",
+        "driver-22-laps.json": "dd509aff2e6148429141c82808e93ef349458ff2f538eabdd699e967d183cf8e",
+        "requests.json": "f46d335b5fa285d784a96552f8cc40699dfdbbe38bd4595127bbb32ae6ae1a39"
+      }
+    },
+    {
+      "session_key": 9835,
+      "meeting_key": 1276,
+      "event": "Abu Dhabi",
+      "role": "test",
+      "session_name": "Qualifying",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 18,
+          "native_car_rows": 12988,
+          "aligned_car_rows": 4260,
+          "position_rows": 13223,
+          "motion_qc_pass_laps": 10,
+          "conditional_motion_candidates": 3,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 8,
+            "gap_missing_or_over_limit": 12,
+            "lap_edge_coverage_missing_or_over_limit": 7,
+            "pit_out_or_unknown": 6,
+            "weather_missing_stale_or_ambiguous": 6,
+            "rain_reported_or_unknown": 6,
+            "stint_unknown_or_ambiguous": 6,
+            "wet_or_unknown_tyre_compound": 6,
+            "pit_activity_reported": 6
+          },
+          "outputs": {
+            "driver-1-laps.json": "155c8ed43bdf2075777c1284b9ecaa48ccf07fa8088c430ad9038b0eef8c4399",
+            "driver-1-car.csv.gz": "94894f5fe158019cd7f263fdc188dc92bc5d4f0bad469d7c28e47985c2c216ba",
+            "driver-1-position.csv.gz": "394efde6d21fe1938f74ba189742f8def314bfa4efd6794ccb7343b55bf9e23f"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 17,
+          "native_car_rows": 12933,
+          "aligned_car_rows": 4037,
+          "position_rows": 13169,
+          "motion_qc_pass_laps": 11,
+          "conditional_motion_candidates": 3,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 6,
+            "gap_missing_or_over_limit": 14,
+            "lap_edge_coverage_missing_or_over_limit": 6,
+            "pit_out_or_unknown": 6,
+            "weather_missing_stale_or_ambiguous": 6,
+            "rain_reported_or_unknown": 6,
+            "stint_unknown_or_ambiguous": 6,
+            "wet_or_unknown_tyre_compound": 6,
+            "pit_activity_reported": 6
+          },
+          "outputs": {
+            "driver-22-laps.json": "82842458d38308ecf9d6bc9fc98848bfd1cd34d000aa371a0873755eb503b843",
+            "driver-22-car.csv.gz": "a77837ad2f03e63e396f74cc22ff5e74f41cdcd8d8497144616fc84be95c0d39",
+            "driver-22-position.csv.gz": "e6a31949235f5c2dce2014d91b7f4f58c50fcb6e24e9a30e732db41dd97d8983"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:13:27.504010+00:00",
+      "outputs": {
+        "context.json": "adb1405c20fd98080520b77f605fe6ee1eaab6587870bb15c0a6750129e37c46",
+        "driver-1-car.csv.gz": "94894f5fe158019cd7f263fdc188dc92bc5d4f0bad469d7c28e47985c2c216ba",
+        "driver-1-complete.json": "9feb4f7c8856645c8a6e879fe702ac6f1d9463f48285b273a00228fd88cbff1a",
+        "driver-1-laps.json": "155c8ed43bdf2075777c1284b9ecaa48ccf07fa8088c430ad9038b0eef8c4399",
+        "driver-1-position.csv.gz": "394efde6d21fe1938f74ba189742f8def314bfa4efd6794ccb7343b55bf9e23f",
+        "driver-22-car.csv.gz": "a77837ad2f03e63e396f74cc22ff5e74f41cdcd8d8497144616fc84be95c0d39",
+        "driver-22-complete.json": "ac2aa553c75419c5fe85fb19cafe34dc24a4035edc07ccefc256ef330cfa86fc",
+        "driver-22-laps.json": "82842458d38308ecf9d6bc9fc98848bfd1cd34d000aa371a0873755eb503b843",
+        "driver-22-position.csv.gz": "e6a31949235f5c2dce2014d91b7f4f58c50fcb6e24e9a30e732db41dd97d8983",
+        "requests.json": "9f541e7b3f6984313596a1e344428812d02a624161347cf2b8181b8832613ce9"
+      }
+    },
+    {
+      "session_key": 9839,
+      "meeting_key": 1276,
+      "event": "Abu Dhabi",
+      "role": "test",
+      "session_name": "Race",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 58,
+          "native_car_rows": 19274,
+          "aligned_car_rows": 18871,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 53,
+          "conditional_motion_candidates": 18,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 35,
+            "pit_activity_reported": 1,
+            "lap_edge_coverage_missing_or_over_limit": 2,
+            "pit_out_or_unknown": 1,
+            "weather_missing_stale_or_ambiguous": 1,
+            "rain_reported_or_unknown": 1,
+            "stint_unknown_or_ambiguous": 1,
+            "wet_or_unknown_tyre_compound": 1
+          },
+          "outputs": {
+            "driver-1-laps.json": "92e6c6923df4ef35b65cb7b28a0427f01cc34892b96b5404f75ab38472bd8310",
+            "driver-1-car.csv.gz": "6a9ce261eb0dda66715ea44fcbe522c269ab08c838e42dfbdc436f2731acea15"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 58,
+          "native_car_rows": 19578,
+          "aligned_car_rows": 19127,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 52,
+          "conditional_motion_candidates": 20,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 6,
+            "gap_missing_or_over_limit": 35,
+            "lap_edge_coverage_missing_or_over_limit": 2,
+            "pit_activity_reported": 1,
+            "pit_out_or_unknown": 1,
+            "weather_missing_stale_or_ambiguous": 1,
+            "rain_reported_or_unknown": 1,
+            "stint_unknown_or_ambiguous": 1,
+            "wet_or_unknown_tyre_compound": 1
+          },
+          "outputs": {
+            "driver-22-laps.json": "9a60d6d2b886e5407bdda90285ab52710cdda13e45e218ffb0a0d4d058fe72b8",
+            "driver-22-car.csv.gz": "031d0ba5e30bbe5168cb559416d43890c3d034c386a6f1b769f5fc93b2be2fdf"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:14:07.475021+00:00",
+      "outputs": {
+        "context.json": "70c23dbea86497c47097b7cdbde62be7283214f1044cf536df915f4dfa64667a",
+        "driver-1-car.csv.gz": "6a9ce261eb0dda66715ea44fcbe522c269ab08c838e42dfbdc436f2731acea15",
+        "driver-1-complete.json": "9372b71e7ba948be23d0ebb0c8e3c13d0f28d14de0a6f2eeb463930f3e2a9965",
+        "driver-1-laps.json": "92e6c6923df4ef35b65cb7b28a0427f01cc34892b96b5404f75ab38472bd8310",
+        "driver-22-car.csv.gz": "031d0ba5e30bbe5168cb559416d43890c3d034c386a6f1b769f5fc93b2be2fdf",
+        "driver-22-complete.json": "b0e03573e0a1e1a8ef09869d3794173ce2452c16e182b4c8857a1a68e8eceea8",
+        "driver-22-laps.json": "9a60d6d2b886e5407bdda90285ab52710cdda13e45e218ffb0a0d4d058fe72b8",
+        "requests.json": "4842600693d06fc5e489a99cead6eb9222090cc8189829e39e34b5cedbb7223d"
+      }
+    },
+    {
+      "session_key": 9921,
+      "meeting_key": 1266,
+      "event": "Hungary",
+      "role": "validation",
+      "session_name": "Practice 1",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 25,
+          "native_car_rows": 13664,
+          "aligned_car_rows": 7212,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 18,
+          "conditional_motion_candidates": 5,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 7,
+            "gap_missing_or_over_limit": 17,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 10,
+            "rain_reported_or_unknown": 5,
+            "stint_unknown_or_ambiguous": 5,
+            "wet_or_unknown_tyre_compound": 5,
+            "pit_activity_reported": 5,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-1-laps.json": "050038ba0d602d836b5517761383509ff9aed59fbfc42f561346eb56da98694d",
+            "driver-1-car.csv.gz": "85afc329bf9b12dd4ae39ab4775f66b67102925da93ac95628d48aa6c2793ad2"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 27,
+          "native_car_rows": 13850,
+          "aligned_car_rows": 8239,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 19,
+          "conditional_motion_candidates": 4,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 8,
+            "gap_missing_or_over_limit": 19,
+            "lap_edge_coverage_missing_or_over_limit": 7,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 10,
+            "rain_reported_or_unknown": 5,
+            "stint_unknown_or_ambiguous": 5,
+            "wet_or_unknown_tyre_compound": 5,
+            "pit_activity_reported": 5,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-22-laps.json": "7a8f1b2090a5048200b58b9576e343e12e1406b7b0f379ec6933f4cdb51e8b50",
+            "driver-22-car.csv.gz": "7fc5b6e35d125cc27931f95031ce0ba71689db5edfd2b58308864a3b49759031"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:06:22.367558+00:00",
+      "outputs": {
+        "context.json": "8a71504fd3ffb4ef0e1adea2573bf86aa35265cea9dd9da0feb7a4dd3d9073ae",
+        "driver-1-car.csv.gz": "85afc329bf9b12dd4ae39ab4775f66b67102925da93ac95628d48aa6c2793ad2",
+        "driver-1-complete.json": "56db0ce1cc1173ccc00d899d644cb4fc8e8ae755eb3cca56590fad50a14a302c",
+        "driver-1-laps.json": "050038ba0d602d836b5517761383509ff9aed59fbfc42f561346eb56da98694d",
+        "driver-22-car.csv.gz": "7fc5b6e35d125cc27931f95031ce0ba71689db5edfd2b58308864a3b49759031",
+        "driver-22-complete.json": "923a5103e88e2b44fcd43bd20a880521e05e6a4c9ef4cb47c29b92c8eeff687a",
+        "driver-22-laps.json": "7a8f1b2090a5048200b58b9576e343e12e1406b7b0f379ec6933f4cdb51e8b50",
+        "requests.json": "468f9ca6dbca4a7fa585603d09a0c006c4adbd0b87050bdc1dd47c18f00d4bee"
+      }
+    },
+    {
+      "session_key": 9922,
+      "meeting_key": 1266,
+      "event": "Hungary",
+      "role": "validation",
+      "session_name": "Practice 2",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 25,
+          "native_car_rows": 12584,
+          "aligned_car_rows": 7139,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 19,
+          "conditional_motion_candidates": 2,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 6,
+            "gap_missing_or_over_limit": 19,
+            "lap_edge_coverage_missing_or_over_limit": 6,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4,
+            "pit_activity_reported": 4,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-1-laps.json": "8d4bfacb29b3d77febcdcea31b2d3372127c4154bf9b4194b4495ede01a68c3b",
+            "driver-1-car.csv.gz": "aafcf5db8f30e07df08ffc8343295f4c5ccbbf77fa119c789378210fe99dc281"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 30,
+          "native_car_rows": 14019,
+          "aligned_car_rows": 8903,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 24,
+          "conditional_motion_candidates": 4,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 6,
+            "gap_missing_or_over_limit": 24,
+            "lap_edge_coverage_missing_or_over_limit": 7,
+            "pit_out_or_unknown": 6,
+            "weather_missing_stale_or_ambiguous": 6,
+            "rain_reported_or_unknown": 6,
+            "stint_unknown_or_ambiguous": 6,
+            "wet_or_unknown_tyre_compound": 6,
+            "pit_activity_reported": 6,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-22-laps.json": "4f37970cb349e0555ce5c964e8c7079c675be92c1f0fcc2c74f949455e6a18bc",
+            "driver-22-car.csv.gz": "6ef4ecc77cb4836fa7d6c04de9a8f05b10df715ae16c76cdd6a6e6a7d857ba2c"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:06:55.932483+00:00",
+      "outputs": {
+        "context.json": "c823af0ab4acada17048d07e55810d5b7896663cd7d95ff4952f0608c5e95148",
+        "driver-1-car.csv.gz": "aafcf5db8f30e07df08ffc8343295f4c5ccbbf77fa119c789378210fe99dc281",
+        "driver-1-complete.json": "084162185124188921a3ab8b1146277e3d763451987a520decfb0bbd0d76b98c",
+        "driver-1-laps.json": "8d4bfacb29b3d77febcdcea31b2d3372127c4154bf9b4194b4495ede01a68c3b",
+        "driver-22-car.csv.gz": "6ef4ecc77cb4836fa7d6c04de9a8f05b10df715ae16c76cdd6a6e6a7d857ba2c",
+        "driver-22-complete.json": "33f8590d442654e8d60fffd7729f1b5ebe16095c6014c300c9eb8997cff47ab7",
+        "driver-22-laps.json": "4f37970cb349e0555ce5c964e8c7079c675be92c1f0fcc2c74f949455e6a18bc",
+        "requests.json": "0a148eed77075818ae4dbab3329a8bea2a0223c5de0bf43c4d1b4588801e6895"
+      }
+    },
+    {
+      "session_key": 9923,
+      "meeting_key": 1266,
+      "event": "Hungary",
+      "role": "validation",
+      "session_name": "Practice 3",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 19,
+          "native_car_rows": 10508,
+          "aligned_car_rows": 5652,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 12,
+          "conditional_motion_candidates": 4,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 7,
+            "gap_missing_or_over_limit": 14,
+            "lap_edge_coverage_missing_or_over_limit": 4,
+            "pit_out_or_unknown": 3,
+            "weather_missing_stale_or_ambiguous": 3,
+            "rain_reported_or_unknown": 3,
+            "stint_unknown_or_ambiguous": 3,
+            "wet_or_unknown_tyre_compound": 3,
+            "pit_activity_reported": 3,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-1-laps.json": "dc64a95a45984ee2e5f47c0f7f3ff6ba378180d2c4b41dca0666b63eb0d828cb",
+            "driver-1-car.csv.gz": "4072fbf188d39dab3854a4d7c5b40e914f7bd10a3ab7bbd2658499ab166d6c74"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 19,
+          "native_car_rows": 11290,
+          "aligned_car_rows": 5755,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 14,
+          "conditional_motion_candidates": 4,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 13,
+            "lap_edge_coverage_missing_or_over_limit": 3,
+            "pit_out_or_unknown": 3,
+            "weather_missing_stale_or_ambiguous": 3,
+            "rain_reported_or_unknown": 3,
+            "stint_unknown_or_ambiguous": 3,
+            "wet_or_unknown_tyre_compound": 3,
+            "pit_activity_reported": 3,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-22-laps.json": "2bf149d648b8ca2fd9b0688d4544abc2aa757d68b54a0fb311858d56ca65f6a9",
+            "driver-22-car.csv.gz": "871ac3fcf10f5bc0d511ab47714c12e646029ce73b606bbf8671e72b784d0411"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:07:27.551589+00:00",
+      "outputs": {
+        "context.json": "3c7613ba728c8a76be19ab0a53c61ee0cd6e5ffa98303626d5b670fcd3138f74",
+        "driver-1-car.csv.gz": "4072fbf188d39dab3854a4d7c5b40e914f7bd10a3ab7bbd2658499ab166d6c74",
+        "driver-1-complete.json": "f3acacbf37cc3ec2a70bdde185ca8993e1ea06cdbde4dbddeda614f052af3d9b",
+        "driver-1-laps.json": "dc64a95a45984ee2e5f47c0f7f3ff6ba378180d2c4b41dca0666b63eb0d828cb",
+        "driver-22-car.csv.gz": "871ac3fcf10f5bc0d511ab47714c12e646029ce73b606bbf8671e72b784d0411",
+        "driver-22-complete.json": "6dee6a849d9b5d739ed46b7b09556794ad904a13648c747bda2aa131b91cc600",
+        "driver-22-laps.json": "2bf149d648b8ca2fd9b0688d4544abc2aa757d68b54a0fb311858d56ca65f6a9",
+        "requests.json": "7cda732263231ad88aafe9023a82d2b9575c7aaf9848bed3ee59ae2bd87620d6"
+      }
+    },
+    {
+      "session_key": 9924,
+      "meeting_key": 1266,
+      "event": "Hungary",
+      "role": "validation",
+      "session_name": "Qualifying",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 18,
+          "native_car_rows": 13483,
+          "aligned_car_rows": 3590,
+          "position_rows": 13816,
+          "motion_qc_pass_laps": 11,
+          "conditional_motion_candidates": 4,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 7,
+            "gap_missing_or_over_limit": 12,
+            "lap_edge_coverage_missing_or_over_limit": 7,
+            "pit_out_or_unknown": 6,
+            "weather_missing_stale_or_ambiguous": 7,
+            "rain_reported_or_unknown": 7,
+            "stint_unknown_or_ambiguous": 7,
+            "wet_or_unknown_tyre_compound": 7,
+            "pit_activity_reported": 5
+          },
+          "outputs": {
+            "driver-1-laps.json": "beeed567005b62a0cb69204d35b97d982afac046c45e7a946927d60115920a0d",
+            "driver-1-car.csv.gz": "f66907789b0d59251f3d58ee337266a161ff12eaabd83e46edc9c93b4964c491",
+            "driver-1-position.csv.gz": "96ead17163cdb212469061a5839af9d8279e741d3e2991331021b8df49e1c09f"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 6,
+          "native_car_rows": 3502,
+          "aligned_car_rows": 1378,
+          "position_rows": 3551,
+          "motion_qc_pass_laps": 4,
+          "conditional_motion_candidates": 1,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 2,
+            "gap_missing_or_over_limit": 4,
+            "lap_edge_coverage_missing_or_over_limit": 2,
+            "pit_out_or_unknown": 2,
+            "weather_missing_stale_or_ambiguous": 2,
+            "rain_reported_or_unknown": 2,
+            "stint_unknown_or_ambiguous": 2,
+            "wet_or_unknown_tyre_compound": 2,
+            "pit_activity_reported": 2
+          },
+          "outputs": {
+            "driver-22-laps.json": "016ee894aec7c06cbc01de85e1c0ea5eea43696b2f6369c45823dcb8cb6d11b4",
+            "driver-22-car.csv.gz": "723e1ea6b54b374eb6fc39e5e0d3031af5a39629611b1062ce766539aad6f38a",
+            "driver-22-position.csv.gz": "cc1e4bc7f83312a3f8e89818f456094ad529366871c59faab04194ca83421704"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:08:11.624893+00:00",
+      "outputs": {
+        "context.json": "0c9ed2d4e2dde86bf2ac1179a2128b7fcff3bb382670d3d50a406f6382ddce7c",
+        "driver-1-car.csv.gz": "f66907789b0d59251f3d58ee337266a161ff12eaabd83e46edc9c93b4964c491",
+        "driver-1-complete.json": "e665d7de5d22da059cc15bf92ada762e9c96a69936beb671bfa03829d090e195",
+        "driver-1-laps.json": "beeed567005b62a0cb69204d35b97d982afac046c45e7a946927d60115920a0d",
+        "driver-1-position.csv.gz": "96ead17163cdb212469061a5839af9d8279e741d3e2991331021b8df49e1c09f",
+        "driver-22-car.csv.gz": "723e1ea6b54b374eb6fc39e5e0d3031af5a39629611b1062ce766539aad6f38a",
+        "driver-22-complete.json": "17d8b6c782e09c17e9151e68abfe4da82b417e461809b2bade5e3714d58e3eee",
+        "driver-22-laps.json": "016ee894aec7c06cbc01de85e1c0ea5eea43696b2f6369c45823dcb8cb6d11b4",
+        "driver-22-position.csv.gz": "cc1e4bc7f83312a3f8e89818f456094ad529366871c59faab04194ca83421704",
+        "requests.json": "0c83cfb45360ac4d4da2900640ebcd25c41680edd15af25fd773ae8db4c0cb3e"
+      }
+    },
+    {
+      "session_key": 9928,
+      "meeting_key": 1266,
+      "event": "Hungary",
+      "role": "validation",
+      "session_name": "Race",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 70,
+          "native_car_rows": 21581,
+          "aligned_car_rows": 20832,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 68,
+          "conditional_motion_candidates": 30,
+          "exclusion_counts": {
+            "gap_missing_or_over_limit": 39,
+            "pit_activity_reported": 2,
+            "native_motion_qc_failed": 2,
+            "lap_edge_coverage_missing_or_over_limit": 2,
+            "pit_out_or_unknown": 2,
+            "weather_missing_stale_or_ambiguous": 2,
+            "rain_reported_or_unknown": 2,
+            "stint_unknown_or_ambiguous": 2,
+            "wet_or_unknown_tyre_compound": 2
+          },
+          "outputs": {
+            "driver-1-laps.json": "93659bc673e71ce593795ba2e9c3768deacd28f90d6e13a4130a6cf5b4c65f8f",
+            "driver-1-car.csv.gz": "401f5a223c8079a2e69c671f9b38bb334df7f6e56165303816bd3399b7d3098c"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 69,
+          "native_car_rows": 21488,
+          "aligned_car_rows": 20726,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 67,
+          "conditional_motion_candidates": 29,
+          "exclusion_counts": {
+            "gap_missing_or_over_limit": 39,
+            "pit_activity_reported": 3,
+            "native_motion_qc_failed": 2,
+            "lap_edge_coverage_missing_or_over_limit": 2,
+            "pit_out_or_unknown": 2,
+            "weather_missing_stale_or_ambiguous": 2,
+            "rain_reported_or_unknown": 2,
+            "stint_unknown_or_ambiguous": 2,
+            "wet_or_unknown_tyre_compound": 2
+          },
+          "outputs": {
+            "driver-22-laps.json": "38e0c6ec0668d613e3e9bc278bb3237541ee084e6822ab0b37dc8c2c9685d8d5",
+            "driver-22-car.csv.gz": "b493cb5790d109750118f274523395d487741f063db588c75591226712ec7b15"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:08:56.223014+00:00",
+      "outputs": {
+        "context.json": "aa4a237ce21e36c2fcfcda09ad4dad42fe2c78cc745b6e6f7f9d0966420755e0",
+        "driver-1-car.csv.gz": "401f5a223c8079a2e69c671f9b38bb334df7f6e56165303816bd3399b7d3098c",
+        "driver-1-complete.json": "e42854b4a99137f608238bc79c86ad575c276f5ef74fca5606f30d3d098783b5",
+        "driver-1-laps.json": "93659bc673e71ce593795ba2e9c3768deacd28f90d6e13a4130a6cf5b4c65f8f",
+        "driver-22-car.csv.gz": "b493cb5790d109750118f274523395d487741f063db588c75591226712ec7b15",
+        "driver-22-complete.json": "dc019ebc2333ce0a111e951dab8f0b3d68cd49ff94b5f353e3e743843ce267fe",
+        "driver-22-laps.json": "38e0c6ec0668d613e3e9bc278bb3237541ee084e6822ab0b37dc8c2c9685d8d5",
+        "requests.json": "93d9ccd7463e4cc9686df87f4c3c64295f6b5f9dc8e1b70a10a5c8442c6a4836"
+      }
+    },
+    {
+      "session_key": 9940,
+      "meeting_key": 1277,
+      "event": "United Kingdom",
+      "role": "validation",
+      "session_name": "Practice 1",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 26,
+          "native_car_rows": 13489,
+          "aligned_car_rows": 8628,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 22,
+          "conditional_motion_candidates": 6,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 4,
+            "gap_missing_or_over_limit": 19,
+            "lap_edge_coverage_missing_or_over_limit": 4,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4,
+            "pit_activity_reported": 4
+          },
+          "outputs": {
+            "driver-1-laps.json": "529489bb3a78bf2f8190f57c7383610f84201fb346db33c5418d2b709c15f038",
+            "driver-1-car.csv.gz": "6e8a3db6fb4a804717524e18bbb1fab59148f31229ac4811d40af56c735c1a6c"
+          }
+        },
+        {
+          "driver_number": 36,
+          "driver_name": "Arvid LINDBLAD",
+          "team": "Red Bull Racing",
+          "lap_count": 22,
+          "native_car_rows": 12513,
+          "aligned_car_rows": 7474,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 17,
+          "conditional_motion_candidates": 5,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 14,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 5,
+            "rain_reported_or_unknown": 5,
+            "stint_unknown_or_ambiguous": 5,
+            "wet_or_unknown_tyre_compound": 5,
+            "pit_activity_reported": 5
+          },
+          "outputs": {
+            "driver-36-laps.json": "2d06bbc932bb0b90d703dd972dd792ff3f0ff0eccd21ce6df81da789218ff79d",
+            "driver-36-car.csv.gz": "9b1d9321908c8ce18a9582f90183ffdd01abe515511dd8ac82d5cdf5c3bad5cf"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:03:15.694522+00:00",
+      "outputs": {
+        "context.json": "b9fbc96f6f075949f3594b53f24984c5944edf545e7fc765495ebd4dabbd20c3",
+        "driver-1-car.csv.gz": "6e8a3db6fb4a804717524e18bbb1fab59148f31229ac4811d40af56c735c1a6c",
+        "driver-1-complete.json": "d7c03d75b8a5b406761d37b9acf5ea151e1f6b293972698dd3c0638a03dba2c9",
+        "driver-1-laps.json": "529489bb3a78bf2f8190f57c7383610f84201fb346db33c5418d2b709c15f038",
+        "driver-36-car.csv.gz": "9b1d9321908c8ce18a9582f90183ffdd01abe515511dd8ac82d5cdf5c3bad5cf",
+        "driver-36-complete.json": "a628e1dcd410bd46720a34392d69351ceb0794a2e42bca44f7726916f64be6b0",
+        "driver-36-laps.json": "2d06bbc932bb0b90d703dd972dd792ff3f0ff0eccd21ce6df81da789218ff79d",
+        "requests.json": "77e598cf3e7fa40870f1167ebc558984a22f0ce8df6b9ecea310f0fd8826378f"
+      }
+    },
+    {
+      "session_key": 9941,
+      "meeting_key": 1277,
+      "event": "United Kingdom",
+      "role": "validation",
+      "session_name": "Practice 2",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 23,
+          "native_car_rows": 13091,
+          "aligned_car_rows": 6907,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 18,
+          "conditional_motion_candidates": 5,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 16,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 5,
+            "rain_reported_or_unknown": 5,
+            "stint_unknown_or_ambiguous": 5,
+            "wet_or_unknown_tyre_compound": 5,
+            "pit_activity_reported": 5,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-1-laps.json": "1559b8967b80585b8f57f776af64dc5ccd4a5cbafe20179a5df1cc5ab2c10752",
+            "driver-1-car.csv.gz": "ef8b2cccbde41000a55ae51754d0ae5e9086d57352c1bf58b78ec8e9f748d079"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 25,
+          "native_car_rows": 13923,
+          "aligned_car_rows": 8249,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 20,
+          "conditional_motion_candidates": 6,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 5,
+            "gap_missing_or_over_limit": 19,
+            "lap_edge_coverage_missing_or_over_limit": 5,
+            "pit_out_or_unknown": 5,
+            "weather_missing_stale_or_ambiguous": 5,
+            "rain_reported_or_unknown": 5,
+            "stint_unknown_or_ambiguous": 5,
+            "wet_or_unknown_tyre_compound": 5,
+            "pit_activity_reported": 5
+          },
+          "outputs": {
+            "driver-22-laps.json": "071ad229f1d168a671697740c9e56e1788e46fbddb6f944c9399b70e0141e02b",
+            "driver-22-car.csv.gz": "187d6cd987db1718544eec111782b7b78859e3debc9670ee4021c1c1feffeb55"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:03:49.034667+00:00",
+      "outputs": {
+        "context.json": "6d86de6cb2eb815c0efdf4b95b5a6322e4f960b9f8a7358161cad9480aaa54db",
+        "driver-1-car.csv.gz": "ef8b2cccbde41000a55ae51754d0ae5e9086d57352c1bf58b78ec8e9f748d079",
+        "driver-1-complete.json": "e6404716be53bf19bc6f21cb06fda9232c3efc6d2aecb1cf0429a43e272cc486",
+        "driver-1-laps.json": "1559b8967b80585b8f57f776af64dc5ccd4a5cbafe20179a5df1cc5ab2c10752",
+        "driver-22-car.csv.gz": "187d6cd987db1718544eec111782b7b78859e3debc9670ee4021c1c1feffeb55",
+        "driver-22-complete.json": "fbaf1d21bca668d8aa1d122e50c0eb14e3aaf2162170f40dce57899019e2ca2e",
+        "driver-22-laps.json": "071ad229f1d168a671697740c9e56e1788e46fbddb6f944c9399b70e0141e02b",
+        "requests.json": "c7890df4a3f580b977965f1d1e4c9c5a58b04f205cc2b48ddc959e8ecb3600f8"
+      }
+    },
+    {
+      "session_key": 9943,
+      "meeting_key": 1277,
+      "event": "United Kingdom",
+      "role": "validation",
+      "session_name": "Qualifying",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 18,
+          "native_car_rows": 15028,
+          "aligned_car_rows": 3947,
+          "position_rows": 15583,
+          "motion_qc_pass_laps": 11,
+          "conditional_motion_candidates": 3,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 7,
+            "gap_missing_or_over_limit": 14,
+            "lap_edge_coverage_missing_or_over_limit": 7,
+            "pit_out_or_unknown": 6,
+            "weather_missing_stale_or_ambiguous": 7,
+            "rain_reported_or_unknown": 7,
+            "stint_unknown_or_ambiguous": 7,
+            "wet_or_unknown_tyre_compound": 7,
+            "pit_activity_reported": 5
+          },
+          "outputs": {
+            "driver-1-laps.json": "32637b6930d94bd33aa497a7419de9c763c367ddd52dff7ae83de52dc9dee4a0",
+            "driver-1-car.csv.gz": "76bb8c0693dc277339c50550e147356fc7867e4a71aa2e3f688266f52fd163b7",
+            "driver-1-position.csv.gz": "d1793b8109295a378b6ce9a7afffd0e1ae5cf27a79cae6a7005b0fb55b6ee145"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 13,
+          "native_car_rows": 10762,
+          "aligned_car_rows": 3368,
+          "position_rows": 11054,
+          "motion_qc_pass_laps": 9,
+          "conditional_motion_candidates": 3,
+          "exclusion_counts": {
+            "native_motion_qc_failed": 4,
+            "gap_missing_or_over_limit": 8,
+            "lap_edge_coverage_missing_or_over_limit": 4,
+            "pit_out_or_unknown": 4,
+            "weather_missing_stale_or_ambiguous": 4,
+            "rain_reported_or_unknown": 4,
+            "stint_unknown_or_ambiguous": 4,
+            "wet_or_unknown_tyre_compound": 4,
+            "pit_activity_reported": 4,
+            "flag_reported": 1
+          },
+          "outputs": {
+            "driver-22-laps.json": "9f3c1badfd9e27b0664a7fa85ad9ef22eccd2b648adbb5aedbb04b2d9d271ea3",
+            "driver-22-car.csv.gz": "72d31dd311ce707acc371fb7df24c3677db5f3c6f63569a856d6f54c67e65085",
+            "driver-22-position.csv.gz": "4c2a42e9fdfd0358526aa2e47fdc16390027ab044a734be5d93d6112138205ea"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:05:02.571622+00:00",
+      "outputs": {
+        "context.json": "dd0a599954ea1a85409fe87505dd530919833441a4757561d423e3b1e65b9b9b",
+        "driver-1-car.csv.gz": "76bb8c0693dc277339c50550e147356fc7867e4a71aa2e3f688266f52fd163b7",
+        "driver-1-complete.json": "07a44eda6a3d28c2e6ac17548ce1fef55774dd0fb4aa61960ec71e502b02cefd",
+        "driver-1-laps.json": "32637b6930d94bd33aa497a7419de9c763c367ddd52dff7ae83de52dc9dee4a0",
+        "driver-1-position.csv.gz": "d1793b8109295a378b6ce9a7afffd0e1ae5cf27a79cae6a7005b0fb55b6ee145",
+        "driver-22-car.csv.gz": "72d31dd311ce707acc371fb7df24c3677db5f3c6f63569a856d6f54c67e65085",
+        "driver-22-complete.json": "46aee9d8b065bfd7dca6cc43198659cf7c5121979eb0ff403eb073cc9d45e9fd",
+        "driver-22-laps.json": "9f3c1badfd9e27b0664a7fa85ad9ef22eccd2b648adbb5aedbb04b2d9d271ea3",
+        "driver-22-position.csv.gz": "4c2a42e9fdfd0358526aa2e47fdc16390027ab044a734be5d93d6112138205ea",
+        "requests.json": "2ff81be6bc812fab14adb8da6270e0d342c97154b88adc1de9b5159beb4eae43"
+      }
+    },
+    {
+      "session_key": 9947,
+      "meeting_key": 1277,
+      "event": "United Kingdom",
+      "role": "validation",
+      "session_name": "Race",
+      "drivers": [
+        {
+          "driver_number": 1,
+          "driver_name": "Max VERSTAPPEN",
+          "team": "Red Bull Racing",
+          "lap_count": 52,
+          "native_car_rows": 21872,
+          "aligned_car_rows": 20824,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 48,
+          "conditional_motion_candidates": 5,
+          "exclusion_counts": {
+            "flag_reported": 16,
+            "wet_or_unknown_tyre_compound": 42,
+            "gap_missing_or_over_limit": 31,
+            "pit_activity_reported": 2,
+            "rain_reported_or_unknown": 7,
+            "native_motion_qc_failed": 4,
+            "lap_edge_coverage_missing_or_over_limit": 4,
+            "pit_out_or_unknown": 2,
+            "weather_missing_stale_or_ambiguous": 2,
+            "stint_unknown_or_ambiguous": 2
+          },
+          "outputs": {
+            "driver-1-laps.json": "d3f26c23a5ec8424925af55aef338c7c240562dafd9796aedefb04c1d3da924d",
+            "driver-1-car.csv.gz": "3d5714054f0e4823da70b75d5e89a938757f6b22b7acea8be088626e8d12d7df"
+          }
+        },
+        {
+          "driver_number": 22,
+          "driver_name": "Yuki TSUNODA",
+          "team": "Red Bull Racing",
+          "lap_count": 51,
+          "native_car_rows": 21779,
+          "aligned_car_rows": 20696,
+          "position_rows": 0,
+          "motion_qc_pass_laps": 44,
+          "conditional_motion_candidates": 1,
+          "exclusion_counts": {
+            "flag_reported": 15,
+            "wet_or_unknown_tyre_compound": 42,
+            "gap_missing_or_over_limit": 32,
+            "lap_edge_coverage_missing_or_over_limit": 8,
+            "pit_activity_reported": 2,
+            "rain_reported_or_unknown": 7,
+            "native_motion_qc_failed": 7,
+            "pit_out_or_unknown": 2,
+            "weather_missing_stale_or_ambiguous": 2,
+            "stint_unknown_or_ambiguous": 2
+          },
+          "outputs": {
+            "driver-22-laps.json": "4dc481b14b90209b0f73ca4d9537465cae6233d977b1ce5ae25affa0a490f3b4",
+            "driver-22-car.csv.gz": "981ec6157f69648d7c2572a03d0e6cee5997c0bdb6be3a9868f28b7aca1cd15b"
+          }
+        }
+      ],
+      "completed_utc": "2026-11-10T22:05:47.114838+00:00",
+      "outputs": {
+        "context.json": "ed68f96989da9d22be093f950579c84b3babf81f864386bcf48109a6d4f39fab",
+        "driver-1-car.csv.gz": "3d5714054f0e4823da70b75d5e89a938757f6b22b7acea8be088626e8d12d7df",
+        "driver-1-complete.json": "e7145e0bab08a27e0308f6e34a9547b85baf8e65b1340d4e8cf2a4d45133bd6e",
+        "driver-1-laps.json": "d3f26c23a5ec8424925af55aef338c7c240562dafd9796aedefb04c1d3da924d",
+        "driver-22-car.csv.gz": "981ec6157f69648d7c2572a03d0e6cee5997c0bdb6be3a9868f28b7aca1cd15b",
+        "driver-22-complete.json": "3ca9509e7d7a23e4ec3e6568109272bb58c3afc492d89fefd22a44e46eca7fbd",
+        "driver-22-laps.json": "4dc481b14b90209b0f73ca4d9537465cae6233d977b1ce5ae25affa0a490f3b4",
+        "requests.json": "67618f0d6f27218c7dde81581c776939e7650b193e095633bc5a10d2e9ca6f5e"
+      }
+    }
+  ]
+}

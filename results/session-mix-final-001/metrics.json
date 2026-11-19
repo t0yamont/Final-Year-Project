@@ -1,0 +1,410 @@
+{
+  "coverage": [
+    {
+      "event": "Belgium",
+      "filter": "primary",
+      "candidate_laps": 0,
+      "selected": 0,
+      "unsupported_drs": {},
+      "retained": 0,
+      "laps": 0,
+      "groups": 0
+    },
+    {
+      "event": "Belgium",
+      "filter": "dt_le_0.3",
+      "candidate_laps": 0,
+      "selected": 0,
+      "unsupported_drs": {},
+      "retained": 0,
+      "laps": 0,
+      "groups": 0
+    },
+    {
+      "event": "Belgium",
+      "filter": "speed_ge_30",
+      "candidate_laps": 0,
+      "selected": 0,
+      "unsupported_drs": {},
+      "retained": 0,
+      "laps": 0,
+      "groups": 0
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "primary",
+      "candidate_laps": 3,
+      "selected": 516,
+      "unsupported_drs": {
+        "14": 1
+      },
+      "retained": 515,
+      "laps": 3,
+      "groups": 6
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "dt_le_0.3",
+      "candidate_laps": 3,
+      "selected": 366,
+      "unsupported_drs": {
+        "14": 1
+      },
+      "retained": 365,
+      "laps": 3,
+      "groups": 6
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "speed_ge_30",
+      "candidate_laps": 3,
+      "selected": 516,
+      "unsupported_drs": {
+        "14": 1
+      },
+      "retained": 515,
+      "laps": 3,
+      "groups": 6
+    }
+  ],
+  "lap_audits": {
+    "Belgium": {},
+    "Abu Dhabi": {
+      "5": {
+        "input_samples": 312,
+        "selected": 171,
+        "exclusions": {
+          "gear_change_or_unknown": 20,
+          "braking_or_unknown": 50,
+          "below_throttle_threshold": 64,
+          "drs_change_or_unknown": 4,
+          "pair_gap_over_limit": 2
+        }
+      },
+      "8": {
+        "input_samples": 305,
+        "selected": 169,
+        "exclusions": {
+          "gear_change_or_unknown": 18,
+          "below_throttle_threshold": 63,
+          "braking_or_unknown": 44,
+          "pair_gap_over_limit": 5,
+          "drs_change_or_unknown": 5
+        }
+      },
+      "11": {
+        "input_samples": 308,
+        "selected": 176,
+        "exclusions": {
+          "gear_change_or_unknown": 19,
+          "braking_or_unknown": 49,
+          "below_throttle_threshold": 54,
+          "pair_gap_over_limit": 5,
+          "drs_change_or_unknown": 4
+        }
+      }
+    }
+  },
+  "scores": [
+    {
+      "event": "Abu Dhabi",
+      "filter": "primary",
+      "seed": 0,
+      "rmse": {
+        "constant": 3.098363480156946,
+        "Q": 1.8081416707135012,
+        "QP": 1.7638196003753888,
+        "QPR": 1.769475670044228,
+        "QP_matched": 1.7638366326288433,
+        "QPR_matched": 1.7684780191105167
+      },
+      "outside_fraction": {
+        "Q": 0.12427184466019417,
+        "QP": 0.10485436893203884,
+        "QPR": 0.017475728155339806,
+        "QP_matched": 0.11067961165048544,
+        "QPR_matched": 0.04271844660194175
+      }
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "primary",
+      "seed": 1,
+      "rmse": {
+        "constant": 3.098363480156946,
+        "Q": 1.8081416707135012,
+        "QP": 1.7638196003753888,
+        "QPR": 1.769475670044228,
+        "QP_matched": 1.783880522065165,
+        "QPR_matched": 1.7848858602623894
+      },
+      "outside_fraction": {
+        "Q": 0.12427184466019417,
+        "QP": 0.10485436893203884,
+        "QPR": 0.017475728155339806,
+        "QP_matched": 0.12427184466019417,
+        "QPR_matched": 0.036893203883495145
+      }
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "primary",
+      "seed": 2,
+      "rmse": {
+        "constant": 3.098363480156946,
+        "Q": 1.8081416707135012,
+        "QP": 1.7638196003753888,
+        "QPR": 1.769475670044228,
+        "QP_matched": 1.7735751621305,
+        "QPR_matched": 1.7752464669660382
+      },
+      "outside_fraction": {
+        "Q": 0.12427184466019417,
+        "QP": 0.10485436893203884,
+        "QPR": 0.017475728155339806,
+        "QP_matched": 0.12427184466019417,
+        "QPR_matched": 0.05631067961165048
+      }
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "primary",
+      "seed": 3,
+      "rmse": {
+        "constant": 3.098363480156946,
+        "Q": 1.8081416707135012,
+        "QP": 1.7638196003753888,
+        "QPR": 1.769475670044228,
+        "QP_matched": 1.774591979397914,
+        "QPR_matched": 1.7716766496142407
+      },
+      "outside_fraction": {
+        "Q": 0.12427184466019417,
+        "QP": 0.10485436893203884,
+        "QPR": 0.017475728155339806,
+        "QP_matched": 0.12233009708737864,
+        "QPR_matched": 0.05436893203883495
+      }
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "primary",
+      "seed": 4,
+      "rmse": {
+        "constant": 3.098363480156946,
+        "Q": 1.8081416707135012,
+        "QP": 1.7638196003753888,
+        "QPR": 1.769475670044228,
+        "QP_matched": 1.7846109177279832,
+        "QPR_matched": 1.78145736929056
+      },
+      "outside_fraction": {
+        "Q": 0.12427184466019417,
+        "QP": 0.10485436893203884,
+        "QPR": 0.017475728155339806,
+        "QP_matched": 0.11650485436893204,
+        "QPR_matched": 0.02912621359223301
+      }
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "dt_le_0.3",
+      "seed": 0,
+      "rmse": {
+        "constant": 3.269415839644772,
+        "Q": 1.964944527748984,
+        "QP": 1.9383319522883147,
+        "QPR": 1.9456184624337,
+        "QP_matched": 1.943207301423972,
+        "QPR_matched": 1.9675971671790473
+      },
+      "outside_fraction": {
+        "Q": 0.1232876712328767,
+        "QP": 0.09863013698630137,
+        "QPR": 0.01643835616438356,
+        "QP_matched": 0.12876712328767123,
+        "QPR_matched": 0.057534246575342465
+      }
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "dt_le_0.3",
+      "seed": 1,
+      "rmse": {
+        "constant": 3.269415839644772,
+        "Q": 1.964944527748984,
+        "QP": 1.9383319522883147,
+        "QPR": 1.9456184624337,
+        "QP_matched": 1.9379834062627763,
+        "QPR_matched": 1.957388895409923
+      },
+      "outside_fraction": {
+        "Q": 0.1232876712328767,
+        "QP": 0.09863013698630137,
+        "QPR": 0.01643835616438356,
+        "QP_matched": 0.11232876712328767,
+        "QPR_matched": 0.0684931506849315
+      }
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "dt_le_0.3",
+      "seed": 2,
+      "rmse": {
+        "constant": 3.269415839644772,
+        "Q": 1.964944527748984,
+        "QP": 1.9383319522883147,
+        "QPR": 1.9456184624337,
+        "QP_matched": 1.921330885989895,
+        "QPR_matched": 1.929165308687886
+      },
+      "outside_fraction": {
+        "Q": 0.1232876712328767,
+        "QP": 0.09863013698630137,
+        "QPR": 0.01643835616438356,
+        "QP_matched": 0.14246575342465753,
+        "QPR_matched": 0.09315068493150686
+      }
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "dt_le_0.3",
+      "seed": 3,
+      "rmse": {
+        "constant": 3.269415839644772,
+        "Q": 1.964944527748984,
+        "QP": 1.9383319522883147,
+        "QPR": 1.9456184624337,
+        "QP_matched": 1.9307802726417256,
+        "QPR_matched": 1.9255873768061944
+      },
+      "outside_fraction": {
+        "Q": 0.1232876712328767,
+        "QP": 0.09863013698630137,
+        "QPR": 0.01643835616438356,
+        "QP_matched": 0.1232876712328767,
+        "QPR_matched": 0.06575342465753424
+      }
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "dt_le_0.3",
+      "seed": 4,
+      "rmse": {
+        "constant": 3.269415839644772,
+        "Q": 1.964944527748984,
+        "QP": 1.9383319522883147,
+        "QPR": 1.9456184624337,
+        "QP_matched": 1.9234904677759466,
+        "QPR_matched": 1.9497585240292366
+      },
+      "outside_fraction": {
+        "Q": 0.1232876712328767,
+        "QP": 0.09863013698630137,
+        "QPR": 0.01643835616438356,
+        "QP_matched": 0.10410958904109589,
+        "QPR_matched": 0.049315068493150684
+      }
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "speed_ge_30",
+      "seed": 0,
+      "rmse": {
+        "constant": 3.098363480156946,
+        "Q": 1.8081416707135012,
+        "QP": 1.7638196003753888,
+        "QPR": 1.769475670044228,
+        "QP_matched": 1.7638366326288433,
+        "QPR_matched": 1.7684780191105167
+      },
+      "outside_fraction": {
+        "Q": 0.12427184466019417,
+        "QP": 0.10485436893203884,
+        "QPR": 0.017475728155339806,
+        "QP_matched": 0.11067961165048544,
+        "QPR_matched": 0.04271844660194175
+      }
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "speed_ge_30",
+      "seed": 1,
+      "rmse": {
+        "constant": 3.098363480156946,
+        "Q": 1.8081416707135012,
+        "QP": 1.7638196003753888,
+        "QPR": 1.769475670044228,
+        "QP_matched": 1.783880522065165,
+        "QPR_matched": 1.7848858602623894
+      },
+      "outside_fraction": {
+        "Q": 0.12427184466019417,
+        "QP": 0.10485436893203884,
+        "QPR": 0.017475728155339806,
+        "QP_matched": 0.12427184466019417,
+        "QPR_matched": 0.036893203883495145
+      }
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "speed_ge_30",
+      "seed": 2,
+      "rmse": {
+        "constant": 3.098363480156946,
+        "Q": 1.8081416707135012,
+        "QP": 1.7638196003753888,
+        "QPR": 1.769475670044228,
+        "QP_matched": 1.7735751621305,
+        "QPR_matched": 1.7752464669660382
+      },
+      "outside_fraction": {
+        "Q": 0.12427184466019417,
+        "QP": 0.10485436893203884,
+        "QPR": 0.017475728155339806,
+        "QP_matched": 0.12427184466019417,
+        "QPR_matched": 0.05631067961165048
+      }
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "speed_ge_30",
+      "seed": 3,
+      "rmse": {
+        "constant": 3.098363480156946,
+        "Q": 1.8081416707135012,
+        "QP": 1.7638196003753888,
+        "QPR": 1.769475670044228,
+        "QP_matched": 1.774591979397914,
+        "QPR_matched": 1.7716766496142407
+      },
+      "outside_fraction": {
+        "Q": 0.12427184466019417,
+        "QP": 0.10485436893203884,
+        "QPR": 0.017475728155339806,
+        "QP_matched": 0.12233009708737864,
+        "QPR_matched": 0.05436893203883495
+      }
+    },
+    {
+      "event": "Abu Dhabi",
+      "filter": "speed_ge_30",
+      "seed": 4,
+      "rmse": {
+        "constant": 3.098363480156946,
+        "Q": 1.8081416707135012,
+        "QP": 1.7638196003753888,
+        "QPR": 1.769475670044228,
+        "QP_matched": 1.7846109177279832,
+        "QPR_matched": 1.78145736929056
+      },
+      "outside_fraction": {
+        "Q": 0.12427184466019417,
+        "QP": 0.10485436893203884,
+        "QPR": 0.017475728155339806,
+        "QP_matched": 0.11650485436893204,
+        "QPR_matched": 0.02912621359223301
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "inputs": {
+    "configs\\regeneration_ppo_actor64.json": "938f77426e608205aeebdd92ac8f2987470f4bd52291964d22cbc7a520918052",
+    "results\\regeneration-multiseed-001\\manifest.json": "894ae6e5b2ac4e28e90bbe491a65fdce39901e793085ea962dc85c30a86827ce",
+    "results\\regeneration-multiseed-001\\seed-0\\checkpoint_16384.zip": "bd7b0a4fa4d7ff80392ea40ab2b0265aa3ac090fb1a6d377863a05d901db3ef4",
+    "results\\regeneration-multiseed-001\\seed-1\\checkpoint_16384.zip": "629551dea0a8763c0984a5e00259df02dfb3d6b21cbbc6d1e20e92a54444459b",
+    "results\\regeneration-multiseed-001\\seed-2\\checkpoint_16384.zip": "e988a9580acbd62ebcb96090c32f37d36e78d28f8b4cba6033ba9b6a767dbb05"
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src\\f1energy\\event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\evaluate_ppo_actor_width.py": "958684269eeaa5f3a93573269fab53e89b7b88c07cbb87fceb60a1e2ddbf9232",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "scripts\\report_regeneration_robustness.py": "e681f7412984e5aa472790532eef350a62cb6614f4e085ae56fb2ce251801178",
+    "scripts\\run_regeneration_robustness.py": "2a20b58a520962dca4a1952bc6e4353c1507b6f3dde976a7b5bbd584b8e2905e",
+    "scripts\\validate_regeneration.py": "3a2a581cbe21bbe4dbf7ef375ffe47e8b17f046c7c47a3bbcad520a8f8e4277f"
+  },
+  "outputs": {
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\contract.json": "e13d11fb976e120071edfbc525b58a0231d4358bbb2cffed6675e57a43447ee8",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\drag_1p05_seed0_160.json.gz": "4500b0baf0b72c4bd33da378894b360384c6d83e185955d1c231e1708f8d703f",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\drag_1p05_seed0_320.json.gz": "90f8bd155e576f6827f37120e4a0e581f0b1051d1ef5ed2576bf3a85f5cdcdc6",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\drag_1p05_seed1_160.json.gz": "83578b23aee4a712680a80fdf32b8fffe7a6ba164e4e9b0d31b21129169881c4",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\drag_1p05_seed1_320.json.gz": "66772e3e450657650bac049463888e99816a0a95b348dec3f7c8d4cf84de041b",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\drag_1p05_seed2_160.json.gz": "3e8e23bfff4c280f04c9ff242f6de903a49f43159846e33c578dfeca8b1a68c5",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\drag_1p05_seed2_320.json.gz": "8347b8be4e37b665379123ec5fac056eee5668c062713312f5de82d4a62e7319",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\energy_1p5MJ_seed0_160.json.gz": "e35da98340f13559427de2ac85c6fc51e77043e39d931a8f0764d0961493295c",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\energy_1p5MJ_seed0_320.json.gz": "006421408253b7d9502350122efeda38266209e41c53c3b9977ffda9727341fa",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\energy_1p5MJ_seed1_160.json.gz": "05ba211368a2f84155f96e9b14141a3efeec5b56a8515f02bb320d18e6c5fbba",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\energy_1p5MJ_seed1_320.json.gz": "77fb09a6d0c02fd1ee6b63b65e4591207d95047ac5722a2049ab82ef3d53f185",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\energy_1p5MJ_seed2_160.json.gz": "6cad60f714ea0e6f2a28b1d7618e55c439d1abecb73cced82825dd8839b14a41",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\energy_1p5MJ_seed2_320.json.gz": "d1f7a59d7b01a97800997646740a963329413a741a1fe0321008789ea7e0a70a",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\metrics.json": "995ad494c171a80744dd1d98f6a25aee71b28336e7d77b392323897a9d927ed4",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\nominal_seed0_160.json.gz": "82baeb761f1a381d5429ad668884181e99f4f3492bebdfdea48c4853cc893e14",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\nominal_seed0_320.json.gz": "b8f4fc99c1d1d3f1a985ce7e02041f0d579635d885eab232f8a08659eb5aaf89",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\nominal_seed1_160.json.gz": "b58cb69af3dacee99e4fa17dd2cd701230420cd5c4843288ee92c66e36cd65ae",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\nominal_seed1_320.json.gz": "a6aa4fc987877e42702ec7ec0be059c25984a8638e3d23c9512370f6e9682040",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\nominal_seed2_160.json.gz": "0db5c6e9b9dc6cffbd69879ccea39a34daf48e6792ab48558c59504225b49b8d",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\nominal_seed2_320.json.gz": "3edbf5854f3f9912ec06b3adc2ec8ef80cc8f88cdfde21c57b6524d54fa15525",
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\progress.json": "3fe8b5405d91d55d05581e776a182bc32972e4d050ea6db63760f36ca4caf2d4"
+  }
+}

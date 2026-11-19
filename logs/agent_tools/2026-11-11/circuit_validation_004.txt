@@ -1,0 +1,16 @@
+{"case": "sigma-10_grid-20_action-0", "reused_from": "results\\circuit-validation-003"}
+{"case": "sigma-10_grid-20_action-1", "reused_from": "results\\circuit-validation-003"}
+{"case": "sigma-10_grid-10_action-0", "reused_from": "results\\circuit-validation-003"}
+{"case": "sigma-10_grid-10_action-1", "reused_from": "results\\circuit-validation-003"}
+{"case": "sigma-10_grid-5_action-0", "reused_from": "results\\circuit-validation-003"}
+{"case": "sigma-10_grid-5_action-1", "reused_from": "results\\circuit-validation-003"}
+{"case": "sigma-10_grid-2.5_action-0", "reused_from": "results\\circuit-validation-003"}
+{"case": "sigma-10_grid-2.5_action-1", "reused_from": "results\\circuit-validation-003"}
+{"case": "sigma-10_grid-1.25_action-0", "reused_from": "results\\circuit-validation-003"}
+{"case": "sigma-10_grid-1.25_action-1", "reused_from": "results\\circuit-validation-003"}
+{"case": "sigma-10_grid-0.625_action-0", "reused_from": "results\\circuit-validation-003"}
+{"case": "sigma-10_grid-0.625_action-1", "reused_from": "results\\circuit-validation-003"}
+{"case": "sigma-5_grid-5_action-1", "reused_from": "results\\circuit-validation-003"}
+{"case": "sigma-20_grid-5_action-1", "reused_from": "results\\circuit-validation-003"}
+{"case": "sigma-10_grid-0.625_action-1_tight", "reused_from": "results\\circuit-validation-003"}
+{"all_numerical_gates_passed": true, "checks": {"periodic_speed": true, "speed_caps": true, "work_energy": true, "battery_identity": true, "reserve": true, "tighter_solver": true, "grid_refinement_action_0": true, "grid_refinement_action_1": true}, "refinement": {"0.0": {"finest_pair_relative_time_difference": 0.0034820872212431254, "finest_pair_battery_difference_j": 0.0}, "1.0": {"finest_pair_relative_time_difference": 0.0035307731060904308, "finest_pair_battery_difference_j": 1.862645149230957e-09}}}

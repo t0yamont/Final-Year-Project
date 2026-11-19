@@ -1,0 +1,60 @@
+{
+  "rows": [
+    {
+      "width": 32,
+      "seed": 0,
+      "actor_parameters": 1377,
+      "actor_weight_bytes": 5508,
+      "training_s": 656.0054700998589,
+      "peak_torch_allocated_bytes": 17159168,
+      "warm_ms_per_55_actions": 33.7814
+    },
+    {
+      "width": 64,
+      "seed": 0,
+      "actor_parameters": 4801,
+      "actor_weight_bytes": 19204,
+      "training_s": 648.1084660000633,
+      "peak_torch_allocated_bytes": 17224192,
+      "warm_ms_per_55_actions": 34.5554
+    },
+    {
+      "width": 64,
+      "seed": 1,
+      "actor_parameters": 4801,
+      "actor_weight_bytes": 19204,
+      "training_s": 636.1182845998555,
+      "peak_torch_allocated_bytes": 17224192,
+      "warm_ms_per_55_actions": 33.1522
+    },
+    {
+      "width": 32,
+      "seed": 1,
+      "actor_parameters": 1377,
+      "actor_weight_bytes": 5508,
+      "training_s": 627.5154579000082,
+      "peak_torch_allocated_bytes": 17159168,
+      "warm_ms_per_55_actions": 33.2547
+    },
+    {
+      "width": 32,
+      "seed": 2,
+      "actor_parameters": 1377,
+      "actor_weight_bytes": 5508,
+      "training_s": 645.6196816000156,
+      "peak_torch_allocated_bytes": 17159168,
+      "warm_ms_per_55_actions": 32.5845
+    },
+    {
+      "width": 64,
+      "seed": 2,
+      "actor_parameters": 4801,
+      "actor_weight_bytes": 19204,
+      "training_s": 640.1346546998248,
+      "peak_torch_allocated_bytes": 17224192,
+      "warm_ms_per_55_actions": 33.8254
+    }
+  ],
+  "gpu": "NVIDIA A16-16Q",
+  "method": "Three warm-ups and median of 21 synchronized batch-one repetitions. All policies receive the original seed-0 nominal fine-grid observations. Wall times exclude environment integration, model loading and observation construction. Peak allocated bytes are per training worker and exclude driver/context reservations."
+}

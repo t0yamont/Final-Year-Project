@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "hashes_checked": 15,
+  "prediction_rows": 69060,
+  "conditional_predictions_checked": 345300,
+  "group_metrics": 1200,
+  "max_prediction_discrepancy": 3.552713678800501e-15,
+  "model_records": 300,
+  "matched_volume_and_development_only_fitting": true,
+  "figures": {
+    "figures\\dissertation\\session-mix-qualifying-v1\\01_qualifying_session_mix.pdf": "0e24b82a42b1d66f5005dd4dce2d5a9a4edad038cb61e47dc7f03afc15420f8a",
+    "figures\\dissertation\\session-mix-qualifying-v1\\01_qualifying_session_mix.png": "c1e14a9ccbff1e0d7e6c29675921ed075355dcd60ada34943cfec4c93436b977"
+  },
+  "script_sha256": "7622c5259f3dd990c3dbafc649387691ac24773a1646324635d29f3fc5b23a12"
+}

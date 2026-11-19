@@ -1,0 +1,26 @@
+{
+  "inputs": {
+    "configs\\bahrain_pace_protocol.json": "a0d050b0b47ec88e9424cbbe2d77414599b4bcc40b83190332c79bdb991f3c30",
+    "results\\bahrain-pace-inputs-001\\metrics.json": "e6a6c8ae90eb77641374136f0a950ae9c61ed0dd93f41104f877a599db92eb20",
+    "results\\bahrain-pace-inputs-001\\lap-13.csv": "00765ca5d3d0b0c6ed91ca63321aed217c9c96a545472b3e571257e7f8faa23b",
+    "results\\regeneration-dp-width-001\\manifest.json": "e5a27bed69673d5317c7e645730c662ee953b38605f8bb64059b4f09187349a8",
+    "configs\\circuit_reference.json": "19b80d69d3e91d32a9ce4a2b00a40589fcd16ceb387c17ca4ad151a5a6043657",
+    "configs\\regeneration_study.json": "e2cf5f325d40b3b3341fa83f90cdff5ee4d6d71d515729fe662d997e3f0e0edb"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\calibrate_bahrain_pace.py": "c314dfe3c85077c46f0d5f16ef8735e3bf73f570019b6429b964992089c3cc19",
+    "scripts\\bahrain_pace_model.py": "4983b5bb3e0426d4b9d1b4b02c3c9933142702560a783a92ae3446e0508dc217",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "src\\f1energy\\circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "src\\f1energy\\event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b"
+  },
+  "outputs": {
+    "results\\bahrain-pace-diagnosis-001\\contract.json": "90873b60cf15879b92d494d11ac278640d0ca6f4b6f4452743f454af7567b544",
+    "results\\bahrain-pace-diagnosis-001\\historical.json": "f0e0c2640299439ac41d332a7271d5da69e7fdb0cf97675cb23affeed1391d05",
+    "results\\bahrain-pace-diagnosis-001\\metrics.json": "b70dacc9ed21db543ceb7512002cd11a0ec79d846e42a39b915de0d1bf358bf6",
+    "figures\\dissertation\\bahrain-pace-diagnosis-v1\\01_historic_gap.pdf": "5446f8613d511b73645dd22b3f20a206ed54e28d8d500cd2149c7f3e3727722f",
+    "figures\\dissertation\\bahrain-pace-diagnosis-v1\\01_historic_gap.png": "1b9ec7f258add00f7ddc1695609ab25826076f57e7db90b1c6ca56cd61dd5919"
+  }
+}

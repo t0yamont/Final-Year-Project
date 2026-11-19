@@ -1,0 +1,157 @@
+{
+  "hash_checks": 38,
+  "rollouts_independently_verified": 25,
+  "results": [
+    {
+      "blocks": 55,
+      "cells": 20,
+      "policy": "zero",
+      "independent_energy_residual_j": -5.005858838558197e-09
+    },
+    {
+      "blocks": 55,
+      "cells": 20,
+      "policy": "half",
+      "independent_energy_residual_j": -9.182258509099483e-09
+    },
+    {
+      "blocks": 55,
+      "cells": 20,
+      "policy": "full",
+      "independent_energy_residual_j": -1.8524588085711002e-08
+    },
+    {
+      "blocks": 55,
+      "cells": 20,
+      "policy": "spread",
+      "independent_energy_residual_j": -8.833012543618679e-09
+    },
+    {
+      "blocks": 55,
+      "cells": 20,
+      "policy": "exit_boost",
+      "independent_energy_residual_j": -7.1158865466713905e-09
+    },
+    {
+      "blocks": 55,
+      "cells": 40,
+      "policy": "zero",
+      "independent_energy_residual_j": 8.731149137020111e-10
+    },
+    {
+      "blocks": 55,
+      "cells": 40,
+      "policy": "half",
+      "independent_energy_residual_j": 2.1274900063872337e-08
+    },
+    {
+      "blocks": 55,
+      "cells": 40,
+      "policy": "full",
+      "independent_energy_residual_j": -4.3655745685100555e-10
+    },
+    {
+      "blocks": 55,
+      "cells": 40,
+      "policy": "spread",
+      "independent_energy_residual_j": -2.7939677238464355e-09
+    },
+    {
+      "blocks": 55,
+      "cells": 40,
+      "policy": "exit_boost",
+      "independent_energy_residual_j": -3.6539859138429165e-08
+    },
+    {
+      "blocks": 55,
+      "cells": 80,
+      "policy": "zero",
+      "independent_energy_residual_j": -3.055902197957039e-10
+    },
+    {
+      "blocks": 55,
+      "cells": 80,
+      "policy": "half",
+      "independent_energy_residual_j": 1.8379068933427334e-08
+    },
+    {
+      "blocks": 55,
+      "cells": 80,
+      "policy": "full",
+      "independent_energy_residual_j": -5.136826075613499e-09
+    },
+    {
+      "blocks": 55,
+      "cells": 80,
+      "policy": "spread",
+      "independent_energy_residual_j": -2.181332092732191e-08
+    },
+    {
+      "blocks": 55,
+      "cells": 80,
+      "policy": "exit_boost",
+      "independent_energy_residual_j": -2.4185283109545708e-08
+    },
+    {
+      "blocks": 55,
+      "cells": 160,
+      "policy": "zero",
+      "independent_energy_residual_j": -4.030880518257618e-08
+    },
+    {
+      "blocks": 55,
+      "cells": 160,
+      "policy": "half",
+      "independent_energy_residual_j": 1.8655555322766304e-08
+    },
+    {
+      "blocks": 55,
+      "cells": 160,
+      "policy": "full",
+      "independent_energy_residual_j": -3.958120942115784e-09
+    },
+    {
+      "blocks": 55,
+      "cells": 160,
+      "policy": "spread",
+      "independent_energy_residual_j": -9.284121915698051e-09
+    },
+    {
+      "blocks": 55,
+      "cells": 160,
+      "policy": "exit_boost",
+      "independent_energy_residual_j": -1.941225491464138e-08
+    },
+    {
+      "blocks": 110,
+      "cells": 80,
+      "policy": "zero",
+      "independent_energy_residual_j": -3.3927790354937315e-08
+    },
+    {
+      "blocks": 110,
+      "cells": 80,
+      "policy": "half",
+      "independent_energy_residual_j": 2.5393092073500156e-08
+    },
+    {
+      "blocks": 110,
+      "cells": 80,
+      "policy": "full",
+      "independent_energy_residual_j": 4.351022653281689e-09
+    },
+    {
+      "blocks": 110,
+      "cells": 80,
+      "policy": "spread",
+      "independent_energy_residual_j": -2.0227162167429924e-09
+    },
+    {
+      "blocks": 110,
+      "cells": 80,
+      "policy": "exit_boost",
+      "independent_energy_residual_j": -1.0142684914171696e-08
+    }
+  ],
+  "note": "Current benchmark runner additionally checks numerical input hashes; historical run001 runner bytes are identified by its saved hash. Training verifies both nested numerical inputs and baseline sources/outputs."
+}

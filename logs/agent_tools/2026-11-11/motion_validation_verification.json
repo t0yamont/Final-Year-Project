@@ -1,0 +1,9 @@
+{
+  "hash_checks": 13,
+  "prediction_rows_recomputed": 13866,
+  "lap_drs_groups_recomputed": 161,
+  "development_rows": 5110,
+  "validation_rows": 8756,
+  "checks": "Transferred-fit and reference predictions, lap/DRS RMSE, saved hashes and role restriction; original fit holdout membership checked",
+  "figure": "motion-validation-v2/01_motion_validation.png; inspected"
+}

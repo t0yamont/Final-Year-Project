@@ -1,0 +1,16 @@
+{
+  "baseline": "results/regeneration-validation-001",
+  "ppo": "results/regeneration-multiseed-001",
+  "search_cells": 80,
+  "evaluation_cells": [80, 160, 320],
+  "cases": [
+    {"name":"basic","actions":[0,0.5,1],"width":8,"speed_bin_mps":2,"energy_bin_j":200000},
+    {"name":"refined","actions":[0,0.25,0.5,0.75,1],"width":16,"speed_bin_mps":1,"energy_bin_j":100000}
+  ],
+  "selection": "Minimize feasible 4400-cell lap time. Full request is the basic incumbent. Retain the basic solution as refined incumbent. Never use PPO schedules or evaluation grids for selection.",
+  "state": "Keep the fastest exact prefix per rounded (speed, energy, gross recovered, gross discharged) bucket. If width is exceeded, stratify survivors by stored energy and retain the fastest in each equal-count stratum.",
+  "endpoint": "Refined candidate on 8800 cells, preselected regardless of outcome. Nominal unguarded rolling lap; fixed known circuit and 55 decisions.",
+  "search_stability_s": 0.05,
+  "comparison_gates": {"paired_gap_change_s":0.005,"relative_lap_change":0.0025,"terminal_energy_change_j":10000,"recovered_change_j":5000},
+  "budget": "At most 55*8*3 + 55*16*5 = 5720 block expansions, plus incumbent and validation replays. No neural training."
+}

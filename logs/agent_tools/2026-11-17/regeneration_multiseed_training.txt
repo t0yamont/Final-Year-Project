@@ -1,0 +1,47 @@
+{
+  "all_seeds_completed": true,
+  "all_seeds_completed_and_passed": true,
+  "worker_exit_codes": {
+    "1": 0,
+    "2": 0,
+    "0": 0
+  },
+  "scope": "Regeneration-aware GPU multi-seed study on the fixed assumed Bahrain model",
+  "primary_endpoint": "Final deterministic fine-grid policy from every training seed; no best-checkpoint selection",
+  "parallel_workers_used": 3,
+  "deterministic_lap_time_s": {
+    "n": 3,
+    "mean": 107.4940160405904,
+    "sample_sd": 0.2356998447008474,
+    "minimum": 107.22768238745067,
+    "maximum": 107.6757030247851
+  },
+  "deterministic_gain_s": {
+    "n": 3,
+    "mean": 1.9811904208476487,
+    "sample_sd": 0.2356998447008474,
+    "minimum": 1.7995034366529552,
+    "maximum": 2.2475240739873783
+  },
+  "stochastic_seed_mean_lap_time_s": {
+    "n": 3,
+    "mean": 107.51199368530133,
+    "sample_sd": 0.17760855911481868,
+    "minimum": 107.31256732837156,
+    "maximum": 107.65313929541256
+  },
+  "refined_deterministic_lap_time_s": {
+    "n": 3,
+    "mean": 107.3074311293902,
+    "sample_sd": 0.23509101689081205,
+    "minimum": 107.04117644005925,
+    "maximum": 107.48637459054012
+  },
+  "fine_baselines_s": {
+    "zero": 109.47520646143805,
+    "half": 107.72028110543953,
+    "full": 107.68731467202234,
+    "spread": 107.9518537764125,
+    "exit_boost": 108.62819093882047
+  }
+}

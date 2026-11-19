@@ -1,0 +1,98 @@
+# Results and discussion
+
+## Where deployment saved time at Bahrain
+
+On the calibrated regenerative vehicle the fastest feasible schedule found in the central search took **88.418 s**. The feasible spread policy took **89.408 s** with the same starting charge, model, recovery limits and finish-speed requirement. The gain was **0.990 s** on the primary grid and **0.988 s** on the finer grid. The full-request policy missed the finish-speed target by about 1.0 m/s on both grids. The selected schedule discharged 3.389 MJ from the battery, delivered 3.050 MJ to the wheels, recovered 1.490 MJ to the battery and finished just above the 0.100 MJ reserve. [Deployment map](../figures/dissertation/bahrain-deployment-zones-v1/01_bahrain_wheel_assist.pdf) · [Power, recovery and lap time](../figures/dissertation/bahrain-deployment-zones-v1/02_bahrain_deployment_profiles.pdf)
+
+The opening straight provides the clearest timing experiment. The central schedule delivered 469 kJ in the first 393 m, averaging 106 kW. Moving the same requests 98 m later cost 59 ms with equal delivered wheel work. Across three grip settings and both integration grids the first 295 m consistently received assist. On that stretch the quarter-request simulation's speed RMSE against the two separate laps was 1.12 and 0.66 m/s. Through the T1–T3 sequence the central schedule delivered the most energy of any window, 826 kJ. The shared portion from 687 to 1,172 m had larger local errors of 6.31 and 7.24 m/s. Another recurring zone near T10 had errors of 8.08 and 9.94 m/s. The map therefore gives stronger empirical grounds for discussing the opening straight than for specifying the precise cut-in point near T10. The observed speed errors assess local motion only. Actual electrical power is unobserved. [Zone-level comparison](../figures/dissertation/bahrain-zone-support-v1/zone_motion_support.pdf) · [Seven ranges and intervention results](../docs/bahrain_deployment_zones.md)
+
+Only 16 of 55 blocks delivered at least 10 kJ on every grip/grid combination. Six feasible one-block shifts cost 18–146 ms. Of the other two planned shifts, one missed finish speed and one could not move past the timing line. The central schedule also beat the lower-grip search candidate when both were replayed at lower grip. This provides a direct counterexample to interpreting the bounded search as a global optimum. [Grip and search comparisons](../docs/bahrain_deployment_zones.md)
+
+| Shared range from line (m) | Approximate location | Wheel work (kJ) | Local speed RMSE on laps 4 / 10 (m/s) |
+|---|---|---:|---:|
+| 0–295 | Timing-line straight | 309–406 | 1.12 / 0.66 |
+| 687–1,172 | T1 through T3 exit | 690–827 | 6.31 / 7.24 |
+| 2,243–2,439 | T8 exit | 239–389 | 3.76 / 7.64 |
+| 2,635–2,826 | T10 and exit | 237–354 | 8.08 / 9.94 |
+| 3,318–3,512 | T11 and early exit | 171–329 | 7.78 / 11.73 |
+| 4,099–4,197 | T13 exit | 167–220 | 3.72 / 7.55 |
+| 4,882–4,980 | T15 approach and exit | 124–182 | 2.40 / 6.17 |
+
+Wheel work ranges across the three grip assumptions and two numerical resolutions. Each row covers only the blocks shared by all six replays. Local speed RMSE compares the frozen quarter-request model with observed speed over that same stretch. [Per-zone calculations](../results/bahrain-zone-support-001/metrics.json)
+
+The original 0.990 s comparison included 61.4 kJ more wheel work for the selected schedule. Two matched-work comparisons tested that difference. Raising spread's requests to match the selected schedule left a **0.955 s** advantage. Reducing the selected schedule's requests to match ordinary spread left a **0.871 s** advantage. Both pairs finished feasibly and the same multipliers produced gains of 0.953 and 0.870 s at double resolution. At the higher work target, the selected schedule gained approximately 0.638 s in sector one and 0.527 s in sector two, then gave back 0.210 s in sector three. It finished within 0.1 kJ of the comparison policy's delivered wheel work on the primary grid. This supports a benefit from distributing the available work differently around the lap. Regeneration and remaining charge were allowed to differ. [Matched comparisons](../docs/bahrain_equal_work.md) · [Where the advantage accumulated](../figures/dissertation/bahrain-equal-work-v1/03_bahrain_matched_by_distance.pdf)
+
+### How closely the simulated car followed qualifying pace
+
+Against the 92.057 s development lap, the earlier 107.057 s simulation lost 4.612, 7.230 and 3.158 s in the three sectors. Restoring old assumptions individually in the calibrated model added 12.767 s for the cornering limit and 5.151 s for braking under the same quarter-power request. These effects interact and their separate changes in traversal time cannot be added as a breakdown of the original gap. Mass stayed at 800 kg. [Original time loss](../figures/dissertation/bahrain-pace-diagnosis-v1/01_historic_gap.pdf) · [Counterfactual physics and corner speeds](../figures/dissertation/bahrain-pace-mechanisms-v1/pace_mechanisms.pdf)
+
+At a constant quarter request the revised simulator ran **89.773 s**. It was 1.530 s quicker than separate lap 4 and 1.246 s quicker than separate lap 10. Both satisfied the lap and sector criteria. Only lap 4 satisfied the speed-profile criterion, with 4.53 m/s RMSE against a 5.0 m/s threshold. Lap 10 scored 5.36 m/s. At T8 and T14 the development-lap speed errors had opposite signs, illustrating how local errors can cancel in a lap total. The central search result also runs 1.423 s quicker than the actual 89.841 s pole. The evidence supports a conditional answer about the value of deployment timing in this model. A real-car estimate would require further independent motion validation and evidence about the actual powertrain. [Lap 10 trace](../figures/dissertation/bahrain-pace-calibration-v1/lap-10.pdf) · [Calibration results and qualifying source](../docs/bahrain_qualifying_pace.md)
+
+### Driving-line substitution and transfer to the second driver
+
+On the development lap the path traced by the position samples had 32–39% lower peak curvature than the smoothed centreline near T14 at all three chord scales tested. This agrees with the original simulator being too slow at T14. At T8 the observed path was tighter over the two shorter scales and flatter at the longest. At T1 a curvature difference coexisted with nearly equal minimum speeds. These checks show why assigning the whole discrepancy to the racing line would be unwarranted. Substituting the entire recorded path with fixed vehicle dynamics shortened the simulated circuit by 59.1 m and its lap by 7.405 s, worsening its already optimistic timing. [Positions, sample spacing and curvature](../docs/bahrain_corner_paths.md) · [Paired geometry experiment](../docs/bahrain_path_candidate.md)
+
+On three qualifying laps from the second Red Bull driver, the centreline met the total-time tolerance twice and the speed-profile tolerance twice. All three sector-two predictions were 1.118–1.259 s too fast against a 1.0 s tolerance. The path substitution missed the lap-time target by 9.268–9.727 s and missed the speed-profile tolerance three times. Neither vehicle met the complete gate for any of these three laps. This same-session comparison supports retaining the central map as a conditional experiment and documenting uncertainty around each recommended location. [Paired transfer figure](../figures/dissertation/bahrain-driver-transfer-v1/01_paired_transfer.pdf) · [Transfer results](../docs/bahrain_driver_transfer.md)
+
+## Learned controllers on the calibrated Bahrain vehicle
+
+The twelve unchanged controllers all completed the distance. None met the rolling finish-speed requirement at either resolution. On the primary grid the six PPO policies finished 0.847–1.009 m/s below the required 80.653 m/s. The six imitation policies missed by 0.886–0.934 m/s. The spread policy and the planner's selected schedule both reached the target. A lap-time ranking among the learned policies would reward a car that crossed the line with less kinetic energy than the task required. [Transfer results](../docs/bahrain_learned_transfer.md) · [Finish errors and wheel work by distance](../figures/dissertation/bahrain-learned-transfer-v1/01_bahrain_learned_transfer.pdf)
+
+The stored energy at entry to the final block explains an important difference in what the controllers could deliver. All twelve learned policies were at the 100 kJ reserve and delivered zero wheel work over the final section on the primary grid. Their final requests ranged from zero to full power. The selected schedule entered the same section with 152.4 kJ stored and delivered 47.1 kJ to the wheels. Spread entered it with 312.1 kJ and delivered 123.9 kJ. Several learned policies delivered substantial work through T1–T3, as the planner did. Agreement on this early stretch was insufficient to make the rest of their allocations feasible. The networks were trained on the earlier vehicle and the planner had access to the calibrated model. The result measures transfer under those conditions and leaves performance after training on the calibrated model open. [Archived traces and distance profiles](../results/bahrain-learned-transfer-001/)
+
+## Controller-method comparison on the earlier Sakhir reference vehicle
+
+All three regeneration-trained PPO policies produced feasible deterministic laps. The mean was 107.494 s (sample standard deviation 0.236 s) on the primary grid. Full deployment, the strongest of five fixed policies, took 107.687 s. The mean gain was 193 ms, with individual gains ranging from 12 to 460 ms. Doubling the spatial resolution changed the advantage over full deployment by at most 4.684 ms across the final deterministic and stochastic comparisons. Variation between trained policies was therefore important to the practical size of the gain, even when paired numerical checks passed. [Multi-seed results and figures](../docs/regeneration_multiseed_study.md)
+
+| Primary-grid comparison | Lap time (s) |
+|---|---:|
+| Full deployment | 107.687 |
+| PPO seed 0 | 107.228 |
+| PPO seed 1 | 107.676 |
+| PPO seed 2 | 107.579 |
+| Predeclared bounded DP reference | 107.266 |
+
+The DP reference averaged a 228 ms advantage over the three PPO policies. The strongest individual PPO policy was 38 ms quicker than that reference. There is no contradiction: DP was limited to five available actions and a bounded set of partial schedules, whereas PPO could issue intermediate deployment fractions. The original experiment varied several DP settings together. Its richer schedule was 208 ms faster, exceeding the 50 ms diagnostic for search stability. A later eight-combination study found that retaining 16 instead of eight partial schedules saved between 90 and 289 ms in all four controlled comparisons. This leaves a quantifiable distinction between replay accuracy, which was good for paired gaps, and the quality of the schedules found by a bounded search. [Primary DP comparison](../docs/regeneration_dp_study.md) · [Factorial sensitivity results](../docs/regeneration_dp_factorial.md)
+
+Offline planning took about 179 seconds for the two original DP searches combined. PPO training took 628 to 656 seconds per seed on this machine, with workers running concurrently. Selecting 55 actions took 33 to 40 ms per lap for an already-loaded GPU policy. Reading 55 entries from the precomputed schedule took about 0.0013 ms. These timings exclude integration of the vehicle during inference. Their practical interpretation depends on whether the circuit conditions are known when the schedule is generated and whether the controller must adapt during the lap. [Measured cost protocol](../docs/regeneration_dp_study.md)
+
+## Empirical interpretation
+
+The independent observable-motion assessment measured errors against acceleration estimated from speed readings in restricted driving windows. Across validation lap/DRS groups, transferred development fits had mean RMSEs of 2.776 m/s² in Hungary and 1.922 m/s² in the UK. For the assumed vehicle at full request, the corresponding errors were 3.169 and 2.527 m/s². Both calculations condition on observed speed. They illustrate real event-to-event model discrepancy while leaving battery state and the split between engine and electrical work unobserved. Millisecond-scale controller gains in the simulator must therefore be presented as conditional on its physical assumptions. [Observable-motion evidence](../docs/observable_motion_validation.md)
+
+### RQ1. Which deployments are compatible with the observed Bahrain motion?
+
+The inverse study covered 41.643 seconds of a 91.361-second observed span across 36 separately initialised segments. Seven of nine parameter combinations passed both speed tolerances for all three initial schedules. Three of those seven used the exploratory 750 kg mass, below the nominal reference mass. Among the four passing 800 or 850 kg cases, speed RMSE ranged from 0.721 to 0.864 m/s. Yet two accepted schedules differed in electrical assistance by a row-weighted RMS of 14.387 kW. Every fit used the entire assumed 1.9 MJ budget. The result shows that several distinct patterns are compatible with these speed observations. Missing intervals and unobserved battery energy prevent a whole-lap battery reconstruction. [Bahrain results and figure](../docs/bounded_real_reconstruction.md)
+
+### RQ2. How sensitive is the controller comparison?
+
+Widening the search from 16 to 32 retained states gained 29.3 ms on the primary grid. Widening again to 64 gained another 57.2 ms, exceeding the frozen 50 ms stability tolerance. Doubling the replay resolution changed either gain by less than 0.5 ms. The width-64 schedule took 107.057 s, 171 ms quicker than the strongest single PPO seed. The predeclared comparison remains the one reported above. The exploratory result shows how a constrained planner can surpass all three seeds as its computational budget grows. Further improvement remains possible. [Width comparison and costs](../docs/regeneration_dp_width.md)
+
+Reducing the starting energy to 1 MJ narrowed the mean PPO advantage over the fastest fixed policy from 193 to 96 ms. Under reduced charge efficiency or a smaller recoverable share of brake force, half request became the strongest fixed baseline. All ten controllers remained feasible in each of those scenarios. Higher drag changed the outcome more substantially. All three PPO policies missed the rolling-finish requirement by about 0.304 m/s. Only the spread heuristic, the original DP schedule and the informed DP replan met the finish condition. The latter two took 107.774 and 107.754 s. This case shows why ranking controllers entirely by elapsed time would overstate PPO performance.
+
+Across both grids, 86 of 100 replays met the physical requirements. The enlarged all-pairs comparison also found 16 of 225 paired differences moved by more than 5 ms under grid refinement. The largest change was 7.390 ms. The initial nominal comparison against full request met its own numerical criterion. The broader robustness experiment failed its combined acceptance criteria, despite every individual controller passing the absolute lap-time and energy refinement checks. [Scenario table and failure plots](../docs/regeneration_robustness.md)
+
+### RQ2 extension. Does a wider PPO actor improve the lap?
+
+At the same training budget, doubling both actor layers from 32 to 64 neurons reduced the mean nominal lap from 107.494 to 107.291 s. Each seed improved. The gains were 32, 482 and 94 ms respectively, so seed 1 accounted for most of the 203 ms mean improvement. The wider mean was 25 ms slower than the original predeclared DP schedule of 107.266 s. This comparison concerns the three final policies tested. It does not identify the best possible network architecture.
+
+The mean width advantage held under two separate changes to the nominal model. It was 196 ms at a drag coefficient of 1.05 kg/m and 192 ms with 1.5 MJ of initial energy. All 36 closed-loop replays (two widths, three seeds, three scenarios and two grids) met the physical constraints. The largest change in a between-width gap across grids was 4.694 ms, within the 5 ms criterion. On the local GPU, issuing all 55 decisions took a mean of 33.2 ms at width 32 and 33.8 ms at width 64 across the three per-seed timing medians. Average training times were 643 and 641 seconds respectively across separate concurrent training runs. The small timing difference is subject to machine load. [Width comparison and costs](../docs/ppo_actor_width.md)
+
+A separate replay repeated the earlier 10% drag increase. Every width-32 and width-64 PPO policy missed the 70 m/s finish on both grids. At the end of block 51 all six policies had reached their 100 kJ reserve. The informed DP schedule reached the same point at the same 38.83 m/s with 251.8 kJ in the battery. It used 136.7 kJ of wheel assistance in the next block and met the finish-speed target. The wider actor improved performance over the tested moderate changes, while this harder case exposed a remaining error in when it spent the available energy. [Finish-speed comparison and traces](../docs/ppo_actor_width.md)
+
+### RQ3. Does adding practice or race data improve qualifying prediction?
+
+| Event and role | Qualifying only | With practice | With practice and race | Qualifying windows |
+|---|---:|---:|---:|---:|
+| Hungary, validation | 2.2204 | 2.0506 | 2.0619 | 519 |
+| UK, validation | 1.8770 | 1.8504 | 1.8696 | 550 |
+| Abu Dhabi, final test | 1.8081 | 1.7638 | 1.7695 | 515 |
+| Belgium, final test | — | — | — | 0 |
+
+Values are primary mean qualifying lap/DRS-group acceleration RMSE in m/s². Including practice improved prediction in both validation events and in all three retained Abu Dhabi laps when assessed together. The direction held under window-count matching and the shorter-gap filter in each scored event. Race data increased the full-volume error relative to practice plus qualifying in each event. In Abu Dhabi, adding race data beat the practice-only addition in two of five matched draws on primary windows. Consequently the evidence supports adding practice for this observable-motion model and leaves the incremental benefit of race data unresolved. Only Bahrain supplied overlapping race and qualifying development contexts, and Belgium had zero qualifying laps that met the inclusion rules. Wider population claims would need more independent events. [Held-out protocol, results and plots](../docs/session_mix_study.md)
+
+### Scope of the dissertation claim
+
+The calibrated deployment study supports a model-based answer at named locations. The opening stretch received assist under every tested grip setting, and delaying it cost time at equal wheel work. Several other windows recurred where the free-running speed trace had substantial errors. Independent racing-line and corner-exit checks would strengthen any claim about their precise placement.
+
+On the assumed regenerative Sakhir lap, a learned feedback policy beat simple fixed policies on average in nominal conditions. Bounded planning produced faster feasible schedules, and a physically modest drag change exposed a finish-speed failure shared by all three trained policies. The empirical studies establish how much public motion can constrain a conditional fit and how session choice affects acceleration prediction. Actual electrical deployment, real-car lap-time gains and the effect of driver-profile conditioning remain unmeasured. RQ4 would require paired training on a defensible family of profiles with the same information and evaluation rules apart from profile inputs.

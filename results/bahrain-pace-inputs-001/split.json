@@ -1,0 +1,9 @@
+{
+  "meeting_key": 1257,
+  "session_key": 10010,
+  "driver_number": 1,
+  "acquisition_role": "development",
+  "calibration_laps": [13],
+  "holdout_laps": [4, 10],
+  "selection_rule": "Freeze the previously used inverse-study lap 13 for calibration. Reserve every other driver-1 qualifying lap passing the unchanged acquisition conditional-motion screen for local holdout."
+}

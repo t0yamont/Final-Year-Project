@@ -1,0 +1,47 @@
+{
+  "all_seeds_completed": true,
+  "all_seeds_completed_and_passed": true,
+  "worker_exit_codes": {
+    "1": 0,
+    "2": 0,
+    "0": 0
+  },
+  "scope": "Regenerative nominal Sakhir PPO actor-width comparison",
+  "primary_endpoint": "Final deterministic fine-grid policy from every training seed; no best-checkpoint selection",
+  "parallel_workers_used": 3,
+  "deterministic_lap_time_s": {
+    "n": 3,
+    "mean": 107.2912154833278,
+    "sample_sd": 0.1677197919978795,
+    "minimum": 107.193557526076,
+    "maximum": 107.48487926842947
+  },
+  "deterministic_gain_s": {
+    "n": 3,
+    "mean": 2.183990978110226,
+    "sample_sd": 0.1677197919978795,
+    "minimum": 1.9903271930085822,
+    "maximum": 2.2816489353620426
+  },
+  "stochastic_seed_mean_lap_time_s": {
+    "n": 3,
+    "mean": 107.3910423961355,
+    "sample_sd": 0.15611305995054955,
+    "minimum": 107.2818502335858,
+    "maximum": 107.56985237041518
+  },
+  "refined_deterministic_lap_time_s": {
+    "n": 3,
+    "mean": 107.10381791052187,
+    "sample_sd": 0.16666468058987408,
+    "minimum": 107.00704640977673,
+    "maximum": 107.29626466616226
+  },
+  "fine_baselines_s": {
+    "zero": 109.47520646143805,
+    "half": 107.72028110543953,
+    "full": 107.68731467202234,
+    "spread": 107.9518537764125,
+    "exit_boost": 108.62819093882047
+  }
+}

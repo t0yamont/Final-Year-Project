@@ -1,0 +1,193 @@
+{
+  "seed": 0,
+  "actual_steps": 16384,
+  "training_seconds": 678.2199324998073,
+  "elapsed_seconds": 749.0625668999273,
+  "checkpoints": [
+    {
+      "step": 0,
+      "gpu_training": null,
+      "training_time_s": 109.85502191571635,
+      "fine_time_s": 109.47504466161473,
+      "fine_gain_s": 0.0001617998254204167,
+      "fine_final_energy_j": 1999676.3855614807,
+      "gain_discrepancy_s": 5.779167537411922e-06,
+      "feasible": true,
+      "noise_seed": 9001,
+      "fine_energy_residual_j": -1.3166232548655898e-09,
+      "fine_terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "step": 4096,
+      "gpu_training": {
+        "policy_device": "cuda:0",
+        "parameter_tensors": 13,
+        "gradient_tensors": 13,
+        "cuda_optimizer_moment_tensors": 26,
+        "allocated_bytes": 17101312,
+        "peak_allocated_bytes": 17157120,
+        "passed": true
+      },
+      "training_time_s": 109.7950864839508,
+      "fine_time_s": 109.41553909562438,
+      "fine_gain_s": 0.05966736581576981,
+      "fine_final_energy_j": 1908298.0595849762,
+      "gain_discrepancy_s": 0.00042408660766568573,
+      "feasible": true,
+      "noise_seed": 9001,
+      "fine_energy_residual_j": -2.081263694719837e-08,
+      "fine_terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "step": 8192,
+      "gpu_training": {
+        "policy_device": "cuda:0",
+        "parameter_tensors": 13,
+        "gradient_tensors": 13,
+        "cuda_optimizer_moment_tensors": 26,
+        "allocated_bytes": 17102848,
+        "peak_allocated_bytes": 17158656,
+        "passed": true
+      },
+      "training_time_s": 108.68725371434681,
+      "fine_time_s": 108.30305628209794,
+      "fine_gain_s": 1.1721501793422107,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.004225957314787365,
+      "feasible": true,
+      "noise_seed": 9001,
+      "fine_energy_residual_j": -2.3984158659118293e-08,
+      "fine_terminal_speed_error_mps": 1.4210854715202004e-14
+    },
+    {
+      "step": 12288,
+      "gpu_training": {
+        "policy_device": "cuda:0",
+        "parameter_tensors": 13,
+        "gradient_tensors": 13,
+        "cuda_optimizer_moment_tensors": 26,
+        "allocated_bytes": 17101312,
+        "peak_allocated_bytes": 17158656,
+        "passed": true
+      },
+      "training_time_s": 108.68836625956041,
+      "fine_time_s": 108.2994757983378,
+      "fine_gain_s": 1.1757306631023567,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.008918986288534825,
+      "feasible": true,
+      "noise_seed": 9001,
+      "fine_energy_residual_j": -1.2300533924758383e-08,
+      "fine_terminal_speed_error_mps": 0.0
+    },
+    {
+      "step": 16384,
+      "gpu_training": {
+        "policy_device": "cuda:0",
+        "parameter_tensors": 13,
+        "gradient_tensors": 13,
+        "cuda_optimizer_moment_tensors": 26,
+        "allocated_bytes": 17101312,
+        "peak_allocated_bytes": 17158656,
+        "passed": true
+      },
+      "training_time_s": 108.62888353477253,
+      "fine_time_s": 108.24491599531224,
+      "fine_gain_s": 1.2302904661279115,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.0039960645262056005,
+      "feasible": true,
+      "noise_seed": 9001,
+      "fine_energy_residual_j": -2.206374638547004e-08,
+      "fine_terminal_speed_error_mps": 0.0
+    }
+  ],
+  "final_deterministic": {
+    "step": 16384,
+    "gpu_training": {
+      "policy_device": "cuda:0",
+      "parameter_tensors": 13,
+      "gradient_tensors": 13,
+      "cuda_optimizer_moment_tensors": 26,
+      "allocated_bytes": 17101312,
+      "peak_allocated_bytes": 17158656,
+      "passed": true
+    },
+    "training_time_s": 108.62888353477253,
+    "fine_time_s": 108.24491599531224,
+    "fine_gain_s": 1.2302904661279115,
+    "fine_final_energy_j": 100000.0,
+    "gain_discrepancy_s": 0.0039960645262056005,
+    "feasible": true,
+    "noise_seed": 9001,
+    "fine_energy_residual_j": -2.206374638547004e-08,
+    "fine_terminal_speed_error_mps": 0.0
+  },
+  "final_stochastic": [
+    {
+      "training_time_s": 108.6947794740769,
+      "fine_time_s": 108.31473479979907,
+      "fine_gain_s": 1.1604716616410826,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 7.31993437455003e-05,
+      "feasible": true,
+      "noise_seed": 101,
+      "fine_energy_residual_j": -1.5458072155638547e-08,
+      "fine_terminal_speed_error_mps": 0.0
+    },
+    {
+      "training_time_s": 108.72699313501568,
+      "fine_time_s": 108.35132765985125,
+      "fine_gain_s": 1.1238788015889014,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.004305999769655955,
+      "feasible": true,
+      "noise_seed": 102,
+      "fine_energy_residual_j": -7.536176127587169e-10,
+      "fine_terminal_speed_error_mps": 0.0
+    },
+    {
+      "training_time_s": 108.71415822894336,
+      "fine_time_s": 108.33470086325559,
+      "fine_gain_s": 1.1405055981845607,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.0005141092463105679,
+      "feasible": true,
+      "noise_seed": 103,
+      "fine_energy_residual_j": 1.1582681480604151e-09,
+      "fine_terminal_speed_error_mps": 0.0
+    },
+    {
+      "training_time_s": 108.70928021111938,
+      "fine_time_s": 108.32336211877339,
+      "fine_gain_s": 1.151844342666763,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.005946617411908051,
+      "feasible": true,
+      "noise_seed": 104,
+      "fine_energy_residual_j": -2.345642435841455e-08,
+      "fine_terminal_speed_error_mps": 0.0
+    },
+    {
+      "training_time_s": 108.76235321207243,
+      "fine_time_s": 108.37846271739804,
+      "fine_gain_s": 1.096743744042115,
+      "fine_final_energy_j": 100000.0,
+      "gain_discrepancy_s": 0.003919019740308727,
+      "feasible": true,
+      "noise_seed": 105,
+      "fine_energy_residual_j": -3.3764440132699747e-09,
+      "fine_terminal_speed_error_mps": 1.4210854715202004e-14
+    }
+  ],
+  "stochastic_within_seed": {
+    "n": 5,
+    "mean": 108.34051763181546,
+    "sample_sd": 0.02524671798969537,
+    "minimum": 108.31473479979907,
+    "maximum": 108.37846271739804
+  },
+  "final_replay_gate_passed": true,
+  "checkpoint_reload_exact": true,
+  "limitation": "Nominal assumed-model learning study; five stochastic rollouts are nested within one training seed"
+}

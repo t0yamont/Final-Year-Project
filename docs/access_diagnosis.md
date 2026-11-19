@@ -8,6 +8,10 @@ The installed FastF1 version is 3.9.0. Three small unauthenticated requests to t
 
 The original pilot cache contains parsed timing, timing-app, track-status, car and position data. It lacks the three metadata responses. A copy was placed at work/diagnostic/cache; offline loading against the copy reproduced the failure without changing original results. Detailed evidence is in work/diagnostic/offline-load.log. SessionStatus fails first, leaving session_start_time unavailable. FastF1 core.py then needs this value while processing PitOutTime in _load_laps_data (around line 1477), so lap construction fails. FastF1 logger.py catches the internal exception and only logs a warning at normal verbosity; the later session.laps access raises the less informative DataNotLoadedError.
 
+## Cleanup note - 12 November 2026
+
+The duplicate work/diagnostic/cache was byte-verified against the original result cache and moved to the sibling COM3001-cleanup-archive-2026-11-12/duplicate-diagnostic-cache folder. The diagnostic log remains in place. This relocation does not change the recorded access outcome.
+
 ## Supported repair
 The upstream maintainer reports archive authentication is now required and identifies F1 TV Access or a higher tier as necessary. FastF1 3.9 supports authentication. See the maintainer's October 18 comments in [issue 978](https://github.com/theOehrly/Fast-F1/issues/978). The linked [authentication documentation](https://docs.fastf1.dev/versions/dev/api_reference/accounts_auth.html) was not accessible through the web reader; instructions below were verified against the installed 3.9.0 CLI source instead.
 

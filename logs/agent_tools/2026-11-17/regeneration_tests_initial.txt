@@ -1,0 +1,6 @@
+C:\Users\fm.mm\Desktop\COM3001\COM3001\.venv\Lib\site-packages\stable_baselines3\common\env_checker.py:515: UserWarning: We recommend you to use a symmetric and normalized Box action space (range=[-1, 1]) cf. https://stable-baselines3.readthedocs.io/en/master/guide/rl_tips.html
+  warnings.warn(
+----------------------------------------------------------------------
+Ran 133 tests in 2.816s
+
+OK

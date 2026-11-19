@@ -3,7 +3,6 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
-import sys
 
 import matplotlib
 matplotlib.use('Agg')

@@ -1,0 +1,29 @@
+{
+  "inputs": {
+    "results\\circuit-control-baselines-001\\manifest.json": "3c2b27317c8b6aeed262cb4482fe2647acb47ce94295ba25420fc524a3836bbf"
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "69b5f4ffac4a297cfa8dcecb9fd57ebf4a03acf800363f162e2338a3e1b78e52",
+    "src\\f1energy\\event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\train_circuit_ppo.py": "9a159dee99f4de4651aa17912379c249ff6ecafdfd147a58e7239a40f388dc4f",
+    "src\\f1energy\\circuit_training_gate.py": "ee4291988beb2ec37474060bfc7cdcd01b351a3263922f610e2d8ad6a2a0da3f",
+    "scripts\\benchmark_circuit_control.py": "782b00b91a3d53bd879bb35c4ea6be3f32ee0d7ecb31efa14d7f4e0d5fa98625"
+  },
+  "outputs": {
+    "results\\circuit-ppo-pilot-001\\contract.json": "e852c48f6cd6306dc30bf462713952d98080628b29e8ab0e1d2b4036f334a279",
+    "results\\circuit-ppo-pilot-001\\episodes.monitor.csv": "70e33cf43e85da9c56d08490e75eaca57e58406e1f7d27c0118013a2517b87d2",
+    "results\\circuit-ppo-pilot-001\\initial_policy.zip": "182faed0f3a66ced1167045d3b301ac7362291711e97439fb762220859dac26a",
+    "results\\circuit-ppo-pilot-001\\metrics.json": "570f6852f8a0342e93e060d254b3de752ed61e1c6c6bc190081a40461a417e69",
+    "results\\circuit-ppo-pilot-001\\ppo.zip": "c698249c55cceda9b2aaed7011452a41e51c58edc8f568d18b6a599cdbca096b",
+    "results\\circuit-ppo-pilot-001\\trained_fine_grid.json.gz": "184906ff4a15e916ccedc4787e3c62d0734b9cbbd8451da5b6f1aa1845200c1c",
+    "results\\circuit-ppo-pilot-001\\trained_training_grid.json.gz": "5c1746d1577e8b4cdff4f33912128632d6fa865d14e18321b0375c22d4178193",
+    "results\\circuit-ppo-pilot-001\\untrained.json.gz": "b807d681fe88f034285da844a62ac73fb2c9d66c61a0f490578d8e1b5dfa742f",
+    "results\\circuit-ppo-pilot-001\\checkpoints\\ppo_1024_steps.zip": "776996ea05d754548320485020870c7d57ba71e645b4041840d64e3549e13ba5",
+    "results\\circuit-ppo-pilot-001\\checkpoints\\ppo_2048_steps.zip": "382c257a478042874dda8f8b67794a94cce9ea331405d0ea7ef943e413af5aff",
+    "results\\circuit-ppo-pilot-001\\checkpoints\\ppo_3072_steps.zip": "5d171c6b137a2a0908f62e70bb06f88c3fb29325ec41d7e1c9e178ef66d2026f",
+    "results\\circuit-ppo-pilot-001\\checkpoints\\ppo_4096_steps.zip": "b33b2b3c7d547595bea01f17404cf5233ffc5b3651dcac56153bbf3ebebeccde",
+    "results\\circuit-ppo-pilot-001\\logs\\progress.csv": "73247d639671fbd1d9192854adea01b2697997d2be4583a134fe86b0e6a23421"
+  }
+}

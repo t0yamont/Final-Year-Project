@@ -1,0 +1,598 @@
+{
+  "totals": {
+    ".gitattributes": {
+      "files": 1,
+      "bytes": 82
+    },
+    ".gitignore": {
+      "files": 1,
+      "bytes": 440
+    },
+    "AGENTS.md": {
+      "files": 1,
+      "bytes": 3588
+    },
+    "environment-gpu-lock.txt": {
+      "files": 1,
+      "bytes": 982
+    },
+    "environment-lock.txt": {
+      "files": 1,
+      "bytes": 976
+    },
+    "pyproject.toml": {
+      "files": 1,
+      "bytes": 366
+    },
+    "README.md": {
+      "files": 1,
+      "bytes": 6230
+    },
+    "requirements-core.txt": {
+      "files": 1,
+      "bytes": 215
+    },
+    "requirements-data.txt": {
+      "files": 1,
+      "bytes": 127
+    },
+    "configs": {
+      "files": 9,
+      "bytes": 15380
+    },
+    "docs": {
+      "files": 56,
+      "bytes": 389273
+    },
+    "figures": {
+      "files": 118,
+      "bytes": 14486299
+    },
+    "learning": {
+      "files": 4,
+      "bytes": 7872
+    },
+    "logs": {
+      "files": 53,
+      "bytes": 200993
+    },
+    "report": {
+      "files": 3,
+      "bytes": 12800
+    },
+    "results": {
+      "files": 1138,
+      "bytes": 471446299
+    },
+    "scripts": {
+      "files": 43,
+      "bytes": 334277
+    },
+    "src": {
+      "files": 57,
+      "bytes": 368456
+    },
+    "tests": {
+      "files": 58,
+      "bytes": 247656
+    },
+    "work/exhaustive-pilot.json": {
+      "files": 1,
+      "bytes": 279
+    },
+    "work/figure-review.png": {
+      "files": 1,
+      "bytes": 324813
+    },
+    "work/auth-metadata-check": {
+      "files": 7,
+      "bytes": 1459148
+    },
+    "work/diagnostic": {
+      "files": 7,
+      "bytes": 88635001
+    },
+    "work/literature-review": {
+      "files": 8,
+      "bytes": 449826
+    },
+    "work/publication": {
+      "files": 398,
+      "bytes": 37736044
+    },
+    "work/source-audit-openf1": {
+      "files": 1400,
+      "bytes": 204604335
+    },
+    "work/source-review-cache": {
+      "files": 12,
+      "bytes": 547418
+    },
+    "work/track-source": {
+      "files": 4,
+      "bytes": 785660
+    }
+  },
+  "disposable_candidates": [
+    {
+      "path": "learning\\__pycache__\\energy_allocation.cpython-312.pyc",
+      "bytes": 2382
+    },
+    {
+      "path": "learning\\__pycache__\\energy_allocation.cpython-315.pyc",
+      "bytes": 2510
+    },
+    {
+      "path": "scripts\\__pycache__\\acquire_openf1_dataset.cpython-312.pyc",
+      "bytes": 22880
+    },
+    {
+      "path": "scripts\\__pycache__\\benchmark_circuit_control.cpython-312.pyc",
+      "bytes": 15573
+    },
+    {
+      "path": "scripts\\__pycache__\\plot_circuit_multiseed.cpython-312.pyc",
+      "bytes": 9845
+    },
+    {
+      "path": "scripts\\__pycache__\\prepare_calibration_data.cpython-312.pyc",
+      "bytes": 9995
+    },
+    {
+      "path": "scripts\\__pycache__\\prepare_openf1_motion.cpython-312.pyc",
+      "bytes": 9750
+    },
+    {
+      "path": "scripts\\__pycache__\\train_circuit_multiseed.cpython-312.pyc",
+      "bytes": 19635
+    },
+    {
+      "path": "scripts\\__pycache__\\train_circuit_ppo.cpython-312.pyc",
+      "bytes": 9932
+    },
+    {
+      "path": "scripts\\__pycache__\\train_event_ppo.cpython-312.pyc",
+      "bytes": 13669
+    },
+    {
+      "path": "scripts\\__pycache__\\train_synthetic_ppo.cpython-312.pyc",
+      "bytes": 10266
+    },
+    {
+      "path": "scripts\\__pycache__\\validate_event_solver.cpython-312.pyc",
+      "bytes": 12452
+    },
+    {
+      "path": "scripts\\__pycache__\\validate_power_grid.cpython-312.pyc",
+      "bytes": 9425
+    },
+    {
+      "path": "scripts\\__pycache__\\verify_circuit_multiseed.cpython-312.pyc",
+      "bytes": 9959
+    },
+    {
+      "path": "scripts\\__pycache__\\verify_run.cpython-312.pyc",
+      "bytes": 2852
+    },
+    {
+      "path": "src\\f1energy\\inference\\__pycache__\\__init__.cpython-312.pyc",
+      "bytes": 4989
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\availability.cpython-312.pyc",
+      "bytes": 5633
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\availability.cpython-315.pyc",
+      "bytes": 5684
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\baselines.cpython-312.pyc",
+      "bytes": 5789
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\braking.cpython-312.pyc",
+      "bytes": 3461
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\circuit.cpython-312.pyc",
+      "bytes": 19008
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\circuit_control.cpython-312.pyc",
+      "bytes": 13657
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\circuit_training_gate.cpython-312.pyc",
+      "bytes": 3251
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\clean_laps.cpython-312.pyc",
+      "bytes": 9749
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\cli.cpython-312.pyc",
+      "bytes": 8861
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\cli.cpython-315.pyc",
+      "bytes": 9064
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\config.cpython-312.pyc",
+      "bytes": 4633
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\config.cpython-315.pyc",
+      "bytes": 4952
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\dynamics.cpython-312.pyc",
+      "bytes": 5010
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\dynamics.cpython-315.pyc",
+      "bytes": 5972
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\event_baselines.cpython-312.pyc",
+      "bytes": 16823
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\event_power_lap.cpython-312.pyc",
+      "bytes": 9656
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\event_rl.cpython-312.pyc",
+      "bytes": 7032
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\experiment.cpython-312.pyc",
+      "bytes": 2929
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\fixture.cpython-312.pyc",
+      "bytes": 3187
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\fixture.cpython-315.pyc",
+      "bytes": 3632
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\identification.cpython-312.pyc",
+      "bytes": 5392
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\lap.cpython-312.pyc",
+      "bytes": 8236
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\lap_context.cpython-312.pyc",
+      "bytes": 7648
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\openf1.cpython-312.pyc",
+      "bytes": 36010
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\power_lap.cpython-312.pyc",
+      "bytes": 7487
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\rl.cpython-312.pyc",
+      "bytes": 3763
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\telemetry_audit.cpython-312.pyc",
+      "bytes": 8348
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\telemetry_audit.cpython-315.pyc",
+      "bytes": 8155
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\training_device.cpython-312.pyc",
+      "bytes": 5411
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\__init__.cpython-312.pyc",
+      "bytes": 275
+    },
+    {
+      "path": "src\\f1energy\\__pycache__\\__init__.cpython-315.pyc",
+      "bytes": 278
+    },
+    {
+      "path": "tests\\__pycache__\\test_availability.cpython-312.pyc",
+      "bytes": 5105
+    },
+    {
+      "path": "tests\\__pycache__\\test_availability.cpython-315.pyc",
+      "bytes": 4666
+    },
+    {
+      "path": "tests\\__pycache__\\test_baselines.cpython-312.pyc",
+      "bytes": 3037
+    },
+    {
+      "path": "tests\\__pycache__\\test_braking.cpython-312.pyc",
+      "bytes": 4525
+    },
+    {
+      "path": "tests\\__pycache__\\test_calibration_data.cpython-312.pyc",
+      "bytes": 3077
+    },
+    {
+      "path": "tests\\__pycache__\\test_circuit.cpython-312.pyc",
+      "bytes": 11944
+    },
+    {
+      "path": "tests\\__pycache__\\test_circuit_control.cpython-312.pyc",
+      "bytes": 6318
+    },
+    {
+      "path": "tests\\__pycache__\\test_circuit_training_gate.cpython-312.pyc",
+      "bytes": 4867
+    },
+    {
+      "path": "tests\\__pycache__\\test_clean_laps.cpython-312.pyc",
+      "bytes": 2042
+    },
+    {
+      "path": "tests\\__pycache__\\test_dynamics.cpython-312.pyc",
+      "bytes": 4605
+    },
+    {
+      "path": "tests\\__pycache__\\test_dynamics.cpython-315.pyc",
+      "bytes": 4823
+    },
+    {
+      "path": "tests\\__pycache__\\test_event_baselines.cpython-312.pyc",
+      "bytes": 9531
+    },
+    {
+      "path": "tests\\__pycache__\\test_event_power_lap.cpython-312.pyc",
+      "bytes": 7816
+    },
+    {
+      "path": "tests\\__pycache__\\test_event_rl.cpython-312.pyc",
+      "bytes": 4959
+    },
+    {
+      "path": "tests\\__pycache__\\test_event_validation.cpython-312.pyc",
+      "bytes": 2625
+    },
+    {
+      "path": "tests\\__pycache__\\test_experiment.cpython-312.pyc",
+      "bytes": 5098
+    },
+    {
+      "path": "tests\\__pycache__\\test_foundation.cpython-312.pyc",
+      "bytes": 12595
+    },
+    {
+      "path": "tests\\__pycache__\\test_foundation.cpython-315.pyc",
+      "bytes": 13849
+    },
+    {
+      "path": "tests\\__pycache__\\test_identification.cpython-312.pyc",
+      "bytes": 2341
+    },
+    {
+      "path": "tests\\__pycache__\\test_inference.cpython-312.pyc",
+      "bytes": 2696
+    },
+    {
+      "path": "tests\\__pycache__\\test_lap.cpython-312.pyc",
+      "bytes": 4879
+    },
+    {
+      "path": "tests\\__pycache__\\test_openf1.cpython-312.pyc",
+      "bytes": 25525
+    },
+    {
+      "path": "tests\\__pycache__\\test_openf1_acquisition.cpython-312.pyc",
+      "bytes": 4793
+    },
+    {
+      "path": "tests\\__pycache__\\test_openf1_motion.cpython-312.pyc",
+      "bytes": 2641
+    },
+    {
+      "path": "tests\\__pycache__\\test_power_grid.cpython-312.pyc",
+      "bytes": 3881
+    },
+    {
+      "path": "tests\\__pycache__\\test_power_lap.cpython-312.pyc",
+      "bytes": 7057
+    },
+    {
+      "path": "tests\\__pycache__\\test_rl.cpython-312.pyc",
+      "bytes": 2216
+    },
+    {
+      "path": "tests\\__pycache__\\test_telemetry_audit.cpython-312.pyc",
+      "bytes": 2738
+    },
+    {
+      "path": "tests\\__pycache__\\test_telemetry_audit.cpython-315.pyc",
+      "bytes": 2955
+    },
+    {
+      "path": "tests\\__pycache__\\test_training_device.cpython-312.pyc",
+      "bytes": 1719
+    },
+    {
+      "path": "tests\\__pycache__\\test_verify_run.cpython-312.pyc",
+      "bytes": 3007
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\learning\\__pycache__\\energy_allocation.cpython-312.pyc",
+      "bytes": 2414
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\scripts\\__pycache__\\prepare_calibration_data.cpython-312.pyc",
+      "bytes": 10027
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\scripts\\__pycache__\\validate_event_solver.cpython-312.pyc",
+      "bytes": 12484
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\scripts\\__pycache__\\validate_power_grid.cpython-312.pyc",
+      "bytes": 9457
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\scripts\\__pycache__\\verify_run.cpython-312.pyc",
+      "bytes": 2884
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\inference\\__pycache__\\__init__.cpython-312.pyc",
+      "bytes": 5021
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\availability.cpython-312.pyc",
+      "bytes": 5665
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\baselines.cpython-312.pyc",
+      "bytes": 5821
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\braking.cpython-312.pyc",
+      "bytes": 3493
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\clean_laps.cpython-312.pyc",
+      "bytes": 9781
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\cli.cpython-312.pyc",
+      "bytes": 8893
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\config.cpython-312.pyc",
+      "bytes": 4665
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\dynamics.cpython-312.pyc",
+      "bytes": 5042
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\event_baselines.cpython-312.pyc",
+      "bytes": 16855
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\event_power_lap.cpython-312.pyc",
+      "bytes": 9688
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\event_rl.cpython-312.pyc",
+      "bytes": 7064
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\fixture.cpython-312.pyc",
+      "bytes": 3219
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\identification.cpython-312.pyc",
+      "bytes": 5424
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\lap.cpython-312.pyc",
+      "bytes": 8268
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\power_lap.cpython-312.pyc",
+      "bytes": 7519
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\rl.cpython-312.pyc",
+      "bytes": 3795
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\telemetry_audit.cpython-312.pyc",
+      "bytes": 8380
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\src\\f1energy\\__pycache__\\__init__.cpython-312.pyc",
+      "bytes": 307
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_availability.cpython-312.pyc",
+      "bytes": 5137
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_baselines.cpython-312.pyc",
+      "bytes": 3069
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_braking.cpython-312.pyc",
+      "bytes": 4557
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_calibration_data.cpython-312.pyc",
+      "bytes": 3109
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_clean_laps.cpython-312.pyc",
+      "bytes": 2074
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_dynamics.cpython-312.pyc",
+      "bytes": 4637
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_event_baselines.cpython-312.pyc",
+      "bytes": 9563
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_event_power_lap.cpython-312.pyc",
+      "bytes": 7848
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_event_rl.cpython-312.pyc",
+      "bytes": 4991
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_event_validation.cpython-312.pyc",
+      "bytes": 2657
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_foundation.cpython-312.pyc",
+      "bytes": 12627
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_identification.cpython-312.pyc",
+      "bytes": 2373
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_inference.cpython-312.pyc",
+      "bytes": 2728
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_lap.cpython-312.pyc",
+      "bytes": 4911
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_power_grid.cpython-312.pyc",
+      "bytes": 3913
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_power_lap.cpython-312.pyc",
+      "bytes": 7089
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_rl.cpython-312.pyc",
+      "bytes": 2248
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_telemetry_audit.cpython-312.pyc",
+      "bytes": 2770
+    },
+    {
+      "path": "work\\publication\\verify-cf7b47d\\tests\\__pycache__\\test_verify_run.cpython-312.pyc",
+      "bytes": 3039
+    }
+  ]
+}

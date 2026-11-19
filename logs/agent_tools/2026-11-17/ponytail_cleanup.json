@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-17",
+  "workflow": "Ponytail full + repository audit",
+  "scanned_python_files": 90,
+  "scanned_python_lines_before": 7534,
+  "removed_unused_imports": 6,
+  "net_lines_removed": 3,
+  "dependencies_removed": 0,
+  "original_sources_archive": "logs\\agent_tools\\2026-11-17\\ponytail_original_sources.zip",
+  "archive_sha256": "8d78b5a1b59def8489cbcb0dd9406a2f15891ca2d66f67ea8461b9c486f72cb7",
+  "changes": [
+    {
+      "path": "src/f1energy/baselines.py",
+      "before_sha256": "ecede478b159a9747e30bb04797ed94681d8f87aefb3c8ce8d20af5b06aa4202",
+      "after_sha256": "da818b9a09a91f13d8592373bfb29d120f52ef0a22e789b5a2e7f3c25f0acbad",
+      "lines_removed": 1,
+      "non_import_ast_unchanged": true
+    },
+    {
+      "path": "src/f1energy/cli.py",
+      "before_sha256": "164b0bb2e8b8b7c09501c9db88362e0e082a31bdffc93c9b182acd51971a960c",
+      "after_sha256": "68c5b5889b1b47331e3057b7c243a5d4ffc6969052af4770b23fee60cfa42d4f",
+      "lines_removed": 0,
+      "non_import_ast_unchanged": true
+    },
+    {
+      "path": "src/f1energy/event_rl.py",
+      "before_sha256": "fd29c99b069419bca67605482d37ca6818501035126a20ac6c32ef21a5411059",
+      "after_sha256": "caab8636387fada9759e1ef5254685f1b149497c39cb561fa45e4b39a9b0ea43",
+      "lines_removed": 0,
+      "non_import_ast_unchanged": true
+    },
+    {
+      "path": "scripts/plot_event_training.py",
+      "before_sha256": "47cb4e60197342031872bfe2f3987706be6d9b51ba3b9c2d6adcbfb5fbe6c674",
+      "after_sha256": "f3cf65276ac04a2b7bd728c6a2b7b1b8b57bcb70f8ef31e13bc6933bd2c5ff85",
+      "lines_removed": 1,
+      "non_import_ast_unchanged": true
+    },
+    {
+      "path": "scripts/plot_event_baselines.py",
+      "before_sha256": "c61b095d6b8fa98b08952b1456a2d61d1693cb99fcf042889361151676b13806",
+      "after_sha256": "0997ed447c6f5613e51bc4601b0d34a7609fa497adf199adb354a9c3def44374",
+      "lines_removed": 1,
+      "non_import_ast_unchanged": true
+    },
+    {
+      "path": "scripts/verify_circuit_multiseed.py",
+      "before_sha256": "7058502e2506e7b4efea230b2733c27846118135cfdcdc164dd0e01c05756ac2",
+      "after_sha256": "1902eeab13f239157914307c0d8ed21494dd1994ae4f6c074b28a2f6a4e3e7fd",
+      "lines_removed": 0,
+      "non_import_ast_unchanged": true
+    }
+  ],
+  "preserved": "No validation, solver, active hash-gate source or result artifact changed. No new abstractions.",
+  "deferred": "Large runner consolidation would change active source contracts. Independent report arithmetic deliberately remains separate from simulation.",
+  "execution_note": "Initial exact-line edit stopped on mixed line endings after two files; resumed from archived original bytes, preserving each line ending.",
+  "verification": {
+    "unit_tests_passed": 133,
+    "changed_files_compile": true,
+    "non_import_ast_unchanged": true,
+    "terminal_guard": {
+      "hash_checks": 445,
+      "replays_checked": 64,
+      "physically_feasible_replays": 64,
+      "all_cases_passed": true
+    },
+    "control_training_gate_passed": true,
+    "multiseed": {
+      "hash_checks": 116,
+      "replays_checked": 66,
+      "max_absolute_energy_residual_j": 7.44112185202539e-08,
+      "all_seeds_passed": true,
+      "script_sha256": "1902eeab13f239157914307c0d8ed21494dd1994ae4f6c074b28a2f6a4e3e7fd"
+    },
+    "line_ending_note": "Normalized only the changed CLI import to LF to satisfy git diff --check.",
+    "git_diff_check_passed": true
+  }
+}

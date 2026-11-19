@@ -1,0 +1,21 @@
+{
+  "inputs": {
+    "configs\\motion_validation_protocol.json": "80b9e1e3fa8e2a371a0ea2ec51aa71f2dc32a25f78269c5e95aab838f8d80523",
+    "results\\openf1-motion-001\\manifest.json": "f61a9a0b9f54933e84c40f0923a205d4e19bfd4d00aa0fc710e638478d711319",
+    "results\\circuit-input-assessment-001\\manifest.json": "288cafb945b0da8db18104621c98749976e3f9b7568b414ae75dc41b33f27677",
+    "results\\circuit-input-assessment-001\\metrics.json": "9f6824c3829a8ecea524163e25199d6fec245e9e189bf3881092caf363e16861",
+    "configs\\circuit_reference.json": "19b80d69d3e91d32a9ce4a2b00a40589fcd16ceb387c17ca4ad151a5a6043657",
+    "results\\openf1-motion-001\\development.csv": "138d0f9f0629c54bbb932b44b45c7e16a36d47c8ee71e105234cbe64ce834d80",
+    "results\\openf1-motion-001\\validation.csv": "3e6380e691a504e287a78b82c3de284d244e5e36aa732b7a5a81eea60d6c7006"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\assess_motion_validation.py": "7dd7ea8dc853da02d7e2397a6ea4b362f590ad07ac7717952a6c87842515360e"
+  },
+  "outputs": {
+    "results\\motion-validation-002\\contract.json": "745d0609bb50876966ea862c54ec017b3aa5dfec0cbbffcd4762a907543233f6",
+    "results\\motion-validation-002\\metrics.json": "89fc7497abb2dc69a5abac8db4b818f22a910f9e2484e73872befe9563be7ba4",
+    "results\\motion-validation-002\\predictions.csv": "0857ccf51d1474d12009e3e06950f49ac40184b219236d181e2f2c65a2ba1192",
+    "figures\\dissertation\\motion-validation-v2\\01_motion_validation.pdf": "8e1e551625efa352accbdbb0524385ad2e4c56f60893be87f69f7c87342709c6",
+    "figures\\dissertation\\motion-validation-v2\\01_motion_validation.png": "8d4fba87d61693246fcba02e0cec33d93f5ae515b84d70d1a8f48ca60f0d1e21"
+  }
+}

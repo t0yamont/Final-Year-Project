@@ -1,0 +1,28 @@
+{
+  "inputs": {
+    "configs/bahrain_driver_transfer_protocol.json": "b95caa05685530f48d856486f8424959065bb137de88dfdfcb25ee45a2051954",
+    "results/bahrain-pace-calibration-001/model.json": "6884eb5359a3451e02b24480fda61c75f5b39309d9ea5c0c80e0787234ec59b1",
+    "results/openf1-dataset-003/development/1257/10010/driver-1-position.csv.gz": "9909a84bc2ec266033799254aa94da2cda9e35b5ce07fb4759eeb14ca8128921",
+    "results/bahrain-pace-inputs-001/metrics.json": "e6a6c8ae90eb77641374136f0a950ae9c61ed0dd93f41104f877a599db92eb20",
+    "results/bahrain-pace-calibration-001/speed_time.csv": "aee8c217d469d65e46b444a025b4c8f7fff1cceaad6fe12d3f36aaa7add5a784",
+    "results/bahrain-pace-calibration-001/metrics.json": "0dc468f5ad1049ff2e57590586026301f1b3513f3b3811693d6621116d4e9855",
+    "configs/bahrain_pace_protocol.json": "a0d050b0b47ec88e9424cbbe2d77414599b4bcc40b83190332c79bdb991f3c30",
+    "results/bahrain-pace-inputs-001/lap-13.csv": "00765ca5d3d0b0c6ed91ca63321aed217c9c96a545472b3e571257e7f8faa23b",
+    "results/bahrain-pace-inputs-001/lap-4.csv": "7829474599c0a350468d5f427c3564c264215db390e014de95c41bdd8901686d",
+    "results/bahrain-pace-inputs-001/lap-10.csv": "6a9261096774564b19488aa98b47df69e1a71a2848a67cde1af2a0259dfcd2e4"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\test_bahrain_path_candidate.py": "c75f26b644c7a1de3e278ceb2585201dcc538d0114420028a1b934a1cec9d38c",
+    "scripts\\bahrain_pace_model.py": "4983b5bb3e0426d4b9d1b4b02c3c9933142702560a783a92ae3446e0508dc217",
+    "scripts\\calibrate_bahrain_pace.py": "c314dfe3c85077c46f0d5f16ef8735e3bf73f570019b6429b964992089c3cc19"
+  },
+  "outputs": {
+    "results\\bahrain-path-candidate-001\\driver1_lap13_xy_m.csv": "c198edab2d2a694b924faaa1cd9070ee06cbd3553ce4f67beaf987bb06d22840",
+    "results\\bahrain-path-candidate-001\\locked_predictions.json": "e71728247517b28218daad5b3efba624cda649b480ddf7867ad398c080c0058d",
+    "results\\bahrain-path-candidate-001\\metrics.json": "a7d3effd90e06a9cacb9a97c572ac142178538aa6fc4b99163e11fe1e962fe54",
+    "results\\bahrain-path-candidate-001\\model.json": "8b85071d84b3cd70e0b4ed505a1d4b5f93a78db17f183fc6c75ad10993d1eb5e",
+    "results\\bahrain-path-candidate-001\\speed_time.csv": "8d0cb2d0822497340cbbc68851d973616e52fe20a4751b02847e92f2a476c4bd",
+    "figures\\dissertation\\bahrain-path-candidate-v1\\path_comparison.pdf": "1064f16f70114751937c2107a8012e5a70997750fe5031a01673133fd575b6b3",
+    "figures\\dissertation\\bahrain-path-candidate-v1\\path_comparison.png": "1c4d73dadef998fd03d0f5982d270983b3b720b3958f1b7928f54dc92dcc0db0"
+  }
+}

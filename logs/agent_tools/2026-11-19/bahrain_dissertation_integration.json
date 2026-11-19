@@ -1,0 +1,30 @@
+{
+  "docs": 22,
+  "local_links_checked": 309,
+  "hashes_by_study": {
+    "results/bahrain-pace-calibration-001": 27,
+    "results/bahrain-pace-diagnosis-001": 18,
+    "results/bahrain-pace-mechanisms-001": 11,
+    "results/bahrain-zone-support-001": 7,
+    "results/bahrain-deployment-zones-001": 92,
+    "results/bahrain-path-candidate-001": 20,
+    "results/bahrain-driver-transfer-001": 30,
+    "results/bahrain-corner-paths-001": 18,
+    "results/bahrain-equal-work-001": 46,
+    "results/bahrain-equal-work-001/secondary": 39,
+    "results/bahrain-equal-work-001/location": 15,
+    "figures/dissertation/ppo-imitation-comparison-v1": 8
+  },
+  "figure_pairs_checked": 15,
+  "regression_tests_passed": 146,
+  "driver_transfer": {
+    "current": 0,
+    "candidate": 0
+  },
+  "matched_gains_s": {
+    "Higher work target, 160": 0.954802,
+    "Higher work target, 320": 0.953321,
+    "Lower work target, 160": 0.871036,
+    "Lower work target, 320": 0.869522
+  }
+}

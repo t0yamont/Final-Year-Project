@@ -1,0 +1,64 @@
+{
+  "study": "Deterministic transfer of archived regenerative Sakhir controllers to the frozen Bahrain qualifying model",
+  "parents": {
+    "bahrain_deployment": {
+      "path": "results/bahrain-deployment-zones-001/manifest.json",
+      "sha256": "fe202f1259f87b48a9cddd3b7abae1359a59e713d51d8eaa05f9e2921b7351bf"
+    },
+    "bahrain_calibration": {
+      "path": "results/bahrain-pace-calibration-001/manifest.json",
+      "sha256": "d3fe71537b8e55fdb8d04cd69ac0df43c05a76caadbeea57655a5b07a09f5f8d"
+    },
+    "ppo32": {
+      "path": "results/regeneration-multiseed-001/manifest.json",
+      "sha256": "894ae6e5b2ac4e28e90bbe491a65fdce39901e793085ea962dc85c30a86827ce"
+    },
+    "ppo64": {
+      "path": "results/regeneration-ppo-actor64-001/manifest.json",
+      "sha256": "588ea8215f6b38ecd29ddd526aa88729a29f5e6a60b6bcee35a28a4827a322bf"
+    },
+    "imitation": {
+      "path": "results/regeneration-imitation-pilot-001/manifest.json",
+      "sha256": "98c48c09939a19e23505cec2cbe940eb5d01caa6d53efdbca9cb32f81a899887"
+    },
+    "ppo_training_baselines": {
+      "path": "results/regeneration-validation-001/manifest.json",
+      "sha256": "d3379ef9656e8ff927d89504ac48378a2d2c5cf35a59255df2421df4cc967a64"
+    },
+    "imitation_teachers": {
+      "path": "results/regeneration-robustness-001/manifest.json",
+      "sha256": "cd84af77877b1143b25bc586252ef5decba7c183d7a9279475a2d9d79b60a2af"
+    }
+  },
+  "model": "results/bahrain-pace-calibration-001/model.json",
+  "scenario": "central",
+  "baselines": [
+    "selected",
+    "spread"
+  ],
+  "widths": [
+    32,
+    64
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "ppo_final_steps": 16384,
+  "imitation_final_epoch": 500,
+  "action_blocks": 55,
+  "observations": 8,
+  "primary_cells_per_block": 160,
+  "refined_cells_per_block": 320,
+  "inference_device": "cuda:0",
+  "refinement": {
+    "paired_gap_change_s": 0.005,
+    "relative_lap_change": 0.0025,
+    "terminal_energy_change_j": 10000,
+    "recovered_change_j": 5000
+  },
+  "comparisons": "Predeclare all learned policies versus selected and spread and an archived baseline pair. Compare widths within method and compare PPO with imitation at the same width and recorded seed. Retain all rows. Record a time saving only when both laps finish feasibly at that grid. Positive means the first policy in a pair is faster. Assess gap stability only if both pair members finish feasibly on both grids; require both individual checks, a gap change of at most 5 ms, and an unchanged sign for a resolved faster/slower interpretation. Cross-method seed labels enumerate the archived runs and are descriptive.",
+  "deployment": "Compare common distance block ends using saved traces. Report requested fraction and kW, mean delivered kW, block and cumulative wheel work, and terminal speed and energy. Show model-aware selected allocation and all learned seeds, including physical failures. Use parent approximate turn markers and its T1–T3 window end for interpretation.",
+  "scope": "One unchanged closed-loop lap per archived policy and grid. Shared calibrated central model and existing eight-value observations. No training, calibration, acquisition, action guard, teacher query, checkpoint selection or multiplier retuning. Archived selected and spread are ordinary unequal-work references. No real-car deployment validity, causal training-method ranking, or optimality claim."
+}

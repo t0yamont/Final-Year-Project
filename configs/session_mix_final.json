@@ -1,0 +1,22 @@
+{
+  "study": "session-mix-final-001",
+  "date": "2026-11-18",
+  "scope": "One scoring pass on held-out qualifying telemetry after validation. Frozen before detailed test rows were opened. No inverse fit, development refit, model selection or replacement event.",
+  "source": "results/openf1-dataset-003/test",
+  "driver_number": 1,
+  "events": [
+    {"event": "Belgium", "meeting": 1265, "session": 9935, "candidate_laps": 0},
+    {"event": "Abu Dhabi", "meeting": 1276, "session": 9835, "candidate_laps": 3}
+  ],
+  "inputs": {
+    "results/session-mix-validation-002/models.json": "37fba1cb9f3687569ed0952d416d69a3e40c8e1d0413117b85a0c5b6a8c5033c",
+    "results/session-mix-validation-002/manifest.json": "a604dfc7df1632c20068048148e4310d58924113fce4bfb47eba1556bace6205",
+    "configs/session_mix_protocol.json": "de791867834170c5dae9026a7e4ddc1ebe218f8ec908ebbeccc58478afffc1b6",
+    "scripts/prepare_openf1_motion.py": "f706b0c6500d832ebe556f3092add8edb5a2ae87dd3c59abff0e074e146e82c4",
+    "logs/agent_tools/2026-11-18/session_mix_coverage_decision.json": "8b11a8d6fb6c42e6d5f83f22998072cd16b4b10da71aabe28346445bce176ff0"
+  },
+  "coverage": "Report both events with declared candidate laps, selected windows, unsupported exact DRS, retained windows, retained laps and lap/DRS groups for every filter. Zero candidates or supported windows gives no score. No substitute driver or session.",
+  "method": "Take only declared conditional-motion candidates. Use unchanged pairs() from motion preparation. Apply the three original sensitivities, five stored arms, five matched-draw seeds and qualifying constant baseline to identical test rows. Predict acceleration at supplied midpoint speed by median of eligible exact-DRS development predictions. Use each sensitivity's own stored coefficients. Report fraction outside the intersection of contributing training speed ranges.",
+  "endpoint": "Equal-weight mean of within-lap/exact-DRS acceleration RMSE, separately by event, in m/s2. Primary windows, shorter gaps <=0.3 s and speed >=30 m/s. Show full-volume and matched-seed ranges. All-seed/filter improvement of QP over Q is descriptive directional replication for a scored event. Assess added race value against QP and against matched QP at the same seed. No two-event generalisation with an excluded event.",
+  "reuse": "After scoring, both event dispositions and all results are final for this protocol. Do not optimise on either event and present them again as untouched evidence."
+}

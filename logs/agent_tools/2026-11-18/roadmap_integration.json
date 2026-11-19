@@ -1,0 +1,14 @@
+{
+  "manifest_hash_counts": {
+    "results/regeneration-dp-width-001": 21,
+    "figures/dissertation/regeneration-dp-width-v1": 7,
+    "results/regeneration-robustness-001": 137,
+    "figures/dissertation/regeneration-robustness-v1": 7,
+    "results/session-mix-validation-002": 15,
+    "results/session-mix-final-001": 17
+  },
+  "markdown_relative_links_checked": 132,
+  "missing_links": [],
+  "observed_integrated_tests": 145,
+  "figure_review": "Width, controller transfer, feasibility/grid and held-out qualifying plots visually inspected; legible legends and units."
+}

@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "results\\circuit-multiseed-001\\manifest.json": "f6df000c1606e8708ff9791c248b225ba01ad993087e6813c66d44569a7ac933"
+  },
+  "source_sha256": "90c17c9b828c10507f5ade01ed3b63fd5dcb13fef37602b7364fe76ab666b4aa",
+  "outputs": {
+    "figures\\dissertation\\circuit-multiseed-v1\\01_checkpoint_baseline_comparison.pdf": "9a3ea59ea0b996b4a74a8201215a963579a512632127764fb2eb309cc71dd8e9",
+    "figures\\dissertation\\circuit-multiseed-v1\\01_checkpoint_baseline_comparison.png": "1440943ef2da38f15e6a97f70da5b4319edb0eb00eb108d7aa227ac5c03174ff",
+    "figures\\dissertation\\circuit-multiseed-v1\\02_stochastic_deterministic_energy.pdf": "cedb58c70ae3c35b9144bb52544d4aeeda74f7c49789f73809163a44c0d63755",
+    "figures\\dissertation\\circuit-multiseed-v1\\02_stochastic_deterministic_energy.png": "cf17a9366f52c691607f31920f6ab6547a8dc7e47c542d4e721582574a40210c"
+  }
+}

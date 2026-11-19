@@ -1,0 +1,7 @@
+C:\Users\fm.mm\Desktop\COM3001\COM3001\.venv\Lib\site-packages\stable_baselines3\common\on_policy_algorithm.py:150: UserWarning: You are trying to run PPO on the GPU, but it is primarily intended to run on the CPU when not using a CNN policy (you are using ActorCriticPolicy which should be a MlpPolicy). See https://github.com/DLR-RM/stable-baselines3/issues/1245 for more info. You can pass `device='cpu'` or `export CUDA_VISIBLE_DEVICES=` to force using the CPU.Note: The model will train, but the GPU utilization will be poor and the training might take longer than on CPU.
+  warnings.warn(
+{"seed": 2, "step": 0, "fine_time_s": 109.47469735233955, "feasible": true}
+{"seed": 2, "step": 4096, "fine_time_s": 108.71305093399057, "feasible": true}
+{"seed": 2, "step": 8192, "fine_time_s": 108.32299398581847, "feasible": true}
+{"seed": 2, "step": 12288, "fine_time_s": 108.28304825715661, "feasible": true}
+{"seed": 2, "step": 16384, "fine_time_s": 108.28399021513165, "feasible": true}

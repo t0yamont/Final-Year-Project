@@ -1,0 +1,100 @@
+{
+  "width": 64,
+  "run": "results\\regeneration-ppo-actor64-001",
+  "protocol": {
+    "study": "Regenerative nominal Sakhir PPO actor-width comparison",
+    "baselines": "results/regeneration-validation-001",
+    "training_seeds": [
+      0,
+      1,
+      2
+    ],
+    "steps_per_seed": 16384,
+    "checkpoint_steps": [
+      0,
+      4096,
+      8192,
+      12288,
+      16384
+    ],
+    "stochastic_evaluation_seeds": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "parallel_workers": 3,
+    "hyperparameters": {
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "gamma": 1.0,
+      "gae_lambda": 0.95,
+      "learning_rate": 0.0003,
+      "clip_range": 0.2,
+      "ent_coef": 0.0,
+      "net_arch": {
+        "pi": [
+          64,
+          64
+        ],
+        "vf": [
+          32,
+          32
+        ]
+      }
+    },
+    "primary_endpoint": "Final deterministic fine-grid policy from every training seed; no best-checkpoint selection",
+    "secondary_endpoint": "Final stochastic training/fine/refined paired evaluations with five fixed action-noise seeds; summarize within training seed first",
+    "aggregation": "Mean, sample standard deviation and range across three training seeds; no significance or convergence claim from this sample alone",
+    "conditions": "Same 55 decisions/lap, 8 observations, automatic MGU-K recovery, 2 MJ initial/0.1 MJ reserve and 70 m/s start/finish as regeneration pilot; no final-test telemetry",
+    "rng_isolation": "Every evaluation restores Python, NumPy, torch CPU and all CUDA RNG states; each coarse/fine stochastic member starts from the same evaluation seed",
+    "schedule": "Constant learning rate and clip range; training state persists across4096-step learn calls; separate evaluation environments",
+    "gate": "All final deterministic and stochastic replays feasible; training-to-fine gain-versus-zero discrepancy <=0.05 s; additional fine-to-refined paired advantage, lap-time and battery/recovery convergence gates apply to all final pairs",
+    "failure_policy": "Preserve all failed gates and seeds; aggregate completed seeds without filtering numerical failures. An accepted study requires all three complete and all final replay/refinement gates pass. Do not relax thresholds after observing results.",
+    "refinement": {
+      "cells_per_block": 320,
+      "baseline_policy": "full",
+      "max_paired_advantage_error_s": 0.005,
+      "max_relative_lap_time_error": 0.0025,
+      "max_terminal_energy_error_j": 10000.0,
+      "max_recovery_error_j": 5000.0
+    },
+    "interpretation": "Primary endpoint remains final deterministic 8800-cell lap. The 17600-cell replay diagnoses paired numerical uncertainty. Passing a numerical gate is not evidence of statistical significance; three seeds provide descriptive variation only.",
+    "width_comparison": {
+      "baseline_run": "results/regeneration-multiseed-001",
+      "baseline_manifest_sha256": "894ae6e5b2ac4e28e90bbe491a65fdce39901e793085ea962dc85c30a86827ce",
+      "baseline_protocol_sha256": "d8488fcd1a5c3e498d29a077052f7c7e9f2bd6958f4a24fabcd6157e05cd486a",
+      "estimand": "Final nominal deterministic primary-grid time difference, width 32 minus width 64 for each matched seed, at the same 16384-step budget. Report all seeds, signs, mean, range and feasibility. Same critic architecture; independent initialization at each actor width. Historical small runs are verified controls.",
+      "transfer": [
+        {
+          "name": "drag_1p05",
+          "parameter": "drag_kg_per_m",
+          "value": 1.05
+        },
+        {
+          "name": "energy_1p5MJ",
+          "parameter": "initial_energy_j",
+          "value": 1500000
+        }
+      ],
+      "checks": "All deterministic width gaps on 160 and 320 cells per block, maximum absolute change 5 ms per seed. Report failed pairs; prioritize finish feasibility before speed. Original nominal full-request and stochastic refinement gates remain in force. Transfer is descriptive on two predeclared conditions, no retuning. No width sweep or pruning."
+    }
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src\\f1energy\\event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\evaluate_ppo_actor_width.py": "958684269eeaa5f3a93573269fab53e89b7b88c07cbb87fceb60a1e2ddbf9232",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "scripts\\report_regeneration_robustness.py": "e681f7412984e5aa472790532eef350a62cb6614f4e085ae56fb2ce251801178",
+    "scripts\\run_regeneration_robustness.py": "2a20b58a520962dca4a1952bc6e4353c1507b6f3dde976a7b5bbd584b8e2905e",
+    "scripts\\validate_regeneration.py": "3a2a581cbe21bbe4dbf7ef375ffe47e8b17f046c7c47a3bbcad520a8f8e4277f"
+  },
+  "inputs": {
+    "configs\\regeneration_ppo_actor64.json": "938f77426e608205aeebdd92ac8f2987470f4bd52291964d22cbc7a520918052",
+    "results\\regeneration-ppo-actor64-001\\manifest.json": "588ea8215f6b38ecd29ddd526aa88729a29f5e6a60b6bcee35a28a4827a322bf"
+  }
+}

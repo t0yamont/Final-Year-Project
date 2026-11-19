@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "results\\circuit-sensitivity-001\\manifest.json": "174e4f8516a0447c4014c5eb962978f6de74647dca62f8e3488f14e65db89755"
+  },
+  "source_sha256": "441cb6bafe937cff0d34b3308fbd8a7b54ec8fe0cd79bbed6125b55ba458e5d3",
+  "outputs": {
+    "figures\\dissertation\\circuit-sensitivity-v1\\01_model_transfer.pdf": "09086f3d9ae7e97d9788b101cfb9ba8052e2265d751ee0986324dac5c4f7ef1f",
+    "figures\\dissertation\\circuit-sensitivity-v1\\01_model_transfer.png": "8617956b3ae3d37f27fae3ba54ab24c291db943a7c9318ff8f0a4049f9018a2f",
+    "figures\\dissertation\\circuit-sensitivity-v1\\02_cadence_numerical_gates.pdf": "2ed491b5a8c195636c9c50a5473c513cc56cfe6cf860baca7d713a33167cd362",
+    "figures\\dissertation\\circuit-sensitivity-v1\\02_cadence_numerical_gates.png": "191806c83b9c317815df2aa8095e11ad12c17b4feb551ba251849ad11cd722bb",
+    "figures\\dissertation\\circuit-sensitivity-v1\\verification.json": "4bf63ff60e9255a4b9de9a3c787dcc9b8063578a01a772bad8fcde453200e9f6"
+  }
+}

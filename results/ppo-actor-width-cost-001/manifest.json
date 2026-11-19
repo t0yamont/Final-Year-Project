@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "results\\regeneration-multiseed-001\\manifest.json": "894ae6e5b2ac4e28e90bbe491a65fdce39901e793085ea962dc85c30a86827ce",
+    "results\\regeneration-ppo-actor64-001\\manifest.json": "588ea8215f6b38ecd29ddd526aa88729a29f5e6a60b6bcee35a28a4827a322bf"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\time_ppo_actor_width.py": "926e4b672dcfbb0dff3f782be7fd91a9b84cf268f7023fbe622eff9688e6ed45",
+    "scripts\\time_regeneration_controls.py": "da640d8b98f9803cd62555772b6accb71414faeef6bd70ef3356d2b62b51fb22"
+  },
+  "outputs": {
+    "results\\ppo-actor-width-cost-001\\metrics.json": "f1c03e9edfaae5bf69cbbfa91dea6871e7a3df5f11ce10472f8f6fedd4e06427",
+    "figures\\dissertation\\ppo-actor-width-cost-v1\\actor_width_cost.pdf": "92822af7093bf086fde4b72793096fa4369bbd3b12ca0e4bc177a628f2aefa2c",
+    "figures\\dissertation\\ppo-actor-width-cost-v1\\actor_width_cost.png": "1de772110bc93a0c04b9903254104f8e904f1b45192cda3d5f6ca32a80604911"
+  }
+}

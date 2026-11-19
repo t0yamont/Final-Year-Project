@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "results\\ppo-actor-width-evaluation-001\\actor-32\\manifest.json": "7842383d778b493e2a194fdd43b91dfab3e007420fb7ea46b2c8c5f72f6b2556",
+    "results\\ppo-actor-width-evaluation-001\\actor-64\\manifest.json": "57cb7b8f465240a1734f8c8bbdf0f654b4f46b685c6b3c792db9664b5777e532"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\evaluate_ppo_actor_width.py": "958684269eeaa5f3a93573269fab53e89b7b88c07cbb87fceb60a1e2ddbf9232"
+  },
+  "outputs": {
+    "figures\\dissertation\\ppo-actor-width-v1\\01_actor_width.pdf": "b3736b8b630504f705d8169a2506a868d623d3699bdfbfd520ceb773a0b5574c",
+    "figures\\dissertation\\ppo-actor-width-v1\\01_actor_width.png": "5655a4992a711a5bac19252250389a70bdd5ffa70eaa9d201b05fff94241b7d1",
+    "figures\\dissertation\\ppo-actor-width-v1\\verification.json": "7ed6b8cfad47444d0850c376ed19acad5838bfeeb8d8c94d5abcd263b294ccaa"
+  }
+}

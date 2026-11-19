@@ -1,0 +1,27 @@
+{
+  "verified_hashes": 7,
+  "independently_replayed_endpoints": 4293,
+  "max_matrix_vs_scalar_speed_error_mps": 2.842170943040401e-14,
+  "compatible_runs": 21,
+  "total_runs": 27,
+  "compatible_parameter_sets": 7,
+  "maximum_action_RMSE_pair_w_and_case": [
+    22843.015428507482,
+    750,
+    332812.5,
+    750,
+    370312.5
+  ],
+  "maximum_repeated_start_action_difference_w": 38.58371832790908,
+  "all_optimizer_success": true,
+  "all_partial_energy_feasible": true,
+  "compatible_sets_at_or_above_800kg": 4,
+  "maximum_action_RMSE_pair_at_or_above_800kg": [
+    14386.520387003287,
+    800,
+    395000.0,
+    850,
+    398437.5
+  ],
+  "prepared_development_input_matches_original_manifest": true
+}

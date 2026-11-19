@@ -23,6 +23,7 @@ tokens.json
 *.ff1pkl
 # Transient scratch; canonical evidence lives in results and figures
 work/
+/delete/
 Thumbs.db
 Desktop.ini
 # Research results, checkpoints, plots and logs are intentionally versioned.

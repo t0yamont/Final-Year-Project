@@ -1,0 +1,2183 @@
+{
+  "completed": 64,
+  "planned": 64,
+  "results": [
+    {
+      "scenario": "nominal",
+      "blocks": 55,
+      "cells_per_block": 80,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "zero",
+      "grid_file": "nominal_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.83321568145729,
+      "final_energy_j": 1836286.5417853314,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": 4.049754309676246e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 9.458744898438454e-10,
+        "battery_identity_error_j": -4.656612873077393e-10,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 4.656612873077393e-10
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 0,
+        "depletion_events": 0
+      },
+      "file": "nominal_blocks-55_coarse_zero.json.gz",
+      "reward_reference_time_s": 109.83321568145729,
+      "wall_seconds": 1.706027700100094
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 55,
+      "cells_per_block": 80,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "half",
+      "grid_file": "nominal_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.15341348997114,
+      "final_energy_j": 186286.54178533278,
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": 7.826203685112887e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 2.6964698918163776e-08,
+        "battery_identity_error_j": -3.4924596548080444e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.342858351767063e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 33,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-55_coarse_half.json.gz",
+      "reward_reference_time_s": 109.83321568145729,
+      "wall_seconds": 1.720505499979481
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 55,
+      "cells_per_block": 80,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "full",
+      "grid_file": "nominal_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.07053137498596,
+      "final_energy_j": 186286.54178533278,
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": 1.836300000945812e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -5.9371814131736755e-09,
+        "battery_identity_error_j": 2.7939677238464355e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.1245796233415604e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 0,
+        "protected_depletion_blocks": 43,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-55_coarse_full.json.gz",
+      "reward_reference_time_s": 109.83321568145729,
+      "wall_seconds": 1.7675168998539448
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 55,
+      "cells_per_block": 80,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "spread",
+      "grid_file": "nominal_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.09750964454278,
+      "final_energy_j": 192695.6754349221,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": -9.220313401669955e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -2.251181285828352e-08,
+        "battery_identity_error_j": -1.0244548320770264e-08,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.6302586775273085e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 0,
+        "protected_depletion_blocks": 2,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-55_coarse_spread.json.gz",
+      "reward_reference_time_s": 109.83321568145729,
+      "wall_seconds": 1.7565220000687987
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 55,
+      "cells_per_block": 80,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "exit_boost",
+      "grid_file": "nominal_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 108.98310731833641,
+      "final_energy_j": 447200.3673300685,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": -1.0368237823854543e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -2.000888343900442e-08,
+        "battery_identity_error_j": 1.3969838619232178e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.6007106751203537e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 0,
+        "depletion_events": 0
+      },
+      "file": "nominal_blocks-55_coarse_exit_boost.json.gz",
+      "reward_reference_time_s": 109.83321568145729,
+      "wall_seconds": 1.7618942998815328
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 55,
+      "cells_per_block": 80,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "ppo_seed0",
+      "grid_file": "nominal_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 108.80895517270557,
+      "final_energy_j": 186286.54178533278,
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": 1.0967386998572692e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -8.789356797933578e-09,
+        "battery_identity_error_j": 6.984919309616089e-10,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.1641532182693481e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 5,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-55_coarse_ppo_seed0.json.gz",
+      "reward_reference_time_s": 109.83321568145729,
+      "wall_seconds": 1.9186752999667078
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 55,
+      "cells_per_block": 80,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "ppo_seed1",
+      "grid_file": "nominal_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 108.72145146739878,
+      "final_energy_j": 186286.54178533278,
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": 1.4908723144912983e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 7.654307410120964e-09,
+        "battery_identity_error_j": -9.313225746154785e-10,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.6443664208054543e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 5,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-55_coarse_ppo_seed1.json.gz",
+      "reward_reference_time_s": 109.83321568145729,
+      "wall_seconds": 1.8600150998681784
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 55,
+      "cells_per_block": 80,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "ppo_seed2",
+      "grid_file": "nominal_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 108.74826656678155,
+      "final_energy_j": 186286.54178533278,
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": 3.880730403693633e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 4.321918822824955e-09,
+        "battery_identity_error_j": 3.259629011154175e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.4110810298006982e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 15,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-55_coarse_ppo_seed2.json.gz",
+      "reward_reference_time_s": 109.83321568145729,
+      "wall_seconds": 1.8725205000955611
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 55,
+      "cells_per_block": 160,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "zero",
+      "grid_file": "nominal_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 109.45328479362563,
+      "final_energy_j": 1836409.959141124,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": -2.4997875769372513e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -5.209585651755333e-08,
+        "battery_identity_error_j": 4.511093720793724e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 4.511093720793724e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 0,
+        "depletion_events": 0
+      },
+      "file": "nominal_blocks-55_fine_zero.json.gz",
+      "reward_reference_time_s": 109.45328479362563,
+      "wall_seconds": 3.340283199911937
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 55,
+      "cells_per_block": 160,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "half",
+      "grid_file": "nominal_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.7713223489976,
+      "final_energy_j": 186409.95914111965,
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "feasible": true,
+      "energy_residual_j": 5.845093298262327e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -7.53789208829403e-09,
+        "battery_identity_error_j": -3.259629011154175e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.0954757928848267e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 33,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-55_fine_half.json.gz",
+      "reward_reference_time_s": 109.45328479362563,
+      "wall_seconds": 3.4283106001093984
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 55,
+      "cells_per_block": 160,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "full",
+      "grid_file": "nominal_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.69213877495085,
+      "final_energy_j": 186409.95914111965,
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "feasible": true,
+      "energy_residual_j": -1.956272122072278e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -5.113543011248112e-08,
+        "battery_identity_error_j": 1.6298145055770874e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.1641532182693481e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 0,
+        "protected_depletion_blocks": 43,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-55_fine_full.json.gz",
+      "reward_reference_time_s": 109.45328479362563,
+      "wall_seconds": 3.328586299903691
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 55,
+      "cells_per_block": 160,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "spread",
+      "grid_file": "nominal_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.71702462227991,
+      "final_energy_j": 192612.0565509011,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": -1.6719484463578738e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -4.496541805565357e-09,
+        "battery_identity_error_j": -8.847564458847046e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 4.94765117764473e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 0,
+        "protected_depletion_blocks": 2,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-55_fine_spread.json.gz",
+      "reward_reference_time_s": 109.45328479362563,
+      "wall_seconds": 3.348669500090182
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 55,
+      "cells_per_block": 160,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "exit_boost",
+      "grid_file": "nominal_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.60626927100796,
+      "final_energy_j": 448710.5068731314,
+      "terminal_speed_error_mps": 9.947598300641403e-14,
+      "feasible": true,
+      "energy_residual_j": -4.952413590331162e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -1.6982085071504116e-08,
+        "battery_identity_error_j": 3.4924596548080444e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.4156179279088974e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 0,
+        "depletion_events": 0
+      },
+      "file": "nominal_blocks-55_fine_exit_boost.json.gz",
+      "reward_reference_time_s": 109.45328479362563,
+      "wall_seconds": 3.3258846001699567
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 55,
+      "cells_per_block": 160,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "ppo_seed0",
+      "grid_file": "nominal_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.43275047545703,
+      "final_energy_j": 186409.95914111965,
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "feasible": true,
+      "energy_residual_j": -2.1314720655141173e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -3.007880877703428e-08,
+        "battery_identity_error_j": 3.958120942115784e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 3.434251993894577e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 5,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-55_fine_ppo_seed0.json.gz",
+      "reward_reference_time_s": 109.45328479362563,
+      "wall_seconds": 3.4830469000153244
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 55,
+      "cells_per_block": 160,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "ppo_seed1",
+      "grid_file": "nominal_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.33478846929685,
+      "final_energy_j": 186409.95914111965,
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "feasible": true,
+      "energy_residual_j": -9.472488571304893e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -2.5262124836444855e-08,
+        "battery_identity_error_j": -9.313225746154785e-10,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 5.093170329928398e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 5,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-55_fine_ppo_seed1.json.gz",
+      "reward_reference_time_s": 109.45328479362563,
+      "wall_seconds": 3.440558699890971
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 55,
+      "cells_per_block": 160,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "ppo_seed2",
+      "grid_file": "nominal_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.37048441952832,
+      "final_energy_j": 186409.95914111965,
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "feasible": true,
+      "energy_residual_j": 1.5844603851178363e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -9.022187441587448e-09,
+        "battery_identity_error_j": 0.0,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.066371962428093e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 15,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-55_fine_ppo_seed2.json.gz",
+      "reward_reference_time_s": 109.45328479362563,
+      "wall_seconds": 3.493821799987927
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 110,
+      "cells_per_block": 40,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "zero",
+      "grid_file": "nominal_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.83321568145729,
+      "final_energy_j": 1836286.5417853314,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": 4.049754309676246e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 2.837623469531536e-09,
+        "battery_identity_error_j": -4.3655745685100555e-10,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.764863893389702e-10
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 0,
+        "depletion_events": 0
+      },
+      "file": "nominal_blocks-110_coarse_zero.json.gz",
+      "reward_reference_time_s": 109.83321568145729,
+      "wall_seconds": 1.7074458000715822
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 110,
+      "cells_per_block": 40,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "half",
+      "grid_file": "nominal_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.15341348997114,
+      "final_energy_j": 186286.54178533278,
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": 7.826203685112887e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 2.9016518965363503e-08,
+        "battery_identity_error_j": -3.4924596548080444e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.673470251262188e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 65,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-110_coarse_half.json.gz",
+      "reward_reference_time_s": 109.83321568145729,
+      "wall_seconds": 1.6812034000176936
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 110,
+      "cells_per_block": 40,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "full",
+      "grid_file": "nominal_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.07053137498596,
+      "final_energy_j": 186286.54178533278,
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": 1.836300000945812e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -4.001776687800884e-09,
+        "battery_identity_error_j": 3.026798367500305e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.0227162167429924e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 0,
+        "protected_depletion_blocks": 86,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-110_coarse_full.json.gz",
+      "reward_reference_time_s": 109.83321568145729,
+      "wall_seconds": 1.6948987999930978
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 110,
+      "cells_per_block": 40,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "spread",
+      "grid_file": "nominal_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.08841576994449,
+      "final_energy_j": 191188.97535099633,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": -9.160372016481233e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 3.7107383832335472e-09,
+        "battery_identity_error_j": -6.752088665962219e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.164597390219569e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 0,
+        "protected_depletion_blocks": 3,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-110_coarse_spread.json.gz",
+      "reward_reference_time_s": 109.83321568145729,
+      "wall_seconds": 1.8312914001289755
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 110,
+      "cells_per_block": 40,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "exit_boost",
+      "grid_file": "nominal_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 108.94701107080954,
+      "final_energy_j": 186286.54178533278,
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": 8.845505661270181e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 9.909854270517826e-09,
+        "battery_identity_error_j": 0.0,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.0913936421275139e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 5,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-110_coarse_exit_boost.json.gz",
+      "reward_reference_time_s": 109.83321568145729,
+      "wall_seconds": 1.7975745999719948
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 110,
+      "cells_per_block": 40,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "ppo_seed0",
+      "grid_file": "nominal_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 108.91986420949007,
+      "final_energy_j": 186286.54178533278,
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": 6.227481641474242e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -9.720679372549057e-09,
+        "battery_identity_error_j": 6.984919309616089e-10,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.2660166248679161e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 12,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-110_coarse_ppo_seed0.json.gz",
+      "reward_reference_time_s": 109.83321568145729,
+      "wall_seconds": 1.909795500105247
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 110,
+      "cells_per_block": 40,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "ppo_seed1",
+      "grid_file": "nominal_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 108.79348569307464,
+      "final_energy_j": 186286.54178533278,
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": 1.6391995316666907e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 1.1976226232945919e-08,
+        "battery_identity_error_j": 1.862645149230957e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.3897079043090343e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 9,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-110_coarse_ppo_seed1.json.gz",
+      "reward_reference_time_s": 109.83321568145729,
+      "wall_seconds": 1.8650055998004973
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 110,
+      "cells_per_block": 40,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "ppo_seed2",
+      "grid_file": "nominal_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 108.87058089996592,
+      "final_energy_j": 186286.54178533278,
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": 5.705858896476457e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 1.3795215636491776e-08,
+        "battery_identity_error_j": -8.614733815193176e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.9063008949160576e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 38,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-110_coarse_ppo_seed2.json.gz",
+      "reward_reference_time_s": 109.83321568145729,
+      "wall_seconds": 1.8213615999557078
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 110,
+      "cells_per_block": 80,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "zero",
+      "grid_file": "nominal_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 109.45328479362563,
+      "final_energy_j": 1836409.959141124,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": -2.4997875769372513e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -4.47762431576848e-08,
+        "battery_identity_error_j": 4.48198989033699e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.473825588822365e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 0,
+        "depletion_events": 0
+      },
+      "file": "nominal_blocks-110_fine_zero.json.gz",
+      "reward_reference_time_s": 109.45328479362563,
+      "wall_seconds": 3.507551599992439
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 110,
+      "cells_per_block": 80,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "half",
+      "grid_file": "nominal_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.7713223489976,
+      "final_energy_j": 186409.95914111965,
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "feasible": true,
+      "energy_residual_j": 5.845093298262327e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -4.511093720793724e-10,
+        "battery_identity_error_j": -3.259629011154175e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.3646862246096134e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 65,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-110_fine_half.json.gz",
+      "reward_reference_time_s": 109.45328479362563,
+      "wall_seconds": 3.3539117998443544
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 110,
+      "cells_per_block": 80,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "full",
+      "grid_file": "nominal_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.69213877495085,
+      "final_energy_j": 186409.95914111965,
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "feasible": true,
+      "energy_residual_j": -1.956272122072278e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -4.221510607749224e-08,
+        "battery_identity_error_j": 1.6298145055770874e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.5279510989785194e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 0,
+        "protected_depletion_blocks": 86,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-110_fine_full.json.gz",
+      "reward_reference_time_s": 109.45328479362563,
+      "wall_seconds": 3.372582199983299
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 110,
+      "cells_per_block": 80,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "spread",
+      "grid_file": "nominal_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.70812627012748,
+      "final_energy_j": 191157.11740000232,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": -8.350783176069854e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -1.4115357771515846e-09,
+        "battery_identity_error_j": -1.1641532182693481e-08,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.6448105927556753e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 0,
+        "protected_depletion_blocks": 3,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-110_fine_spread.json.gz",
+      "reward_reference_time_s": 109.45328479362563,
+      "wall_seconds": 3.591954099945724
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 110,
+      "cells_per_block": 80,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "exit_boost",
+      "grid_file": "nominal_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.57142092837064,
+      "final_energy_j": 186409.95914111965,
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "feasible": true,
+      "energy_residual_j": -2.659591658016325e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -1.1437805369496346e-08,
+        "battery_identity_error_j": 3.4924596548080444e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.7212081477046013e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 5,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-110_fine_exit_boost.json.gz",
+      "reward_reference_time_s": 109.45328479362563,
+      "wall_seconds": 3.521799199981615
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 110,
+      "cells_per_block": 80,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "ppo_seed0",
+      "grid_file": "nominal_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.53275285583732,
+      "final_energy_j": 186409.95914111965,
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "feasible": true,
+      "energy_residual_j": 1.1286756418371624e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 5.631591193377972e-09,
+        "battery_identity_error_j": -7.450580596923828e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 3.6816345527768135e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 13,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-110_fine_ppo_seed0.json.gz",
+      "reward_reference_time_s": 109.45328479362563,
+      "wall_seconds": 3.5542120998725295
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 110,
+      "cells_per_block": 80,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "ppo_seed1",
+      "grid_file": "nominal_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.41002130905434,
+      "final_energy_j": 186409.95914111965,
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "feasible": true,
+      "energy_residual_j": 7.657503076075045e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 7.159542292356491e-09,
+        "battery_identity_error_j": -5.3551048040390015e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 3.6816345527768135e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 9,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-110_fine_ppo_seed1.json.gz",
+      "reward_reference_time_s": 109.45328479362563,
+      "wall_seconds": 3.573376099811867
+    },
+    {
+      "scenario": "nominal",
+      "blocks": 110,
+      "cells_per_block": 80,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "ppo_seed2",
+      "grid_file": "nominal_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.4940471430925,
+      "final_energy_j": 186409.95914111965,
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "feasible": true,
+      "energy_residual_j": -1.8455104111581022e-10,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 6.461050361394882e-09,
+        "battery_identity_error_j": 4.656612873077393e-10,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.508851710241288e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 38,
+        "depletion_events": 1
+      },
+      "file": "nominal_blocks-110_fine_ppo_seed2.json.gz",
+      "reward_reference_time_s": 109.45328479362563,
+      "wall_seconds": 3.589913500007242
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 55,
+      "cells_per_block": 80,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "zero",
+      "grid_file": "drag_plus10_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 110.34110493801008,
+      "final_energy_j": 1825033.3353565775,
+      "terminal_speed_error_mps": -2.842170943040401e-14,
+      "feasible": true,
+      "energy_residual_j": -4.964475053270689e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -5.762558430433273e-09,
+        "battery_identity_error_j": -2.3283064365386963e-10,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.3283064365386963e-10
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 0,
+        "depletion_events": 0
+      },
+      "file": "drag_plus10_blocks-55_coarse_zero.json.gz",
+      "reward_reference_time_s": 110.34110493801008,
+      "wall_seconds": 1.7427111000288278
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 55,
+      "cells_per_block": 80,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "half",
+      "grid_file": "drag_plus10_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.6398432715799,
+      "final_energy_j": 175033.33535657797,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": -1.4843264395381084e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -4.6566128730773926e-09,
+        "battery_identity_error_j": 3.259629011154175e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.3283064365386963e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 33,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-55_coarse_half.json.gz",
+      "reward_reference_time_s": 110.34110493801008,
+      "wall_seconds": 2.0534604999702424
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 55,
+      "cells_per_block": 80,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "full",
+      "grid_file": "drag_plus10_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.57434869465115,
+      "final_energy_j": 175033.33535657797,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": 4.784782348110639e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 1.4915713109076023e-08,
+        "battery_identity_error_j": -3.4924596548080444e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.862645149230957e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 0,
+        "protected_depletion_blocks": 43,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-55_coarse_full.json.gz",
+      "reward_reference_time_s": 110.34110493801008,
+      "wall_seconds": 1.7374098000582308
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 55,
+      "cells_per_block": 80,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "spread",
+      "grid_file": "drag_plus10_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.5975830451356,
+      "final_energy_j": 180320.37454359228,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": -5.704434258291258e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 1.979060471057892e-09,
+        "battery_identity_error_j": -2.0954757928848267e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 3.3651303965598345e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 0,
+        "protected_depletion_blocks": 2,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-55_coarse_spread.json.gz",
+      "reward_reference_time_s": 110.34110493801008,
+      "wall_seconds": 1.728697600075975
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 55,
+      "cells_per_block": 80,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "exit_boost",
+      "grid_file": "drag_plus10_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.4793126675577,
+      "final_energy_j": 418195.98054149986,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": -8.056614930751493e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -1.9819708541035652e-08,
+        "battery_identity_error_j": 1.3969838619232178e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.6880221664905548e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 0,
+        "depletion_events": 0
+      },
+      "file": "drag_plus10_blocks-55_coarse_exit_boost.json.gz",
+      "reward_reference_time_s": 110.34110493801008,
+      "wall_seconds": 1.7058406001888216
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 55,
+      "cells_per_block": 80,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "ppo_seed0",
+      "grid_file": "drag_plus10_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.32052663496647,
+      "final_energy_j": 175033.33535657797,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": -3.6552005866496984e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -2.88418959826231e-08,
+        "battery_identity_error_j": -5.3551048040390015e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.5029294192790985e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 5,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-55_coarse_ppo_seed0.json.gz",
+      "reward_reference_time_s": 110.34110493801008,
+      "wall_seconds": 1.8174930999521166
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 55,
+      "cells_per_block": 80,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "ppo_seed1",
+      "grid_file": "drag_plus10_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.23024923697099,
+      "final_energy_j": 175033.33535657797,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": -2.0243900777927593e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -3.869354259222746e-08,
+        "battery_identity_error_j": -3.259629011154175e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.9936123862862587e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 5,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-55_coarse_ppo_seed1.json.gz",
+      "reward_reference_time_s": 110.34110493801008,
+      "wall_seconds": 1.880766100017354
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 55,
+      "cells_per_block": 80,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "ppo_seed2",
+      "grid_file": "drag_plus10_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.25895807993726,
+      "final_energy_j": 175033.33535657797,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": -1.8946879620784784e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -5.020410753786564e-09,
+        "battery_identity_error_j": -1.862645149230957e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.590695658000186e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 15,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-55_coarse_ppo_seed2.json.gz",
+      "reward_reference_time_s": 110.34110493801008,
+      "wall_seconds": 1.8313901000656188
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 55,
+      "cells_per_block": 160,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "zero",
+      "grid_file": "drag_plus10_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 109.96357612673467,
+      "final_energy_j": 1825143.6776345654,
+      "terminal_speed_error_mps": -4.263256414560601e-14,
+      "feasible": true,
+      "energy_residual_j": -1.1890309181694647e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -4.303001333028078e-08,
+        "battery_identity_error_j": -3.026798367500305e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 3.026798367500305e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 0,
+        "depletion_events": 0
+      },
+      "file": "drag_plus10_blocks-55_fine_zero.json.gz",
+      "reward_reference_time_s": 109.96357612673467,
+      "wall_seconds": 3.43374040001072
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 55,
+      "cells_per_block": 160,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "half",
+      "grid_file": "drag_plus10_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 109.2616112747737,
+      "final_energy_j": 175143.6776345704,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": 2.0465318328888316e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 4.903995431959629e-09,
+        "battery_identity_error_j": 6.05359673500061e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 3.4633558243513107e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 33,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-55_fine_half.json.gz",
+      "reward_reference_time_s": 109.96357612673467,
+      "wall_seconds": 3.4538985998369753
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 55,
+      "cells_per_block": 160,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "full",
+      "grid_file": "drag_plus10_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 109.19858934381705,
+      "final_energy_j": 175143.6776345704,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": -1.433763330283e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -7.232301868498325e-09,
+        "battery_identity_error_j": 2.7939677238464355e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.4156179279088974e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 0,
+        "protected_depletion_blocks": 44,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-55_fine_full.json.gz",
+      "reward_reference_time_s": 109.96357612673467,
+      "wall_seconds": 3.3088138999883085
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 55,
+      "cells_per_block": 160,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "spread",
+      "grid_file": "drag_plus10_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 109.219217392696,
+      "final_energy_j": 180247.07677490148,
+      "terminal_speed_error_mps": 5.684341886080802e-14,
+      "feasible": true,
+      "energy_residual_j": 1.8655992306548796e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 1.4581019058823586e-08,
+        "battery_identity_error_j": -6.05359673500061e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 3.3760443329811096e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 0,
+        "protected_depletion_blocks": 2,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-55_fine_spread.json.gz",
+      "reward_reference_time_s": 109.96357612673467,
+      "wall_seconds": 3.610361299943179
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 55,
+      "cells_per_block": 160,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "exit_boost",
+      "grid_file": "drag_plus10_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 109.10479073798199,
+      "final_energy_j": 419581.76643271,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": -3.662271019777563e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -3.239256329834461e-08,
+        "battery_identity_error_j": 1.6298145055770874e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.0954757928848267e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 0,
+        "depletion_events": 0
+      },
+      "file": "drag_plus10_blocks-55_fine_exit_boost.json.gz",
+      "reward_reference_time_s": 109.96357612673467,
+      "wall_seconds": 3.3803383999038488
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 55,
+      "cells_per_block": 160,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "ppo_seed0",
+      "grid_file": "drag_plus10_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.9462519323614,
+      "final_energy_j": 175143.6776345704,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": 5.341127540248181e-10,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -8.803908713161945e-09,
+        "battery_identity_error_j": 8.847564458847046e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 3.5797711461782455e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 5,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-55_fine_ppo_seed0.json.gz",
+      "reward_reference_time_s": 109.96357612673467,
+      "wall_seconds": 3.529235600028187
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 55,
+      "cells_per_block": 160,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "ppo_seed1",
+      "grid_file": "drag_plus10_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.84530822534833,
+      "final_energy_j": 175143.6776345704,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": -8.092815306781631e-10,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -1.3344106264412403e-08,
+        "battery_identity_error_j": 1.6298145055770874e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.6193447411060333e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 5,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-55_fine_ppo_seed1.json.gz",
+      "reward_reference_time_s": 109.96357612673467,
+      "wall_seconds": 3.534089900087565
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 55,
+      "cells_per_block": 160,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "ppo_seed2",
+      "grid_file": "drag_plus10_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.88199594089673,
+      "final_energy_j": 175143.6776345704,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": -8.860299161028706e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -8.280039764940739e-09,
+        "battery_identity_error_j": -8.614733815193176e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 3.010541149706114e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 1,
+        "action_changed_blocks": 1,
+        "protected_depletion_blocks": 15,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-55_fine_ppo_seed2.json.gz",
+      "reward_reference_time_s": 109.96357612673467,
+      "wall_seconds": 3.5188243000302464
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 110,
+      "cells_per_block": 40,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "zero",
+      "grid_file": "drag_plus10_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 110.34110493801008,
+      "final_energy_j": 1825033.3353565775,
+      "terminal_speed_error_mps": -2.842170943040401e-14,
+      "feasible": true,
+      "energy_residual_j": -4.964475053270689e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -2.368324203416705e-09,
+        "battery_identity_error_j": -2.6193447411060333e-10,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 9.604264050722122e-10
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 0,
+        "depletion_events": 0
+      },
+      "file": "drag_plus10_blocks-110_coarse_zero.json.gz",
+      "reward_reference_time_s": 110.34110493801008,
+      "wall_seconds": 2.0992137999273837
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 110,
+      "cells_per_block": 40,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "half",
+      "grid_file": "drag_plus10_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.6398432715799,
+      "final_energy_j": 175033.33535657797,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": -1.4843264395381084e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -2.8485374059528112e-09,
+        "battery_identity_error_j": 3.259629011154175e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.8917489796876907e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 66,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-110_coarse_half.json.gz",
+      "reward_reference_time_s": 110.34110493801008,
+      "wall_seconds": 1.8941284001339227
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 110,
+      "cells_per_block": 40,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "full",
+      "grid_file": "drag_plus10_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.57434869465115,
+      "final_energy_j": 175033.33535657797,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": 4.784782348110639e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 1.475928002037108e-08,
+        "battery_identity_error_j": -3.4924596548080444e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.1641532182693481e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 0,
+        "protected_depletion_blocks": 86,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-110_coarse_full.json.gz",
+      "reward_reference_time_s": 110.34110493801008,
+      "wall_seconds": 1.788052200106904
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 110,
+      "cells_per_block": 40,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "spread",
+      "grid_file": "drag_plus10_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.58942497101023,
+      "final_energy_j": 179007.82956759824,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": -1.4631407196930013e-10,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -9.49512468650937e-09,
+        "battery_identity_error_j": 5.122274160385132e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.9726940081454813e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 0,
+        "protected_depletion_blocks": 4,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-110_coarse_spread.json.gz",
+      "reward_reference_time_s": 110.34110493801008,
+      "wall_seconds": 1.7960067000240088
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 110,
+      "cells_per_block": 40,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "exit_boost",
+      "grid_file": "drag_plus10_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.44373569305489,
+      "final_energy_j": 175033.33535657797,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": -1.3683829180877183e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -1.2307282304391265e-08,
+        "battery_identity_error_j": -3.259629011154175e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.1932570487260818e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 5,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-110_coarse_exit_boost.json.gz",
+      "reward_reference_time_s": 110.34110493801008,
+      "wall_seconds": 1.9427312000188977
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 110,
+      "cells_per_block": 40,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "ppo_seed0",
+      "grid_file": "drag_plus10_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.41988991252677,
+      "final_energy_j": 175033.33535657797,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": -1.6441587646909284e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -2.586966729722917e-08,
+        "battery_identity_error_j": -6.984919309616089e-10,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.0459189070388675e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 13,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-110_coarse_ppo_seed0.json.gz",
+      "reward_reference_time_s": 110.34110493801008,
+      "wall_seconds": 2.137404899811372
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 110,
+      "cells_per_block": 40,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "ppo_seed1",
+      "grid_file": "drag_plus10_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.30159815191345,
+      "final_energy_j": 175033.33535657797,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": -3.017640715086145e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -4.334651748649776e-08,
+        "battery_identity_error_j": -2.7939677238464355e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.6443664208054543e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 9,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-110_coarse_ppo_seed1.json.gz",
+      "reward_reference_time_s": 110.34110493801008,
+      "wall_seconds": 2.1599622000940144
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 110,
+      "cells_per_block": 40,
+      "physical_cells": 4400,
+      "grid": "coarse",
+      "policy": "ppo_seed2",
+      "grid_file": "drag_plus10_coarse_grid.json.gz",
+      "circuit_length_m": 5373.011559010489,
+      "status": "completed",
+      "duration_s": 109.38649136967052,
+      "final_energy_j": 175033.33535657797,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": -9.591870409053627e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -1.3347744243219495e-08,
+        "battery_identity_error_j": -1.1641532182693481e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.6589183360338211e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 39,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-110_coarse_ppo_seed2.json.gz",
+      "reward_reference_time_s": 110.34110493801008,
+      "wall_seconds": 2.1764080999419093
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 110,
+      "cells_per_block": 80,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "zero",
+      "grid_file": "drag_plus10_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 109.96357612673467,
+      "final_energy_j": 1825143.6776345654,
+      "terminal_speed_error_mps": -4.263256414560601e-14,
+      "feasible": true,
+      "energy_residual_j": -1.1890309181694647e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -3.540844772942364e-08,
+        "battery_identity_error_j": -3.0850060284137726e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.6193447411060333e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 0,
+        "depletion_events": 0
+      },
+      "file": "drag_plus10_blocks-110_fine_zero.json.gz",
+      "reward_reference_time_s": 109.96357612673467,
+      "wall_seconds": 3.5411263999994844
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 110,
+      "cells_per_block": 80,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "half",
+      "grid_file": "drag_plus10_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 109.2616112747737,
+      "final_energy_j": 175143.6776345704,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": 2.0465318328888316e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 1.2794771464541554e-08,
+        "battery_identity_error_j": 6.05359673500061e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.815795596688986e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 66,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-110_fine_half.json.gz",
+      "reward_reference_time_s": 109.96357612673467,
+      "wall_seconds": 3.919404399814084
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 110,
+      "cells_per_block": 80,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "full",
+      "grid_file": "drag_plus10_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 109.19858934381705,
+      "final_energy_j": 175143.6776345704,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": -1.433763330283e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 9.567884262651205e-10,
+        "battery_identity_error_j": 2.7939677238464355e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.7794158086180687e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 0,
+        "protected_depletion_blocks": 87,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-110_fine_full.json.gz",
+      "reward_reference_time_s": 109.96357612673467,
+      "wall_seconds": 3.5581509000621736
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 110,
+      "cells_per_block": 80,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "spread",
+      "grid_file": "drag_plus10_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 109.21132092634556,
+      "final_energy_j": 178980.09320592877,
+      "terminal_speed_error_mps": 0.0,
+      "feasible": true,
+      "energy_residual_j": 6.107965688784134e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 3.650347935035825e-08,
+        "battery_identity_error_j": 9.546056389808655e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.4665496312081814e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 0,
+        "protected_depletion_blocks": 4,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-110_fine_spread.json.gz",
+      "reward_reference_time_s": 109.96357612673467,
+      "wall_seconds": 3.520292099798098
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 110,
+      "cells_per_block": 80,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "exit_boost",
+      "grid_file": "drag_plus10_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 109.07032152429629,
+      "final_energy_j": 175143.6776345704,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": -6.158559884283932e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 5.973561201244593e-09,
+        "battery_identity_error_j": -1.6298145055770874e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.153683453798294e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 5,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-110_fine_exit_boost.json.gz",
+      "reward_reference_time_s": 109.96357612673467,
+      "wall_seconds": 3.7321371999569237
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 110,
+      "cells_per_block": 80,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "ppo_seed0",
+      "grid_file": "drag_plus10_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 109.03589643521842,
+      "final_energy_j": 175143.6776345704,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": 1.8156340431119133e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 2.794695319607854e-08,
+        "battery_identity_error_j": 7.2177499532699585e-09,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 1.862645149230957e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 13,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-110_fine_ppo_seed0.json.gz",
+      "reward_reference_time_s": 109.96357612673467,
+      "wall_seconds": 3.8228369001299143
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 110,
+      "cells_per_block": 80,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "ppo_seed1",
+      "grid_file": "drag_plus10_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 108.92036093258193,
+      "final_energy_j": 175143.6776345704,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": 3.676559501286647e-09,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": 2.7084752218797803e-08,
+        "battery_identity_error_j": 9.313225746154785e-10,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.0845618564635515e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 9,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-110_fine_ppo_seed1.json.gz",
+      "reward_reference_time_s": 109.96357612673467,
+      "wall_seconds": 3.605272199958563
+    },
+    {
+      "scenario": "drag_plus10",
+      "blocks": 110,
+      "cells_per_block": 80,
+      "physical_cells": 8800,
+      "grid": "fine",
+      "policy": "ppo_seed2",
+      "grid_file": "drag_plus10_fine_grid.json.gz",
+      "circuit_length_m": 5373.011559010487,
+      "status": "completed",
+      "duration_s": 109.01158161828043,
+      "final_energy_j": 175143.6776345704,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "feasible": true,
+      "energy_residual_j": -2.1563410612657208e-08,
+      "audit": {
+        "passed": true,
+        "global_work_energy_residual_j": -1.934677129611373e-08,
+        "battery_identity_error_j": 4.656612873077393e-10,
+        "guard": {
+          "passed": true,
+          "max_block_battery_identity_error_j": 2.4156179279088974e-09
+        }
+      },
+      "guard_interventions": {
+        "terminal_override_blocks": 2,
+        "action_changed_blocks": 2,
+        "protected_depletion_blocks": 39,
+        "depletion_events": 1
+      },
+      "file": "drag_plus10_blocks-110_fine_ppo_seed2.json.gz",
+      "reward_reference_time_s": 109.96357612673467,
+      "wall_seconds": 3.474164899904281
+    }
+  ],
+  "errors": []
+}

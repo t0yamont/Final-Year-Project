@@ -1,0 +1,27 @@
+{
+  "command": "$env:PYTHONPATH='src'; .venv/Scripts/python.exe scripts/assess_bahrain_corner_paths.py",
+  "inputs_sha256": {
+    "results\\bahrain-pace-inputs-001\\metrics.json": "e6a6c8ae90eb77641374136f0a950ae9c61ed0dd93f41104f877a599db92eb20",
+    "results\\openf1-dataset-003\\development\\1257\\10010\\driver-1-position.csv.gz": "9909a84bc2ec266033799254aa94da2cda9e35b5ce07fb4759eeb14ca8128921",
+    "results\\bahrain-pace-inputs-001\\lap-13.csv": "00765ca5d3d0b0c6ed91ca63321aed217c9c96a545472b3e571257e7f8faa23b",
+    "results\\circuit-input-assessment-001\\Sakhir.csv": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a",
+    "configs\\bahrain_turn_landmarks.json": "955c5988d87a3a2bf92c73e0b73d2c3ac9f2c9286ea11ec82478630535212780",
+    "results\\bahrain-pace-calibration-001\\speed_time.csv": "aee8c217d469d65e46b444a025b4c8f7fff1cceaad6fe12d3f36aaa7add5a784",
+    "results\\bahrain-pace-calibration-001\\model.json": "6884eb5359a3451e02b24480fda61c75f5b39309d9ea5c0c80e0787234ec59b1",
+    "configs\\circuit_reference.json": "19b80d69d3e91d32a9ce4a2b00a40589fcd16ceb387c17ca4ad151a5a6043657",
+    "results\\bahrain-pace-mechanisms-001\\corner_checks.json": "78751c44ab9ed292cd15b1c4835e769e29efdb7b661feca59ae4631b21a7ee4a"
+  },
+  "source_sha256": {
+    "scripts\\assess_bahrain_corner_paths.py": "d5d41204409be764e3d70e9935db716eb0c49815e9c475e2583c40633bc659d9",
+    "scripts/bahrain_pace_model.py": "4983b5bb3e0426d4b9d1b4b02c3c9933142702560a783a92ae3446e0508dc217",
+    "src/f1energy/circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9"
+  },
+  "outputs_sha256": {
+    "results\\bahrain-corner-paths-001\\native_support.csv": "597cccb44a3ae8e941d9da8642bbf56c8bcc0c384ee614b8de948802960da352",
+    "results\\bahrain-corner-paths-001\\curvature_chords.csv": "6d517a5cdfb6bc85d504b814f8187b6ddbddeb6c8ee8842665572fa85ad7099f",
+    "results\\bahrain-corner-paths-001\\lap13_registered_native_positions.csv": "37eb5ef8805fd98e217be7e5aebcf87eac367f92f567441d7e7118db2fb83fa7",
+    "results\\bahrain-corner-paths-001\\metrics.json": "b824980258d6d18e89a6c48c8850ea94cc576a774eaa69ee0049452d564bf2cd",
+    "figures\\dissertation\\bahrain-corner-paths-v1\\corner_paths.pdf": "a16974dcacfed585fee343b0c549594fb6839a8db77f0bfdc2bdfbfb7dfc2b45",
+    "figures\\dissertation\\bahrain-corner-paths-v1\\corner_paths.png": "0734a0ebe5229a4ddf0bfc4bda9590869c703577544abeb7a63eece55da84a51"
+  }
+}

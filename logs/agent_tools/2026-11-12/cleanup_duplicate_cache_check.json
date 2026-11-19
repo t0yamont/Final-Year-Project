@@ -1,0 +1,126 @@
+[
+  {
+    "path": "work\\diagnostic\\offline-load.log",
+    "bytes": 5648,
+    "identical_in_results": []
+  },
+  {
+    "path": "work\\diagnostic\\cache\\fastf1_http_cache.sqlite",
+    "bytes": 8278016,
+    "identical_in_results": [
+      "results\\bahrain-2025-q-driver1-001\\cache\\fastf1_http_cache.sqlite"
+    ]
+  },
+  {
+    "path": "work\\diagnostic\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\car_data.ff1pkl",
+    "bytes": 41640456,
+    "identical_in_results": [
+      "results\\bahrain-2025-q-driver1-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\car_data.ff1pkl",
+      "results\\bahrain-2025-q-driver1-002\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\car_data.ff1pkl",
+      "results\\clean-laps-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\car_data.ff1pkl",
+      "results\\lap-context-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\car_data.ff1pkl"
+    ]
+  },
+  {
+    "path": "work\\diagnostic\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\position_data.ff1pkl",
+    "bytes": 38585464,
+    "identical_in_results": [
+      "results\\bahrain-2025-q-driver1-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\position_data.ff1pkl",
+      "results\\bahrain-2025-q-driver1-002\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\position_data.ff1pkl",
+      "results\\clean-laps-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\position_data.ff1pkl",
+      "results\\lap-context-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\position_data.ff1pkl"
+    ]
+  },
+  {
+    "path": "work\\diagnostic\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\timing_app_data.ff1pkl",
+    "bytes": 37347,
+    "identical_in_results": [
+      "results\\bahrain-2025-q-driver1-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\timing_app_data.ff1pkl",
+      "results\\bahrain-2025-q-driver1-002\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\timing_app_data.ff1pkl",
+      "results\\clean-laps-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\timing_app_data.ff1pkl",
+      "results\\lap-context-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\timing_app_data.ff1pkl"
+    ]
+  },
+  {
+    "path": "work\\diagnostic\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\track_status_data.ff1pkl",
+    "bytes": 404,
+    "identical_in_results": [
+      "results\\bahrain-2025-q-driver1-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\track_status_data.ff1pkl",
+      "results\\bahrain-2025-q-driver1-002\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\track_status_data.ff1pkl",
+      "results\\clean-laps-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\track_status_data.ff1pkl",
+      "results\\lap-context-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\track_status_data.ff1pkl"
+    ]
+  },
+  {
+    "path": "work\\diagnostic\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\_extended_timing_data.ff1pkl",
+    "bytes": 87666,
+    "identical_in_results": [
+      "results\\bahrain-2025-q-driver1-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\_extended_timing_data.ff1pkl",
+      "results\\bahrain-2025-q-driver1-002\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\_extended_timing_data.ff1pkl",
+      "results\\clean-laps-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\_extended_timing_data.ff1pkl",
+      "results\\lap-context-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\_extended_timing_data.ff1pkl"
+    ]
+  },
+  {
+    "path": "work\\auth-metadata-check\\fastf1_http_cache.sqlite",
+    "bytes": 1327104,
+    "identical_in_results": []
+  },
+  {
+    "path": "work\\auth-metadata-check\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\driver_info.ff1pkl",
+    "bytes": 5644,
+    "identical_in_results": [
+      "results\\bahrain-2025-q-driver1-002\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\driver_info.ff1pkl",
+      "results\\clean-laps-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\driver_info.ff1pkl",
+      "results\\lap-context-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\driver_info.ff1pkl"
+    ]
+  },
+  {
+    "path": "work\\auth-metadata-check\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\session_info.ff1pkl",
+    "bytes": 532,
+    "identical_in_results": [
+      "results\\bahrain-2025-q-driver1-002\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\session_info.ff1pkl",
+      "results\\clean-laps-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\session_info.ff1pkl",
+      "results\\lap-context-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\session_info.ff1pkl"
+    ]
+  },
+  {
+    "path": "work\\auth-metadata-check\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\session_status_data.ff1pkl",
+    "bytes": 451,
+    "identical_in_results": [
+      "results\\bahrain-2025-q-driver1-002\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\session_status_data.ff1pkl",
+      "results\\clean-laps-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\session_status_data.ff1pkl",
+      "results\\lap-context-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\session_status_data.ff1pkl"
+    ]
+  },
+  {
+    "path": "work\\auth-metadata-check\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\timing_app_data.ff1pkl",
+    "bytes": 37347,
+    "identical_in_results": [
+      "results\\bahrain-2025-q-driver1-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\timing_app_data.ff1pkl",
+      "results\\bahrain-2025-q-driver1-002\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\timing_app_data.ff1pkl",
+      "results\\clean-laps-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\timing_app_data.ff1pkl",
+      "results\\lap-context-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\timing_app_data.ff1pkl"
+    ]
+  },
+  {
+    "path": "work\\auth-metadata-check\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\track_status_data.ff1pkl",
+    "bytes": 404,
+    "identical_in_results": [
+      "results\\bahrain-2025-q-driver1-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\track_status_data.ff1pkl",
+      "results\\bahrain-2025-q-driver1-002\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\track_status_data.ff1pkl",
+      "results\\clean-laps-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\track_status_data.ff1pkl",
+      "results\\lap-context-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\track_status_data.ff1pkl"
+    ]
+  },
+  {
+    "path": "work\\auth-metadata-check\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\_extended_timing_data.ff1pkl",
+    "bytes": 87666,
+    "identical_in_results": [
+      "results\\bahrain-2025-q-driver1-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\_extended_timing_data.ff1pkl",
+      "results\\bahrain-2025-q-driver1-002\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\_extended_timing_data.ff1pkl",
+      "results\\clean-laps-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\_extended_timing_data.ff1pkl",
+      "results\\lap-context-001\\cache\\2025\\2025-04-13_Bahrain_Grand_Prix\\2025-04-12_Qualifying\\_extended_timing_data.ff1pkl"
+    ]
+  }
+]

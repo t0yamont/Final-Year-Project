@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-10",
+  "sources": 6,
+  "reading_scope": "Targeted abstracts, relevant method excerpts and conclusions; not independent reproduction",
+  "source_directory": "C:/Users/fm.mm/Downloads",
+  "cache": "work/literature-review",
+  "fit_rows": 287,
+  "validation_rows": 144,
+  "matlab_detection": "Not found on PATH or C:/Program Files/MATLAB",
+  "changes": "Documentation and source register only; no new training, result mutation or publication",
+  "validation": "CSV parsed; source cache and hashes recorded; git diff whitespace check"
+}

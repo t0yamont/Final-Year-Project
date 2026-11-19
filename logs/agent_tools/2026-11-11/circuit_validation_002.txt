@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\fm.mm\Desktop\COM3001\COM3001\scripts\validate_circuit.py", line 183, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\fm.mm\Desktop\COM3001\COM3001\scripts\validate_circuit.py", line 48, in main
+    if old_contract['sources'][p] != sources[p]:raise ValueError(f'Changed physics dependency: {p}')
+       ~~~~~~~~~~~~~~~~~~~~~~~^^^
+KeyError: 'src/f1energy/circuit.py'

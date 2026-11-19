@@ -1,0 +1,394 @@
+{
+  "hash_checks": 445,
+  "replays_checked": 64,
+  "physically_feasible_replays": 64,
+  "all_cases_passed": true,
+  "max_abs_energy_residual_j": 5.198671715334058e-08,
+  "max_abs_battery_error_j": 1.1663153554053451e-08,
+  "replay_checks": [
+    {
+      "file": "nominal_blocks-55_coarse_zero.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": 6.111804395914078e-10,
+      "global_battery_error_j": -4.656612873077393e-10
+    },
+    {
+      "file": "nominal_blocks-55_coarse_half.json.gz",
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "global_work_energy_residual_j": 2.650631358847022e-08,
+      "global_battery_error_j": -3.7225618143565953e-09
+    },
+    {
+      "file": "nominal_blocks-55_coarse_full.json.gz",
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "global_work_energy_residual_j": -6.5847416408360004e-09,
+      "global_battery_error_j": 2.699380274862051e-09
+    },
+    {
+      "file": "nominal_blocks-55_coarse_spread.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": -2.2271706257015467e-08,
+      "global_battery_error_j": -1.0240682968287729e-08
+    },
+    {
+      "file": "nominal_blocks-55_coarse_exit_boost.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": -2.0023435354232788e-08,
+      "global_battery_error_j": 1.2223608791828156e-09
+    },
+    {
+      "file": "nominal_blocks-55_coarse_ppo_seed0.json.gz",
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "global_work_energy_residual_j": -9.036739356815815e-09,
+      "global_battery_error_j": 6.039044819772243e-10
+    },
+    {
+      "file": "nominal_blocks-55_coarse_ppo_seed1.json.gz",
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "global_work_energy_residual_j": 7.203198038041592e-09,
+      "global_battery_error_j": -1.165972207672894e-09
+    },
+    {
+      "file": "nominal_blocks-55_coarse_ppo_seed2.json.gz",
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "global_work_energy_residual_j": 4.147295840084553e-09,
+      "global_battery_error_j": 3.0045157473068684e-09
+    },
+    {
+      "file": "nominal_blocks-55_fine_zero.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": -5.198671715334058e-08,
+      "global_battery_error_j": 4.511093720793724e-09
+    },
+    {
+      "file": "nominal_blocks-55_fine_half.json.gz",
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "global_work_energy_residual_j": -7.523340173065662e-09,
+      "global_battery_error_j": -3.128661774098873e-09
+    },
+    {
+      "file": "nominal_blocks-55_fine_full.json.gz",
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "global_work_energy_residual_j": -5.109177436679602e-08,
+      "global_battery_error_j": 1.760781742632389e-09
+    },
+    {
+      "file": "nominal_blocks-55_fine_spread.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": -4.678440745919943e-09,
+      "global_battery_error_j": -8.916913429857232e-09
+    },
+    {
+      "file": "nominal_blocks-55_fine_exit_boost.json.gz",
+      "terminal_speed_error_mps": 9.947598300641403e-14,
+      "global_work_energy_residual_j": -1.6974809113889933e-08,
+      "global_battery_error_j": 3.550667315721512e-09
+    },
+    {
+      "file": "nominal_blocks-55_fine_ppo_seed0.json.gz",
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "global_work_energy_residual_j": -3.0144292395561934e-08,
+      "global_battery_error_j": 4.039975465275347e-09
+    },
+    {
+      "file": "nominal_blocks-55_fine_ppo_seed1.json.gz",
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "global_work_energy_residual_j": -2.512388164177537e-08,
+      "global_battery_error_j": -8.913048077374697e-10
+    },
+    {
+      "file": "nominal_blocks-55_fine_ppo_seed2.json.gz",
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "global_work_energy_residual_j": -9.415089152753353e-09,
+      "global_battery_error_j": 1.5074874681886286e-10
+    },
+    {
+      "file": "nominal_blocks-110_coarse_zero.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": 3.0195224098861217e-09,
+      "global_battery_error_j": -4.511093720793724e-10
+    },
+    {
+      "file": "nominal_blocks-110_coarse_half.json.gz",
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "global_work_energy_residual_j": 2.9387592803686857e-08,
+      "global_battery_error_j": -3.722325558896955e-09
+    },
+    {
+      "file": "nominal_blocks-110_coarse_full.json.gz",
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "global_work_energy_residual_j": -3.776222001761198e-09,
+      "global_battery_error_j": 2.845297331077745e-09
+    },
+    {
+      "file": "nominal_blocks-110_coarse_spread.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": 3.5652192309498787e-09,
+      "global_battery_error_j": -6.798075879999033e-09
+    },
+    {
+      "file": "nominal_blocks-110_coarse_exit_boost.json.gz",
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "global_work_energy_residual_j": 1.0208168532699347e-08,
+      "global_battery_error_j": -1.0913936421275139e-10
+    },
+    {
+      "file": "nominal_blocks-110_coarse_ppo_seed0.json.gz",
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "global_work_energy_residual_j": -9.851646609604359e-09,
+      "global_battery_error_j": 4.677076503867283e-10
+    },
+    {
+      "file": "nominal_blocks-110_coarse_ppo_seed1.json.gz",
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "global_work_energy_residual_j": 1.1990778148174286e-08,
+      "global_battery_error_j": 1.7228103388333693e-09
+    },
+    {
+      "file": "nominal_blocks-110_coarse_ppo_seed2.json.gz",
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "global_work_energy_residual_j": 1.3918906915932894e-08,
+      "global_battery_error_j": -8.79299477674067e-09
+    },
+    {
+      "file": "nominal_blocks-110_fine_zero.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": -4.4972694013267756e-08,
+      "global_battery_error_j": 4.474713932722807e-09
+    },
+    {
+      "file": "nominal_blocks-110_fine_half.json.gz",
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "global_work_energy_residual_j": -2.1827872842550278e-11,
+      "global_battery_error_j": -3.1403595279755336e-09
+    },
+    {
+      "file": "nominal_blocks-110_fine_full.json.gz",
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "global_work_energy_residual_j": -4.20986907556653e-08,
+      "global_battery_error_j": 1.782240133252344e-09
+    },
+    {
+      "file": "nominal_blocks-110_fine_spread.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": -1.3242242857813835e-09,
+      "global_battery_error_j": -1.1663153554053451e-08
+    },
+    {
+      "file": "nominal_blocks-110_fine_exit_boost.json.gz",
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "global_work_energy_residual_j": -1.1365045793354511e-08,
+      "global_battery_error_j": 3.5652192309498787e-09
+    },
+    {
+      "file": "nominal_blocks-110_fine_ppo_seed0.json.gz",
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "global_work_energy_residual_j": 5.6461431086063385e-09,
+      "global_battery_error_j": -7.403286872431636e-09
+    },
+    {
+      "file": "nominal_blocks-110_fine_ppo_seed1.json.gz",
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "global_work_energy_residual_j": 7.53789208829403e-09,
+      "global_battery_error_j": -5.2179984777467325e-09
+    },
+    {
+      "file": "nominal_blocks-110_fine_ppo_seed2.json.gz",
+      "terminal_speed_error_mps": 4.263256414560601e-14,
+      "global_work_energy_residual_j": 6.213667802512646e-09,
+      "global_battery_error_j": 5.757669896411244e-10
+    },
+    {
+      "file": "drag_plus10_blocks-55_coarse_zero.json.gz",
+      "terminal_speed_error_mps": -2.842170943040401e-14,
+      "global_work_energy_residual_j": -5.631591193377972e-09,
+      "global_battery_error_j": -2.3283064365386963e-10
+    },
+    {
+      "file": "drag_plus10_blocks-55_coarse_half.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": -5.056790541857481e-09,
+      "global_battery_error_j": 3.0759110813960433e-09
+    },
+    {
+      "file": "drag_plus10_blocks-55_coarse_full.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": 1.4792021829634905e-08,
+      "global_battery_error_j": -3.5478251447784714e-09
+    },
+    {
+      "file": "drag_plus10_blocks-55_coarse_spread.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": 1.6589183360338211e-09,
+      "global_battery_error_j": -2.1866526367375627e-09
+    },
+    {
+      "file": "drag_plus10_blocks-55_coarse_exit_boost.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": -1.9819708541035652e-08,
+      "global_battery_error_j": 1.4842953532934189e-09
+    },
+    {
+      "file": "drag_plus10_blocks-55_coarse_ppo_seed0.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": -2.8972863219678402e-08,
+      "global_battery_error_j": -5.391484592109919e-09
+    },
+    {
+      "file": "drag_plus10_blocks-55_coarse_ppo_seed1.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": -3.811874194070697e-08,
+      "global_battery_error_j": -3.4433469409123063e-09
+    },
+    {
+      "file": "drag_plus10_blocks-55_coarse_ppo_seed2.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": -5.1004462875425816e-09,
+      "global_battery_error_j": -2.0495463104452938e-09
+    },
+    {
+      "file": "drag_plus10_blocks-55_fine_zero.json.gz",
+      "terminal_speed_error_mps": -4.263256414560601e-14,
+      "global_work_energy_residual_j": -4.31537046097219e-08,
+      "global_battery_error_j": -3.026798367500305e-09
+    },
+    {
+      "file": "drag_plus10_blocks-55_fine_half.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": 5.52245182916522e-09,
+      "global_battery_error_j": 6.328264134936035e-09
+    },
+    {
+      "file": "drag_plus10_blocks-55_fine_full.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": -6.963091436773539e-09,
+      "global_battery_error_j": 2.9103830456733704e-09
+    },
+    {
+      "file": "drag_plus10_blocks-55_fine_spread.json.gz",
+      "terminal_speed_error_mps": 5.684341886080802e-14,
+      "global_work_energy_residual_j": 1.4661054592579603e-08,
+      "global_battery_error_j": -6.2007075030123815e-09
+    },
+    {
+      "file": "drag_plus10_blocks-55_fine_exit_boost.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": -3.205059329047799e-08,
+      "global_battery_error_j": 1.6007106751203537e-09
+    },
+    {
+      "file": "drag_plus10_blocks-55_fine_ppo_seed0.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": -9.029463399201632e-09,
+      "global_battery_error_j": 9.073119144886732e-09
+    },
+    {
+      "file": "drag_plus10_blocks-55_fine_ppo_seed1.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": -1.3511453289538622e-08,
+      "global_battery_error_j": 1.8462742445990443e-09
+    },
+    {
+      "file": "drag_plus10_blocks-55_fine_ppo_seed2.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": -8.425558917224407e-09,
+      "global_battery_error_j": -8.352913027920295e-09
+    },
+    {
+      "file": "drag_plus10_blocks-110_coarse_zero.json.gz",
+      "terminal_speed_error_mps": -2.842170943040401e-14,
+      "global_work_energy_residual_j": -2.331944415345788e-09,
+      "global_battery_error_j": -2.473825588822365e-10
+    },
+    {
+      "file": "drag_plus10_blocks-110_coarse_half.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": -2.950400812551379e-09,
+      "global_battery_error_j": 3.1767903863055835e-09
+    },
+    {
+      "file": "drag_plus10_blocks-110_coarse_full.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": 1.5028490452095866e-08,
+      "global_battery_error_j": -3.647187440947164e-09
+    },
+    {
+      "file": "drag_plus10_blocks-110_coarse_spread.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": -9.400537237524986e-09,
+      "global_battery_error_j": 5.204976005757089e-09
+    },
+    {
+      "file": "drag_plus10_blocks-110_coarse_exit_boost.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": -1.1797965271398425e-08,
+      "global_battery_error_j": -3.3760443329811096e-09
+    },
+    {
+      "file": "drag_plus10_blocks-110_coarse_ppo_seed0.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": -2.5927874958142638e-08,
+      "global_battery_error_j": -7.667040335945785e-10
+    },
+    {
+      "file": "drag_plus10_blocks-110_coarse_ppo_seed1.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": -4.305547918193042e-08,
+      "global_battery_error_j": -2.9781404009554535e-09
+    },
+    {
+      "file": "drag_plus10_blocks-110_coarse_ppo_seed2.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": -1.3311364455148578e-08,
+      "global_battery_error_j": -1.2894929568574298e-09
+    },
+    {
+      "file": "drag_plus10_blocks-110_fine_zero.json.gz",
+      "terminal_speed_error_mps": -4.263256414560601e-14,
+      "global_work_energy_residual_j": -3.5306584322825074e-08,
+      "global_battery_error_j": -3.0995579436421394e-09
+    },
+    {
+      "file": "drag_plus10_blocks-110_fine_half.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": 1.3194949133321643e-08,
+      "global_battery_error_j": 6.315271861012661e-09
+    },
+    {
+      "file": "drag_plus10_blocks-110_fine_full.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": 1.1750671546906233e-09,
+      "global_battery_error_j": 2.9847342375433072e-09
+    },
+    {
+      "file": "drag_plus10_blocks-110_fine_spread.json.gz",
+      "terminal_speed_error_mps": 0.0,
+      "global_work_energy_residual_j": 3.648892743512988e-08,
+      "global_battery_error_j": 9.638346454288182e-09
+    },
+    {
+      "file": "drag_plus10_blocks-110_fine_exit_boost.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": 5.929905455559492e-09,
+      "global_battery_error_j": -1.367880031466484e-09
+    },
+    {
+      "file": "drag_plus10_blocks-110_fine_ppo_seed0.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": 2.8514477889984846e-08,
+      "global_battery_error_j": 7.290363868150962e-09
+    },
+    {
+      "file": "drag_plus10_blocks-110_fine_ppo_seed1.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": 2.7048372430726886e-08,
+      "global_battery_error_j": 1.0127223504241556e-09
+    },
+    {
+      "file": "drag_plus10_blocks-110_fine_ppo_seed2.json.gz",
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "global_work_energy_residual_j": -1.8786522559821606e-08,
+      "global_battery_error_j": 4.952767085342202e-10
+    }
+  ]
+}

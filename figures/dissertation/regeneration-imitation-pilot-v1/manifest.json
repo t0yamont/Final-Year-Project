@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "results\\regeneration-imitation-pilot-001\\manifest.json": "98c48c09939a19e23505cec2cbe940eb5d01caa6d53efdbca9cb32f81a899887"
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src\\f1energy\\event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "scripts\\train_regeneration_imitation.py": "0d7925925cb5586c7f28f9cd62c2c79208f768502cba88ff0707aa113d91c8ef",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "scripts\\report_regeneration_robustness.py": "e681f7412984e5aa472790532eef350a62cb6614f4e085ae56fb2ce251801178",
+    "scripts\\run_regeneration_robustness.py": "2a20b58a520962dca4a1952bc6e4353c1507b6f3dde976a7b5bbd584b8e2905e",
+    "scripts\\optimize_regeneration_dp.py": "b7cf0171ff58633b6fdc569dd6784adbe49e0c7239b755ddeb59d565c654bcfa",
+    "scripts\\validate_regeneration.py": "3a2a581cbe21bbe4dbf7ef375ffe47e8b17f046c7c47a3bbcad520a8f8e4277f",
+    "src\\f1energy\\training_device.py": "5e9eff32770f5413707808049ae46e72040cb99bdd3dd76111d68acd7925e814",
+    "src\\f1energy\\circuit_training_gate.py": "ee4291988beb2ec37474060bfc7cdcd01b351a3263922f610e2d8ad6a2a0da3f"
+  },
+  "outputs": {
+    "figures\\dissertation\\regeneration-imitation-pilot-v1\\01_imitation_width.pdf": "f03a2afc4f5299052217f1eb5a74b6af0cd62d06ccd9433be1e2445f2efe9346",
+    "figures\\dissertation\\regeneration-imitation-pilot-v1\\01_imitation_width.png": "c22b136a27a55c2c26e84e3c6ee45b29d1aff2dadee9ea71e938796745ec2a4c"
+  }
+}

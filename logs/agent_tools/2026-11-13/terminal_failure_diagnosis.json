@@ -1,0 +1,57 @@
+{
+  "source": "results/circuit-sensitivity-001",
+  "tail_block_diagnostics": [
+    {
+      "policy": "zero",
+      "tail_start_speed_mps": 67.18626361412511,
+      "tail_start_energy_j": 2000000.0,
+      "tail_distance_m": 98.28634738606979,
+      "tail_seconds": 1.4341430050803865,
+      "proposed_last_action": 0.0,
+      "terminal_speed_mps": 69.69574325947816,
+      "terminal_energy_j": 2000000.0
+    },
+    {
+      "policy": "spread",
+      "tail_start_speed_mps": 69.75787470969604,
+      "tail_start_energy_j": 216438.70682415666,
+      "tail_distance_m": 98.28634738606979,
+      "tail_seconds": 1.3796657764387987,
+      "proposed_last_action": 0.619810163974762,
+      "terminal_speed_mps": 70.00000000000003,
+      "terminal_energy_j": 113433.97714498472
+    },
+    {
+      "policy": "ppo_seed0",
+      "tail_start_speed_mps": 67.18626361412511,
+      "tail_start_energy_j": 100000.0,
+      "tail_distance_m": 98.28634738606979,
+      "tail_seconds": 1.4341430050803865,
+      "proposed_last_action": 0.0,
+      "terminal_speed_mps": 69.69574325947823,
+      "terminal_energy_j": 100000.0
+    },
+    {
+      "policy": "ppo_seed1",
+      "tail_start_speed_mps": 67.18626361412511,
+      "tail_start_energy_j": 100000.0,
+      "tail_distance_m": 98.28634738606979,
+      "tail_seconds": 1.4341430050803865,
+      "proposed_last_action": 0.0,
+      "terminal_speed_mps": 69.69574325947823,
+      "terminal_energy_j": 100000.0
+    },
+    {
+      "policy": "ppo_seed2",
+      "tail_start_speed_mps": 67.18626361412511,
+      "tail_start_energy_j": 100000.0,
+      "tail_distance_m": 98.28634738606979,
+      "tail_seconds": 1.4341430050803865,
+      "proposed_last_action": 0.5048727989196777,
+      "terminal_speed_mps": 69.69574325947823,
+      "terminal_energy_j": 100000.0
+    }
+  ],
+  "terminal_kinetic_deficit_battery_equivalent_j": 18890.387337290627,
+  "interpretation": "Kinetic deficit equivalent is a lower bound, not the required reserve; timing and drag matter."
+}

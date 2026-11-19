@@ -1,0 +1,52 @@
+{
+  "protocol": {
+    "study_id": "session-mix-validation-001",
+    "frozen_date": "2026-11-18",
+    "scope": "RQ3 validation-set session-mix ablation; no protected final-test inputs",
+    "motion_source": "results/openf1-motion-001",
+    "roles": "configs/data_roles.json",
+    "driver_number": "1",
+    "target": "Signed finite-difference acceleration (m/s2), conditioned on observed midpoint speed",
+    "features": "Reuse effective power equation m*v*a=P-k*v^3. Fit each development event and exact DRS separately; session mix is the deliberate within-event intervention. No cross-car or cross-event coefficient pooling.",
+    "preprocessing": "Unchanged prepared conditional-motion candidates, throttle>=95%, no brake, unchanged known gear/DRS, positive speed, pair gap<=0.5 s. Do not interpolate or count adjacent windows as independent.",
+    "mass_kg": 800,
+    "fitting": "Existing f1energy.identification.fit_effective bounded least squares: 0.1-1.2 MW, drag 0-3 kg/m. Require qualifying source at least 2 unique laps and 30 windows per event/DRS. No parameter tuning.",
+    "arms": [
+      "Q",
+      "QP",
+      "QPR",
+      "QP_matched",
+      "QPR_matched"
+    ],
+    "arm_definition": "Q=qualifying; P=all Practice sessions; R=Race. Full-volume arms use all eligible development rows. Each matched arm uses exactly its event/DRS Q row count, allocated as equally as available across Q/P or Q/P/R; shuffle rows without replacement using seeds 0..4. Q arm is identical across seeds. Window-volume matching does not match unique lap counts or speed distributions.",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "transfer": "Median conditional acceleration predictions across eligible development event fits with identical exact DRS; no session matching, as the question is session-pool transfer. All arms share same development event/DRS support and same validation rows.",
+    "validation": "Hungary and UK only; no fitting on validation. Each event/session/driver/lap/DRS group RMSE then equal group mean per event; event mean has equal event weights. Report per-session metrics and speed extrapolation. Constant baseline is median eligible Q training means.",
+    "sensitivities": [
+      "primary",
+      "dt_le_0.3",
+      "speed_ge_30"
+    ],
+    "sensitivity_definition": "Reapply declared filter to development and validation before fitting, without selection on errors. Report all outcomes, exclusions, parameter boundaries and conditions.",
+    "acceptance": "Descriptive support for QPR benefit only if QPR and every QPR_matched seed improve event macro RMSE relative to Q in both validation events in all three sensitivities. Otherwise no consistent session-mix improvement established. This is not significance or causal identification.",
+    "protected_test_decision": "Do not open Belgium/Abu Dhabi. Validation-only roadmap stage; source qualification coverage is sparse and this new intervention requires sensitivity assessment. Final inverse heldout fitting remains a separate future protocol.",
+    "limitations": "Previously inspected validation, conditional speed supplied, two events and one driver, sparse qualifying support and unknown effective fuel/setup/grade/electrical split. Effective coefficients are not battery or true vehicle parameters. No free-running lap or real electrical deployment accuracy."
+  },
+  "inputs": {
+    "configs\\session_mix_protocol.json": "de791867834170c5dae9026a7e4ddc1ebe218f8ec908ebbeccc58478afffc1b6",
+    "configs\\data_roles.json": "66b5e96b1ccca63d1459d775fcbe4a23b5c82c8c784e10aa6354725bea5cf526",
+    "results\\openf1-motion-001\\manifest.json": "f61a9a0b9f54933e84c40f0923a205d4e19bfd4d00aa0fc710e638478d711319",
+    "results\\openf1-motion-001\\development.csv": "138d0f9f0629c54bbb932b44b45c7e16a36d47c8ee71e105234cbe64ce834d80",
+    "results\\openf1-motion-001\\validation.csv": "3e6380e691a504e287a78b82c3de284d244e5e36aa732b7a5a81eea60d6c7006"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\study_session_mix.py": "b25b4d65eda57b0cdd42bb662d14336f0d2f95de6c9abf81b80f247099c97593",
+    "src/f1energy/identification.py": "52bfc0a97d7cf9f4dc17ef343d06d650ccd5167d7fdba40f3a1130a816ec271a"
+  }
+}

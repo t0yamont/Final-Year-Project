@@ -1,0 +1,18 @@
+{
+  "inputs": {
+    "results\\regeneration-dp-factorial-001\\manifest.json": "3b9f9c65e80caf72e7d8965c925f0f708ae4e1f0aefb6a8db88d99dbe7dc61f3"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\report_regeneration_dp_factorial.py": "a1676146e38ef930a9bbaebcfcefb1eb6b58a66e7be89b79095e86823f359557",
+    "scripts\\verify_regeneration_dp.py": "bb22d5290450f76c4fbfbaa1416737f561423cebbf84f31b9e0c4f7bc4af2707",
+    "scripts\\validate_regeneration.py": "3a2a581cbe21bbe4dbf7ef375ffe47e8b17f046c7c47a3bbcad520a8f8e4277f",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26"
+  },
+  "outputs": {
+    "figures\\dissertation\\regeneration-dp-factorial-v1\\01_search_interactions.pdf": "ed1a671dd3406b391e85e5471798bd878b54b30e8d43fed54b28ef89e5940f72",
+    "figures\\dissertation\\regeneration-dp-factorial-v1\\01_search_interactions.png": "ebdbe11317941e9d15a19d0ea55316a0109d1457f8623fab09a5a6237b109701",
+    "figures\\dissertation\\regeneration-dp-factorial-v1\\02_conditional_effects.pdf": "ab026e62ce0e78ca754691148521dcca22fcc3c7cb1f4dce6d86a49176e14a1f",
+    "figures\\dissertation\\regeneration-dp-factorial-v1\\02_conditional_effects.png": "8a6ad404ccab318ad6efc41b7e330c2f074be9655699a4e903ea7864fe074d3e",
+    "figures\\dissertation\\regeneration-dp-factorial-v1\\verification.json": "93f16bdc18ae775827ee22701503a09a5bdb9227774ff8bf77a2c4f8b054233f"
+  }
+}

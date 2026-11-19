@@ -1,0 +1,1542 @@
+[
+  {
+    "scenario": "nominal",
+    "block": 0,
+    "teacher_action": 1,
+    "raw_output": 1.1313694715499878,
+    "requested_action": 1.0
+  },
+  {
+    "scenario": "nominal",
+    "block": 1,
+    "teacher_action": 1,
+    "raw_output": 1.0785614252090454,
+    "requested_action": 1.0
+  },
+  {
+    "scenario": "nominal",
+    "block": 2,
+    "teacher_action": 1,
+    "raw_output": 1.0196349620819092,
+    "requested_action": 1.0
+  },
+  {
+    "scenario": "nominal",
+    "block": 3,
+    "teacher_action": 1,
+    "raw_output": 0.9271134734153748,
+    "requested_action": 0.9271134734153748
+  },
+  {
+    "scenario": "nominal",
+    "block": 4,
+    "teacher_action": 0.25,
+    "raw_output": 0.38265424966812134,
+    "requested_action": 0.38265424966812134
+  },
+  {
+    "scenario": "nominal",
+    "block": 5,
+    "teacher_action": 0.25,
+    "raw_output": 0.10952357947826385,
+    "requested_action": 0.10952357947826385
+  },
+  {
+    "scenario": "nominal",
+    "block": 6,
+    "teacher_action": 0,
+    "raw_output": 0.29100847244262695,
+    "requested_action": 0.29100847244262695
+  },
+  {
+    "scenario": "nominal",
+    "block": 7,
+    "teacher_action": 1,
+    "raw_output": 0.9719161987304688,
+    "requested_action": 0.9719161987304688
+  },
+  {
+    "scenario": "nominal",
+    "block": 8,
+    "teacher_action": 1,
+    "raw_output": 0.8559214472770691,
+    "requested_action": 0.8559214472770691
+  },
+  {
+    "scenario": "nominal",
+    "block": 9,
+    "teacher_action": 1,
+    "raw_output": 0.9388678073883057,
+    "requested_action": 0.9388678073883057
+  },
+  {
+    "scenario": "nominal",
+    "block": 10,
+    "teacher_action": 1,
+    "raw_output": 0.9098095893859863,
+    "requested_action": 0.9098095893859863
+  },
+  {
+    "scenario": "nominal",
+    "block": 11,
+    "teacher_action": 1,
+    "raw_output": 0.783797025680542,
+    "requested_action": 0.783797025680542
+  },
+  {
+    "scenario": "nominal",
+    "block": 12,
+    "teacher_action": 0.75,
+    "raw_output": 0.40099459886550903,
+    "requested_action": 0.40099459886550903
+  },
+  {
+    "scenario": "nominal",
+    "block": 13,
+    "teacher_action": 0.5,
+    "raw_output": 0.24512134492397308,
+    "requested_action": 0.24512134492397308
+  },
+  {
+    "scenario": "nominal",
+    "block": 14,
+    "teacher_action": 0,
+    "raw_output": 0.3652276396751404,
+    "requested_action": 0.3652276396751404
+  },
+  {
+    "scenario": "nominal",
+    "block": 15,
+    "teacher_action": 0,
+    "raw_output": 0.17314046621322632,
+    "requested_action": 0.17314046621322632
+  },
+  {
+    "scenario": "nominal",
+    "block": 16,
+    "teacher_action": 1,
+    "raw_output": 0.5812374949455261,
+    "requested_action": 0.5812374949455261
+  },
+  {
+    "scenario": "nominal",
+    "block": 17,
+    "teacher_action": 0,
+    "raw_output": 0.4585745334625244,
+    "requested_action": 0.4585745334625244
+  },
+  {
+    "scenario": "nominal",
+    "block": 18,
+    "teacher_action": 1,
+    "raw_output": 0.5728638172149658,
+    "requested_action": 0.5728638172149658
+  },
+  {
+    "scenario": "nominal",
+    "block": 19,
+    "teacher_action": 0,
+    "raw_output": 0.5062904357910156,
+    "requested_action": 0.5062904357910156
+  },
+  {
+    "scenario": "nominal",
+    "block": 20,
+    "teacher_action": 1,
+    "raw_output": 0.7715890407562256,
+    "requested_action": 0.7715890407562256
+  },
+  {
+    "scenario": "nominal",
+    "block": 21,
+    "teacher_action": 0.75,
+    "raw_output": 0.4165292978286743,
+    "requested_action": 0.4165292978286743
+  },
+  {
+    "scenario": "nominal",
+    "block": 22,
+    "teacher_action": 1,
+    "raw_output": 0.46847981214523315,
+    "requested_action": 0.46847981214523315
+  },
+  {
+    "scenario": "nominal",
+    "block": 23,
+    "teacher_action": 1,
+    "raw_output": 0.8784055113792419,
+    "requested_action": 0.8784055113792419
+  },
+  {
+    "scenario": "nominal",
+    "block": 24,
+    "teacher_action": 1,
+    "raw_output": 0.5769681334495544,
+    "requested_action": 0.5769681334495544
+  },
+  {
+    "scenario": "nominal",
+    "block": 25,
+    "teacher_action": 0,
+    "raw_output": 0.055547162890434265,
+    "requested_action": 0.055547162890434265
+  },
+  {
+    "scenario": "nominal",
+    "block": 26,
+    "teacher_action": 0.5,
+    "raw_output": 0.17458151280879974,
+    "requested_action": 0.17458151280879974
+  },
+  {
+    "scenario": "nominal",
+    "block": 27,
+    "teacher_action": 0,
+    "raw_output": 0.09762026369571686,
+    "requested_action": 0.09762026369571686
+  },
+  {
+    "scenario": "nominal",
+    "block": 28,
+    "teacher_action": 1,
+    "raw_output": 0.6647298336029053,
+    "requested_action": 0.6647298336029053
+  },
+  {
+    "scenario": "nominal",
+    "block": 29,
+    "teacher_action": 0.75,
+    "raw_output": 0.4784178137779236,
+    "requested_action": 0.4784178137779236
+  },
+  {
+    "scenario": "nominal",
+    "block": 30,
+    "teacher_action": 0,
+    "raw_output": 0.22875462472438812,
+    "requested_action": 0.22875462472438812
+  },
+  {
+    "scenario": "nominal",
+    "block": 31,
+    "teacher_action": 0.25,
+    "raw_output": -0.03265462815761566,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "nominal",
+    "block": 32,
+    "teacher_action": 0,
+    "raw_output": -0.21687443554401398,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "nominal",
+    "block": 33,
+    "teacher_action": 0,
+    "raw_output": -0.016854330897331238,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "nominal",
+    "block": 34,
+    "teacher_action": 0,
+    "raw_output": -0.004648283123970032,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "nominal",
+    "block": 35,
+    "teacher_action": 0.25,
+    "raw_output": 0.33042728900909424,
+    "requested_action": 0.33042728900909424
+  },
+  {
+    "scenario": "nominal",
+    "block": 36,
+    "teacher_action": 0,
+    "raw_output": -0.08561702072620392,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "nominal",
+    "block": 37,
+    "teacher_action": 0,
+    "raw_output": -0.11854143440723419,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "nominal",
+    "block": 38,
+    "teacher_action": 0,
+    "raw_output": 0.01143103837966919,
+    "requested_action": 0.01143103837966919
+  },
+  {
+    "scenario": "nominal",
+    "block": 39,
+    "teacher_action": 0,
+    "raw_output": 0.06524399667978287,
+    "requested_action": 0.06524399667978287
+  },
+  {
+    "scenario": "nominal",
+    "block": 40,
+    "teacher_action": 0,
+    "raw_output": -0.08932113647460938,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "nominal",
+    "block": 41,
+    "teacher_action": 0.25,
+    "raw_output": 0.06239819526672363,
+    "requested_action": 0.06239819526672363
+  },
+  {
+    "scenario": "nominal",
+    "block": 42,
+    "teacher_action": 0.5,
+    "raw_output": 0.32292771339416504,
+    "requested_action": 0.32292771339416504
+  },
+  {
+    "scenario": "nominal",
+    "block": 43,
+    "teacher_action": 0.25,
+    "raw_output": 0.6058734059333801,
+    "requested_action": 0.6058734059333801
+  },
+  {
+    "scenario": "nominal",
+    "block": 44,
+    "teacher_action": 0,
+    "raw_output": 0.41672074794769287,
+    "requested_action": 0.41672074794769287
+  },
+  {
+    "scenario": "nominal",
+    "block": 45,
+    "teacher_action": 0,
+    "raw_output": 0.32853221893310547,
+    "requested_action": 0.32853221893310547
+  },
+  {
+    "scenario": "nominal",
+    "block": 46,
+    "teacher_action": 0,
+    "raw_output": 0.11166932433843613,
+    "requested_action": 0.11166932433843613
+  },
+  {
+    "scenario": "nominal",
+    "block": 47,
+    "teacher_action": 0,
+    "raw_output": -0.009580269455909729,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "nominal",
+    "block": 48,
+    "teacher_action": 0.25,
+    "raw_output": 0.14805611968040466,
+    "requested_action": 0.14805611968040466
+  },
+  {
+    "scenario": "nominal",
+    "block": 49,
+    "teacher_action": 0,
+    "raw_output": 0.17086628079414368,
+    "requested_action": 0.17086628079414368
+  },
+  {
+    "scenario": "nominal",
+    "block": 50,
+    "teacher_action": 0,
+    "raw_output": 0.3205638527870178,
+    "requested_action": 0.3205638527870178
+  },
+  {
+    "scenario": "nominal",
+    "block": 51,
+    "teacher_action": 1,
+    "raw_output": 0.28335192799568176,
+    "requested_action": 0.28335192799568176
+  },
+  {
+    "scenario": "nominal",
+    "block": 52,
+    "teacher_action": 1,
+    "raw_output": 0.5001271963119507,
+    "requested_action": 0.5001271963119507
+  },
+  {
+    "scenario": "nominal",
+    "block": 53,
+    "teacher_action": 0,
+    "raw_output": 0.08270134776830673,
+    "requested_action": 0.08270134776830673
+  },
+  {
+    "scenario": "nominal",
+    "block": 54,
+    "teacher_action": 0,
+    "raw_output": 0.08909839391708374,
+    "requested_action": 0.08909839391708374
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 0,
+    "teacher_action": 1,
+    "raw_output": 0.8276232481002808,
+    "requested_action": 0.8276232481002808
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 1,
+    "teacher_action": 1,
+    "raw_output": 0.6915384531021118,
+    "requested_action": 0.6915384531021118
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 2,
+    "teacher_action": 1,
+    "raw_output": 0.5424560308456421,
+    "requested_action": 0.5424560308456421
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 3,
+    "teacher_action": 0,
+    "raw_output": 0.3049759566783905,
+    "requested_action": 0.3049759566783905
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 4,
+    "teacher_action": 0,
+    "raw_output": -0.15489007532596588,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 5,
+    "teacher_action": 0.25,
+    "raw_output": -0.16342680156230927,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 6,
+    "teacher_action": 0,
+    "raw_output": 0.011585116386413574,
+    "requested_action": 0.011585116386413574
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 7,
+    "teacher_action": 0,
+    "raw_output": 0.35602378845214844,
+    "requested_action": 0.35602378845214844
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 8,
+    "teacher_action": 1,
+    "raw_output": 0.3956714868545532,
+    "requested_action": 0.3956714868545532
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 9,
+    "teacher_action": 0.5,
+    "raw_output": 0.36308300495147705,
+    "requested_action": 0.36308300495147705
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 10,
+    "teacher_action": 0,
+    "raw_output": 0.6310958862304688,
+    "requested_action": 0.6310958862304688
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 11,
+    "teacher_action": 0.25,
+    "raw_output": 0.5432567000389099,
+    "requested_action": 0.5432567000389099
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 12,
+    "teacher_action": 0,
+    "raw_output": 0.09621593356132507,
+    "requested_action": 0.09621593356132507
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 13,
+    "teacher_action": 0,
+    "raw_output": -0.14283089339733124,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 14,
+    "teacher_action": 0,
+    "raw_output": 0.038294270634651184,
+    "requested_action": 0.038294270634651184
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 15,
+    "teacher_action": 0,
+    "raw_output": 0.10369512438774109,
+    "requested_action": 0.10369512438774109
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 16,
+    "teacher_action": 0.75,
+    "raw_output": 0.6229166984558105,
+    "requested_action": 0.6229166984558105
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 17,
+    "teacher_action": 0.25,
+    "raw_output": 0.268823504447937,
+    "requested_action": 0.268823504447937
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 18,
+    "teacher_action": 0.25,
+    "raw_output": 0.5112417936325073,
+    "requested_action": 0.5112417936325073
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 19,
+    "teacher_action": 0.25,
+    "raw_output": 0.3324916362762451,
+    "requested_action": 0.3324916362762451
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 20,
+    "teacher_action": 0.5,
+    "raw_output": 0.7323105931282043,
+    "requested_action": 0.7323105931282043
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 21,
+    "teacher_action": 0.75,
+    "raw_output": 0.34711092710494995,
+    "requested_action": 0.34711092710494995
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 22,
+    "teacher_action": 1,
+    "raw_output": 0.5245867371559143,
+    "requested_action": 0.5245867371559143
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 23,
+    "teacher_action": 0.75,
+    "raw_output": 0.5849301815032959,
+    "requested_action": 0.5849301815032959
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 24,
+    "teacher_action": 0.5,
+    "raw_output": 0.7044392824172974,
+    "requested_action": 0.7044392824172974
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 25,
+    "teacher_action": 0,
+    "raw_output": 0.16863425076007843,
+    "requested_action": 0.16863425076007843
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 26,
+    "teacher_action": 0,
+    "raw_output": 0.26920127868652344,
+    "requested_action": 0.26920127868652344
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 27,
+    "teacher_action": 0,
+    "raw_output": 0.295206218957901,
+    "requested_action": 0.295206218957901
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 28,
+    "teacher_action": 1,
+    "raw_output": 0.8989859819412231,
+    "requested_action": 0.8989859819412231
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 29,
+    "teacher_action": 0.5,
+    "raw_output": 0.60515296459198,
+    "requested_action": 0.60515296459198
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 30,
+    "teacher_action": 0.5,
+    "raw_output": 0.4345310926437378,
+    "requested_action": 0.4345310926437378
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 31,
+    "teacher_action": 0,
+    "raw_output": 0.08522341400384903,
+    "requested_action": 0.08522341400384903
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 32,
+    "teacher_action": 0,
+    "raw_output": -0.14480312168598175,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 33,
+    "teacher_action": 0,
+    "raw_output": 0.03785814344882965,
+    "requested_action": 0.03785814344882965
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 34,
+    "teacher_action": 0,
+    "raw_output": 0.05688001215457916,
+    "requested_action": 0.05688001215457916
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 35,
+    "teacher_action": 0.25,
+    "raw_output": 0.5484291315078735,
+    "requested_action": 0.5484291315078735
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 36,
+    "teacher_action": 0,
+    "raw_output": 0.05426366627216339,
+    "requested_action": 0.05426366627216339
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 37,
+    "teacher_action": 0,
+    "raw_output": -0.006979793310165405,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 38,
+    "teacher_action": 0,
+    "raw_output": 0.14671820402145386,
+    "requested_action": 0.14671820402145386
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 39,
+    "teacher_action": 0,
+    "raw_output": 0.22966784238815308,
+    "requested_action": 0.22966784238815308
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 40,
+    "teacher_action": 0,
+    "raw_output": -0.013348400592803955,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 41,
+    "teacher_action": 0.25,
+    "raw_output": 0.15507212281227112,
+    "requested_action": 0.15507212281227112
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 42,
+    "teacher_action": 0.25,
+    "raw_output": 0.5141401886940002,
+    "requested_action": 0.5141401886940002
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 43,
+    "teacher_action": 1,
+    "raw_output": 0.7233675122261047,
+    "requested_action": 0.7233675122261047
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 44,
+    "teacher_action": 0.25,
+    "raw_output": 0.43315404653549194,
+    "requested_action": 0.43315404653549194
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 45,
+    "teacher_action": 0.25,
+    "raw_output": 0.31724655628204346,
+    "requested_action": 0.31724655628204346
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 46,
+    "teacher_action": 0,
+    "raw_output": 0.07128772884607315,
+    "requested_action": 0.07128772884607315
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 47,
+    "teacher_action": 0,
+    "raw_output": -0.03673537075519562,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 48,
+    "teacher_action": 0.5,
+    "raw_output": 0.13716278970241547,
+    "requested_action": 0.13716278970241547
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 49,
+    "teacher_action": 0,
+    "raw_output": 0.1625880002975464,
+    "requested_action": 0.1625880002975464
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 50,
+    "teacher_action": 0,
+    "raw_output": 0.3106834888458252,
+    "requested_action": 0.3106834888458252
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 51,
+    "teacher_action": 1,
+    "raw_output": 0.26781725883483887,
+    "requested_action": 0.26781725883483887
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 52,
+    "teacher_action": 1,
+    "raw_output": 0.48592036962509155,
+    "requested_action": 0.48592036962509155
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 53,
+    "teacher_action": 0,
+    "raw_output": 0.05994954705238342,
+    "requested_action": 0.05994954705238342
+  },
+  {
+    "scenario": "low_initial_energy",
+    "block": 54,
+    "teacher_action": 0,
+    "raw_output": 0.07042080909013748,
+    "requested_action": 0.07042080909013748
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 0,
+    "teacher_action": 1,
+    "raw_output": 1.1313694715499878,
+    "requested_action": 1.0
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 1,
+    "teacher_action": 1,
+    "raw_output": 1.0785614252090454,
+    "requested_action": 1.0
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 2,
+    "teacher_action": 1,
+    "raw_output": 1.0196349620819092,
+    "requested_action": 1.0
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 3,
+    "teacher_action": 1,
+    "raw_output": 0.9271134734153748,
+    "requested_action": 0.9271134734153748
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 4,
+    "teacher_action": 0.25,
+    "raw_output": 0.38265424966812134,
+    "requested_action": 0.38265424966812134
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 5,
+    "teacher_action": 0.25,
+    "raw_output": 0.10952357947826385,
+    "requested_action": 0.10952357947826385
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 6,
+    "teacher_action": 0,
+    "raw_output": 0.29569172859191895,
+    "requested_action": 0.29569172859191895
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 7,
+    "teacher_action": 1,
+    "raw_output": 0.9715540409088135,
+    "requested_action": 0.9715540409088135
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 8,
+    "teacher_action": 1,
+    "raw_output": 0.8577935099601746,
+    "requested_action": 0.8577935099601746
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 9,
+    "teacher_action": 1,
+    "raw_output": 0.9521974921226501,
+    "requested_action": 0.9521974921226501
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 10,
+    "teacher_action": 1,
+    "raw_output": 0.9701230525970459,
+    "requested_action": 0.9701230525970459
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 11,
+    "teacher_action": 0.5,
+    "raw_output": 0.7277165651321411,
+    "requested_action": 0.7277165651321411
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 12,
+    "teacher_action": 0,
+    "raw_output": 0.26662248373031616,
+    "requested_action": 0.26662248373031616
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 13,
+    "teacher_action": 0,
+    "raw_output": 0.006252512335777283,
+    "requested_action": 0.006252512335777283
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 14,
+    "teacher_action": 0,
+    "raw_output": 0.14212745428085327,
+    "requested_action": 0.14212745428085327
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 15,
+    "teacher_action": 0,
+    "raw_output": 0.3059943914413452,
+    "requested_action": 0.3059943914413452
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 16,
+    "teacher_action": 1,
+    "raw_output": 0.9173716902732849,
+    "requested_action": 0.9173716902732849
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 17,
+    "teacher_action": 0,
+    "raw_output": 0.2501148581504822,
+    "requested_action": 0.2501148581504822
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 18,
+    "teacher_action": 1,
+    "raw_output": 0.545203447341919,
+    "requested_action": 0.545203447341919
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 19,
+    "teacher_action": 0,
+    "raw_output": 0.5511263012886047,
+    "requested_action": 0.5511263012886047
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 20,
+    "teacher_action": 1,
+    "raw_output": 0.8128209114074707,
+    "requested_action": 0.8128209114074707
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 21,
+    "teacher_action": 0,
+    "raw_output": 0.27638566493988037,
+    "requested_action": 0.27638566493988037
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 22,
+    "teacher_action": 1,
+    "raw_output": 0.768645703792572,
+    "requested_action": 0.768645703792572
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 23,
+    "teacher_action": 0.75,
+    "raw_output": 0.6960223913192749,
+    "requested_action": 0.6960223913192749
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 24,
+    "teacher_action": 1,
+    "raw_output": 1.0854943990707397,
+    "requested_action": 1.0
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 25,
+    "teacher_action": 0,
+    "raw_output": 0.4220883250236511,
+    "requested_action": 0.4220883250236511
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 26,
+    "teacher_action": 0.25,
+    "raw_output": 0.5238654613494873,
+    "requested_action": 0.5238654613494873
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 27,
+    "teacher_action": 0,
+    "raw_output": 0.5484971404075623,
+    "requested_action": 0.5484971404075623
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 28,
+    "teacher_action": 1,
+    "raw_output": 1.101321816444397,
+    "requested_action": 1.0
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 29,
+    "teacher_action": 0.5,
+    "raw_output": 0.936479926109314,
+    "requested_action": 0.936479926109314
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 30,
+    "teacher_action": 0.75,
+    "raw_output": 0.7516379356384277,
+    "requested_action": 0.7516379356384277
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 31,
+    "teacher_action": 0.25,
+    "raw_output": 0.32221925258636475,
+    "requested_action": 0.32221925258636475
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 32,
+    "teacher_action": 0,
+    "raw_output": 0.0841357409954071,
+    "requested_action": 0.0841357409954071
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 33,
+    "teacher_action": 0.5,
+    "raw_output": 0.2699868977069855,
+    "requested_action": 0.2699868977069855
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 34,
+    "teacher_action": 0,
+    "raw_output": 0.2983996868133545,
+    "requested_action": 0.2983996868133545
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 35,
+    "teacher_action": 0.5,
+    "raw_output": 0.7410448789596558,
+    "requested_action": 0.7410448789596558
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 36,
+    "teacher_action": 0.25,
+    "raw_output": 0.1707504689693451,
+    "requested_action": 0.1707504689693451
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 37,
+    "teacher_action": 0,
+    "raw_output": 0.10088896751403809,
+    "requested_action": 0.10088896751403809
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 38,
+    "teacher_action": 0,
+    "raw_output": 0.23526215553283691,
+    "requested_action": 0.23526215553283691
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 39,
+    "teacher_action": 0,
+    "raw_output": 0.3096355199813843,
+    "requested_action": 0.3096355199813843
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 40,
+    "teacher_action": 0,
+    "raw_output": 0.07030035555362701,
+    "requested_action": 0.07030035555362701
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 41,
+    "teacher_action": 0,
+    "raw_output": 0.2036578357219696,
+    "requested_action": 0.2036578357219696
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 42,
+    "teacher_action": 0.75,
+    "raw_output": 0.5844486355781555,
+    "requested_action": 0.5844486355781555
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 43,
+    "teacher_action": 1,
+    "raw_output": 0.7143357396125793,
+    "requested_action": 0.7143357396125793
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 44,
+    "teacher_action": 0.5,
+    "raw_output": 0.41230159997940063,
+    "requested_action": 0.41230159997940063
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 45,
+    "teacher_action": 0.5,
+    "raw_output": 0.25084948539733887,
+    "requested_action": 0.25084948539733887
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 46,
+    "teacher_action": 0,
+    "raw_output": 2.3409724235534668e-05,
+    "requested_action": 2.3409724235534668e-05
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 47,
+    "teacher_action": 0,
+    "raw_output": -0.03988616168498993,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 48,
+    "teacher_action": 0.25,
+    "raw_output": 0.13209626078605652,
+    "requested_action": 0.13209626078605652
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 49,
+    "teacher_action": 0,
+    "raw_output": 0.15206998586654663,
+    "requested_action": 0.15206998586654663
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 50,
+    "teacher_action": 0,
+    "raw_output": 0.2528500258922577,
+    "requested_action": 0.2528500258922577
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 51,
+    "teacher_action": 1,
+    "raw_output": 0.21771135926246643,
+    "requested_action": 0.21771135926246643
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 52,
+    "teacher_action": 0,
+    "raw_output": 0.5338952541351318,
+    "requested_action": 0.5338952541351318
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 53,
+    "teacher_action": 0,
+    "raw_output": 0.09393349289894104,
+    "requested_action": 0.09393349289894104
+  },
+  {
+    "scenario": "low_charge_efficiency",
+    "block": 54,
+    "teacher_action": 0,
+    "raw_output": 0.0942486971616745,
+    "requested_action": 0.0942486971616745
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 0,
+    "teacher_action": 1,
+    "raw_output": 1.1313694715499878,
+    "requested_action": 1.0
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 1,
+    "teacher_action": 1,
+    "raw_output": 1.0785614252090454,
+    "requested_action": 1.0
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 2,
+    "teacher_action": 1,
+    "raw_output": 1.0196349620819092,
+    "requested_action": 1.0
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 3,
+    "teacher_action": 1,
+    "raw_output": 0.9271134734153748,
+    "requested_action": 0.9271134734153748
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 4,
+    "teacher_action": 0.25,
+    "raw_output": 0.38265424966812134,
+    "requested_action": 0.38265424966812134
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 5,
+    "teacher_action": 0.25,
+    "raw_output": 0.10952357947826385,
+    "requested_action": 0.10952357947826385
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 6,
+    "teacher_action": 0,
+    "raw_output": 0.29100847244262695,
+    "requested_action": 0.29100847244262695
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 7,
+    "teacher_action": 1,
+    "raw_output": 0.9717220067977905,
+    "requested_action": 0.9717220067977905
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 8,
+    "teacher_action": 1,
+    "raw_output": 0.8578460216522217,
+    "requested_action": 0.8578460216522217
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 9,
+    "teacher_action": 1,
+    "raw_output": 0.9550219774246216,
+    "requested_action": 0.9550219774246216
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 10,
+    "teacher_action": 1,
+    "raw_output": 0.9828985333442688,
+    "requested_action": 0.9828985333442688
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 11,
+    "teacher_action": 1,
+    "raw_output": 0.7261404395103455,
+    "requested_action": 0.7261404395103455
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 12,
+    "teacher_action": 0,
+    "raw_output": 0.1497776061296463,
+    "requested_action": 0.1497776061296463
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 13,
+    "teacher_action": 0,
+    "raw_output": -0.038942307233810425,
+    "requested_action": 0.0
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 14,
+    "teacher_action": 0,
+    "raw_output": 0.0984988659620285,
+    "requested_action": 0.0984988659620285
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 15,
+    "teacher_action": 0,
+    "raw_output": 0.2290971577167511,
+    "requested_action": 0.2290971577167511
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 16,
+    "teacher_action": 1,
+    "raw_output": 0.8376365303993225,
+    "requested_action": 0.8376365303993225
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 17,
+    "teacher_action": 0.25,
+    "raw_output": 0.13413307070732117,
+    "requested_action": 0.13413307070732117
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 18,
+    "teacher_action": 1,
+    "raw_output": 0.4455556273460388,
+    "requested_action": 0.4455556273460388
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 19,
+    "teacher_action": 0.25,
+    "raw_output": 0.38938337564468384,
+    "requested_action": 0.38938337564468384
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 20,
+    "teacher_action": 0.25,
+    "raw_output": 0.6114649176597595,
+    "requested_action": 0.6114649176597595
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 21,
+    "teacher_action": 0,
+    "raw_output": 0.11167166382074356,
+    "requested_action": 0.11167166382074356
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 22,
+    "teacher_action": 1,
+    "raw_output": 0.6945280432701111,
+    "requested_action": 0.6945280432701111
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 23,
+    "teacher_action": 1,
+    "raw_output": 0.5603541135787964,
+    "requested_action": 0.5603541135787964
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 24,
+    "teacher_action": 0.75,
+    "raw_output": 0.9004533290863037,
+    "requested_action": 0.9004533290863037
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 25,
+    "teacher_action": 0,
+    "raw_output": 0.39030343294143677,
+    "requested_action": 0.39030343294143677
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 26,
+    "teacher_action": 1,
+    "raw_output": 0.5012195706367493,
+    "requested_action": 0.5012195706367493
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 27,
+    "teacher_action": 1,
+    "raw_output": 0.40741556882858276,
+    "requested_action": 0.40741556882858276
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 28,
+    "teacher_action": 1,
+    "raw_output": 0.7896031141281128,
+    "requested_action": 0.7896031141281128
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 29,
+    "teacher_action": 1,
+    "raw_output": 0.8253954648971558,
+    "requested_action": 0.8253954648971558
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 30,
+    "teacher_action": 1,
+    "raw_output": 0.4866030812263489,
+    "requested_action": 0.4866030812263489
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 31,
+    "teacher_action": 0,
+    "raw_output": 0.0581861287355423,
+    "requested_action": 0.0581861287355423
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 32,
+    "teacher_action": 0,
+    "raw_output": 0.003976732492446899,
+    "requested_action": 0.003976732492446899
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 33,
+    "teacher_action": 0,
+    "raw_output": 0.22136375308036804,
+    "requested_action": 0.22136375308036804
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 34,
+    "teacher_action": 0,
+    "raw_output": 0.24064971506595612,
+    "requested_action": 0.24064971506595612
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 35,
+    "teacher_action": 0,
+    "raw_output": 0.4722605347633362,
+    "requested_action": 0.4722605347633362
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 36,
+    "teacher_action": 0,
+    "raw_output": 0.14290210604667664,
+    "requested_action": 0.14290210604667664
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 37,
+    "teacher_action": 0,
+    "raw_output": 0.07955759763717651,
+    "requested_action": 0.07955759763717651
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 38,
+    "teacher_action": 0,
+    "raw_output": 0.19657881557941437,
+    "requested_action": 0.19657881557941437
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 39,
+    "teacher_action": 0,
+    "raw_output": 0.24995970726013184,
+    "requested_action": 0.24995970726013184
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 40,
+    "teacher_action": 0,
+    "raw_output": 0.05790288746356964,
+    "requested_action": 0.05790288746356964
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 41,
+    "teacher_action": 0,
+    "raw_output": 0.18995679914951324,
+    "requested_action": 0.18995679914951324
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 42,
+    "teacher_action": 0.75,
+    "raw_output": 0.5116446018218994,
+    "requested_action": 0.5116446018218994
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 43,
+    "teacher_action": 0.5,
+    "raw_output": 0.6860559582710266,
+    "requested_action": 0.6860559582710266
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 44,
+    "teacher_action": 0.5,
+    "raw_output": 0.4643074870109558,
+    "requested_action": 0.4643074870109558
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 45,
+    "teacher_action": 0,
+    "raw_output": 0.2890969514846802,
+    "requested_action": 0.2890969514846802
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 46,
+    "teacher_action": 0,
+    "raw_output": 0.09572626650333405,
+    "requested_action": 0.09572626650333405
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 47,
+    "teacher_action": 0,
+    "raw_output": 0.004369810223579407,
+    "requested_action": 0.004369810223579407
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 48,
+    "teacher_action": 0.25,
+    "raw_output": 0.16732099652290344,
+    "requested_action": 0.16732099652290344
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 49,
+    "teacher_action": 0,
+    "raw_output": 0.1709539294242859,
+    "requested_action": 0.1709539294242859
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 50,
+    "teacher_action": 0,
+    "raw_output": 0.32088351249694824,
+    "requested_action": 0.32088351249694824
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 51,
+    "teacher_action": 1,
+    "raw_output": 0.2836609482765198,
+    "requested_action": 0.2836609482765198
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 52,
+    "teacher_action": 1,
+    "raw_output": 0.5004035830497742,
+    "requested_action": 0.5004035830497742
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 53,
+    "teacher_action": 0,
+    "raw_output": 0.0826459676027298,
+    "requested_action": 0.0826459676027298
+  },
+  {
+    "scenario": "low_braking_share",
+    "block": 54,
+    "teacher_action": 0,
+    "raw_output": 0.08907283842563629,
+    "requested_action": 0.08907283842563629
+  }
+]

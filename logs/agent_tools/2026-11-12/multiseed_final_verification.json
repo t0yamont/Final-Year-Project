@@ -1,0 +1,17 @@
+{
+  "run": "circuit-multiseed-001",
+  "figure_hash_checks": {
+    "results\\circuit-multiseed-001\\manifest.json": true,
+    "figures\\dissertation\\circuit-multiseed-v1\\01_checkpoint_baseline_comparison.pdf": true,
+    "figures\\dissertation\\circuit-multiseed-v1\\01_checkpoint_baseline_comparison.png": true,
+    "figures\\dissertation\\circuit-multiseed-v1\\02_stochastic_deterministic_energy.pdf": true,
+    "figures\\dissertation\\circuit-multiseed-v1\\02_stochastic_deterministic_energy.png": true,
+    "scripts/plot_circuit_multiseed.py": true
+  },
+  "both_pngs_visually_inspected": true,
+  "visual_findings": "Legible labels, units and legends; no clipping or misleading battery-axis truncation. Figure 2 caption has a minor missing space in Same55; interpretation unaffected.",
+  "all_final_gates_passed": true,
+  "max_final_gain_discrepancy_s": 0.010117683559812463,
+  "documentation_updated": true,
+  "no_training_jobs_remaining": true
+}

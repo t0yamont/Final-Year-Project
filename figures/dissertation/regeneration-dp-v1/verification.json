@@ -1,0 +1,238 @@
+{
+  "primary_candidate": "refined",
+  "primary_cells_per_block": 160,
+  "cases": [
+    {
+      "name": "basic",
+      "primary": false,
+      "times_s": {
+        "80": 107.84928289855354,
+        "160": 107.47416028577963,
+        "320": 107.28937637647122
+      },
+      "comparisons": {
+        "full": {
+          "advantage_160_s": 0.21315438624270655,
+          "advantage_320_s": 0.2094172350397514,
+          "paired_advantage_discrepancy_s": 0.003737151202955147,
+          "passed": true
+        },
+        "PPO seed 0": {
+          "advantage_160_s": -0.24647789832896194,
+          "advantage_320_s": -0.24819993641197868,
+          "paired_advantage_discrepancy_s": 0.0017220380830167414,
+          "passed": true
+        },
+        "PPO seed 1": {
+          "advantage_160_s": 0.20154273900546116,
+          "advantage_320_s": 0.1969982140688984,
+          "paired_advantage_discrepancy_s": 0.004544524936562766,
+          "passed": true
+        },
+        "PPO seed 2": {
+          "advantage_160_s": 0.10450242375580387,
+          "advantage_320_s": 0.10536598109997897,
+          "paired_advantage_discrepancy_s": 0.0008635573441750921,
+          "passed": true
+        }
+      },
+      "refinement": {
+        "relative_lap_time_error": 0.0017222945602741995,
+        "terminal_energy_discrepancy_j": 0.0,
+        "recovery_discrepancy_j": 2.0954757928848267e-09
+      },
+      "refinement_passed": true,
+      "search_time_s": 107.84928289855354,
+      "wall_seconds": 41.22980099986307,
+      "transitions": 1086
+    },
+    {
+      "name": "refined",
+      "primary": true,
+      "times_s": {
+        "80": 107.64238167613189,
+        "160": 107.26587781782062,
+        "320": 107.07970860780809
+      },
+      "comparisons": {
+        "full": {
+          "advantage_160_s": 0.4214368542017155,
+          "advantage_320_s": 0.4190850037028895,
+          "paired_advantage_discrepancy_s": 0.0023518504988260247,
+          "passed": true
+        },
+        "PPO seed 0": {
+          "advantage_160_s": -0.03819543036995299,
+          "advantage_320_s": -0.03853216774884061,
+          "paired_advantage_discrepancy_s": 0.00033673737888761934,
+          "passed": true
+        },
+        "PPO seed 1": {
+          "advantage_160_s": 0.4098252069644701,
+          "advantage_320_s": 0.40666598273203647,
+          "paired_advantage_discrepancy_s": 0.003159224232433644,
+          "passed": true
+        },
+        "PPO seed 2": {
+          "advantage_160_s": 0.31278489171481283,
+          "advantage_320_s": 0.31503374976311704,
+          "paired_advantage_discrepancy_s": 0.002248858048304214,
+          "passed": true
+        }
+      },
+      "refinement": {
+        "relative_lap_time_error": 0.0017386040028779229,
+        "terminal_energy_discrepancy_j": 0.0,
+        "recovery_discrepancy_j": 2.7939677238464355e-09
+      },
+      "refinement_passed": true,
+      "search_time_s": 107.64238167613189,
+      "wall_seconds": 137.52138659986667,
+      "transitions": 3810
+    }
+  ],
+  "hash_checks": 350,
+  "replays_checked": 14,
+  "audits": [
+    {
+      "file": "results\\regeneration-validation-001\\regeneration_cells-160_full.json.gz",
+      "duration_s": 107.68731467202234,
+      "global_work_residual_j": 1.8044374883174896e-09,
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 3900000.0000000047,
+      "max_work_residual_j": 7.101334631443024e-09,
+      "max_battery_residual_j": 2.0954757928848267e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\refined_comparator.json.gz",
+      "duration_s": 107.49879361151098,
+      "global_work_residual_j": 1.3053067959845066e-08,
+      "recovered_j": 2000000.0000000026,
+      "discharged_j": 3900000.0000000144,
+      "max_work_residual_j": 1.0717485565692186e-08,
+      "max_battery_residual_j": 3.521563485264778e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_16384_deterministic_fine.json.gz",
+      "duration_s": 107.22768238745067,
+      "global_work_residual_j": -6.577465683221817e-09,
+      "recovered_j": 2000000.0000000014,
+      "discharged_j": 3899999.999999998,
+      "max_work_residual_j": 1.6298145055770874e-08,
+      "max_battery_residual_j": 3.979948814958334e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-0\\checkpoint_16384_deterministic_refined.json.gz",
+      "duration_s": 107.04117644005925,
+      "global_work_residual_j": 1.9572325982153416e-08,
+      "recovered_j": 2000000.0000000042,
+      "discharged_j": 3900000.000000001,
+      "max_work_residual_j": 1.5832483768463135e-08,
+      "max_battery_residual_j": 6.111804395914078e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_16384_deterministic_fine.json.gz",
+      "duration_s": 107.6757030247851,
+      "global_work_residual_j": 3.39350663125515e-08,
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 3900000.000000008,
+      "max_work_residual_j": 9.633367881178856e-09,
+      "max_battery_residual_j": 3.14321368932724e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-1\\checkpoint_16384_deterministic_refined.json.gz",
+      "duration_s": 107.48637459054012,
+      "global_work_residual_j": -1.2092641554772854e-08,
+      "recovered_j": 2000000.0000000023,
+      "discharged_j": 3900000.000000012,
+      "max_work_residual_j": 1.2456439435482025e-08,
+      "max_battery_residual_j": 3.5797711461782455e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_16384_deterministic_fine.json.gz",
+      "duration_s": 107.57866270953544,
+      "global_work_residual_j": 8.731149137020111e-10,
+      "recovered_j": 2000000.0000000026,
+      "discharged_j": 3899999.999999997,
+      "max_work_residual_j": 6.461050361394882e-09,
+      "max_battery_residual_j": 2.939486876130104e-09
+    },
+    {
+      "file": "results\\regeneration-multiseed-001\\seed-2\\checkpoint_16384_deterministic_refined.json.gz",
+      "duration_s": 107.3947423575712,
+      "global_work_residual_j": 1.4551915228366852e-11,
+      "recovered_j": 2000000.0000000035,
+      "discharged_j": 3899999.9999999977,
+      "max_work_residual_j": 1.4435499906539917e-08,
+      "max_battery_residual_j": 5.384208634495735e-09
+    },
+    {
+      "file": "results\\regeneration-dp-001\\basic_80.json.gz",
+      "duration_s": 107.84928289855354,
+      "global_work_residual_j": -1.973239704966545e-08,
+      "recovered_j": 2000000.0000000007,
+      "discharged_j": 3900000.0000000014,
+      "max_work_residual_j": 4.045432433485985e-09,
+      "max_battery_residual_j": 2.35741026699543e-09
+    },
+    {
+      "file": "results\\regeneration-dp-001\\basic_160.json.gz",
+      "duration_s": 107.47416028577963,
+      "global_work_residual_j": -3.3178366720676422e-09,
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 3900000.0000000056,
+      "max_work_residual_j": 7.101334631443024e-09,
+      "max_battery_residual_j": 2.0954757928848267e-09
+    },
+    {
+      "file": "results\\regeneration-dp-001\\basic_320.json.gz",
+      "duration_s": 107.28937637647122,
+      "global_work_residual_j": 2.1900632418692112e-08,
+      "recovered_j": 2000000.0000000033,
+      "discharged_j": 3900000.0000000163,
+      "max_work_residual_j": 1.0717485565692186e-08,
+      "max_battery_residual_j": 3.521563485264778e-09
+    },
+    {
+      "file": "results\\regeneration-dp-001\\refined_80.json.gz",
+      "duration_s": 107.64238167613189,
+      "global_work_residual_j": -1.5890691429376602e-08,
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 3900000.0000000047,
+      "max_work_residual_j": 5.471520125865936e-09,
+      "max_battery_residual_j": 3.055902197957039e-09
+    },
+    {
+      "file": "results\\regeneration-dp-001\\refined_160.json.gz",
+      "duration_s": 107.26587781782062,
+      "global_work_residual_j": -2.2286258172243834e-08,
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 3899999.9999999963,
+      "max_work_residual_j": 7.916241884231567e-09,
+      "max_battery_residual_j": 4.190951585769653e-09
+    },
+    {
+      "file": "results\\regeneration-dp-001\\refined_320.json.gz",
+      "duration_s": 107.07970860780809,
+      "global_work_residual_j": -2.5298504624515772e-08,
+      "recovered_j": 2000000.000000004,
+      "discharged_j": 3900000.0000000237,
+      "max_work_residual_j": 9.633367881178856e-09,
+      "max_battery_residual_j": 5.093170329928398e-09
+    }
+  ],
+  "thresholds": {
+    "max_paired_advantage_error_s": 0.005,
+    "max_relative_lap_time_error": 0.0025,
+    "max_terminal_energy_error_j": 10000,
+    "max_recovery_error_j": 5000
+  },
+  "search_stability": {
+    "absolute_primary_grid_time_difference_s": 0.20828246795900895,
+    "threshold_s": 0.05,
+    "passed": false,
+    "interpretation": "Search stability diagnostic only; no global optimality claim"
+  },
+  "scope": "MGU-K-only assumed reference model; automatic braking recovery, fixed total braking, no MGU-H. Capacity, efficiency and rear braking share are assumptions. No measured-car or full regulatory compliance claim.",
+  "script_sha256": "bb22d5290450f76c4fbfbaa1416737f561423cebbf84f31b9e0c4f7bc4af2707"
+}

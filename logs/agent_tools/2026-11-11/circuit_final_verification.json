@@ -1,0 +1,11 @@
+{
+  "hash_checks": 29,
+  "all_15_cases_byte_identical_to_independently_verified_run003": true,
+  "all_numerical_gates_passed": true,
+  "figures_visually_inspected": [
+    "01_curvature_speed_envelope.png",
+    "02_refinement_sensitivity_energy.png"
+  ],
+  "tests": "109 passed; logs/agent_tools/2026-11-11/circuit_integrated_tests.txt",
+  "review": "Focused Sol read-only numerical review; adaptive shooting-bracket repair covered by regression test."
+}

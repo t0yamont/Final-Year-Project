@@ -1,0 +1,4 @@
+{
+  "reason": "Predeclared robustness includes failed/unavailable controllers; see complete case metrics.",
+  "worker_errors": []
+}

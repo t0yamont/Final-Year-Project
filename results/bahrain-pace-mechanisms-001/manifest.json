@@ -1,0 +1,19 @@
+{
+  "inputs": {
+    "results\\bahrain-pace-inputs-001\\metrics.json": "e6a6c8ae90eb77641374136f0a950ae9c61ed0dd93f41104f877a599db92eb20",
+    "results\\bahrain-pace-inputs-001\\lap-13.csv": "00765ca5d3d0b0c6ed91ca63321aed217c9c96a545472b3e571257e7f8faa23b",
+    "results\\bahrain-pace-calibration-001\\manifest.json": "d3fe71537b8e55fdb8d04cd69ac0df43c05a76caadbeea57655a5b07a09f5f8d",
+    "results\\bahrain-pace-calibration-001\\model.json": "6884eb5359a3451e02b24480fda61c75f5b39309d9ea5c0c80e0787234ec59b1",
+    "configs\\bahrain_pace_protocol.json": "a0d050b0b47ec88e9424cbbe2d77414599b4bcc40b83190332c79bdb991f3c30",
+    "configs\\bahrain_turn_landmarks.json": "955c5988d87a3a2bf92c73e0b73d2c3ac9f2c9286ea11ec82478630535212780"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\diagnose_bahrain_parameters.py": "69fd63cb00bb0140e46f31f7d5e3c628e8597620bab4e58121ad014e9307462c"
+  },
+  "outputs": {
+    "results\\bahrain-pace-mechanisms-001\\corner_checks.json": "78751c44ab9ed292cd15b1c4835e769e29efdb7b661feca59ae4631b21a7ee4a",
+    "results\\bahrain-pace-mechanisms-001\\parameter_replays.json": "40e3c29c0a88bbef1d14f61e4fd2f8b6d9a2634ed6a5754ee149038c6ff71e5d",
+    "figures\\dissertation\\bahrain-pace-mechanisms-v1\\pace_mechanisms.pdf": "fdefeb20720aa6bbbaf3ce871db585fb4c95725b9d5f1594e5ea459bdffe68cd",
+    "figures\\dissertation\\bahrain-pace-mechanisms-v1\\pace_mechanisms.png": "facd3e757f80ec05d094afbb0811daae240fcc101eefa309e4666967bea5adbf"
+  }
+}

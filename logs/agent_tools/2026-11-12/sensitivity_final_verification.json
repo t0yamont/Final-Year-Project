@@ -1,0 +1,21 @@
+{
+  "run": "circuit-sensitivity-001",
+  "completed_rollouts": 160,
+  "case_passes": 9,
+  "case_count": 10,
+  "study_accepted": false,
+  "failure_reason": "drag_plus10 terminal-speed feasibility",
+  "integrated_tests_passed": 127,
+  "figure_hash_checks": {
+    "results\\circuit-sensitivity-001\\manifest.json": true,
+    "figures\\dissertation\\circuit-sensitivity-v1\\01_model_transfer.pdf": true,
+    "figures\\dissertation\\circuit-sensitivity-v1\\01_model_transfer.png": true,
+    "figures\\dissertation\\circuit-sensitivity-v1\\02_cadence_numerical_gates.pdf": true,
+    "figures\\dissertation\\circuit-sensitivity-v1\\02_cadence_numerical_gates.png": true,
+    "figures\\dissertation\\circuit-sensitivity-v1\\verification.json": true,
+    "scripts/report_circuit_sensitivity.py": true
+  },
+  "both_pngs_visually_inspected": true,
+  "visual_findings": "No clipping or overlapping labels; failure visible, seed shapes redundant with color, signed cadence changes and numerical thresholds readable.",
+  "no_jobs_running": true
+}

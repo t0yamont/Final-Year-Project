@@ -1,0 +1,48 @@
+{
+  "reference_config": "configs/circuit_reference.json",
+  "numerical_gate": "results/regeneration-validation-001",
+  "action_blocks": 55,
+  "cells_per_block": [
+    80,
+    160
+  ],
+  "fine_cells_per_block": 160,
+  "initial_speed_mps": 70.0,
+  "policies": [
+    "zero",
+    "half",
+    "full",
+    "spread",
+    "exit_boost"
+  ],
+  "gates": {
+    "relative_lap_time": 0.005,
+    "gain_error_s": 0.05,
+    "ranking_tie_s": 0.02
+  },
+  "pilot": {
+    "seed": 0,
+    "steps": 4096,
+    "gamma": 1.0,
+    "n_steps": 256,
+    "batch_size": 64,
+    "n_epochs": 10,
+    "net_arch": [
+      32,
+      32
+    ]
+  },
+  "interpretation": "MGU-K-only assumed reference model; automatic braking recovery, fixed total braking, no MGU-H. Capacity, efficiency and rear braking share are assumptions. No measured-car or full regulatory compliance claim.",
+  "regeneration": {
+    "capacity_j": 4000000.0,
+    "charge_efficiency": 0.8,
+    "max_power_w": 120000.0,
+    "braking_fraction": 0.4,
+    "recovery_limit_j": 2000000.0,
+    "deployment_limit_j": 4000000.0
+  },
+  "sources": [
+    "https://api.fia.com/sites/default/files/documents/fia_2025_formula_1_technical_regulations_-_issue_03_-_2025-04-07.pdf",
+    "https://www.mclaren.com/racing/formula-1/2025/mcl39-technical-specification/"
+  ]
+}

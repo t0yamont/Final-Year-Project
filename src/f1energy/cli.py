@@ -10,7 +10,7 @@ import subprocess
 import sys
 import time
 from . import __version__
-from .config import ConfigError, load_config
+from .config import load_config
 from .fixture import run_fixture
 
 

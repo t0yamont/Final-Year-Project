@@ -1,0 +1,10 @@
+{
+  "verified_motion_source_files": 150,
+  "development_rows": 46051,
+  "validation_rows": 15501,
+  "context_rmse_recomputations": 21,
+  "event_role_overlap": false,
+  "final_test_data_used_for_fitting": false,
+  "figures_visually_inspected": true,
+  "verification_correction": "Initial RMSE cross-check accidentally included teammate rows; corrected driver1 filter reproduced all21 metrics within1e-10. Study code already filtered driver1."
+}

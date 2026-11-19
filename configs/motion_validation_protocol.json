@@ -1,0 +1,16 @@
+{
+  "scope": "Observable acceleration assessment before full-circuit controller work",
+  "driver_number": "1",
+  "fit_source": "results/circuit-input-assessment-001",
+  "motion_source": "results/openf1-motion-001",
+  "reference_config": "configs/circuit_reference.json",
+  "development_evaluation": "Only the previously declared held-out laps for each of the 21 fitted contexts",
+  "validation_prediction": "Median predictions from unchanged development context fits with exactly matching session_name and DRS code; no validation fitting",
+  "constant_baseline": "Mean acceleration on each original development fit's training laps; median of matching context means for transfer",
+  "aggregation": "RMSE within event/session/driver/lap/DRS, then equal-weight mean across these groups per event; no sample independence or confidence claim",
+  "unmatched_validation": "Record and exclude unmatched session_name/DRS; no fallback or silent remapping",
+  "extrapolation": "Record fraction outside the common speed range shared by all transferred fits",
+  "reference_comparison": "Evaluate unchanged base and maximum electrical power endpoints at observed speed; neither endpoint is a prediction of real deployment",
+  "decision_rule": "Report model discrepancy descriptively. No post-hoc numerical empirical pass threshold. Keep the reference vehicle explicitly assumed; assess model-based controller comparisons separately.",
+  "protected": "No test-role inputs; no fitting smoothing, grip, timing alignment or battery parameters from these straight-motion windows"
+}

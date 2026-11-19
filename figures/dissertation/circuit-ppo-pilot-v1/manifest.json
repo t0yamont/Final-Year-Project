@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "results\\circuit-ppo-pilot-001\\manifest.json": "78404cb3c0627335003dcd3900b1215d99e3b1f47b0f10e7335803d8ca85f987",
+    "results\\circuit-control-baselines-001\\manifest.json": "3c2b27317c8b6aeed262cb4482fe2647acb47ce94295ba25420fc524a3836bbf"
+  },
+  "source_sha256": "952ce84b35e37c0b64d8f9a3f3140ded00f81f01e7991c52db0461d1686b528a",
+  "outputs": {
+    "figures\\dissertation\\circuit-ppo-pilot-v1\\01_learning_and_comparison.pdf": "5e02c61cc91e65420a9d74bb17fa92726249ef4d1614d7cbd942f7d235fc2108",
+    "figures\\dissertation\\circuit-ppo-pilot-v1\\01_learning_and_comparison.png": "9a0c0d23f8a9161c5fecf6d8063847ccc015d250ce590679cd729f6539d9d75e",
+    "figures\\dissertation\\circuit-ppo-pilot-v1\\02_policy_energy_speed.pdf": "0d821b04468c4b4c52ce582b4813bb75169158fb6db1474d10d89731e08e4ec7",
+    "figures\\dissertation\\circuit-ppo-pilot-v1\\02_policy_energy_speed.png": "91f4a489d0514b808d6b2182ebcef274465e1e04160dba21810612d7f46b7329"
+  }
+}

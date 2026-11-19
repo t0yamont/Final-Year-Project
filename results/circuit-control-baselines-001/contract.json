@@ -1,0 +1,54 @@
+{
+  "config": {
+    "reference_config": "configs/circuit_reference.json",
+    "numerical_gate": "results/circuit-validation-004",
+    "action_blocks": 55,
+    "cells_per_block": [
+      20,
+      40,
+      80,
+      160
+    ],
+    "fine_cells_per_block": 160,
+    "initial_speed_mps": 70.0,
+    "policies": [
+      "zero",
+      "half",
+      "full",
+      "spread",
+      "exit_boost"
+    ],
+    "gates": {
+      "relative_lap_time": 0.005,
+      "gain_error_s": 0.05,
+      "ranking_tie_s": 0.02
+    },
+    "cadence_sensitivity_blocks": 110,
+    "pilot": {
+      "seed": 0,
+      "steps": 4096,
+      "gamma": 1.0,
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "net_arch": [
+        32,
+        32
+      ]
+    },
+    "interpretation": "Bounded model-based controller study. Baseline ranking and time-gain checks support a pilot, not a continuous-action optimum or general grid-independent RL ranking. Replay the trained policy at the fine grid."
+  },
+  "inputs": {
+    "configs\\circuit_controller_study.json": "0631bd378753a759af796799b7c8f19819329c7a14ead3bc7ac372df1ccc3328",
+    "configs\\circuit_reference.json": "19b80d69d3e91d32a9ce4a2b00a40589fcd16ceb387c17ca4ad151a5a6043657",
+    "results\\circuit-input-assessment-001\\Sakhir.csv": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a",
+    "results\\circuit-validation-004\\manifest.json": "52f7d06549655e1ac6380c60ecec595f177c524143d309d709603a15ff89cca7"
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "69b5f4ffac4a297cfa8dcecb9fd57ebf4a03acf800363f162e2338a3e1b78e52",
+    "src\\f1energy\\event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763"
+  },
+  "script_sha256": "ba5acdea9c3265dd50f9e782c5e589a39ad47e7d959b6d686f3390d7b779fd3d"
+}

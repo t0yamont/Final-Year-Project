@@ -1,0 +1,25 @@
+{
+  "inputs": {
+    "results/session-mix-validation-002/models.json": "37fba1cb9f3687569ed0952d416d69a3e40c8e1d0413117b85a0c5b6a8c5033c",
+    "results/session-mix-validation-002/manifest.json": "a604dfc7df1632c20068048148e4310d58924113fce4bfb47eba1556bace6205",
+    "configs/session_mix_protocol.json": "de791867834170c5dae9026a7e4ddc1ebe218f8ec908ebbeccc58478afffc1b6",
+    "scripts/prepare_openf1_motion.py": "f706b0c6500d832ebe556f3092add8edb5a2ae87dd3c59abff0e074e146e82c4",
+    "logs/agent_tools/2026-11-18/session_mix_coverage_decision.json": "8b11a8d6fb6c42e6d5f83f22998072cd16b4b10da71aabe28346445bce176ff0",
+    "configs\\session_mix_final.json": "59d2cdaeb1ed90f8a0221896fb7db05c5212a6ddfbfffec25061800c4bb90f0a",
+    "results\\openf1-dataset-003\\test\\1265\\9935\\complete.json": "ea8d00adf246458515cc1a4fa5a235992a61bd1d4fdb196a1da4e6340286edd4",
+    "results\\openf1-dataset-003\\test\\1276\\9835\\complete.json": "2184d3cc5fe0ea7080e09c30c8a89842aa717a85d9e5c980fb436cc0d48a9617",
+    "results\\openf1-dataset-003\\test\\1276\\9835\\driver-1-laps.json": "155c8ed43bdf2075777c1284b9ecaa48ccf07fa8088c430ad9038b0eef8c4399",
+    "results\\openf1-dataset-003\\test\\1276\\9835\\driver-1-car.csv.gz": "11a003dd29ff84e9c7a3b9e542ae3685559db37251df2911ebbe245dcb1a294f"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\score_qualifying_holdout.py": "d7fcd4784daaebbf8113dbf1a60de9269fa421aabb14d56c869704ccda4da8bf",
+    "scripts\\study_session_mix.py": "63235beaed2494618ebee275d5e2708dc1001814cdab442da22c305487f8a659"
+  },
+  "outputs": {
+    "results\\session-mix-final-001\\contract.json": "025a0944efcbe090c7b9164bf2232ef8e6d7c8293119f6bd28928618202363a0",
+    "results\\session-mix-final-001\\metrics.json": "9808fe5ae9d68129c8d8e5c8ee872f23171bd348d51fc38517fd4c53c03b03d6",
+    "results\\session-mix-final-001\\predictions.csv.gz": "3a9d1843274dc9e710325f733300e15c76fb92bb6197d120411d98fd87b1fa94",
+    "figures\\dissertation\\session-mix-final-v1\\qualifying_holdout.pdf": "f1a1a13143b2959e8d7178cafa4d50eff6b4f213dc197a415f344af045924624",
+    "figures\\dissertation\\session-mix-final-v1\\qualifying_holdout.png": "249d33558fc9c6b572ff8f0094eb37b74b4c38810fc9da0b4f8c23d16c112799"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "baseline": "results/regeneration-validation-001",
+  "ppo": "results/regeneration-multiseed-001",
+  "dp": "results/regeneration-dp-001",
+  "seeds": [0, 1, 2],
+  "checkpoint_steps": 16384,
+  "fixed_policies": ["zero", "half", "full", "spread", "exit_boost"],
+  "scenarios": [
+    {"name": "nominal", "parameter": null, "value": null},
+    {"name": "low_initial_energy", "parameter": "initial_energy_j", "value": 1000000},
+    {"name": "low_charge_efficiency", "parameter": "charge_efficiency", "value": 0.6},
+    {"name": "low_braking_share", "parameter": "braking_fraction", "value": 0.2},
+    {"name": "high_drag", "parameter": "drag_kg_per_m", "value": 1.1}
+  ],
+  "evaluation_cells": [160, 320],
+  "search_cells": 80,
+  "search": {"name": "replanned_dp", "actions": [0, 0.25, 0.5, 0.75, 1], "width": 16, "speed_bin_mps": 1, "energy_bin_j": 100000},
+  "incumbent": "Unchanged basic schedule from regeneration-dp-001 in every scenario; no PPO or evaluation-grid selection.",
+  "frozen_dp": "Unchanged original refined schedule from regeneration-dp-001, predeclared regardless of subsequent factorial or width outcomes.",
+  "budget": "Each scenario gets one width16 five-action search, at most 55*16*5=4400 block expansions, plus incumbent/replay checks. No retries or tuning.",
+  "workers": 3,
+  "gates": {"paired_gap_change_s": 0.005, "relative_lap_change": 0.0025, "terminal_energy_change_j": 10000, "recovered_change_j": 5000},
+  "failure_policy": "Save all physical failures. A bounded search with no terminal-feasible schedule is a failed search, not proof of physical impossibility; no fabricated replan. Numerical checks never rehabilitate infeasibility. Compare all controller pairs, retaining failed paired checks.",
+  "interpretation": "One-factor assumed-model transfer and model-aware replanning. Unchanged three final CUDA PPO policies; CPU physics; no retraining, final-test telemetry, universal robustness or optimality claim."
+}

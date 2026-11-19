@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "results\\circuit-ppo-gpu-001\\manifest.json": "3cafc24b00f3d6d09ffb8f5c1e88f574695cb6cc0132aa8c821ae395744d0c9e",
+    "results\\circuit-control-baselines-001\\manifest.json": "3c2b27317c8b6aeed262cb4482fe2647acb47ce94295ba25420fc524a3836bbf"
+  },
+  "source_sha256": "952ce84b35e37c0b64d8f9a3f3140ded00f81f01e7991c52db0461d1686b528a",
+  "outputs": {
+    "figures\\dissertation\\circuit-ppo-gpu-v1\\01_learning_and_comparison.pdf": "fd3dcf0af646774f7020a47f52b4531e816ee0368b2cc3eed5282376942ce087",
+    "figures\\dissertation\\circuit-ppo-gpu-v1\\01_learning_and_comparison.png": "0dc41651e2e0b0ad689210d83bfaeaeb6bca7d88841bb206c0289816d6fc9084",
+    "figures\\dissertation\\circuit-ppo-gpu-v1\\02_policy_energy_speed.pdf": "47f0686af6f028f74bd60db7f9d8cf528d11addcbf7530af21a700fb175f8a1e",
+    "figures\\dissertation\\circuit-ppo-gpu-v1\\02_policy_energy_speed.png": "a03333516e8dc180affbbbd1850b877b7568c2c07944a3e618cc2c8640c3fc17"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "message": "`ftol` termination condition is satisfied.",
+  "params": [
+    31.1265489288803,
+    0.004696794610850987,
+    27.964919996680358,
+    370.57140988930195,
+    0.45000252780735545,
+    0.825103434805563
+  ],
+  "parameter_names": [
+    "lateral_base_mps2",
+    "lateral_aero_per_m",
+    "brake_mps2",
+    "base_power_kw",
+    "drag_kg_per_m",
+    "drs_drag_factor"
+  ],
+  "nfev": 17,
+  "active_bounds": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "cost": 94.32382390779728,
+  "model_sha256": "6884eb5359a3451e02b24480fda61c75f5b39309d9ea5c0c80e0787234ec59b1"
+}

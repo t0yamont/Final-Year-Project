@@ -1,0 +1,25 @@
+{
+  "actual_steps": 4096,
+  "seed": 0,
+  "training_seconds": 131.7540259999223,
+  "checkpoint_reload_exact": true,
+  "untrained_training_grid_s": 109.85502191571526,
+  "trained_training_grid_s": 109.22968580081601,
+  "trained_fine_grid_s": 108.84913820011505,
+  "fine_baselines_s": {
+    "zero": 109.47520646144015,
+    "half": 108.64398339076611,
+    "full": 108.60810666695829,
+    "spread": 108.67932665276965,
+    "exit_boost": 108.62819093882248
+  },
+  "fine_gain_over_zero_s": 0.6260682613251021,
+  "learned_gain_over_untrained_training_grid_s": 0.6253361148992411,
+  "time_gain_grid_discrepancy_s": 0.0005761257668837061,
+  "fine_policy_feasible": true,
+  "terminal_speed_error_mps": 5.684341886080802e-14,
+  "energy_residual_j": -2.1660273574752864e-08,
+  "final_energy_j": 954526.30502306,
+  "interpretation": "One seed,4096-step model-based pilot; not convergence, optimality, or final held-out performance",
+  "pilot_replay_gate_passed": true
+}

@@ -1,0 +1,24 @@
+{
+  "inputs": {
+    "results\\regeneration-robustness-001\\manifest.json": "cd84af77877b1143b25bc586252ef5decba7c183d7a9279475a2d9d79b60a2af",
+    "results\\regeneration-ppo-actor64-001\\manifest.json": "588ea8215f6b38ecd29ddd526aa88729a29f5e6a60b6bcee35a28a4827a322bf"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\replay_high_drag_actor64.py": "703efe84aeed335febb7f673da3870ed1d14ee2576a8d9974516011d73794ac3",
+    "scripts\\evaluate_ppo_actor_width.py": "958684269eeaa5f3a93573269fab53e89b7b88c07cbb87fceb60a1e2ddbf9232",
+    "scripts\\run_regeneration_robustness.py": "2a20b58a520962dca4a1952bc6e4353c1507b6f3dde976a7b5bbd584b8e2905e",
+    "scripts\\report_regeneration_robustness.py": "e681f7412984e5aa472790532eef350a62cb6614f4e085ae56fb2ce251801178"
+  },
+  "outputs": {
+    "results\\ppo-actor64-high-drag-001\\contract.json": "faf31100c489561bf4f5b9f4993a3270f67769ba8c8f1c5bfa3b0d717e826dd1",
+    "results\\ppo-actor64-high-drag-001\\metrics.json": "4ba4c77f05da08e230f510005d8c49cec2782521ee5b2769e2c8ede6db539985",
+    "results\\ppo-actor64-high-drag-001\\seed-0_160.json.gz": "d054ee32665d2777f0914a464c673503e886295f51ca8a010da5ddda383d80e0",
+    "results\\ppo-actor64-high-drag-001\\seed-0_320.json.gz": "78fb19f357e463ace58c4c44178074aad611c0492a7e5cf0932fab83e47e7542",
+    "results\\ppo-actor64-high-drag-001\\seed-1_160.json.gz": "11599d932331d7f5a4abcd5bef53d40af1da1935971dfa116f4a6ec4890a7144",
+    "results\\ppo-actor64-high-drag-001\\seed-1_320.json.gz": "329fa1f75a3afccbed08b6674189200b0327a20d0a12be59e50a84b1facac3cc",
+    "results\\ppo-actor64-high-drag-001\\seed-2_160.json.gz": "32dfdb372d41b8ae030ed8b68df9e5fd5f6400c67eb43205cb69a20ed781ea63",
+    "results\\ppo-actor64-high-drag-001\\seed-2_320.json.gz": "d26476214ce1692546c44c49bde0040acb3e654b917225427b81532b31508a5d",
+    "figures\\dissertation\\ppo-actor64-high-drag-v1\\finish_speed.pdf": "b86645cf5111047f0d45228116d03826a9c362159ca5f3f6d44ade7fc53604a2",
+    "figures\\dissertation\\ppo-actor64-high-drag-v1\\finish_speed.png": "0437ca63ffc4fcaaf84b929e29715db8fda361e03d7bc77671d374fb670d4c88"
+  }
+}

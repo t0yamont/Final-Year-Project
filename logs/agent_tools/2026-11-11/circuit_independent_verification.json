@@ -1,0 +1,87 @@
+{
+  "hash_checks": 29,
+  "cases_verified": 15,
+  "checks": "Global kinetic/work balance, node and sample caps, reserves, battery draw, periodic speed, drag braking recurrence",
+  "cases": [
+    {
+      "case": "sigma-10_grid-20_action-0",
+      "independent_work_energy_residual_j": 9.313225746154785e-09,
+      "sample_count": 2706
+    },
+    {
+      "case": "sigma-10_grid-20_action-1",
+      "independent_work_energy_residual_j": 0.0,
+      "sample_count": 2706
+    },
+    {
+      "case": "sigma-10_grid-10_action-0",
+      "independent_work_energy_residual_j": -1.4901161193847656e-08,
+      "sample_count": 2705
+    },
+    {
+      "case": "sigma-10_grid-10_action-1",
+      "independent_work_energy_residual_j": 1.30385160446167e-08,
+      "sample_count": 2705
+    },
+    {
+      "case": "sigma-10_grid-5_action-0",
+      "independent_work_energy_residual_j": -9.313225746154785e-09,
+      "sample_count": 3244
+    },
+    {
+      "case": "sigma-10_grid-5_action-1",
+      "independent_work_energy_residual_j": 1.30385160446167e-08,
+      "sample_count": 3244
+    },
+    {
+      "case": "sigma-10_grid-2.5_action-0",
+      "independent_work_energy_residual_j": -7.078051567077637e-08,
+      "sample_count": 4322
+    },
+    {
+      "case": "sigma-10_grid-2.5_action-1",
+      "independent_work_energy_residual_j": -7.264316082000732e-08,
+      "sample_count": 4322
+    },
+    {
+      "case": "sigma-10_grid-1.25_action-0",
+      "independent_work_energy_residual_j": -3.5390257835388184e-08,
+      "sample_count": 4325
+    },
+    {
+      "case": "sigma-10_grid-1.25_action-1",
+      "independent_work_energy_residual_j": -9.313225746154785e-09,
+      "sample_count": 4325
+    },
+    {
+      "case": "sigma-10_grid-0.625_action-0",
+      "independent_work_energy_residual_j": -6.146728992462158e-08,
+      "sample_count": 8650
+    },
+    {
+      "case": "sigma-10_grid-0.625_action-1",
+      "independent_work_energy_residual_j": -5.029141902923584e-08,
+      "sample_count": 8650
+    },
+    {
+      "case": "sigma-5_grid-5_action-1",
+      "independent_work_energy_residual_j": -9.313225746154785e-09,
+      "sample_count": 3246
+    },
+    {
+      "case": "sigma-20_grid-5_action-1",
+      "independent_work_energy_residual_j": 2.7939677238464355e-08,
+      "sample_count": 3225
+    },
+    {
+      "case": "sigma-10_grid-0.625_action-1_tight",
+      "independent_work_energy_residual_j": -2.7939677238464355e-08,
+      "sample_count": 8650
+    }
+  ],
+  "map": {
+    "url": "https://www.fia.com/system/files/decision-document/2025_bahrain_grand_prix_-_event_notes_-_circuit_map_v4.pdf",
+    "sha256": "48a7838862ddd0258f52d7d3b4e67e316dc84d5f13e9839245bc24a3988e604d",
+    "review": "Page 2 locally rendered and visually compared with TUM outline. Matching GP topology and clockwise source travel. Not a metric survey; source origin not certified timing line."
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "plan_id": "openf1-2025-eight-events-v1",
+  "frozen_date": "2026-11-10",
+  "scope": "Model-based reference-vehicle study; retrospective session ablation",
+  "season": 2025,
+  "events": [
+    {
+      "meeting_key": 1257,
+      "name": "Bahrain",
+      "role": "development",
+      "session_keys": [
+        10007,
+        10008,
+        10009,
+        10010,
+        10014
+      ]
+    },
+    {
+      "meeting_key": 1262,
+      "name": "Spain",
+      "role": "development",
+      "session_keys": [
+        9964,
+        9965,
+        9966,
+        9967,
+        9971
+      ]
+    },
+    {
+      "meeting_key": 1268,
+      "name": "Monza",
+      "role": "development",
+      "session_keys": [
+        9905,
+        9906,
+        9907,
+        9908,
+        9912
+      ]
+    },
+    {
+      "meeting_key": 1256,
+      "name": "Japan",
+      "role": "development",
+      "session_keys": [
+        9999,
+        10000,
+        10001,
+        10002,
+        10006
+      ]
+    },
+    {
+      "meeting_key": 1277,
+      "name": "United Kingdom",
+      "role": "validation",
+      "session_keys": [
+        9940,
+        9941,
+        9942,
+        9943,
+        9947
+      ]
+    },
+    {
+      "meeting_key": 1266,
+      "name": "Hungary",
+      "role": "validation",
+      "session_keys": [
+        9921,
+        9922,
+        9923,
+        9924,
+        9928
+      ]
+    },
+    {
+      "meeting_key": 1265,
+      "name": "Belgium",
+      "role": "test",
+      "session_keys": [
+        9929,
+        9930,
+        9934,
+        9935,
+        9939
+      ]
+    },
+    {
+      "meeting_key": 1276,
+      "name": "Abu Dhabi",
+      "role": "test",
+      "session_keys": [
+        9832,
+        9833,
+        9834,
+        9835,
+        9839
+      ]
+    }
+  ],
+  "session_catalogue_path": "results/source-access-audit-20261110-003/sessions.json",
+  "session_catalogue_sha256": "f0b520cb0ae93eba6c130249f50351bc14f86e92b0f9f16d8d15933b821ec699",
+  "team_selection": "Team of driver 1 when present, otherwise the established reference team Red Bull Racing; retain actual substitutes",
+  "primary_driver_number": 1,
+  "exclude_session_names": [
+    "Day 1",
+    "Day 2",
+    "Day 3",
+    "Sprint",
+    "Sprint Qualifying"
+  ],
+  "context_endpoints": [
+    "drivers",
+    "weather",
+    "race_control",
+    "stints",
+    "pit"
+  ],
+  "time_chunk_minutes": 15,
+  "minimum_request_interval_seconds": 2.1,
+  "maximum_gap_s": 1.0,
+  "weather_max_age_s": 120,
+  "test_policy": "Acquisition/schema/completeness checks only until final evaluation. No parameter fitting, profile extraction, hyperparameter selection or target-envelope construction from test telemetry.",
+  "layout_policy": "Circuit identity fixed; geometry-layout suitability must be checked before circuit model use. No silent replacement of test events.",
+  "quality_policy": "Screening flags, not verified dry/clean laps. Unknown context stays unknown. Missing sessions/entries retained in coverage.",
+  "budgets": {
+    "initial_session_limit": 1,
+    "max_wall_minutes_per_invocation": 45,
+    "max_network_requests_per_invocation": 800
+  },
+  "planned_splits": {
+    "development": 4,
+    "validation": 2,
+    "test": 2
+  },
+  "reference_team_name": "Red Bull Racing",
+  "maximum_lap_overlap_s": 0.5,
+  "lap_boundary_policy": "Discard samples in ambiguous overlap; overlaps above0.5s fail QC. Require <=1s leading/trailing sample gaps. Chosen from development-source timestamp precision before any new fitting.",
+  "location_policy": "Acquire native position for qualifying only in this first cohort; other session profiles use car channels with explicit geometry limitations"
+}

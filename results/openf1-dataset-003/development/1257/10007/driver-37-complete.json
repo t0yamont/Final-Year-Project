@@ -1,0 +1,26 @@
+{
+  "driver_number": 37,
+  "driver_name": "Ayumu IWASA",
+  "team": "Red Bull Racing",
+  "lap_count": 20,
+  "native_car_rows": 12936,
+  "aligned_car_rows": 6729,
+  "position_rows": 0,
+  "motion_qc_pass_laps": 15,
+  "conditional_motion_candidates": 2,
+  "exclusion_counts": {
+    "native_motion_qc_failed": 5,
+    "gap_missing_or_over_limit": 17,
+    "lap_edge_coverage_missing_or_over_limit": 5,
+    "pit_out_or_unknown": 5,
+    "weather_missing_stale_or_ambiguous": 5,
+    "rain_reported_or_unknown": 5,
+    "stint_unknown_or_ambiguous": 5,
+    "wet_or_unknown_tyre_compound": 5,
+    "pit_activity_reported": 5
+  },
+  "outputs": {
+    "driver-37-laps.json": "2066ada01c9843fca60f5a4c7fd15b9732059f9e49ea1a71e7e6c8ccee41f1f7",
+    "driver-37-car.csv.gz": "8babd728851f60998c31cbada72027f877b3483d18842b1da06644f3822ada5b"
+  }
+}

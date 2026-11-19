@@ -1,0 +1,24 @@
+{
+  "hash_checks": 21,
+  "independent_rollout_checks": [
+    {
+      "rollout": "untrained",
+      "energy_residual_j": -8.396455086767673e-09,
+      "duration_s": 109.85502191571526
+    },
+    {
+      "rollout": "trained_training_grid",
+      "energy_residual_j": -1.7855199985206127e-08,
+      "duration_s": 109.22968580081601
+    },
+    {
+      "rollout": "trained_fine_grid",
+      "energy_residual_j": -3.1970557756721973e-08,
+      "duration_s": 108.84913820011505
+    }
+  ],
+  "changed_parameter_tensors": 13,
+  "max_parameter_change": 0.1886579841375351,
+  "figures_visually_inspected": true,
+  "figures_hash_checked": 4
+}

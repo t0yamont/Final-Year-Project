@@ -1,0 +1,125 @@
+{
+  "protocol": {
+    "study": "Longer GPU learning-budget study on the fixed assumed Bahrain model",
+    "baselines": "results/circuit-control-baselines-001",
+    "training_seeds": [
+      0,
+      1,
+      2
+    ],
+    "steps_per_seed": 16384,
+    "checkpoint_steps": [
+      0,
+      4096,
+      8192,
+      12288,
+      16384
+    ],
+    "stochastic_evaluation_seeds": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "parallel_workers": 3,
+    "hyperparameters": {
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "gamma": 1.0,
+      "gae_lambda": 0.95,
+      "learning_rate": 0.0003,
+      "clip_range": 0.2,
+      "ent_coef": 0.0,
+      "net_arch": [
+        32,
+        32
+      ]
+    },
+    "primary_endpoint": "Final deterministic fine-grid policy from every training seed; no best-checkpoint selection",
+    "secondary_endpoint": "Final stochastic coarse/fine paired evaluations with five fixed action-noise seeds; summarize within training seed first",
+    "aggregation": "Mean, sample standard deviation and range across three training seeds; no significance or convergence claim from this sample alone",
+    "conditions": "Same55 decisions/lap, model, initial/terminal70 m/s, battery/reserve and reward as accepted pilot; no empirical final-test inputs",
+    "rng_isolation": "Every evaluation restores Python, NumPy, torch CPU and all CUDA RNG states; each coarse/fine stochastic member starts from the same evaluation seed",
+    "schedule": "Constant learning rate and clip range; training state persists across4096-step learn calls; separate evaluation environments",
+    "gate": "All reported final policies feasible; absolute gain-versus-zero discrepancy <=0.05 s between training and fine grids for deterministic and each stochastic pair",
+    "failure_policy": "Preserve failed seeds and partial checkpoints; do not exclude a seed to improve the average. All three must complete for an accepted study."
+  },
+  "config": {
+    "reference_config": "configs/circuit_reference.json",
+    "numerical_gate": "results/circuit-validation-004",
+    "action_blocks": 55,
+    "cells_per_block": [
+      20,
+      40,
+      80,
+      160
+    ],
+    "fine_cells_per_block": 160,
+    "initial_speed_mps": 70.0,
+    "policies": [
+      "zero",
+      "half",
+      "full",
+      "spread",
+      "exit_boost"
+    ],
+    "gates": {
+      "relative_lap_time": 0.005,
+      "gain_error_s": 0.05,
+      "ranking_tie_s": 0.02
+    },
+    "cadence_sensitivity_blocks": 110,
+    "pilot": {
+      "seed": 0,
+      "steps": 4096,
+      "gamma": 1.0,
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "net_arch": [
+        32,
+        32
+      ]
+    },
+    "interpretation": "Bounded model-based controller study. Baseline ranking and time-gain checks support a pilot, not a continuous-action optimum or general grid-independent RL ranking. Replay the trained policy at the fine grid."
+  },
+  "seed": 2,
+  "gpu": {
+    "device": "cuda:0",
+    "gpu_name": "NVIDIA A16-16Q",
+    "total_memory_bytes": 17179410432,
+    "compute_capability": [
+      8,
+      6
+    ],
+    "torch_version": "2.14.1+cu126",
+    "cuda_runtime": "12.6",
+    "cudnn_version": 91002,
+    "cuda_optimizer_smoke_passed": true,
+    "cpu_fallback_allowed": false
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "69b5f4ffac4a297cfa8dcecb9fd57ebf4a03acf800363f162e2338a3e1b78e52",
+    "src\\f1energy\\event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\train_circuit_multiseed.py": "98bb4518787ed3a19cb5afa03d4ffd68f1cc392f01d2435e28fbd1fdbec79ea9",
+    "scripts\\benchmark_circuit_control.py": "782b00b91a3d53bd879bb35c4ea6be3f32ee0d7ecb31efa14d7f4e0d5fa98625",
+    "src\\f1energy\\experiment.py": "59de362c2cfa54f456ff4df925d2702d9ca555a793dedfb6bf37ee72749fee4a",
+    "src\\f1energy\\training_device.py": "5e9eff32770f5413707808049ae46e72040cb99bdd3dd76111d68acd7925e814",
+    "src\\f1energy\\circuit_training_gate.py": "ee4291988beb2ec37474060bfc7cdcd01b351a3263922f610e2d8ad6a2a0da3f"
+  },
+  "inputs": {
+    "configs\\circuit_multiseed_protocol.json": "c8f349200400ff8c75f6783bab5ca28514a1f283531ce4840244878ff4f9cfeb",
+    "results\\circuit-control-baselines-001\\manifest.json": "3c2b27317c8b6aeed262cb4482fe2647acb47ce94295ba25420fc524a3836bbf"
+  },
+  "selected_cells": 80,
+  "versions": {
+    "python": "3.12.10",
+    "torch": "2.14.1+cu126",
+    "sb3": "2.9.2",
+    "numpy": "2.5.4"
+  }
+}

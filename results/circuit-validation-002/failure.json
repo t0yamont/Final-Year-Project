@@ -1,0 +1,1 @@
+{"status":"failed_before_simulation","reason":"Windows path-key mismatch in new cache loader; corrected with str(Path(p)).","log":"logs/agent_tools/2026-11-11/circuit_validation_002.txt","superseded_by":"circuit-validation-003"}

@@ -1,0 +1,211 @@
+[
+  {
+    "url": "https://api.openf1.org/v1/drivers?session_key=10006",
+    "cache_key": "996abec857fe1ed5b8e296be0e3b36c12518366f548859f1dd57e2bee47ecd45",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:02.634923+00:00",
+    "bytes": 8335,
+    "sha256": "bbd71caeaf3c2eafae56115f2000cfe12b2afbfb10294af689f606ffed4e7ef1",
+    "rows": 20
+  },
+  {
+    "url": "https://api.openf1.org/v1/weather?session_key=10006",
+    "cache_key": "63c16f295a0ebe25a96c645fccfeef5113c8f9485b87a334e6a29868e3a4460d",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:04.732118+00:00",
+    "bytes": 30216,
+    "sha256": "1f99d01e0f3ee74ff7c83439a88bdacdd298cb7769ad4884a45639adbb280ae0",
+    "rows": 140
+  },
+  {
+    "url": "https://api.openf1.org/v1/race_control?session_key=10006",
+    "cache_key": "d0e003577ab736f2a59b6916ae3f6b2f7651b5b896356bf0f8fa169fc7f14b68",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:06.868610+00:00",
+    "bytes": 6721,
+    "sha256": "d9be6616aa11d88d0796643a7a015e2687a2f46af2fd1c54f328ec69333fb4e7",
+    "rows": 25
+  },
+  {
+    "url": "https://api.openf1.org/v1/stints?session_key=10006",
+    "cache_key": "5ee6bd1f1cb28a5c6ede8edb90f8fa33f4b22df63247c4c857b37a97380410e5",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:09.115139+00:00",
+    "bytes": 5953,
+    "sha256": "ff476b7f2b778735c0c3b3bc7fa2a7685d7f581d6761500e3c5e4fc659d1f00e",
+    "rows": 41
+  },
+  {
+    "url": "https://api.openf1.org/v1/pit?session_key=10006",
+    "cache_key": "a25b384c72e43502c9f60d92b9f0705ae35969390554804b9d0d2a087e0fcffb",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:11.031142+00:00",
+    "bytes": 3836,
+    "sha256": "15834a793db596a1874eda8b7e054b40a114cfe4cffd81d22b64ce100c7c8c05",
+    "rows": 21
+  },
+  {
+    "url": "https://api.openf1.org/v1/laps?session_key=10006&driver_number=1",
+    "cache_key": "2bfce840534e01b9decf378b0e407a6b06810b953a9babcdc898fb9581c339f7",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:13.144756+00:00",
+    "bytes": 25937,
+    "sha256": "11141a601b004e8a0d5a85b321f8c058b9e542f4a2ed811cc0673fb71d4ed7bf",
+    "rows": 53
+  },
+  {
+    "url": "https://api.openf1.org/v1/car_data?session_key=10006&driver_number=1&date%3E=2025-04-06T05%3A03%3A47.079999%2B00%3A00&date%3C=2025-04-06T05%3A18%3A47.080000%2B00%3A00",
+    "cache_key": "fca5751efd28c54e56cf55ce1f378d01df07c168521389ec88780b962c52a081",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:16.317636+00:00",
+    "bytes": 567120,
+    "sha256": "f986b8c458258fc9fff2f1aa7744745e7f41eb958b21ddf31f817312173adc6d",
+    "rows": 3370
+  },
+  {
+    "url": "https://api.openf1.org/v1/car_data?session_key=10006&driver_number=1&date%3E=2025-04-06T05%3A18%3A47.079999%2B00%3A00&date%3C=2025-04-06T05%3A33%3A47.080000%2B00%3A00",
+    "cache_key": "1f3180c198debce0f01750d720542c68e72b5a2c43416de9b0dc3c8a461e9709",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:17.846947+00:00",
+    "bytes": 568286,
+    "sha256": "101eb807fa0051992b0d0b5ac9ea95d1b455e063525d4b1830c9c457802ababa",
+    "rows": 3377
+  },
+  {
+    "url": "https://api.openf1.org/v1/car_data?session_key=10006&driver_number=1&date%3E=2025-04-06T05%3A33%3A47.079999%2B00%3A00&date%3C=2025-04-06T05%3A48%3A47.080000%2B00%3A00",
+    "cache_key": "a142075e2e39f72a514d5d0e561ae64cd88c0214bd5b30b41d266b8022547fd7",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:19.816061+00:00",
+    "bytes": 561907,
+    "sha256": "ddd4cb24d0a103dba12d6f34bda50f6f69000a3904357a9924c7b280fd157c6e",
+    "rows": 3339
+  },
+  {
+    "url": "https://api.openf1.org/v1/car_data?session_key=10006&driver_number=1&date%3E=2025-04-06T05%3A48%3A47.079999%2B00%3A00&date%3C=2025-04-06T06%3A03%3A47.080000%2B00%3A00",
+    "cache_key": "20f8295e6952d2b04f074bc8f1e6292f7fb8fcf64fb50563e7063c2931282a47",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:22.058846+00:00",
+    "bytes": 565471,
+    "sha256": "53f389e831e7d3cb687000b386157f8584d932485c056fa6653bf7d242e7bdb9",
+    "rows": 3359
+  },
+  {
+    "url": "https://api.openf1.org/v1/car_data?session_key=10006&driver_number=1&date%3E=2025-04-06T06%3A03%3A47.079999%2B00%3A00&date%3C=2025-04-06T06%3A18%3A47.080000%2B00%3A00",
+    "cache_key": "278ba2aa0c7fced755eac2f7b3aa7acd3f02a526e8c9d4671bcfd2b6d4fd0eb0",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:24.031275+00:00",
+    "bytes": 563752,
+    "sha256": "2376f485fcd7cb50e74d77f63ac0d2978d85e83da31c99f6a3cae808ff1d394e",
+    "rows": 3348
+  },
+  {
+    "url": "https://api.openf1.org/v1/car_data?session_key=10006&driver_number=1&date%3E=2025-04-06T06%3A18%3A47.079999%2B00%3A00&date%3C=2025-04-06T06%3A25%3A54.617000%2B00%3A00",
+    "cache_key": "f98c9b207658f3d27d81e42ac3fa9fae03f798a2d1616629a98e423713f1ce67",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:26.038483+00:00",
+    "bytes": 271102,
+    "sha256": "93fbc33d9e270a8c2201d32bae57d227231adf59e9196c21f210313c4ceea6cc",
+    "rows": 1610
+  },
+  {
+    "url": "https://api.openf1.org/v1/laps?session_key=10006&driver_number=22",
+    "cache_key": "df93808e00a7c64da62cb34021bd43335e5a57c635f3a3540b0d1f0cbd1683f8",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:27.847367+00:00",
+    "bytes": 26004,
+    "sha256": "b0cbc2bf0c22c73eae3a9e84dc24fa00c9b6efa9ad65d78b5848c5eae0d7195d",
+    "rows": 53
+  },
+  {
+    "url": "https://api.openf1.org/v1/car_data?session_key=10006&driver_number=22&date%3E=2025-04-06T05%3A03%3A47.079999%2B00%3A00&date%3C=2025-04-06T05%3A18%3A47.080000%2B00%3A00",
+    "cache_key": "2ff6051dbeed21c42a365da709148c0d44850c8cf169f81b00d33602223387c9",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:30.406593+00:00",
+    "bytes": 570640,
+    "sha256": "367f27468409ba33c85b7b7895de3721868606c8fe63ce79efff232b7e3a000d",
+    "rows": 3370
+  },
+  {
+    "url": "https://api.openf1.org/v1/car_data?session_key=10006&driver_number=22&date%3E=2025-04-06T05%3A18%3A47.079999%2B00%3A00&date%3C=2025-04-06T05%3A33%3A47.080000%2B00%3A00",
+    "cache_key": "c581691f47364596cd5e933a7104ae62824211a1986521f20d634b490996d2d1",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:32.631660+00:00",
+    "bytes": 572074,
+    "sha256": "c03a9ad3a13735f92ffac18bbc6b95bf2ecd9209f0c40767f6aaecb3f04c5e73",
+    "rows": 3377
+  },
+  {
+    "url": "https://api.openf1.org/v1/car_data?session_key=10006&driver_number=22&date%3E=2025-04-06T05%3A33%3A47.079999%2B00%3A00&date%3C=2025-04-06T05%3A48%3A47.080000%2B00%3A00",
+    "cache_key": "c26e989b4185b76effa1122322526ed9d1739981717fb1110c3a488d23913414",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:34.511852+00:00",
+    "bytes": 565351,
+    "sha256": "85a53bb44ed6ba0dd06557dddb4cf68b82240af6f1201ea03c4ca0c75f6ce770",
+    "rows": 3339
+  },
+  {
+    "url": "https://api.openf1.org/v1/car_data?session_key=10006&driver_number=22&date%3E=2025-04-06T05%3A48%3A47.079999%2B00%3A00&date%3C=2025-04-06T06%3A03%3A47.080000%2B00%3A00",
+    "cache_key": "b00992218477b143665dd39d59b9d973bc113428d10f3d9cfc851641afc7713d",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:36.732663+00:00",
+    "bytes": 568577,
+    "sha256": "0cf072460b1bd9261039f326855bfedf1e6b332caf0b7aaa94d77a0d22377d19",
+    "rows": 3359
+  },
+  {
+    "url": "https://api.openf1.org/v1/car_data?session_key=10006&driver_number=22&date%3E=2025-04-06T06%3A03%3A47.079999%2B00%3A00&date%3C=2025-04-06T06%3A18%3A47.080000%2B00%3A00",
+    "cache_key": "4067b31dab525c5731d51cff43e92c347b4d9f090877313aa732b79892ce0c8b",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:38.785048+00:00",
+    "bytes": 566742,
+    "sha256": "44d66ebd0482a63780a83e9c145a713d20353b82dadbee64858254c4752061f9",
+    "rows": 3348
+  },
+  {
+    "url": "https://api.openf1.org/v1/car_data?session_key=10006&driver_number=22&date%3E=2025-04-06T06%3A18%3A47.079999%2B00%3A00&date%3C=2025-04-06T06%3A26%3A52.846000%2B00%3A00",
+    "cache_key": "ffe52575b6a13ae85483df53ec6488a7628b5735754e6de035445859fe420f0b",
+    "cache_hit": false,
+    "attempt": 1,
+    "status": 200,
+    "retrieved_utc": "2026-11-10T22:02:40.738940+00:00",
+    "bytes": 307829,
+    "sha256": "66df151020701e281f0fee0604353d428a8b37c2f72b18ece83399f8de5865f9",
+    "rows": 1818
+  }
+]

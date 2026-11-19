@@ -1,0 +1,128 @@
+[
+  {
+    "role": "development",
+    "event": "1256",
+    "windows": 1404,
+    "lap_drs_groups": 9,
+    "unique_laps": 9,
+    "rmse_macro": {
+      "constant": 3.4999671043487877,
+      "reference_base": 3.162412445674897,
+      "reference_full": 2.315199429791994,
+      "development_fit_median": 1.930853209893336
+    },
+    "bias_macro": {
+      "constant": 0.16437033183759092,
+      "reference_base": -2.37213189225586,
+      "reference_full": -0.274229191923933,
+      "development_fit_median": -0.07419824443810123
+    },
+    "fraction_outside_common_speed_range": 0.004273504273504274,
+    "fraction_inside_reference_power_band": 0.3525641025641026
+  },
+  {
+    "role": "development",
+    "event": "1257",
+    "windows": 1062,
+    "lap_drs_groups": 15,
+    "unique_laps": 8,
+    "rmse_macro": {
+      "constant": 3.959377081631572,
+      "reference_base": 4.180353021946975,
+      "reference_full": 3.3192148894405302,
+      "development_fit_median": 2.7632040629972945
+    },
+    "bias_macro": {
+      "constant": -0.01748345010628126,
+      "reference_base": -2.8031006547301076,
+      "reference_full": -0.527670744625659,
+      "development_fit_median": -0.046691074558512916
+    },
+    "fraction_outside_common_speed_range": 0.01224105461393597,
+    "fraction_inside_reference_power_band": 0.2806026365348399
+  },
+  {
+    "role": "development",
+    "event": "1262",
+    "windows": 1005,
+    "lap_drs_groups": 11,
+    "unique_laps": 10,
+    "rmse_macro": {
+      "constant": 3.287875280091993,
+      "reference_base": 3.3701234736927876,
+      "reference_full": 2.4670902199543736,
+      "development_fit_median": 1.992988510406703
+    },
+    "bias_macro": {
+      "constant": 0.26907290063975053,
+      "reference_base": -2.5184361770986876,
+      "reference_full": -0.3601012116689949,
+      "development_fit_median": -0.1993119585768673
+    },
+    "fraction_outside_common_speed_range": 0.024875621890547265,
+    "fraction_inside_reference_power_band": 0.34328358208955223
+  },
+  {
+    "role": "development",
+    "event": "1268",
+    "windows": 1639,
+    "lap_drs_groups": 11,
+    "unique_laps": 10,
+    "rmse_macro": {
+      "constant": 3.2781659507985923,
+      "reference_base": 4.33883370362398,
+      "reference_full": 2.8866094144885355,
+      "development_fit_median": 1.7797461184090941
+    },
+    "bias_macro": {
+      "constant": 0.42982946792937055,
+      "reference_base": -3.899860124216023,
+      "reference_full": -2.005689676779612,
+      "development_fit_median": 0.0046057745921370685
+    },
+    "fraction_outside_common_speed_range": 0.020134228187919462,
+    "fraction_inside_reference_power_band": 0.1293471629042099
+  },
+  {
+    "role": "validation",
+    "event": "1266",
+    "windows": 5196,
+    "lap_drs_groups": 83,
+    "unique_laps": 45,
+    "rmse_macro": {
+      "constant": 4.578012469725044,
+      "reference_base": 3.7933181741659623,
+      "reference_full": 3.168593148493269,
+      "development_fit_median": 2.775630430497926
+    },
+    "bias_macro": {
+      "constant": -2.1606019641132943,
+      "reference_base": -2.3210160493347343,
+      "reference_full": 0.12514503685753686,
+      "development_fit_median": 0.08645076298944428
+    },
+    "fraction_outside_common_speed_range": 0.0573518090839107,
+    "fraction_inside_reference_power_band": 0.3716320246343341
+  },
+  {
+    "role": "validation",
+    "event": "1277",
+    "windows": 3560,
+    "lap_drs_groups": 32,
+    "unique_laps": 20,
+    "rmse_macro": {
+      "constant": 3.3535625239219264,
+      "reference_base": 3.8210157527347084,
+      "reference_full": 2.526816321000548,
+      "development_fit_median": 1.921691892689397
+    },
+    "bias_macro": {
+      "constant": 0.5530966240655705,
+      "reference_base": -3.2738667241654227,
+      "reference_full": -1.2755187194598219,
+      "development_fit_median": -0.17043537303582243
+    },
+    "fraction_outside_common_speed_range": 0.16067415730337078,
+    "fraction_inside_reference_power_band": 0.22724719101123594
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "parent": "results/regeneration-dp-factorial-001",
+  "corner": "110",
+  "widths": [16,32,64],
+  "search_cells": 80,
+  "replay_cells": [80,160,320],
+  "primary_cells": 160,
+  "stability_s": 0.05,
+  "gap_change_s": 0.005,
+  "selection": "Full request incumbent in each independent search. Hold five actions, original speed and energy bins, solver and 55 blocks fixed. Report all widths. Compare 16 to 32 and 32 to 64 on both replay grids.",
+  "stop": "No width beyond 64. Report both adjacent changes and compare the final pair against 50 ms. A pass supports local stability only."
+}

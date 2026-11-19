@@ -1,0 +1,191 @@
+[
+  {
+    "role": "development",
+    "event": "1256",
+    "session": "Practice 1",
+    "windows": 1200,
+    "laps": 8
+  },
+  {
+    "role": "development",
+    "event": "1256",
+    "session": "Practice 3",
+    "windows": 1466,
+    "laps": 8
+  },
+  {
+    "role": "development",
+    "event": "1256",
+    "session": "Race",
+    "windows": 3258,
+    "laps": 19
+  },
+  {
+    "role": "development",
+    "event": "1257",
+    "session": "Practice 2",
+    "windows": 1320,
+    "laps": 9
+  },
+  {
+    "role": "development",
+    "event": "1257",
+    "session": "Practice 3",
+    "windows": 159,
+    "laps": 1
+  },
+  {
+    "role": "development",
+    "event": "1257",
+    "session": "Qualifying",
+    "windows": 480,
+    "laps": 3
+  },
+  {
+    "role": "development",
+    "event": "1257",
+    "session": "Race",
+    "windows": 3314,
+    "laps": 24
+  },
+  {
+    "role": "development",
+    "event": "1262",
+    "session": "Practice 1",
+    "windows": 680,
+    "laps": 5
+  },
+  {
+    "role": "development",
+    "event": "1262",
+    "session": "Practice 2",
+    "windows": 1148,
+    "laps": 9
+  },
+  {
+    "role": "development",
+    "event": "1262",
+    "session": "Practice 3",
+    "windows": 4,
+    "laps": 1
+  },
+  {
+    "role": "development",
+    "event": "1262",
+    "session": "Qualifying",
+    "windows": 154,
+    "laps": 1
+  },
+  {
+    "role": "development",
+    "event": "1262",
+    "session": "Race",
+    "windows": 3197,
+    "laps": 25
+  },
+  {
+    "role": "development",
+    "event": "1268",
+    "session": "Practice 1",
+    "windows": 602,
+    "laps": 3
+  },
+  {
+    "role": "development",
+    "event": "1268",
+    "session": "Practice 2",
+    "windows": 1211,
+    "laps": 8
+  },
+  {
+    "role": "development",
+    "event": "1268",
+    "session": "Practice 3",
+    "windows": 560,
+    "laps": 3
+  },
+  {
+    "role": "development",
+    "event": "1268",
+    "session": "Qualifying",
+    "windows": 385,
+    "laps": 2
+  },
+  {
+    "role": "development",
+    "event": "1268",
+    "session": "Race",
+    "windows": 4144,
+    "laps": 21
+  },
+  {
+    "role": "validation",
+    "event": "1266",
+    "session": "Practice 1",
+    "windows": 655,
+    "laps": 5
+  },
+  {
+    "role": "validation",
+    "event": "1266",
+    "session": "Practice 2",
+    "windows": 250,
+    "laps": 2
+  },
+  {
+    "role": "validation",
+    "event": "1266",
+    "session": "Practice 3",
+    "windows": 391,
+    "laps": 4
+  },
+  {
+    "role": "validation",
+    "event": "1266",
+    "session": "Qualifying",
+    "windows": 522,
+    "laps": 4
+  },
+  {
+    "role": "validation",
+    "event": "1266",
+    "session": "Race",
+    "windows": 3382,
+    "laps": 30
+  },
+  {
+    "role": "validation",
+    "event": "1277",
+    "session": "Practice 1",
+    "windows": 1112,
+    "laps": 6
+  },
+  {
+    "role": "validation",
+    "event": "1277",
+    "session": "Practice 2",
+    "windows": 903,
+    "laps": 5
+  },
+  {
+    "role": "validation",
+    "event": "1277",
+    "session": "Practice 3",
+    "windows": 182,
+    "laps": 1
+  },
+  {
+    "role": "validation",
+    "event": "1277",
+    "session": "Qualifying",
+    "windows": 551,
+    "laps": 3
+  },
+  {
+    "role": "validation",
+    "event": "1277",
+    "session": "Race",
+    "windows": 817,
+    "laps": 5
+  }
+]

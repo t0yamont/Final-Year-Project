@@ -1,0 +1,57 @@
+{
+  "hash_checks": 37,
+  "replays_checked": 20,
+  "current_training_gate_passed": true,
+  "legacy_training_gate_rejected": true,
+  "descriptive_grid_diagnostics": [
+    {
+      "policy": "zero",
+      "fine_time_s": 109.47520646143805,
+      "fine_regeneration_gain_s": 2.1032064978498966e-12,
+      "cross_mode_gain_grid_discrepancy_s": 1.2249756764504127e-10,
+      "recovery_grid_discrepancy_j": 1.862645149230957e-09,
+      "terminal_energy_grid_discrepancy_j": 0.0
+    },
+    {
+      "policy": "half",
+      "fine_time_s": 107.72028110543953,
+      "fine_regeneration_gain_s": 0.9237022853265842,
+      "cross_mode_gain_grid_discrepancy_s": 0.0080480726349208,
+      "recovery_grid_discrepancy_j": 6.984919309616089e-10,
+      "terminal_energy_grid_discrepancy_j": 0.0
+    },
+    {
+      "policy": "full",
+      "fine_time_s": 107.68731467202234,
+      "fine_regeneration_gain_s": 0.9207919949359535,
+      "cross_mode_gain_grid_discrepancy_s": 5.2305838252664216e-05,
+      "recovery_grid_discrepancy_j": 4.656612873077393e-10,
+      "terminal_energy_grid_discrepancy_j": 0.0
+    },
+    {
+      "policy": "spread",
+      "fine_time_s": 107.9518537764125,
+      "fine_regeneration_gain_s": 0.7274728763571403,
+      "cross_mode_gain_grid_discrepancy_s": 0.0023476922470280215,
+      "recovery_grid_discrepancy_j": 1.6298145055770874e-09,
+      "terminal_energy_grid_discrepancy_j": 9011.806203325861
+    },
+    {
+      "policy": "exit_boost",
+      "fine_time_s": 108.62819093882047,
+      "fine_regeneration_gain_s": 2.0179413695586845e-12,
+      "cross_mode_gain_grid_discrepancy_s": 1.227391521751997e-10,
+      "recovery_grid_discrepancy_j": 0.0,
+      "terminal_energy_grid_discrepancy_j": 1386.7221872522496
+    }
+  ],
+  "scope": "Additional energy and cross-mode differences are descriptive diagnostics, not post-hoc acceptance thresholds.",
+  "figures_visually_inspected": [
+    "01_regeneration_comparison.png",
+    "02_battery_recovery.png"
+  ],
+  "historical_output_hash_checks": 388,
+  "historical_outputs_unchanged": true,
+  "unit_tests_passed": 141,
+  "legacy_exact_parity_cases": 6
+}

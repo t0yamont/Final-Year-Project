@@ -1,0 +1,36 @@
+{
+  "hash_checks": 22,
+  "replays": {
+    "untrained.json.gz": {
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 9271.636826822989,
+      "max_work_residual_j": 6.402842700481415e-09,
+      "max_battery_residual_j": 6.1587854816025356e-09
+    },
+    "trained_training_grid.json.gz": {
+      "recovered_j": 1999999.9999999993,
+      "discharged_j": 3899999.999999996,
+      "max_work_residual_j": 5.718902684748173e-09,
+      "max_battery_residual_j": 2.764863893389702e-09
+    },
+    "trained_fine_grid.json.gz": {
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 3900000.0000000056,
+      "max_work_residual_j": 1.1059455573558807e-08,
+      "max_battery_residual_j": 4.059984348714352e-09
+    }
+  },
+  "observation_shape": [
+    8
+  ],
+  "reloaded_policy_device": "cuda:0",
+  "pilot_gate_passed": true,
+  "checkpoint_reload_exact": true,
+  "fine_advantage_vs_best_baseline_s": 0.013642090169312837,
+  "coarse_advantage_vs_best_baseline_s": 0.00688333818371234,
+  "paired_advantage_grid_discrepancy_s": 0.006758751985600497,
+  "interpretation": "One short seed. Small paired advantage requires multi-seed and tighter paired grid evidence before a superiority claim.",
+  "figure_output_hash_checks": 4,
+  "figures_visually_inspected": true,
+  "training_completed": true
+}

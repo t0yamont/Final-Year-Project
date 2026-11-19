@@ -1,0 +1,20 @@
+[
+  {
+    "source": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\work\\publication\\verify-cf7b47d",
+    "destination": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001-cleanup-archive-2026-11-12\\old-publication-verification",
+    "file_count": 422,
+    "bytes": 45252977.0
+  },
+  {
+    "source": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\work\\diagnostic\\cache",
+    "destination": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001-cleanup-archive-2026-11-12\\duplicate-diagnostic-cache",
+    "file_count": 6,
+    "bytes": 88629353.0
+  },
+  {
+    "source": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\work\\figure-review.png",
+    "destination": "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001-cleanup-archive-2026-11-12\\figure-review.png",
+    "file_count": 1,
+    "bytes": 324813.0
+  }
+]

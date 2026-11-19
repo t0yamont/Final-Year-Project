@@ -1,0 +1,3 @@
+Model frozen before separate-lap scoring [3.11265489e+01 4.69679461e-03 2.79649200e+01 3.70571410e+02
+ 4.50002528e-01 8.25103435e-01]
+Held-out gates False

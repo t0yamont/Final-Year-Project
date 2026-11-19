@@ -1,0 +1,464 @@
+{
+  "results": {
+    "160": {
+      "full": {
+        "duration_s": 88.08673818580888,
+        "final_energy_j": 100000.0,
+        "terminal_speed_error_mps": -0.9730568760281386,
+        "energy_residual_j": -1.4771285528070166e-08,
+        "feasible": false,
+        "recovered_j": 1468459.7541032059,
+        "discharged_j": 3368459.7541032014,
+        "max_work_residual_j": 9.66247171163559e-09,
+        "max_battery_residual_j": 2.7212081477046013e-09,
+        "file": "results\\bahrain-deployment-zones-001\\high_grip\\full_160.json.gz",
+        "wheel_assist_j": 3031613.7786928806
+      },
+      "spread": {
+        "duration_s": 88.57783578942804,
+        "final_energy_j": 181048.48894564094,
+        "terminal_speed_error_mps": 4.263256414560601e-14,
+        "energy_residual_j": -1.4744635401520156e-08,
+        "feasible": true,
+        "recovered_j": 1479697.8076303075,
+        "discharged_j": 3298649.3186846715,
+        "max_work_residual_j": 9.080395102500916e-09,
+        "max_battery_residual_j": 6.864866008982062e-09,
+        "file": "results\\bahrain-deployment-zones-001\\high_grip\\spread_160.json.gz",
+        "wheel_assist_j": 2968784.386816204
+      },
+      "zero": {
+        "duration_s": 90.30492196794033,
+        "final_energy_j": 3404822.8960457235,
+        "terminal_speed_error_mps": -1.5187554296038854,
+        "energy_residual_j": 8.448592270227095e-09,
+        "feasible": false,
+        "recovered_j": 1404822.8960457288,
+        "discharged_j": 0.0,
+        "max_work_residual_j": 1.0360963642597198e-08,
+        "max_battery_residual_j": 5.50062395632267e-09,
+        "file": "results\\bahrain-deployment-zones-001\\high_grip\\zero_160.json.gz",
+        "wheel_assist_j": 0.0
+      },
+      "finish_only": {
+        "duration_s": 90.14168123088956,
+        "final_energy_j": 2907272.3885384444,
+        "terminal_speed_error_mps": 1.4210854715202004e-14,
+        "energy_residual_j": 1.2822124917377664e-08,
+        "feasible": true,
+        "recovered_j": 1415269.787766904,
+        "discharged_j": 507997.39922845946,
+        "max_work_residual_j": 1.0360963642597198e-08,
+        "max_battery_residual_j": 5.50062395632267e-09,
+        "file": "results\\bahrain-deployment-zones-001\\high_grip\\finish_only_160.json.gz",
+        "wheel_assist_j": 457197.6593056135
+      },
+      "selected": {
+        "duration_s": 87.57667066504344,
+        "final_energy_j": 100223.53438220563,
+        "terminal_speed_error_mps": 0.0,
+        "energy_residual_j": -3.561880124181016e-09,
+        "feasible": true,
+        "recovered_j": 1462442.7316282035,
+        "discharged_j": 3362219.197246017,
+        "max_work_residual_j": 9.080395102500916e-09,
+        "max_battery_residual_j": 3.1650415621697903e-09,
+        "file": "results\\bahrain-deployment-zones-001\\high_grip\\selected_160.json.gz",
+        "wheel_assist_j": 3025997.2775214156
+      },
+      "central_transfer": {
+        "duration_s": 87.58893640965734,
+        "final_energy_j": 100000.0,
+        "terminal_speed_error_mps": -0.09947049130869345,
+        "energy_residual_j": -3.455774144622836e-08,
+        "feasible": false,
+        "recovered_j": 1459526.5819500017,
+        "discharged_j": 3359526.5819500093,
+        "max_work_residual_j": 1.0011717677116394e-08,
+        "max_battery_residual_j": 3.485183697193861e-09,
+        "file": "results\\bahrain-deployment-zones-001\\high_grip\\central_transfer_160.json.gz",
+        "wheel_assist_j": 3023573.9237550087
+      }
+    },
+    "320": {
+      "full": {
+        "duration_s": 87.97226211325082,
+        "final_energy_j": 100000.0,
+        "terminal_speed_error_mps": -0.9647724123673669,
+        "energy_residual_j": -2.4846656954125024e-08,
+        "feasible": false,
+        "recovered_j": 1470018.0511961675,
+        "discharged_j": 3370018.051196165,
+        "max_work_residual_j": 2.648448571562767e-08,
+        "max_battery_residual_j": 5.413312464952469e-09,
+        "file": "results\\bahrain-deployment-zones-001\\high_grip\\full_320.json.gz",
+        "wheel_assist_j": 3033016.246076548
+      },
+      "spread": {
+        "duration_s": 88.46209198457427,
+        "final_energy_j": 180106.18507488316,
+        "terminal_speed_error_mps": -1.4210854715202004e-14,
+        "energy_residual_j": 1.3751941807527146e-09,
+        "feasible": true,
+        "recovered_j": 1481283.6892462769,
+        "discharged_j": 3301177.504171436,
+        "max_work_residual_j": 2.0809238776564598e-08,
+        "max_battery_residual_j": 6.51925802230835e-09,
+        "file": "results\\bahrain-deployment-zones-001\\high_grip\\spread_320.json.gz",
+        "wheel_assist_j": 2971059.7537542926
+      },
+      "zero": {
+        "duration_s": 90.19261915548371,
+        "final_energy_j": 3406349.751184891,
+        "terminal_speed_error_mps": -1.511805428961594,
+        "energy_residual_j": -2.5784159030095566e-08,
+        "feasible": false,
+        "recovered_j": 1406349.751184873,
+        "discharged_j": 0.0,
+        "max_work_residual_j": 1.146690919995308e-08,
+        "max_battery_residual_j": 8.556526154279709e-09,
+        "file": "results\\bahrain-deployment-zones-001\\high_grip\\zero_320.json.gz",
+        "wheel_assist_j": 0.0
+      },
+      "finish_only": {
+        "duration_s": 90.02946861570163,
+        "final_energy_j": 2908911.599087262,
+        "terminal_speed_error_mps": 2.842170943040401e-14,
+        "energy_residual_j": -2.084766337340227e-08,
+        "feasible": true,
+        "recovered_j": 1416813.631531901,
+        "discharged_j": 507902.03244465386,
+        "max_work_residual_j": 1.775333657860756e-08,
+        "max_battery_residual_j": 8.556526154279709e-09,
+        "file": "results\\bahrain-deployment-zones-001\\high_grip\\finish_only_320.json.gz",
+        "wheel_assist_j": 457111.8292001885
+      },
+      "selected": {
+        "duration_s": 87.46424219671385,
+        "final_energy_j": 100213.17854979889,
+        "terminal_speed_error_mps": 0.0,
+        "energy_residual_j": -1.176099229116545e-08,
+        "feasible": true,
+        "recovered_j": 1463946.8090456962,
+        "discharged_j": 3363733.630495903,
+        "max_work_residual_j": 1.1728843674063683e-08,
+        "max_battery_residual_j": 7.101334631443024e-09,
+        "file": "results\\bahrain-deployment-zones-001\\high_grip\\selected_320.json.gz",
+        "wheel_assist_j": 3027360.267446313
+      },
+      "central_transfer": {
+        "duration_s": 87.47470317251148,
+        "final_energy_j": 100000.0,
+        "terminal_speed_error_mps": -0.10083914396916782,
+        "energy_residual_j": -3.661452441239277e-08,
+        "feasible": false,
+        "recovered_j": 1461252.1569477948,
+        "discharged_j": 3361252.1569477967,
+        "max_work_residual_j": 2.648448571562767e-08,
+        "max_battery_residual_j": 5.413312464952469e-09,
+        "file": "results\\bahrain-deployment-zones-001\\high_grip\\central_transfer_320.json.gz",
+        "wheel_assist_j": 3025126.9412530176
+      }
+    }
+  },
+  "zones": {
+    "160": [
+      {
+        "start_block": 1,
+        "end_block": 3,
+        "wheel_assist_j": 309088.5306635848,
+        "from_m": 0.0,
+        "to_m": 294.8590431311816,
+        "peak_block_average_wheel_kw": 120.00000000000007,
+        "average_wheel_kw": 91.14740618199063,
+        "battery_charge_j": 0.0
+      },
+      {
+        "start_block": 7,
+        "end_block": 13,
+        "wheel_assist_j": 726499.2421494394,
+        "from_m": 589.7180596827337,
+        "to_m": 1269.9538896278857,
+        "peak_block_average_wheel_kw": 96.79545868750331,
+        "average_wheel_kw": 58.56377046597133,
+        "battery_charge_j": 256001.77231467108
+      },
+      {
+        "start_block": 17,
+        "end_block": 19,
+        "wheel_assist_j": 348819.0642733779,
+        "from_m": 1561.1942149749461,
+        "to_m": 1855.08853209846,
+        "peak_block_average_wheel_kw": 119.99999999999838,
+        "average_wheel_kw": 68.52887749323574,
+        "battery_charge_j": 90810.87902762796
+      },
+      {
+        "start_block": 23,
+        "end_block": 25,
+        "wheel_assist_j": 411970.8910918166,
+        "from_m": 2149.0790370089308,
+        "to_m": 2439.1387329902227,
+        "peak_block_average_wheel_kw": 120.00000000000003,
+        "average_wheel_kw": 65.85104229371957,
+        "battery_charge_j": 125928.83652533591
+      },
+      {
+        "start_block": 28,
+        "end_block": 29,
+        "wheel_assist_j": 341894.55937012826,
+        "from_m": 2635.188997106657,
+        "to_m": 2826.3128450986374,
+        "peak_block_average_wheel_kw": 89.9999999999993,
+        "average_wheel_kw": 73.83486577544659,
+        "battery_charge_j": 90920.5993941129
+      },
+      {
+        "start_block": 31,
+        "end_block": 31,
+        "wheel_assist_j": 80410.16693455707,
+        "from_m": 2924.5964560254843,
+        "to_m": 3022.882802634698,
+        "peak_block_average_wheel_kw": 60.00000000000025,
+        "average_wheel_kw": 60.00000000000025,
+        "battery_charge_j": 0.0
+      },
+      {
+        "start_block": 35,
+        "end_block": 36,
+        "wheel_assist_j": 272575.62024531467,
+        "from_m": 3317.7418318115833,
+        "to_m": 3511.732481670038,
+        "peak_block_average_wheel_kw": 90.00000000000023,
+        "average_wheel_kw": 64.7581104451151,
+        "battery_charge_j": 121106.70842028683
+      },
+      {
+        "start_block": 43,
+        "end_block": 43,
+        "wheel_assist_j": 218355.8067672843,
+        "from_m": 4098.55712337534,
+        "to_m": 4196.762664220854,
+        "peak_block_average_wheel_kw": 119.99999999999955,
+        "average_wheel_kw": 119.99999999999955,
+        "battery_charge_j": 0.0
+      },
+      {
+        "start_block": 45,
+        "end_block": 45,
+        "wheel_assist_j": 40989.89018806916,
+        "from_m": 4295.048632774216,
+        "to_m": 4393.334975660416,
+        "peak_block_average_wheel_kw": 29.999999999998842,
+        "average_wheel_kw": 29.999999999998842,
+        "battery_charge_j": 0.0
+      },
+      {
+        "start_block": 51,
+        "end_block": 52,
+        "wheel_assist_j": 275393.50583784346,
+        "from_m": 4881.543569781998,
+        "to_m": 5077.817980691546,
+        "peak_block_average_wheel_kw": 96.59497319525539,
+        "average_wheel_kw": 75.70743906520254,
+        "battery_charge_j": 0.0
+      }
+    ],
+    "320": [
+      {
+        "start_block": 1,
+        "end_block": 3,
+        "wheel_assist_j": 309088.53066358453,
+        "from_m": 0.0,
+        "to_m": 294.8590431311819,
+        "peak_block_average_wheel_kw": 119.99999999999989,
+        "average_wheel_kw": 91.14740618199046,
+        "battery_charge_j": 0.0
+      },
+      {
+        "start_block": 7,
+        "end_block": 13,
+        "wheel_assist_j": 727818.9857105617,
+        "from_m": 589.7180596827345,
+        "to_m": 1269.9538896278855,
+        "peak_block_average_wheel_kw": 97.20549267934786,
+        "average_wheel_kw": 58.78933578518568,
+        "battery_charge_j": 256611.58408061924
+      },
+      {
+        "start_block": 17,
+        "end_block": 19,
+        "wheel_assist_j": 349616.4436486424,
+        "from_m": 1561.1942149749452,
+        "to_m": 1855.088532098455,
+        "peak_block_average_wheel_kw": 120.0000000000014,
+        "average_wheel_kw": 68.75990965183124,
+        "battery_charge_j": 90919.11547833754
+      },
+      {
+        "start_block": 23,
+        "end_block": 25,
+        "wheel_assist_j": 411821.54185919976,
+        "from_m": 2149.0790370089303,
+        "to_m": 2439.138732990238,
+        "peak_block_average_wheel_kw": 119.99999999999824,
+        "average_wheel_kw": 65.97292321314286,
+        "battery_charge_j": 126416.8392889792
+      },
+      {
+        "start_block": 28,
+        "end_block": 29,
+        "wheel_assist_j": 342406.59790258843,
+        "from_m": 2635.18899710668,
+        "to_m": 2826.3128450986555,
+        "peak_block_average_wheel_kw": 90.00000000000007,
+        "average_wheel_kw": 74.18697165538043,
+        "battery_charge_j": 91405.88844603814
+      },
+      {
+        "start_block": 31,
+        "end_block": 31,
+        "wheel_assist_j": 80388.98520546923,
+        "from_m": 2924.596456025502,
+        "to_m": 3022.8828026347132,
+        "peak_block_average_wheel_kw": 60.00000000000064,
+        "average_wheel_kw": 60.00000000000064,
+        "battery_charge_j": 0.0
+      },
+      {
+        "start_block": 35,
+        "end_block": 36,
+        "wheel_assist_j": 273130.239159786,
+        "from_m": 3317.7418318116074,
+        "to_m": 3511.7324816700616,
+        "peak_block_average_wheel_kw": 89.99999999999994,
+        "average_wheel_kw": 65.05863197043149,
+        "battery_charge_j": 121526.25898011876
+      },
+      {
+        "start_block": 43,
+        "end_block": 43,
+        "wheel_assist_j": 218220.6068485755,
+        "from_m": 4098.557123375363,
+        "to_m": 4196.762664220859,
+        "peak_block_average_wheel_kw": 120.00000000000189,
+        "average_wheel_kw": 120.00000000000189,
+        "battery_charge_j": 0.0
+      },
+      {
+        "start_block": 45,
+        "end_block": 45,
+        "wheel_assist_j": 40982.69185502716,
+        "from_m": 4295.048632774213,
+        "to_m": 4393.334975660422,
+        "peak_block_average_wheel_kw": 29.999999999998963,
+        "average_wheel_kw": 29.999999999998963,
+        "battery_charge_j": 0.0
+      },
+      {
+        "start_block": 51,
+        "end_block": 52,
+        "wheel_assist_j": 273885.6445928784,
+        "from_m": 4881.543569782,
+        "to_m": 5077.817980691533,
+        "peak_block_average_wheel_kw": 95.72948738020024,
+        "average_wheel_kw": 75.34233848097709,
+        "battery_charge_j": 0.0
+      }
+    ]
+  },
+  "unavailable_shifts": {},
+  "individual": {
+    "full": {
+      "both_feasible": false,
+      "time_320_minus_160_s": -0.11447607255806247,
+      "relative_lap_change": 0.00130127462688969,
+      "terminal_energy_change_j": 0.0,
+      "recovered_change_j": 1558.297092961613,
+      "discharged_change_j": 1558.2970929634757,
+      "passes_refinement": false
+    },
+    "spread": {
+      "both_feasible": true,
+      "time_320_minus_160_s": -0.11574380485376423,
+      "relative_lap_change": 0.001308400041838794,
+      "terminal_energy_change_j": 942.3038707577798,
+      "recovered_change_j": 1585.8816159693524,
+      "discharged_change_j": 2528.185486764647,
+      "passes_refinement": true
+    },
+    "zero": {
+      "both_feasible": false,
+      "time_320_minus_160_s": -0.112302812456619,
+      "relative_lap_change": 0.0012451441537917793,
+      "terminal_energy_change_j": 1526.8551391675137,
+      "recovered_change_j": 1526.8551391442306,
+      "discharged_change_j": 0.0,
+      "passes_refinement": false
+    },
+    "finish_only": {
+      "both_feasible": true,
+      "time_320_minus_160_s": -0.11221261518792858,
+      "relative_lap_change": 0.0012463987282532742,
+      "terminal_energy_change_j": 1639.2105488176458,
+      "recovered_change_j": 1543.8437649968546,
+      "discharged_change_j": 95.36678380559897,
+      "passes_refinement": true
+    },
+    "selected": {
+      "both_feasible": true,
+      "time_320_minus_160_s": -0.11242846832958264,
+      "relative_lap_change": 0.0012854220822804629,
+      "terminal_energy_change_j": 10.355832406741683,
+      "recovered_change_j": 1504.0774174926337,
+      "discharged_change_j": 1514.4332498861477,
+      "passes_refinement": true
+    },
+    "central_transfer": {
+      "both_feasible": false,
+      "time_320_minus_160_s": -0.11423323714585365,
+      "relative_lap_change": 0.0013059002546207087,
+      "terminal_energy_change_j": 0.0,
+      "recovered_change_j": 1725.5749977931846,
+      "discharged_change_j": 1725.5749977873638,
+      "passes_refinement": false
+    }
+  },
+  "paired": {
+    "full": {
+      "delta_160_s": 0.5100675207654461,
+      "delta_320_s": 0.5080199165369663,
+      "gap_change_s": 0.002047604228479827,
+      "both_feasible": false,
+      "passes_paired_tolerance": false
+    },
+    "spread": {
+      "delta_160_s": 1.001165124384599,
+      "delta_320_s": 0.9978497878604173,
+      "gap_change_s": 0.003315336524181589,
+      "both_feasible": true,
+      "passes_paired_tolerance": true
+    },
+    "zero": {
+      "delta_160_s": 2.7282513028968935,
+      "delta_320_s": 2.728376958769857,
+      "gap_change_s": 0.0001256558729636481,
+      "both_feasible": false,
+      "passes_paired_tolerance": false
+    },
+    "finish_only": {
+      "delta_160_s": 2.565010565846123,
+      "delta_320_s": 2.565226418987777,
+      "gap_change_s": 0.00021585314165406544,
+      "both_feasible": true,
+      "passes_paired_tolerance": true
+    },
+    "central_transfer": {
+      "delta_160_s": 0.012265744613898732,
+      "delta_320_s": 0.010460975797627725,
+      "gap_change_s": 0.0018047688162710074,
+      "both_feasible": false,
+      "passes_paired_tolerance": false
+    }
+  }
+}

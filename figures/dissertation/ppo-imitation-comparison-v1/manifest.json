@@ -1,0 +1,16 @@
+{
+  "inputs": {
+    "figures\\dissertation\\ppo-actor-width-v1\\manifest.json": "f09c5e0e250ed6b9dba3d2ac0cf8d8f6c5f43f56380fd91e10f21f8eba1c701e",
+    "results\\ppo-actor64-high-drag-001\\manifest.json": "0918c40a645501e5dedf9158b99253caf95fdbc26f9b4ceab0a7f1a5bb41d9cb",
+    "results\\regeneration-imitation-pilot-001\\manifest.json": "98c48c09939a19e23505cec2cbe940eb5d01caa6d53efdbca9cb32f81a899887",
+    "results\\regeneration-robustness-001\\manifest.json": "cd84af77877b1143b25bc586252ef5decba7c183d7a9279475a2d9d79b60a2af"
+  },
+  "sources": {
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\plot_ppo_imitation.py": "782be239e3f3618d6c664b2bdcda3609107006acafef249d87e00d65bffed96f"
+  },
+  "outputs": {
+    "figures\\dissertation\\ppo-imitation-comparison-v1\\learned_controllers.pdf": "2c9d23be6bcffc7a37ab75069071982b249a6d8bc703bf72eb66665813f7692e",
+    "figures\\dissertation\\ppo-imitation-comparison-v1\\learned_controllers.png": "22c1677d7bb9e50ad329ef2096c584e789780b3f3b7c86aef6da92898eaf033e",
+    "figures\\dissertation\\ppo-imitation-comparison-v1\\summary.json": "d70682031a80148b2c9fc02401f39853fb34767474c1f2417b1e17a04741f020"
+  }
+}

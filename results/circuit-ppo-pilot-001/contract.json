@@ -1,0 +1,60 @@
+{
+  "config": {
+    "reference_config": "configs/circuit_reference.json",
+    "numerical_gate": "results/circuit-validation-004",
+    "action_blocks": 55,
+    "cells_per_block": [
+      20,
+      40,
+      80,
+      160
+    ],
+    "fine_cells_per_block": 160,
+    "initial_speed_mps": 70.0,
+    "policies": [
+      "zero",
+      "half",
+      "full",
+      "spread",
+      "exit_boost"
+    ],
+    "gates": {
+      "relative_lap_time": 0.005,
+      "gain_error_s": 0.05,
+      "ranking_tie_s": 0.02
+    },
+    "cadence_sensitivity_blocks": 110,
+    "pilot": {
+      "seed": 0,
+      "steps": 4096,
+      "gamma": 1.0,
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "net_arch": [
+        32,
+        32
+      ]
+    },
+    "interpretation": "Bounded model-based controller study. Baseline ranking and time-gain checks support a pilot, not a continuous-action optimum or general grid-independent RL ranking. Replay the trained policy at the fine grid."
+  },
+  "baseline_manifest_sha256": "3c2b27317c8b6aeed262cb4482fe2647acb47ce94295ba25420fc524a3836bbf",
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "69b5f4ffac4a297cfa8dcecb9fd57ebf4a03acf800363f162e2338a3e1b78e52",
+    "src\\f1energy\\event_power_lap.py": "9d9e7ce855835dd35599166285a45d0b3db84ec8e01478d872006470af97104f",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\train_circuit_ppo.py": "9a159dee99f4de4651aa17912379c249ff6ecafdfd147a58e7239a40f388dc4f",
+    "src\\f1energy\\circuit_training_gate.py": "ee4291988beb2ec37474060bfc7cdcd01b351a3263922f610e2d8ad6a2a0da3f",
+    "scripts\\benchmark_circuit_control.py": "782b00b91a3d53bd879bb35c4ea6be3f32ee0d7ecb31efa14d7f4e0d5fa98625"
+  },
+  "selected_cells": 80,
+  "device": "cpu",
+  "threads": 1,
+  "versions": {
+    "python": "3.12.10",
+    "torch": "2.14.1+cpu",
+    "sb3": "2.9.2",
+    "numpy": "2.5.4"
+  }
+}

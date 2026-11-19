@@ -1,0 +1,6 @@
+test_one_factor_and_accounting (test_regeneration_robustness.RobustnessTest.test_one_factor_and_accounting) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 1.953s
+
+OK

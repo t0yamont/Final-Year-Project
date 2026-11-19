@@ -1,0 +1,203 @@
+{
+  "protocol": {
+    "study": "Regenerative Sakhir supervised-imitation width pilot",
+    "teacher_manifest": "results/regeneration-robustness-001/manifest.json",
+    "teacher_manifest_sha256": "cd84af77877b1143b25bc586252ef5decba7c183d7a9279475a2d9d79b60a2af",
+    "ppo_transfer_protocol": "configs/regeneration_ppo_actor64.json",
+    "ppo_transfer_protocol_sha256": "938f77426e608205aeebdd92ac8f2987470f4bd52291964d22cbc7a520918052",
+    "fit_scenarios": [
+      "nominal",
+      "low_initial_energy",
+      "low_charge_efficiency",
+      "low_braking_share"
+    ],
+    "evaluation": [
+      {
+        "name": "nominal",
+        "parameter": null,
+        "value": null,
+        "split": "in_sample"
+      },
+      {
+        "name": "energy_1p5MJ",
+        "parameter": "initial_energy_j",
+        "value": 1500000,
+        "split": "held_out"
+      },
+      {
+        "name": "drag_1p05",
+        "parameter": "drag_kg_per_m",
+        "value": 1.05,
+        "split": "held_out"
+      },
+      {
+        "name": "high_drag",
+        "parameter": "drag_kg_per_m",
+        "value": 1.1,
+        "split": "held_out"
+      }
+    ],
+    "action_blocks": 55,
+    "teacher_cells": 160,
+    "evaluation_cells": [
+      160,
+      320
+    ],
+    "widths": [
+      32,
+      64
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "architecture": "8 unchanged CircuitControlEnv observations; two same-width Tanh hidden layers; one linear output; clamp continuous deployment request to [0, 1] for inference",
+    "optimizer": "CUDA Adam (standard defaults except learning rate, capturable state), float32 full-batch MSE on raw output, no shuffling or data transforms",
+    "epochs": 500,
+    "learning_rate": 0.003,
+    "gates": {
+      "paired_gap_change_s": 0.005,
+      "relative_lap_change": 0.0025,
+      "terminal_energy_change_j": 10000,
+      "recovered_change_j": 5000
+    },
+    "selection": "One fit per seed and width, final epoch only. No held-out labels, scenario parameters, selection, or tuning in fit. No terminal guard, query of a new expert, or online corrective actions.",
+    "interpretation": "Common whole-scenario splits, closed-loop physics at both grids. Compare paired widths only after physical feasibility and report numerical failures. The high-drag archived teacher may be audited only as a post-fit reference. The two intermediate conditions have no model-aware label. Prior PPO used nominal-only training, so between-method outcomes are descriptive."
+  },
+  "physical_config": {
+    "reference_config": "configs/circuit_reference.json",
+    "numerical_gate": "results/regeneration-validation-001",
+    "action_blocks": 55,
+    "cells_per_block": [
+      80,
+      160
+    ],
+    "fine_cells_per_block": 160,
+    "initial_speed_mps": 70.0,
+    "policies": [
+      "zero",
+      "half",
+      "full",
+      "spread",
+      "exit_boost"
+    ],
+    "gates": {
+      "relative_lap_time": 0.005,
+      "gain_error_s": 0.05,
+      "ranking_tie_s": 0.02
+    },
+    "pilot": {
+      "seed": 0,
+      "steps": 4096,
+      "gamma": 1.0,
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "net_arch": [
+        32,
+        32
+      ]
+    },
+    "interpretation": "MGU-K-only assumed reference model; automatic braking recovery, fixed total braking, no MGU-H. Capacity, efficiency and rear braking share are assumptions. No measured-car or full regulatory compliance claim.",
+    "regeneration": {
+      "capacity_j": 4000000.0,
+      "charge_efficiency": 0.8,
+      "max_power_w": 120000.0,
+      "braking_fraction": 0.4,
+      "recovery_limit_j": 2000000.0,
+      "deployment_limit_j": 4000000.0
+    },
+    "sources": [
+      "https://api.fia.com/sites/default/files/documents/fia_2025_formula_1_technical_regulations_-_issue_03_-_2025-04-07.pdf",
+      "https://www.mclaren.com/racing/formula-1/2025/mcl39-technical-specification/"
+    ]
+  },
+  "inputs": {
+    "configs\\regeneration_imitation_pilot.json": "a22e203a47305377812cc35103733c191a99b61477ad0fa93dd4cb51f0da69ee",
+    "configs\\circuit_reference.json": "19b80d69d3e91d32a9ce4a2b00a40589fcd16ceb387c17ca4ad151a5a6043657",
+    "results\\circuit-input-assessment-001\\Sakhir.csv": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a",
+    "results\\regeneration-robustness-001\\manifest.json": "cd84af77877b1143b25bc586252ef5decba7c183d7a9279475a2d9d79b60a2af",
+    "configs\\regeneration_ppo_actor64.json": "938f77426e608205aeebdd92ac8f2987470f4bd52291964d22cbc7a520918052",
+    "results\\regeneration-imitation-pilot-001\\teacher_examples.json": "3d10e1890495de27e238669e02dd00b67a1211b71af5170428e8a0dde9ae24d1"
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src\\f1energy\\event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "scripts\\train_regeneration_imitation.py": "0d7925925cb5586c7f28f9cd62c2c79208f768502cba88ff0707aa113d91c8ef",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "scripts\\report_regeneration_robustness.py": "e681f7412984e5aa472790532eef350a62cb6614f4e085ae56fb2ce251801178",
+    "scripts\\run_regeneration_robustness.py": "2a20b58a520962dca4a1952bc6e4353c1507b6f3dde976a7b5bbd584b8e2905e",
+    "scripts\\optimize_regeneration_dp.py": "b7cf0171ff58633b6fdc569dd6784adbe49e0c7239b755ddeb59d565c654bcfa",
+    "scripts\\validate_regeneration.py": "3a2a581cbe21bbe4dbf7ef375ffe47e8b17f046c7c47a3bbcad520a8f8e4277f",
+    "src\\f1energy\\training_device.py": "5e9eff32770f5413707808049ae46e72040cb99bdd3dd76111d68acd7925e814",
+    "src\\f1energy\\circuit_training_gate.py": "ee4291988beb2ec37474060bfc7cdcd01b351a3263922f610e2d8ad6a2a0da3f"
+  },
+  "verified_parent_hashes": 137,
+  "fit_teachers": [
+    {
+      "scenario": "nominal",
+      "cells": 160,
+      "duration_s": 107.26587781782062,
+      "final_energy_j": 100000.0,
+      "feasible": true,
+      "recovered_j": 2000000.0000000012,
+      "discharged_j": 3899999.9999999963,
+      "max_work_residual_j": 7.916241884231567e-09,
+      "max_battery_residual_j": 4.190951585769653e-09,
+      "global_work_residual_j": -2.198066795244813e-08
+    },
+    {
+      "scenario": "low_initial_energy",
+      "cells": 160,
+      "duration_s": 107.71165699972185,
+      "final_energy_j": 100000.0,
+      "feasible": true,
+      "recovered_j": 2000000.0,
+      "discharged_j": 2899999.9999999963,
+      "max_work_residual_j": 9.778887033462524e-09,
+      "max_battery_residual_j": 1.964508555829525e-09,
+      "global_work_residual_j": -2.611523086670786e-08
+    },
+    {
+      "scenario": "low_charge_efficiency",
+      "cells": 160,
+      "duration_s": 107.15215654586282,
+      "final_energy_j": 100000.0,
+      "feasible": true,
+      "recovered_j": 1999999.999999999,
+      "discharged_j": 3900000.000000001,
+      "max_work_residual_j": 7.62520357966423e-09,
+      "max_battery_residual_j": 5.638867150992155e-09,
+      "global_work_residual_j": -4.5351043809205294e-08
+    },
+    {
+      "scenario": "low_braking_share",
+      "cells": 160,
+      "duration_s": 107.14805581909073,
+      "final_energy_j": 100000.0,
+      "feasible": true,
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 3899999.999999998,
+      "max_work_residual_j": 8.185452315956354e-09,
+      "max_battery_residual_j": 2.648448571562767e-09,
+      "global_work_residual_j": -3.199966158717871e-08
+    }
+  ],
+  "cuda": {
+    "device": "cuda:0",
+    "gpu_name": "NVIDIA A16-16Q",
+    "total_memory_bytes": 17179410432,
+    "compute_capability": [
+      8,
+      6
+    ],
+    "torch_version": "2.14.1+cu126",
+    "cuda_runtime": "12.6",
+    "cudnn_version": 91002,
+    "cuda_optimizer_smoke_passed": true,
+    "cpu_fallback_allowed": false
+  }
+}

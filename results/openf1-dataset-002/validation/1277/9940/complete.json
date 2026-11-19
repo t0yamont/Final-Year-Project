@@ -1,0 +1,72 @@
+{
+  "session_key": 9940,
+  "meeting_key": 1277,
+  "event": "United Kingdom",
+  "role": "validation",
+  "session_name": "Practice 1",
+  "drivers": [
+    {
+      "driver_number": 1,
+      "driver_name": "Max VERSTAPPEN",
+      "team": "Red Bull Racing",
+      "lap_count": 26,
+      "native_car_rows": 13489,
+      "aligned_car_rows": 8628,
+      "position_rows": 0,
+      "motion_qc_pass_laps": 22,
+      "conditional_motion_candidates": 6,
+      "exclusion_counts": {
+        "native_motion_qc_failed": 4,
+        "gap_missing_or_over_limit": 19,
+        "lap_edge_coverage_missing_or_over_limit": 4,
+        "pit_out_or_unknown": 4,
+        "weather_missing_stale_or_ambiguous": 4,
+        "rain_reported_or_unknown": 4,
+        "stint_unknown_or_ambiguous": 4,
+        "wet_or_unknown_tyre_compound": 4,
+        "pit_activity_reported": 4
+      },
+      "outputs": {
+        "driver-1-laps.json": "529489bb3a78bf2f8190f57c7383610f84201fb346db33c5418d2b709c15f038",
+        "driver-1-car.csv.gz": "6e8a3db6fb4a804717524e18bbb1fab59148f31229ac4811d40af56c735c1a6c"
+      }
+    },
+    {
+      "driver_number": 36,
+      "driver_name": "Arvid LINDBLAD",
+      "team": "Red Bull Racing",
+      "lap_count": 22,
+      "native_car_rows": 12513,
+      "aligned_car_rows": 7474,
+      "position_rows": 0,
+      "motion_qc_pass_laps": 17,
+      "conditional_motion_candidates": 5,
+      "exclusion_counts": {
+        "native_motion_qc_failed": 5,
+        "gap_missing_or_over_limit": 14,
+        "lap_edge_coverage_missing_or_over_limit": 5,
+        "pit_out_or_unknown": 5,
+        "weather_missing_stale_or_ambiguous": 5,
+        "rain_reported_or_unknown": 5,
+        "stint_unknown_or_ambiguous": 5,
+        "wet_or_unknown_tyre_compound": 5,
+        "pit_activity_reported": 5
+      },
+      "outputs": {
+        "driver-36-laps.json": "2d06bbc932bb0b90d703dd972dd792ff3f0ff0eccd21ce6df81da789218ff79d",
+        "driver-36-car.csv.gz": "9b1d9321908c8ce18a9582f90183ffdd01abe515511dd8ac82d5cdf5c3bad5cf"
+      }
+    }
+  ],
+  "completed_utc": "2026-11-10T22:03:15.694522+00:00",
+  "outputs": {
+    "context.json": "b9fbc96f6f075949f3594b53f24984c5944edf545e7fc765495ebd4dabbd20c3",
+    "driver-1-car.csv.gz": "6e8a3db6fb4a804717524e18bbb1fab59148f31229ac4811d40af56c735c1a6c",
+    "driver-1-complete.json": "d7c03d75b8a5b406761d37b9acf5ea151e1f6b293972698dd3c0638a03dba2c9",
+    "driver-1-laps.json": "529489bb3a78bf2f8190f57c7383610f84201fb346db33c5418d2b709c15f038",
+    "driver-36-car.csv.gz": "9b1d9321908c8ce18a9582f90183ffdd01abe515511dd8ac82d5cdf5c3bad5cf",
+    "driver-36-complete.json": "a628e1dcd410bd46720a34392d69351ceb0794a2e42bca44f7726916f64be6b0",
+    "driver-36-laps.json": "2d06bbc932bb0b90d703dd972dd792ff3f0ff0eccd21ce6df81da789218ff79d",
+    "requests.json": "77e598cf3e7fa40870f1167ebc558984a22f0ce8df6b9ecea310f0fd8826378f"
+  }
+}

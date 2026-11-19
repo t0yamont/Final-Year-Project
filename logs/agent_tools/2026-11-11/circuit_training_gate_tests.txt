@@ -1,0 +1,9 @@
+test_changed_solver_rejected (test_circuit_training_gate.TrainingGateTests.test_changed_solver_rejected) ... ok
+test_corrupt_report_rejected (test_circuit_training_gate.TrainingGateTests.test_corrupt_report_rejected) ... ok
+test_nested_reference_change_rejected (test_circuit_training_gate.TrainingGateTests.test_nested_reference_change_rejected) ... ok
+test_valid_evidence (test_circuit_training_gate.TrainingGateTests.test_valid_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.111s
+
+OK

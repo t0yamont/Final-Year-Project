@@ -1,0 +1,342 @@
+[
+  {
+    "scenario": "low_braking_share",
+    "cells": 160,
+    "policy": "zero",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\zero_160.json.gz",
+    "duration_s": 109.47520646143805,
+    "final_energy_j": 4000000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 2.842170943040401e-14,
+    "audit": {
+      "recovered_j": 1999999.9999999965,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 1.1030351743102074e-08,
+      "max_battery_residual_j": 6.51925802230835e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 160,
+    "policy": "half",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\half_160.json.gz",
+    "duration_s": 107.72028110543953,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 0.0,
+    "audit": {
+      "recovered_j": 2000000.0000000007,
+      "discharged_j": 3900000.0000000056,
+      "max_work_residual_j": 9.19681042432785e-09,
+      "max_battery_residual_j": 3.805325832217932e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 160,
+    "policy": "full",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\full_160.json.gz",
+    "duration_s": 107.72918013239334,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 0.0,
+    "audit": {
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3899999.999999999,
+      "max_work_residual_j": 7.62520357966423e-09,
+      "max_battery_residual_j": 2.735760062932968e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 160,
+    "policy": "spread",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\spread_160.json.gz",
+    "duration_s": 107.98630159130744,
+    "final_energy_j": 535686.6405816588,
+    "feasible": true,
+    "terminal_speed_error_mps": 2.842170943040401e-14,
+    "audit": {
+      "recovered_j": 1999999.9999999998,
+      "discharged_j": 3464313.3594183396,
+      "max_work_residual_j": 1.3940734788775444e-08,
+      "max_battery_residual_j": 7.81938069849275e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 160,
+    "policy": "exit_boost",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\exit_boost_160.json.gz",
+    "duration_s": 108.62819093882041,
+    "final_energy_j": 2612300.5477320193,
+    "feasible": true,
+    "terminal_speed_error_mps": 0.0,
+    "audit": {
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 1387699.4522679914,
+      "max_work_residual_j": 1.0477378964424133e-08,
+      "max_battery_residual_j": 8.09086486697197e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 160,
+    "policy": "ppo_seed0",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed0_160.json.gz",
+    "duration_s": 107.18157474856241,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 0.0,
+    "audit": {
+      "recovered_j": 1999999.9999999998,
+      "discharged_j": 3900000.000000012,
+      "max_work_residual_j": 9.42964106798172e-09,
+      "max_battery_residual_j": 3.2414391171187162e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 160,
+    "policy": "ppo_seed1",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed1_160.json.gz",
+    "duration_s": 107.68712667185758,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 0.0,
+    "audit": {
+      "recovered_j": 2000000.0000000014,
+      "discharged_j": 3900000.000000006,
+      "max_work_residual_j": 1.4115357771515846e-08,
+      "max_battery_residual_j": 2.8448994271457195e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 160,
+    "policy": "ppo_seed2",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed2_160.json.gz",
+    "duration_s": 107.66125500242389,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 0.0,
+    "audit": {
+      "recovered_j": 2000000.000000001,
+      "discharged_j": 3899999.999999993,
+      "max_work_residual_j": 7.144990377128124e-09,
+      "max_battery_residual_j": 2.5029294192790985e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 160,
+    "policy": "frozen_dp",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\frozen_dp_160.json.gz",
+    "duration_s": 107.25804052111417,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 1.4210854715202004e-14,
+    "audit": {
+      "recovered_j": 2000000.0000000005,
+      "discharged_j": 3900000.0000000065,
+      "max_work_residual_j": 1.0186340659856796e-08,
+      "max_battery_residual_j": 2.648448571562767e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 160,
+    "policy": "replanned_dp",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\replanned_dp_160.json.gz",
+    "duration_s": 107.14805581909073,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 1.4210854715202004e-14,
+    "audit": {
+      "recovered_j": 2000000.0000000002,
+      "discharged_j": 3899999.999999998,
+      "max_work_residual_j": 8.185452315956354e-09,
+      "max_battery_residual_j": 2.648448571562767e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 320,
+    "policy": "zero",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\zero_320.json.gz",
+    "duration_s": 109.2884620130021,
+    "final_energy_j": 3999999.9999999823,
+    "feasible": true,
+    "terminal_speed_error_mps": 0.0,
+    "audit": {
+      "recovered_j": 1999999.9999999984,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 1.3620592653751373e-08,
+      "max_battery_residual_j": 8.87666828930378e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 320,
+    "policy": "half",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\half_320.json.gz",
+    "duration_s": 107.5369044540104,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 1.4210854715202004e-14,
+    "audit": {
+      "recovered_j": 2000000.0,
+      "discharged_j": 3899999.9999999963,
+      "max_work_residual_j": 1.2922100722789764e-08,
+      "max_battery_residual_j": 3.914465196430683e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 320,
+    "policy": "full",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\full_320.json.gz",
+    "duration_s": 107.53841396383628,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 4.263256414560601e-14,
+    "audit": {
+      "recovered_j": 1999999.9999999981,
+      "discharged_j": 3900000.000000009,
+      "max_work_residual_j": 1.8801074475049973e-08,
+      "max_battery_residual_j": 3.7325662560760975e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 320,
+    "policy": "spread",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\spread_320.json.gz",
+    "duration_s": 107.796720175891,
+    "final_energy_j": 529459.6472536755,
+    "feasible": true,
+    "terminal_speed_error_mps": -7.105427357601002e-14,
+    "audit": {
+      "recovered_j": 1999999.9999999974,
+      "discharged_j": 3470540.352746291,
+      "max_work_residual_j": 1.792795956134796e-08,
+      "max_battery_residual_j": 1.3740191207034513e-08
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 320,
+    "policy": "exit_boost",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\exit_boost_320.json.gz",
+    "duration_s": 108.4429945984964,
+    "final_energy_j": 2612948.9853819082,
+    "feasible": true,
+    "terminal_speed_error_mps": 0.0,
+    "audit": {
+      "recovered_j": 1999999.9999999984,
+      "discharged_j": 1387051.0146180762,
+      "max_work_residual_j": 1.605803845450282e-08,
+      "max_battery_residual_j": 1.028092810884118e-08
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 320,
+    "policy": "ppo_seed0",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed0_320.json.gz",
+    "duration_s": 106.99579575989779,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 4.263256414560601e-14,
+    "audit": {
+      "recovered_j": 1999999.9999999998,
+      "discharged_j": 3899999.999999994,
+      "max_work_residual_j": 1.4784745872020721e-08,
+      "max_battery_residual_j": 3.841705620288849e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 320,
+    "policy": "ppo_seed1",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed1_320.json.gz",
+    "duration_s": 107.49802722728779,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 4.263256414560601e-14,
+    "audit": {
+      "recovered_j": 1999999.9999999984,
+      "discharged_j": 3900000.000000002,
+      "max_work_residual_j": 1.2863893061876297e-08,
+      "max_battery_residual_j": 3.1141098588705063e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 320,
+    "policy": "ppo_seed2",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\ppo_seed2_320.json.gz",
+    "duration_s": 107.4711714554986,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 4.263256414560601e-14,
+    "audit": {
+      "recovered_j": 1999999.9999999986,
+      "discharged_j": 3899999.9999999935,
+      "max_work_residual_j": 1.4435499906539917e-08,
+      "max_battery_residual_j": 5.529727786779404e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 320,
+    "policy": "frozen_dp",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\frozen_dp_320.json.gz",
+    "duration_s": 107.07137823488885,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 4.263256414560601e-14,
+    "audit": {
+      "recovered_j": 2000000.0000000014,
+      "discharged_j": 3900000.0000000107,
+      "max_work_residual_j": 1.4391844160854816e-08,
+      "max_battery_residual_j": 5.093170329928398e-09
+    }
+  },
+  {
+    "scenario": "low_braking_share",
+    "cells": 320,
+    "policy": "replanned_dp",
+    "status": "completed",
+    "file": "results\\regeneration-robustness-001\\low_braking_share\\replanned_dp_320.json.gz",
+    "duration_s": 106.96143738924614,
+    "final_energy_j": 100000.0,
+    "feasible": true,
+    "terminal_speed_error_mps": 1.4210854715202004e-14,
+    "audit": {
+      "recovered_j": 2000000.0,
+      "discharged_j": 3900000.0000000214,
+      "max_work_residual_j": 1.0360963642597198e-08,
+      "max_battery_residual_j": 5.093170329928398e-09
+    }
+  }
+]

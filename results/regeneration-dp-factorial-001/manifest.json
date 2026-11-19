@@ -1,0 +1,44 @@
+{
+  "inputs": {
+    "configs\\regeneration_dp_factorial.json": "df38fd85cf1cf48e9aebd5518878819880aa2af6d454e728b8534e13e8696e13",
+    "results\\regeneration-dp-001\\manifest.json": "b16a6deefa444584561207027d61657f7cd5969d575f0d4eca73d7c45f83a01b"
+  },
+  "sources": {
+    "src\\f1energy\\circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src\\f1energy\\circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src\\f1energy\\event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b",
+    "src\\f1energy\\power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\optimize_regeneration_dp.py": "b7cf0171ff58633b6fdc569dd6784adbe49e0c7239b755ddeb59d565c654bcfa",
+    "scripts\\benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "src\\f1energy\\circuit_training_gate.py": "ee4291988beb2ec37474060bfc7cdcd01b351a3263922f610e2d8ad6a2a0da3f",
+    "C:\\Users\\fm.mm\\Desktop\\COM3001\\COM3001\\scripts\\run_regeneration_dp_factorial.py": "17beb6879002027b29a9a42aee3d523706954ea63c439d74b8707403c18e1e44"
+  },
+  "outputs": {
+    "results\\regeneration-dp-factorial-001\\001.json": "f6835427777a8b3b80497768046a5fba7331aaadf5529344c11c700a993cefb8",
+    "results\\regeneration-dp-factorial-001\\001_160.json.gz": "cd58c259d9c22d724089947010c8c0e577455ae8fee9703c9d8606e5f86eeaa4",
+    "results\\regeneration-dp-factorial-001\\001_320.json.gz": "1d7d2398c037cb6b5c88f33dc0bc3e493e213c86f01de55a2fd6ac80a2b5e8cc",
+    "results\\regeneration-dp-factorial-001\\001_80.json.gz": "89f81ae672e1673370a937eb2112ef6b02407af7449ac427d5901775825f1141",
+    "results\\regeneration-dp-factorial-001\\010.json": "6d7c552b56573fed9af89c2883a1f309aab19b20d8052626d78215cc44079362",
+    "results\\regeneration-dp-factorial-001\\010_160.json.gz": "0ed52a904b96e6d81dec630f1389e9700844c94d7e303b97bff6edb49460623e",
+    "results\\regeneration-dp-factorial-001\\010_320.json.gz": "4210e4d8bb9e662f179d321c7dbd6e903560eb26331171f99ac2dcad0f155f64",
+    "results\\regeneration-dp-factorial-001\\010_80.json.gz": "853f82f4168f8c52cee90d8aa05ceeb1a825f417aa200f7701cb4738e7827d34",
+    "results\\regeneration-dp-factorial-001\\011.json": "890d3aa63879366ba23551f858303a73bf500552b67b5a939a2a7c167044049d",
+    "results\\regeneration-dp-factorial-001\\011_160.json.gz": "c4e6cdda29fc6e314759fd0e9bef5aaa780146b1bb15279f7af2f51268ea2bc7",
+    "results\\regeneration-dp-factorial-001\\011_320.json.gz": "1b77ce39508826576f4b50f289fe8cad5a77a2db6c75a51652ba49cb830b5123",
+    "results\\regeneration-dp-factorial-001\\011_80.json.gz": "a15dbaf9bdc8ac4bcad149624beaa817c84a47b5b1c785843bf139351b364da2",
+    "results\\regeneration-dp-factorial-001\\100.json": "a5a1ed42b03c911677cdb1aec1e5de5d42717cc332a5ea9261c027d2cf060958",
+    "results\\regeneration-dp-factorial-001\\100_160.json.gz": "6564a6e535ef9e2c5329451d37ab43b4b305dffcbfc4224f520382e5d2f8a838",
+    "results\\regeneration-dp-factorial-001\\100_320.json.gz": "290f87c8b376ae896c43881431c17e5eb8fc375dbaf5fc666ce0661bf228e3fa",
+    "results\\regeneration-dp-factorial-001\\100_80.json.gz": "9b952c94a536d825ada494b922a179b8c034924b478ebdb4a4a969277fbf9a1e",
+    "results\\regeneration-dp-factorial-001\\101.json": "b7bf65261263f2821db6633c96558ccfbd95852035ba828fd4c1571fd068fa6d",
+    "results\\regeneration-dp-factorial-001\\101_160.json.gz": "fd105811a76f7a6531ba873653dcc350bb81c921bd6992601fb0cd96c744d1fc",
+    "results\\regeneration-dp-factorial-001\\101_320.json.gz": "70bacd48620faf8db78da6220b542bce88149f54f52309cbe7c4c4838089471f",
+    "results\\regeneration-dp-factorial-001\\101_80.json.gz": "ac845f33922f1972277453885301d7f71bdec1b0e8a784d4e3ef2c7e33ca5f98",
+    "results\\regeneration-dp-factorial-001\\110.json": "0340eaa4c65e6a891670a8419b5c46b21ce7f3c4cdc54c8bfb1560a8b3115ccd",
+    "results\\regeneration-dp-factorial-001\\110_160.json.gz": "dba8bc4ecc07dd39cf5cad7db495c4d7725098db8404d3faa0afbc4b28375eb5",
+    "results\\regeneration-dp-factorial-001\\110_320.json.gz": "8bd891a1ddb511102758ac9b7a88e06d8e5c75acccda58d8d9afc7cab083f45e",
+    "results\\regeneration-dp-factorial-001\\110_80.json.gz": "47e5b3ab755ed8dda70c8ef7564c370673f60aec5274d3a6ca84871c96fe74de",
+    "results\\regeneration-dp-factorial-001\\contract.json": "14f31016b998c358d8af034c18ac1ac115d4c2dd3bedfc92007d7d531eabfc33",
+    "results\\regeneration-dp-factorial-001\\metrics.json": "beb5242c1d1b3bf88126e047d0debdd26478e01d005e93a41e279d83428a819c"
+  }
+}

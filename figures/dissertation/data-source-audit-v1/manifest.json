@@ -1,0 +1,16 @@
+{
+  "source_run": "results\\source-access-audit-20261110-002",
+  "inputs": {
+    "results\\source-access-audit-20261110-002\\summary.json": "f012fd44cbf918fd3a81086015018f42cc149d60f4bc47c0dea240b1060f587c",
+    "work\\source-audit-openf1\\49fe94986506b4f779ec6b9629e645caac6033eb9e2b05b27b90a91d6cc023a5.json": "f351d7fe058d46505d2d41f82e813fb0a125319a03f07247a40a6458e7b65627",
+    "work\\source-audit-openf1\\139365a6bd0b169710360d956dea1074ed7fbcefd1c609a31835202075232cdd.json": "4178621a67f74eab8edd33bd8608504fc0a7951c473f95512553b9fff8289bf1",
+    "work\\source-audit-openf1\\2d1a3c4686c943855e9b361ffceb3b96116cd0a8904cdceab9ae0f8937e074e0.json": "644eba13707264229ee1984339f8cda3a06bfb6bc66ec43bae0f6d794304a7d0",
+    "work\\source-audit-openf1\\4ab96d67bc360c44d2e2200904b051778924039d7c38ba8a3ecb076c844d6354.json": "f35a0f83902d9b7698285ca89720451d042a41d21705a3192b30f4331f5c45c1"
+  },
+  "outputs": {
+    "figures\\dissertation\\data-source-audit-v1\\01_openf1_sampling.png": "0e930410a10921226efd9d13cf8ad4d6d998271e8ef91220e8d831b3b6b6fd91",
+    "figures\\dissertation\\data-source-audit-v1\\01_openf1_sampling.pdf": "a62f7f9da2dbfa65e71ec5128f3642a71e00b4680d0cb48ba850b24755b4a6fb"
+  },
+  "script_sha256": "cbc2f137afccbee2d888b9b41eb6d68a2ca21952ae6bde8215afcb0041f52fe0",
+  "scope": "Timestamp gaps only; no lap-quality acceptance, battery labels or independent-source validation"
+}

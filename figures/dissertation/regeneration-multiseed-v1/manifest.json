@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "results\\regeneration-multiseed-001\\manifest.json": "894ae6e5b2ac4e28e90bbe491a65fdce39901e793085ea962dc85c30a86827ce"
+  },
+  "source_sha256": "7e5b521e936532af837773e0a4d4a4dbb89b15d55a297a9c727973494175a25f",
+  "outputs": {
+    "figures\\dissertation\\regeneration-multiseed-v1\\01_checkpoint_baseline_comparison.pdf": "3461549a3ffdcd985c95e8e108df46c0ed8133ff0166b17cf366019d1cf2eba8",
+    "figures\\dissertation\\regeneration-multiseed-v1\\01_checkpoint_baseline_comparison.png": "2c5c15ab9867d5470605fa7d49f67dd7eabc3c09296982cf38ab4bf423108585",
+    "figures\\dissertation\\regeneration-multiseed-v1\\02_stochastic_deterministic_energy.pdf": "2c892ee79382c2f400d43bfaeee9659dc8a7bf122e221cd5e0a5bfca01b54af1",
+    "figures\\dissertation\\regeneration-multiseed-v1\\02_stochastic_deterministic_energy.png": "969d596f20ca705d980fd4d366248fab7aa332aa3fef414de79a1962e185a1f3",
+    "figures\\dissertation\\regeneration-multiseed-v1\\03_paired_grid_checks.pdf": "063a8738375c51e5f3bdab2c44ea9e8548300af54668115967c8e477e576df23",
+    "figures\\dissertation\\regeneration-multiseed-v1\\03_paired_grid_checks.png": "e527b694cb1788441db1b5f73665e81250bbfff3d6a3f294c52c507a91f42f68"
+  }
+}

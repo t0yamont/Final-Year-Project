@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "results\\regeneration-ppo-pilot-001\\manifest.json": "cc5206c0e02540ee3dedae55418a85bcd04ab16ee3d4d53b15bfe7506f6476a9",
+    "results\\regeneration-validation-001\\manifest.json": "d3379ef9656e8ff927d89504ac48378a2d2c5cf35a59255df2421df4cc967a64"
+  },
+  "source_sha256": "fab13673462f11abb47a745ddf2ecf0f2014389a1beba0cedb3cd58aab9cd7ff",
+  "outputs": {
+    "figures\\dissertation\\regeneration-ppo-pilot-v1\\01_learning_and_comparison.pdf": "6906c3aa0b7f5ace9fa11c897b64ec62f18b2e85b9a167b66aebda90f25e3a4f",
+    "figures\\dissertation\\regeneration-ppo-pilot-v1\\01_learning_and_comparison.png": "b88f33f1a8de9a57b7da067a23139d2841f7ce4bc5540f5fe712a451b00cddf4",
+    "figures\\dissertation\\regeneration-ppo-pilot-v1\\02_policy_energy_speed.pdf": "a111a677036046f5de075589ec306b5d2b9fd54e810eafa7c59a8fd341e764b2",
+    "figures\\dissertation\\regeneration-ppo-pilot-v1\\02_policy_energy_speed.png": "f29c77805b3405a33a658b8224d690353ce79bb34fd5656b1aa0c32fc9a7e739"
+  }
+}

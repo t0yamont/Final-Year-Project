@@ -1,0 +1,16 @@
+{
+  "study_id": "bounded-real-reconstruction-001",
+  "frozen_before_fit": "2026-11-18",
+  "input": "results/openf1-motion-001/development.csv",
+  "selection": {"role":"development", "meeting_key":"1257", "session_name":"Qualifying", "driver_number":"1", "lap_number":"13"},
+  "selection_fallback": "None; absence is a recorded failure",
+  "scope": "Only existing full-throttle, unbraked, same-gear/DRS adjacent windows. Every discontinuity starts a separately observed-speed-initialised segment. No extrapolation into omitted intervals.",
+  "model": "Cumulative work-energy in time, with drag cubed speed evaluated at observed midpoint: v_end^2=v_segment_start^2+sum(2 dt (base+deployment-drag*v_mid^3)/mass). Conditional quadrature, not free-running prediction.",
+  "action_blocks": "Constant mechanical deployment within each segment-local 2 second block, split only at native row boundaries",
+  "physical_grid": {"mass_kg":[750,800,850], "base_at_800kg_w":[355000,375000,395000], "drag_at_800kg_kg_per_m":0.511429, "scaling":"base and drag multiplied by mass/800; illustrative confounding family near earlier development-only effective total-power diagnostic, not confidence bounds"},
+  "constraints": {"mechanical_deployment_w":[0,120000],"initial_energy_j":2000000,"reserve_j":100000,"capacity_j":4000000,"discharge_efficiency":0.9,"gross_discharge_limit_j":4000000,"charge_efficiency":0.8,"rear_brake_fraction":0.4,"recovery_limit_j":2000000},
+  "energy_scope": "Conservative concatenation of selected propulsion windows: zero deployment and zero recovery outside them. No recovery is eligible inside unbraked windows. Feasibility is only for this partial-window accounting; omitted braking/propulsion is unknown and full-lap compatibility is not established.",
+  "optimizer": {"method":"SLSQP", "starts_fraction":[0.05,0.5,0.95], "maxiter":400, "ftol":1e-10,"objective":"mean squared endpoint speed discrepancy; common linear cumulative energy inequality"},
+  "compatibility": {"rmse_mps":1.0,"maximum_absolute_error_mps":3.0,"numerical_constraint_tolerance_j":1.0,"interpretation":"Declared illustrative engineering mismatch tolerances, not sensor confidence intervals. Require optimizer success, both motion limits, and physical/partial energy constraints; no threshold revision or alternative lap selection after fitting."},
+  "claims": "Conditional feasibility and nonuniqueness only. No actual deployment/battery estimates, official timing-line/geometry alignment, empirical full-lap validation, uncertainty coverage, or independent final-test result. Repeated starts are numerical checks, not independent data."
+}

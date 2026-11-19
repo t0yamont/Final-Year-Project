@@ -1,0 +1,270 @@
+{
+  "scope": "public access and schema probes; no battery labels or clean-lap acceptance",
+  "session_metadata_rows": 123,
+  "meeting_keys": [
+    1253,
+    1254,
+    1255,
+    1256,
+    1257,
+    1258,
+    1259,
+    1260,
+    1261,
+    1262,
+    1263,
+    1264,
+    1265,
+    1266,
+    1267,
+    1268,
+    1269,
+    1270,
+    1271,
+    1272,
+    1273,
+    1274,
+    1275,
+    1276,
+    1277
+  ],
+  "selected_sessions": [
+    {
+      "session_key": 10010,
+      "session_type": "Qualifying",
+      "session_name": "Qualifying",
+      "date_start": "2025-04-12T16:00:00+00:00",
+      "date_end": "2025-04-12T17:00:00+00:00",
+      "meeting_key": 1257,
+      "circuit_key": 63,
+      "circuit_short_name": "Sakhir",
+      "country_key": 36,
+      "country_code": "BRN",
+      "country_name": "Bahrain",
+      "location": "Sakhir",
+      "gmt_offset": "03:00:00",
+      "year": 2025,
+      "is_cancelled": false
+    },
+    {
+      "session_key": 9966,
+      "session_type": "Practice",
+      "session_name": "Practice 3",
+      "date_start": "2025-05-31T10:30:00+00:00",
+      "date_end": "2025-05-31T11:30:00+00:00",
+      "meeting_key": 1262,
+      "circuit_key": 15,
+      "circuit_short_name": "Catalunya",
+      "country_key": 1,
+      "country_code": "ESP",
+      "country_name": "Spain",
+      "location": "Barcelona",
+      "gmt_offset": "02:00:00",
+      "year": 2025,
+      "is_cancelled": false
+    },
+    {
+      "session_key": 9967,
+      "session_type": "Qualifying",
+      "session_name": "Qualifying",
+      "date_start": "2025-05-31T14:00:00+00:00",
+      "date_end": "2025-05-31T15:00:00+00:00",
+      "meeting_key": 1262,
+      "circuit_key": 15,
+      "circuit_short_name": "Catalunya",
+      "country_key": 1,
+      "country_code": "ESP",
+      "country_name": "Spain",
+      "location": "Barcelona",
+      "gmt_offset": "02:00:00",
+      "year": 2025,
+      "is_cancelled": false
+    },
+    {
+      "session_key": 9971,
+      "session_type": "Race",
+      "session_name": "Race",
+      "date_start": "2025-06-01T13:00:00+00:00",
+      "date_end": "2025-06-01T15:00:00+00:00",
+      "meeting_key": 1262,
+      "circuit_key": 15,
+      "circuit_short_name": "Catalunya",
+      "country_key": 1,
+      "country_code": "ESP",
+      "country_name": "Spain",
+      "location": "Barcelona",
+      "gmt_offset": "02:00:00",
+      "year": 2025,
+      "is_cancelled": false
+    }
+  ],
+  "windows": [
+    {
+      "session_key": 10010,
+      "country": "Bahrain",
+      "session_name": "Qualifying",
+      "driver_number": 1,
+      "lap_number": 2,
+      "lap_duration_s": 98.167,
+      "rows": 0,
+      "duplicate_timestamps": 0,
+      "max_gap_s": null,
+      "columns": [],
+      "missing_required_values": {
+        "date": 0,
+        "speed": 0,
+        "rpm": 0,
+        "n_gear": 0,
+        "throttle": 0,
+        "brake": 0,
+        "drs": 0
+      },
+      "status": "access_probe_not_clean_lap_acceptance"
+    },
+    {
+      "session_key": 9966,
+      "country": "Spain",
+      "session_name": "Practice 3",
+      "driver_number": 1,
+      "lap_number": 3,
+      "lap_duration_s": 143.022,
+      "rows": 0,
+      "duplicate_timestamps": 0,
+      "max_gap_s": null,
+      "columns": [],
+      "missing_required_values": {
+        "date": 0,
+        "speed": 0,
+        "rpm": 0,
+        "n_gear": 0,
+        "throttle": 0,
+        "brake": 0,
+        "drs": 0
+      },
+      "status": "access_probe_not_clean_lap_acceptance"
+    },
+    {
+      "session_key": 9967,
+      "country": "Spain",
+      "session_name": "Qualifying",
+      "driver_number": 1,
+      "lap_number": 2,
+      "lap_duration_s": 72.798,
+      "rows": 0,
+      "duplicate_timestamps": 0,
+      "max_gap_s": null,
+      "columns": [],
+      "missing_required_values": {
+        "date": 0,
+        "speed": 0,
+        "rpm": 0,
+        "n_gear": 0,
+        "throttle": 0,
+        "brake": 0,
+        "drs": 0
+      },
+      "status": "access_probe_not_clean_lap_acceptance"
+    },
+    {
+      "session_key": 9971,
+      "country": "Spain",
+      "session_name": "Race",
+      "driver_number": 1,
+      "lap_number": 2,
+      "lap_duration_s": 80.083,
+      "rows": 0,
+      "duplicate_timestamps": 0,
+      "max_gap_s": null,
+      "columns": [],
+      "missing_required_values": {
+        "date": 0,
+        "speed": 0,
+        "rpm": 0,
+        "n_gear": 0,
+        "throttle": 0,
+        "brake": 0,
+        "drs": 0
+      },
+      "status": "access_probe_not_clean_lap_acceptance"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://api.openf1.org/v1/sessions?year=2025",
+      "status": 200,
+      "retrieved_utc": "2026-11-10T14:31:37.219281+00:00",
+      "bytes": 45052,
+      "sha256": "d58a1eb3cb39d01e9ba8a230910830cd9b938ea0e65ded069d6e99e856d7febd",
+      "cache_hit": false,
+      "rows": 123
+    },
+    {
+      "url": "https://api.openf1.org/v1/laps?session_key=10010&driver_number=1",
+      "status": 200,
+      "retrieved_utc": "2026-11-10T14:31:39.247397+00:00",
+      "bytes": 8398,
+      "sha256": "4fed623c2aefba8cd88297182ecdcfe24c17182a62443c768b3e0077330c1472",
+      "cache_hit": false,
+      "rows": 17
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=10010&driver_number=1&date%3E%3D=2025-04-12T16%3A05%3A06.601000%2B00%3A00&date%3C=2025-04-12T16%3A06%3A44.768000%2B00%3A00",
+      "status": 500,
+      "retrieved_utc": "2026-11-10T14:31:41.260921+00:00",
+      "bytes": 33,
+      "sha256": "f26dcd3580f26f3b494c17bd81ff4eb958401b104fc84698cb36495101190e44",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.openf1.org/v1/laps?session_key=9966&driver_number=1",
+      "status": 200,
+      "retrieved_utc": "2026-11-10T14:31:43.438147+00:00",
+      "bytes": 6426,
+      "sha256": "1966cdc1a0564ad6f923a26e40dc57e930778e8180486e2a0ad150611937c120",
+      "cache_hit": false,
+      "rows": 14
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=9966&driver_number=1&date%3E%3D=2025-05-31T10%3A53%3A23.314000%2B00%3A00&date%3C=2025-05-31T10%3A55%3A46.336000%2B00%3A00",
+      "status": 500,
+      "retrieved_utc": "2026-11-10T14:31:45.519633+00:00",
+      "bytes": 33,
+      "sha256": "f26dcd3580f26f3b494c17bd81ff4eb958401b104fc84698cb36495101190e44",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.openf1.org/v1/laps?session_key=9967&driver_number=1",
+      "status": 200,
+      "retrieved_utc": "2026-11-10T14:31:47.639865+00:00",
+      "bytes": 5506,
+      "sha256": "26248a89426e38c1c90bed21a61e81406758e8312a562440539f422da302d995",
+      "cache_hit": false,
+      "rows": 12
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=9967&driver_number=1&date%3E%3D=2025-05-31T14%3A09%3A51.268000%2B00%3A00&date%3C=2025-05-31T14%3A11%3A04.066000%2B00%3A00",
+      "status": 500,
+      "retrieved_utc": "2026-11-10T14:31:49.725193+00:00",
+      "bytes": 33,
+      "sha256": "f26dcd3580f26f3b494c17bd81ff4eb958401b104fc84698cb36495101190e44",
+      "cache_hit": false
+    },
+    {
+      "url": "https://api.openf1.org/v1/laps?session_key=9971&driver_number=1",
+      "status": 200,
+      "retrieved_utc": "2026-11-10T14:31:51.797685+00:00",
+      "bytes": 30560,
+      "sha256": "058cd0812c68cf8d4be2a1e8a6d95cb0648ea72381dbce8652f273b9c5426701",
+      "cache_hit": false,
+      "rows": 66
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=9971&driver_number=1&date%3E%3D=2025-06-01T13%3A04%3A41.843000%2B00%3A00&date%3C=2025-06-01T13%3A06%3A01.926000%2B00%3A00",
+      "status": 500,
+      "retrieved_utc": "2026-11-10T14:31:53.968386+00:00",
+      "bytes": 33,
+      "sha256": "f26dcd3580f26f3b494c17bd81ff4eb958401b104fc84698cb36495101190e44",
+      "cache_hit": false
+    }
+  ]
+}
