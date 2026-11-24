@@ -1,0 +1,35 @@
+{
+  "study": "Hard finish-speed constraint on the frozen central Bahrain simulator",
+  "declared_on": "2026-11-20",
+  "parent_manifest": {
+    "path": "results/bahrain-algorithm-width-001/manifest.json",
+    "sha256": "d36e60a192dda064563595b254352921a40ab9816263487e9a850af749a420fc"
+  },
+  "terminal_blocks": 3,
+  "terminal_tolerance_mps": 0.00001,
+  "certificate": "Use the last three blocks, corresponding to the finish-only reference in the earlier Bahrain search. Compute zero-assist block durations on each grid. Reserve sufficient electrical draw for full power for the entire final three-block duration, with no credit for future recovery. Before that suffix, cap each request by both remaining charge and discharge allowance. In the suffix accept the actor's requested action if exact model lookahead, followed by full request, can meet the original finish speed. Otherwise apply the verified full-request backup. Recheck the physical outcome and abort on an infeasible backup. Do not change physical state, reserve or model.",
+  "reward": "Keep the recorded reward, observations, underlying dynamics, 4096 applied steps per seed and optimizer settings. Add the constraint during training and evaluation. Record model lookahead transitions separately from agent interactions. Learn from proposals in the constrained environment.",
+  "comparison": "Same seeds 0,1,2, PPO and SAC at actor widths 64 and 256. Archive and cross both training conditions with guard on/off on the 160/320 grids. Run guarded spread/planner and retain raw reference results. Feasibility first. Report time differences only for jointly feasible pairs. Separate runtime enforcement from autonomous learning. No equal-work claim in general controller comparisons.",
+  "preflight": {
+    "random_action_seeds": [
+      101,
+      202,
+      303
+    ],
+    "max_lookahead_transitions_per_complete_lap": 12,
+    "grid_cells_per_block": [
+      80,
+      160,
+      320
+    ],
+    "controls": [
+      "zero",
+      "half",
+      "full",
+      "spread",
+      "selected"
+    ],
+    "purpose": "Check physical/accounting/gate parity, exhaustion of both budgets, actual prefix invariants and recoverability on named controls. Record time; fail on physical or numerical inconsistency."
+  },
+  "scope": "Central model only, fixed rolling boundary; no new telemetry, manuscript generation or checkpoint selection."
+}

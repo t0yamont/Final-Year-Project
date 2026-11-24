@@ -1,0 +1,12 @@
+{
+  "hashes": 105,
+  "physical_rows": 28,
+  "matched_trace_audits": 2,
+  "cuda_actions_compared": 1320,
+  "cuda_closed_loop_replays": 24,
+  "max_action_fraction_difference": 1.7881393432617188e-07,
+  "max_elapsed_difference_s": 2.4142551069417095e-08,
+  "same_finish_classifications": true,
+  "input_manifest_sha256": "20867b0fc528eadbd34030e7a29be3d2b3e4fa2e2c9ea2c87099bda7e073d282",
+  "verifier_sha256": "a8c1707fa653e2d9c451d9c6f096c104638d764b7cda72dce7d5abb3192a67f8"
+}

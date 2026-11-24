@@ -1,0 +1,57 @@
+{
+  "circuit": "Silverstone",
+  "geometry_checks": {
+    "clockwise_forward_numbered_route": true,
+    "official_length": true,
+    "map_registration": true,
+    "sector_and_drs_order": true,
+    "solver_build_and_run": true,
+    "spread_feasible_both_grids": false,
+    "independent_openf1_distance_direction_and_timing": false
+  },
+  "geometry_passed": false,
+  "pace_passed": false,
+  "controller_scores": [],
+  "bounds": [
+    {
+      "cells": 160,
+      "station_m": 5768.7098234057285,
+      "remaining_m": 94.01630191572713,
+      "speed_envelope_mps": 41.04685188374964,
+      "upper_bound_mps": 62.32657680017688,
+      "required_mps": 80.65294312169308,
+      "target_impossible": true
+    },
+    {
+      "cells": 320,
+      "station_m": 5768.383854904177,
+      "remaining_m": 94.34227041727809,
+      "speed_envelope_mps": 41.04685188374964,
+      "upper_bound_mps": 62.37799100542824,
+      "required_mps": 80.65294312169308,
+      "target_impossible": true
+    }
+  ],
+  "positive_controls": [
+    {
+      "cells": 160,
+      "station_m": 5372.062611312093,
+      "remaining_m": 0.6142896728188134,
+      "speed_envelope_mps": 80.88865423919148,
+      "upper_bound_mps": 80.94618516887108,
+      "required_mps": 80.65294312169308,
+      "target_impossible": false,
+      "archived_finish_mps": 80.65294312169307
+    },
+    {
+      "cells": 320,
+      "station_m": 5372.369756148491,
+      "remaining_m": 0.30714483641077095,
+      "speed_envelope_mps": 80.77086786337007,
+      "upper_bound_mps": 80.79972749623577,
+      "required_mps": 80.65294312169308,
+      "target_impossible": false,
+      "archived_finish_mps": 80.65294312169308
+    }
+  ]
+}

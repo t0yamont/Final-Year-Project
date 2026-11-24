@@ -1,0 +1,13 @@
+{
+  "run": "bahrain-finish-constraint-001",
+  "test_command": ".venv/Scripts/python.exe -m unittest discover -s tests -q",
+  "pythonpath": ["src", "scripts"],
+  "tests_passed": 148,
+  "test_duration_s": 15.816,
+  "targeted_checks": [
+    "A bare plant receiving the issued actions reproduced the guarded zero-policy trajectory, including recharge and discharge.",
+    "The per-lap discharge allowance restricted the request even with enough charge in the battery.",
+    "A 160-cell preflight planner replay reproduced all 55 observations, the nine corrected requests and six preview transitions on the bare plant.",
+    "One archived 160-cell unguarded learned replay reproduced on the bare plant."
+  ]
+}

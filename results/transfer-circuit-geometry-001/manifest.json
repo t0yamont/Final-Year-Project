@@ -1,0 +1,42 @@
+{
+  "inputs": {
+    "configs/transfer_circuit_geometry.json": "ab838e62423e21fa1ae323a913052e4ffc8833a0f2ec731f02b95cff1910ea05",
+    "results/circuit-braking-screen-001/selection.json": "4ac7987a4de75e6ae1109ef86796a9aa40b706c866dc0a320686b10b33a59e6c",
+    "results/bahrain-pace-calibration-001/model.json": "6884eb5359a3451e02b24480fda61c75f5b39309d9ea5c0c80e0787234ec59b1",
+    "results/openf1-dataset-003/validation/1277/9943/complete.json": "1642c2132767dafb6c716b74acf7f05ea469b1879b62a83226a61dda7ee6822a",
+    "configs/openf1_dataset_plan.json": "98efc9c4703225e0533b8b1c1bede8a63c10650694106812fec80737727fc99b"
+  },
+  "code": {
+    "scripts/prepare_transfer_circuit.py": "a6de88d793f2a12693fbb67ad37437fbbb664890c31ecb63c10cc1f1373c4978",
+    "scripts/prepare_bahrain_pace.py": "d39020bef6355ad5cebf2bc71a3fdd152d4bf6d54bab189a8cf6ce3fc671b02e",
+    "scripts/bahrain_pace_model.py": "4983b5bb3e0426d4b9d1b4b02c3c9933142702560a783a92ae3446e0508dc217",
+    "scripts/acquire_openf1_dataset.py": "d2649ea707396ec184dec4605a5ed8f3e5647cdadd3f99887f0922eb4b3dbcb2",
+    "scripts/benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "src/f1energy/openf1.py": "2cd2ef7d19d37da1bc9edfff84469e3afac2143158ace4dd292b36fb68b6cc09",
+    "src/f1energy/circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src/f1energy/circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src/f1energy/event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b",
+    "src/f1energy/power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763"
+  },
+  "external_sources": {
+    "geometry": {
+      "path": "work/track-source/silverstone-source.csv",
+      "sha256": "27c51454e81780a75c353d3e6c9f73dbbcd1e82139782e95bd722ade19736e39",
+      "url": "https://raw.githubusercontent.com/TUMFTM/racetrack-database/e59595d1f3573b30d1ded6a08984935b957688e0/tracks/Silverstone.csv",
+      "license_path": "work/track-source/silverstone-license.txt",
+      "license_sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "license_url": "https://raw.githubusercontent.com/TUMFTM/racetrack-database/e59595d1f3573b30d1ded6a08984935b957688e0/LICENSE",
+      "attribution": "TUMFTM racetrack-database, LGPL-3.0 repository license; centreline derived from OpenStreetMap, (c) OpenStreetMap contributors, ODbL"
+    },
+    "fia_map_url": "https://www.fia.com/system/files/decision-document/2025_british_grand_prix_-_event_notes_-_circuit_map_v2.pdf",
+    "fia_map_sha256": "9a620d00e968818672154b8a8aa748c8020839edc9a956228424d1657cd0bfe6"
+  },
+  "outputs": {
+    "figures/dissertation/transfer-circuit-geometry-v1/01_silverstone_transfer_geometry.pdf": "e449b4cba00e20664fc03c8124d15227edad1084e5f176dca0dee90bae4b0f62",
+    "figures/dissertation/transfer-circuit-geometry-v1/01_silverstone_transfer_geometry.png": "7b7ca93ce19ada01360893363553c52833af12f86611e98c6e085c756d207147",
+    "results/transfer-circuit-geometry-001/metrics.json": "b90d32b0e37a592b93a89eb92c99710d2ae0500f2ec3244a3331440d93df2233",
+    "results/transfer-circuit-geometry-001/model.json": "cce5b1b194a1890e0f063cb481e4682d45e4910f4a752e9ad2e57f85fe95af41",
+    "results/transfer-circuit-geometry-001/Silverstone.csv": "27c51454e81780a75c353d3e6c9f73dbbcd1e82139782e95bd722ade19736e39",
+    "results/transfer-circuit-geometry-001/SOURCE_LICENSE.txt": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+  }
+}

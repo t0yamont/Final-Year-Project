@@ -1,5 +1,7 @@
 # Research scope and claim boundary
 
+The controller extension asks whether PPO or soft actor-critic can learn a feasible deployment schedule directly on the calibrated Bahrain vehicle and whether widening the actor from 64 to 256 units helps at the same interaction budget. The circuit extension asks whether those schedules transfer to a layout selected for a contrasting braking pattern. All learned policies choose deployment. The model automatically harvests during required braking. [Controller and circuit protocol](../configs/circuit_policy_transfer.json)
+
 The original calibrated vehicle subsequently missed the sector-two tolerance on three laps from the other Red Bull driver at Bahrain. A geometry-only path replacement also failed. The available lap and sector checks support a model-based deployment study with explicit local limits. [Driver transfer](bahrain_driver_transfer.md)
 
 The main question is **where, and at what power, should the car deploy a finite supply of electrical energy to minimise a simulated qualifying lap at Bahrain?** Evidence consists of geographically located wheel work, feasible paired lap times, timing-shift interventions and sensitivity to grip. The 2025 qualifying data constrain the motion model. The estimated gains and energy use apply to that model. One of two same-session laps exceeded the speed-error limit, so exact braking and corner-exit placements remain provisional. [Deployment map](bahrain_deployment_zones.md) · [Calibration evidence](bahrain_qualifying_pace.md)

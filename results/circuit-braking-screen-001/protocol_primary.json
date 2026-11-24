@@ -1,0 +1,32 @@
+{
+  "protocol_id": "circuit-braking-screen-v1",
+  "frozen_date": "2026-11-19",
+  "dataset": "results/openf1-dataset-003",
+  "roles": "configs/data_roles.json",
+  "season": 2025,
+  "session_name": "Qualifying",
+  "drivers": [1, 22],
+  "reference": {"circuit": "Bahrain", "meeting_key": 1257, "session_key": 10010, "role": "development"},
+  "candidates_in_order": [
+    {"circuit": "Hungary", "meeting_key": 1266, "session_key": 9924, "role": "validation"},
+    {"circuit": "Silverstone", "meeting_key": 1277, "session_key": 9943, "role": "validation"},
+    {"circuit": "Monza", "meeting_key": 1268, "session_key": 9908, "role": "development"}
+  ],
+  "selection": {
+    "rule": "Select the first candidate in order meeting both drivers' lap-count requirement and showing driver-consistent braking contrast with Bahrain. Hungary first by request. Prefer validation-role Silverstone over development-role Monza as fallback. If none qualifies, report no selection.",
+    "lap_criterion": "Use acquisition conditional motion candidates. Require the declared timed-lap native-pair coverage and apply the declared limit to leading/trailing uncovered time. Screen coverage from finite positive speeds and known binary brake states only.",
+    "contrast_criterion": "Compare candidate and Bahrain medians per driver. Require both drivers to pass the same threshold with the same direction of difference in at least one indicator: brake-time share or typical onset spacing as a fraction of supported lap distance. These are descriptive opportunity thresholds, not statistical or energy thresholds.",
+    "minimum_laps_per_driver": 2,
+    "minimum_timed_lap_coverage_fraction": 0.975,
+    "maximum_native_pair_gap_s": 0.5,
+    "maximum_lap_edge_gap_s": 0.5,
+    "minimum_brake_share_difference_fraction": 0.02,
+    "minimum_spacing_relative_difference_fraction": 0.15
+  },
+  "measurement": {
+    "brake_flag": "Acquisition-preserved binary state. Use midpoint time for each state change and linearly interpolate speed within the observed pair. Ignore pairs exceeding the maximum gap or with invalid time, speed or state.",
+    "duration": "Sum all observed brake-on intervals. Divide by timed-lap duration for the descriptive brake share.",
+    "speed_loss": "Entry speed minus exit speed for each complete observed bout, summed per lap. A positive value is speed lost. Boundary- or gap-censored bouts contribute only to observed brake duration.",
+    "spacing": "Trapezoid-integrate native speed over supported pairs. Take successive complete-bout onset distances in the same supported segment only, without lap wrapping. Distances from the first native sample sum supported distance and may omit gaps. No position registration."
+  }
+}

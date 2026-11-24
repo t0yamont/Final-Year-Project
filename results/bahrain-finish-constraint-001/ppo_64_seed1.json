@@ -1,0 +1,315 @@
+{
+  "policy": "PPO 64 seed 1",
+  "method": "PPO",
+  "width": 64,
+  "seed": 1,
+  "checkpoint": "results/bahrain-finish-constraint-001/ppo_64_seed1.zip",
+  "checkpoint_sha256": "ff34df91d34d871338e76c2e374ea199d75184f351ea2dc97434849f318182c1",
+  "checkpoint_reload_exact": true,
+  "penalty_checkpoint_reload_exact": true,
+  "rows": [
+    {
+      "duration_s": 88.93689959174444,
+      "final_energy_j": 100000.0,
+      "terminal_speed_error_mps": -0.5451386717009825,
+      "energy_residual_j": -5.602878938582023e-09,
+      "feasible": false,
+      "reward_sum": -0.07383617164900613,
+      "recovered_j": 1497054.0848538633,
+      "discharged_j": 3397054.0848538647,
+      "max_work_residual_j": 9.626091923564672e-09,
+      "max_battery_residual_j": 2.7212081477046013e-09,
+      "policy": "PPO 64 seed 1",
+      "cells": 160,
+      "file": "results/bahrain-algorithm-width-001/ppo_64_seed1_160.json.gz",
+      "replay_seconds": 3.6980292999651283,
+      "wheel_assist_j": 3057348.6763684778,
+      "method": "PPO",
+      "width": 64,
+      "seed": 1,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_64_seed1.zip",
+      "arm": "penalty_raw"
+    },
+    {
+      "duration_s": 88.8188095242653,
+      "final_energy_j": 100000.0,
+      "terminal_speed_error_mps": -0.5356782250959924,
+      "energy_residual_j": -5.561353122462975e-08,
+      "feasible": false,
+      "reward_sum": -0.06816533152384352,
+      "recovered_j": 1498773.7017998185,
+      "discharged_j": 3398773.7017998053,
+      "max_work_residual_j": 2.648448571562767e-08,
+      "max_battery_residual_j": 5.413312464952469e-09,
+      "policy": "PPO 64 seed 1",
+      "cells": 320,
+      "file": "results/bahrain-algorithm-width-001/ppo_64_seed1_320.json.gz",
+      "replay_seconds": 7.399791399948299,
+      "wheel_assist_j": 3058896.331619825,
+      "method": "PPO",
+      "width": 64,
+      "seed": 1,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_64_seed1.zip",
+      "arm": "penalty_raw"
+    },
+    {
+      "duration_s": 89.07511935649045,
+      "final_energy_j": 431957.67311754986,
+      "terminal_speed_error_mps": 0.0,
+      "energy_residual_j": -1.4790312641288494e-08,
+      "feasible": true,
+      "reward_sum": 0.33308273530596466,
+      "recovered_j": 1486397.19115422,
+      "discharged_j": 3054439.5180366593,
+      "max_work_residual_j": 7.770722731947899e-09,
+      "max_battery_residual_j": 4.636179456684567e-09,
+      "arm": "penalty_guarded",
+      "policy": "PPO 64 seed 1",
+      "cells": 160,
+      "file": "results/bahrain-finish-constraint-001/penalty_guarded_ppo_64_seed1_160.json.gz",
+      "replay_seconds": 4.09595420002006,
+      "wheel_assist_j": 2748995.566232993,
+      "method": "PPO",
+      "width": 64,
+      "seed": 1,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_64_seed1.zip",
+      "guard_interventions": 40,
+      "guard_extra_block_integrations": 6,
+      "guard_max_extra_block_integrations": 3
+    },
+    {
+      "duration_s": 88.88903035958485,
+      "final_energy_j": 100000.0,
+      "terminal_speed_error_mps": -0.8271189147327078,
+      "energy_residual_j": 1.6717243034314322e-08,
+      "feasible": false,
+      "reward_sum": -0.30794718252114706,
+      "recovered_j": 1497199.8171268532,
+      "discharged_j": 3397199.817126855,
+      "max_work_residual_j": 8.87666828930378e-09,
+      "max_battery_residual_j": 2.7212081477046013e-09,
+      "arm": "constrained_raw",
+      "policy": "PPO 64 seed 1",
+      "cells": 160,
+      "file": "results/bahrain-finish-constraint-001/constrained_raw_ppo_64_seed1_160.json.gz",
+      "replay_seconds": 3.6761080999858677,
+      "wheel_assist_j": 3057479.835414169,
+      "method": "PPO",
+      "width": 64,
+      "seed": 1,
+      "checkpoint": "results/bahrain-finish-constraint-001/ppo_64_seed1.zip"
+    },
+    {
+      "duration_s": 89.05783108225857,
+      "final_energy_j": 391456.49001600867,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "energy_residual_j": -1.6063036789581986e-08,
+      "feasible": true,
+      "reward_sum": 0.35037100953783806,
+      "recovered_j": 1487559.8259316753,
+      "discharged_j": 3096103.335915654,
+      "max_work_residual_j": 7.043126970529556e-09,
+      "max_battery_residual_j": 4.636179456684567e-09,
+      "arm": "constrained_guarded",
+      "policy": "PPO 64 seed 1",
+      "cells": 160,
+      "file": "results/bahrain-finish-constraint-001/constrained_guarded_ppo_64_seed1_160.json.gz",
+      "replay_seconds": 4.2195917998906225,
+      "wheel_assist_j": 2786493.0023240885,
+      "method": "PPO",
+      "width": 64,
+      "seed": 1,
+      "checkpoint": "results/bahrain-finish-constraint-001/ppo_64_seed1.zip",
+      "guard_interventions": 41,
+      "guard_extra_block_integrations": 6,
+      "guard_max_extra_block_integrations": 3
+    },
+    {
+      "duration_s": 88.95714617370655,
+      "final_energy_j": 432396.5591569826,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "energy_residual_j": -3.8487465214842587e-08,
+      "feasible": true,
+      "reward_sum": 0.32917624413090607,
+      "recovered_j": 1488097.1161161633,
+      "discharged_j": 3055700.556959152,
+      "max_work_residual_j": 2.648448571562767e-08,
+      "max_battery_residual_j": 6.642949301749468e-09,
+      "arm": "penalty_guarded",
+      "policy": "PPO 64 seed 1",
+      "cells": 320,
+      "file": "results/bahrain-finish-constraint-001/penalty_guarded_ppo_64_seed1_320.json.gz",
+      "replay_seconds": 8.31725349999033,
+      "wheel_assist_j": 2750130.501263236,
+      "method": "PPO",
+      "width": 64,
+      "seed": 1,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_64_seed1.zip",
+      "guard_interventions": 40,
+      "guard_extra_block_integrations": 6,
+      "guard_max_extra_block_integrations": 3
+    },
+    {
+      "duration_s": 88.76955940313357,
+      "final_energy_j": 100000.0,
+      "terminal_speed_error_mps": -0.8185987225362084,
+      "energy_residual_j": -2.1495132229709668e-08,
+      "feasible": false,
+      "reward_sum": -0.30183570783232483,
+      "recovered_j": 1498928.2796719435,
+      "discharged_j": 3398928.2796719354,
+      "max_work_residual_j": 2.648448571562767e-08,
+      "max_battery_residual_j": 5.413312464952469e-09,
+      "arm": "constrained_raw",
+      "policy": "PPO 64 seed 1",
+      "cells": 320,
+      "file": "results/bahrain-finish-constraint-001/constrained_raw_ppo_64_seed1_320.json.gz",
+      "replay_seconds": 7.063705299980938,
+      "wheel_assist_j": 3059035.451704743,
+      "method": "PPO",
+      "width": 64,
+      "seed": 1,
+      "checkpoint": "results/bahrain-finish-constraint-001/ppo_64_seed1.zip"
+    },
+    {
+      "duration_s": 88.93970061414485,
+      "final_energy_j": 391828.5845236581,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "energy_residual_j": -3.822403149555953e-08,
+      "feasible": true,
+      "reward_sum": 0.34662180369259943,
+      "recovered_j": 1489259.139746967,
+      "discharged_j": 3097430.55522328,
+      "max_work_residual_j": 2.648448571562767e-08,
+      "max_battery_residual_j": 6.642949301749468e-09,
+      "arm": "constrained_guarded",
+      "policy": "PPO 64 seed 1",
+      "cells": 320,
+      "file": "results/bahrain-finish-constraint-001/constrained_guarded_ppo_64_seed1_320.json.gz",
+      "replay_seconds": 8.157639199867845,
+      "wheel_assist_j": 2787687.499700951,
+      "method": "PPO",
+      "width": 64,
+      "seed": 1,
+      "checkpoint": "results/bahrain-finish-constraint-001/ppo_64_seed1.zip",
+      "guard_interventions": 41,
+      "guard_extra_block_integrations": 6,
+      "guard_max_extra_block_integrations": 3
+    }
+  ],
+  "hardware": {
+    "device": "cuda:0",
+    "gpu_name": "NVIDIA A16-16Q",
+    "total_memory_bytes": 17179410432,
+    "compute_capability": [
+      8,
+      6
+    ],
+    "torch_version": "2.14.1+cu126",
+    "cuda_runtime": "12.6",
+    "cudnn_version": 91002,
+    "cuda_optimizer_smoke_passed": true,
+    "cpu_fallback_allowed": false
+  },
+  "architecture": {
+    "actor_dimensions": [
+      8,
+      64,
+      64,
+      1
+    ],
+    "critic_dimensions": [
+      8,
+      32,
+      32,
+      1
+    ],
+    "critic_networks_in_checkpoint": 1,
+    "policy_parameter_count": 6179,
+    "shapes": {
+      "log_std": [
+        1
+      ],
+      "mlp_extractor.policy_net.0.weight": [
+        64,
+        8
+      ],
+      "mlp_extractor.policy_net.0.bias": [
+        64
+      ],
+      "mlp_extractor.policy_net.2.weight": [
+        64,
+        64
+      ],
+      "mlp_extractor.policy_net.2.bias": [
+        64
+      ],
+      "mlp_extractor.value_net.0.weight": [
+        32,
+        8
+      ],
+      "mlp_extractor.value_net.0.bias": [
+        32
+      ],
+      "mlp_extractor.value_net.2.weight": [
+        32,
+        32
+      ],
+      "mlp_extractor.value_net.2.bias": [
+        32
+      ],
+      "action_net.weight": [
+        1,
+        64
+      ],
+      "action_net.bias": [
+        1
+      ],
+      "value_net.weight": [
+        1,
+        32
+      ],
+      "value_net.bias": [
+        1
+      ]
+    }
+  },
+  "cuda": {
+    "policy_device": "cuda:0",
+    "parameter_tensors": 13,
+    "gradient_tensors": 13,
+    "cuda_optimizer_moment_tensors": 26,
+    "allocated_bytes": 17182720,
+    "peak_allocated_bytes": 17250816,
+    "passed": true
+  },
+  "changes": [
+    "log_std",
+    "mlp_extractor.policy_net.0.weight",
+    "mlp_extractor.policy_net.0.bias",
+    "mlp_extractor.policy_net.2.weight",
+    "mlp_extractor.policy_net.2.bias",
+    "mlp_extractor.value_net.0.weight",
+    "mlp_extractor.value_net.0.bias",
+    "mlp_extractor.value_net.2.weight",
+    "mlp_extractor.value_net.2.bias",
+    "action_net.weight",
+    "action_net.bias",
+    "value_net.weight",
+    "value_net.bias"
+  ],
+  "actual_steps": 4096,
+  "update_count": 160,
+  "minibatches": 640,
+  "training_seconds": 174.79672809992917,
+  "guard_interventions": 1296,
+  "guard_extra_block_integrations": 461,
+  "max_abs_training_finish_error_mps": 4.263256414560601e-14,
+  "completed_training_laps": 74,
+  "started_at": "2026-11-20T13:00:01.669827+00:00",
+  "completed_at": "2026-11-20T13:03:44.390383+00:00",
+  "wall_seconds": 222.7185015999712,
+  "peak_allocated_bytes": 17393152,
+  "peak_reserved_bytes": 23068672,
+  "replay_buffer_host_bytes": 0
+}

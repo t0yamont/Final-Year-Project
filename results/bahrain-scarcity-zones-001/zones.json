@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Timing-line straight",
+    "first_block": 1,
+    "last_block": 3,
+    "id": "timing_line",
+    "from_m": 0.0,
+    "to_m": 294.8590431311816
+  },
+  {
+    "name": "T1\u00e2\u20ac\u201cT3 exit",
+    "first_block": 8,
+    "last_block": 12,
+    "id": "t1_t3",
+    "from_m": 687.0052612434224,
+    "to_m": 1171.6675418939074
+  },
+  {
+    "name": "T8 exit",
+    "first_block": 24,
+    "last_block": 25,
+    "id": "t8_exit",
+    "from_m": 2242.8325348652397,
+    "to_m": 2439.1387329902227
+  },
+  {
+    "name": "T10 and exit",
+    "first_block": 28,
+    "last_block": 29,
+    "id": "t10_exit",
+    "from_m": 2635.188997106657,
+    "to_m": 2826.3128450986374
+  },
+  {
+    "name": "T11 and exit",
+    "first_block": 35,
+    "last_block": 36,
+    "id": "t11_exit",
+    "from_m": 3317.7418318115833,
+    "to_m": 3511.732481670038
+  },
+  {
+    "name": "T13 exit",
+    "first_block": 43,
+    "last_block": 43,
+    "id": "t13_exit",
+    "from_m": 4098.55712337534,
+    "to_m": 4196.762664220854
+  },
+  {
+    "name": "T15 approach and exit",
+    "first_block": 51,
+    "last_block": 51,
+    "id": "t15",
+    "from_m": 4881.543569781998,
+    "to_m": 4979.53179902359
+  }
+]

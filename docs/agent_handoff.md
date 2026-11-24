@@ -1,8 +1,26 @@
-# Compact continuation handoff — 10 November 2026
+# Compact continuation handoff — 22 November 2026
 
-## Technical draft and learned-controller transfer
+## Bahrain energy scarcity complete
 
-### Options for stronger evidence
+Four simulated cases crossed starting charge (2 or 1 MJ) with recoverable braking share (40% or 20%). All four adapted planners finished and beat matched-work spread on both grids. The original schedule missed finish speed in all three stress cases. For a fixed 20 kJ packet, T10 beat every other tested location in every case. T8 versus T11 and T13 versus T15 were unresolved throughout. Retain the local T10 speed-error caveat and the distinction between marginal packet value and total energy assigned to a zone. [Experiment and results](bahrain_energy_scarcity.md) · [Transfer plot](../figures/dissertation/bahrain-energy-scarcity-v1/02_zone_transfers.pdf)
+
+## Bahrain finish-speed comparison complete
+
+Independent physical replay reproduced all 104 evaluation trajectories from the issued actions, including charge, recovery, speed and elapsed time at all 55 decision boundaries. The largest guarded finish error was 4.3 × 10⁻¹⁴ m/s. All 148 unit tests passed. [Physical replay verification](../logs/agent_tools/2026-11-20/bahrain_finish_constraint_bare_replay.json) · [Test record](../logs/agent_tools/2026-11-20/bahrain_finish_constraint_checks.json)
+
+The recorded penalty-only policies and the twelve policies retrained with the physical action filter all met the 80.65294 m/s rolling finish on both grids when the filter was active. All twenty-four policies missed with it disabled. The retraining used the local NVIDIA A16, the original reward, matched seeds and 4,096 interactions per policy. It used 5,411 extra simulated lookahead transitions over 49,152 applied interactions. All 888 completed training laps reached the target. [Training record](../results/bahrain-finish-constraint-001/metrics.json) · [Replay evidence](../results/bahrain-finish-constraint-comparison-001/replays.csv)
+
+Every retrained policy beat the spread reference with the same filter on both grids. PPO improved in all six comparisons with its filtered penalty-only counterpart, while SAC slowed slightly in all six. The original feasible planner remains the fastest benchmark. Its lap increased by 0.462 s on the finer grid when filtered, so keep both planner references when presenting these results. The comparison used the central Bahrain model and allowed delivered wheel work to vary. [Paired timings](../results/bahrain-finish-constraint-comparison-001/paired_comparisons.csv)
+
+On the finer grid all twelve retrained policies delivered zero electrical wheel work over the final three blocks with the filter off. Turning it on raised their median there to 230.6 kJ. Of all the requests the filter changed in these twelve replays, only one was inside the final three blocks. Its main effect was limiting earlier spending so energy remained available at the finish. [Work by block](../results/bahrain-finish-constraint-comparison-001/final_three_blocks.csv) · [Deployment and interventions by distance](../figures/dissertation/bahrain-finish-constraint-v1/03_guard_intervention_distance.pdf)
+
+## Completed controller and second-circuit extensions
+
+Direct GPU training on calibrated Bahrain compared PPO and SAC at actor widths 64 and 256, with three seeds each. All twelve missed the finish on both grids. Most depleted the available battery before the last block, and two retained usable charge but requested no final assist. [Training results](bahrain_algorithm_width.md)
+
+The braking screen selected Silverstone. Its inherited target of 80.65 m/s exceeded the model’s optimistic 62.38 m/s upper bound. A separate model-only case froze a 56 m/s rolling target from zero-assist simulation. All 12 unchanged policies passed both grids there. The planner saved 0.639–0.640 s at equal wheel work. Keep the failed inherited transfer and the model-only result together. A circuit-specific fit would need fresh laps for independent pace validation. [Original Silverstone gate](transfer_circuit_geometry.md) · [Supplementary model study](silverstone_model_only.md)
+
+## Earlier proposals and transfer results before direct training
 
 For controller robustness, compare the existing finish rule with a common terminal-energy safeguard on the calibrated vehicle, then test direct training across declared grip, drag, recovery and initial-charge conditions. Score feasibility first, and use matched wheel work when attributing a saving to deployment timing. For empirical accuracy, target brake onset, minimum speed and exit speed in sector two and evaluate a frozen change on fresh laps. For circuit transfer, the existing acquisition has four screened 2025 Monza qualifying laps (two per driver), six at Silverstone (three per driver) and five in Hungary (four and one). Monza is already a development event. Silverstone is already a validation event for the separate motion study and can be reserved in advance for a new circuit-level control comparison. Each new layout needs independent timing-line, distance, curvature, DRS and braking checks before interpreting its map. [Acquisition coverage](../results/openf1-dataset-003/coverage.json) · [Public circuit geometry catalogue](https://github.com/TUMFTM/racetrack-database)
 

@@ -1,0 +1,49 @@
+{
+  "inputs": {
+    "results\\bahrain-algorithm-width-001\\manifest.json": "d36e60a192dda064563595b254352921a40ab9816263487e9a850af749a420fc",
+    "results\\bahrain-algorithm-width-001\\metrics.json": "5caa6478824b74b2ec3287ed24f29abb0ba68a6e7de29707c105f6807ec134e5",
+    "results\\bahrain-pace-calibration-001\\model.json": "6884eb5359a3451e02b24480fda61c75f5b39309d9ea5c0c80e0787234ec59b1",
+    "configs\\circuit_policy_transfer.json": "9f338b9894a59c60da488ee5d8ae3d263abd574bdd5eeeacd93303f1743fd498",
+    "results\\bahrain-algorithm-width-001\\spread_160.json.gz": "e5bad6b208bd314a4b362ca5040c491a8ae202c3041baa8ad3ea7ded80fd0f2c",
+    "results\\bahrain-algorithm-width-001\\spread_320.json.gz": "227b0d045c3d05473251ff435e9ced005345287b25e80c3d9a2bc6a8df5257a7",
+    "results\\bahrain-algorithm-width-001\\selected_160.json.gz": "abd161c194016eb0897dd20104c7353168f7fcae2ec62838a900007a8bacb02d",
+    "results\\bahrain-algorithm-width-001\\selected_320.json.gz": "384cdc2fbfec6053e151ba6313da4f4783e49ed2e2b9a563a24721131f87d79d",
+    "results\\bahrain-algorithm-width-001\\ppo_64_seed0_160.json.gz": "3a9be1f5c0d10aa0e18a09cff8911c74fd9c81c06bde62ec584c056caf3ac0b2",
+    "results\\bahrain-algorithm-width-001\\ppo_64_seed0_320.json.gz": "672935d545d276c12fe8e3f67da61e01aa8e43120e53f47a524e9da6b8b1ef03",
+    "results\\bahrain-algorithm-width-001\\ppo_64_seed1_160.json.gz": "d4bd107f171cddf8825d9e46b7352d0c274e22ac87d746854bf33bc54404b03a",
+    "results\\bahrain-algorithm-width-001\\ppo_64_seed1_320.json.gz": "eb9de579ab2cbbb3fc8acc49518cdae9697538a578707cd7c426b506f73f68e7",
+    "results\\bahrain-algorithm-width-001\\ppo_64_seed2_160.json.gz": "ea4bec3ea8231b29685243db9f593a1e328831162903c1e3e05b0a7970df2e1e",
+    "results\\bahrain-algorithm-width-001\\ppo_64_seed2_320.json.gz": "a584413e731d47d4de7f0155e2d19d99707fc0537027ad47b412bb3f330705cf",
+    "results\\bahrain-algorithm-width-001\\sac_64_seed0_160.json.gz": "c0ad1fd7a3903a2ca584f88ea335566df2b710d8cc170672a146d6d5acd4ba9b",
+    "results\\bahrain-algorithm-width-001\\sac_64_seed0_320.json.gz": "0acc14d75e25306003ddf10d38e4beb147129b7f886c50c3fba500c33fdf978d",
+    "results\\bahrain-algorithm-width-001\\sac_64_seed1_160.json.gz": "a51a38d2806213f1c1d719fec46df7fa72012bfc281203fe0755d8aaa6dbdeb7",
+    "results\\bahrain-algorithm-width-001\\sac_64_seed1_320.json.gz": "a1aebfd5620b1005828eac20ed2e1894d21406d651e8f7a4c2a4aac684f129dc",
+    "results\\bahrain-algorithm-width-001\\sac_64_seed2_160.json.gz": "22273998826a54a6d948961320b65fbc0f14e603e3b6c5756f9040db0fd84673",
+    "results\\bahrain-algorithm-width-001\\sac_64_seed2_320.json.gz": "ec53c6653147c540e9f8fc9ae612f917abd9f29b5051c757e239969d4b0cc974",
+    "results\\bahrain-algorithm-width-001\\ppo_256_seed0_160.json.gz": "da3e5608d5856305af2626d37df9732ba1621bd12d040ab20424169d63d29e38",
+    "results\\bahrain-algorithm-width-001\\ppo_256_seed0_320.json.gz": "af6ac2a92195f0c8605c720c197e22afece57e2daac8d9fdf949d93f13f79def",
+    "results\\bahrain-algorithm-width-001\\ppo_256_seed1_160.json.gz": "6b97bea26c9a26601a943f2749e433a9a18747702bc15ea8acbf8a329441ae15",
+    "results\\bahrain-algorithm-width-001\\ppo_256_seed1_320.json.gz": "c257ef4a04f938583338fab5c6fe66d2a09dc0a9ec6e1cb3487a2e967d67a1f3",
+    "results\\bahrain-algorithm-width-001\\ppo_256_seed2_160.json.gz": "3df077d11dd0cad18bd6d14e3a517e310dc2227fb0238c3990947625d0bce688",
+    "results\\bahrain-algorithm-width-001\\ppo_256_seed2_320.json.gz": "be003a1c0361ff48e9654b55aec160d03598a5557169045f31f8d2a1696e618d",
+    "results\\bahrain-algorithm-width-001\\sac_256_seed0_160.json.gz": "6363f39f04be903458509ac57b6f63496a56ed05c6d8bad10c6113e884b85ff7",
+    "results\\bahrain-algorithm-width-001\\sac_256_seed0_320.json.gz": "5f1214b558ee512b5a9cc5d4aadcd17b32a4977515e202101cab8327beb0c261",
+    "results\\bahrain-algorithm-width-001\\sac_256_seed1_160.json.gz": "ba2a46b4353c301fb90af6ab571e4848d30fe0a2440228fc1e095e42958536a4",
+    "results\\bahrain-algorithm-width-001\\sac_256_seed1_320.json.gz": "824bba6b716f67466d103245ad60e169cd7de3f7a2530be2d2cf7a04ac67d92b",
+    "results\\bahrain-algorithm-width-001\\sac_256_seed2_160.json.gz": "7a1adc7f0021bf1a24a1765f03d1a7b9916e73cac6536e5608ca5c2a62977a08",
+    "results\\bahrain-algorithm-width-001\\sac_256_seed2_320.json.gz": "0914806c81d280f100587bdde7291ad5b6182cff137f8209447ac988e1075fab"
+  },
+  "sources": {
+    "scripts\\report_algorithm_width.py": "5736354fc93e5c376327db8c443a88fc9cc7565ac7484a884ce9a53630c92b85",
+    "scripts/verify_bahrain_deployment.py": "021d6666a3a42193eef68398042f493c2d690194d16df48557d0572c31a986db",
+    "scripts/validate_regeneration.py": "3a2a581cbe21bbe4dbf7ef375ffe47e8b17f046c7c47a3bbcad520a8f8e4277f",
+    "scripts/benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "scripts/train_bahrain_algorithm_width.py": "178cca5f77c24a87ff53051c244cf28bf14684d9843a08ab341c1bc035308fbf"
+  },
+  "outputs": {
+    "results\\bahrain-algorithm-width-report-001\\comparison.json": "a6bb19484d67d0f65e41bb73ce3186b7041ec7497c84d59f1dbf92f70ed1753f",
+    "results\\bahrain-algorithm-width-report-001\\distance_profiles.csv": "5e5a9c46c93b04f37250386fb65d291e14ddbbe7b9c3ba172102392d835bdcfb",
+    "figures\\dissertation\\bahrain-algorithm-width-v1\\01_controller_comparison.pdf": "71e8cf1763cd423faf50bed2c4fa790c3a536c2ee57ba3c7fd6538ece8ef1492",
+    "figures\\dissertation\\bahrain-algorithm-width-v1\\01_controller_comparison.png": "2efef768be894eb8bbd8aecd8bad42df0e50eb8a19d7a79663e04f4661dbcac6"
+  }
+}

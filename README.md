@@ -2,6 +2,10 @@
 
 A model-based dissertation comparing electrical-energy deployment policies for a simulated qualifying lap, supported by public telemetry, numerical validation and reproducible experiments. Simulated battery trajectories are not measured F1 battery data.
 
+PPO and SAC were also trained directly on calibrated Bahrain at two actor widths. All twelve final policies missed the finish-speed requirement. The cross-circuit study selected Silverstone from braking telemetry and identified an unreachable finish boundary for the inherited vehicle. [GPU comparison](docs/bahrain_algorithm_width.md) · [Silverstone diagnosis](docs/transfer_circuit_geometry.md)
+
+In the separate Silverstone simulation, setting the rolling speed from a zero-assist lap made a physical comparison possible. At matched wheel work the circuit-specific planner saved about 0.64 s. [Silverstone deployment and recovery](docs/silverstone_model_only.md)
+
 **Where should the car deploy its energy at Bahrain?** The calibrated simulation found seven recurring stretches and measured the cost of moving deployment earlier or later. The timing-line straight has the closest local speed agreement with the two separate qualifying laps. [Deployment map and results](docs/bahrain_deployment_zones.md) · [Matching simulated and observed pace](docs/bahrain_qualifying_pace.md) · [Local speed agreement by zone](figures/dissertation/bahrain-zone-support-v1/zone_motion_support.pdf)
 
 The whole-lap check on the second Red Bull driver exposed a persistent sector-two error. Replacing the entire centreline with one lap's recorded positions worsened the prediction. [Driving-line experiment](docs/bahrain_path_candidate.md) · [Cross-driver qualifying check](docs/bahrain_driver_transfer.md)

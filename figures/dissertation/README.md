@@ -1,6 +1,10 @@
 # Dissertation figure index
 
+The [direct Bahrain PPO and SAC comparison](bahrain-algorithm-width-v1/01_controller_comparison.pdf) shows every training seed at both actor widths. The [braking screen](circuit-braking-screen-v1/01_qualifying_braking.pdf), [Silverstone geometry and speed checks](transfer-circuit-geometry-v1/01_silverstone_transfer_geometry.pdf) and [finish-speed bound](silverstone-finish-bound-v1/01_finish_speed_bound.pdf) explain the limits on circuit transfer.
+
 The [matched-work distance plot](bahrain-equal-work-v1/03_bahrain_matched_by_distance.pdf) shows when deploying earlier gains time and how much of the lead is given back. Read it alongside the [three-lap transfer check](bahrain-driver-transfer-v1/01_paired_transfer.pdf).
+
+Silverstone’s supplementary model-only case is shown in the [matched-work deployment and regeneration figure](silverstone-model-only-v1/01_silverstone_dp_energy.pdf) and [PPO and SAC distance profiles](silverstone-controller-comparison-v1/01_controller_comparison.pdf).
 
 For the Bahrain deployment question, start with the [wheel-assist map](bahrain-deployment-zones-v1/01_bahrain_wheel_assist.pdf), [power and time comparison](bahrain-deployment-zones-v1/02_bahrain_deployment_profiles.pdf) and [motion error in recurring deployment zones](bahrain-zone-support-v1/zone_motion_support.pdf).
 

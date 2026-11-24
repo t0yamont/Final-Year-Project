@@ -1,0 +1,13 @@
+method,width,seed,raw_constrained_grid_pass,raw_constrained_feasibility_gain,raw_constrained_time_gain,guarded_constrained_time_gain,constrained_guard_rescue,penalty_guard_rescue
+PPO,64,0,False,False,False,True,True,True
+PPO,64,1,False,False,False,True,True,True
+PPO,64,2,False,False,False,True,True,True
+PPO,256,0,False,False,False,True,True,True
+PPO,256,1,False,False,False,True,True,True
+PPO,256,2,False,False,False,True,True,True
+SAC,64,0,False,False,False,False,True,True
+SAC,64,1,False,False,False,False,True,True
+SAC,64,2,False,False,False,False,True,True
+SAC,256,0,False,False,False,False,True,True
+SAC,256,1,False,False,False,False,True,True
+SAC,256,2,False,False,False,False,True,True

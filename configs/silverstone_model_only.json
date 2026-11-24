@@ -1,0 +1,34 @@
+{
+  "study": "Silverstone model-only regenerative controller transfer",
+  "declared_on": "2026-11-19",
+  "geometry_manifest": "results/transfer-circuit-geometry-001/manifest.json",
+  "geometry_manifest_sha256": "17755d77bc615b00aba443c17102871caa765b78d03883d3d49d1f23f95a1409",
+  "finish_bound_manifest": "results/silverstone-finish-bound-001/manifest.json",
+  "finish_bound_manifest_sha256": "499e6cc23698ffa2c2897d81b944623860b2b36206b89b986f483683d8052b2c",
+  "model": "results/transfer-circuit-geometry-001/model.json",
+  "bahrain_run": "results/bahrain-algorithm-width-001",
+  "rolling_speed_rule": "Starting at floor of the inherited rolling target, test integer m/s in descending order to 1. Keep the first speed at which the zero-assist lap is feasible on all three grids. Stop the sequence for a given speed at the first failing grid. No adaptive, searched or learned controller determines this speed.",
+  "search_cells_per_block": 40,
+  "primary_cells_per_block": 160,
+  "refined_cells_per_block": 320,
+  "action_blocks": 55,
+  "observations": 8,
+  "search": {"actions": [0, 0.25, 0.5, 0.75, 1], "width": 16, "speed_bin_mps": 1, "energy_bin_j": 100000},
+  "work_match": {
+    "alpha_scan_start": 0.0, "alpha_scan_step": 0.25, "alpha_scan_stop": 4.0,
+    "max_bisections": 16, "absolute_wheel_work_tolerance_j": 500,
+    "definition": "Bracket every sign change in scaled adaptive spread wheel assist at 160 cells per block, then bisect and apply each candidate multiplier unchanged at 320. If there is no candidate, replay the closest 160-cell coarse scan result as a diagnostic. Require feasible selected and scaled spread laps on both grids and 500 J agreement on each grid, with a paired timing tolerance of 5 ms. Use the passing alpha with smallest absolute primary work error, or the closest tested candidate by the same rule if no passes. Break ties by ascending alpha."
+  },
+  "inference_device": "cpu",
+  "baselines": ["selected", "spread"],
+  "widths": [64, 256],
+  "seeds": [0, 1, 2],
+  "steps_per_seed": 4096,
+  "refinement": {
+    "paired_gap_change_s": 0.005,
+    "relative_lap_change": 0.0025,
+    "terminal_energy_change_j": 10000,
+    "recovered_change_j": 5000
+  },
+  "scope": "Model-only sensitivity with geometry, DRS and all physical assumptions inherited unchanged. New input is solely a simulator-derived rolling-speed boundary shared by every replay. The original geometry-and-solver and pace gate failures stay in force. No new telemetry, vehicle fit, policy training, hyperparameter selection or empirical Silverstone claim."
+}

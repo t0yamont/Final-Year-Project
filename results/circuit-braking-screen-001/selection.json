@@ -1,0 +1,111 @@
+{
+  "selected_circuit": "Silverstone",
+  "protocol": "circuit-braking-screen-v1",
+  "protocol_sha256": "adbc5be1beb0ecb7d5240e3e4a7396f16d07b1af1b245d41e4e6c97483f2e395",
+  "stage": "exploratory_after_primary_coverage_failure",
+  "primary": {
+    "original_protocol_sha256": "0075de795220c0b74c367cce44590fb88dc2b21eeb5dd261e46bada3504af2f7",
+    "reference_pass": false,
+    "eligible_laps_by_driver": {
+      "Bahrain": {
+        "1": [
+          4
+        ],
+        "22": [
+          2,
+          5
+        ]
+      },
+      "Hungary": {
+        "1": [],
+        "22": []
+      },
+      "Silverstone": {
+        "1": [],
+        "22": [
+          3,
+          9
+        ]
+      },
+      "Monza": {
+        "1": [],
+        "22": [
+          17
+        ]
+      }
+    },
+    "decisions": {},
+    "selected_circuit": null
+  },
+  "reference_pass": true,
+  "decisions": {
+    "Hungary": {
+      "differences_from_bahrain": {
+        "1": {
+          "brake_share_difference": -0.008301710407194518,
+          "relative_spacing_difference": -0.53287536385954
+        },
+        "22": {
+          "brake_share_difference": 0.007871994285542333,
+          "relative_spacing_difference": -0.3777797095048663
+        }
+      },
+      "contrast_pass_by_metric": {
+        "brake_share_difference": false,
+        "relative_spacing_difference": true
+      },
+      "coverage_pass": false,
+      "passes_selection_rule": false
+    },
+    "Silverstone": {
+      "differences_from_bahrain": {
+        "1": {
+          "brake_share_difference": -0.06596993256567527,
+          "relative_spacing_difference": -0.17578668832041988
+        },
+        "22": {
+          "brake_share_difference": -0.03818239953776453,
+          "relative_spacing_difference": -0.4248773005301012
+        }
+      },
+      "contrast_pass_by_metric": {
+        "brake_share_difference": true,
+        "relative_spacing_difference": true
+      },
+      "coverage_pass": true,
+      "passes_selection_rule": true
+    },
+    "Monza": {
+      "differences_from_bahrain": {
+        "1": {
+          "brake_share_difference": -0.06086077226826528,
+          "relative_spacing_difference": 0.2312523400284281
+        },
+        "22": {
+          "brake_share_difference": -0.061414725666988856,
+          "relative_spacing_difference": 0.7258457420709477
+        }
+      },
+      "contrast_pass_by_metric": {
+        "brake_share_difference": true,
+        "relative_spacing_difference": true
+      },
+      "coverage_pass": true,
+      "passes_selection_rule": true
+    }
+  },
+  "role": "validation",
+  "meeting_key": 1277,
+  "session_key": 9943,
+  "laps_by_driver": {
+    "1": [
+      5,
+      14
+    ],
+    "22": [
+      3,
+      9,
+      12
+    ]
+  }
+}

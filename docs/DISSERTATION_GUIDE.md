@@ -1,5 +1,9 @@
 # Dissertation reading guide
 
+For the new controller experiments, start with [PPO and SAC trained on calibrated Bahrain](bahrain_algorithm_width.md). The [braking screen](circuit_braking_screen.md) explains the choice of Silverstone, and the [layout, pace and finish-speed checks](transfer_circuit_geometry.md) explain the limits of transferring the Bahrain vehicle.
+
+The [model-only Silverstone comparison](silverstone_model_only.md) reports learned lap times, the 56 m/s boundary and the planner’s matched-work advantage. Its figures show deployment and recovery by distance.
+
 Open the [editable Word draft](../report/Bahrain_deployment_draft.docx) to read the assembled technical chapters and embedded figures. The [chapter outline](../report/outline.md) identifies the Markdown sources, current structure and outstanding student-owned material.
 
 Updated 19 November 2026. Start with the [methods chapter](../report/04_methods.md) and [results and discussion chapter](../report/06_results.md). Both link to the original results, assumptions and validation records.

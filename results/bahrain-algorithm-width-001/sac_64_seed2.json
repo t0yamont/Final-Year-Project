@@ -1,0 +1,304 @@
+{
+  "policy": "SAC 64 seed 2",
+  "method": "SAC",
+  "width": 64,
+  "seed": 2,
+  "checkpoint": "results/bahrain-algorithm-width-001/sac_64_seed2.zip",
+  "checkpoint_sha256": "f145d2f204331133960fa297e13aba84e2973eda19396d496d9f37132f897241",
+  "checkpoint_reload_exact": true,
+  "rows": [
+    {
+      "duration_s": 89.03077539329982,
+      "final_energy_j": 100000.0,
+      "terminal_speed_error_mps": -0.8537274768578555,
+      "energy_residual_j": 3.2249078851798174e-08,
+      "feasible": false,
+      "reward_sum": -0.4763007783612636,
+      "recovered_j": 1510967.222613562,
+      "discharged_j": 3410967.222613551,
+      "max_work_residual_j": 9.68429958447814e-09,
+      "max_battery_residual_j": 5.995389074087143e-09,
+      "policy": "SAC 64 seed 2",
+      "cells": 160,
+      "file": "results/bahrain-algorithm-width-001/sac_64_seed2_160.json.gz",
+      "replay_seconds": 3.7229654998518527,
+      "wheel_assist_j": 3069870.5003521955,
+      "method": "SAC",
+      "width": 64,
+      "seed": 2,
+      "checkpoint": "results/bahrain-algorithm-width-001/sac_64_seed2.zip"
+    },
+    {
+      "duration_s": 88.91063991086385,
+      "final_energy_j": 100000.0,
+      "terminal_speed_error_mps": -0.8459340990663549,
+      "energy_residual_j": 4.290025246156404e-08,
+      "feasible": false,
+      "reward_sum": -0.470251592092751,
+      "recovered_j": 1512687.881218991,
+      "discharged_j": 3412687.8812189805,
+      "max_work_residual_j": 2.6600901037454605e-08,
+      "max_battery_residual_j": 5.726178642362356e-09,
+      "policy": "SAC 64 seed 2",
+      "cells": 320,
+      "file": "results/bahrain-algorithm-width-001/sac_64_seed2_320.json.gz",
+      "replay_seconds": 7.326718700118363,
+      "wheel_assist_j": 3071419.093097082,
+      "method": "SAC",
+      "width": 64,
+      "seed": 2,
+      "checkpoint": "results/bahrain-algorithm-width-001/sac_64_seed2.zip"
+    }
+  ],
+  "cuda": {
+    "actor": {
+      "policy_device": "cuda:0",
+      "parameter_tensors": 8,
+      "gradient_tensors": 8,
+      "cuda_optimizer_moment_tensors": 16,
+      "allocated_bytes": 17444352,
+      "peak_allocated_bytes": 17578496,
+      "passed": true
+    },
+    "critics": {
+      "policy_device": "cuda:0",
+      "parameter_tensors": 12,
+      "gradient_tensors": 12,
+      "cuda_optimizer_moment_tensors": 24,
+      "allocated_bytes": 17444352,
+      "peak_allocated_bytes": 17578496,
+      "passed": true
+    },
+    "critic_1": {
+      "policy_device": "cuda:0",
+      "parameter_tensors": 6,
+      "gradient_tensors": 6,
+      "cuda_optimizer_moment_tensors": 24,
+      "allocated_bytes": 17444352,
+      "peak_allocated_bytes": 17578496,
+      "passed": true
+    },
+    "critic_2": {
+      "policy_device": "cuda:0",
+      "parameter_tensors": 6,
+      "gradient_tensors": 6,
+      "cuda_optimizer_moment_tensors": 24,
+      "allocated_bytes": 17444352,
+      "peak_allocated_bytes": 17578496,
+      "passed": true
+    },
+    "entropy_temperature": {
+      "policy_device": "cuda:0",
+      "parameter_tensors": 1,
+      "gradient_tensors": 1,
+      "cuda_optimizer_moment_tensors": 2,
+      "allocated_bytes": 17444352,
+      "peak_allocated_bytes": 17578496,
+      "passed": true
+    },
+    "target_critic_parameter_tensors": 12,
+    "target_critic_device": "cuda:0"
+  },
+  "hardware": {
+    "device": "cuda:0",
+    "gpu_name": "NVIDIA A16-16Q",
+    "total_memory_bytes": 17179410432,
+    "compute_capability": [
+      8,
+      6
+    ],
+    "torch_version": "2.14.1+cu126",
+    "cuda_runtime": "12.6",
+    "cudnn_version": 91002,
+    "cuda_optimizer_smoke_passed": true,
+    "cpu_fallback_allowed": false
+  },
+  "actual_steps": 4096,
+  "update_count": 960,
+  "minibatches": 960,
+  "training_seconds": 161.95719440001994,
+  "wall_seconds": 185.08176359999925,
+  "started_at": "2026-11-19T23:03:17.253167+00:00",
+  "completed_at": "2026-11-19T23:06:22.335438+00:00",
+  "peak_allocated_bytes": 17795072,
+  "peak_reserved_bytes": 23068672,
+  "changes": [
+    "actor.latent_pi.0.weight",
+    "actor.latent_pi.0.bias",
+    "actor.latent_pi.2.weight",
+    "actor.latent_pi.2.bias",
+    "actor.mu.weight",
+    "actor.mu.bias",
+    "actor.log_std.weight",
+    "actor.log_std.bias",
+    "critic.qf0.0.weight",
+    "critic.qf0.0.bias",
+    "critic.qf0.2.weight",
+    "critic.qf0.2.bias",
+    "critic.qf0.4.weight",
+    "critic.qf0.4.bias",
+    "critic.qf1.0.weight",
+    "critic.qf1.0.bias",
+    "critic.qf1.2.weight",
+    "critic.qf1.2.bias",
+    "critic.qf1.4.weight",
+    "critic.qf1.4.bias",
+    "critic_target.qf0.0.weight",
+    "critic_target.qf0.0.bias",
+    "critic_target.qf0.2.weight",
+    "critic_target.qf0.2.bias",
+    "critic_target.qf0.4.weight",
+    "critic_target.qf0.4.bias",
+    "critic_target.qf1.0.weight",
+    "critic_target.qf1.0.bias",
+    "critic_target.qf1.2.weight",
+    "critic_target.qf1.2.bias",
+    "critic_target.qf1.4.weight",
+    "critic_target.qf1.4.bias"
+  ],
+  "architecture": {
+    "actor_dimensions": [
+      8,
+      64,
+      64,
+      1
+    ],
+    "critic_dimensions": [
+      9,
+      64,
+      64,
+      1
+    ],
+    "critic_networks_in_checkpoint": 4,
+    "policy_parameter_count": 24326,
+    "shapes": {
+      "actor.latent_pi.0.weight": [
+        64,
+        8
+      ],
+      "actor.latent_pi.0.bias": [
+        64
+      ],
+      "actor.latent_pi.2.weight": [
+        64,
+        64
+      ],
+      "actor.latent_pi.2.bias": [
+        64
+      ],
+      "actor.mu.weight": [
+        1,
+        64
+      ],
+      "actor.mu.bias": [
+        1
+      ],
+      "actor.log_std.weight": [
+        1,
+        64
+      ],
+      "actor.log_std.bias": [
+        1
+      ],
+      "critic.qf0.0.weight": [
+        64,
+        9
+      ],
+      "critic.qf0.0.bias": [
+        64
+      ],
+      "critic.qf0.2.weight": [
+        64,
+        64
+      ],
+      "critic.qf0.2.bias": [
+        64
+      ],
+      "critic.qf0.4.weight": [
+        1,
+        64
+      ],
+      "critic.qf0.4.bias": [
+        1
+      ],
+      "critic.qf1.0.weight": [
+        64,
+        9
+      ],
+      "critic.qf1.0.bias": [
+        64
+      ],
+      "critic.qf1.2.weight": [
+        64,
+        64
+      ],
+      "critic.qf1.2.bias": [
+        64
+      ],
+      "critic.qf1.4.weight": [
+        1,
+        64
+      ],
+      "critic.qf1.4.bias": [
+        1
+      ],
+      "critic_target.qf0.0.weight": [
+        64,
+        9
+      ],
+      "critic_target.qf0.0.bias": [
+        64
+      ],
+      "critic_target.qf0.2.weight": [
+        64,
+        64
+      ],
+      "critic_target.qf0.2.bias": [
+        64
+      ],
+      "critic_target.qf0.4.weight": [
+        1,
+        64
+      ],
+      "critic_target.qf0.4.bias": [
+        1
+      ],
+      "critic_target.qf1.0.weight": [
+        64,
+        9
+      ],
+      "critic_target.qf1.0.bias": [
+        64
+      ],
+      "critic_target.qf1.2.weight": [
+        64,
+        64
+      ],
+      "critic_target.qf1.2.bias": [
+        64
+      ],
+      "critic_target.qf1.4.weight": [
+        1,
+        64
+      ],
+      "critic_target.qf1.4.bias": [
+        1
+      ]
+    }
+  },
+  "geometry_cache": {
+    "registered_curve": {
+      "hits": 2,
+      "misses": 1,
+      "maxsize": 4,
+      "currsize": 1
+    },
+    "geometry": {
+      "hits": 0,
+      "misses": 3,
+      "maxsize": 16,
+      "currsize": 3
+    }
+  },
+  "replay_buffer_host_bytes": 327680
+}

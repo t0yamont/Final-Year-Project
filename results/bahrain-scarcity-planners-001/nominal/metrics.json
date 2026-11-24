@@ -1,0 +1,979 @@
+{
+  "scenario": "nominal",
+  "model": {
+    "geometry": "results/circuit-input-assessment-001/Sakhir.csv",
+    "geometry_sha256": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a",
+    "line_offset_fraction": 0.0075202468261320755,
+    "vehicle": {
+      "mass_kg": 800.0,
+      "base_power_w": 370571.4098893019,
+      "electrical_limit_w": 120000.0,
+      "discharge_efficiency": 0.9,
+      "drag_kg_per_m": 0.45000252780735545,
+      "friction_deceleration_m_per_s2": 27.964919996680358
+    },
+    "lateral_base_mps2": 31.1265489288803,
+    "lateral_aero_per_m": 0.004696794610850987,
+    "max_speed_mps": 95.0,
+    "initial_speed_mps": 80.65294312169308,
+    "initial_energy_j": 2000000,
+    "reserve_j": 100000.0,
+    "regeneration": {
+      "capacity_j": 4000000.0,
+      "charge_efficiency": 0.8,
+      "max_power_w": 120000.0,
+      "braking_fraction": 0.4,
+      "recovery_limit_j": 2000000.0,
+      "deployment_limit_j": 4000000.0
+    },
+    "drs_blocks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    "drs_drag_factor": 0.825103434805563
+  },
+  "raw": {
+    "160": {
+      "frozen": {
+        "duration_s": 88.41822967590765,
+        "final_energy_j": 100261.70463761911,
+        "terminal_speed_error_mps": -1.4210854715202004e-14,
+        "energy_residual_j": -1.5873660830223457e-08,
+        "feasible": true,
+        "recovered_j": 1489592.9139475971,
+        "discharged_j": 3389331.2093099793,
+        "max_work_residual_j": 9.70612745732069e-09,
+        "max_battery_residual_j": 2.764863893389702e-09,
+        "wheel_assist_j": 3050398.088378982,
+        "file": "results/bahrain-scarcity-planners-001/nominal/frozen_160.json.gz"
+      },
+      "adapted": {
+        "duration_s": 88.41822967590765,
+        "final_energy_j": 100261.70463761911,
+        "terminal_speed_error_mps": -1.4210854715202004e-14,
+        "energy_residual_j": -1.5873660830223457e-08,
+        "feasible": true,
+        "recovered_j": 1489592.9139475971,
+        "discharged_j": 3389331.2093099793,
+        "max_work_residual_j": 9.70612745732069e-09,
+        "max_battery_residual_j": 2.764863893389702e-09,
+        "wheel_assist_j": 3050398.088378982,
+        "file": "results/bahrain-scarcity-planners-001/nominal/adapted_160.json.gz"
+      },
+      "spread": {
+        "duration_s": 89.40820209179641,
+        "final_energy_j": 188714.81200211993,
+        "terminal_speed_error_mps": -1.4210854715202004e-14,
+        "energy_residual_j": 1.2809572291772042e-09,
+        "feasible": true,
+        "recovered_j": 1509782.1631692918,
+        "discharged_j": 3321067.3511671633,
+        "max_work_residual_j": 1.1263182386755943e-08,
+        "max_battery_residual_j": 5.8498699218034744e-09,
+        "wheel_assist_j": 2988960.616050448,
+        "file": "results/bahrain-scarcity-planners-001/nominal/spread_160.json.gz"
+      }
+    },
+    "320": {
+      "frozen": {
+        "duration_s": 88.29806931315626,
+        "final_energy_j": 100257.8431961631,
+        "terminal_speed_error_mps": 0.0,
+        "energy_residual_j": -3.07930491105779e-08,
+        "feasible": true,
+        "recovered_j": 1491270.8770461997,
+        "discharged_j": 3391013.033850057,
+        "max_work_residual_j": 2.648448571562767e-08,
+        "max_battery_residual_j": 5.413312464952469e-09,
+        "wheel_assist_j": 3051911.7304650517,
+        "file": "results/bahrain-scarcity-planners-001/nominal/frozen_320.json.gz"
+      },
+      "adapted": {
+        "duration_s": 88.29806931315626,
+        "final_energy_j": 100257.8431961631,
+        "terminal_speed_error_mps": 0.0,
+        "energy_residual_j": -3.07930491105779e-08,
+        "feasible": true,
+        "recovered_j": 1491270.8770461997,
+        "discharged_j": 3391013.033850057,
+        "max_work_residual_j": 2.648448571562767e-08,
+        "max_battery_residual_j": 5.413312464952469e-09,
+        "wheel_assist_j": 3051911.7304650517,
+        "file": "results/bahrain-scarcity-planners-001/nominal/adapted_320.json.gz"
+      },
+      "spread": {
+        "duration_s": 89.28632241783745,
+        "final_energy_j": 187684.8616308108,
+        "terminal_speed_error_mps": -4.263256414560601e-14,
+        "energy_residual_j": 2.487309136434135e-09,
+        "feasible": true,
+        "recovered_j": 1511570.748165594,
+        "discharged_j": 3323885.8865348203,
+        "max_work_residual_j": 1.5083969628904015e-08,
+        "max_battery_residual_j": 4.94765117764473e-09,
+        "wheel_assist_j": 2991497.297881338,
+        "file": "results/bahrain-scarcity-planners-001/nominal/spread_320.json.gz"
+      }
+    }
+  },
+  "zones": {
+    "160": {
+      "frozen": [
+        {
+          "start_block": 1,
+          "end_block": 4,
+          "wheel_assist_j": 469115.65539516124,
+          "from_m": 0.0,
+          "to_m": 393.14539072202285,
+          "peak_block_average_wheel_kw": 120.00000000000007,
+          "average_wheel_kw": 105.7748014156381,
+          "battery_charge_j": 0.0
+        },
+        {
+          "start_block": 7,
+          "end_block": 12,
+          "wheel_assist_j": 826082.6396110919,
+          "from_m": 589.7180596827337,
+          "to_m": 1171.6675418939074,
+          "peak_block_average_wheel_kw": 120.00000000000128,
+          "average_wheel_kw": 73.71003640368046,
+          "battery_charge_j": 259052.0106797469
+        },
+        {
+          "start_block": 20,
+          "end_block": 21,
+          "wheel_assist_j": 179114.0381779226,
+          "from_m": 1855.08853209846,
+          "to_m": 2050.792725737655,
+          "peak_block_average_wheel_kw": 56.006330519436446,
+          "average_wheel_kw": 51.95990258340457,
+          "battery_charge_j": 14605.766686160154
+        },
+        {
+          "start_block": 24,
+          "end_block": 25,
+          "wheel_assist_j": 239339.4466033291,
+          "from_m": 2242.8325348652397,
+          "to_m": 2439.1387329902227,
+          "peak_block_average_wheel_kw": 90.00000000000156,
+          "average_wheel_kw": 64.36982912937825,
+          "battery_charge_j": 0.0
+        },
+        {
+          "start_block": 28,
+          "end_block": 30,
+          "wheel_assist_j": 397561.21970185556,
+          "from_m": 2635.188997106657,
+          "to_m": 2924.5964560254843,
+          "peak_block_average_wheel_kw": 119.9999999999988,
+          "average_wheel_kw": 64.5308951970534,
+          "battery_charge_j": 91510.16098820657
+        },
+        {
+          "start_block": 35,
+          "end_block": 37,
+          "wheel_assist_j": 373585.2943231125,
+          "from_m": 3317.7418318115833,
+          "to_m": 3609.7630702483816,
+          "peak_block_average_wheel_kw": 119.99999999999895,
+          "average_wheel_kw": 65.1259018538358,
+          "battery_charge_j": 122289.02296719224
+        },
+        {
+          "start_block": 43,
+          "end_block": 44,
+          "wheel_assist_j": 265254.21891859354,
+          "from_m": 4098.55712337534,
+          "to_m": 4295.048632774216,
+          "peak_block_average_wheel_kw": 119.99999999999409,
+          "average_wheel_kw": 79.66333821489897,
+          "battery_charge_j": 0.0
+        },
+        {
+          "start_block": 50,
+          "end_block": 51,
+          "wheel_assist_j": 253198.7335477567,
+          "from_m": 4786.479451097561,
+          "to_m": 4979.53179902359,
+          "peak_block_average_wheel_kw": 90.00000000000257,
+          "average_wheel_kw": 56.84329125014774,
+          "battery_charge_j": 136342.37752213236
+        },
+        {
+          "start_block": 55,
+          "end_block": 55,
+          "wheel_assist_j": 47146.84210015877,
+          "from_m": 5274.390553440046,
+          "to_m": 5372.676900984912,
+          "peak_block_average_wheel_kw": 37.81128770610183,
+          "average_wheel_kw": 37.81128770610183,
+          "battery_charge_j": 261.7046376190932
+        }
+      ],
+      "adapted": [
+        {
+          "start_block": 1,
+          "end_block": 4,
+          "wheel_assist_j": 469115.65539516124,
+          "from_m": 0.0,
+          "to_m": 393.14539072202285,
+          "peak_block_average_wheel_kw": 120.00000000000007,
+          "average_wheel_kw": 105.7748014156381,
+          "battery_charge_j": 0.0
+        },
+        {
+          "start_block": 7,
+          "end_block": 12,
+          "wheel_assist_j": 826082.6396110919,
+          "from_m": 589.7180596827337,
+          "to_m": 1171.6675418939074,
+          "peak_block_average_wheel_kw": 120.00000000000128,
+          "average_wheel_kw": 73.71003640368046,
+          "battery_charge_j": 259052.0106797469
+        },
+        {
+          "start_block": 20,
+          "end_block": 21,
+          "wheel_assist_j": 179114.0381779226,
+          "from_m": 1855.08853209846,
+          "to_m": 2050.792725737655,
+          "peak_block_average_wheel_kw": 56.006330519436446,
+          "average_wheel_kw": 51.95990258340457,
+          "battery_charge_j": 14605.766686160154
+        },
+        {
+          "start_block": 24,
+          "end_block": 25,
+          "wheel_assist_j": 239339.4466033291,
+          "from_m": 2242.8325348652397,
+          "to_m": 2439.1387329902227,
+          "peak_block_average_wheel_kw": 90.00000000000156,
+          "average_wheel_kw": 64.36982912937825,
+          "battery_charge_j": 0.0
+        },
+        {
+          "start_block": 28,
+          "end_block": 30,
+          "wheel_assist_j": 397561.21970185556,
+          "from_m": 2635.188997106657,
+          "to_m": 2924.5964560254843,
+          "peak_block_average_wheel_kw": 119.9999999999988,
+          "average_wheel_kw": 64.5308951970534,
+          "battery_charge_j": 91510.16098820657
+        },
+        {
+          "start_block": 35,
+          "end_block": 37,
+          "wheel_assist_j": 373585.2943231125,
+          "from_m": 3317.7418318115833,
+          "to_m": 3609.7630702483816,
+          "peak_block_average_wheel_kw": 119.99999999999895,
+          "average_wheel_kw": 65.1259018538358,
+          "battery_charge_j": 122289.02296719224
+        },
+        {
+          "start_block": 43,
+          "end_block": 44,
+          "wheel_assist_j": 265254.21891859354,
+          "from_m": 4098.55712337534,
+          "to_m": 4295.048632774216,
+          "peak_block_average_wheel_kw": 119.99999999999409,
+          "average_wheel_kw": 79.66333821489897,
+          "battery_charge_j": 0.0
+        },
+        {
+          "start_block": 50,
+          "end_block": 51,
+          "wheel_assist_j": 253198.7335477567,
+          "from_m": 4786.479451097561,
+          "to_m": 4979.53179902359,
+          "peak_block_average_wheel_kw": 90.00000000000257,
+          "average_wheel_kw": 56.84329125014774,
+          "battery_charge_j": 136342.37752213236
+        },
+        {
+          "start_block": 55,
+          "end_block": 55,
+          "wheel_assist_j": 47146.84210015877,
+          "from_m": 5274.390553440046,
+          "to_m": 5372.676900984912,
+          "peak_block_average_wheel_kw": 37.81128770610183,
+          "average_wheel_kw": 37.81128770610183,
+          "battery_charge_j": 261.7046376190932
+        }
+      ],
+      "spread": [
+        {
+          "start_block": 1,
+          "end_block": 55,
+          "wheel_assist_j": 2988960.616050448,
+          "from_m": 0.0,
+          "to_m": 5372.676900984912,
+          "peak_block_average_wheel_kw": 120.0000000000057,
+          "average_wheel_kw": 33.43049682378859,
+          "battery_charge_j": 1509782.163169292
+        }
+      ]
+    },
+    "320": {
+      "frozen": [
+        {
+          "start_block": 1,
+          "end_block": 4,
+          "wheel_assist_j": 469115.65539516165,
+          "from_m": 0.0,
+          "to_m": 393.1453907220231,
+          "peak_block_average_wheel_kw": 120.00000000000018,
+          "average_wheel_kw": 105.77480141563805,
+          "battery_charge_j": 0.0
+        },
+        {
+          "start_block": 7,
+          "end_block": 12,
+          "wheel_assist_j": 827338.4808279141,
+          "from_m": 589.7180596827345,
+          "to_m": 1171.6675418939071,
+          "peak_block_average_wheel_kw": 119.99999999999919,
+          "average_wheel_kw": 73.99066317559227,
+          "battery_charge_j": 259669.7221996268
+        },
+        {
+          "start_block": 20,
+          "end_block": 21,
+          "wheel_assist_j": 179382.80353086552,
+          "from_m": 1855.088532098455,
+          "to_m": 2050.7927257376527,
+          "peak_block_average_wheel_kw": 56.08674460847284,
+          "average_wheel_kw": 52.07247196941486,
+          "battery_charge_j": 14761.985198189812
+        },
+        {
+          "start_block": 24,
+          "end_block": 25,
+          "wheel_assist_j": 239053.16996377386,
+          "from_m": 2242.832534865245,
+          "to_m": 2439.138732990238,
+          "peak_block_average_wheel_kw": 89.99999999999837,
+          "average_wheel_kw": 64.35544444159943,
+          "battery_charge_j": 0.0
+        },
+        {
+          "start_block": 28,
+          "end_block": 30,
+          "wheel_assist_j": 397865.04156705615,
+          "from_m": 2635.18899710668,
+          "to_m": 2924.596456025502,
+          "peak_block_average_wheel_kw": 119.9999999999996,
+          "average_wheel_kw": 64.74480982554599,
+          "battery_charge_j": 91972.0132244319
+        },
+        {
+          "start_block": 35,
+          "end_block": 37,
+          "wheel_assist_j": 374069.15751887776,
+          "from_m": 3317.7418318116074,
+          "to_m": 3609.7630702483984,
+          "peak_block_average_wheel_kw": 119.9999999999991,
+          "average_wheel_kw": 65.34674400856052,
+          "battery_charge_j": 122709.35748043175
+        },
+        {
+          "start_block": 43,
+          "end_block": 44,
+          "wheel_assist_j": 265076.7810666209,
+          "from_m": 4098.557123375363,
+          "to_m": 4295.048632774213,
+          "peak_block_average_wheel_kw": 120.00000000000607,
+          "average_wheel_kw": 79.65383792957027,
+          "battery_charge_j": 0.0
+        },
+        {
+          "start_block": 50,
+          "end_block": 51,
+          "wheel_assist_j": 253800.08734078286,
+          "from_m": 4786.479451097572,
+          "to_m": 4979.531799023583,
+          "peak_block_average_wheel_kw": 89.99999999999841,
+          "average_wheel_kw": 57.14104062984763,
+          "battery_charge_j": 136743.8493681896
+        },
+        {
+          "start_block": 55,
+          "end_block": 55,
+          "wheel_assist_j": 46210.55325399888,
+          "from_m": 5274.390553440031,
+          "to_m": 5372.676900984902,
+          "peak_block_average_wheel_kw": 37.06200044352896,
+          "average_wheel_kw": 37.06200044352896,
+          "battery_charge_j": 257.843196163097
+        }
+      ],
+      "adapted": [
+        {
+          "start_block": 1,
+          "end_block": 4,
+          "wheel_assist_j": 469115.65539516165,
+          "from_m": 0.0,
+          "to_m": 393.1453907220231,
+          "peak_block_average_wheel_kw": 120.00000000000018,
+          "average_wheel_kw": 105.77480141563805,
+          "battery_charge_j": 0.0
+        },
+        {
+          "start_block": 7,
+          "end_block": 12,
+          "wheel_assist_j": 827338.4808279141,
+          "from_m": 589.7180596827345,
+          "to_m": 1171.6675418939071,
+          "peak_block_average_wheel_kw": 119.99999999999919,
+          "average_wheel_kw": 73.99066317559227,
+          "battery_charge_j": 259669.7221996268
+        },
+        {
+          "start_block": 20,
+          "end_block": 21,
+          "wheel_assist_j": 179382.80353086552,
+          "from_m": 1855.088532098455,
+          "to_m": 2050.7927257376527,
+          "peak_block_average_wheel_kw": 56.08674460847284,
+          "average_wheel_kw": 52.07247196941486,
+          "battery_charge_j": 14761.985198189812
+        },
+        {
+          "start_block": 24,
+          "end_block": 25,
+          "wheel_assist_j": 239053.16996377386,
+          "from_m": 2242.832534865245,
+          "to_m": 2439.138732990238,
+          "peak_block_average_wheel_kw": 89.99999999999837,
+          "average_wheel_kw": 64.35544444159943,
+          "battery_charge_j": 0.0
+        },
+        {
+          "start_block": 28,
+          "end_block": 30,
+          "wheel_assist_j": 397865.04156705615,
+          "from_m": 2635.18899710668,
+          "to_m": 2924.596456025502,
+          "peak_block_average_wheel_kw": 119.9999999999996,
+          "average_wheel_kw": 64.74480982554599,
+          "battery_charge_j": 91972.0132244319
+        },
+        {
+          "start_block": 35,
+          "end_block": 37,
+          "wheel_assist_j": 374069.15751887776,
+          "from_m": 3317.7418318116074,
+          "to_m": 3609.7630702483984,
+          "peak_block_average_wheel_kw": 119.9999999999991,
+          "average_wheel_kw": 65.34674400856052,
+          "battery_charge_j": 122709.35748043175
+        },
+        {
+          "start_block": 43,
+          "end_block": 44,
+          "wheel_assist_j": 265076.7810666209,
+          "from_m": 4098.557123375363,
+          "to_m": 4295.048632774213,
+          "peak_block_average_wheel_kw": 120.00000000000607,
+          "average_wheel_kw": 79.65383792957027,
+          "battery_charge_j": 0.0
+        },
+        {
+          "start_block": 50,
+          "end_block": 51,
+          "wheel_assist_j": 253800.08734078286,
+          "from_m": 4786.479451097572,
+          "to_m": 4979.531799023583,
+          "peak_block_average_wheel_kw": 89.99999999999841,
+          "average_wheel_kw": 57.14104062984763,
+          "battery_charge_j": 136743.8493681896
+        },
+        {
+          "start_block": 55,
+          "end_block": 55,
+          "wheel_assist_j": 46210.55325399888,
+          "from_m": 5274.390553440031,
+          "to_m": 5372.676900984902,
+          "peak_block_average_wheel_kw": 37.06200044352896,
+          "average_wheel_kw": 37.06200044352896,
+          "battery_charge_j": 257.843196163097
+        }
+      ],
+      "spread": [
+        {
+          "start_block": 1,
+          "end_block": 55,
+          "wheel_assist_j": 2991497.297881338,
+          "from_m": 0.0,
+          "to_m": 5372.676900984902,
+          "peak_block_average_wheel_kw": 119.99999999998788,
+          "average_wheel_kw": 33.50454153416562,
+          "battery_charge_j": 1511570.748165594
+        }
+      ]
+    }
+  },
+  "raw_grid": {
+    "individual": {
+      "frozen": {
+        "both_feasible": true,
+        "time_320_minus_160_s": -0.12016036275139186,
+        "relative_lap_change": 0.001360849265290653,
+        "terminal_energy_change_j": 3.8614414560142905,
+        "recovered_change_j": 1677.9630986026023,
+        "discharged_change_j": 1681.8245400777087,
+        "passes_refinement": true
+      },
+      "adapted": {
+        "both_feasible": true,
+        "time_320_minus_160_s": -0.12016036275139186,
+        "relative_lap_change": 0.001360849265290653,
+        "terminal_energy_change_j": 3.8614414560142905,
+        "recovered_change_j": 1677.9630986026023,
+        "discharged_change_j": 1681.8245400777087,
+        "passes_refinement": true
+      },
+      "spread": {
+        "both_feasible": true,
+        "time_320_minus_160_s": -0.12187967395895782,
+        "relative_lap_change": 0.0013650430509232054,
+        "terminal_energy_change_j": 1029.9503713091253,
+        "recovered_change_j": 1788.5849963021465,
+        "discharged_change_j": 2818.535367656965,
+        "passes_refinement": true
+      }
+    },
+    "paired": {
+      "frozen": {
+        "delta_160_s": 0.0,
+        "delta_320_s": 0.0,
+        "gap_change_s": 0.0,
+        "both_feasible": true,
+        "passes_paired_tolerance": true
+      },
+      "spread": {
+        "delta_160_s": 0.989972415888758,
+        "delta_320_s": 0.988253104681192,
+        "gap_change_s": 0.0017193112075659656,
+        "both_feasible": true,
+        "passes_paired_tolerance": true
+      }
+    }
+  },
+  "matched": {
+    "frozen": {
+      "ordinary": {
+        "preferred": {
+          "alpha": 1.09765625,
+          "grids": {
+            "160": {
+              "reference": {
+                "duration_s": 88.41822967590765,
+                "final_energy_j": 100261.70463761911,
+                "terminal_speed_error_mps": -1.4210854715202004e-14,
+                "energy_residual_j": -1.5873660830223457e-08,
+                "feasible": true,
+                "recovered_j": 1489592.9139475971,
+                "discharged_j": 3389331.2093099793,
+                "max_work_residual_j": 9.70612745732069e-09,
+                "max_battery_residual_j": 2.764863893389702e-09,
+                "wheel_assist_j": 3050398.088378982,
+                "file": "results/bahrain-scarcity-planners-001/nominal/frozen_160.json.gz"
+              },
+              "spread": {
+                "duration_s": 89.37303194596682,
+                "final_energy_j": 122400.0376334483,
+                "terminal_speed_error_mps": 4.263256414560601e-14,
+                "energy_residual_j": 1.9613255464179247e-09,
+                "feasible": true,
+                "recovered_j": 1511622.314251463,
+                "discharged_j": 3389222.2766180257,
+                "max_work_residual_j": 1.0837538866326213e-08,
+                "max_battery_residual_j": 3.128661774098873e-09,
+                "wheel_assist_j": 3050300.0489562224,
+                "file": "results/bahrain-scarcity-planners-001/nominal/ordinary_spread_160_alpha-1.09765625.json.gz"
+              },
+              "difference_j": -98.03942275978625,
+              "both_feasible": true,
+              "matched": true,
+              "saving_s": 0.9548022700591616
+            },
+            "320": {
+              "reference": {
+                "duration_s": 88.29806931315626,
+                "final_energy_j": 100257.8431961631,
+                "terminal_speed_error_mps": 0.0,
+                "energy_residual_j": -3.07930491105779e-08,
+                "feasible": true,
+                "recovered_j": 1491270.8770461997,
+                "discharged_j": 3391013.033850057,
+                "max_work_residual_j": 2.648448571562767e-08,
+                "max_battery_residual_j": 5.413312464952469e-09,
+                "wheel_assist_j": 3051911.7304650517,
+                "file": "results/bahrain-scarcity-planners-001/nominal/frozen_320.json.gz"
+              },
+              "spread": {
+                "duration_s": 89.25139072006895,
+                "final_energy_j": 122326.63478626336,
+                "terminal_speed_error_mps": -2.842170943040401e-14,
+                "energy_residual_j": -3.6919042267768987e-09,
+                "feasible": true,
+                "recovered_j": 1513386.287110012,
+                "discharged_j": 3391059.6523237196,
+                "max_work_residual_j": 1.4028046280145645e-08,
+                "max_battery_residual_j": 4.903995431959629e-09,
+                "wheel_assist_j": 3051953.687091347,
+                "file": "results/bahrain-scarcity-planners-001/nominal/ordinary_spread_320_alpha-1.09765625.json.gz"
+              },
+              "difference_j": 41.95662629511207,
+              "both_feasible": true,
+              "matched": true,
+              "saving_s": 0.9533214069126927
+            }
+          },
+          "individual_refinement": {
+            "reference": {
+              "relative_lap_change": 0.001360849265290653,
+              "terminal_energy_change_j": 3.8614414560142905,
+              "recovered_change_j": 1677.9630986026023,
+              "passed": true
+            },
+            "spread": {
+              "relative_lap_change": 0.0013629056636145912,
+              "terminal_energy_change_j": 73.40284718494513,
+              "recovered_change_j": 1763.9728585490957,
+              "passed": true
+            }
+          },
+          "paired_gap_change_s": 0.0014808631464688915,
+          "passed": true,
+          "direction": "reference_faster"
+        },
+        "candidates": [
+          {
+            "alpha": 1.09765625,
+            "grids": {
+              "160": {
+                "reference": {
+                  "duration_s": 88.41822967590765,
+                  "final_energy_j": 100261.70463761911,
+                  "terminal_speed_error_mps": -1.4210854715202004e-14,
+                  "energy_residual_j": -1.5873660830223457e-08,
+                  "feasible": true,
+                  "recovered_j": 1489592.9139475971,
+                  "discharged_j": 3389331.2093099793,
+                  "max_work_residual_j": 9.70612745732069e-09,
+                  "max_battery_residual_j": 2.764863893389702e-09,
+                  "wheel_assist_j": 3050398.088378982,
+                  "file": "results/bahrain-scarcity-planners-001/nominal/frozen_160.json.gz"
+                },
+                "spread": {
+                  "duration_s": 89.37303194596682,
+                  "final_energy_j": 122400.0376334483,
+                  "terminal_speed_error_mps": 4.263256414560601e-14,
+                  "energy_residual_j": 1.9613255464179247e-09,
+                  "feasible": true,
+                  "recovered_j": 1511622.314251463,
+                  "discharged_j": 3389222.2766180257,
+                  "max_work_residual_j": 1.0837538866326213e-08,
+                  "max_battery_residual_j": 3.128661774098873e-09,
+                  "wheel_assist_j": 3050300.0489562224,
+                  "file": "results/bahrain-scarcity-planners-001/nominal/ordinary_spread_160_alpha-1.09765625.json.gz"
+                },
+                "difference_j": -98.03942275978625,
+                "both_feasible": true,
+                "matched": true,
+                "saving_s": 0.9548022700591616
+              },
+              "320": {
+                "reference": {
+                  "duration_s": 88.29806931315626,
+                  "final_energy_j": 100257.8431961631,
+                  "terminal_speed_error_mps": 0.0,
+                  "energy_residual_j": -3.07930491105779e-08,
+                  "feasible": true,
+                  "recovered_j": 1491270.8770461997,
+                  "discharged_j": 3391013.033850057,
+                  "max_work_residual_j": 2.648448571562767e-08,
+                  "max_battery_residual_j": 5.413312464952469e-09,
+                  "wheel_assist_j": 3051911.7304650517,
+                  "file": "results/bahrain-scarcity-planners-001/nominal/frozen_320.json.gz"
+                },
+                "spread": {
+                  "duration_s": 89.25139072006895,
+                  "final_energy_j": 122326.63478626336,
+                  "terminal_speed_error_mps": -2.842170943040401e-14,
+                  "energy_residual_j": -3.6919042267768987e-09,
+                  "feasible": true,
+                  "recovered_j": 1513386.287110012,
+                  "discharged_j": 3391059.6523237196,
+                  "max_work_residual_j": 1.4028046280145645e-08,
+                  "max_battery_residual_j": 4.903995431959629e-09,
+                  "wheel_assist_j": 3051953.687091347,
+                  "file": "results/bahrain-scarcity-planners-001/nominal/ordinary_spread_320_alpha-1.09765625.json.gz"
+                },
+                "difference_j": 41.95662629511207,
+                "both_feasible": true,
+                "matched": true,
+                "saving_s": 0.9533214069126927
+              }
+            },
+            "individual_refinement": {
+              "reference": {
+                "relative_lap_change": 0.001360849265290653,
+                "terminal_energy_change_j": 3.8614414560142905,
+                "recovered_change_j": 1677.9630986026023,
+                "passed": true
+              },
+              "spread": {
+                "relative_lap_change": 0.0013629056636145912,
+                "terminal_energy_change_j": 73.40284718494513,
+                "recovered_change_j": 1763.9728585490957,
+                "passed": true
+              }
+            },
+            "paired_gap_change_s": 0.0014808631464688915,
+            "passed": true,
+            "direction": "reference_faster"
+          }
+        ],
+        "reused_archive": true
+      }
+    },
+    "adapted": {
+      "ordinary": {
+        "preferred": {
+          "alpha": 1.09765625,
+          "grids": {
+            "160": {
+              "reference": {
+                "duration_s": 88.41822967590765,
+                "final_energy_j": 100261.70463761911,
+                "terminal_speed_error_mps": -1.4210854715202004e-14,
+                "energy_residual_j": -1.5873660830223457e-08,
+                "feasible": true,
+                "recovered_j": 1489592.9139475971,
+                "discharged_j": 3389331.2093099793,
+                "max_work_residual_j": 9.70612745732069e-09,
+                "max_battery_residual_j": 2.764863893389702e-09,
+                "wheel_assist_j": 3050398.088378982,
+                "file": "results/bahrain-scarcity-planners-001/nominal/adapted_160.json.gz"
+              },
+              "spread": {
+                "duration_s": 89.37303194596682,
+                "final_energy_j": 122400.0376334483,
+                "terminal_speed_error_mps": 4.263256414560601e-14,
+                "energy_residual_j": 1.9613255464179247e-09,
+                "feasible": true,
+                "recovered_j": 1511622.314251463,
+                "discharged_j": 3389222.2766180257,
+                "max_work_residual_j": 1.0837538866326213e-08,
+                "max_battery_residual_j": 3.128661774098873e-09,
+                "wheel_assist_j": 3050300.0489562224,
+                "file": "results/bahrain-scarcity-planners-001/nominal/ordinary_spread_160_alpha-1.09765625.json.gz"
+              },
+              "difference_j": -98.03942275978625,
+              "both_feasible": true,
+              "matched": true,
+              "saving_s": 0.9548022700591616
+            },
+            "320": {
+              "reference": {
+                "duration_s": 88.29806931315626,
+                "final_energy_j": 100257.8431961631,
+                "terminal_speed_error_mps": 0.0,
+                "energy_residual_j": -3.07930491105779e-08,
+                "feasible": true,
+                "recovered_j": 1491270.8770461997,
+                "discharged_j": 3391013.033850057,
+                "max_work_residual_j": 2.648448571562767e-08,
+                "max_battery_residual_j": 5.413312464952469e-09,
+                "wheel_assist_j": 3051911.7304650517,
+                "file": "results/bahrain-scarcity-planners-001/nominal/adapted_320.json.gz"
+              },
+              "spread": {
+                "duration_s": 89.25139072006895,
+                "final_energy_j": 122326.63478626336,
+                "terminal_speed_error_mps": -2.842170943040401e-14,
+                "energy_residual_j": -3.6919042267768987e-09,
+                "feasible": true,
+                "recovered_j": 1513386.287110012,
+                "discharged_j": 3391059.6523237196,
+                "max_work_residual_j": 1.4028046280145645e-08,
+                "max_battery_residual_j": 4.903995431959629e-09,
+                "wheel_assist_j": 3051953.687091347,
+                "file": "results/bahrain-scarcity-planners-001/nominal/ordinary_spread_320_alpha-1.09765625.json.gz"
+              },
+              "difference_j": 41.95662629511207,
+              "both_feasible": true,
+              "matched": true,
+              "saving_s": 0.9533214069126927
+            }
+          },
+          "individual_refinement": {
+            "reference": {
+              "relative_lap_change": 0.001360849265290653,
+              "terminal_energy_change_j": 3.8614414560142905,
+              "recovered_change_j": 1677.9630986026023,
+              "passed": true
+            },
+            "spread": {
+              "relative_lap_change": 0.0013629056636145912,
+              "terminal_energy_change_j": 73.40284718494513,
+              "recovered_change_j": 1763.9728585490957,
+              "passed": true
+            }
+          },
+          "paired_gap_change_s": 0.0014808631464688915,
+          "passed": true,
+          "direction": "reference_faster"
+        },
+        "candidates": [
+          {
+            "alpha": 1.09765625,
+            "grids": {
+              "160": {
+                "reference": {
+                  "duration_s": 88.41822967590765,
+                  "final_energy_j": 100261.70463761911,
+                  "terminal_speed_error_mps": -1.4210854715202004e-14,
+                  "energy_residual_j": -1.5873660830223457e-08,
+                  "feasible": true,
+                  "recovered_j": 1489592.9139475971,
+                  "discharged_j": 3389331.2093099793,
+                  "max_work_residual_j": 9.70612745732069e-09,
+                  "max_battery_residual_j": 2.764863893389702e-09,
+                  "wheel_assist_j": 3050398.088378982,
+                  "file": "results/bahrain-scarcity-planners-001/nominal/adapted_160.json.gz"
+                },
+                "spread": {
+                  "duration_s": 89.37303194596682,
+                  "final_energy_j": 122400.0376334483,
+                  "terminal_speed_error_mps": 4.263256414560601e-14,
+                  "energy_residual_j": 1.9613255464179247e-09,
+                  "feasible": true,
+                  "recovered_j": 1511622.314251463,
+                  "discharged_j": 3389222.2766180257,
+                  "max_work_residual_j": 1.0837538866326213e-08,
+                  "max_battery_residual_j": 3.128661774098873e-09,
+                  "wheel_assist_j": 3050300.0489562224,
+                  "file": "results/bahrain-scarcity-planners-001/nominal/ordinary_spread_160_alpha-1.09765625.json.gz"
+                },
+                "difference_j": -98.03942275978625,
+                "both_feasible": true,
+                "matched": true,
+                "saving_s": 0.9548022700591616
+              },
+              "320": {
+                "reference": {
+                  "duration_s": 88.29806931315626,
+                  "final_energy_j": 100257.8431961631,
+                  "terminal_speed_error_mps": 0.0,
+                  "energy_residual_j": -3.07930491105779e-08,
+                  "feasible": true,
+                  "recovered_j": 1491270.8770461997,
+                  "discharged_j": 3391013.033850057,
+                  "max_work_residual_j": 2.648448571562767e-08,
+                  "max_battery_residual_j": 5.413312464952469e-09,
+                  "wheel_assist_j": 3051911.7304650517,
+                  "file": "results/bahrain-scarcity-planners-001/nominal/adapted_320.json.gz"
+                },
+                "spread": {
+                  "duration_s": 89.25139072006895,
+                  "final_energy_j": 122326.63478626336,
+                  "terminal_speed_error_mps": -2.842170943040401e-14,
+                  "energy_residual_j": -3.6919042267768987e-09,
+                  "feasible": true,
+                  "recovered_j": 1513386.287110012,
+                  "discharged_j": 3391059.6523237196,
+                  "max_work_residual_j": 1.4028046280145645e-08,
+                  "max_battery_residual_j": 4.903995431959629e-09,
+                  "wheel_assist_j": 3051953.687091347,
+                  "file": "results/bahrain-scarcity-planners-001/nominal/ordinary_spread_320_alpha-1.09765625.json.gz"
+                },
+                "difference_j": 41.95662629511207,
+                "both_feasible": true,
+                "matched": true,
+                "saving_s": 0.9533214069126927
+              }
+            },
+            "individual_refinement": {
+              "reference": {
+                "relative_lap_change": 0.001360849265290653,
+                "terminal_energy_change_j": 3.8614414560142905,
+                "recovered_change_j": 1677.9630986026023,
+                "passed": true
+              },
+              "spread": {
+                "relative_lap_change": 0.0013629056636145912,
+                "terminal_energy_change_j": 73.40284718494513,
+                "recovered_change_j": 1763.9728585490957,
+                "passed": true
+              }
+            },
+            "paired_gap_change_s": 0.0014808631464688915,
+            "passed": true,
+            "direction": "reference_faster"
+          }
+        ],
+        "reused_archive": true
+      }
+    }
+  },
+  "trials": {},
+  "search": "results/bahrain-scarcity-planners-001/nominal/search.json"
+}

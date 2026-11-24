@@ -1,0 +1,7 @@
+{
+  "run_id": "circuit-braking-screen-001",
+  "stage": "exploratory_after_primary_coverage_failure",
+  "png_dpi": 300,
+  "title": "Observed braking in 2025 qualifying",
+  "caption": "Native OpenF1 qualifying car observations for Red Bull Racing drivers 1 and 22. Each point represents one eligible lap. Horizontal lines mark driver medians. Summed entry-minus-exit speed loss and median onset-to-onset distance use complete bouts only. Spacing excludes transitions across gaps and the timing line. Binary brake observations describe braking opportunity. Electrical delivery and battery recovery are unobserved."
+}

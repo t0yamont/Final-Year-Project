@@ -1,5 +1,11 @@
 # Multi-agent project workflow
 
+## Direct controller training and transfer
+
+1. Train PPO and SAC on calibrated Bahrain with 64 units per hidden actor layer and three initialisation seeds. Record the actual interaction and update counts, GPU evidence and exact checkpoint reload.
+2. Repeat with 256 units and unchanged critics, reward and interaction budget. Score every final checkpoint at both replay resolutions. Report finish feasibility before any time comparison.
+3. Use the frozen braking screen and independent geometry checks to qualify a second circuit. Compare unchanged policies with a circuit-specific planner and adaptive spread where the geometry supports simulation. Test the effect of placement by matching delivered wheel work on both grids. [Transfer protocol](../configs/circuit_policy_transfer.json)
+
 ## Bahrain deployment study
 
 The additional same-session transfer cohort has since been scored on driver 22 laps 2, 5 and 13. Both compared paths failed the cross-driver gate. Record these laps as used in any future evaluation design. [Predeclared comparison](../configs/bahrain_driver_transfer_protocol.json) · [Results](bahrain_driver_transfer.md)

@@ -1,0 +1,59 @@
+{
+  "manifest_sha256": "8d072c7984a232d1000f97e42115fe27dc1eee0dca1607d7289e75f1c7f3f226",
+  "verifier_sha256": "a037f17b36b27acdd5f3ff0d0a9b8ade6f858f1c23178ac3d9313caa65adb069",
+  "verified_manifest_entries": 120,
+  "replay_groups": [
+    {
+      "scenario": "nominal",
+      "cells": 160,
+      "distinct_scored_files": 8,
+      "feasible": 8
+    },
+    {
+      "scenario": "nominal",
+      "cells": 320,
+      "distinct_scored_files": 16,
+      "feasible": 16
+    },
+    {
+      "scenario": "low_charge",
+      "cells": 160,
+      "distinct_scored_files": 8,
+      "feasible": 8
+    },
+    {
+      "scenario": "low_charge",
+      "cells": 320,
+      "distinct_scored_files": 16,
+      "feasible": 16
+    },
+    {
+      "scenario": "low_recovery",
+      "cells": 160,
+      "distinct_scored_files": 8,
+      "feasible": 8
+    },
+    {
+      "scenario": "low_recovery",
+      "cells": 320,
+      "distinct_scored_files": 16,
+      "feasible": 16
+    },
+    {
+      "scenario": "combined",
+      "cells": 160,
+      "distinct_scored_files": 8,
+      "feasible": 8
+    },
+    {
+      "scenario": "combined",
+      "cells": 320,
+      "distinct_scored_files": 16,
+      "feasible": 16
+    }
+  ],
+  "comparisons": {
+    "resolved": 76,
+    "unresolved": 8
+  }
+}

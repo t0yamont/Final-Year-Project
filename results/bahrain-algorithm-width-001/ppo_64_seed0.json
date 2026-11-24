@@ -1,0 +1,178 @@
+{
+  "policy": "PPO 64 seed 0",
+  "method": "PPO",
+  "width": 64,
+  "seed": 0,
+  "checkpoint": "results/bahrain-algorithm-width-001/ppo_64_seed0.zip",
+  "checkpoint_sha256": "18821a1b686b828b9209032493bf3746cb061998f34cb8039e7fc0fc9797f4a9",
+  "checkpoint_reload_exact": true,
+  "rows": [
+    {
+      "duration_s": 89.08616530315842,
+      "final_energy_j": 252781.4589856781,
+      "terminal_speed_error_mps": -1.3365917565685095,
+      "energy_residual_j": -2.9082599550811494e-08,
+      "feasible": false,
+      "reward_sum": -1.014554967930522,
+      "recovered_j": 1497419.0458559853,
+      "discharged_j": 3244637.5868703094,
+      "max_work_residual_j": 8.64383764564991e-09,
+      "max_battery_residual_j": 2.7212081477046013e-09,
+      "policy": "PPO 64 seed 0",
+      "cells": 160,
+      "file": "results/bahrain-algorithm-width-001/ppo_64_seed0_160.json.gz",
+      "replay_seconds": 3.7797412998043,
+      "wheel_assist_j": 2920173.8281832775,
+      "method": "PPO",
+      "width": 64,
+      "seed": 0,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_64_seed0.zip"
+    },
+    {
+      "duration_s": 88.96892533491699,
+      "final_energy_j": 253979.70388974826,
+      "terminal_speed_error_mps": -1.3330716225585206,
+      "energy_residual_j": -6.742453728669773e-08,
+      "feasible": false,
+      "reward_sum": -1.0156745396380558,
+      "recovered_j": 1499093.6952207542,
+      "discharged_j": 3245113.991330999,
+      "max_work_residual_j": 2.648448571562767e-08,
+      "max_battery_residual_j": 5.413312464952469e-09,
+      "policy": "PPO 64 seed 0",
+      "cells": 320,
+      "file": "results/bahrain-algorithm-width-001/ppo_64_seed0_320.json.gz",
+      "replay_seconds": 7.388918600045145,
+      "wheel_assist_j": 2920602.5921978992,
+      "method": "PPO",
+      "width": 64,
+      "seed": 0,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_64_seed0.zip"
+    }
+  ],
+  "cuda": {
+    "policy_device": "cuda:0",
+    "parameter_tensors": 13,
+    "gradient_tensors": 13,
+    "cuda_optimizer_moment_tensors": 26,
+    "allocated_bytes": 17182720,
+    "peak_allocated_bytes": 17250816,
+    "passed": true
+  },
+  "hardware": {
+    "device": "cuda:0",
+    "gpu_name": "NVIDIA A16-16Q",
+    "total_memory_bytes": 17179410432,
+    "compute_capability": [
+      8,
+      6
+    ],
+    "torch_version": "2.14.1+cu126",
+    "cuda_runtime": "12.6",
+    "cudnn_version": 91002,
+    "cuda_optimizer_smoke_passed": true,
+    "cpu_fallback_allowed": false
+  },
+  "actual_steps": 4096,
+  "update_count": 160,
+  "minibatches": 640,
+  "training_seconds": 160.11762510007247,
+  "wall_seconds": 183.18858960014768,
+  "started_at": "2026-11-19T23:03:17.229279+00:00",
+  "completed_at": "2026-11-19T23:06:20.417992+00:00",
+  "peak_allocated_bytes": 17302016,
+  "peak_reserved_bytes": 23068672,
+  "changes": [
+    "log_std",
+    "mlp_extractor.policy_net.0.weight",
+    "mlp_extractor.policy_net.0.bias",
+    "mlp_extractor.policy_net.2.weight",
+    "mlp_extractor.policy_net.2.bias",
+    "mlp_extractor.value_net.0.weight",
+    "mlp_extractor.value_net.0.bias",
+    "mlp_extractor.value_net.2.weight",
+    "mlp_extractor.value_net.2.bias",
+    "action_net.weight",
+    "action_net.bias",
+    "value_net.weight",
+    "value_net.bias"
+  ],
+  "architecture": {
+    "actor_dimensions": [
+      8,
+      64,
+      64,
+      1
+    ],
+    "critic_dimensions": [
+      8,
+      32,
+      32,
+      1
+    ],
+    "critic_networks_in_checkpoint": 1,
+    "policy_parameter_count": 6179,
+    "shapes": {
+      "log_std": [
+        1
+      ],
+      "mlp_extractor.policy_net.0.weight": [
+        64,
+        8
+      ],
+      "mlp_extractor.policy_net.0.bias": [
+        64
+      ],
+      "mlp_extractor.policy_net.2.weight": [
+        64,
+        64
+      ],
+      "mlp_extractor.policy_net.2.bias": [
+        64
+      ],
+      "mlp_extractor.value_net.0.weight": [
+        32,
+        8
+      ],
+      "mlp_extractor.value_net.0.bias": [
+        32
+      ],
+      "mlp_extractor.value_net.2.weight": [
+        32,
+        32
+      ],
+      "mlp_extractor.value_net.2.bias": [
+        32
+      ],
+      "action_net.weight": [
+        1,
+        64
+      ],
+      "action_net.bias": [
+        1
+      ],
+      "value_net.weight": [
+        1,
+        32
+      ],
+      "value_net.bias": [
+        1
+      ]
+    }
+  },
+  "geometry_cache": {
+    "registered_curve": {
+      "hits": 2,
+      "misses": 1,
+      "maxsize": 4,
+      "currsize": 1
+    },
+    "geometry": {
+      "hits": 0,
+      "misses": 3,
+      "maxsize": 16,
+      "currsize": 3
+    }
+  },
+  "replay_buffer_host_bytes": 0
+}

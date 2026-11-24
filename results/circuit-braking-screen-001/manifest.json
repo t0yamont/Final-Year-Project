@@ -1,0 +1,52 @@
+{
+  "run_id": "circuit-braking-screen-001",
+  "inputs": {
+    "configs/circuit_braking_screen.json": "adbc5be1beb0ecb7d5240e3e4a7396f16d07b1af1b245d41e4e6c97483f2e395",
+    "configs/data_roles.json": "66b5e96b1ccca63d1459d775fcbe4a23b5c82c8c784e10aa6354725bea5cf526",
+    "results/openf1-dataset-003/contract.json": "8297f630449c2a0f79e4d6a76a4b66a2b5e4ebc3088d0d24643f0201015efd5b",
+    "results/openf1-dataset-003/plan.json": "98efc9c4703225e0533b8b1c1bede8a63c10650694106812fec80737727fc99b",
+    "results/openf1-dataset-003/development/1257/10010/complete.json": "ddacde226d377fc1415c4ed7210ec01a2e14bac23f682026b81dff25c8c31fad",
+    "results/openf1-dataset-003/development/1257/10010/driver-1-car.csv.gz": "537f1e4d2743c5608c626654b03186a030e9d167dcb4f5b3ead034abae5a133a",
+    "results/openf1-dataset-003/development/1257/10010/driver-1-laps.json": "ab83bde6dd7d6614b30f72291100540b1627f5ddfb883cd94ddc5575bd0eff6f",
+    "results/openf1-dataset-003/development/1257/10010/driver-22-car.csv.gz": "1291a35671b643dbb2f8fd92565c32830e053934cdcd780f17897f1a60bbf048",
+    "results/openf1-dataset-003/development/1257/10010/driver-22-laps.json": "98e1c7a62ae99c2a08af5b0e8d3c084de05038421f75802d473421bd611e19dd",
+    "results/openf1-dataset-003/validation/1266/9924/complete.json": "c3bf29d4a7db4d803694f59c4c222a9e5cccd97f7ed3ffca2bb61b6ea69e4792",
+    "results/openf1-dataset-003/validation/1266/9924/driver-1-car.csv.gz": "f2a87d03110ba97c620ab3930dca587216a41ecac61cc3d5f1bd04c3d7d35bc1",
+    "results/openf1-dataset-003/validation/1266/9924/driver-1-laps.json": "beeed567005b62a0cb69204d35b97d982afac046c45e7a946927d60115920a0d",
+    "results/openf1-dataset-003/validation/1266/9924/driver-22-car.csv.gz": "d51f83547add02ced9cb52be2b102d1e176d439f549a864d09fb9b2c5676bef7",
+    "results/openf1-dataset-003/validation/1266/9924/driver-22-laps.json": "016ee894aec7c06cbc01de85e1c0ea5eea43696b2f6369c45823dcb8cb6d11b4",
+    "results/openf1-dataset-003/validation/1277/9943/complete.json": "1642c2132767dafb6c716b74acf7f05ea469b1879b62a83226a61dda7ee6822a",
+    "results/openf1-dataset-003/validation/1277/9943/driver-1-car.csv.gz": "9bd6a411b0d64e6c558046b06f152fd119a46931f6cfa2cf43c2b365b69467de",
+    "results/openf1-dataset-003/validation/1277/9943/driver-1-laps.json": "32637b6930d94bd33aa497a7419de9c763c367ddd52dff7ae83de52dc9dee4a0",
+    "results/openf1-dataset-003/validation/1277/9943/driver-22-car.csv.gz": "d178181bbfc9318349b93e5cee3e4ad3db02f490e4f9ea4be51d18d7ab1bf97c",
+    "results/openf1-dataset-003/validation/1277/9943/driver-22-laps.json": "9f3c1badfd9e27b0664a7fa85ad9ef22eccd2b648adbb5aedbb04b2d9d271ea3",
+    "results/openf1-dataset-003/development/1268/9908/complete.json": "1519365d7bef4cbe2a92f21e21ddb4d022816b3b6e4361571050c53a5f096595",
+    "results/openf1-dataset-003/development/1268/9908/driver-1-car.csv.gz": "5f2aeb69229dacfd8fe1c09aec26a17fff1b4b208baffc975ea1428d648a35be",
+    "results/openf1-dataset-003/development/1268/9908/driver-1-laps.json": "3eef89b82d0e06e726ea81ea4696589504c6e49a2b88a26cbece7e460ae776fa",
+    "results/openf1-dataset-003/development/1268/9908/driver-22-car.csv.gz": "de0e1ac96508087d76c2585319e777e36544c4c889d209e96db0ec4848ba5e07",
+    "results/openf1-dataset-003/development/1268/9908/driver-22-laps.json": "5506c995f89696373c33f2b241fe922e0792de38233b96964b6b64ae8cd3c12f"
+  },
+  "sources": {
+    "scripts/screen_circuit_braking.py": "e1567f44f23f259dd292cd0541854c2a4f1258e3b4a44bd76033190bbde2345f",
+    "scripts/acquire_openf1_dataset.py": "d2649ea707396ec184dec4605a5ed8f3e5647cdadd3f99887f0922eb4b3dbcb2",
+    "src/f1energy/openf1.py": "2cd2ef7d19d37da1bc9edfff84469e3afac2143158ace4dd292b36fb68b6cc09"
+  },
+  "outputs": {
+    "results/circuit-braking-screen-001/metrics.json": "bd5753d182abada0ecb655a837b3d89483450f3d74c076dfb24ae4334c133b38",
+    "results/circuit-braking-screen-001/protocol_primary.json": "0075de795220c0b74c367cce44590fb88dc2b21eeb5dd261e46bada3504af2f7",
+    "results/circuit-braking-screen-001/selection.json": "4ac7987a4de75e6ae1109ef86796a9aa40b706c866dc0a320686b10b33a59e6c",
+    "figures/dissertation/circuit-braking-screen-v1/01_qualifying_braking.pdf": "a3e9e509ff193bf4d8b5be913f0d72570652edf1a845b0b0279f4703dbaf1f20",
+    "figures/dissertation/circuit-braking-screen-v1/01_qualifying_braking.png": "f48cbe10fd5eac6447be9fb117d722079cc77e424efff4dee08723f5dae9307e",
+    "figures/dissertation/circuit-braking-screen-v1/metadata.json": "66a9ca86e429830f3019c31c5449fa7eb32dc41f0733806e5579062ac5f25b9b"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "matplotlib": "3.11.2"
+  },
+  "checks": [
+    "synthetic midpoint, speed-loss, multi-segment and edge-censor arithmetic",
+    "frozen roles and plan matches",
+    "acquisition output hashes, session and driver identities",
+    "native timestamp ordering and lap bounds, timed-lap coverage and brake-time identities"
+  ]
+}

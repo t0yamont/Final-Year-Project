@@ -1,0 +1,149 @@
+method,width,seed,contrast,reference,candidate,reference_feasible_both,candidate_feasible_both,individual_limits_pass,time_saving_160_s,time_saving_320_s,gap_change_s,grid_pass,resolved_direction
+PPO,64,0,raw_training,Penalty / raw,Constrained / raw,False,False,True,,,,False,False
+PPO,64,0,guarded_training,Penalty / guarded,Constrained / guarded,True,True,True,0.17982568991676828,0.1810168414418456,0.0011911515250773164,True,True
+PPO,64,0,penalty_guard_effect,Penalty / raw,Penalty / guarded,False,True,True,,,,False,False
+PPO,64,0,constrained_guard_effect,Constrained / raw,Constrained / guarded,False,True,True,,,,False,False
+PPO,64,0,penalty_raw_versus_spread,spread raw,Penalty / raw,True,False,True,,,,False,False
+PPO,64,0,penalty_raw_versus_planner,planner raw,Penalty / raw,True,False,True,,,,False,False
+PPO,64,0,penalty_guarded_versus_spread,spread guarded,Penalty / guarded,True,True,True,0.24165798498101765,0.2374295614117301,0.004228423569287543,True,True
+PPO,64,0,penalty_guarded_versus_planner,planner guarded,Penalty / guarded,True,True,True,-0.2889451922903987,-0.28951931029429545,0.0005741180038967286,True,True
+PPO,64,0,constrained_raw_versus_spread,spread raw,Constrained / raw,True,False,True,,,,False,False
+PPO,64,0,constrained_raw_versus_planner,planner raw,Constrained / raw,True,False,True,,,,False,False
+PPO,64,0,constrained_guarded_versus_spread,spread guarded,Constrained / guarded,True,True,True,0.42148367489778593,0.4184464028535757,0.0030372720442102263,True,True
+PPO,64,0,constrained_guarded_versus_planner,planner guarded,Constrained / guarded,True,True,True,-0.10911950237363044,-0.10850246885244985,0.0006170335211805877,True,True
+PPO,64,1,raw_training,Penalty / raw,Constrained / raw,False,False,True,,,,False,False
+PPO,64,1,guarded_training,Penalty / guarded,Constrained / guarded,True,True,True,0.0172882742318734,0.017445559561693358,0.00015728532981995613,True,True
+PPO,64,1,penalty_guard_effect,Penalty / raw,Penalty / guarded,False,True,True,,,,False,False
+PPO,64,1,constrained_guard_effect,Constrained / raw,Constrained / guarded,False,True,True,,,,False,False
+PPO,64,1,penalty_raw_versus_spread,spread raw,Penalty / raw,True,False,True,,,,False,False
+PPO,64,1,penalty_raw_versus_planner,planner raw,Penalty / raw,True,False,True,,,,False,False
+PPO,64,1,penalty_guarded_versus_spread,spread guarded,Penalty / guarded,True,True,True,0.33308273530596466,0.32982154274485254,0.003261192561112125,True,True
+PPO,64,1,penalty_guarded_versus_planner,planner guarded,Penalty / guarded,True,True,True,-0.1975204419654517,-0.19712732896117302,0.000393113004278689,True,True
+PPO,64,1,constrained_raw_versus_spread,spread raw,Constrained / raw,True,False,True,,,,False,False
+PPO,64,1,constrained_raw_versus_planner,planner raw,Constrained / raw,True,False,True,,,,False,False
+PPO,64,1,constrained_guarded_versus_spread,spread guarded,Constrained / guarded,True,True,True,0.35037100953783806,0.3472671023065459,0.003103907231292169,True,True
+PPO,64,1,constrained_guarded_versus_planner,planner guarded,Constrained / guarded,True,True,True,-0.1802321677335783,-0.17968176939947966,0.0005503983340986451,True,True
+PPO,64,2,raw_training,Penalty / raw,Constrained / raw,False,False,True,,,,False,False
+PPO,64,2,guarded_training,Penalty / guarded,Constrained / guarded,True,True,True,0.06034157155282571,0.06014563161387798,0.0001959399389477312,True,True
+PPO,64,2,penalty_guard_effect,Penalty / raw,Penalty / guarded,False,True,True,,,,False,False
+PPO,64,2,constrained_guard_effect,Constrained / raw,Constrained / guarded,False,True,True,,,,False,False
+PPO,64,2,penalty_raw_versus_spread,spread raw,Penalty / raw,True,False,True,,,,False,False
+PPO,64,2,penalty_raw_versus_planner,planner raw,Penalty / raw,True,False,True,,,,False,False
+PPO,64,2,penalty_guarded_versus_spread,spread guarded,Penalty / guarded,True,True,True,0.3065565058397226,0.3039592444296204,0.002597261410102192,True,True
+PPO,64,2,penalty_guarded_versus_planner,planner guarded,Penalty / guarded,True,True,True,-0.22404667143169377,-0.22298962727640514,0.0010570441552886223,True,True
+PPO,64,2,constrained_raw_versus_spread,spread raw,Constrained / raw,True,False,True,,,,False,False
+PPO,64,2,constrained_raw_versus_planner,planner raw,Constrained / raw,True,False,True,,,,False,False
+PPO,64,2,constrained_guarded_versus_spread,spread guarded,Constrained / guarded,True,True,True,0.3668980773925483,0.3641048760434984,0.002793201349049923,True,True
+PPO,64,2,constrained_guarded_versus_planner,planner guarded,Constrained / guarded,True,True,True,-0.16370509987886805,-0.16284399566252716,0.0008611042163408911,True,True
+PPO,256,0,raw_training,Penalty / raw,Constrained / raw,False,False,True,,,,False,False
+PPO,256,0,guarded_training,Penalty / guarded,Constrained / guarded,True,True,True,0.1965963383119771,0.19714561356070703,0.0005492752487299413,True,True
+PPO,256,0,penalty_guard_effect,Penalty / raw,Penalty / guarded,False,True,True,,,,False,False
+PPO,256,0,constrained_guard_effect,Constrained / raw,Constrained / guarded,False,True,True,,,,False,False
+PPO,256,0,penalty_raw_versus_spread,spread raw,Penalty / raw,True,False,True,,,,False,False
+PPO,256,0,penalty_raw_versus_planner,planner raw,Penalty / raw,True,False,True,,,,False,False
+PPO,256,0,penalty_guarded_versus_spread,spread guarded,Penalty / guarded,True,True,True,0.3062246987822306,0.3028537875886883,0.0033709111935422698,True,True
+PPO,256,0,penalty_guarded_versus_planner,planner guarded,Penalty / guarded,True,True,True,-0.2243784784891858,-0.22409508411733725,0.0002833943718485443,True,True
+PPO,256,0,constrained_raw_versus_spread,spread raw,Constrained / raw,True,False,True,,,,False,False
+PPO,256,0,constrained_raw_versus_planner,planner raw,Constrained / raw,True,False,True,,,,False,False
+PPO,256,0,constrained_guarded_versus_spread,spread guarded,Constrained / guarded,True,True,True,0.5028210370942077,0.49999940114939534,0.0028216359448123285,True,True
+PPO,256,0,constrained_guarded_versus_planner,planner guarded,Constrained / guarded,True,True,True,-0.027782140177208703,-0.026949470556630217,0.0008326696205784856,True,True
+PPO,256,1,raw_training,Penalty / raw,Constrained / raw,False,False,True,,,,False,False
+PPO,256,1,guarded_training,Penalty / guarded,Constrained / guarded,True,True,True,0.006291149895275794,0.00646044385230482,0.0001692939570290264,True,True
+PPO,256,1,penalty_guard_effect,Penalty / raw,Penalty / guarded,False,True,True,,,,False,False
+PPO,256,1,constrained_guard_effect,Constrained / raw,Constrained / guarded,False,True,True,,,,False,False
+PPO,256,1,penalty_raw_versus_spread,spread raw,Penalty / raw,True,False,True,,,,False,False
+PPO,256,1,penalty_raw_versus_planner,planner raw,Penalty / raw,True,False,True,,,,False,False
+PPO,256,1,penalty_guarded_versus_spread,spread guarded,Penalty / guarded,True,True,True,0.3251852351191502,0.32156712698557044,0.003618108133579767,True,True
+PPO,256,1,penalty_guarded_versus_planner,planner guarded,Penalty / guarded,True,True,True,-0.20541794215226616,-0.20538174472045512,3.6197431811046954e-05,True,True
+PPO,256,1,constrained_raw_versus_spread,spread raw,Constrained / raw,True,False,True,,,,False,False
+PPO,256,1,constrained_raw_versus_planner,planner raw,Constrained / raw,True,False,True,,,,False,False
+PPO,256,1,constrained_guarded_versus_spread,spread guarded,Constrained / guarded,True,True,True,0.331476385014426,0.32802757083787526,0.0034488141765507407,True,True
+PPO,256,1,constrained_guarded_versus_planner,planner guarded,Constrained / guarded,True,True,True,-0.19912679225699037,-0.1989213008681503,0.00020549138884007334,True,True
+PPO,256,2,raw_training,Penalty / raw,Constrained / raw,False,False,True,,,,False,False
+PPO,256,2,guarded_training,Penalty / guarded,Constrained / guarded,True,True,True,0.058615941482429434,0.059129617893503905,0.0005136764110744707,True,True
+PPO,256,2,penalty_guard_effect,Penalty / raw,Penalty / guarded,False,True,True,,,,False,False
+PPO,256,2,constrained_guard_effect,Constrained / raw,Constrained / guarded,False,True,True,,,,False,False
+PPO,256,2,penalty_raw_versus_spread,spread raw,Penalty / raw,True,False,True,,,,False,False
+PPO,256,2,penalty_raw_versus_planner,planner raw,Penalty / raw,True,False,True,,,,False,False
+PPO,256,2,penalty_guarded_versus_spread,spread guarded,Penalty / guarded,True,True,True,0.2795353791435815,0.27589062987067337,0.003644749272908143,True,True
+PPO,256,2,penalty_guarded_versus_planner,planner guarded,Penalty / guarded,True,True,True,-0.25106779812783486,-0.2510582418353522,9.55629248267087e-06,True,True
+PPO,256,2,constrained_raw_versus_spread,spread raw,Constrained / raw,True,False,True,,,,False,False
+PPO,256,2,constrained_raw_versus_planner,planner raw,Constrained / raw,True,False,True,,,,False,False
+PPO,256,2,constrained_guarded_versus_spread,spread guarded,Constrained / guarded,True,True,True,0.33815132062601094,0.33502024776417727,0.0031310728618336725,True,True
+PPO,256,2,constrained_guarded_versus_planner,planner guarded,Constrained / guarded,True,True,True,-0.19245185664540543,-0.1919286239418483,0.0005232327035571416,True,True
+SAC,64,0,raw_training,Penalty / raw,Constrained / raw,False,False,True,,,,False,False
+SAC,64,0,guarded_training,Penalty / guarded,Constrained / guarded,True,True,True,-0.0024581621803889675,-0.0024803989877995036,2.223680741053613e-05,True,True
+SAC,64,0,penalty_guard_effect,Penalty / raw,Penalty / guarded,False,True,True,,,,False,False
+SAC,64,0,constrained_guard_effect,Constrained / raw,Constrained / guarded,False,True,True,,,,False,False
+SAC,64,0,penalty_raw_versus_spread,spread raw,Penalty / raw,True,False,True,,,,False,False
+SAC,64,0,penalty_raw_versus_planner,planner raw,Penalty / raw,True,False,True,,,,False,False
+SAC,64,0,penalty_guarded_versus_spread,spread guarded,Penalty / guarded,True,True,True,0.17511646154812865,0.17336001366435028,0.0017564478837783781,True,True
+SAC,64,0,penalty_guarded_versus_planner,planner guarded,Penalty / guarded,True,True,True,-0.3554867157232877,-0.3535888580416753,0.001897857681612436,True,True
+SAC,64,0,constrained_raw_versus_spread,spread raw,Constrained / raw,True,False,True,,,,False,False
+SAC,64,0,constrained_raw_versus_planner,planner raw,Constrained / raw,True,False,True,,,,False,False
+SAC,64,0,constrained_guarded_versus_spread,spread guarded,Constrained / guarded,True,True,True,0.1726582993677397,0.17087961467655077,0.0017786846911889143,True,True
+SAC,64,0,constrained_guarded_versus_planner,planner guarded,Constrained / guarded,True,True,True,-0.3579448779036767,-0.3560692570294748,0.0018756208742018998,True,True
+SAC,64,1,raw_training,Penalty / raw,Constrained / raw,False,False,True,,,,False,False
+SAC,64,1,guarded_training,Penalty / guarded,Constrained / guarded,True,True,True,-0.003965814214552665,-0.003956478816945719,9.335397606946572e-06,True,True
+SAC,64,1,penalty_guard_effect,Penalty / raw,Penalty / guarded,False,True,True,,,,False,False
+SAC,64,1,constrained_guard_effect,Constrained / raw,Constrained / guarded,False,True,True,,,,False,False
+SAC,64,1,penalty_raw_versus_spread,spread raw,Penalty / raw,True,False,True,,,,False,False
+SAC,64,1,penalty_raw_versus_planner,planner raw,Penalty / raw,True,False,True,,,,False,False
+SAC,64,1,penalty_guarded_versus_spread,spread guarded,Penalty / guarded,True,True,True,0.17834187641139465,0.17651406983198115,0.0018278065794135046,True,True
+SAC,64,1,penalty_guarded_versus_planner,planner guarded,Penalty / guarded,True,True,True,-0.3522613008600217,-0.3504348018740444,0.0018264989859773095,True,True
+SAC,64,1,constrained_raw_versus_spread,spread raw,Constrained / raw,True,False,True,,,,False,False
+SAC,64,1,constrained_raw_versus_planner,planner raw,Constrained / raw,True,False,True,,,,False,False
+SAC,64,1,constrained_guarded_versus_spread,spread guarded,Constrained / guarded,True,True,True,0.17437606219684199,0.17255759101503543,0.001818471181806558,True,True
+SAC,64,1,constrained_guarded_versus_planner,planner guarded,Constrained / guarded,True,True,True,-0.3562271150745744,-0.35439128069099013,0.001835834383584256,True,True
+SAC,64,2,raw_training,Penalty / raw,Constrained / raw,False,False,True,,,,False,False
+SAC,64,2,guarded_training,Penalty / guarded,Constrained / guarded,True,True,True,-0.0017057662052479827,-0.0017016043727977603,4.161832450222391e-06,True,True
+SAC,64,2,penalty_guard_effect,Penalty / raw,Penalty / guarded,False,True,True,,,,False,False
+SAC,64,2,constrained_guard_effect,Constrained / raw,Constrained / guarded,False,True,True,,,,False,False
+SAC,64,2,penalty_raw_versus_spread,spread raw,Penalty / raw,True,False,True,,,,False,False
+SAC,64,2,penalty_raw_versus_planner,planner raw,Penalty / raw,True,False,True,,,,False,False
+SAC,64,2,penalty_guarded_versus_spread,spread guarded,Penalty / guarded,True,True,True,0.17279371686595368,0.17100649981455263,0.0017872170514010577,True,True
+SAC,64,2,penalty_guarded_versus_planner,planner guarded,Penalty / guarded,True,True,True,-0.3578094604054627,-0.35594237189147293,0.0018670885139897564,True,True
+SAC,64,2,constrained_raw_versus_spread,spread raw,Constrained / raw,True,False,True,,,,False,False
+SAC,64,2,constrained_raw_versus_planner,planner raw,Constrained / raw,True,False,True,,,,False,False
+SAC,64,2,constrained_guarded_versus_spread,spread guarded,Constrained / guarded,True,True,True,0.1710879506607057,0.16930489544175487,0.0017830552189508353,True,True
+SAC,64,2,constrained_guarded_versus_planner,planner guarded,Constrained / guarded,True,True,True,-0.35951522661071067,-0.3576439762642707,0.0018712503464399788,True,True
+SAC,256,0,raw_training,Penalty / raw,Constrained / raw,False,False,True,,,,False,False
+SAC,256,0,guarded_training,Penalty / guarded,Constrained / guarded,True,True,True,-0.005163888594736932,-0.0051454189250961235,1.8469669640808206e-05,True,True
+SAC,256,0,penalty_guard_effect,Penalty / raw,Penalty / guarded,False,True,True,,,,False,False
+SAC,256,0,constrained_guard_effect,Constrained / raw,Constrained / guarded,False,True,True,,,,False,False
+SAC,256,0,penalty_raw_versus_spread,spread raw,Penalty / raw,True,False,True,,,,False,False
+SAC,256,0,penalty_raw_versus_planner,planner raw,Penalty / raw,True,False,True,,,,False,False
+SAC,256,0,penalty_guarded_versus_spread,spread guarded,Penalty / guarded,True,True,True,0.1691030968958387,0.16723626844813566,0.0018668284477030284,True,True
+SAC,256,0,penalty_guarded_versus_planner,planner guarded,Penalty / guarded,True,True,True,-0.3615000803755777,-0.3597126032578899,0.0017874771176877857,True,True
+SAC,256,0,constrained_raw_versus_spread,spread raw,Constrained / raw,True,False,True,,,,False,False
+SAC,256,0,constrained_raw_versus_planner,planner raw,Constrained / raw,True,False,True,,,,False,False
+SAC,256,0,constrained_guarded_versus_spread,spread guarded,Constrained / guarded,True,True,True,0.16393920830110176,0.16209084952303954,0.0018483587780622202,True,True
+SAC,256,0,constrained_guarded_versus_planner,planner guarded,Constrained / guarded,True,True,True,-0.3666639689703146,-0.364858022182986,0.001805946787328594,True,True
+SAC,256,1,raw_training,Penalty / raw,Constrained / raw,False,False,True,,,,False,False
+SAC,256,1,guarded_training,Penalty / guarded,Constrained / guarded,True,True,True,-0.0009388592539778529,-0.0009313944605082725,7.4647934695804e-06,True,True
+SAC,256,1,penalty_guard_effect,Penalty / raw,Penalty / guarded,False,True,True,,,,False,False
+SAC,256,1,constrained_guard_effect,Constrained / raw,Constrained / guarded,False,True,True,,,,False,False
+SAC,256,1,penalty_raw_versus_spread,spread raw,Penalty / raw,True,False,True,,,,False,False
+SAC,256,1,penalty_raw_versus_planner,planner raw,Penalty / raw,True,False,True,,,,False,False
+SAC,256,1,penalty_guarded_versus_spread,spread guarded,Penalty / guarded,True,True,True,0.1759915727966046,0.17336810592611585,0.0026234668704887554,True,True
+SAC,256,1,penalty_guarded_versus_planner,planner guarded,Penalty / guarded,True,True,True,-0.35461160447481177,-0.3535807657799097,0.0010308386949020587,True,True
+SAC,256,1,constrained_raw_versus_spread,spread raw,Constrained / raw,True,False,True,,,,False,False
+SAC,256,1,constrained_raw_versus_planner,planner raw,Constrained / raw,True,False,True,,,,False,False
+SAC,256,1,constrained_guarded_versus_spread,spread guarded,Constrained / guarded,True,True,True,0.17505271354262675,0.17243671146560757,0.002616002077019175,True,True
+SAC,256,1,constrained_guarded_versus_planner,planner guarded,Constrained / guarded,True,True,True,-0.3555504637287896,-0.354512160240418,0.001038303488371639,True,True
+SAC,256,2,raw_training,Penalty / raw,Constrained / raw,False,False,True,,,,False,False
+SAC,256,2,guarded_training,Penalty / guarded,Constrained / guarded,True,True,True,-0.0053294262636711665,-0.005313942182880282,1.5484080790884036e-05,True,True
+SAC,256,2,penalty_guard_effect,Penalty / raw,Penalty / guarded,False,True,True,,,,False,False
+SAC,256,2,constrained_guard_effect,Constrained / raw,Constrained / guarded,False,True,True,,,,False,False
+SAC,256,2,penalty_raw_versus_spread,spread raw,Penalty / raw,True,False,True,,,,False,False
+SAC,256,2,penalty_raw_versus_planner,planner raw,Penalty / raw,True,False,True,,,,False,False
+SAC,256,2,penalty_guarded_versus_spread,spread guarded,Penalty / guarded,True,True,True,0.15914333447403806,0.15738314572196543,0.0017601887520726223,True,True
+SAC,256,2,penalty_guarded_versus_planner,planner guarded,Penalty / guarded,True,True,True,-0.3714598427973783,-0.3695657259840601,0.0018941168133181918,True,True
+SAC,256,2,constrained_raw_versus_spread,spread raw,Constrained / raw,True,False,True,,,,False,False
+SAC,256,2,constrained_raw_versus_planner,planner raw,Constrained / raw,True,False,True,,,,False,False
+SAC,256,2,constrained_guarded_versus_spread,spread guarded,Constrained / guarded,True,True,True,0.1538139082103669,0.15206920353908515,0.0017447046712817382,True,True
+SAC,256,2,constrained_guarded_versus_planner,planner guarded,Constrained / guarded,True,True,True,-0.3767892690610495,-0.3748796681669404,0.0019096008941090759,True,True
+,,,raw_planner_versus_spread,spread raw,planner raw,True,True,True,0.989972415888758,0.988253104681192,0.0017193112075659656,True,True
+,,,guarded_planner_versus_spread,spread guarded,planner guarded,True,True,True,0.5306031772714164,0.5269488717060256,0.003654305565390814,True,True
+,,,spread_guard_effect,spread raw,spread guarded,True,True,True,0.0,-0.0006452986139464656,0.0006452986139464656,True,False
+,,,planner_guard_effect,planner raw,planner guarded,True,True,True,-0.4593692386173416,-0.4619495315891129,0.002580292971771314,True,True

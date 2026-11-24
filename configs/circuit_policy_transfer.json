@@ -1,0 +1,35 @@
+{
+  "study": "Frozen second-circuit replay of Bahrain-trained policies and a circuit-specific allocation benchmark",
+  "selection": "Use the braking-screen choice and the independent geometry/solver gate. A failed geometry gate stops circuit control scoring. A missed empirical pace gate limits every controller result to the assumed simulator.",
+  "model_directory": "results/transfer-circuit-geometry-001",
+  "screen_directory": "results/circuit-braking-screen-001",
+  "training_directory": "results/bahrain-algorithm-width-001",
+  "search_protocol": "configs/bahrain_deployment_zones.json",
+  "methods": [
+    "PPO",
+    "SAC"
+  ],
+  "actor_widths": [
+    64,
+    256
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "cells_per_block": [
+    160,
+    320
+  ],
+  "controllers": "Evaluate every final Bahrain checkpoint unchanged, one deterministic closed-loop lap per grid. Compute no optimiser updates. Use the same rolling speed target, charge, distance intervals, braking recovery and constraints for all controllers on the second circuit.",
+  "references": "Run the Bahrain planner's five-action, width-16 bounded search at 40 cells per block on the second circuit, using its standard feasible baseline incumbents. Compare its frozen schedule with adaptive spread. If the planner cannot find a feasible incumbent, report the failure and continue frozen policy evaluation.",
+  "wheel_work_match": "Scan 0 to 4 inclusive in increments of 0.25 multiplying the adaptive spread request and clipping at 1. Refine every sign-changing bracket at 160 cells using the existing 16-bisection, 500 J criterion. Apply each matched multiplier unchanged at 320. Accept a timing-allocation result only when both laps are feasible, both work differences are within 500 J, and the numerical comparison passes.",
+  "refinement": {
+    "paired_gap_change_s": 0.005,
+    "relative_lap_change": 0.0025,
+    "terminal_energy_change_j": 10000,
+    "recovered_change_j": 5000
+  },
+  "endpoints": "Report finish feasibility for every seed on both grids before feasible lap times. Report signed paired changes only with both policies feasible, both individual refinements within tolerance, and consistent sign for a resolved direction. Distance profiles report wheel assist, battery headroom and harvested energy. Regeneration is an automatic response. A single new track is one conditional test of transfer."
+}

@@ -1,0 +1,451 @@
+{
+  "name": "silverstone_model_only",
+  "actions": [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0.5,
+    0,
+    1,
+    0.25,
+    1,
+    0.25,
+    1,
+    0.75,
+    0,
+    0,
+    0,
+    0,
+    0.5,
+    0,
+    0,
+    0.5,
+    0.5,
+    0.25,
+    0.25,
+    0,
+    0,
+    0,
+    0,
+    0.75,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0.25,
+    0.25,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0.25,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+  ],
+  "search_time_s": 92.28931250199861,
+  "wall_seconds": 74.67346450011246,
+  "transitions": 4025,
+  "layers": [
+    {
+      "block": 1,
+      "expansions": 5,
+      "buckets": 5,
+      "retained": 5
+    },
+    {
+      "block": 2,
+      "expansions": 25,
+      "buckets": 8,
+      "retained": 8
+    },
+    {
+      "block": 3,
+      "expansions": 40,
+      "buckets": 12,
+      "retained": 12
+    },
+    {
+      "block": 4,
+      "expansions": 60,
+      "buckets": 28,
+      "retained": 16
+    },
+    {
+      "block": 5,
+      "expansions": 80,
+      "buckets": 50,
+      "retained": 16
+    },
+    {
+      "block": 6,
+      "expansions": 80,
+      "buckets": 46,
+      "retained": 16
+    },
+    {
+      "block": 7,
+      "expansions": 80,
+      "buckets": 42,
+      "retained": 16
+    },
+    {
+      "block": 8,
+      "expansions": 80,
+      "buckets": 18,
+      "retained": 16
+    },
+    {
+      "block": 9,
+      "expansions": 80,
+      "buckets": 52,
+      "retained": 16
+    },
+    {
+      "block": 10,
+      "expansions": 80,
+      "buckets": 30,
+      "retained": 16
+    },
+    {
+      "block": 11,
+      "expansions": 80,
+      "buckets": 62,
+      "retained": 16
+    },
+    {
+      "block": 12,
+      "expansions": 80,
+      "buckets": 57,
+      "retained": 16
+    },
+    {
+      "block": 13,
+      "expansions": 80,
+      "buckets": 70,
+      "retained": 16
+    },
+    {
+      "block": 14,
+      "expansions": 80,
+      "buckets": 55,
+      "retained": 16
+    },
+    {
+      "block": 15,
+      "expansions": 80,
+      "buckets": 55,
+      "retained": 16
+    },
+    {
+      "block": 16,
+      "expansions": 80,
+      "buckets": 46,
+      "retained": 16
+    },
+    {
+      "block": 17,
+      "expansions": 80,
+      "buckets": 45,
+      "retained": 16
+    },
+    {
+      "block": 18,
+      "expansions": 80,
+      "buckets": 23,
+      "retained": 16
+    },
+    {
+      "block": 19,
+      "expansions": 80,
+      "buckets": 21,
+      "retained": 16
+    },
+    {
+      "block": 20,
+      "expansions": 80,
+      "buckets": 27,
+      "retained": 16
+    },
+    {
+      "block": 21,
+      "expansions": 80,
+      "buckets": 21,
+      "retained": 16
+    },
+    {
+      "block": 22,
+      "expansions": 80,
+      "buckets": 52,
+      "retained": 16
+    },
+    {
+      "block": 23,
+      "expansions": 80,
+      "buckets": 44,
+      "retained": 16
+    },
+    {
+      "block": 24,
+      "expansions": 80,
+      "buckets": 20,
+      "retained": 16
+    },
+    {
+      "block": 25,
+      "expansions": 80,
+      "buckets": 30,
+      "retained": 16
+    },
+    {
+      "block": 26,
+      "expansions": 80,
+      "buckets": 29,
+      "retained": 16
+    },
+    {
+      "block": 27,
+      "expansions": 80,
+      "buckets": 26,
+      "retained": 16
+    },
+    {
+      "block": 28,
+      "expansions": 80,
+      "buckets": 20,
+      "retained": 16
+    },
+    {
+      "block": 29,
+      "expansions": 80,
+      "buckets": 13,
+      "retained": 13
+    },
+    {
+      "block": 30,
+      "expansions": 65,
+      "buckets": 22,
+      "retained": 16
+    },
+    {
+      "block": 31,
+      "expansions": 80,
+      "buckets": 32,
+      "retained": 16
+    },
+    {
+      "block": 32,
+      "expansions": 80,
+      "buckets": 26,
+      "retained": 16
+    },
+    {
+      "block": 33,
+      "expansions": 80,
+      "buckets": 21,
+      "retained": 16
+    },
+    {
+      "block": 34,
+      "expansions": 80,
+      "buckets": 16,
+      "retained": 16
+    },
+    {
+      "block": 35,
+      "expansions": 80,
+      "buckets": 13,
+      "retained": 13
+    },
+    {
+      "block": 36,
+      "expansions": 65,
+      "buckets": 25,
+      "retained": 16
+    },
+    {
+      "block": 37,
+      "expansions": 80,
+      "buckets": 22,
+      "retained": 16
+    },
+    {
+      "block": 38,
+      "expansions": 80,
+      "buckets": 16,
+      "retained": 16
+    },
+    {
+      "block": 39,
+      "expansions": 80,
+      "buckets": 31,
+      "retained": 16
+    },
+    {
+      "block": 40,
+      "expansions": 80,
+      "buckets": 27,
+      "retained": 16
+    },
+    {
+      "block": 41,
+      "expansions": 80,
+      "buckets": 23,
+      "retained": 16
+    },
+    {
+      "block": 42,
+      "expansions": 80,
+      "buckets": 19,
+      "retained": 16
+    },
+    {
+      "block": 43,
+      "expansions": 80,
+      "buckets": 16,
+      "retained": 16
+    },
+    {
+      "block": 44,
+      "expansions": 80,
+      "buckets": 16,
+      "retained": 16
+    },
+    {
+      "block": 45,
+      "expansions": 80,
+      "buckets": 18,
+      "retained": 16
+    },
+    {
+      "block": 46,
+      "expansions": 80,
+      "buckets": 14,
+      "retained": 14
+    },
+    {
+      "block": 47,
+      "expansions": 70,
+      "buckets": 6,
+      "retained": 6
+    },
+    {
+      "block": 48,
+      "expansions": 30,
+      "buckets": 16,
+      "retained": 16
+    },
+    {
+      "block": 49,
+      "expansions": 80,
+      "buckets": 22,
+      "retained": 16
+    },
+    {
+      "block": 50,
+      "expansions": 80,
+      "buckets": 21,
+      "retained": 16
+    },
+    {
+      "block": 51,
+      "expansions": 80,
+      "buckets": 5,
+      "retained": 5
+    },
+    {
+      "block": 52,
+      "expansions": 25,
+      "buckets": 16,
+      "retained": 16
+    },
+    {
+      "block": 53,
+      "expansions": 80,
+      "buckets": 34,
+      "retained": 16
+    },
+    {
+      "block": 54,
+      "expansions": 80,
+      "buckets": 8,
+      "retained": 8
+    },
+    {
+      "block": 55,
+      "expansions": 40,
+      "buckets": 0,
+      "retained": 0
+    }
+  ],
+  "incumbent_time_s": 92.66256144770979,
+  "incumbent_name": "full",
+  "probes": {
+    "full": {
+      "duration_s": 92.66256144770979,
+      "final_energy_j": 102821.01161112508,
+      "terminal_speed_error_mps": 0.0,
+      "energy_residual_j": -5.763184374174557e-11,
+      "feasible": true,
+      "recovered_j": 1356565.7756193238,
+      "discharged_j": 3253744.764008195,
+      "max_work_residual_j": 5.209585651755333e-09,
+      "max_battery_residual_j": 1.8189894035458565e-09,
+      "file": "results\\silverstone-model-only-001\\search\\full_40.json.gz",
+      "wheel_assist_j": 2928370.287607376
+    },
+    "spread": {
+      "duration_s": 93.03708675442516,
+      "final_energy_j": 274820.901980229,
+      "terminal_speed_error_mps": 7.105427357601002e-15,
+      "energy_residual_j": -1.5901615746383158e-08,
+      "feasible": true,
+      "recovered_j": 1354049.7631867933,
+      "discharged_j": 3079228.861206566,
+      "max_work_residual_j": 4.627509042620659e-09,
+      "max_battery_residual_j": 2.3646862246096134e-09,
+      "file": "results\\silverstone-model-only-001\\search\\spread_40.json.gz",
+      "wheel_assist_j": 2771305.9750859095
+    },
+    "zero": {
+      "duration_s": 94.34916640100468,
+      "final_energy_j": 3268198.0393194486,
+      "terminal_speed_error_mps": 7.105427357601002e-15,
+      "energy_residual_j": -9.431966020712057e-09,
+      "feasible": true,
+      "recovered_j": 1268198.0393194421,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 4.096364136785269e-09,
+      "max_battery_residual_j": 2.306478563696146e-09,
+      "file": "results\\silverstone-model-only-001\\search\\zero_40.json.gz",
+      "wheel_assist_j": 0.0
+    },
+    "finish_only": {
+      "duration_s": 94.10954631796852,
+      "final_energy_j": 2654811.354168235,
+      "terminal_speed_error_mps": 7.105427357601002e-15,
+      "energy_residual_j": -1.1717583049686287e-08,
+      "feasible": true,
+      "recovered_j": 1293780.8815448869,
+      "discharged_j": 638969.5273766549,
+      "max_work_residual_j": 4.096364136785269e-09,
+      "max_battery_residual_j": 2.306478563696146e-09,
+      "file": "results\\silverstone-model-only-001\\search\\finish_only_40.json.gz",
+      "wheel_assist_j": 575072.5746389894
+    }
+  }
+}

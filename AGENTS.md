@@ -1,5 +1,19 @@
 # Project collaboration contract
 
+Generate or revise a dissertation draft only when the student explicitly asks for one. Continue to save experiment protocols, results, plots, validation records and brief project status updates during research work.
+
+## Project memory
+
+The student uses the local Obsidian vault at `C:/Users/fm.mm/Documents/Final Year Project` as durable project memory. When available, read its `index.md` and `CRITICAL_FACTS.md` first, then load the relevant tagged topic notes and exact evidence. Follow the vault's `_CLAUDE.md` for note conventions. After each substantive task, record decisions, findings and evidence links in the topic note and dated log. Update the status note when the next step changes. Use the current checkout for code and preserve immutable vault evidence.
+
+## Controller and circuit extensions
+
+Compare PPO and soft actor-critic trained from scratch on the calibrated Bahrain vehicle. Complete the two-layer 64-unit actor comparison before widening each actor to 256 units. Hold each algorithm’s critic architecture fixed within the width comparison. Match seeds, observations, physical environment, reward and simulator interactions. Score finish feasibility before lap time and retain every seed.
+
+Select the second circuit from qualifying braking data using a rule fixed before scoring candidates. Freeze its geometry and inherited vehicle assumptions before evaluating Bahrain-trained controllers there. Record modelled recovery and delivered wheel work along the circuit. A claim about real deployment locations requires supporting local motion evidence. [Transfer protocol](configs/circuit_policy_transfer.json)
+
+The original Silverstone geometry and pace evaluation used the unchanged Bahrain finish target. Retain its failed outcome. A separate model-only case may use a rolling speed selected solely from zero-assist simulated closure before evaluating controllers. Keep that case distinct from the observed Silverstone qualifying laps. [Original gate](docs/transfer_circuit_geometry.md) · [Model-only protocol](configs/silverstone_model_only.json)
+
 ## Locating qualifying deployment on the Bahrain circuit
 
 The original network weights were evaluated on the calibrated vehicle in a separate deterministic transfer experiment. All twelve policies missed the finish-speed requirement at both resolutions. Attribute any subsequent improvement to its actual intervention and preserve the original failures. The student's personal AI reflection and formal approval evidence remain their responsibility. [Transfer study](docs/bahrain_learned_transfer.md) · [Manuscript sources](report/outline.md)

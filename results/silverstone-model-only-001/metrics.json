@@ -1,0 +1,1438 @@
+{
+  "circuit": "Silverstone",
+  "model_only": true,
+  "geometry_passed": false,
+  "pace_passed": false,
+  "empirical_location_passed": false,
+  "rows": [
+    {
+      "duration_s": 91.78897014870657,
+      "final_energy_j": 103338.84654173937,
+      "terminal_speed_error_mps": 7.105427357601002e-15,
+      "energy_residual_j": 5.352642530598306e-09,
+      "feasible": true,
+      "recovered_j": 1356361.6809572694,
+      "discharged_j": 3253022.8344155396,
+      "max_work_residual_j": 8.265487849712372e-09,
+      "max_battery_residual_j": 2.735760062932968e-09,
+      "file": "results/silverstone-model-only-001/selected_160.json.gz",
+      "wheel_assist_j": 2927720.5509739853,
+      "policy": "selected",
+      "cells": 160
+    },
+    {
+      "duration_s": 92.52520017708112,
+      "final_energy_j": 265457.7658944133,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "energy_residual_j": 2.4553696395535063e-08,
+      "feasible": true,
+      "recovered_j": 1366665.2687749325,
+      "discharged_j": 3101207.5028805137,
+      "max_work_residual_j": 9.720679372549057e-09,
+      "max_battery_residual_j": 5.1513779908418655e-09,
+      "file": "results/silverstone-model-only-001/spread_160.json.gz",
+      "wheel_assist_j": 2791086.7525924626,
+      "policy": "spread",
+      "cells": 160
+    },
+    {
+      "duration_s": 91.69909403858034,
+      "final_energy_j": 103445.85384146128,
+      "terminal_speed_error_mps": 7.105427357601002e-15,
+      "energy_residual_j": -1.4481924250075995e-08,
+      "feasible": true,
+      "recovered_j": 1358553.0657162503,
+      "discharged_j": 3255107.211874776,
+      "max_work_residual_j": 1.437729224562645e-08,
+      "max_battery_residual_j": 4.540197551250458e-09,
+      "file": "results/silverstone-model-only-001/selected_320.json.gz",
+      "wheel_assist_j": 2929596.4906872986,
+      "policy": "selected",
+      "cells": 320
+    },
+    {
+      "duration_s": 92.43672666346103,
+      "final_energy_j": 263830.0641659474,
+      "terminal_speed_error_mps": -7.105427357601002e-15,
+      "energy_residual_j": 5.0610134028072906e-08,
+      "feasible": true,
+      "recovered_j": 1368844.0529276803,
+      "discharged_j": 3105013.988761731,
+      "max_work_residual_j": 1.6909325495362282e-08,
+      "max_battery_residual_j": 7.807102520018816e-09,
+      "file": "results/silverstone-model-only-001/spread_320.json.gz",
+      "wheel_assist_j": 2794512.5898855585,
+      "policy": "spread",
+      "cells": 320
+    },
+    {
+      "duration_s": 92.23253393229174,
+      "final_energy_j": 361507.7318542452,
+      "terminal_speed_error_mps": 7.105427357601002e-15,
+      "energy_residual_j": 3.327407480796518e-08,
+      "feasible": true,
+      "reward_sum": -92.23253393229174,
+      "recovered_j": 1358129.7743950186,
+      "discharged_j": 2996622.0425407817,
+      "max_work_residual_j": 8.41100700199604e-09,
+      "max_battery_residual_j": 3.4633558243513107e-09,
+      "policy": "PPO 64 seed 0",
+      "cells": 160,
+      "file": "results/silverstone-model-only-001/ppo_64_seed0_160.json.gz",
+      "replay_seconds": 3.586256999988109,
+      "wheel_assist_j": 2696959.838286704,
+      "method": "PPO",
+      "width": 64,
+      "seed": 0,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_64_seed0.zip",
+      "checkpoint_sha256": "18821a1b686b828b9209032493bf3746cb061998f34cb8039e7fc0fc9797f4a9"
+    },
+    {
+      "duration_s": 92.14555281476015,
+      "final_energy_j": 363644.7858125111,
+      "terminal_speed_error_mps": -7.105427357601002e-15,
+      "energy_residual_j": -1.0760104397766757e-08,
+      "feasible": true,
+      "reward_sum": -92.14555281476015,
+      "recovered_j": 1360151.6582949639,
+      "discharged_j": 2996506.872482456,
+      "max_work_residual_j": 1.9441358745098114e-08,
+      "max_battery_residual_j": 3.6670826375484467e-09,
+      "policy": "PPO 64 seed 0",
+      "cells": 320,
+      "file": "results/silverstone-model-only-001/ppo_64_seed0_320.json.gz",
+      "replay_seconds": 7.323416499886662,
+      "wheel_assist_j": 2696856.1852342105,
+      "method": "PPO",
+      "width": 64,
+      "seed": 0,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_64_seed0.zip",
+      "checkpoint_sha256": "18821a1b686b828b9209032493bf3746cb061998f34cb8039e7fc0fc9797f4a9"
+    },
+    {
+      "duration_s": 92.1739639871578,
+      "final_energy_j": 188232.93030199962,
+      "terminal_speed_error_mps": 2.1316282072803006e-14,
+      "energy_residual_j": -1.41895144176174e-08,
+      "feasible": true,
+      "reward_sum": -92.1739639871578,
+      "recovered_j": 1365054.9908516833,
+      "discharged_j": 3176822.060549694,
+      "max_work_residual_j": 9.080395102500916e-09,
+      "max_battery_residual_j": 3.4633558243513107e-09,
+      "policy": "PPO 64 seed 1",
+      "cells": 160,
+      "file": "results/silverstone-model-only-001/ppo_64_seed1_160.json.gz",
+      "replay_seconds": 3.6928405999206007,
+      "wheel_assist_j": 2859139.854494725,
+      "method": "PPO",
+      "width": 64,
+      "seed": 1,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_64_seed1.zip",
+      "checkpoint_sha256": "26e55becfa872d02dae2ca35e5de4f4274e3fe68f1b99c1afce11c95768fbb51"
+    },
+    {
+      "duration_s": 92.08620836630227,
+      "final_energy_j": 189315.77885173314,
+      "terminal_speed_error_mps": 7.105427357601002e-15,
+      "energy_residual_j": 5.7239686879206886e-09,
+      "feasible": true,
+      "reward_sum": -92.08620836630227,
+      "recovered_j": 1367133.1044790964,
+      "discharged_j": 3177817.3256273703,
+      "max_work_residual_j": 2.287561073899269e-08,
+      "max_battery_residual_j": 4.292814992368221e-09,
+      "policy": "PPO 64 seed 1",
+      "cells": 320,
+      "file": "results/silverstone-model-only-001/ppo_64_seed1_320.json.gz",
+      "replay_seconds": 7.366248500067741,
+      "wheel_assist_j": 2860035.5930646337,
+      "method": "PPO",
+      "width": 64,
+      "seed": 1,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_64_seed1.zip",
+      "checkpoint_sha256": "26e55becfa872d02dae2ca35e5de4f4274e3fe68f1b99c1afce11c95768fbb51"
+    },
+    {
+      "duration_s": 92.10580298677962,
+      "final_energy_j": 103433.91524056728,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "energy_residual_j": 4.895258788606416e-09,
+      "feasible": true,
+      "reward_sum": -92.10580298677962,
+      "recovered_j": 1365344.9306009952,
+      "discharged_j": 3261911.015360428,
+      "max_work_residual_j": 1.1437805369496346e-08,
+      "max_battery_residual_j": 2.837623469531536e-09,
+      "policy": "PPO 64 seed 2",
+      "cells": 160,
+      "file": "results/silverstone-model-only-001/ppo_64_seed2_160.json.gz",
+      "replay_seconds": 3.5644406999927014,
+      "wheel_assist_j": 2935719.9138243855,
+      "method": "PPO",
+      "width": 64,
+      "seed": 2,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_64_seed2.zip",
+      "checkpoint_sha256": "80daa2e14987b2cde1b4bec0be6d2b0211f1b114189f0adf172708aba3058206"
+    },
+    {
+      "duration_s": 92.015853477711,
+      "final_energy_j": 103538.63713610411,
+      "terminal_speed_error_mps": -7.105427357601002e-15,
+      "energy_residual_j": 5.2758513766071324e-08,
+      "feasible": true,
+      "reward_sum": -92.015853477711,
+      "recovered_j": 1367504.8772282114,
+      "discharged_j": 3263966.240092109,
+      "max_work_residual_j": 2.2482709027826786e-08,
+      "max_battery_residual_j": 4.2782630771398544e-09,
+      "policy": "PPO 64 seed 2",
+      "cells": 320,
+      "file": "results/silverstone-model-only-001/ppo_64_seed2_320.json.gz",
+      "replay_seconds": 7.292274399893358,
+      "wheel_assist_j": 2937569.6160828983,
+      "method": "PPO",
+      "width": 64,
+      "seed": 2,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_64_seed2.zip",
+      "checkpoint_sha256": "80daa2e14987b2cde1b4bec0be6d2b0211f1b114189f0adf172708aba3058206"
+    },
+    {
+      "duration_s": 92.26510453231458,
+      "final_energy_j": 103473.05430631877,
+      "terminal_speed_error_mps": 2.1316282072803006e-14,
+      "energy_residual_j": 2.8271116739309043e-08,
+      "feasible": true,
+      "reward_sum": -92.26510453231458,
+      "recovered_j": 1367987.9966039474,
+      "discharged_j": 3264514.942297629,
+      "max_work_residual_j": 8.847564458847046e-09,
+      "max_battery_residual_j": 2.837623469531536e-09,
+      "policy": "SAC 64 seed 0",
+      "cells": 160,
+      "file": "results/silverstone-model-only-001/sac_64_seed0_160.json.gz",
+      "replay_seconds": 3.7353234000038356,
+      "wheel_assist_j": 2938063.4480678667,
+      "method": "SAC",
+      "width": 64,
+      "seed": 0,
+      "checkpoint": "results/bahrain-algorithm-width-001/sac_64_seed0.zip",
+      "checkpoint_sha256": "292621a5c388799e156b8ab14ff9357fe42db29a546e1345b382e13620f00f7d"
+    },
+    {
+      "duration_s": 92.1777654496603,
+      "final_energy_j": 103577.78999857658,
+      "terminal_speed_error_mps": -7.105427357601002e-15,
+      "energy_residual_j": 1.9312820356831573e-08,
+      "feasible": true,
+      "reward_sum": -92.1777654496603,
+      "recovered_j": 1370116.3231238527,
+      "discharged_j": 3266538.533125253,
+      "max_work_residual_j": 1.752050593495369e-08,
+      "max_battery_residual_j": 7.261405698955059e-09,
+      "policy": "SAC 64 seed 0",
+      "cells": 320,
+      "file": "results/silverstone-model-only-001/sac_64_seed0_320.json.gz",
+      "replay_seconds": 7.324698699871078,
+      "wheel_assist_j": 2939884.6798127275,
+      "method": "SAC",
+      "width": 64,
+      "seed": 0,
+      "checkpoint": "results/bahrain-algorithm-width-001/sac_64_seed0.zip",
+      "checkpoint_sha256": "292621a5c388799e156b8ab14ff9357fe42db29a546e1345b382e13620f00f7d"
+    },
+    {
+      "duration_s": 92.25633419815742,
+      "final_energy_j": 103459.22666399307,
+      "terminal_speed_error_mps": 2.1316282072803006e-14,
+      "energy_residual_j": 2.8916812264134784e-08,
+      "feasible": true,
+      "reward_sum": -92.25633419815742,
+      "recovered_j": 1367826.1931075442,
+      "discharged_j": 3264366.9664435606,
+      "max_work_residual_j": 1.0826624929904938e-08,
+      "max_battery_residual_j": 5.238689482212067e-09,
+      "policy": "SAC 64 seed 1",
+      "cells": 160,
+      "file": "results/silverstone-model-only-001/sac_64_seed1_160.json.gz",
+      "replay_seconds": 3.549844100140035,
+      "wheel_assist_j": 2937930.2697992036,
+      "method": "SAC",
+      "width": 64,
+      "seed": 1,
+      "checkpoint": "results/bahrain-algorithm-width-001/sac_64_seed1.zip",
+      "checkpoint_sha256": "8cf70c7745e85739b6af7502d72b1284d2f1e90f26c421ac1e7c18a779395a6a"
+    },
+    {
+      "duration_s": 92.168781869637,
+      "final_energy_j": 103563.96199862633,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "energy_residual_j": 3.6515114751334288e-09,
+      "feasible": true,
+      "reward_sum": -92.168781869637,
+      "recovered_j": 1369950.8353811165,
+      "discharged_j": 3266386.8733824994,
+      "max_work_residual_j": 1.5519617591053247e-08,
+      "max_battery_residual_j": 3.943569026887417e-09,
+      "policy": "SAC 64 seed 1",
+      "cells": 320,
+      "file": "results/silverstone-model-only-001/sac_64_seed1_320.json.gz",
+      "replay_seconds": 7.303762399824336,
+      "wheel_assist_j": 2939748.18604425,
+      "method": "SAC",
+      "width": 64,
+      "seed": 1,
+      "checkpoint": "results/bahrain-algorithm-width-001/sac_64_seed1.zip",
+      "checkpoint_sha256": "8cf70c7745e85739b6af7502d72b1284d2f1e90f26c421ac1e7c18a779395a6a"
+    },
+    {
+      "duration_s": 92.26511287996718,
+      "final_energy_j": 103488.20485329334,
+      "terminal_speed_error_mps": 2.1316282072803006e-14,
+      "energy_residual_j": -4.9964076972996985e-09,
+      "feasible": true,
+      "reward_sum": -92.26511287996718,
+      "recovered_j": 1368075.6403083827,
+      "discharged_j": 3264587.4354550787,
+      "max_work_residual_j": 1.1292286217212677e-08,
+      "max_battery_residual_j": 3.754394128918648e-09,
+      "policy": "SAC 64 seed 2",
+      "cells": 160,
+      "file": "results/silverstone-model-only-001/sac_64_seed2_160.json.gz",
+      "replay_seconds": 3.829882999882102,
+      "wheel_assist_j": 2938128.6919095707,
+      "method": "SAC",
+      "width": 64,
+      "seed": 2,
+      "checkpoint": "results/bahrain-algorithm-width-001/sac_64_seed2.zip",
+      "checkpoint_sha256": "f145d2f204331133960fa297e13aba84e2973eda19396d496d9f37132f897241"
+    },
+    {
+      "duration_s": 92.17551630226097,
+      "final_energy_j": 103592.90773308942,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "energy_residual_j": -1.91626446169324e-08,
+      "feasible": true,
+      "reward_sum": -92.17551630226097,
+      "recovered_j": 1370137.6845661255,
+      "discharged_j": 3266544.7768330257,
+      "max_work_residual_j": 1.9237631931900978e-08,
+      "max_battery_residual_j": 5.631591193377972e-09,
+      "policy": "SAC 64 seed 2",
+      "cells": 320,
+      "file": "results/silverstone-model-only-001/sac_64_seed2_320.json.gz",
+      "replay_seconds": 7.383265899959952,
+      "wheel_assist_j": 2939890.2991497233,
+      "method": "SAC",
+      "width": 64,
+      "seed": 2,
+      "checkpoint": "results/bahrain-algorithm-width-001/sac_64_seed2.zip",
+      "checkpoint_sha256": "f145d2f204331133960fa297e13aba84e2973eda19396d496d9f37132f897241"
+    },
+    {
+      "duration_s": 92.17006675654483,
+      "final_energy_j": 370921.89808758185,
+      "terminal_speed_error_mps": 7.105427357601002e-15,
+      "energy_residual_j": -4.311997557626679e-09,
+      "feasible": true,
+      "reward_sum": -92.17006675654483,
+      "recovered_j": 1356511.5399173815,
+      "discharged_j": 2985589.641829804,
+      "max_work_residual_j": 1.2689270079135895e-08,
+      "max_battery_residual_j": 2.939486876130104e-09,
+      "policy": "PPO 256 seed 0",
+      "cells": 160,
+      "file": "results/silverstone-model-only-001/ppo_256_seed0_160.json.gz",
+      "replay_seconds": 3.6005188999697566,
+      "wheel_assist_j": 2687030.6776468228,
+      "method": "PPO",
+      "width": 256,
+      "seed": 0,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_256_seed0.zip",
+      "checkpoint_sha256": "b390ff9ff8ec3d1dbcac1d8e7277b695a7e58e4a1fade373d51e8557d5e92f18"
+    },
+    {
+      "duration_s": 92.08433169147239,
+      "final_energy_j": 374806.9716086765,
+      "terminal_speed_error_mps": -7.105427357601002e-15,
+      "energy_residual_j": -2.803919977450997e-08,
+      "feasible": true,
+      "reward_sum": -92.08433169147239,
+      "recovered_j": 1358424.8473770544,
+      "discharged_j": 2983617.8757683793,
+      "max_work_residual_j": 1.4668330550193787e-08,
+      "max_battery_residual_j": 3.6670826375484467e-09,
+      "policy": "PPO 256 seed 0",
+      "cells": 320,
+      "file": "results/silverstone-model-only-001/ppo_256_seed0_320.json.gz",
+      "replay_seconds": 7.134217799874023,
+      "wheel_assist_j": 2685256.0881915423,
+      "method": "PPO",
+      "width": 256,
+      "seed": 0,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_256_seed0.zip",
+      "checkpoint_sha256": "b390ff9ff8ec3d1dbcac1d8e7277b695a7e58e4a1fade373d51e8557d5e92f18"
+    },
+    {
+      "duration_s": 92.17836553609081,
+      "final_energy_j": 230632.57819538502,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "energy_residual_j": -8.66248842795736e-09,
+      "feasible": true,
+      "reward_sum": -92.17836553609081,
+      "recovered_j": 1363044.4535462726,
+      "discharged_j": 3132411.8753508963,
+      "max_work_residual_j": 9.546056389808655e-09,
+      "max_battery_residual_j": 3.4633558243513107e-09,
+      "policy": "PPO 256 seed 1",
+      "cells": 160,
+      "file": "results/silverstone-model-only-001/ppo_256_seed1_160.json.gz",
+      "replay_seconds": 3.7373198999557644,
+      "wheel_assist_j": 2819170.687815808,
+      "method": "PPO",
+      "width": 256,
+      "seed": 1,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_256_seed1.zip",
+      "checkpoint_sha256": "a8fb59ccc4ab04014b0cd76baad2b8b766278dd218e9d78dcac796732ca17c23"
+    },
+    {
+      "duration_s": 92.09132097245238,
+      "final_energy_j": 232673.11952403508,
+      "terminal_speed_error_mps": -7.105427357601002e-15,
+      "energy_residual_j": -1.2288971881768695e-08,
+      "feasible": true,
+      "reward_sum": -92.09132097245238,
+      "recovered_j": 1365053.7886110258,
+      "discharged_j": 3132380.6690869983,
+      "max_work_residual_j": 1.1059455573558807e-08,
+      "max_battery_residual_j": 4.292814992368221e-09,
+      "policy": "PPO 256 seed 1",
+      "cells": 320,
+      "file": "results/silverstone-model-only-001/ppo_256_seed1_320.json.gz",
+      "replay_seconds": 7.10419510002248,
+      "wheel_assist_j": 2819142.602178299,
+      "method": "PPO",
+      "width": 256,
+      "seed": 1,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_256_seed1.zip",
+      "checkpoint_sha256": "a8fb59ccc4ab04014b0cd76baad2b8b766278dd218e9d78dcac796732ca17c23"
+    },
+    {
+      "duration_s": 92.13594325843373,
+      "final_energy_j": 121968.53296080798,
+      "terminal_speed_error_mps": 7.105427357601002e-15,
+      "energy_residual_j": -2.136930589424768e-08,
+      "feasible": true,
+      "reward_sum": -92.13594325843373,
+      "recovered_j": 1367383.1499022646,
+      "discharged_j": 3245414.6169414674,
+      "max_work_residual_j": 1.2048985809087753e-08,
+      "max_battery_residual_j": 3.4633558243513107e-09,
+      "policy": "PPO 256 seed 2",
+      "cells": 160,
+      "file": "results/silverstone-model-only-001/ppo_256_seed2_160.json.gz",
+      "replay_seconds": 3.655144000193104,
+      "wheel_assist_j": 2920873.1552473204,
+      "method": "PPO",
+      "width": 256,
+      "seed": 2,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_256_seed2.zip",
+      "checkpoint_sha256": "9992645d423328667bc0187aeb3cd955627b546921ef741a1ca1c7328dbb8bc2"
+    },
+    {
+      "duration_s": 92.04776623063117,
+      "final_energy_j": 122199.16070622581,
+      "terminal_speed_error_mps": -7.105427357601002e-15,
+      "energy_residual_j": -2.4293288491961107e-09,
+      "feasible": true,
+      "reward_sum": -92.04776623063117,
+      "recovered_j": 1369525.400674997,
+      "discharged_j": 3247326.239968775,
+      "max_work_residual_j": 1.3300450518727303e-08,
+      "max_battery_residual_j": 4.292814992368221e-09,
+      "policy": "PPO 256 seed 2",
+      "cells": 320,
+      "file": "results/silverstone-model-only-001/ppo_256_seed2_320.json.gz",
+      "replay_seconds": 7.48671289999038,
+      "wheel_assist_j": 2922593.6159718987,
+      "method": "PPO",
+      "width": 256,
+      "seed": 2,
+      "checkpoint": "results/bahrain-algorithm-width-001/ppo_256_seed2.zip",
+      "checkpoint_sha256": "9992645d423328667bc0187aeb3cd955627b546921ef741a1ca1c7328dbb8bc2"
+    },
+    {
+      "duration_s": 92.25934721901973,
+      "final_energy_j": 103487.34859039578,
+      "terminal_speed_error_mps": 0.0,
+      "energy_residual_j": 6.302674916691675e-09,
+      "feasible": true,
+      "reward_sum": -92.25934721901973,
+      "recovered_j": 1367867.966451012,
+      "discharged_j": 3264380.6178606204,
+      "max_work_residual_j": 1.1117663234472275e-08,
+      "max_battery_residual_j": 3.1723175197839737e-09,
+      "policy": "SAC 256 seed 0",
+      "cells": 160,
+      "file": "results/silverstone-model-only-001/sac_256_seed0_160.json.gz",
+      "replay_seconds": 3.649025899823755,
+      "wheel_assist_j": 2937942.5560745583,
+      "method": "SAC",
+      "width": 256,
+      "seed": 0,
+      "checkpoint": "results/bahrain-algorithm-width-001/sac_256_seed0.zip",
+      "checkpoint_sha256": "be794d75f6520c598a0ca0670fb70d5fa79d6fef59326bbb19a3e9200bb40f93"
+    },
+    {
+      "duration_s": 92.17186126814902,
+      "final_energy_j": 103592.0892351346,
+      "terminal_speed_error_mps": 0.0,
+      "energy_residual_j": 1.2176217513426568e-08,
+      "feasible": true,
+      "reward_sum": -92.17186126814902,
+      "recovered_j": 1369989.163906249,
+      "discharged_j": 3266397.074671121,
+      "max_work_residual_j": 1.6327248886227608e-08,
+      "max_battery_residual_j": 4.6566128730773926e-09,
+      "policy": "SAC 256 seed 0",
+      "cells": 320,
+      "file": "results/silverstone-model-only-001/sac_256_seed0_320.json.gz",
+      "replay_seconds": 7.033936300082132,
+      "wheel_assist_j": 2939757.3672040096,
+      "method": "SAC",
+      "width": 256,
+      "seed": 0,
+      "checkpoint": "results/bahrain-algorithm-width-001/sac_256_seed0.zip",
+      "checkpoint_sha256": "be794d75f6520c598a0ca0670fb70d5fa79d6fef59326bbb19a3e9200bb40f93"
+    },
+    {
+      "duration_s": 92.24612356276934,
+      "final_energy_j": 103460.10582370602,
+      "terminal_speed_error_mps": 7.105427357601002e-15,
+      "energy_residual_j": 1.7072322930355988e-09,
+      "feasible": true,
+      "reward_sum": -92.24612356276934,
+      "recovered_j": 1367344.3976069558,
+      "discharged_j": 3263884.2917832397,
+      "max_work_residual_j": 1.4581019058823586e-08,
+      "max_battery_residual_j": 4.700268618762493e-09,
+      "policy": "SAC 256 seed 1",
+      "cells": 160,
+      "file": "results/silverstone-model-only-001/sac_256_seed1_160.json.gz",
+      "replay_seconds": 3.5516346998047084,
+      "wheel_assist_j": 2937495.8626049166,
+      "method": "SAC",
+      "width": 256,
+      "seed": 1,
+      "checkpoint": "results/bahrain-algorithm-width-001/sac_256_seed1.zip",
+      "checkpoint_sha256": "22faf332d8f577fe64851c8dc3c71dbc7e893922eae0c9faf8b7ad6d9468841d"
+    },
+    {
+      "duration_s": 92.15834123695642,
+      "final_energy_j": 103564.88993044724,
+      "terminal_speed_error_mps": -7.105427357601002e-15,
+      "energy_residual_j": -5.359050037068158e-09,
+      "feasible": true,
+      "reward_sum": -92.15834123695642,
+      "recovered_j": 1369461.9535841465,
+      "discharged_j": 3265897.063653686,
+      "max_work_residual_j": 1.6530975699424744e-08,
+      "max_battery_residual_j": 5.964466254226863e-09,
+      "policy": "SAC 256 seed 1",
+      "cells": 320,
+      "file": "results/silverstone-model-only-001/sac_256_seed1_320.json.gz",
+      "replay_seconds": 7.024914700072259,
+      "wheel_assist_j": 2939307.357288318,
+      "method": "SAC",
+      "width": 256,
+      "seed": 1,
+      "checkpoint": "results/bahrain-algorithm-width-001/sac_256_seed1.zip",
+      "checkpoint_sha256": "22faf332d8f577fe64851c8dc3c71dbc7e893922eae0c9faf8b7ad6d9468841d"
+    },
+    {
+      "duration_s": 92.26456774590413,
+      "final_energy_j": 103508.97766769824,
+      "terminal_speed_error_mps": 0.0,
+      "energy_residual_j": 4.126092323364361e-08,
+      "feasible": true,
+      "reward_sum": -92.26456774590413,
+      "recovered_j": 1368015.6741083537,
+      "discharged_j": 3264506.6964406623,
+      "max_work_residual_j": 9.313225746154785e-09,
+      "max_battery_residual_j": 3.6816345527768135e-09,
+      "policy": "SAC 256 seed 2",
+      "cells": 160,
+      "file": "results/silverstone-model-only-001/sac_256_seed2_160.json.gz",
+      "replay_seconds": 3.630784400040284,
+      "wheel_assist_j": 2938056.0267965966,
+      "method": "SAC",
+      "width": 256,
+      "seed": 2,
+      "checkpoint": "results/bahrain-algorithm-width-001/sac_256_seed2.zip",
+      "checkpoint_sha256": "e5fc00e3fabcc085ccec3073331aa3fb0d4f365e9954022f910979d3c4ca0f36"
+    },
+    {
+      "duration_s": 92.17712482939011,
+      "final_energy_j": 103613.56486434666,
+      "terminal_speed_error_mps": 1.4210854715202004e-14,
+      "energy_residual_j": 2.680664810267297e-08,
+      "feasible": true,
+      "reward_sum": -92.17712482939011,
+      "recovered_j": 1370136.3617337267,
+      "discharged_j": 3266522.796869381,
+      "max_work_residual_j": 1.5133991837501526e-08,
+      "max_battery_residual_j": 5.384208634495735e-09,
+      "policy": "SAC 256 seed 2",
+      "cells": 320,
+      "file": "results/silverstone-model-only-001/sac_256_seed2_320.json.gz",
+      "replay_seconds": 7.182285699993372,
+      "wheel_assist_j": 2939870.517182444,
+      "method": "SAC",
+      "width": 256,
+      "seed": 2,
+      "checkpoint": "results/bahrain-algorithm-width-001/sac_256_seed2.zip",
+      "checkpoint_sha256": "e5fc00e3fabcc085ccec3073331aa3fb0d4f365e9954022f910979d3c4ca0f36"
+    }
+  ],
+  "work_match": {
+    "alpha": 1.3984375,
+    "grids": {
+      "160": {
+        "duration_s": 92.4276227508564,
+        "final_energy_j": 116096.40295942237,
+        "terminal_speed_error_mps": 7.105427357601002e-15,
+        "energy_residual_j": 7.690091133327748e-10,
+        "feasible": true,
+        "recovered_j": 1369091.442857106,
+        "discharged_j": 3252995.0398976654,
+        "max_work_residual_j": 1.225271262228489e-08,
+        "max_battery_residual_j": 4.249159246683121e-09,
+        "alpha": 1.3984375,
+        "wheel_assist_j": 2927695.5359079,
+        "file": "results\\silverstone-model-only-001\\work_match\\spread_160_alpha-1.3984375.json.gz",
+        "difference_j": -25.015066085383296,
+        "saving_s": 0.6386526021498327
+      },
+      "320": {
+        "duration_s": 92.33956987372365,
+        "final_energy_j": 115577.25140947178,
+        "terminal_speed_error_mps": -7.105427357601002e-15,
+        "energy_residual_j": -3.914332592086511e-08,
+        "feasible": true,
+        "recovered_j": 1371201.8327154052,
+        "discharged_j": 3255624.5813059257,
+        "max_work_residual_j": 1.448279363103211e-08,
+        "max_battery_residual_j": 6.613845471292734e-09,
+        "alpha": 1.3984375,
+        "wheel_assist_j": 2930062.1231753337,
+        "file": "results\\silverstone-model-only-001\\work_match\\spread_320_alpha-1.3984375.json.gz",
+        "difference_j": 465.63248803513125,
+        "saving_s": 0.640475835143306
+      }
+    },
+    "paired_gap_change_s": 0.0018232329934733116,
+    "passed": true
+  },
+  "rolling_speed_mps": 56.0,
+  "deployment_zones_320": [
+    {
+      "start_block": 1,
+      "end_block": 2,
+      "wheel_assist_j": 380233.2547385277,
+      "from_m": 0.0,
+      "to_m": 214.06562603166435,
+      "peak_block_average_wheel_kw": 119.99999999999982,
+      "average_wheel_kw": 119.9999999999998,
+      "battery_charge_j": 0.0
+    },
+    {
+      "start_block": 4,
+      "end_block": 7,
+      "wheel_assist_j": 556062.3562698029,
+      "from_m": 321.0984205549508,
+      "to_m": 748.230648233447,
+      "peak_block_average_wheel_kw": 120.0000000000004,
+      "average_wheel_kw": 83.33734720629262,
+      "battery_charge_j": 122535.20363592137
+    },
+    {
+      "start_block": 9,
+      "end_block": 14,
+      "wheel_assist_j": 860650.7886524961,
+      "from_m": 855.2620842311068,
+      "to_m": 1489.280633571319,
+      "peak_block_average_wheel_kw": 119.99999999999854,
+      "average_wheel_kw": 65.28895560504138,
+      "battery_charge_j": 271457.94043128146
+    },
+    {
+      "start_block": 19,
+      "end_block": 19,
+      "wheel_assist_j": 51885.91128391032,
+      "from_m": 1917.3260747463032,
+      "to_m": 2022.8443325598878,
+      "peak_block_average_wheel_kw": 24.75299320306272,
+      "average_wheel_kw": 24.75299320306272,
+      "battery_charge_j": 77827.73585921786
+    },
+    {
+      "start_block": 22,
+      "end_block": 25,
+      "wheel_assist_j": 273019.6575054527,
+      "from_m": 2234.441198444146,
+      "to_m": 2661.437703887128,
+      "peak_block_average_wheel_kw": 60.000000000000135,
+      "average_wheel_kw": 40.83725218671592,
+      "battery_charge_j": 27374.433575547064
+    },
+    {
+      "start_block": 30,
+      "end_block": 32,
+      "wheel_assist_j": 322772.4835329983,
+      "from_m": 3089.348726554691,
+      "to_m": 3409.9873335020993,
+      "peak_block_average_wheel_kw": 120.00000000000259,
+      "average_wheel_kw": 67.0761051613728,
+      "battery_charge_j": 64907.39150732393
+    },
+    {
+      "start_block": 35,
+      "end_block": 35,
+      "wheel_assist_j": 32160.81314914706,
+      "from_m": 3623.9813853787537,
+      "to_m": 3730.4447003004248,
+      "peak_block_average_wheel_kw": 19.27817473362642,
+      "average_wheel_kw": 19.278174733626418,
+      "battery_charge_j": 105590.59777608859
+    },
+    {
+      "start_block": 39,
+      "end_block": 40,
+      "wheel_assist_j": 95109.13632060739,
+      "from_m": 4050.145675409752,
+      "to_m": 4263.771787491087,
+      "peak_block_average_wheel_kw": 29.999999999999872,
+      "average_wheel_kw": 29.99999999999898,
+      "battery_charge_j": 0.0
+    },
+    {
+      "start_block": 47,
+      "end_block": 49,
+      "wheel_assist_j": 103626.51982208337,
+      "from_m": 4905.959632931876,
+      "to_m": 5225.9131391813935,
+      "peak_block_average_wheel_kw": 28.26695270973788,
+      "average_wheel_kw": 22.11725219248996,
+      "battery_charge_j": 115140.57758009323
+    },
+    {
+      "start_block": 53,
+      "end_block": 53,
+      "wheel_assist_j": 186248.07741101872,
+      "from_m": 5544.411648441581,
+      "to_m": 5649.530179319434,
+      "peak_block_average_wheel_kw": 72.84317889935889,
+      "average_wheel_kw": 72.84317889935889,
+      "battery_charge_j": 44149.2535624034
+    },
+    {
+      "start_block": 55,
+      "end_block": 55,
+      "wheel_assist_j": 55739.92015838904,
+      "from_m": 5756.295540019638,
+      "to_m": 5862.726125321455,
+      "peak_block_average_wheel_kw": 25.83183357172119,
+      "average_wheel_kw": 25.83183357172119,
+      "battery_charge_j": 19612.893608369886
+    }
+  ],
+  "top_recovery_blocks_320": {
+    "Bounded DP schedule": [
+      {
+        "block": 52,
+        "from_m": 5439.9551238397935,
+        "to_m": 5544.411648441581,
+        "duration_s": 2.551013486629003,
+        "request_fraction": 0.0,
+        "request_kw": 0.0,
+        "wheel_assist_kw": 0.0,
+        "wheel_assist_kj": 0.0,
+        "wheel_brake_recovery_kj": 163.50609674588733,
+        "battery_charge_kj": 130.80487739670983,
+        "battery_kj": 262.7930546720622,
+        "cumulative_charged_kj": 1249.0247136919534,
+        "cumulative_discharged_kj": 2986.231659019879,
+        "cumulative_time_s": 85.03568078915485
+      },
+      {
+        "block": 4,
+        "from_m": 321.0984205549508,
+        "to_m": 427.5220655098882,
+        "duration_s": 1.8417329416422898,
+        "request_fraction": 1.0,
+        "request_kw": 120.0,
+        "wheel_assist_kw": 32.64452484348711,
+        "wheel_assist_kj": 60.122496768510324,
+        "wheel_brake_recovery_kj": 153.1690045449017,
+        "battery_charge_kj": 122.53520363592136,
+        "battery_kj": 1633.2510352947702,
+        "cumulative_charged_kj": 122.53520363592136,
+        "cumulative_discharged_kj": 489.28416834115376,
+        "cumulative_time_s": 6.373569809195249
+      },
+      {
+        "block": 35,
+        "from_m": 3623.9813853787537,
+        "to_m": 3730.4447003004248,
+        "duration_s": 1.6682499040248757,
+        "request_fraction": 1.0,
+        "request_kw": 120.0,
+        "wheel_assist_kw": 19.27817473362642,
+        "wheel_assist_kj": 32.16081314914706,
+        "wheel_brake_recovery_kj": 131.98824722011082,
+        "battery_charge_kj": 105.59059777608859,
+        "battery_kj": 169.85636094370338,
+        "cumulative_charged_kj": 921.8399888685324,
+        "cumulative_discharged_kj": 2751.983627924817,
+        "cumulative_time_s": 58.97410524168978
+      },
+      {
+        "block": 10,
+        "from_m": 959.3885590635039,
+        "to_m": 1062.7632961421057,
+        "duration_s": 2.6719160673657996,
+        "request_fraction": 0.25,
+        "request_kw": 30.0,
+        "wheel_assist_kw": 13.449231729799909,
+        "wheel_assist_kj": 35.9352183525783,
+        "wheel_brake_recovery_kj": 130.62938958862705,
+        "battery_charge_kj": 104.50351167090167,
+        "battery_kj": 1157.2792437003288,
+        "cumulative_charged_kj": 394.37476569347825,
+        "cumulative_discharged_kj": 1237.0955219931448,
+        "cumulative_time_s": 18.01181768442297
+      },
+      {
+        "block": 9,
+        "from_m": 855.2620842311068,
+        "to_m": 959.3885590635039,
+        "duration_s": 2.69775998485267,
+        "request_fraction": 1.0,
+        "request_kw": 120.0,
+        "wheel_assist_kw": 52.323090721738104,
+        "wheel_assist_kj": 141.15514043292106,
+        "wheel_brake_recovery_kj": 120.99059346083207,
+        "battery_charge_kj": 96.7924747686657,
+        "battery_kj": 1092.7037524211792,
+        "cumulative_charged_kj": 289.8712540225766,
+        "cumulative_discharged_kj": 1197.167501601391,
+        "cumulative_time_s": 15.33990161705717
+      }
+    ],
+    "Work-matched spread": [
+      {
+        "block": 52,
+        "from_m": 5439.9551238397935,
+        "to_m": 5544.411648441581,
+        "duration_s": 2.5380973784427425,
+        "request_fraction": 0.4387345314025879,
+        "request_kw": 52.64814376831055,
+        "wheel_assist_kw": 18.29126464930134,
+        "wheel_assist_kj": 46.42501085479414,
+        "wheel_brake_recovery_kj": 163.50609674588767,
+        "battery_charge_kj": 130.8048773967102,
+        "battery_kj": 438.8474437447388,
+        "cumulative_charged_kj": 1251.2039108330089,
+        "cumulative_discharged_kj": 2812.356467088263,
+        "cumulative_time_s": 85.69685163486578
+      },
+      {
+        "block": 4,
+        "from_m": 321.0984205549508,
+        "to_m": 427.5220655098882,
+        "duration_s": 1.8498590530770986,
+        "request_fraction": 0.25979942083358765,
+        "request_kw": 31.175930500030518,
+        "wheel_assist_kw": 9.752803254190322,
+        "wheel_assist_kj": 18.04131139264376,
+        "wheel_brake_recovery_kj": 144.95440320441583,
+        "battery_charge_kj": 115.96352256353268,
+        "battery_kj": 1959.510914855914,
+        "cumulative_charged_kj": 115.96352256353268,
+        "cumulative_discharged_kj": 156.45260770761897,
+        "cumulative_time_s": 6.5432038795152945
+      },
+      {
+        "block": 35,
+        "from_m": 3623.9813853787537,
+        "to_m": 3730.4447003004248,
+        "duration_s": 1.6681438570685714,
+        "request_fraction": 0.39477235078811646,
+        "request_kw": 47.372682094573975,
+        "wheel_assist_kw": 11.521198035639543,
+        "wheel_assist_kj": 19.219015729222598,
+        "wheel_brake_recovery_kj": 134.47030327019863,
+        "battery_charge_kj": 107.57624261615899,
+        "battery_kj": 1195.7604959956054,
+        "cumulative_charged_kj": 904.4171788194918,
+        "cumulative_discharged_kj": 1708.6566828238854,
+        "cumulative_time_s": 59.95982385223038
+      },
+      {
+        "block": 47,
+        "from_m": 4905.959632931876,
+        "to_m": 5012.7075424379,
+        "duration_s": 1.3887235270348555,
+        "request_fraction": 0.4162391424179077,
+        "request_kw": 49.948697090148926,
+        "wheel_assist_kw": 9.783034053078906,
+        "wheel_assist_kj": 13.585929555293834,
+        "wheel_brake_recovery_kj": 128.4175843472522,
+        "battery_charge_kj": 102.73406747780182,
+        "battery_kj": 589.3092529952055,
+        "cumulative_charged_kj": 1060.7679233740246,
+        "cumulative_discharged_kj": 2471.4586703788145,
+        "cumulative_time_s": 77.05063147638683
+      },
+      {
+        "block": 10,
+        "from_m": 959.3885590635039,
+        "to_m": 1062.7632961421057,
+        "duration_s": 2.705640738429903,
+        "request_fraction": 0.17293031513690948,
+        "request_kw": 20.751637816429138,
+        "wheel_assist_kw": 9.794272123526389,
+        "wheel_assist_kj": 26.49978166068135,
+        "wheel_brake_recovery_kj": 125.53465079191074,
+        "battery_charge_kj": 100.42772063352862,
+        "battery_kj": 1984.951524707236,
+        "cumulative_charged_kj": 375.4189955608797,
+        "cumulative_discharged_kj": 390.46747085363467,
+        "cumulative_time_s": 18.53445034028041
+      }
+    ]
+  },
+  "individual_grid_checks": {
+    "selected": {
+      "relative_lap_change": 0.0009801199354097575,
+      "terminal_energy_change_j": 107.00729972191039,
+      "recovered_change_j": 2191.3847589809448,
+      "both_feasible": true,
+      "passes_limits": true,
+      "passes_refinement": true
+    },
+    "spread": {
+      "relative_lap_change": 0.0009571251256245504,
+      "terminal_energy_change_j": 1627.7017284659087,
+      "recovered_change_j": 2178.7841527478304,
+      "both_feasible": true,
+      "passes_limits": true,
+      "passes_refinement": true
+    },
+    "PPO 64 seed 0": {
+      "relative_lap_change": 0.0009439535048039801,
+      "terminal_energy_change_j": 2137.0539582659258,
+      "recovered_change_j": 2021.8838999453,
+      "both_feasible": true,
+      "passes_limits": true,
+      "passes_refinement": true
+    },
+    "PPO 64 seed 1": {
+      "relative_lap_change": 0.0009529724636555337,
+      "terminal_energy_change_j": 1082.8485497335205,
+      "recovered_change_j": 2078.113627413055,
+      "both_feasible": true,
+      "passes_limits": true,
+      "passes_refinement": true
+    },
+    "PPO 64 seed 2": {
+      "relative_lap_change": 0.0009775436043790626,
+      "terminal_energy_change_j": 104.72189553682983,
+      "recovered_change_j": 2159.946627216181,
+      "both_feasible": true,
+      "passes_limits": true,
+      "passes_refinement": true
+    },
+    "SAC 64 seed 0": {
+      "relative_lap_change": 0.000947507050406629,
+      "terminal_energy_change_j": 104.7356922578183,
+      "recovered_change_j": 2128.3265199053567,
+      "both_feasible": true,
+      "passes_limits": true,
+      "passes_refinement": true
+    },
+    "SAC 64 seed 1": {
+      "relative_lap_change": 0.0009499130480453809,
+      "terminal_energy_change_j": 104.73533463325293,
+      "recovered_change_j": 2124.6422735722736,
+      "both_feasible": true,
+      "passes_limits": true,
+      "passes_refinement": true
+    },
+    "SAC 64 seed 2": {
+      "relative_lap_change": 0.000972021435848528,
+      "terminal_energy_change_j": 104.7028797960811,
+      "recovered_change_j": 2062.0442577428184,
+      "both_feasible": true,
+      "passes_limits": true,
+      "passes_refinement": true
+    },
+    "PPO 256 seed 0": {
+      "relative_lap_change": 0.0009310494358551224,
+      "terminal_energy_change_j": 3885.0735210946295,
+      "recovered_change_j": 1913.307459672913,
+      "both_feasible": true,
+      "passes_limits": true,
+      "passes_refinement": true
+    },
+    "PPO 256 seed 1": {
+      "relative_lap_change": 0.0009451983392057858,
+      "terminal_energy_change_j": 2040.5413286500552,
+      "recovered_change_j": 2009.3350647531915,
+      "both_feasible": true,
+      "passes_limits": true,
+      "passes_refinement": true
+    },
+    "PPO 256 seed 2": {
+      "relative_lap_change": 0.0009579485892316563,
+      "terminal_energy_change_j": 230.62774541783438,
+      "recovered_change_j": 2142.25077273231,
+      "both_feasible": true,
+      "passes_limits": true,
+      "passes_refinement": true
+    },
+    "SAC 256 seed 0": {
+      "relative_lap_change": 0.0009491611611942827,
+      "terminal_energy_change_j": 104.74064473882027,
+      "recovered_change_j": 2121.197455236921,
+      "both_feasible": true,
+      "passes_limits": true,
+      "passes_refinement": true
+    },
+    "SAC 256 seed 1": {
+      "relative_lap_change": 0.0009525163391040116,
+      "terminal_energy_change_j": 104.78410674122279,
+      "recovered_change_j": 2117.555977190612,
+      "both_feasible": true,
+      "passes_limits": true,
+      "passes_refinement": true
+    },
+    "SAC 256 seed 2": {
+      "relative_lap_change": 0.0009486400956405263,
+      "terminal_energy_change_j": 104.58719664841192,
+      "recovered_change_j": 2120.687625373015,
+      "both_feasible": true,
+      "passes_limits": true,
+      "passes_refinement": true
+    }
+  },
+  "comparisons": [
+    {
+      "first": "selected",
+      "second": "spread",
+      "time_savings_s": {
+        "160": 0.7362300283745498,
+        "320": 0.737632624880689
+      },
+      "gap_change_s": 0.0014025965061392753,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 64 seed 0",
+      "second": "selected",
+      "time_savings_s": {
+        "160": -0.44356378358517645,
+        "320": -0.44645877617981
+      },
+      "gap_change_s": 0.0028949925946335497,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 64 seed 0",
+      "second": "spread",
+      "time_savings_s": {
+        "160": 0.2926662447893733,
+        "320": 0.29117384870087903
+      },
+      "gap_change_s": 0.0014923960884942744,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 64 seed 1",
+      "second": "selected",
+      "time_savings_s": {
+        "160": -0.384993838451237,
+        "320": -0.3871143277219318
+      },
+      "gap_change_s": 0.0021204892706947476,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 64 seed 1",
+      "second": "spread",
+      "time_savings_s": {
+        "160": 0.35123618992331274,
+        "320": 0.35051829715875726
+      },
+      "gap_change_s": 0.0007178927645554722,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 64 seed 2",
+      "second": "selected",
+      "time_savings_s": {
+        "160": -0.3168328380730543,
+        "320": -0.3167594391306636
+      },
+      "gap_change_s": 7.33989423906678e-05,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 64 seed 2",
+      "second": "spread",
+      "time_savings_s": {
+        "160": 0.41939719030149547,
+        "320": 0.4208731857500254
+      },
+      "gap_change_s": 0.0014759954485299431,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "SAC 64 seed 0",
+      "second": "selected",
+      "time_savings_s": {
+        "160": -0.47613438360801297,
+        "320": -0.4786714110799579
+      },
+      "gap_change_s": 0.0025370274719449526,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "SAC 64 seed 0",
+      "second": "spread",
+      "time_savings_s": {
+        "160": 0.2600956447665368,
+        "320": 0.2589612138007311
+      },
+      "gap_change_s": 0.0011344309658056773,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "SAC 64 seed 1",
+      "second": "selected",
+      "time_savings_s": {
+        "160": -0.4673640494508504,
+        "320": -0.46968783105666034
+      },
+      "gap_change_s": 0.002323781605809927,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "SAC 64 seed 1",
+      "second": "spread",
+      "time_savings_s": {
+        "160": 0.26886597892369934,
+        "320": 0.2679447938240287
+      },
+      "gap_change_s": 0.0009211850996706517,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "SAC 64 seed 2",
+      "second": "selected",
+      "time_savings_s": {
+        "160": -0.4761427312606088,
+        "320": -0.47642226368063234
+      },
+      "gap_change_s": 0.0002795324200235427,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "SAC 64 seed 2",
+      "second": "spread",
+      "time_savings_s": {
+        "160": 0.26008729711394096,
+        "320": 0.2612103612000567
+      },
+      "gap_change_s": 0.0011230640861157326,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 256 seed 0",
+      "second": "selected",
+      "time_savings_s": {
+        "160": -0.38109660783825916,
+        "320": -0.3852376528920445
+      },
+      "gap_change_s": 0.004141045053785319,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 256 seed 0",
+      "second": "spread",
+      "time_savings_s": {
+        "160": 0.3551334205362906,
+        "320": 0.35239497198864456
+      },
+      "gap_change_s": 0.002738448547646044,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 256 seed 1",
+      "second": "selected",
+      "time_savings_s": {
+        "160": -0.3893953873842406,
+        "320": -0.39222693387203833
+      },
+      "gap_change_s": 0.0028315464877977092,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 256 seed 1",
+      "second": "spread",
+      "time_savings_s": {
+        "160": 0.34683464099030914,
+        "320": 0.3454056910086507
+      },
+      "gap_change_s": 0.001428949981658434,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 256 seed 2",
+      "second": "selected",
+      "time_savings_s": {
+        "160": -0.3469731097271591,
+        "320": -0.34867219205082733
+      },
+      "gap_change_s": 0.0016990823236682218,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 256 seed 2",
+      "second": "spread",
+      "time_savings_s": {
+        "160": 0.38925691864739065,
+        "320": 0.3889604328298617
+      },
+      "gap_change_s": 0.0002964858175289464,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "SAC 256 seed 0",
+      "second": "selected",
+      "time_savings_s": {
+        "160": -0.47037707031316245,
+        "320": -0.47276722956867445
+      },
+      "gap_change_s": 0.0023901592555120033,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "SAC 256 seed 0",
+      "second": "spread",
+      "time_savings_s": {
+        "160": 0.2658529580613873,
+        "320": 0.2648653953120146
+      },
+      "gap_change_s": 0.000987562749372728,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "SAC 256 seed 1",
+      "second": "selected",
+      "time_savings_s": {
+        "160": -0.4571534140627733,
+        "320": -0.45924719837607597
+      },
+      "gap_change_s": 0.002093784313302649,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "SAC 256 seed 1",
+      "second": "spread",
+      "time_savings_s": {
+        "160": 0.27907661431177644,
+        "320": 0.27838542650461306
+      },
+      "gap_change_s": 0.0006911878071633737,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "SAC 256 seed 2",
+      "second": "selected",
+      "time_savings_s": {
+        "160": -0.475597597197563,
+        "320": -0.4780307908097683
+      },
+      "gap_change_s": 0.0024331936122052866,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "SAC 256 seed 2",
+      "second": "spread",
+      "time_savings_s": {
+        "160": 0.26063243117698676,
+        "320": 0.25960183407092075
+      },
+      "gap_change_s": 0.0010305971060660113,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 64 seed 0",
+      "second": "SAC 64 seed 0",
+      "time_savings_s": {
+        "160": 0.032570600022836516,
+        "320": 0.03221263490014792
+      },
+      "gap_change_s": 0.00035796512268859715,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 256 seed 0",
+      "second": "SAC 256 seed 0",
+      "time_savings_s": {
+        "160": 0.08928046247490329,
+        "320": 0.08752957667662997
+      },
+      "gap_change_s": 0.0017508857982733161,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 256 seed 0",
+      "second": "PPO 64 seed 0",
+      "time_savings_s": {
+        "160": 0.06246717574691729,
+        "320": 0.06122112328776552
+      },
+      "gap_change_s": 0.0012460524591517697,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "SAC 256 seed 0",
+      "second": "SAC 64 seed 0",
+      "time_savings_s": {
+        "160": 0.005757313294850519,
+        "320": 0.005904181511283468
+      },
+      "gap_change_s": 0.00014686821643294934,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 64 seed 1",
+      "second": "SAC 64 seed 1",
+      "time_savings_s": {
+        "160": 0.08237021099961339,
+        "320": 0.08257350333472857
+      },
+      "gap_change_s": 0.0002032923351151794,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 256 seed 1",
+      "second": "SAC 256 seed 1",
+      "time_savings_s": {
+        "160": 0.0677580266785327,
+        "320": 0.06702026450403764
+      },
+      "gap_change_s": 0.0007377621744950602,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 256 seed 1",
+      "second": "PPO 64 seed 1",
+      "time_savings_s": {
+        "160": -0.004401548933003596,
+        "320": -0.005112606150106558
+      },
+      "gap_change_s": 0.0007110572171029617,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "SAC 256 seed 1",
+      "second": "SAC 64 seed 1",
+      "time_savings_s": {
+        "160": 0.010210635388077094,
+        "320": 0.010440632680584372
+      },
+      "gap_change_s": 0.00022999729250727796,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 64 seed 2",
+      "second": "SAC 64 seed 2",
+      "time_savings_s": {
+        "160": 0.1593098931875545,
+        "320": 0.15966282454996872
+      },
+      "gap_change_s": 0.0003529313624142105,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 256 seed 2",
+      "second": "SAC 256 seed 2",
+      "time_savings_s": {
+        "160": 0.1286244874704039,
+        "320": 0.12935859875894096
+      },
+      "gap_change_s": 0.0007341112885370649,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "PPO 256 seed 2",
+      "second": "PPO 64 seed 2",
+      "time_savings_s": {
+        "160": -0.030140271654104822,
+        "320": -0.03191275292016371
+      },
+      "gap_change_s": 0.0017724812660588896,
+      "grid_pass": true,
+      "resolved_direction": true
+    },
+    {
+      "first": "SAC 256 seed 2",
+      "second": "SAC 64 seed 2",
+      "time_savings_s": {
+        "160": 0.0005451340630457935,
+        "320": -0.0016085271291359504
+      },
+      "gap_change_s": 0.002153661192181744,
+      "grid_pass": true,
+      "resolved_direction": false
+    }
+  ]
+}

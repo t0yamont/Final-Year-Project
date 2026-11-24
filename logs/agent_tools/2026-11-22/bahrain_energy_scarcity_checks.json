@@ -1,0 +1,33 @@
+{
+  "study": "Bahrain energy scarcity",
+  "date": "2026-11-22",
+  "unit_tests": {
+    "command": ".venv/Scripts/python.exe -m unittest discover -s tests -q",
+    "pythonpath": [
+      "src",
+      "scripts"
+    ],
+    "passed": 148,
+    "seconds": 16.611
+  },
+  "figure_QA": {
+    "png_dpi": 300,
+    "pdf_embedded_image_objects": [
+      0,
+      0,
+      0
+    ],
+    "inspected": [
+      "matched time and raw feasibility",
+      "84 paired transfers",
+      "four whole-lap planner profiles"
+    ],
+    "verified_companion_manifest": {
+      "inputs": 17,
+      "sources": 5,
+      "outputs": 11
+    }
+  },
+  "protocol_sha256": "3d57138d106a3a8625d131fe166cb8fd4b42b0423a12b1b7baefdc170816f9ff",
+  "note": "Original zone metadata has a Windows-decoded display label for t1_t3. The block ranges, stable ID and values are intact. Figures use the canonical label."
+}

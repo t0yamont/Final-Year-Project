@@ -1,0 +1,169 @@
+{
+  "manifest_sha256": "6bba6b087c9871c5034f0d9a60f6acd987d68ac2ab16b755ce14cf1b59975601",
+  "verifier_sha256": "a037f17b36b27acdd5f3ff0d0a9b8ade6f858f1c23178ac3d9313caa65adb069",
+  "verified_manifest_entries": 481,
+  "replay_groups": [
+    {
+      "scenario": "nominal",
+      "cells": 160,
+      "distinct_scored_files": 4,
+      "feasible": 4
+    },
+    {
+      "scenario": "nominal",
+      "cells": 320,
+      "distinct_scored_files": 4,
+      "feasible": 4
+    },
+    {
+      "scenario": "low_charge",
+      "cells": 160,
+      "distinct_scored_files": 9,
+      "feasible": 8
+    },
+    {
+      "scenario": "low_charge",
+      "cells": 320,
+      "distinct_scored_files": 9,
+      "feasible": 8
+    },
+    {
+      "scenario": "low_recovery",
+      "cells": 160,
+      "distinct_scored_files": 8,
+      "feasible": 7
+    },
+    {
+      "scenario": "low_recovery",
+      "cells": 320,
+      "distinct_scored_files": 8,
+      "feasible": 7
+    },
+    {
+      "scenario": "combined",
+      "cells": 160,
+      "distinct_scored_files": 8,
+      "feasible": 7
+    },
+    {
+      "scenario": "combined",
+      "cells": 320,
+      "distinct_scored_files": 8,
+      "feasible": 7
+    }
+  ],
+  "comparisons": [
+    {
+      "scenario": "nominal",
+      "policy": "frozen",
+      "family": "ordinary",
+      "physically_matched_and_stable": true,
+      "resolved": true,
+      "fine_saving_s": 0.9533214069126927
+    },
+    {
+      "scenario": "nominal",
+      "policy": "adapted",
+      "family": "ordinary",
+      "physically_matched_and_stable": true,
+      "resolved": true,
+      "fine_saving_s": 0.9533214069126927
+    },
+    {
+      "scenario": "low_charge",
+      "policy": "frozen",
+      "family": "ordinary",
+      "physically_matched_and_stable": false,
+      "resolved": false,
+      "fine_saving_s": null
+    },
+    {
+      "scenario": "low_charge",
+      "policy": "frozen",
+      "family": "terminal_suffix",
+      "physically_matched_and_stable": true,
+      "resolved": false,
+      "fine_saving_s": 0.0
+    },
+    {
+      "scenario": "low_charge",
+      "policy": "adapted",
+      "family": "ordinary",
+      "physically_matched_and_stable": true,
+      "resolved": true,
+      "fine_saving_s": 0.6328606944935018
+    },
+    {
+      "scenario": "low_charge",
+      "policy": "adapted",
+      "family": "terminal_suffix",
+      "physically_matched_and_stable": true,
+      "resolved": true,
+      "fine_saving_s": 0.6395181485990094
+    },
+    {
+      "scenario": "low_recovery",
+      "policy": "frozen",
+      "family": "ordinary",
+      "physically_matched_and_stable": false,
+      "resolved": false,
+      "fine_saving_s": null
+    },
+    {
+      "scenario": "low_recovery",
+      "policy": "frozen",
+      "family": "terminal_suffix",
+      "physically_matched_and_stable": true,
+      "resolved": true,
+      "fine_saving_s": 0.1507774909285331
+    },
+    {
+      "scenario": "low_recovery",
+      "policy": "adapted",
+      "family": "ordinary",
+      "physically_matched_and_stable": true,
+      "resolved": true,
+      "fine_saving_s": 0.8950355933315706
+    },
+    {
+      "scenario": "low_recovery",
+      "policy": "adapted",
+      "family": "terminal_suffix",
+      "physically_matched_and_stable": true,
+      "resolved": true,
+      "fine_saving_s": 0.13049667942144083
+    },
+    {
+      "scenario": "combined",
+      "policy": "frozen",
+      "family": "ordinary",
+      "physically_matched_and_stable": false,
+      "resolved": false,
+      "fine_saving_s": null
+    },
+    {
+      "scenario": "combined",
+      "policy": "frozen",
+      "family": "terminal_suffix",
+      "physically_matched_and_stable": true,
+      "resolved": true,
+      "fine_saving_s": 0.10553126951208469
+    },
+    {
+      "scenario": "combined",
+      "policy": "adapted",
+      "family": "ordinary",
+      "physically_matched_and_stable": true,
+      "resolved": true,
+      "fine_saving_s": 0.7452980147084531
+    },
+    {
+      "scenario": "combined",
+      "policy": "adapted",
+      "family": "terminal_suffix",
+      "physically_matched_and_stable": true,
+      "resolved": true,
+      "fine_saving_s": 0.11799192910741851
+    }
+  ]
+}

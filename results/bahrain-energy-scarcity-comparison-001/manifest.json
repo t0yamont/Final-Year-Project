@@ -1,0 +1,46 @@
+{
+  "inputs": {
+    "results/bahrain-scarcity-planners-001/manifest.json": "6bba6b087c9871c5034f0d9a60f6acd987d68ac2ab16b755ce14cf1b59975601",
+    "results/bahrain-scarcity-zones-001/manifest.json": "8d072c7984a232d1000f97e42115fe27dc1eee0dca1607d7289e75f1c7f3f226",
+    "configs/bahrain_energy_scarcity.json": "3d57138d106a3a8625d131fe166cb8fd4b42b0423a12b1b7baefdc170816f9ff",
+    "results/bahrain-scarcity-planners-001/nominal/metrics.json": "b66cdd3c456a354e4b72d00d9063225ba76ed36c86809f0509b48b0c2002573a",
+    "results/bahrain-scarcity-planners-001/nominal/profile_160.csv": "19f9e45035825e30b0c95cbd46299845a378ae219cd3ea0d96d9e42175e0e833",
+    "results/bahrain-scarcity-planners-001/nominal/profile_320.csv": "72f25e569f6e0e2c03be8e5b9068cd42b1b9db031db3928f10d3da638dad679a",
+    "results/bahrain-scarcity-planners-001/low_charge/metrics.json": "d74b137f7887e606bd8b34f62d168138d41c6f08cd4b671d347b151b27558c2f",
+    "results/bahrain-scarcity-planners-001/low_charge/profile_160.csv": "9c676459c648882ece5180c995395e400ab0eb7e7a4459460ad26d174aa7d7fe",
+    "results/bahrain-scarcity-planners-001/low_charge/profile_320.csv": "cc61f00312ce50db66a02990c829175cb6455d38c110e0584153ce573ec6ee17",
+    "results/bahrain-scarcity-planners-001/low_recovery/metrics.json": "c3fcdf1122fec689854acccd043d588c78d0f41176f826813eec5ee9733adab2",
+    "results/bahrain-scarcity-planners-001/low_recovery/profile_160.csv": "84e5932a44d8f17a0251f4c7f67c521eafdc6eada06299f0c9156c7982d78561",
+    "results/bahrain-scarcity-planners-001/low_recovery/profile_320.csv": "2d9fb5014f68c71c7822162db3df0ad5332e972256b24064f202e2d7cedc52a3",
+    "results/bahrain-scarcity-planners-001/combined/metrics.json": "9aca47e7b89c483a2ad28c1437a577dc7acc0a27f14a5fbb268705623f37d61c",
+    "results/bahrain-scarcity-planners-001/combined/profile_160.csv": "e892eb6ca8ce1c7288486ad9c9a32da725c64d5442625950a462711f0e390c85",
+    "results/bahrain-scarcity-planners-001/combined/profile_320.csv": "86672ec559dbf98240dd018541930a19b89941cd64d56d88cad624937a4138ea",
+    "results/bahrain-scarcity-zones-001/pairs.csv": "9a3c9b8d6b341331fac8b455c4f44357db1a972e54adae71650182cca7f8bec3",
+    "results/bahrain-scarcity-zones-001/zones.json": "42ea21aef045a08ffa0a5760005207273e487ddffb7cc30ffabcdede91316822"
+  },
+  "sources": {
+    "scripts/report_bahrain_energy_scarcity.py": "f334392091daaed66d44aff7213edcaf7e8eb071c822bd9f5dfada03f461dcc8",
+    "scripts/benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "scripts/map_bahrain_deployment.py": "90d207b171d704b8ca783fc63d230e8ef4c6be999206c74a627eca840b31cc25",
+    "scripts/report_bahrain_finish_constraint.py": "da793cc371e4e95d52945d2f9c09c61b2c0b3fd457eaf3a7988c27c9c0b30a5f",
+    "scripts/verify_bahrain_deployment.py": "021d6666a3a42193eef68398042f493c2d690194d16df48557d0572c31a986db"
+  },
+  "outputs": {
+    "results/bahrain-energy-scarcity-comparison-001/conditional_zone_outcomes.csv": "eb2054a32c4d1fcbffbe0d45b578a26fb86f1870c58434ca2b7c35889e2e5f10",
+    "results/bahrain-energy-scarcity-comparison-001/matched_timing.csv": "2f1f9feb13dcfeb3b71cb247ac8ab8e18ede15017e72b2ab26f93c6cf8116231",
+    "results/bahrain-energy-scarcity-comparison-001/raw_replays.csv": "73dcb0d7c7013fc9869ef855b038c7eaf141fce3997d85ed356ca1ca6924f39c",
+    "results/bahrain-energy-scarcity-comparison-001/zone_work_and_power.csv": "6acc0576c72d3061de11597d9eabd55973955b4718ef95cf657b19c379afb705",
+    "figures/dissertation/bahrain-energy-scarcity-v1/01_matched_timing.pdf": "0470acc77e4651d34de2b444707947d18d03709a4d8d24401f5f667197414cd2",
+    "figures/dissertation/bahrain-energy-scarcity-v1/01_matched_timing.png": "288f8a6869fcd047ab71f2f04b9f5a2834265b6558df3a07a8cc5b22de56d6e0",
+    "figures/dissertation/bahrain-energy-scarcity-v1/02_zone_transfers.pdf": "3b5155b31b50cec42dde5b36fddb369bd34646df7d4317521a4567e448875cbc",
+    "figures/dissertation/bahrain-energy-scarcity-v1/02_zone_transfers.png": "f81087a3afcf389aa5b0293ba2d2af6e84d0931eb6befb6ede50ef12288e5519",
+    "figures/dissertation/bahrain-energy-scarcity-v1/03_planner_deployment.pdf": "142782f4d3b5253170e3c5d481e0261dcec71e1df7fec7a994a111efd4e3da56",
+    "figures/dissertation/bahrain-energy-scarcity-v1/03_planner_deployment.png": "6fe5be2e10afcd30afd4d5d2b9894377433a695e22f58eb3a3c7cbb59c35d602",
+    "figures/dissertation/bahrain-energy-scarcity-v1/captions.md": "273b96f6d5486c4a709fd339a79a871d076702f2224f6ff6fa9eccf6c1d2763b"
+  },
+  "captions": {
+    "01_matched_timing": "Unmatched feasibility appears at left in coarse-to-fine order within each schedule. The time difference is spread minus the named schedule at the same delivered wheel work, so positive values favor the named schedule. Paired values appear only after feasibility, work matching and numerical refinement pass. Open circles and filled diamonds show the two deterministic integration grids. The horizontal separation shows grid sensitivity. Wheel work at right is the matched total at 320 cells per block. Nominal frozen and scenario-planner rows reuse the same archived schedule. Fixed-finish comparisons scale the earlier requests and use full request in the last three blocks of both schedules.",
+    "02_zone_transfers": "Each cell compares allocating a 20 kJ wheel-work packet to the recipient (column) with placing it at the donor (row), under the same scenario and work target. Negative values favor the recipient. Numbers give the 320-cell difference where both grids resolve its sign. The codes retain every inconclusive and failed comparison. Each pair applies to its own baseline and work target. The table of conditional outcomes counts faster, slower and inconclusive comparisons per zone.",
+    "03_planner_deployment": "Requested and delivered wheel-assist power for each scenario-specific finite-search schedule at 320 cells per block. Delivered power is work divided by the full action-block duration. Shading marks the seven predeclared packet-test zones in lap order. The accompanying table gives exact distances and work for each schedule at both grids."
+  }
+}

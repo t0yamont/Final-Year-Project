@@ -1,0 +1,102 @@
+{
+  "study": "Direct CUDA training on the frozen central Bahrain qualifying model",
+  "declared_on": "2026-11-19",
+  "parents": {
+    "bahrain_deployment": {
+      "path": "results/bahrain-deployment-zones-001/manifest.json",
+      "sha256": "fe202f1259f87b48a9cddd3b7abae1359a59e713d51d8eaa05f9e2921b7351bf"
+    },
+    "bahrain_calibration": {
+      "path": "results/bahrain-pace-calibration-001/manifest.json",
+      "sha256": "d3fe71537b8e55fdb8d04cd69ac0df43c05a76caadbeea57655a5b07a09f5f8d"
+    }
+  },
+  "model": "results/bahrain-pace-calibration-001/model.json",
+  "scenario": "central",
+  "baselines": [
+    "selected",
+    "spread"
+  ],
+  "training_cells_per_block": 80,
+  "primary_cells_per_block": 160,
+  "refined_cells_per_block": 320,
+  "action_blocks": 55,
+  "observations": 8,
+  "steps_per_seed": 4096,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "widths": [
+    64,
+    256
+  ],
+  "parallel_workers": 6,
+  "preflight": {
+    "policies": [
+      "selected",
+      "spread",
+      "zero",
+      "half",
+      "full"
+    ],
+    "max_relative_time_change": 0.0035,
+    "max_wheel_assist_change_j": 10000,
+    "max_terminal_energy_change_j": 10000,
+    "max_recovery_change_j": 5000,
+    "max_finish_error_change_mps": 0.04,
+    "max_selected_spread_gap_change_s": 0.005
+  },
+  "reward": {
+    "reference": "adaptive spread block durations on the corresponding grid",
+    "terminal_shortfall_s_per_mps": 1,
+    "definition": "Spread reference block time minus actual block time at every step, with a final penalty of one second per m/s below the common finish target. No action projection, supervision, demonstrations, or extra physical information."
+  },
+  "ppo": {
+    "n_steps": 256,
+    "batch_size": 64,
+    "n_epochs": 10,
+    "gamma": 1,
+    "gae_lambda": 0.95,
+    "learning_rate": 0.0003,
+    "clip_range": 0.2,
+    "ent_coef": 0
+  },
+  "sac": {
+    "learning_starts": 256,
+    "buffer_size": 4096,
+    "batch_size": 64,
+    "train_freq": 4,
+    "gradient_steps": 1,
+    "gamma": 1,
+    "learning_rate": 0.0003,
+    "tau": 0.005,
+    "ent_coef": "auto"
+  },
+  "architectures": {
+    "ppo": {
+      "actor_activation": "Tanh",
+      "critic": [
+        32,
+        32
+      ]
+    },
+    "sac": {
+      "actor_activation": "ReLU",
+      "critics": 2,
+      "critic": [
+        64,
+        64
+      ]
+    }
+  },
+  "refinement": {
+    "paired_gap_change_s": 0.005,
+    "relative_lap_change": 0.0025,
+    "terminal_energy_change_j": 10000,
+    "recovered_change_j": 5000
+  },
+  "endpoint": "Final deterministic policy on 160 and 320 cells per block for every seed. Train both algorithms at width 64 first, then both at 256 regardless of endpoint feasibility or ranking. Report raw times for infeasible laps only as diagnostics. Report pairwise savings only where both laps are feasible. Use exactly one shared physics transition per interaction; PPO and SAC have different prescribed update schedules and exploration. No checkpoint, hyperparameter, width or seed selection.",
+  "scope": "Conditional central-model pilot. All runs start from independent random weights; seed labels pair settings descriptively. No acquisition, model refit, real-car validation, algorithm-general performance, matched wheel-work or convergence claim. Geometry uses a process-local, hash-checked cache; every training physics transition is integrated anew, and SAC samples its own run's host-memory replay buffer."
+}

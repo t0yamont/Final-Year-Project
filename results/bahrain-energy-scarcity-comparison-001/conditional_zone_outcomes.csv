@@ -1,0 +1,29 @@
+case,zone,zone_label,conditional_comparisons,faster,slower,inconclusive
+nominal,timing_line,Timing line,6,0,6,0
+nominal,t1_t3,T1–T3,6,1,5,0
+nominal,t8_exit,T8 exit,6,2,3,1
+nominal,t10_exit,T10 exit,6,6,0,0
+nominal,t11_exit,T11 exit,6,2,3,1
+nominal,t13_exit,T13 exit,6,4,1,1
+nominal,t15,T15,6,4,1,1
+low_charge,timing_line,Timing line,6,0,6,0
+low_charge,t1_t3,T1–T3,6,1,5,0
+low_charge,t8_exit,T8 exit,6,2,3,1
+low_charge,t10_exit,T10 exit,6,6,0,0
+low_charge,t11_exit,T11 exit,6,2,3,1
+low_charge,t13_exit,T13 exit,6,4,1,1
+low_charge,t15,T15,6,4,1,1
+low_recovery,timing_line,Timing line,6,0,6,0
+low_recovery,t1_t3,T1–T3,6,1,5,0
+low_recovery,t8_exit,T8 exit,6,2,3,1
+low_recovery,t10_exit,T10 exit,6,6,0,0
+low_recovery,t11_exit,T11 exit,6,2,3,1
+low_recovery,t13_exit,T13 exit,6,4,1,1
+low_recovery,t15,T15,6,4,1,1
+combined,timing_line,Timing line,6,0,6,0
+combined,t1_t3,T1–T3,6,1,5,0
+combined,t8_exit,T8 exit,6,2,3,1
+combined,t10_exit,T10 exit,6,6,0,0
+combined,t11_exit,T11 exit,6,2,3,1
+combined,t13_exit,T13 exit,6,4,1,1
+combined,t15,T15,6,4,1,1

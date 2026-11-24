@@ -1,0 +1,23 @@
+{
+  "draft": "report/Bahrain_deployment_draft.docx",
+  "prior_sha256": "89f4db223dc31cd4239615e1359822d69df59f06ace50d759f1d4b9879095c67",
+  "sha256": "4debddca41e6c837944db2e2eb1c653acb31479a33a3bfc95db40a44bdc20fc9",
+  "rendered_pages": 30,
+  "chapters": 7,
+  "embedded_figures": 6,
+  "tables": 4,
+  "references": 14,
+  "verified_relative_links": 60,
+  "visual_review": "All 30 pages; six embedded figures, contents, bibliography and captions reviewed.",
+  "study_figure_directories": [
+    "figures/dissertation/bahrain-algorithm-width-v1",
+    "figures/dissertation/circuit-braking-screen-v1",
+    "figures/dissertation/transfer-circuit-geometry-v1",
+    "figures/dissertation/silverstone-finish-bound-v1",
+    "figures/dissertation/silverstone-model-only-v1",
+    "figures/dissertation/silverstone-controller-comparison-v1"
+  ],
+  "unit_tests_passed": 146,
+  "study_manifest_entries_verified": 350,
+  "documentation_links_checked": 316
+}

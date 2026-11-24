@@ -1,0 +1,80 @@
+{
+  "study": "Bahrain qualifying deployment priorities under energy scarcity",
+  "date": "2026-11-22",
+  "model": "results/bahrain-pace-calibration-001/model.json",
+  "parent_hashes": {
+    "results/bahrain-pace-calibration-001/manifest.json": "d3fe71537b8e55fdb8d04cd69ac0df43c05a76caadbeea57655a5b07a09f5f8d",
+    "results/bahrain-deployment-zones-001/manifest.json": "fe202f1259f87b48a9cddd3b7abae1359a59e713d51d8eaa05f9e2921b7351bf",
+    "results/bahrain-equal-work-001/manifest.json": "1f17df67890165c2dba6fea180d1e81ffc3cd8f143b7ac6717dd93ee239d144f",
+    "configs/regeneration_robustness_protocol.json": "10a0345c7eadfedd0e9bea5a0df52af94eda91546067555c56b8310629cf1ae4"
+  },
+  "scenarios": {
+    "nominal": {
+      "initial_energy_j": 2000000,
+      "braking_fraction": 0.4
+    },
+    "low_charge": {
+      "initial_energy_j": 1000000,
+      "braking_fraction": 0.4
+    },
+    "low_recovery": {
+      "initial_energy_j": 2000000,
+      "braking_fraction": 0.2
+    },
+    "combined": {
+      "initial_energy_j": 1000000,
+      "braking_fraction": 0.2
+    }
+  },
+  "zones": [
+    {
+      "name": "Timing-line straight",
+      "first_block": 1,
+      "last_block": 3
+    },
+    {
+      "name": "T1–T3 exit",
+      "first_block": 8,
+      "last_block": 12
+    },
+    {
+      "name": "T8 exit",
+      "first_block": 24,
+      "last_block": 25
+    },
+    {
+      "name": "T10 and exit",
+      "first_block": 28,
+      "last_block": 29
+    },
+    {
+      "name": "T11 and exit",
+      "first_block": 35,
+      "last_block": 36
+    },
+    {
+      "name": "T13 exit",
+      "first_block": 43,
+      "last_block": 43
+    },
+    {
+      "name": "T15 approach and exit",
+      "first_block": 51,
+      "last_block": 51
+    }
+  ],
+  "grids": [
+    160,
+    320
+  ],
+  "refinement": {
+    "paired_gap_change_s": 0.005,
+    "relative_lap_change": 0.0025,
+    "terminal_energy_change_j": 10000,
+    "recovered_change_j": 5000
+  },
+  "total_work_pair_tolerance_j": 500,
+  "finish_speed_tolerance_mps": 0.00001,
+  "design": "Cross two starting charges with two recoverable shares of braking work. Only initial_energy_j and regeneration.braking_fraction vary. Use the earlier study's simulated stress values and seven frozen inclusive, one-based zone ranges. Compare unchanged original action schedule, scenario-specific finite search and adaptive spread. Distinguish unmodified policies from any suffix-preserving auxiliary reference. Attribute timing only where delivered work is matched on both grids. Separately move a common marginal packet between zones and measure substitute timings relative to the same scenario baseline. Each arm freezes its full search, matching, isolation and numerical rules before scoring. Retain failed joins, physically failed cases and unresolved directions. Do not promote a ranking across different work targets.",
+  "scope": "Frozen central-model sensitivity for a single qualifying lap. No car changes outside the two scarcity inputs, no telemetry acquisition, network training, finish-filter optimization or dissertation draft."
+}

@@ -1,0 +1,185 @@
+{
+  "shared_protocol": {
+    "study": "Bahrain qualifying deployment priorities under energy scarcity",
+    "date": "2026-11-22",
+    "model": "results/bahrain-pace-calibration-001/model.json",
+    "parent_hashes": {
+      "results/bahrain-pace-calibration-001/manifest.json": "d3fe71537b8e55fdb8d04cd69ac0df43c05a76caadbeea57655a5b07a09f5f8d",
+      "results/bahrain-deployment-zones-001/manifest.json": "fe202f1259f87b48a9cddd3b7abae1359a59e713d51d8eaa05f9e2921b7351bf",
+      "results/bahrain-equal-work-001/manifest.json": "1f17df67890165c2dba6fea180d1e81ffc3cd8f143b7ac6717dd93ee239d144f",
+      "configs/regeneration_robustness_protocol.json": "10a0345c7eadfedd0e9bea5a0df52af94eda91546067555c56b8310629cf1ae4"
+    },
+    "scenarios": {
+      "nominal": {
+        "initial_energy_j": 2000000,
+        "braking_fraction": 0.4
+      },
+      "low_charge": {
+        "initial_energy_j": 1000000,
+        "braking_fraction": 0.4
+      },
+      "low_recovery": {
+        "initial_energy_j": 2000000,
+        "braking_fraction": 0.2
+      },
+      "combined": {
+        "initial_energy_j": 1000000,
+        "braking_fraction": 0.2
+      }
+    },
+    "zones": [
+      {
+        "name": "Timing-line straight",
+        "first_block": 1,
+        "last_block": 3
+      },
+      {
+        "name": "T1\u00e2\u20ac\u201cT3 exit",
+        "first_block": 8,
+        "last_block": 12
+      },
+      {
+        "name": "T8 exit",
+        "first_block": 24,
+        "last_block": 25
+      },
+      {
+        "name": "T10 and exit",
+        "first_block": 28,
+        "last_block": 29
+      },
+      {
+        "name": "T11 and exit",
+        "first_block": 35,
+        "last_block": 36
+      },
+      {
+        "name": "T13 exit",
+        "first_block": 43,
+        "last_block": 43
+      },
+      {
+        "name": "T15 approach and exit",
+        "first_block": 51,
+        "last_block": 51
+      }
+    ],
+    "grids": [
+      160,
+      320
+    ],
+    "refinement": {
+      "paired_gap_change_s": 0.005,
+      "relative_lap_change": 0.0025,
+      "terminal_energy_change_j": 10000,
+      "recovered_change_j": 5000
+    },
+    "total_work_pair_tolerance_j": 500,
+    "finish_speed_tolerance_mps": 1e-05,
+    "design": "Cross two starting charges with two recoverable shares of braking work. Only initial_energy_j and regeneration.braking_fraction vary. Use the earlier study's simulated stress values and seven frozen inclusive, one-based zone ranges. Compare unchanged original action schedule, scenario-specific finite search and adaptive spread. Distinguish unmodified policies from any suffix-preserving auxiliary reference. Attribute timing only where delivered work is matched on both grids. Separately move a common marginal packet between zones and measure substitute timings relative to the same scenario baseline. Each arm freezes its full search, matching, isolation and numerical rules before scoring. Retain failed joins, physically failed cases and unresolved directions. Do not promote a ranking across different work targets.",
+    "scope": "Frozen central-model sensitivity for a single qualifying lap. No car changes outside the two scarcity inputs, no telemetry acquisition, network training, finish-filter optimization or dissertation draft."
+  },
+  "packet_j": 20000,
+  "prefix_blocks": 52,
+  "suffix_scale": 0.9,
+  "budget_scale": 0.85,
+  "prefix_scale_limit": 0.75,
+  "direction_floor_s": 0.0005,
+  "inputs": {
+    "configs/bahrain_energy_scarcity.json": "3d57138d106a3a8625d131fe166cb8fd4b42b0423a12b1b7baefdc170816f9ff",
+    "results/bahrain-pace-calibration-001/model.json": "6884eb5359a3451e02b24480fda61c75f5b39309d9ea5c0c80e0787234ec59b1",
+    "results/circuit-input-assessment-001/Sakhir.csv": "ca9e3e517d8a47082297081ad140fb91a455a505eae4d440dfe1852d7482e21a",
+    "results/bahrain-deployment-zones-001/central/selected_160.json.gz": "c7ddbadcb8cc14956e4aa9dedd630157972a6b65b30b1b0c141c4b2d67ef2e4e",
+    "results/bahrain-deployment-zones-001/central/finish_only_160.json.gz": "fd5e98765153e2fc07b5985701352af821844c41ae1bd3899867c6c08b6dcb5a",
+    "results/bahrain-zone-support-001/metrics.json": "f0f870c524215835bde1ead7a1d17c9db73bc1afb23474a3531a2272773f7686",
+    "results/bahrain-pace-calibration-001/manifest.json": "d3fe71537b8e55fdb8d04cd69ac0df43c05a76caadbeea57655a5b07a09f5f8d",
+    "results/bahrain-deployment-zones-001/manifest.json": "fe202f1259f87b48a9cddd3b7abae1359a59e713d51d8eaa05f9e2921b7351bf",
+    "results/bahrain-equal-work-001/manifest.json": "1f17df67890165c2dba6fea180d1e81ffc3cd8f143b7ac6717dd93ee239d144f",
+    "configs/regeneration_robustness_protocol.json": "10a0345c7eadfedd0e9bea5a0df52af94eda91546067555c56b8310629cf1ae4"
+  },
+  "sources": {
+    "src/f1energy/circuit.py": "32868680106cbd05565f0859c31c6962f4e6f3e114c81dacf825e2a9a4b9ebf9",
+    "src/f1energy/circuit_control.py": "5409bb354cf6db6a657fcc78c3e7e76f8cf6d161633f56738781d850f899fbf5",
+    "src/f1energy/event_power_lap.py": "0f5c22045177a8449639f71635e6f4bed7c1aa7dfa046670273ffc19689c930b",
+    "src/f1energy/power_lap.py": "5428866fcfb617c35ed4b9daffc92f18b25bb22f2cb25c8904851a69994b1763",
+    "scripts/bahrain_pace_model.py": "4983b5bb3e0426d4b9d1b4b02c3c9933142702560a783a92ae3446e0508dc217",
+    "scripts/benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "scripts/validate_regeneration.py": "3a2a581cbe21bbe4dbf7ef375ffe47e8b17f046c7c47a3bbcad520a8f8e4277f",
+    "scripts/verify_bahrain_deployment.py": "021d6666a3a42193eef68398042f493c2d690194d16df48557d0572c31a986db",
+    "scripts/run_bahrain_scarcity_zones.py": "5efcf58f9f8e9083ba6c6bfac92a125a35f8c5d1b2ee22808eb088bf00558950"
+  },
+  "workers": 2,
+  "zone_ids": [
+    "timing_line",
+    "t1_t3",
+    "t8_exit",
+    "t10_exit",
+    "t11_exit",
+    "t13_exit",
+    "t15"
+  ],
+  "prefix_targets_reference_j": [
+    141774.8367258842,
+    134699.83541774267,
+    129551.63429774273,
+    63089.34895379166,
+    0.0,
+    0.0,
+    0.0,
+    211545.25479632232,
+    221416.3180360458,
+    191152.32408457805,
+    164244.1279231039,
+    37724.614771041845,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    100942.28809257969,
+    78171.75008534291,
+    0.0,
+    0.0,
+    191690.48593734583,
+    47648.960665983264,
+    0.0,
+    0.0,
+    139181.43508404025,
+    214495.7320569533,
+    43884.05256086199,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    105088.31259034647,
+    223534.5066401388,
+    44962.47509262727,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    220484.69274614542,
+    44769.5261724481,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    71933.3688502938,
+    181265.3646974629,
+    0.0
+  ],
+  "suffix_targets_j": [
+    154401.09960965178,
+    139269.7749221121,
+    118241.86213789335
+  ],
+  "design": "Scale the frozen nominal selected wheel-work target for blocks 1\u201352. Use the same per-block suffix target in every lap, at 90% of nominal finish-only delivered work in blocks 53\u201355. Run a 160-cell feasibility preflight with zero prefix and full suffix in each scenario. Budget = discharge efficiency \u00d7 min(discharge limit, starting charge above reserve + preflight recovery through block 52). Subtract prescribed suffix work and floor the remainder at zero. Prefix scale is (85% of this remaining budget minus 20 kJ) / historic prefix work, clamped to [0, 0.75]. Add the 20 kJ to each one of seven zones in turn, allocated by their nominal selected per-block work weights. Compare plus-zone variants to each other, all 21 contrasts per scenario. Before scoring any contrasts, all four zero-packet bases must pass physical feasibility and individual grid refinement, plus 0.5 kJ L1 target matching on both independently matched grids.",
+  "solver": "Invert the same ordinary action transition blockwise at the current state via Brent's method (fraction absolute tolerance 1e-7, maximum 40 iterations) with float32 requests. Use zero request for zero target. If full request cannot deliver the target, retain the saturated block and score the actual physics; no alternative search or post-hoc retuning. Rerun each 55-action schedule through an unmodified rollout and audit mechanical and battery balances.",
+  "isolation": "Require jointly feasible finishes and max 0.5 kJ each for absolute total work gap, absolute donor loss and recipient gain deviations from 20 kJ, summed absolute delivered-work differences outside both zones, and summed absolute target error of each entire lap. Repeat across both grids with the identical target work, solving its action fractions independently on each grid.",
+  "refinement": "Also replay the frozen 160-cell fractions at 320 cells. Require legacy absolute paired gap and individual time, final battery and recovered charge grid tolerances across both forms of fine-grid replay. Report fixed-action work isolation separately. Resolve a sign only if both work-isolated gaps agree with the frozen-action direction and all three absolute gaps exceed the largest paired grid discrepancy or the 0.5 ms floor, whichever is greater.",
+  "delta_sign": "Recipient-packet lap minus donor-packet lap. Positive means moving the packet slows the lap."
+}

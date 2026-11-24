@@ -1,0 +1,1353 @@
+{
+  "circuit": "Silverstone",
+  "role": "validation",
+  "registration": {
+    "source_length_m": 5886.804722810752,
+    "timing_line_source_m": 5872.303859000281,
+    "line_offset_fraction": 0.997536717371602,
+    "source_direction": "original vertex order, clockwise",
+    "map_registration_parameters": [
+      2.0636673832042116,
+      0.004279629452493247,
+      -5.682263128851471,
+      -11.793765669505358
+    ],
+    "map_alignment_rmse_m": 2.5192812251488146,
+    "max_map_marker_residual_m": 8.545434017387569,
+    "sector_station_m": [
+      1820.2513385600869,
+      4279.999329498916
+    ],
+    "drs_zone_station_m": [
+      [
+        1306.7689564837683,
+        1890.3488888514376
+      ],
+      [
+        4229.211785855262,
+        4964.61706889551
+      ]
+    ],
+    "turn_station_m": [
+      433.1306562339287,
+      637.1815556599759,
+      907.2630061844156,
+      1067.031655770811,
+      1257.0136956875358,
+      1990.3488888514376,
+      2204.757932298168,
+      2524.195770736051,
+      3123.1165137557095,
+      3628.790496836801,
+      3741.4869927423374,
+      3880.6171657601258,
+      4034.3694141865644,
+      4203.822899464419,
+      5064.61706889551,
+      5509.258610490152,
+      5604.900777584055,
+      5777.06851234152
+    ],
+    "basic_checks": {
+      "clockwise_forward_numbered_route": true,
+      "official_length": true,
+      "map_registration": true,
+      "sector_and_drs_order": true
+    }
+  },
+  "laps": {
+    "driver-1-lap-5": {
+      "date_start": "2025-07-05T14:23:34.120000+00:00",
+      "duration_s": 85.886,
+      "sector_times_s": [
+        27.836,
+        34.494,
+        23.556
+      ],
+      "sector_boundary_distances_m": [
+        0.0,
+        1817.6141788194445,
+        4240.8902145337315,
+        5823.402069440835
+      ],
+      "sector_distances_m": [
+        1817.6141788194445,
+        2423.276035714287,
+        1582.511854907103
+      ],
+      "sector_boundary_fractions": [
+        0.0,
+        0.31212239119768914,
+        0.7282495977374517,
+        1.0
+      ],
+      "integrated_distance_m": 5823.402069440835,
+      "native_interior_samples": 313,
+      "max_bracketing_native_gap_s": 1.0,
+      "edge_speeds_mps": [
+        76.37847222222223,
+        75.4238854238854
+      ],
+      "edge_brackets_s": [
+        [
+          -0.077,
+          0.163
+        ],
+        [
+          85.443,
+          85.924
+        ]
+      ],
+      "lap_error_s": 5.908847743771048,
+      "sector_errors_s": [
+        2.0189622582379023,
+        3.074664015034543,
+        0.8152214704985958
+      ],
+      "speed_rmse_mps": 12.974577786673057,
+      "drs_precision": 0.9108527131782945,
+      "drs_recall": 0.8901515151515151,
+      "drs_edge_errors_m": [
+        [
+          -20.00613329757266,
+          -85.02606651468386
+        ],
+        [
+          -125.03833310982918,
+          -30.00919994635933
+        ]
+      ],
+      "observed_drs_zones_m": [
+        [
+          1265.3879310714701,
+          1845.5657967010768
+        ],
+        [
+          4156.274192570718,
+          4896.5011245809055
+        ]
+      ],
+      "braking_events": [
+        {
+          "onset_m": 745.2284653345812,
+          "end_m": 865.265265120017,
+          "minimum_speed_mps": 29.77716044288655,
+          "distance_to_next_curvature_peak_m": 165.0505997049744,
+          "simulated_minus_observed_onset_m": 70.02146654150431,
+          "simulated_minus_observed_minimum_speed_mps": -0.9936479950087787
+        },
+        {
+          "onset_m": 960.2943982834872,
+          "end_m": 1005.3081982030257,
+          "minimum_speed_mps": 25.16397537551364,
+          "distance_to_next_curvature_peak_m": 95.02913316347008,
+          "simulated_minus_observed_onset_m": 50.015333243931536,
+          "simulated_minus_observed_minimum_speed_mps": -2.432523836848233
+        },
+        {
+          "onset_m": 1845.5657967010768,
+          "end_m": 1970.604129810906,
+          "minimum_speed_mps": 46.13397657954299,
+          "distance_to_next_curvature_peak_m": 85.02606651468386,
+          "simulated_minus_observed_onset_m": 15.004599973179666,
+          "simulated_minus_observed_minimum_speed_mps": 11.462567000894055
+        },
+        {
+          "onset_m": 2055.6301963255896,
+          "end_m": 2120.650129542701,
+          "minimum_speed_mps": 33.13899136515466,
+          "distance_to_next_curvature_peak_m": 85.02606651468386,
+          "simulated_minus_observed_onset_m": 65.01993321711143,
+          "simulated_minus_observed_minimum_speed_mps": 10.88389108522778
+        },
+        {
+          "onset_m": 3916.2005929998463,
+          "end_m": 3966.2159262437776,
+          "minimum_speed_mps": 63.22924205236784,
+          "distance_to_next_curvature_peak_m": 120.0367997854355,
+          "simulated_minus_observed_onset_m": 55.01686656832453,
+          "simulated_minus_observed_minimum_speed_mps": -7.5754054260432895
+        },
+        {
+          "onset_m": 4896.5011245809055,
+          "end_m": 4996.531791068769,
+          "minimum_speed_mps": 67.48405121933347,
+          "distance_to_next_curvature_peak_m": 130.03986643422286,
+          "simulated_minus_observed_onset_m": 50.01533324393222,
+          "simulated_minus_observed_minimum_speed_mps": -6.369519246455781
+        },
+        {
+          "onset_m": 5386.651390371436,
+          "end_m": 5491.683590183692,
+          "minimum_speed_mps": 28.907072238448755,
+          "distance_to_next_curvature_peak_m": 145.04446640740207,
+          "simulated_minus_observed_onset_m": 50.01533324393131,
+          "simulated_minus_observed_minimum_speed_mps": -0.7534492292700179
+        }
+      ],
+      "checks": {
+        "speed_distance": true,
+        "drs": false,
+        "brake_before_curvature": true,
+        "model_brake_onset_and_minimum_speed": false,
+        "lap_time": false,
+        "sector_time": false,
+        "speed_rmse": false,
+        "location_alignment": false
+      },
+      "preparation_passed": true,
+      "xy_alignment": {
+        "method": "XY arclength phase search with fitted rotation, translation and common scale",
+        "selected": {
+          "phase_fraction": 0.007896041854082339,
+          "rmse_m": 5.224554414957696,
+          "direction": 1,
+          "handedness": 1
+        },
+        "alternatives": [
+          {
+            "phase_fraction": 0.007896041854082339,
+            "rmse_m": 5.224554414957696,
+            "direction": 1,
+            "handedness": 1
+          },
+          {
+            "phase_fraction": 0.507526915184323,
+            "rmse_m": 417.11689848648746,
+            "direction": 1,
+            "handedness": -1
+          },
+          {
+            "phase_fraction": 0.8150517034052442,
+            "rmse_m": 397.7165858142588,
+            "direction": -1,
+            "handedness": 1
+          },
+          {
+            "phase_fraction": 0.35434134172714654,
+            "rmse_m": 167.30409977143904,
+            "direction": -1,
+            "handedness": -1
+          }
+        ],
+        "scale_reference_m_per_openf1_m": 0.9988257539982816,
+        "rotation_openf1_to_reference": [
+          [
+            0.9999898542759542,
+            0.004504591563517392
+          ],
+          [
+            -0.004504591563517261,
+            0.9999898542759548
+          ]
+        ],
+        "translation_to_reference_m": [
+          178.2037690829107,
+          -117.33628095758729
+        ],
+        "p95_residual_m": 8.691292489019245,
+        "max_residual_m": 10.301328369312143,
+        "edge_closure_m": 3.0814920069022578,
+        "edge_projection_fractions": [
+          0.00811767578125,
+          0.007568359375
+        ],
+        "source_length_m": 5886.804722810752,
+        "location_length_m": 5824.051510754568,
+        "location_max_gap_s": 1.0799999237060547,
+        "location_native_samples": 316,
+        "location_edge_brackets_s": [
+          [
+            -0.15699982643127441,
+            0.24300003051757812
+          ],
+          [
+            85.68300008773804,
+            85.98300004005432
+          ]
+        ]
+      },
+      "absolute_map_to_xy_timing_line_differences_m": [
+        60.98332028859429,
+        62.28803593778005,
+        59.054317523150125
+      ]
+    },
+    "driver-1-lap-14": {
+      "date_start": "2025-07-05T15:00:04.393000+00:00",
+      "duration_s": 85.267,
+      "sector_times_s": [
+        27.719,
+        34.189,
+        23.359
+      ],
+      "sector_boundary_distances_m": [
+        0.0,
+        1817.4421635329616,
+        4250.182676649304,
+        5838.126638888888
+      ],
+      "sector_distances_m": [
+        1817.4421635329616,
+        2432.7405131163423,
+        1587.943962239584
+      ],
+      "sector_boundary_fractions": [
+        0.0,
+        0.31130571088106046,
+        0.7280045363075918,
+        1.0
+      ],
+      "integrated_distance_m": 5838.126638888888,
+      "native_interior_samples": 317,
+      "max_bracketing_native_gap_s": 0.9209999999999994,
+      "edge_speeds_mps": [
+        74.63194444444444,
+        72.93055555555549
+      ],
+      "edge_brackets_s": [
+        [
+          -0.196,
+          0.124
+        ],
+        [
+          85.165,
+          85.325
+        ]
+      ],
+      "lap_error_s": 6.527847743771048,
+      "sector_errors_s": [
+        2.1359622582378996,
+        3.3796640150345425,
+        1.012221470498595
+      ],
+      "speed_rmse_mps": 11.502730980219683,
+      "drs_precision": 0.9341085271317829,
+      "drs_recall": 0.9233716475095786,
+      "drs_edge_errors_m": [
+        [
+          50.015333243931536,
+          -35.0107332707521
+        ],
+        [
+          -75.02299986589787,
+          25.007666621965654
+        ]
+      ],
+      "observed_drs_zones_m": [
+        [
+          1335.4093976129743,
+          1895.5811299450086
+        ],
+        [
+          4206.289525814649,
+          4951.5179911492305
+        ]
+      ],
+      "braking_events": [
+        {
+          "onset_m": 795.2437985785128,
+          "end_m": 915.2805983639487,
+          "minimum_speed_mps": 29.74033718548809,
+          "distance_to_next_curvature_peak_m": 115.03526646104274,
+          "simulated_minus_observed_onset_m": 20.00613329757266,
+          "simulated_minus_observed_minimum_speed_mps": -0.9568247376103187
+        },
+        {
+          "onset_m": 1005.3081982030257,
+          "end_m": 1050.321998122564,
+          "minimum_speed_mps": 24.56374546022022,
+          "distance_to_next_curvature_peak_m": 50.01533324393165,
+          "simulated_minus_observed_onset_m": 5.001533324393108,
+          "simulated_minus_observed_minimum_speed_mps": -1.832293921554811
+        },
+        {
+          "onset_m": 1895.5811299450086,
+          "end_m": 2015.6179297304445,
+          "minimum_speed_mps": 46.72455815853715,
+          "distance_to_next_curvature_peak_m": 35.0107332707521,
+          "simulated_minus_observed_onset_m": -35.0107332707521,
+          "simulated_minus_observed_minimum_speed_mps": 10.871985421899893
+        },
+        {
+          "onset_m": 2115.648596218308,
+          "end_m": 2180.668529435419,
+          "minimum_speed_mps": 32.5,
+          "distance_to_next_curvature_peak_m": 25.007666621965654,
+          "simulated_minus_observed_onset_m": 5.001533324393222,
+          "simulated_minus_observed_minimum_speed_mps": 11.52288245038244
+        },
+        {
+          "onset_m": 3971.217459568171,
+          "end_m": 4006.228192838923,
+          "minimum_speed_mps": 62.761248255293275,
+          "distance_to_next_curvature_peak_m": 65.01993321711097,
+          "simulated_minus_observed_onset_m": 0.0,
+          "simulated_minus_observed_minimum_speed_mps": -7.107411628968727
+        },
+        {
+          "onset_m": 4996.531791068769,
+          "end_m": 5046.5471243127,
+          "minimum_speed_mps": 67.49875910054396,
+          "distance_to_next_curvature_peak_m": 30.00919994635933,
+          "simulated_minus_observed_onset_m": -50.01533324393131,
+          "simulated_minus_observed_minimum_speed_mps": -6.3842271276662785
+        },
+        {
+          "onset_m": 5431.665190290974,
+          "end_m": 5546.700456752017,
+          "minimum_speed_mps": 30.1371756285181,
+          "distance_to_next_curvature_peak_m": 100.03066648786353,
+          "simulated_minus_observed_onset_m": 5.001533324392767,
+          "simulated_minus_observed_minimum_speed_mps": -1.9835526193393633
+        }
+      ],
+      "checks": {
+        "speed_distance": true,
+        "drs": true,
+        "brake_before_curvature": true,
+        "model_brake_onset_and_minimum_speed": false,
+        "lap_time": false,
+        "sector_time": false,
+        "speed_rmse": false,
+        "location_alignment": true
+      },
+      "preparation_passed": true,
+      "xy_alignment": {
+        "method": "XY arclength phase search with fitted rotation, translation and common scale",
+        "selected": {
+          "phase_fraction": 0.0008811115788345371,
+          "rmse_m": 5.200589043070104,
+          "direction": 1,
+          "handedness": 1
+        },
+        "alternatives": [
+          {
+            "phase_fraction": 0.0008811115788345371,
+            "rmse_m": 5.200589043070104,
+            "direction": 1,
+            "handedness": 1
+          },
+          {
+            "phase_fraction": 0.5005413512966609,
+            "rmse_m": 417.1156608191347,
+            "direction": 1,
+            "handedness": -1
+          },
+          {
+            "phase_fraction": 0.8220823833263248,
+            "rmse_m": 397.7081670463278,
+            "direction": -1,
+            "handedness": 1
+          },
+          {
+            "phase_fraction": 0.3613720257130833,
+            "rmse_m": 167.3024447983707,
+            "direction": -1,
+            "handedness": -1
+          }
+        ],
+        "scale_reference_m_per_openf1_m": 0.9988202149016705,
+        "rotation_openf1_to_reference": [
+          [
+            0.9999907702726689,
+            0.004296436834704865
+          ],
+          [
+            -0.004296436834704909,
+            0.9999907702726687
+          ]
+        ],
+        "translation_to_reference_m": [
+          178.01545234724603,
+          -117.32732676760781
+        ],
+        "p95_residual_m": 8.676568041713956,
+        "max_residual_m": 10.382334242181937,
+        "edge_closure_m": 3.3278199274766016,
+        "edge_projection_fractions": [
+          0.001220703125,
+          0.00067138671875
+        ],
+        "source_length_m": 5886.804722810752,
+        "location_length_m": 5824.034287688768,
+        "location_max_gap_s": 0.8600001335144043,
+        "location_native_samples": 321,
+        "location_edge_brackets_s": [
+          [
+            -0.0690000057220459,
+            0.1510000228881836
+          ],
+          [
+            85.23100018501282,
+            85.57100009918213
+          ]
+        ]
+      },
+      "absolute_map_to_xy_timing_line_differences_m": [
+        19.68779561407742,
+        21.68690473187094,
+        18.45318631724101
+      ]
+    },
+    "driver-22-lap-3": {
+      "date_start": "2025-07-05T14:07:07.570000+00:00",
+      "duration_s": 86.652,
+      "sector_times_s": [
+        28.044,
+        34.758,
+        23.85
+      ],
+      "sector_boundary_distances_m": [
+        0.0,
+        1810.4679687499997,
+        4234.574701073234,
+        5818.116628472221
+      ],
+      "sector_distances_m": [
+        1810.4679687499997,
+        2424.106732323234,
+        1583.5419273989874
+      ],
+      "sector_boundary_fractions": [
+        0.0,
+        0.3111776687132878,
+        0.7278256816562287,
+        1.0
+      ],
+      "integrated_distance_m": 5818.116628472221,
+      "native_interior_samples": 325,
+      "max_bracketing_native_gap_s": 0.8400000000000034,
+      "edge_speeds_mps": [
+        73.21180555555556,
+        73.15277777777779
+      ],
+      "edge_brackets_s": [
+        [
+          -0.09,
+          0.07
+        ],
+        [
+          86.511,
+          86.751
+        ]
+      ],
+      "lap_error_s": 5.142847743771043,
+      "sector_errors_s": [
+        1.8109622582379004,
+        2.81066401503454,
+        0.5212214704985954
+      ],
+      "speed_rmse_mps": 11.266883713452037,
+      "drs_precision": 0.9224806201550387,
+      "drs_recall": 0.9407114624505929,
+      "drs_edge_errors_m": [
+        [
+          35.0107332707521,
+          -60.01839989271798
+        ],
+        [
+          -75.02299986589787,
+          -5.001533324392767
+        ]
+      ],
+      "observed_drs_zones_m": [
+        [
+          1320.4047976397949,
+          1870.5734633230427
+        ],
+        [
+          4206.289525814649,
+          4921.508791202872
+        ]
+      ],
+      "braking_events": [
+        {
+          "onset_m": 805.2468652272992,
+          "end_m": 915.2805983639487,
+          "minimum_speed_mps": 27.80760810579786,
+          "distance_to_next_curvature_peak_m": 105.03219981225641,
+          "simulated_minus_observed_onset_m": 10.00306664878633,
+          "simulated_minus_observed_minimum_speed_mps": 0.975904342079911
+        },
+        {
+          "onset_m": 990.3035982298461,
+          "end_m": 1040.3189314737779,
+          "minimum_speed_mps": 24.808936032343006,
+          "distance_to_next_curvature_peak_m": 65.0199332171112,
+          "simulated_minus_observed_onset_m": 20.00613329757266,
+          "simulated_minus_observed_minimum_speed_mps": -2.0774844936775985
+        },
+        {
+          "onset_m": 1870.5734633230427,
+          "end_m": 2015.6179297304445,
+          "minimum_speed_mps": 46.15888084749859,
+          "distance_to_next_curvature_peak_m": 60.01839989271798,
+          "simulated_minus_observed_onset_m": -10.003066648786216,
+          "simulated_minus_observed_minimum_speed_mps": 11.437662732938456
+        },
+        {
+          "onset_m": 2105.6455295695214,
+          "end_m": 2170.6654627866324,
+          "minimum_speed_mps": 31.503862911700853,
+          "distance_to_next_curvature_peak_m": 35.0107332707521,
+          "simulated_minus_observed_onset_m": 15.004599973179666,
+          "simulated_minus_observed_minimum_speed_mps": 12.519019538681587
+        },
+        {
+          "onset_m": 3841.177593133949,
+          "end_m": 3866.1852597559146,
+          "minimum_speed_mps": 74.69765169160391,
+          "distance_to_next_curvature_peak_m": 60.01839989271775,
+          "simulated_minus_observed_onset_m": 130.03986643422195,
+          "simulated_minus_observed_minimum_speed_mps": -19.04381506527936
+        },
+        {
+          "onset_m": 3956.212859594991,
+          "end_m": 3986.2220595413505,
+          "minimum_speed_mps": 61.644266088518584,
+          "distance_to_next_curvature_peak_m": 80.02453319029064,
+          "simulated_minus_observed_onset_m": 15.004599973179666,
+          "simulated_minus_observed_minimum_speed_mps": -5.990429462194037
+        },
+        {
+          "onset_m": 4966.522591122411,
+          "end_m": 5041.545590988308,
+          "minimum_speed_mps": 63.21593941971433,
+          "distance_to_next_curvature_peak_m": 60.01839989271775,
+          "simulated_minus_observed_onset_m": -20.006133297572887,
+          "simulated_minus_observed_minimum_speed_mps": -2.101407446836646
+        },
+        {
+          "onset_m": 5436.666723615367,
+          "end_m": 5541.698923427624,
+          "minimum_speed_mps": 25.902001894378692,
+          "distance_to_next_curvature_peak_m": 95.02913316347076,
+          "simulated_minus_observed_onset_m": 0.0,
+          "simulated_minus_observed_minimum_speed_mps": 2.251621114800045
+        }
+      ],
+      "checks": {
+        "speed_distance": true,
+        "drs": true,
+        "brake_before_curvature": true,
+        "model_brake_onset_and_minimum_speed": false,
+        "lap_time": false,
+        "sector_time": false,
+        "speed_rmse": false,
+        "location_alignment": true
+      },
+      "preparation_passed": true,
+      "xy_alignment": {
+        "method": "XY arclength phase search with fitted rotation, translation and common scale",
+        "selected": {
+          "phase_fraction": 0.0008757452551391057,
+          "rmse_m": 5.329113063534542,
+          "direction": 1,
+          "handedness": 1
+        },
+        "alternatives": [
+          {
+            "phase_fraction": 0.0008757452551391057,
+            "rmse_m": 5.329113063534542,
+            "direction": 1,
+            "handedness": 1
+          },
+          {
+            "phase_fraction": 0.5003104357667914,
+            "rmse_m": 417.04214060935647,
+            "direction": 1,
+            "handedness": -1
+          },
+          {
+            "phase_fraction": 0.82221730667655,
+            "rmse_m": 397.81051906564466,
+            "direction": -1,
+            "handedness": 1
+          },
+          {
+            "phase_fraction": 0.3613355077389553,
+            "rmse_m": 167.06274597193294,
+            "direction": -1,
+            "handedness": -1
+          }
+        ],
+        "scale_reference_m_per_openf1_m": 0.9987014747927748,
+        "rotation_openf1_to_reference": [
+          [
+            0.9999817356346086,
+            0.006043872698669866
+          ],
+          [
+            -0.006043872698669936,
+            0.9999817356346076
+          ]
+        ],
+        "translation_to_reference_m": [
+          179.4505481602518,
+          -117.34144340269273
+        ],
+        "p95_residual_m": 8.898107242221835,
+        "max_residual_m": 10.562276922394185,
+        "edge_closure_m": 1.922873191712854,
+        "edge_projection_fractions": [
+          0.0008544921875,
+          0.001220703125
+        ],
+        "source_length_m": 5886.804722810752,
+        "location_length_m": 5828.5693625980775,
+        "location_max_gap_s": 0.9809999465942383,
+        "location_native_samples": 333,
+        "location_edge_brackets_s": [
+          [
+            -0.006999969482421875,
+            0.2330000400543213
+          ],
+          [
+            86.35199999809265,
+            86.71200013160706
+          ]
+        ]
+      },
+      "absolute_map_to_xy_timing_line_differences_m": [
+        19.656205114403146,
+        19.531092455450985,
+        21.68690473187094
+      ]
+    },
+    "driver-22-lap-9": {
+      "date_start": "2025-07-05T14:38:11.955000+00:00",
+      "duration_s": 86.473,
+      "sector_times_s": [
+        28.109,
+        34.684,
+        23.68
+      ],
+      "sector_boundary_distances_m": [
+        0.0,
+        1810.6511359953709,
+        4239.434241203706,
+        5822.387524884261
+      ],
+      "sector_distances_m": [
+        1810.6511359953709,
+        2428.7831052083347,
+        1582.9532836805556
+      ],
+      "sector_boundary_fractions": [
+        0.0,
+        0.31098086966160216,
+        0.7281264297652497,
+        1.0
+      ],
+      "integrated_distance_m": 5822.387524884261,
+      "native_interior_samples": 328,
+      "max_bracketing_native_gap_s": 1.0,
+      "edge_speeds_mps": [
+        73.91203703703704,
+        73.54513888888889
+      ],
+      "edge_brackets_s": [
+        [
+          -0.148,
+          0.092
+        ],
+        [
+          86.332,
+          86.572
+        ]
+      ],
+      "lap_error_s": 5.321847743771045,
+      "sector_errors_s": [
+        1.745962258237899,
+        2.884664015034545,
+        0.6912214704985971
+      ],
+      "speed_rmse_mps": 11.556775894211757,
+      "drs_precision": 0.9263565891472868,
+      "drs_recall": 0.9409448818897638,
+      "drs_edge_errors_m": [
+        [
+          35.0107332707521,
+          -55.01686656832476
+        ],
+        [
+          -75.02299986589787,
+          -5.001533324392767
+        ]
+      ],
+      "observed_drs_zones_m": [
+        [
+          1320.4047976397949,
+          1875.574996647436
+        ],
+        [
+          4206.289525814649,
+          4921.508791202872
+        ]
+      ],
+      "braking_events": [
+        {
+          "onset_m": 775.2376652809402,
+          "end_m": 920.2821316883419,
+          "minimum_speed_mps": 29.72222222222222,
+          "distance_to_next_curvature_peak_m": 135.0413997586154,
+          "simulated_minus_observed_onset_m": 40.01226659514532,
+          "simulated_minus_observed_minimum_speed_mps": -0.9387097743444492
+        },
+        {
+          "onset_m": 990.3035982298461,
+          "end_m": 1035.3173981493846,
+          "minimum_speed_mps": 23.88888888888889,
+          "distance_to_next_curvature_peak_m": 65.0199332171112,
+          "simulated_minus_observed_onset_m": 20.00613329757266,
+          "simulated_minus_observed_minimum_speed_mps": -1.157437350223482
+        },
+        {
+          "onset_m": 1875.574996647436,
+          "end_m": 1995.6117964328719,
+          "minimum_speed_mps": 46.819409967794655,
+          "distance_to_next_curvature_peak_m": 55.01686656832476,
+          "simulated_minus_observed_onset_m": -15.004599973179438,
+          "simulated_minus_observed_minimum_speed_mps": 10.777133612642388
+        },
+        {
+          "onset_m": 2100.643996245128,
+          "end_m": 2160.662396137846,
+          "minimum_speed_mps": 31.28883129945173,
+          "distance_to_next_curvature_peak_m": 40.01226659514532,
+          "simulated_minus_observed_onset_m": 20.006133297572887,
+          "simulated_minus_observed_minimum_speed_mps": 12.73405115093071
+        },
+        {
+          "onset_m": 3896.1944597022734,
+          "end_m": 3921.202126324239,
+          "minimum_speed_mps": 67.59784320927955,
+          "distance_to_next_curvature_peak_m": 5.001533324393222,
+          "simulated_minus_observed_onset_m": 75.02299986589742,
+          "simulated_minus_observed_minimum_speed_mps": -11.944006582954998
+        },
+        {
+          "onset_m": 3936.2067262974188,
+          "end_m": 4011.229726163316,
+          "minimum_speed_mps": 60.85677521178889,
+          "distance_to_next_curvature_peak_m": 100.03066648786307,
+          "simulated_minus_observed_onset_m": 35.0107332707521,
+          "simulated_minus_observed_minimum_speed_mps": -5.202938585464345
+        },
+        {
+          "onset_m": 4941.514924500444,
+          "end_m": 5026.540991015128,
+          "minimum_speed_mps": 64.82102159446369,
+          "distance_to_next_curvature_peak_m": 85.02606651468432,
+          "simulated_minus_observed_onset_m": 5.001533324393677,
+          "simulated_minus_observed_minimum_speed_mps": -3.7064896215860017
+        },
+        {
+          "onset_m": 5426.663656966582,
+          "end_m": 5526.694323454444,
+          "minimum_speed_mps": 27.323937631820343,
+          "distance_to_next_curvature_peak_m": 105.0321998122563,
+          "simulated_minus_observed_onset_m": 10.003066648785534,
+          "simulated_minus_observed_minimum_speed_mps": 0.8296853773583948
+        }
+      ],
+      "checks": {
+        "speed_distance": true,
+        "drs": true,
+        "brake_before_curvature": true,
+        "model_brake_onset_and_minimum_speed": false,
+        "lap_time": false,
+        "sector_time": false,
+        "speed_rmse": false,
+        "location_alignment": false
+      },
+      "preparation_passed": true,
+      "xy_alignment": {
+        "method": "XY arclength phase search with fitted rotation, translation and common scale",
+        "selected": {
+          "phase_fraction": 0.0019158470914816554,
+          "rmse_m": 5.186884559258935,
+          "direction": 1,
+          "handedness": 1
+        },
+        "alternatives": [
+          {
+            "phase_fraction": 0.0019158470914816554,
+            "rmse_m": 5.186884559258935,
+            "direction": 1,
+            "handedness": 1
+          },
+          {
+            "phase_fraction": 0.501415712943968,
+            "rmse_m": 417.07535995646344,
+            "direction": 1,
+            "handedness": -1
+          },
+          {
+            "phase_fraction": 0.8211062390429535,
+            "rmse_m": 397.75844506390536,
+            "direction": -1,
+            "handedness": 1
+          },
+          {
+            "phase_fraction": 0.36028491790808004,
+            "rmse_m": 167.17324554291278,
+            "direction": -1,
+            "handedness": -1
+          }
+        ],
+        "scale_reference_m_per_openf1_m": 0.9987325646640764,
+        "rotation_openf1_to_reference": [
+          [
+            0.9999867197393816,
+            0.00515367294965897
+          ],
+          [
+            -0.005153672949659057,
+            0.9999867197393815
+          ]
+        ],
+        "translation_to_reference_m": [
+          178.79115232839092,
+          -117.29533984515484
+        ],
+        "p95_residual_m": 8.624592174279762,
+        "max_residual_m": 10.346648613836557,
+        "edge_closure_m": 0.25090657820501183,
+        "edge_projection_fractions": [
+          0.00201416015625,
+          0.001953125
+        ],
+        "source_length_m": 5886.804722810752,
+        "location_length_m": 5827.402648059023,
+        "location_max_gap_s": 1.0399999618530273,
+        "location_native_samples": 335,
+        "location_edge_brackets_s": [
+          [
+            -0.23099994659423828,
+            0.08899998664855957
+          ],
+          [
+            86.30900001525879,
+            86.70900011062622
+          ]
+        ]
+      },
+      "absolute_map_to_xy_timing_line_differences_m": [
+        25.779081516788374,
+        26.357831330780837,
+        25.998529284710845
+      ]
+    },
+    "driver-22-lap-12": {
+      "preparation_passed": false,
+      "error": "Invalid native lap edge, gap or sector clock"
+    }
+  },
+  "geometry_passed": false,
+  "pace_passed": false,
+  "empirical_location_passed": false,
+  "geometry_checks": {
+    "clockwise_forward_numbered_route": true,
+    "official_length": true,
+    "map_registration": true,
+    "sector_and_drs_order": true,
+    "solver_build_and_run": true,
+    "spread_feasible_both_grids": false,
+    "independent_openf1_distance_direction_and_timing": false
+  },
+  "spread_replay": [
+    {
+      "duration_s": 91.7767032414272,
+      "final_energy_j": 246132.19170645784,
+      "terminal_speed_error_mps": -20.469576363524283,
+      "energy_residual_j": 1.0109339684816199e-09,
+      "feasible": false,
+      "reward_sum": -91.7767032414272
+    },
+    {
+      "duration_s": 91.59664608865705,
+      "final_energy_j": 242150.48703863527,
+      "terminal_speed_error_mps": -20.38143082117115,
+      "energy_residual_j": 1.8178093266763007e-08,
+      "feasible": false,
+      "reward_sum": -91.59664608865705
+    }
+  ],
+  "pace_reference": {
+    "coarse": {
+      "duration_s": 91.97491304692562,
+      "final_energy_j": 930287.0316010994,
+      "terminal_speed_error_mps": -23.28192633171753,
+      "energy_residual_j": 2.065664306272197e-09,
+      "feasible": false,
+      "reward_sum": -91.97491304692562
+    },
+    "fine": {
+      "duration_s": 91.79484774377104,
+      "final_energy_j": 927241.7793910496,
+      "terminal_speed_error_mps": -23.20391974749461,
+      "energy_residual_j": 7.623654846300454e-09,
+      "feasible": false,
+      "reward_sum": -91.79484774377104
+    },
+    "refinement_s": 0.1800653031545778
+  },
+  "modeled_brake_events": [
+    {
+      "onset_m": 315.0965994367692,
+      "end_m": 415.12726592463247,
+      "minimum_speed_mps": 42.154273404884144
+    },
+    {
+      "onset_m": 815.2499318760855,
+      "end_m": 915.2805983639487,
+      "minimum_speed_mps": 28.783512447877772
+    },
+    {
+      "onset_m": 1010.3097315274188,
+      "end_m": 1055.3235314469573,
+      "minimum_speed_mps": 22.731451538665407
+    },
+    {
+      "onset_m": 1225.3756644763248,
+      "end_m": 1260.386397747077,
+      "minimum_speed_mps": 41.23308034258883
+    },
+    {
+      "onset_m": 1860.5703966742565,
+      "end_m": 1935.593396540154,
+      "minimum_speed_mps": 57.59654358043704
+    },
+    {
+      "onset_m": 1970.604129810906,
+      "end_m": 2020.6194630548375,
+      "minimum_speed_mps": 39.53250340988215
+    },
+    {
+      "onset_m": 2120.650129542701,
+      "end_m": 2145.6577961646667,
+      "minimum_speed_mps": 44.02288245038244
+    },
+    {
+      "onset_m": 2160.662396137846,
+      "end_m": 2190.6715960842052,
+      "minimum_speed_mps": 41.59681008037858
+    },
+    {
+      "onset_m": 2250.689995976923,
+      "end_m": 2275.6976625988887,
+      "minimum_speed_mps": 47.518480725359034
+    },
+    {
+      "onset_m": 3015.924594609077,
+      "end_m": 3045.9337945554357,
+      "minimum_speed_mps": 72.71736867086238
+    },
+    {
+      "onset_m": 3100.9506611237607,
+      "end_m": 3150.9659943676925,
+      "minimum_speed_mps": 52.838398510882726
+    },
+    {
+      "onset_m": 3656.1208601314015,
+      "end_m": 3736.145393321692,
+      "minimum_speed_mps": 49.61446459955337
+    },
+    {
+      "onset_m": 3971.217459568171,
+      "end_m": 4036.237392785282,
+      "minimum_speed_mps": 55.65383662632455
+    },
+    {
+      "onset_m": 4946.516457824838,
+      "end_m": 5026.540991015128,
+      "minimum_speed_mps": 61.114531972877685
+    },
+    {
+      "onset_m": 5081.557857583453,
+      "end_m": 5101.563990881025,
+      "minimum_speed_mps": 59.166900824490604
+    },
+    {
+      "onset_m": 5436.666723615367,
+      "end_m": 5531.695856778838,
+      "minimum_speed_mps": 28.153623009178737
+    },
+    {
+      "onset_m": 5591.714256671556,
+      "end_m": 5616.721923293521,
+      "minimum_speed_mps": 32.788871002318274
+    },
+    {
+      "onset_m": 5756.76485637653,
+      "end_m": 5791.775589647282,
+      "minimum_speed_mps": 41.04685188374964
+    }
+  ],
+  "curvature_peak_stations_m": [
+    410.1257326002393,
+    450.1379991953846,
+    610.1870655759658,
+    660.2023988198974,
+    910.2790650395556,
+    1055.3235314469573,
+    1260.386397747077,
+    1930.5918632157607,
+    2015.6179297304445,
+    2140.6562628402735,
+    2190.6715960842052,
+    2230.6838626793506,
+    2270.696129274496,
+    2460.754395601436,
+    2555.783528764906,
+    2600.7973286844444,
+    3045.9337945554357,
+    3145.9644610432993,
+    3626.1116601850426,
+    3731.143859997299,
+    3901.1959930266667,
+    4036.237392785282,
+    4206.289525814649,
+    5026.540991015128,
+    5096.562457556633,
+    5151.579324124958,
+    5531.695856778838,
+    5611.7203899691285,
+    5721.754123105778,
+    5791.775589647282
+  ],
+  "modeled_drs_zones_m": [
+    [
+      1285.3940643690428,
+      1930.5918632157607
+    ],
+    [
+      4281.312525680547,
+      4926.510324527265
+    ]
+  ],
+  "raw_cache_responses": [
+    {
+      "url": "https://api.openf1.org/v1/laps?session_key=9943&driver_number=1",
+      "cache_key": "a76dc267788a504d7bb169013c53190a6b58906ec06ded0e6239fd973dce33a4",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:22.364787+00:00",
+      "bytes": 8739,
+      "sha256": "05ec20b8f70d77e47978437acef459ed4437a353439709bb4b4c9ad582110191",
+      "rows": 18
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=9943&driver_number=1&date%3E=2025-07-05T14%3A04%3A46.698999%2B00%3A00&date%3C=2025-07-05T14%3A19%3A46.699000%2B00%3A00",
+      "cache_key": "294f482370591833b0ecb0ac390390aa7dc9433b165e1dc6929ff71b64f9b5e7",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:25.167964+00:00",
+      "bytes": 536932,
+      "sha256": "1ede5a258a1eb5d137a315e7427f6aacfeda05978dde3f50770fed2efaf71902",
+      "rows": 3317
+    },
+    {
+      "url": "https://api.openf1.org/v1/location?session_key=9943&driver_number=1&date%3E=2025-07-05T14%3A04%3A46.698999%2B00%3A00&date%3C=2025-07-05T14%3A19%3A46.699000%2B00%3A00",
+      "cache_key": "f8c3b0fadf97cfa6132d4f8cfb60b73d0524fc823e7f0da43e09bb6681316c43",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:27.272302+00:00",
+      "bytes": 435414,
+      "sha256": "30a957dc6a402befcdb83ff869c38addcbf73a61bd5e501aca89a17cee372a1f",
+      "rows": 3426
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=9943&driver_number=1&date%3E=2025-07-05T14%3A19%3A46.698999%2B00%3A00&date%3C=2025-07-05T14%3A34%3A46.699000%2B00%3A00",
+      "cache_key": "2a4bdfed700b44e7092043fe2611e70147a21970d0d10e9aa6f858aca992c605",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:29.464784+00:00",
+      "bytes": 543907,
+      "sha256": "910dbab4431d02d9d11e9ef141571c7364cf8e16346789d7fbe35020d50eff0d",
+      "rows": 3329
+    },
+    {
+      "url": "https://api.openf1.org/v1/location?session_key=9943&driver_number=1&date%3E=2025-07-05T14%3A19%3A46.698999%2B00%3A00&date%3C=2025-07-05T14%3A34%3A46.699000%2B00%3A00",
+      "cache_key": "583171a629d5872b992bb3af0f49a49b954ee71cb631c2b18f1e29243a9df2f5",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:31.404347+00:00",
+      "bytes": 433020,
+      "sha256": "d271a47036b9a9a5d604e5c651d631b2f16d269e980c15a7b5304d7bfe566e3f",
+      "rows": 3408
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=9943&driver_number=1&date%3E=2025-07-05T14%3A34%3A46.698999%2B00%3A00&date%3C=2025-07-05T14%3A49%3A46.699000%2B00%3A00",
+      "cache_key": "7a94a733a0bb2a6f90b0ebf364409be818ea91881f64f65c3ca7ee7e41099130",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:33.400180+00:00",
+      "bytes": 550671,
+      "sha256": "02132fbaa5a546df5a3caba78bdb4854847727484004f2808eeae5d64317b60d",
+      "rows": 3337
+    },
+    {
+      "url": "https://api.openf1.org/v1/location?session_key=9943&driver_number=1&date%3E=2025-07-05T14%3A34%3A46.698999%2B00%3A00&date%3C=2025-07-05T14%3A49%3A46.699000%2B00%3A00",
+      "cache_key": "fed82af7eac7208a66795f68c4aaf9a00cd11d08490c6eb1e0bce80ab1ffb34f",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:35.466386+00:00",
+      "bytes": 436575,
+      "sha256": "d9db2474c15c092e03a65a47791148adbb73a5750b7e669d915d3eb6ebe21408",
+      "rows": 3433
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=9943&driver_number=1&date%3E=2025-07-05T14%3A49%3A46.698999%2B00%3A00&date%3C=2025-07-05T15%3A04%3A46.699000%2B00%3A00",
+      "cache_key": "6a2a5a997851b50549d155806c180a9f04e26ad9172754b1613a9c47c39ebe9c",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:37.597345+00:00",
+      "bytes": 540520,
+      "sha256": "d105a5501fff0fa41eaf9f10a7bbf0bd604528b71054588c50a6406060acb696",
+      "rows": 3314
+    },
+    {
+      "url": "https://api.openf1.org/v1/location?session_key=9943&driver_number=1&date%3E=2025-07-05T14%3A49%3A46.698999%2B00%3A00&date%3C=2025-07-05T15%3A04%3A46.699000%2B00%3A00",
+      "cache_key": "bb3528c8a4d1d6e0c182b5a41c3cc706d2abd043cc1cd2fee867358229f57fac",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:40.042122+00:00",
+      "bytes": 435788,
+      "sha256": "471b3534be478d4dec2dedb92f36964c1d5dbf5ca58279270778974afe6a5c4f",
+      "rows": 3429
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=9943&driver_number=1&date%3E=2025-07-05T15%3A04%3A46.698999%2B00%3A00&date%3C=2025-07-05T15%3A13%3A49.060000%2B00%3A00",
+      "cache_key": "399852f295c9d14296590cd71778aa25b3e858d04c80fb45bba411fd5e15832c",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:41.589033+00:00",
+      "bytes": 285152,
+      "sha256": "50aac9c89174159f55c0f051df2d51fe9bd7f886c7d518c533fca28e9938a117",
+      "rows": 1731
+    },
+    {
+      "url": "https://api.openf1.org/v1/location?session_key=9943&driver_number=1&date%3E=2025-07-05T15%3A04%3A46.698999%2B00%3A00&date%3C=2025-07-05T15%3A13%3A49.060000%2B00%3A00",
+      "cache_key": "9624771e394cd5392b0511323d9f7493b9fa1d7ae1269a3c83ee89ef22f38571",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:43.682067+00:00",
+      "bytes": 240038,
+      "sha256": "25e18fb99886f29814c0d1a22d596a56a19ce0c6353f67cd2dc9c7b8937bad5d",
+      "rows": 1887
+    },
+    {
+      "url": "https://api.openf1.org/v1/laps?session_key=9943&driver_number=22",
+      "cache_key": "c43c07c55db513a02fae83de8e68200364b1727c462aeb834c8c24a7175b9836",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:45.496870+00:00",
+      "bytes": 6340,
+      "sha256": "29e11928efd5609296e928af0ef412b5c902a046f86f91d44952189c0709981b",
+      "rows": 13
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=9943&driver_number=22&date%3E=2025-07-05T14%3A05%3A09.643999%2B00%3A00&date%3C=2025-07-05T14%3A20%3A09.644000%2B00%3A00",
+      "cache_key": "11f6552f01f73d0d33948f3d9db2fda88121eb179aa018abdd7a9cbab0339f91",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:48.302471+00:00",
+      "bytes": 543239,
+      "sha256": "dd62565b583e24fd59cd7880a499644a4ccd5c4b10c6d0d288ba7c09942a8aa4",
+      "rows": 3315
+    },
+    {
+      "url": "https://api.openf1.org/v1/location?session_key=9943&driver_number=22&date%3E=2025-07-05T14%3A05%3A09.643999%2B00%3A00&date%3C=2025-07-05T14%3A20%3A09.644000%2B00%3A00",
+      "cache_key": "7068d13356f199cfe2ace71cfc40531aec02ff01c0fc5370a25682ae04f35524",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:50.320711+00:00",
+      "bytes": 439765,
+      "sha256": "0c2987f861999e6eca4aad1871962192ae044a1a737907747ea0e6def8e541ed",
+      "rows": 3432
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=9943&driver_number=22&date%3E=2025-07-05T14%3A20%3A09.643999%2B00%3A00&date%3C=2025-07-05T14%3A35%3A09.644000%2B00%3A00",
+      "cache_key": "a4acee79d55af021889d9cc37aef1b770e91dd8b8d52b8b5587c72b240e37a6e",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:52.354214+00:00",
+      "bytes": 546733,
+      "sha256": "451f504e9acb632c175b74ab6548c2a16f11684b21f169b15e2d5861518fac4c",
+      "rows": 3323
+    },
+    {
+      "url": "https://api.openf1.org/v1/location?session_key=9943&driver_number=22&date%3E=2025-07-05T14%3A20%3A09.643999%2B00%3A00&date%3C=2025-07-05T14%3A35%3A09.644000%2B00%3A00",
+      "cache_key": "2976c70409a68e5757546504528314c3f5d72410a47c560a19ea7f29c4fcff81",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:54.376346+00:00",
+      "bytes": 434800,
+      "sha256": "d9a70d963a7b9fff0e8383360fa2c57eae4e042f34f2b7b248266030f30e7943",
+      "rows": 3396
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=9943&driver_number=22&date%3E=2025-07-05T14%3A35%3A09.643999%2B00%3A00&date%3C=2025-07-05T14%3A50%3A09.644000%2B00%3A00",
+      "cache_key": "7df74969bda0e518a48673f579f3a81129c5704485945add9ebad003a4162e29",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:56.561182+00:00",
+      "bytes": 553801,
+      "sha256": "255d8e4c264323f4f09cfd3740371bb56973087193773f5e2bb5eedb9c1a416e",
+      "rows": 3346
+    },
+    {
+      "url": "https://api.openf1.org/v1/location?session_key=9943&driver_number=22&date%3E=2025-07-05T14%3A35%3A09.643999%2B00%3A00&date%3C=2025-07-05T14%3A50%3A09.644000%2B00%3A00",
+      "cache_key": "53bf7f18bb391e971a4eac6415472bb728bac58bb706eb86ae4a55f79d882a17",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:04:58.591558+00:00",
+      "bytes": 440509,
+      "sha256": "0397cc8669ce83b701d106d47461ffc678fe67ab945443de91642a873937010f",
+      "rows": 3440
+    },
+    {
+      "url": "https://api.openf1.org/v1/car_data?session_key=9943&driver_number=22&date%3E=2025-07-05T14%3A50%3A09.643999%2B00%3A00&date%3C=2025-07-05T14%3A53%3A36.167000%2B00%3A00",
+      "cache_key": "4bac79440b4b2d254cc7288375e0ce07e5f9b2840b9abf5a64b55618a8954ed6",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:05:00.278665+00:00",
+      "bytes": 128837,
+      "sha256": "cd72dab94c2e1058885f899496071b4603c8e7261ca781f8484104ac88d919b7",
+      "rows": 778
+    },
+    {
+      "url": "https://api.openf1.org/v1/location?session_key=9943&driver_number=22&date%3E=2025-07-05T14%3A50%3A09.643999%2B00%3A00&date%3C=2025-07-05T14%3A53%3A36.167000%2B00%3A00",
+      "cache_key": "6143a409e9a7f31eb5453f467c6ef2561c32a44381dd4d1de1adfbcdaebd1baf",
+      "cache_hit": true,
+      "attempt": 1,
+      "status": 200,
+      "retrieved_utc": "2026-11-10T22:05:02.407345+00:00",
+      "bytes": 100722,
+      "sha256": "5c2d4b5c96ad1ae3289d9636627e4aa7418b4bcd0b877fe937bc959d9733b3dd",
+      "rows": 786
+    }
+  ]
+}

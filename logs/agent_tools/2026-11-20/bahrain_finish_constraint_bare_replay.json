@@ -1,0 +1,25 @@
+{
+  "input_manifest_sha256": "385eed21ae95888b489814815a34c9e459d3a87b5300cd3c3067ed3aee14bc74",
+  "verifier_sha256": "45642e63e2b15f2be55447fea7ce3a4accd95dd197182b608a94c24c5b4e654b",
+  "hash_entries": 205,
+  "per_grid": [
+    {
+      "cells": 160,
+      "bare_plant_replays": 52,
+      "guarded_replays": 26,
+      "changed_proposals": 733,
+      "independently_checked_preview_transitions": 159,
+      "protected_draw_j": 544744.360361301,
+      "max_guarded_finish_error_mps": 2.842170943040401e-14
+    },
+    {
+      "cells": 320,
+      "bare_plant_replays": 52,
+      "guarded_replays": 26,
+      "changed_proposals": 734,
+      "independently_checked_preview_transitions": 159,
+      "protected_draw_j": 544667.2554225491,
+      "max_guarded_finish_error_mps": 4.263256414560601e-14
+    }
+  ]
+}

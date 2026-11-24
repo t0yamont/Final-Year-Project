@@ -1,0 +1,49 @@
+{
+  "inputs": {
+    "results\\silverstone-model-only-001\\manifest.json": "20867b0fc528eadbd34030e7a29be3d2b3e4fa2e2c9ea2c87099bda7e073d282",
+    "results\\silverstone-model-only-001\\metrics.json": "cc3b8db5a76f59de75b32d3596813f5dac513e4d811b8c9dbabb106d6225e8d3",
+    "results\\silverstone-model-only-001\\model.json": "b920413d99dffd6c803a90e76510ed9c4d37de75d0918b2b26be16c8c448f08f",
+    "configs\\circuit_policy_transfer.json": "9f338b9894a59c60da488ee5d8ae3d263abd574bdd5eeeacd93303f1743fd498",
+    "results\\silverstone-model-only-001\\spread_160.json.gz": "dfccdf015e1c8f788f399526d39f7a0af84ce2f29a04826b82aee96a6fe44638",
+    "results\\silverstone-model-only-001\\spread_320.json.gz": "85e89c3900f1b9868551cc922df963cc74d49841322b5dc942b242bb7794a63c",
+    "results\\silverstone-model-only-001\\selected_160.json.gz": "571b153dbae67cadf745dfce9b040a3cea1bcde6f413f1ca1d2cb94d4703f982",
+    "results\\silverstone-model-only-001\\selected_320.json.gz": "b5718fe57c21321a13f677603ac55bc18f0abb487e7b71cc38fc3c8b246a19af",
+    "results\\silverstone-model-only-001\\ppo_64_seed0_160.json.gz": "31453b4d50188ad576b3a3be1df14567badbf8887b7654a906f0628cb26854ce",
+    "results\\silverstone-model-only-001\\ppo_64_seed0_320.json.gz": "63f543c4ce57f7e634c0991307d56fe1a71b9d996b59068d1a47e7218fc4e66a",
+    "results\\silverstone-model-only-001\\ppo_64_seed1_160.json.gz": "a173622e020cd133cbc97518ac20064f5811201fa6516b4c5a3be50f8e4e22fd",
+    "results\\silverstone-model-only-001\\ppo_64_seed1_320.json.gz": "8eda4b0985cdd107d1b86f0fff3833d96cf7beacc510ba7de82871ea6cd8b539",
+    "results\\silverstone-model-only-001\\ppo_64_seed2_160.json.gz": "76bee68e3fef22118337b8cfb6d712152d5a81745941efd0327c4087a6cf9cb0",
+    "results\\silverstone-model-only-001\\ppo_64_seed2_320.json.gz": "6d140f02c7c93a4b1e18061bcad91f0badd005b4ebbf8b07c190b915c0961fd3",
+    "results\\silverstone-model-only-001\\sac_64_seed0_160.json.gz": "bbeb2ccd301c4d983b453ae592df894349390184d2e289eb1076b13384ed54ed",
+    "results\\silverstone-model-only-001\\sac_64_seed0_320.json.gz": "84bff0330063a23913f74b1f1ab1a77877934f5e1f7acf5a5aecdd116e0844c0",
+    "results\\silverstone-model-only-001\\sac_64_seed1_160.json.gz": "fd61ee7d2fe0d7321bd8646bddc94e2bfdb889764eb18e60728651fb1cfb8925",
+    "results\\silverstone-model-only-001\\sac_64_seed1_320.json.gz": "d07f6c701463904bf1af127f57418e4aa5427a6797b4082033d609241567b424",
+    "results\\silverstone-model-only-001\\sac_64_seed2_160.json.gz": "4319ac3725a1b66812cc36eb798c962e7f353acb2c7123c2d4c9f321fa971223",
+    "results\\silverstone-model-only-001\\sac_64_seed2_320.json.gz": "dac541cf7438fb1835138b5004279eeabb9cbd838b76fdecce385518655716d8",
+    "results\\silverstone-model-only-001\\ppo_256_seed0_160.json.gz": "e7d71772fb60b4661e57aed60c585baff694b51ac643ea1e87c99b6cd748a461",
+    "results\\silverstone-model-only-001\\ppo_256_seed0_320.json.gz": "a6504cd6795a86e2ecd8055f0170b581260caf74adc232f5b4e3fb9c19c940c9",
+    "results\\silverstone-model-only-001\\ppo_256_seed1_160.json.gz": "6fc0480c2d5001aec931649cca47e14080e2708cc8fe8b18c596afc7f555b4fd",
+    "results\\silverstone-model-only-001\\ppo_256_seed1_320.json.gz": "90dbce921804adcd0c74ba8a005379e8e17045d79d452ceb310d0ad1127fd348",
+    "results\\silverstone-model-only-001\\ppo_256_seed2_160.json.gz": "8612f385a074f26081ec37d5166d6aa85ce1caec14dbe2f444b255c4f91c3302",
+    "results\\silverstone-model-only-001\\ppo_256_seed2_320.json.gz": "aca727fb88ab75954540d6d099a26afd74ed26f34effe56f8d7f820bbaeb9bf2",
+    "results\\silverstone-model-only-001\\sac_256_seed0_160.json.gz": "7d311307a6d4db96ef53b7ed57a1cdd4956b60546bbb1c837c7dfeeaab936ba4",
+    "results\\silverstone-model-only-001\\sac_256_seed0_320.json.gz": "d96477102175a7a3458b883fb39f21fd1b2b237232c804f2394b1c08c3d6d4eb",
+    "results\\silverstone-model-only-001\\sac_256_seed1_160.json.gz": "667429d4e4b2ac1d80feb7878ce76cd527b13d58dce8d2beba16969753d7a657",
+    "results\\silverstone-model-only-001\\sac_256_seed1_320.json.gz": "5a5de3ad69cf00bc2278202a3e1719b5789eee14e00a9c509066edc14f163b07",
+    "results\\silverstone-model-only-001\\sac_256_seed2_160.json.gz": "f36ce367eaaff5b42addebb3878fabea4384588b228365a1e3cea48e5374ecdc",
+    "results\\silverstone-model-only-001\\sac_256_seed2_320.json.gz": "121706bbc2cf5a297941d4d7dc5714413c9e16dcdc1ed8696979e34e6ef86437"
+  },
+  "sources": {
+    "scripts\\report_algorithm_width.py": "5736354fc93e5c376327db8c443a88fc9cc7565ac7484a884ce9a53630c92b85",
+    "scripts/verify_bahrain_deployment.py": "021d6666a3a42193eef68398042f493c2d690194d16df48557d0572c31a986db",
+    "scripts/validate_regeneration.py": "3a2a581cbe21bbe4dbf7ef375ffe47e8b17f046c7c47a3bbcad520a8f8e4277f",
+    "scripts/benchmark_circuit_control.py": "3c56020906440d90ee0390a8d09b8f4fdfe6d9bf6751a71211a5766712edbe26",
+    "scripts/train_bahrain_algorithm_width.py": "178cca5f77c24a87ff53051c244cf28bf14684d9843a08ab341c1bc035308fbf"
+  },
+  "outputs": {
+    "results\\silverstone-model-only-report-001\\comparison.json": "12cb377ec57674517a74d01e9a079321ae477b1d21db0db827f03cac0466699c",
+    "results\\silverstone-model-only-report-001\\distance_profiles.csv": "16a37a905404aeb06f16b55bb4a85985593793950ba02192b1cab71aa09ab8da",
+    "figures\\dissertation\\silverstone-controller-comparison-v1\\01_controller_comparison.pdf": "f4df09def88bb009f2100193fd91b3c0cb5afc6fd50eb0562662aa3d0467f0ed",
+    "figures\\dissertation\\silverstone-controller-comparison-v1\\01_controller_comparison.png": "583eff54f11cee97cf611e4cd9bb59a1716966e11630d5fee1b3128fa841dae1"
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "name": "combined",
+  "actions": [
+    1,
+    0.5,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0.75,
+    0.75,
+    0.75,
+    0.25,
+    0.75,
+    0,
+    0,
+    0,
+    0.5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.5,
+    0.5,
+    0.25,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.25,
+    0,
+    0,
+    0.25,
+    0,
+    0,
+    0,
+    1,
+    0.25,
+    0.5,
+    0,
+    0,
+    1
+  ],
+  "search_time_s": 89.83981241733302,
+  "wall_seconds": 68.01481640012935,
+  "transitions": 3675,
+  "layers": [
+    {
+      "block": 1,
+      "expansions": 5,
+      "buckets": 3,
+      "retained": 3
+    },
+    {
+      "block": 2,
+      "expansions": 15,
+      "buckets": 5,
+      "retained": 5
+    },
+    {
+      "block": 3,
+      "expansions": 25,
+      "buckets": 6,
+      "retained": 6
+    },
+    {
+      "block": 4,
+      "expansions": 30,
+      "buckets": 10,
+      "retained": 10
+    },
+    {
+      "block": 5,
+      "expansions": 50,
+      "buckets": 12,
+      "retained": 12
+    },
+    {
+      "block": 6,
+      "expansions": 60,
+      "buckets": 15,
+      "retained": 15
+    },
+    {
+      "block": 7,
+      "expansions": 75,
+      "buckets": 11,
+      "retained": 11
+    },
+    {
+      "block": 8,
+      "expansions": 55,
+      "buckets": 18,
+      "retained": 16
+    },
+    {
+      "block": 9,
+      "expansions": 80,
+      "buckets": 53,
+      "retained": 16
+    },
+    {
+      "block": 10,
+      "expansions": 80,
+      "buckets": 44,
+      "retained": 16
+    },
+    {
+      "block": 11,
+      "expansions": 80,
+      "buckets": 40,
+      "retained": 16
+    },
+    {
+      "block": 12,
+      "expansions": 80,
+      "buckets": 33,
+      "retained": 16
+    },
+    {
+      "block": 13,
+      "expansions": 80,
+      "buckets": 36,
+      "retained": 16
+    },
+    {
+      "block": 14,
+      "expansions": 80,
+      "buckets": 13,
+      "retained": 13
+    },
+    {
+      "block": 15,
+      "expansions": 65,
+      "buckets": 9,
+      "retained": 9
+    },
+    {
+      "block": 16,
+      "expansions": 45,
+      "buckets": 25,
+      "retained": 16
+    },
+    {
+      "block": 17,
+      "expansions": 80,
+      "buckets": 38,
+      "retained": 16
+    },
+    {
+      "block": 18,
+      "expansions": 80,
+      "buckets": 33,
+      "retained": 16
+    },
+    {
+      "block": 19,
+      "expansions": 80,
+      "buckets": 24,
+      "retained": 16
+    },
+    {
+      "block": 20,
+      "expansions": 80,
+      "buckets": 13,
+      "retained": 13
+    },
+    {
+      "block": 21,
+      "expansions": 65,
+      "buckets": 29,
+      "retained": 16
+    },
+    {
+      "block": 22,
+      "expansions": 80,
+      "buckets": 13,
+      "retained": 13
+    },
+    {
+      "block": 23,
+      "expansions": 65,
+      "buckets": 26,
+      "retained": 16
+    },
+    {
+      "block": 24,
+      "expansions": 80,
+      "buckets": 58,
+      "retained": 16
+    },
+    {
+      "block": 25,
+      "expansions": 80,
+      "buckets": 47,
+      "retained": 16
+    },
+    {
+      "block": 26,
+      "expansions": 80,
+      "buckets": 41,
+      "retained": 16
+    },
+    {
+      "block": 27,
+      "expansions": 80,
+      "buckets": 10,
+      "retained": 10
+    },
+    {
+      "block": 28,
+      "expansions": 50,
+      "buckets": 28,
+      "retained": 16
+    },
+    {
+      "block": 29,
+      "expansions": 80,
+      "buckets": 35,
+      "retained": 16
+    },
+    {
+      "block": 30,
+      "expansions": 80,
+      "buckets": 26,
+      "retained": 16
+    },
+    {
+      "block": 31,
+      "expansions": 80,
+      "buckets": 21,
+      "retained": 16
+    },
+    {
+      "block": 32,
+      "expansions": 80,
+      "buckets": 19,
+      "retained": 16
+    },
+    {
+      "block": 33,
+      "expansions": 80,
+      "buckets": 17,
+      "retained": 16
+    },
+    {
+      "block": 34,
+      "expansions": 80,
+      "buckets": 5,
+      "retained": 5
+    },
+    {
+      "block": 35,
+      "expansions": 25,
+      "buckets": 14,
+      "retained": 14
+    },
+    {
+      "block": 36,
+      "expansions": 70,
+      "buckets": 19,
+      "retained": 16
+    },
+    {
+      "block": 37,
+      "expansions": 80,
+      "buckets": 19,
+      "retained": 16
+    },
+    {
+      "block": 38,
+      "expansions": 80,
+      "buckets": 7,
+      "retained": 7
+    },
+    {
+      "block": 39,
+      "expansions": 35,
+      "buckets": 12,
+      "retained": 12
+    },
+    {
+      "block": 40,
+      "expansions": 60,
+      "buckets": 17,
+      "retained": 16
+    },
+    {
+      "block": 41,
+      "expansions": 80,
+      "buckets": 4,
+      "retained": 4
+    },
+    {
+      "block": 42,
+      "expansions": 20,
+      "buckets": 13,
+      "retained": 13
+    },
+    {
+      "block": 43,
+      "expansions": 65,
+      "buckets": 22,
+      "retained": 16
+    },
+    {
+      "block": 44,
+      "expansions": 80,
+      "buckets": 21,
+      "retained": 16
+    },
+    {
+      "block": 45,
+      "expansions": 80,
+      "buckets": 21,
+      "retained": 16
+    },
+    {
+      "block": 46,
+      "expansions": 80,
+      "buckets": 18,
+      "retained": 16
+    },
+    {
+      "block": 47,
+      "expansions": 80,
+      "buckets": 14,
+      "retained": 14
+    },
+    {
+      "block": 48,
+      "expansions": 70,
+      "buckets": 13,
+      "retained": 13
+    },
+    {
+      "block": 49,
+      "expansions": 65,
+      "buckets": 6,
+      "retained": 6
+    },
+    {
+      "block": 50,
+      "expansions": 30,
+      "buckets": 14,
+      "retained": 14
+    },
+    {
+      "block": 51,
+      "expansions": 70,
+      "buckets": 34,
+      "retained": 16
+    },
+    {
+      "block": 52,
+      "expansions": 80,
+      "buckets": 24,
+      "retained": 16
+    },
+    {
+      "block": 53,
+      "expansions": 80,
+      "buckets": 22,
+      "retained": 16
+    },
+    {
+      "block": 54,
+      "expansions": 80,
+      "buckets": 18,
+      "retained": 16
+    },
+    {
+      "block": 55,
+      "expansions": 80,
+      "buckets": 0,
+      "retained": 0
+    }
+  ],
+  "incumbent_time_s": 90.60050626188344,
+  "incumbent_name": "spread",
+  "probes": {
+    "frozen": {
+      "duration_s": 89.86229155587505,
+      "final_energy_j": 100000.0,
+      "terminal_speed_error_mps": -1.0427114332219958,
+      "energy_residual_j": 4.670039466247999e-09,
+      "feasible": false,
+      "recovered_j": 1454357.2855333919,
+      "discharged_j": 2354357.2855333923,
+      "max_work_residual_j": 4.71482053399086e-09,
+      "max_battery_residual_j": 6.984919309616089e-10,
+      "file": "results\\bahrain-scarcity-planners-001\\combined\\search\\frozen_40.json.gz",
+      "wheel_assist_j": 2118921.5569800525
+    },
+    "spread": {
+      "duration_s": 90.60050626188344,
+      "final_energy_j": 131896.3795840236,
+      "terminal_speed_error_mps": 0.0,
+      "energy_residual_j": -1.2313235320249305e-08,
+      "feasible": true,
+      "recovered_j": 1466950.0442935629,
+      "discharged_j": 2335053.6647095424,
+      "max_work_residual_j": 5.471520125865936e-09,
+      "max_battery_residual_j": 1.8917489796876907e-09,
+      "file": "results\\bahrain-scarcity-planners-001\\combined\\search\\spread_40.json.gz",
+      "wheel_assist_j": 2101548.298238588
+    },
+    "zero": {
+      "duration_s": 91.79812374635594,
+      "final_energy_j": 2413075.0449141352,
+      "terminal_speed_error_mps": -1.6049966842299312,
+      "energy_residual_j": 1.5924370710962421e-09,
+      "feasible": false,
+      "recovered_j": 1413075.0449141322,
+      "discharged_j": 0.0,
+      "max_work_residual_j": 7.566995918750763e-09,
+      "max_battery_residual_j": 2.561137080192566e-09,
+      "file": "results\\bahrain-scarcity-planners-001\\combined\\search\\zero_40.json.gz",
+      "wheel_assist_j": 0.0
+    },
+    "full": {
+      "duration_s": 90.14374832537698,
+      "final_energy_j": 100000.0,
+      "terminal_speed_error_mps": -1.0633143596721055,
+      "energy_residual_j": -3.2571336738840273e-09,
+      "feasible": false,
+      "recovered_j": 1455261.5455632394,
+      "discharged_j": 2355261.54556324,
+      "max_work_residual_j": 4.132743924856186e-09,
+      "max_battery_residual_j": 6.984919309616089e-10,
+      "file": "results\\bahrain-scarcity-planners-001\\combined\\search\\full_40.json.gz",
+      "wheel_assist_j": 2119735.3910069154
+    },
+    "finish_only": {
+      "duration_s": 91.63375943220824,
+      "final_energy_j": 1914127.6605477522,
+      "terminal_speed_error_mps": -1.4210854715202004e-14,
+      "energy_residual_j": 3.1535847266894734e-09,
+      "feasible": true,
+      "recovered_j": 1423311.238814821,
+      "discharged_j": 509183.5782670706,
+      "max_work_residual_j": 7.566995918750763e-09,
+      "max_battery_residual_j": 2.561137080192566e-09,
+      "file": "results\\bahrain-scarcity-planners-001\\combined\\search\\finish_only_40.json.gz",
+      "wheel_assist_j": 458265.2204403635
+    }
+  },
+  "reused_archive": false
+}

@@ -20,6 +20,16 @@ CHAPTERS = (
     "06_results", "07_conclusion", "08_professional_practice",
 )
 FIGURES = {
+    "01_silverstone_dp_energy": (
+        "Model-only Silverstone lap with a 56 m/s rolling boundary. The bounded planner and work-matched "
+        "spread share almost identical delivered wheel work. Curves show requested and delivered power, "
+        "energy recovered at the battery and stored energy by distance. Run silverstone-model-only-001."
+    ),
+    "01_controller_comparison": (
+        "Direct training on the central Bahrain vehicle. Finish-speed error and feasible time relative "
+        "to spread use both replay grids. Cumulative wheel assist and stored energy use the primary grid. "
+        "Each method and actor width includes all three final checkpoints. Run bahrain-algorithm-width-001."
+    ),
     "01_bahrain_wheel_assist": (
         "Modelled Bahrain deployment at central grip, with the timing line as the distance origin. "
         "Colour shows mean delivered wheel power in kW per action block. Run bahrain-deployment-zones-001."
