@@ -1,0 +1,25 @@
+{
+  "study": "Bahrain rolling versus free crossing speed",
+  "date": "2026-11-26",
+  "parent_protocol": "configs/bahrain_energy_scarcity.json",
+  "parent_protocol_sha256": "3d57138d106a3a8625d131fe166cb8fd4b42b0423a12b1b7baefdc170816f9ff",
+  "scenarios": [
+    "nominal",
+    "low_charge",
+    "low_recovery",
+    "combined"
+  ],
+  "evaluation_cells_per_block": [
+    160,
+    320
+  ],
+  "planner_search": {
+    "cells_per_block": 40,
+    "width": 16,
+    "settings": "inherit fixed scarcity planner action alphabet, bins and incumbent rules; include archived schedule as a candidate"
+  },
+  "boundary": "Keep measured entry, vehicle, braking, corner speed and battery constraints. At the crossing allow any physically attained speed up to the last cell cap; remove only speed closure and its backward braking requirement. No terminal filter.",
+  "paired_zones": "Reuse seven parent ranges, 20 kJ additional wheel-work targets and parent matching/refinement thresholds. Archive inconclusive pairs. Final-three background in marginal tests remains matched.",
+  "planner_reporting": "Compare free and rolling fastest bounded planner, unchanged-action replay and delivered-work match where feasible. Report both grids, crossing speed, lap time and wheel work in blocks 53-55.",
+  "interpretation": "Single flying lap in the calibrated model. The free crossing does not price next-lap speed. Bounded search and seven tested locations cannot establish global optimality."
+}

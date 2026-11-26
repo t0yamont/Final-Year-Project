@@ -1,0 +1,30 @@
+{
+  "grids": {
+    "40": {
+      "affected_nodes": 17,
+      "first_changed_node_m": 5333.362361938989,
+      "finish_distance_m": 5372.676900984933,
+      "fixed_terminal_mps": 80.65294312169308,
+      "free_terminal_cap_mps": 95.0,
+      "launch_mps": 80.65294312169308
+    },
+    "160": {
+      "affected_nodes": 65,
+      "first_changed_node_m": 5333.362361938972,
+      "finish_distance_m": 5372.676900984912,
+      "fixed_terminal_mps": 80.65294312169308,
+      "free_terminal_cap_mps": 95.0,
+      "launch_mps": 80.65294312169308
+    },
+    "320": {
+      "affected_nodes": 130,
+      "first_changed_node_m": 5333.055217102795,
+      "finish_distance_m": 5372.676900984902,
+      "fixed_terminal_mps": 80.65294312169308,
+      "free_terminal_cap_mps": 95.0,
+      "launch_mps": 80.65294312169308
+    }
+  },
+  "python": "3.12.10",
+  "source_sha256": "d59322104accb640889017cade668a28f62ecf0b93cc0203a509de70a9d5d30f"
+}
